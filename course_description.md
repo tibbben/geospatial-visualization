@@ -1,8 +1,8 @@
 ##SOA <number> - [Urban Cartography (4 credits)](https://github.com/tibbben/urban-cartography)  
 
 **Instructors**:  
-Dr. Timothy Norris – Visiting Librarian Assistant Professor, Richter Library/Center for Computational Science  
-Christopher Mader - Director of Software Engineering - Center for Computational Science
+Dr. Timothy Norris <[tnorris@miami.edu](mailto:tnorris@miami.edu)> – Visiting Librarian Assistant Professor, Richter Library/Center for Computational Science  
+Christopher Mader <[cmader@med.miami.edu](mailto:cmader@med.miami.edu)> – Director of Software Engineering – Center for Computational Science
 
 **Meetings:** TBD
 
