@@ -1,8 +1,8 @@
-##SOA - Urban Cartography
+##ARC581/681-K1 - Geospatial Visualization
 
-This folder contains the *working* syllabus and lectures for a four-unit urban cartography class taught at the School of Architecture at the University of Miami. It has been offerend in the following semesters: fall 2018.
+This folder contains the *working* syllabus and lectures for a one-unit eperimental geospatial visualization class taught at the School of Architecture at the University of Miami. It has been offerend in the following semesters: fall 2019.
 
-Please see the [hosted version](https://tibbben.github.io/urban-cartography/) for more information.
+Please see the [hosted version](https://tibbben.github.io/geospatial-visualization/) for more information.
 
 Questions or comments please contact [Timothy Norris](mailto:tnorris@miami.edu)
 
@@ -11,6 +11,8 @@ Questions or comments please contact [Timothy Norris](mailto:tnorris@miami.edu)
 ### License
 
 All material in this repository is shared under the creative commons attribution license version 4.0 CC-BY. 
+
+![CC-BY 4.0](/common/assets/cc-by4.png)
 
 You are free to:
 
