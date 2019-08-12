@@ -1,249 +1,158 @@
-
-**Methods of Instruction:**  
-Lecture-discussion, demonstration, and practical out-of-class and
-in-class assignments. Students are expected to participate in the
-lectures, discussions, and in-class projects. We expect that students
-have little or no prior GIS/cartography experience/training.
-
-**Evaluation of Student Performance:**  
-Students will be assigned a letter grade (A-F) based on the following:
-
-| Evaluated work | percentage / points |  
-|:--- |:--- |  
-| Homework Assignments | 20% / 50 pts |  
-| Class Participation | 10% / 25 pts |  
-| Midterm Project | 30% / 75 pts |  
-| Final Project | 40% / 100 pts |  
-| Total | 100% / 250 pts |  
-
-**Assignments**  
-There will be several homework assignments throughout the semester. This
-will include reading and writing assignments, online tutorial
-assignments, and cartography/GIS assignments.
-
-**Class Participation**  
-Engagement in class activities through speaking, contributing comments
-to the class web-page, or participating in group projects is an
-important aspect of this class
-
-**Midterm Project**  
-TBD
-
-**Final Project**  
-TBD
-
 **Weekly Schedule:**  
 All topics/dates/assignments are subject to revision/change based on
 instructor decisions and any other *force majeur* that may take place
 during the quarter.
 
-*__Week 1:__ Course Introduction and Overview: What are maps and why are we here?*
+*__Week 1:__ Introduction: What are maps, what is GIS and why are we here?*  
+Introduce the course, the instructors, and the students. 
+Share the students’ research/production contexts and objectives. 
+Introduce maps and GIS as as tools for storytelling. 
 
-> Introduction to the course, the instructors and to each other as
-> students. Share out the students’ research contexts and ideas about
-> the data they will use in the course.
+>  Learning Objectives:
 
--   show some maps
+-   Understand maps as tools for storytelling in the context of urban developemnt and change
+-   Able to describe geographic information systems as assemblages of data, humans, machines and code
+-   Able to design file system structure for a GIS and geospatial data management
 
-> Assigned Reading:
+>  Practical Objectives:
 
--   TBD
+-   Identify and install appropriate software tools on student computers
 
-> Optional Reading:
+>  Assigned Reading:
 
--   TBD
+-   *Making Maps* (Krygier & Wood, 2016) chapter ...
 
-> [slide deck](slides/slides01.html) [...](lessons/lesson01.html)
+>  Optional Reading:
 
-*__Week 2:__ TBD*
+-   Caquard, Sébastien. 2011. "Cartography I."  *Progress in Human Geography* 37 (1):135-144. doi: [10.1177/0309132511423796](https://doi.org/10.1177/0309132511423796).
+-   Vernacularology. [http://vernacularology.ccs.miami.edu/](http://vernacularology.ccs.miami.edu/)
 
-> TDB
+>  Assignments:
 
--   TBD
+-   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting  
+-   Complete installation of software if not yet done.
+-   Choose a subject for the final project and design a files system for the project. 
+-   Be ready to present on choosen subject in the next class meeting.
 
-> Assigned Reading:
+>  [slide deck](https://https://tibbben.github.io/GISMethod)  
 
--   TBD
+*__Week 2:__ Geospatial Data: Sources, structures, and coordinate reference systems*  
+Seek to understand data, data structures, and data coordinate reference systems in terms of 
+geostatial data and geographic information systems. This will include exploring releveant 
+sources of data.
 
-> Optional Reading:
+>  Learning Objectives:
 
--   TBD
+-   Understand basic principals of map projections and coordinate reference systems
+-   Know the difference between vector and raster data structures
+-   Able to identify sources of geospatial data
 
-> Assignment \#1: TBD
+>  Practical Outcomes:
 
-> [slide deck](slides/slides02.html) [...](lessons/lesson02.html)
+-   Find, download, transform and organize geospatial data for use in the GIS.  
 
-*__Week 3:__ TBD* \[ TURN IN ASSIGNMENT \#1 \]
+>  Assigned Reading:
 
-> TBD
+-   *Making Maps* (Krygier & Wood, 2016) chapter ... 
 
--   TBD
+>  Optional Reading:
 
-> Assigned Reading:
+-   Sui, Daniel. 2008. "The wikification of gis and its consequences or angelina Jolie's new tattoo and the future of GIS."  *Computers, Environment and Urban Systems* 32:1-5. DOI: [10.1016/j.compenvurbsys.2007.12.001](https://doi.org/10.1016/j.compenvurbsys.2007.12.001).  
+
+>  Assignments:  
+
+-   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting  
+-   Obtain at least three data layers, transform to correct CRS, and store in correct file system location  
+-   Be ready to present the data gathering/transformation process and solution in the next class meeting  
+
+>  [slide deck](slides/slides02.html)  
+
+*__Week 3:__ GIS: Putting Software and Data Together*  
+Explore how software and data come together in a custom built GIS. This will include 
+putting multiple data layers together in one GIS, symbolizing each data layer appropriately, 
+and exploring relationships between layers in the GIS.
+
+>  Learning Objectives:
+
+-   Understand how data and software come together in geographic information systems
+-   Able to describe how raster and vector layers can be symbolized in any GIS
+-   Able to perform basic overlay analysis using GIS
+
+>  Practical Objectives:
+
+-   Construct a GIS using a combination of the above software and data  
+
+>  Assigned Reading:
+
+-   *Making Maps* (Krygier & Wood, 2016) chapter ...
 	
-> Optional Reading
+>  Optional Reading:
 
-> [slide deck](slides/slides03.html) [...](lessons/lesson03.html)	
+-   Sheppard, Eric. 1995. "GIS and society: towards a research agenda."  Cartography and Geographic Information Systems 22 (1):5-16. doi: [10.1559/152304095782540555](https://doi.org/10.1559/152304095782540555).
+
+>  Assignments:
+
+-   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting
+-   Complete contruction of basic GIS if not complete: all layers correctly loaded in one GIS file.
+-   Be ready to present the GIS in the next class meeting
+
+>  [slide deck](slides/slides03.html)  
 	
-*__Week 4:__ TBD*
+*__Week 4:__ Cartography: The art and science of making a map*  
+Apply basic design principals to making a map. This will include using color theory, the application of figure ground, 
+the correct use of fonts, and other cartographic standards to create 
 
-> TBD
+> Learning Objectives:
 
--   TBD
+-   Understand the basics of digital color theory for printers (subtractive - cmyk) and screens (additive - rgb)
+-   Know cartographic standards for the use of fonts in labeling geographic features on a map
+-   Understand how cartographic elements come together in a map to tell stories
 
-> Assigned Reading:
+>  Practical Objectives:
 
--   TBD
+-   Symbolize several data layers in the GIS and prepare the maps for export to a design application.
 
-> Optional Reading:
+>  Assigned Reading:
 
--   TBD
+-   *Making Maps* (Krygier & Wood, 2016) chapter ...
 
-> [slide deck](slides/slides04.html) [...](lessons/lesson04.html)	
+>  Optional Reading:
+
+-   Sieber, Renee. 2006. "Public Participation Geographic Information Systems: A Literature Review and Framework."  Annals of the Association of American Geographers 96 (3):491-507. doi: [10.1111/j.1467-8306.2006.00702.x](https://doi.org/10.1111/j.1467-8306.2006.00702.x).
+
+>  Assignments:
+
+-   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting
+-   Construct a fully symbolized GIS and export the reulting map for import into a design application
+-   Be ready to present the export/import workflow in the next class meeting
+
+>  [slide deck](slides/slides04.html)  
 	
-*__Week 5:__ TBD*
+*__Week 5:__ GIS, Cartography, and Urban Development*  
+Explore how maps are woven into political and social contexts of urban development and planning. This will include
+an analysis of how maps both represent and construct reality through cartofgraphic performances.
 
-> TBD
+>  Learning Objectives:  
 
--   TBD
+-   Place maps in context of larger storytelling devices
+-   Understand maps as political tools
 
-> Assigned Reading:
+>  Practical Objectives:
 
--    TBD
+-   Create a final publication ready map in a design application of choice
 
-> Optional Reading:
+>  Assigned Reading:
 
--   TBD
+-   *Making Maps* (Krygier & Wood, 2016) chapter ...
 
-> Assignment \#2: TBD
-
-> [slide deck](slides/slides05.html) [...](lessons/lesson05.html)	
-
-*__Week 6:__ TBD* \[ TURN IN ASSIGNMENT \#2 \]
-
-> TBD
+>  Optional Reading:
 
 -   TBD
 
-> Assigned Reading:
+>  Assignments:
 
--   TBD
+-   Complete final project and be prepared to present on final project 
 
-> Midterm Project Assignment: TBD
+> [slide deck](slides/slides05.html)  
 
-> [slide deck](slides/slides06.html) [...](lessons/lesson06.html)	
-
-*__Week 7:__ TBD*
-
-> TBD
-
--   TBD
-
-> This is a hands on lab week 
-
-> Assigned Reading:
-
--   TBD
-	
-> [slide deck](slides/slides07.html) [...](lessons/lesson07.html)	
-
-*__Week 8:__ TBD* \[ TURN IN MIDTERM PROJECT \]
-
-> TBD
-
--   TBD
-
-> Assigned Reading:
-
--   TBD
-
-> Optional Reading:
-
--   TBD
-
-> [slide deck](slides/slides08.html) [...](lessons/lesson08.html)	
-
-*__Week 9:__ TBD*
-
-> TBD
-
--  TBD
-
-> This is a hands on lab week based
-
-> Assignment \#3: TBD
-
-> [slide deck](slides/slides09.html) [...](lessons/lesson09.html)	
-
-*__Week 10:__ TBD*  \[ TURN IN ASSIGNMENT \#3 \]
-
-> TBD
-
--  TBD
-
-> This is a hands on lab week
-
-> [slide deck](slides/slides10.html) [...](lessons/lesson10.html)	
-
-*__Week 11:__ TBD*
-
-> TBD
-
--  TBD
-
-> This is a hands on lab week
-
-> Assigned Reading:
-
--  TBD
-
-> Assignment \#4: 
-
--  TBD
-
-> [slide deck](slides/slides11.html) [...](lessons/lesson11.html)	
-
-*__Week 12:__ TBD* 
-
-> TBD
-
--   TBD
-
-> Assigned Reading:
-
--   TBD
-
-> Assignment \#5: TBD
-
-> [slide deck](slides/slides12.html) [...](lessons/lesson12.html)	
-
-*__Week 13:__ TBD* \[ TURN IN ASSIGNMENT \# 4 \]
-
-> TBD
-
--   TBD
-
-> This is a hands on lab week
-
-> [slide deck](slides/slides13.html) [...](lessons/lesson13.html)	
-
-*__Week 14:__ TBD* \[ TURN IN ASSIGNMENT \#5 \]
-
-> TBD
-
--  TBD
-
-> Assigned Reading:
-
--  TBD
-
-> Optional Reading:
-
--  TBD
-
-> The second meeting this week will be time with instructors to work on final projects. Specificially students will
-> exchange their final projects in pairs and provide immediate feedback.
-
-> [slide deck](slides/slides14.html) [...](lessons/lesson14.html)	
-
-*__Finals Week:__* \[ TURN IN FINAL PROJECT \]
+*__Finals Project:__* \[ TURN IN FINAL PROJECT \]

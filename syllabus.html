@@ -21,7 +21,7 @@
        htmlDescription = markdown.toHTML(mdDescription,'Maruku'),
 	   mdSyllabus = readTextFile("syllabus.md"),
        htmlSyllabus = markdown.toHTML(mdSyllabus,'Maruku'),
-       footer = '<p><strong>Course Resources:</strong></p><ul><li><a href=""><em>Blackboard Site</em></a></li></ul>',
+       footer = '<p><strong>Course Resources:</strong></p><ul><li><a href="syllabus.html"><em>Full Syllabus and Course Schedule</em></a> (this document)</li><li><a href=""><em>Blackboard Site</em></a></li></ul>',
        mdView = document.getElementById('main');
    mdView.innerHTML = htmlDescription + footer + htmlSyllabus;       
   </script>
