@@ -1,4 +1,4 @@
-**Weekly Schedule:**  
+###Weekly Schedule:  
 All topics/dates/assignments are subject to revision/change based on
 instructor decisions and any other *force majeur* that may take place
 during the quarter.
@@ -10,7 +10,7 @@ Introduce maps and GIS as as tools for storytelling.
 
 >  Learning Objectives:
 
--   Understand maps as tools for storytelling in the context of urban developemnt and change
+-   Understand maps as tools for storytelling in the context of urban development and change
 -   Able to describe geographic information systems as assemblages of data, humans, machines and code
 -   Able to design file system structure for a GIS and geospatial data management
 
@@ -20,10 +20,15 @@ Introduce maps and GIS as as tools for storytelling.
 
 >  Assigned Reading:
 
--   *Making Maps* (Krygier & Wood, 2016) chapter ...
+-   *Making Maps* (Krygier & Wood, 2016)
+  -   front matter of book up to page 13
+  -   chapter 2: What's Your Map For? pp. 36 - 41
+  -   chapter 3: Mappable Data. pp. 62 - 69, 
+  -   chapter 4: Map Making Tools. pp. 82 - 92
 
 >  Optional Reading:
 
+-   *Making Maps* (Krygier & Wood, 2016). All of chapters 1, 2, and 3
 -   Caquard, Sébastien. 2011. "Cartography I."  *Progress in Human Geography* 37 (1):135-144. doi: [10.1177/0309132511423796](https://doi.org/10.1177/0309132511423796).
 -   Vernacularology. [http://vernacularology.ccs.miami.edu/](http://vernacularology.ccs.miami.edu/)
 
@@ -36,14 +41,13 @@ Introduce maps and GIS as as tools for storytelling.
 
 >  [slide deck](https://https://tibbben.github.io/GISMethod)  
 
-*__Week 2:__ Geospatial Data: Sources, structures, and coordinate reference systems*  
+*__Week 2:__ Geospatial Data: Sources and structures*  
 Seek to understand data, data structures, and data coordinate reference systems in terms of 
 geostatial data and geographic information systems. This will include exploring releveant 
 sources of data.
 
 >  Learning Objectives:
 
--   Understand basic principals of map projections and coordinate reference systems
 -   Know the difference between vector and raster data structures
 -   Able to identify sources of geospatial data
 
@@ -67,14 +71,14 @@ sources of data.
 
 >  [slide deck](slides/slides02.html)  
 
-*__Week 3:__ GIS: Putting Software and Data Together*  
+*__Week 3:__ Geospatial Data: coordinate reference systems*  
 Explore how software and data come together in a custom built GIS. This will include 
 putting multiple data layers together in one GIS, symbolizing each data layer appropriately, 
 and exploring relationships between layers in the GIS.
 
 >  Learning Objectives:
 
--   Understand how data and software come together in geographic information systems
+-   Understand basic principals of map projections and coordinate reference systems
 -   Able to describe how raster and vector layers can be symbolized in any GIS
 -   Able to perform basic overlay analysis using GIS
 
@@ -88,7 +92,7 @@ and exploring relationships between layers in the GIS.
 	
 >  Optional Reading:
 
--   Sheppard, Eric. 1995. "GIS and society: towards a research agenda."  Cartography and Geographic Information Systems 22 (1):5-16. doi: [10.1559/152304095782540555](https://doi.org/10.1559/152304095782540555).
+-   Sheppard, Eric. 1995. "GIS and society: towards a research agenda."  Cartography and Geographic Information Systems 22 (1):5-16. doi: [10.1559/152304095782540555](https://doi.org/10.1559/152304095782540555). [ NOTE: This article is not available with University of Miami subscriptions, and instead will be provided by the instructors. ]
 
 >  Assignments:
 
@@ -130,7 +134,7 @@ the correct use of fonts, and other cartographic standards to create
 	
 *__Week 5:__ GIS, Cartography, and Urban Development*  
 Explore how maps are woven into political and social contexts of urban development and planning. This will include
-an analysis of how maps both represent and construct reality through cartofgraphic performances.
+an analysis of how maps both represent and construct reality through cartographic performances.
 
 >  Learning Objectives:  
 
@@ -155,4 +159,4 @@ an analysis of how maps both represent and construct reality through cartofgraph
 
 > [slide deck](slides/slides05.html)  
 
-*__Finals Project:__* \[ TURN IN FINAL PROJECT \]
+---

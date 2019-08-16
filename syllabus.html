@@ -19,11 +19,13 @@
   <script type="text/javascript">
    var mdDescription = readTextFile("course_description.md"),
        htmlDescription = markdown.toHTML(mdDescription,'Maruku'),
-	   mdSyllabus = readTextFile("syllabus.md"),
+	     mdSyllabus = readTextFile("syllabus.md"),
        htmlSyllabus = markdown.toHTML(mdSyllabus,'Maruku'),
-       footer = '<p><strong>Course Resources:</strong></p><ul><li><a href="syllabus.html"><em>Full Syllabus and Course Schedule</em></a> (this document)</li><li><a href=""><em>Blackboard Site</em></a></li></ul>',
+       footer = '<p><h3>Course Resources:</h3></p><ul><li><a href="syllabus.html"><em>Full Syllabus and Course Schedule</em></a> (this document)</li><li><a href=""><em>Blackboard Site</em></a></li></ul><hr>',
+       mdBoilerplate = readTextFile("boilerplate.md"),
+       htmlBoilerplate = markdown.toHTML(mdBoilerplate,'Maruku'),
        mdView = document.getElementById('main');
-   mdView.innerHTML = htmlDescription + footer + htmlSyllabus;       
+   mdView.innerHTML = htmlDescription + footer + htmlSyllabus + htmlBoilerplate;       
   </script>
  </body>
  
