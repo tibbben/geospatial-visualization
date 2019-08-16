@@ -10,63 +10,64 @@ Introduce maps and GIS as as tools for storytelling.
 
 >  Learning Objectives:
 
--   Understand maps as tools for storytelling in the context of urban development and change
--   Able to describe geographic information systems as assemblages of data, humans, machines and code
--   Able to design file system structure for a GIS and geospatial data management
+-   Understand maps as tools for storytelling in the context of urban development and change.
+-   Able to describe geographic information systems as assemblages of data, humans, machines and code.
+-   Able to design file system structure for a GIS and geospatial data management.
 
 >  Practical Objectives:
 
--   Identify and install appropriate software tools on student computers
+-   Identify and install appropriate software tools on student computers.
 
 >  Assigned Reading:
 
 -   *Making Maps* (Krygier & Wood, 2016)
-  -   front matter of book up to page 13
-  -   chapter 2: What's Your Map For? pp. 36 - 41
-  -   chapter 3: Mappable Data. pp. 62 - 69, 
-  -   chapter 4: Map Making Tools. pp. 82 - 92
+  -   front matter of book up to page 13.
+  -   chapter 2: What's Your Map For? pp. 36 - 41.
+  -   chapter 3: Mappable Data. pp. 62 - 69.
+  -   chapter 4: Map Making Tools. pp. 82 - 92.
 
 >  Optional Reading:
 
 -   *Making Maps* (Krygier & Wood, 2016). All of chapters 1, 2, and 3
--   Caquard, Sébastien. 2011. "Cartography I."  *Progress in Human Geography* 37 (1):135-144. doi: [10.1177/0309132511423796](https://doi.org/10.1177/0309132511423796).
+-   Sui, Daniel. 2008. "The Wikification of GIS and its Consequences or Angelina Jolie's New Tattoo and the Future of GIS."  *Computers, Environment and Urban Systems* 32:1-5. DOI: [10.1016/j.compenvurbsys.2007.12.001](https://doi.org/10.1016/j.compenvurbsys.2007.12.001).  
 -   Vernacularology. [http://vernacularology.ccs.miami.edu/](http://vernacularology.ccs.miami.edu/)
 
 >  Assignments:
 
 -   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting  
 -   Complete installation of software if not yet done.
--   Choose a subject for the final project and design a files system for the project. 
--   Be ready to present on choosen subject in the next class meeting.
+-   Choose a subject for the final project and design a file system for the project. 
+-   Be ready to present on chosen subject in the next class meeting.
 
 >  [slide deck](https://https://tibbben.github.io/GISMethod)  
 
 *__Week 2:__ Geospatial Data: Sources and structures*  
 Seek to understand data, data structures, and data coordinate reference systems in terms of 
-geostatial data and geographic information systems. This will include exploring releveant 
+geospatial data and geographic information systems. This will include exploring relevant 
 sources of data.
 
 >  Learning Objectives:
 
--   Know the difference between vector and raster data structures
--   Able to identify sources of geospatial data
+-   Know the difference between vector and raster data structures.
+-   Able to identify sources of geospatial data.
 
 >  Practical Outcomes:
 
--   Find, download, transform and organize geospatial data for use in the GIS.  
+-   Find, download, organize geospatial data for use in the GIS.  
 
 >  Assigned Reading:
 
--   *Making Maps* (Krygier & Wood, 2016) chapter ... 
+-   *Making Maps* (Krygier & Wood, 2016)
+  -   chapter 5: Geographic Framework. pp 94-121. 
 
 >  Optional Reading:
 
--   Sui, Daniel. 2008. "The wikification of gis and its consequences or angelina Jolie's new tattoo and the future of GIS."  *Computers, Environment and Urban Systems* 32:1-5. DOI: [10.1016/j.compenvurbsys.2007.12.001](https://doi.org/10.1016/j.compenvurbsys.2007.12.001).  
+-   Caquard, Sébastien. 2011. "Cartography I."  *Progress in Human Geography* 37 (1):135-144. doi: [10.1177/0309132511423796](https://doi.org/10.1177/0309132511423796).  
 
 >  Assignments:  
 
 -   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting  
--   Obtain at least three data layers, transform to correct CRS, and store in correct file system location  
+-   Obtain at least three data layers and store in correct file system location  
 -   Be ready to present the data gathering/transformation process and solution in the next class meeting  
 
 >  [slide deck](slides/slides02.html)  
@@ -84,7 +85,8 @@ and exploring relationships between layers in the GIS.
 
 >  Practical Objectives:
 
--   Construct a GIS using a combination of the above software and data  
+-   Transform all datasets to one chosen coordinate reference system (CRS), if necessary.
+-   Construct a Geographic Information System (GIS) for the final project.
 
 >  Assigned Reading:
 
@@ -97,7 +99,7 @@ and exploring relationships between layers in the GIS.
 >  Assignments:
 
 -   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting
--   Complete contruction of basic GIS if not complete: all layers correctly loaded in one GIS file.
+-   Complete construction of basic GIS if not complete: all layers correctly loaded in one GIS file.
 -   Be ready to present the GIS in the next class meeting
 
 >  [slide deck](slides/slides03.html)  
@@ -108,17 +110,19 @@ the correct use of fonts, and other cartographic standards to create
 
 > Learning Objectives:
 
--   Understand the basics of digital color theory for printers (subtractive - cmyk) and screens (additive - rgb)
--   Know cartographic standards for the use of fonts in labeling geographic features on a map
--   Understand how cartographic elements come together in a map to tell stories
+-   Understand the basics of digital color theory for printers (subtractive - cmyk) and screens (additive - rgb).
+-   Know cartographic standards for the use of fonts in labeling geographic features on a map.
+-   Understand how cartographic elements come together in a map to tell stories.
 
 >  Practical Objectives:
 
 -   Symbolize several data layers in the GIS and prepare the maps for export to a design application.
+-   Create a final publication ready map in a design application of choice to be presented through a medium of choice.
 
 >  Assigned Reading:
 
--   *Making Maps* (Krygier & Wood, 2016) chapter ...
+-   *Making Maps* (Krygier & Wood, 2016)
+  -   
 
 >  Optional Reading:
 
@@ -127,8 +131,9 @@ the correct use of fonts, and other cartographic standards to create
 >  Assignments:
 
 -   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting
--   Construct a fully symbolized GIS and export the reulting map for import into a design application
--   Be ready to present the export/import workflow in the next class meeting
+-   Construct a fully symbolized GIS and export the resulting map for import into a design application
+-   Complete final project
+-   Be ready to present the export/import work flow and final project in the next class meeting
 
 >  [slide deck](slides/slides04.html)  
 	
@@ -143,19 +148,7 @@ an analysis of how maps both represent and construct reality through cartographi
 
 >  Practical Objectives:
 
--   Create a final publication ready map in a design application of choice
-
->  Assigned Reading:
-
--   *Making Maps* (Krygier & Wood, 2016) chapter ...
-
->  Optional Reading:
-
--   TBD
-
->  Assignments:
-
--   Complete final project and be prepared to present on final project 
+-   Use criticism to improve final project.
 
 > [slide deck](slides/slides05.html)  
 

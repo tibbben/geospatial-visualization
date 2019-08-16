@@ -1,6 +1,6 @@
 ## ARC581/681-K1 Special Problems (Geospatial Visualization) 
 ## Fall 2019 - 1 credit  
-[https://github.com/tibbben/geospatial-visualization](https://github.com/tibbben/geospatial-visualization) 
+[https://tibbben.github.com/geospatial-visualization](https://tibbben.github.com/geospatial-visualization) (this page)  
 
 ---
 
@@ -54,7 +54,7 @@ The course will use limited materials from both of the above books. Students are
 
 *Other Readings:*  
 
-Optional reading materials will be available through online access. Please see the course schedule below for the links.
+Optional reading materials will be available through online access or directly from the instructors. Please see the course schedule below for the links.
 
 *Geospatial Data:*  
 
@@ -66,7 +66,7 @@ Students are required to download and transform geospatial data for projects thr
 
 Students are required to bring a functioning computer to every class meeting (Mac, PC, or Linux).  
 
-Throughout the course students will use several software tools that are proprietary (license provided by the University of Miami) and open-source (no license fee). With the exception of ArcGIS, any the software listed will run on any operatig system (Mac, PC, or Linux). Guidance will be provided on how to choose the correct project specific software and how to install and configure a working environment on a computer.  
+Throughout the course students will use several software tools that are proprietary (license provided by the University of Miami) and open-source (no license fee). With the exception of ArcGIS, any the software listed will run on any operating system (Mac, PC, or Linux). Guidance will be provided on how to choose the correct project specific software and how to install and configure a working environment on a computer.  
 
 *Proprietary (get through UMIT)*  
 
@@ -90,7 +90,7 @@ None
 
 ---
 
-###Measureable Learning Outcomes:  
+###Measurable Learning Outcomes:  
 
 1.  Understand maps as tools for storytelling in the context of urban development and change
 2.  Able to describe geographic information systems as assemblages of data, humans, machines and code
@@ -140,9 +140,9 @@ Students will be assigned a letter grade (A-F) based on the following:
 
 ###Assignments:  
 
-With the exeption of the first meeting, there will be assignments for each meeting throughout 
+With the exception of the first meeting, there will be assignments for each meeting throughout 
 the five week course. These assignments will include reading, practical computer work, preparation 
-for in class presenttions, and cartography/GIS assignments. All assignments made will be due in the 
+for in class presentations, and cartography/GIS assignments. All assignments made will be due in the 
 following class meeting as per the weekly schedule.
 
 ---
@@ -157,7 +157,7 @@ be evaluated for each class meeting.
 
 ###Final Project:  
 
-TBD
+As a final project, students will create one map and present it through a medium of their choice (print, projected, online, or another). The map must have at least two layers of data displayed in a simple overlay analysis (this does not include background or base map layers). The map must tell a story: this means the map may use elements such as a title, legend, labels, geographic features, scale, descriptive text, context, locater map, insets, credits, and sources with integrity in a harmonious and holistic presentation to make a spatial argument or to present a spatial vision of past, present or future. The final project will be presented in the final class meeting for a critical review by fellow students and instructors.
 
 ---
 
@@ -169,7 +169,7 @@ TBD
 
 -   Safe Space: All opinions will be respected, diversity of thought encouraged, and positive criticism cultivated. If students feel that the classroom is not a safe space or that there is a policy violation in the classroom, please talk to the instructor or seek help through these UM resources:
   -   If your report concern addresses an immediate threat of harm to a student or the university community, please call the University of Miami Police Department at (305) 284-6666 or dial 911.
-  -   [Title IX Resource Center](https://titleix.miami.edu/index.html) for reporting sexual misconduct, harrassment, or discrimination.
+  -   [Title IX Resource Center](https://titleix.miami.edu/index.html) for reporting sexual misconduct, harassment, or discrimination.
   -   [Dean of Students Office](https://doso.studentaffairs.miami.edu/student-support/report-a-concern/index.html) for general concerns and specific concerns related to student sexual misconduct, drug and alcohol abuse, academic integrity, personal challenges, and UM employee violations.
 
 -   Computer/Web Browsing: Computer use and web browsing are part of class activities and are to be always relevant to course material. Other forms of computer use or web browsing that are not relevant to the class are not permitted.
@@ -179,6 +179,6 @@ TBD
 ###Resources:
 
 -   [Office of Disability Services](https://camnercenter.miami.edu/disability-services/index.html) for requesting disability services in the classroom.
--   [Title IX Resource Center](https://titleix.miami.edu/index.html) for reporting sexual misconduct, harrassment, or discrimination.
+-   [Title IX Resource Center](https://titleix.miami.edu/index.html) for reporting sexual misconduct, harassment, or discrimination.
 
 ---
