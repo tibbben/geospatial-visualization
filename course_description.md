@@ -73,6 +73,7 @@ Throughout the course students will use several software tools that are propriet
 -   the ESRI ArcGIS suite of mapping tools (PC only):
   -   [http://www.esri.com/](http://www.esri.com/arcgis/about-arcgis)
   -   [UMIT ArcGIS](https://www.it.miami.edu/a-z-listing/arcgis/index.html)  
+  -   Get ArcGIS Online account from Abe
 -   the Adobe Creative Clound suite of design tools:
   -   [https://www.adobe.com/](https://www.adobe.com/creativecloud.html)
   -   [UMIT Adobe Creative Cloud](https://www.it.miami.edu/a-z-listing/adobe-creative-cloud/index.html)  
@@ -92,19 +93,21 @@ None
 
 ###Measurable Learning Outcomes:  
 
-1.  Understand maps as tools for storytelling in the context of urban development and change
-2.  Able to describe geographic information systems as assemblages of data, humans, machines and code
-3.  Able to design file system structure for a GIS and geospatial data management
-4.  Understand basic principals of map projections and coordinate reference systems
-5.  Know the difference between vector and raster data structures
-6.  Able to identify sources of geospatial data
-7.  Able to describe how raster and vector layers can be symbolized in any GIS
-8.  Able to perform basic overlay analysis using GIS
-9.  Understand the basics of digital color theory for printers (subtractive - cmyk) and screens (additive - rgb)
-10.  Know cartographic standards for the use of fonts in labeling geographic features on a map
-11.  Understand how cartographic elements come together in a map to tell stories
-12.  Place maps in context of larger storytelling devices
-13.  Understand maps as political tools
+1.  Understand maps as tools for storytelling in the context of urban development and change.
+2.  Able to describe geographic information systems as assemblages of data, humans, machines and code.
+3.  Able to design file system structure for a GIS and geospatial data management.
+4.  Know the difference between vector and raster data structures.
+5.  Able to identify sources of geospatial data.
+6.  Understand basic principals of map projections and coordinate reference systems.
+7.  Able to perform basic overlay analysis using GIS.
+8.  Able to describe classification in terms of geospatial data and cartography.
+9.  Able to perform spatial or categorical joins between two geospatial data sets/layers.
+10.  Understand map symbolization and map symbol abstraction for geospatial data.
+11.  Understand the basics of digital color theory for printers (subtractive - cmyk) and screens (additive - rgb).
+12.  Know cartographic standards for the use of fonts in labeling geographic features on a map.
+13.  Understand how cartographic elements come together in a map to tell stories.
+14.  Place maps in context of larger storytelling devices.
+15.  Understand maps as political tools.
 
 ---
 
@@ -135,7 +138,7 @@ Students will be assigned a letter grade (A-F) based on the following:
 |:--- |:--- |  
 | Assignments | 30% / 30 pts |  
 | Class Participation | 30% / 30 pts |  
-| Final Project | 40% / 40 pts |  
+| Class Project | 40% / 40 pts |  
 | Total | 100% / 100 pts |  
 
 ###Assignments:  
@@ -155,30 +158,8 @@ be evaluated for each class meeting.
 
 ---
 
-###Final Project:  
+###Class Project:  
 
-As a final project, students will create one map and present it through a medium of their choice (print, projected, online, or another). The map must have at least two layers of data displayed in a simple overlay analysis (this does not include background or base map layers). The map must tell a story: this means the map may use elements such as a title, legend, labels, geographic features, scale, descriptive text, context, locater map, insets, credits, and sources with integrity in a harmonious and holistic presentation to make a spatial argument or to present a spatial vision of past, present or future. The final project will be presented in the final class meeting for a critical review by fellow students and instructors.
-
----
-
-###Code of Conduct:  
-
--   Cell Phones: All phones should be on silent mode. Responses to calls or SMS/texts are only appropriate in emergency situations.  
-
--   Talking: Talking is appropriate and encouraged when the student is recognized by the entire class as the speaker or during in class group assignments. Otherwise no talking is allowed between students.  
-
--   Safe Space: All opinions will be respected, diversity of thought encouraged, and positive criticism cultivated. If students feel that the classroom is not a safe space or that there is a policy violation in the classroom, please talk to the instructor or seek help through these UM resources:
-  -   If your report concern addresses an immediate threat of harm to a student or the university community, please call the University of Miami Police Department at (305) 284-6666 or dial 911.
-  -   [Title IX Resource Center](https://titleix.miami.edu/index.html) for reporting sexual misconduct, harassment, or discrimination.
-  -   [Dean of Students Office](https://doso.studentaffairs.miami.edu/student-support/report-a-concern/index.html) for general concerns and specific concerns related to student sexual misconduct, drug and alcohol abuse, academic integrity, personal challenges, and UM employee violations.
-
--   Computer/Web Browsing: Computer use and web browsing are part of class activities and are to be always relevant to course material. Other forms of computer use or web browsing that are not relevant to the class are not permitted.
-
----
-
-###Resources:
-
--   [Office of Disability Services](https://camnercenter.miami.edu/disability-services/index.html) for requesting disability services in the classroom.
--   [Title IX Resource Center](https://titleix.miami.edu/index.html) for reporting sexual misconduct, harassment, or discrimination.
+As a class project, each student will create one map layout and present it through a medium of their choice (print, projected, online, or another). The map image must have at least two layers of data displayed in a simple overlay analysis (this does not include background or base map layers) and there must be an aggregated data set either displayed as geographic information on the map image itself or as a summary table included in the map layout. The map layout must tell a story: this means the layout may use elements such as a title, legend, labels, geographic features, scale, descriptive text, context, locater map, insets, credits, and sources with integrity in a harmonious and holistic presentation to make a spatial argument or to present a spatial vision of past, present or future. The class project will be presented in the final meeting for a critical review by fellow students and instructors.
 
 ---

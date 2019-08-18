@@ -20,8 +20,7 @@
    var mdContent = readTextFile("course_description.md"),
        htmlContent = markdown.toHTML(mdContent,'Maruku'),
        mdView = document.getElementById('main');
-       footer = '<p><strong>Course Resources:</strong></p><ul><li><a href="syllabus.html"><em>Full Syllabus and Course Schedule</em></a></li><li><a href=""><em>Blackboard Site</em></a></li></ul>'
-   mdView.innerHTML = htmlContent + footer;       
+   mdView.innerHTML = htmlContent;      
   </script>
  </body>
  
