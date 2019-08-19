@@ -6,7 +6,7 @@ during the quarter.
 
 All assigned reading is to be completed before the next class meeting. While the optional reading is not required, most of these suggestions are not long reads, and the student's understanding of the material will benefit greatly if time is available.
 
-*__Pre Class Preparation:__*  
+*__Pre-Class Preparation:__*  
 
 Before the first class meeting all students will receive an invite for an ESRI ArcGIS online account (if they do not already have one). All students should accept the invitation and log in to ArcGIS online at least one time before the first class meeting.  
 
@@ -18,13 +18,13 @@ Before the first class meeting all students should also complete the following r
   -   front matter of book up to page 17.
   -   chapter 2: What's Your Map For? pp. 36 - 41.
 
+NOTE: *Making Maps* (Krygier & Wood, 2016) download through page 31 available at: [https://www.researchgate.net/publication/307640488_Making_Maps_A_Visual_Guide_to_Map_Design_for_GIS_3rd_Edition](https://www.researchgate.net/publication/307640488_Making_Maps_A_Visual_Guide_to_Map_Design_for_GIS_3rd_Edition).
+
 >  Optional Reading (can be completed before first class meeting):
 
 -   *Making Maps* (Krygier & Wood, 2016)
   -   chapter 1: How to Make a Map. pp 22 - 31.
   -   chapter 2: What's Your Map For? pp. 34 - 35, 42 - 55.
-
->  NOTE: *Making Maps* (Krygier & Wood, 2016) download through page 31 available at: [https://www.researchgate.net/publication/307640488_Making_Maps_A_Visual_Guide_to_Map_Design_for_GIS_3rd_Edition](https://www.researchgate.net/publication/307640488_Making_Maps_A_Visual_Guide_to_Map_Design_for_GIS_3rd_Edition).
 
 *__Week 1:__ Introduction: What are maps, what is GIS and why are we here?* 
 
@@ -61,7 +61,7 @@ Introduce maps and GIS as as tools for storytelling.
 -   Choose a subject for the final project and design a file system for the project. 
 -   Be ready to present on chosen subject in the next class meeting.
 
->  [slide deck](https://https://tibbben.github.io/GISMethod)  
+>  [slide deck](https://https://tibbben.github.io/GISMethod) | [HW example #1](slides/slides01_sampleHWpresentation01.html) | [HW example #2](slides/slides01_sampleHWpresentation02.html)    
 
 *__Week 2:__ Geospatial Data: Sources and structures*  
 

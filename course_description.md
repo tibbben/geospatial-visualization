@@ -48,7 +48,7 @@ This course introduces the student to Geographic Information Systems (GIS) and h
 *Books:*  
 
 -   Krygier, J. & Wood, D. (2016). *Making Maps: A visual Guide to Map Design for GIS (Third ed.)*. New York: The Guilford Press.  
--   Field, K. (2018). *Cartography. The Definitive Guide to Making Maps*. ESRI Press.  
+-   Field, K. (2018). *Cartography. The Definitive Guide to Making Maps*. Redlands, ESRI Press.  
 
 The course will use limited materials from both of the above books. Students are not required to purchase the two books as they both will be available in the Architecture Library as Course Reserve Material. 
 
@@ -146,7 +146,9 @@ Students will be assigned a letter grade (A-F) based on the following:
 With the exception of the first meeting, there will be assignments for each meeting throughout 
 the five week course. These assignments will include reading, practical computer work, preparation 
 for in class presentations, and cartography/GIS assignments. All assignments made will be due in the 
-following class meeting as per the weekly schedule.
+following class meeting as per the weekly schedule.  
+
+While the class schedule in this syllabus (below) contains guidelines for the assignments, final expectations for the individual assignments will be set during class.
 
 ---
 
