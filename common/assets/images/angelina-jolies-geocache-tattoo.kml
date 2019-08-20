@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document><Style id="highlightPlacemark"><IconStyle><Icon><href>http://googlesightseeing.com/gearth/pinover.png</href></Icon></IconStyle></Style><Style id="normalPlacemark"><IconStyle><Icon><href>http://googlesightseeing.com/gearth/pin.png</href></Icon></IconStyle></Style><StyleMap id="ggssStyleMap"><Pair><key>normal</key><styleUrl>#normalPlacemark</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#highlightPlacemark</styleUrl></Pair></StyleMap>
+<Placemark id="angelina-jolies-geocache-tattoo1"><styleUrl>#ggssStyleMap</styleUrl><name>Angelina Jolie&#8217;s Geocache Tattoo (1 of 4)</name><description><![CDATA[
+<div class="post" style="background: #fff url(http://googlesightseeing.com/cache/txtimg/1437.gif) no-repeat scroll top right;"><a href="http://googlesightseeing.com/2007/05/24/angelina-jolies-geocache-tattoo/"><img src="http://media.googlesightseeing.com/wp-content/images/jgss231.jpg" width="160" height="120" alt="" /></a><br /><p>&ldquo;Everything &#8220;geo&#8221; is so trendy right now that you can&#8217;t turn around twice with someone geocoding this or placemarking that.
+
+In fact it&#8217;s so trendy that even Hollywood actresses are getting in on the act with Angelina Jolie&#8217;s latest tattoo featuring <a href="http://www.dailymail.co.uk/pages/live/articles/showbiz/showbiznews.html?in_article_id=457034">4 latitude and longitude cordinates</a><a href="#fn:1" rel="footnote">1</a>.
+
+<a href="http://www.dailymail.co.uk/pages/live/articles/showbiz/showbiznews.html?in_article_id=457034"></a>
+
+Plugging the coordinates into Google Earth, the &hellip;&rdquo;</p><a href="http://googlesightseeing.com/2007/05/24/angelina-jolies-geocache-tattoo/">Read the full text at GoogleSightseeing.com</a></div>
+]]></description><Snippet maxLines="2">Everything geo is so trendy right now that you cant turn around twice with someone geocoding this or placemarking that.
+
+In fact its so trendy that even Hollywood actresses are getting in on the act with Angelina Jolies latest tattoo featuring 4 latitude and longitude cordinates1.
+
+
+
+Plugging the coordinates into Google Earth, the </Snippet><LookAt><longitude>104.85</longitude> 
+    			<latitude>11.55</latitude> 
+    			<altitude>0</altitude> 
+    			<range>1000</range> 
+    			<tilt>0</tilt>
+    			<heading>0</heading>
+    			</LookAt><Point><coordinates>104.85,11.55</coordinates></Point></Placemark><Placemark id="angelina-jolies-geocache-tattoo2"><styleUrl>#ggssStyleMap</styleUrl><name>Angelina Jolie&#8217;s Geocache Tattoo (2 of 4)</name><description><![CDATA[
+<div class="post" style="background: #fff url(http://googlesightseeing.com/cache/txtimg/1437.gif) no-repeat scroll top right;"><a href="http://googlesightseeing.com/2007/05/24/angelina-jolies-geocache-tattoo/"><img src="http://media.googlesightseeing.com/wp-content/images/jgss230.jpg" width="160" height="120" alt="" /></a><br /><p>&ldquo;Everything geo is so trendy right now that you cant turn around twice with someone geocoding this or placemarking that.
+
+In fact its so trendy that even Hollywood actresses are getting in on the act with Angelina Jolies latest tattoo featuring 4 latitude and longitude cordinates1.
+
+
+
+Plugging the coordinates into Google Earth, the &rdquo;</p><a href="http://googlesightseeing.com/2007/05/24/angelina-jolies-geocache-tattoo/">Read the full text at GoogleSightseeing.com</a></div>
+]]></description><Snippet maxLines="2">Everything geo is so trendy right now that you cant turn around twice with someone geocoding this or placemarking that.
+
+In fact its so trendy that even Hollywood actresses are getting in on the act with Angelina Jolies latest tattoo featuring 4 latitude and longitude cordinates1.
+
+
+
+Plugging the coordinates into Google Earth, the </Snippet><LookAt><longitude>38.75</longitude> 
+    			<latitude>9.033333</latitude> 
+    			<altitude>0</altitude> 
+    			<range>1000</range> 
+    			<tilt>0</tilt>
+    			<heading>0</heading>
+    			</LookAt><Point><coordinates>38.75,9.033333</coordinates></Point></Placemark><Placemark id="angelina-jolies-geocache-tattoo3"><styleUrl>#ggssStyleMap</styleUrl><name>Angelina Jolie&#8217;s Geocache Tattoo (3 of 4)</name><description><![CDATA[
+<div class="post" style="background: #fff url(http://googlesightseeing.com/cache/txtimg/1437.gif) no-repeat scroll top right;"><a href="http://googlesightseeing.com/2007/05/24/angelina-jolies-geocache-tattoo/"><img src="http://media.googlesightseeing.com/wp-content/images/jgss229.jpg" width="160" height="120" alt="" /></a><br /><p>&ldquo;Everything geo is so trendy right now that you cant turn around twice with someone geocoding this or placemarking that.
+
+In fact its so trendy that even Hollywood actresses are getting in on the act with Angelina Jolies latest tattoo featuring 4 latitude and longitude cordinates1.
+
+
+
+Plugging the coordinates into Google Earth, the &rdquo;</p><a href="http://googlesightseeing.com/2007/05/24/angelina-jolies-geocache-tattoo/">Read the full text at GoogleSightseeing.com</a></div>
+]]></description><Snippet maxLines="2">Everything geo is so trendy right now that you cant turn around twice with someone geocoding this or placemarking that.
+
+In fact its so trendy that even Hollywood actresses are getting in on the act with Angelina Jolies latest tattoo featuring 4 latitude and longitude cordinates1.
+
+
+
+Plugging the coordinates into Google Earth, the </Snippet><LookAt><longitude>14.527778</longitude> 
+    			<latitude>-22.673889</latitude> 
+    			<altitude>0</altitude> 
+    			<range>1000</range> 
+    			<tilt>0</tilt>
+    			<heading>0</heading>
+    			</LookAt><Point><coordinates>14.527778,-22.673889</coordinates></Point></Placemark><Placemark id="angelina-jolies-geocache-tattoo4"><styleUrl>#ggssStyleMap</styleUrl><name>Angelina Jolie&#8217;s Geocache Tattoo (4 of 4)</name><description><![CDATA[
+<div class="post" style="background: #fff url(http://googlesightseeing.com/cache/txtimg/1437.gif) no-repeat scroll top right;"><a href="http://googlesightseeing.com/2007/05/24/angelina-jolies-geocache-tattoo/"><img src="http://media.googlesightseeing.com/wp-content/images/jgss227.jpg" width="160" height="120" alt="" /></a><br /><p>&ldquo;Everything geo is so trendy right now that you cant turn around twice with someone geocoding this or placemarking that.
+
+In fact its so trendy that even Hollywood actresses are getting in on the act with Angelina Jolies latest tattoo featuring 4 latitude and longitude cordinates1.
+
+
+
+Plugging the coordinates into Google Earth, the &rdquo;</p><a href="http://googlesightseeing.com/2007/05/24/angelina-jolies-geocache-tattoo/">Read the full text at GoogleSightseeing.com</a></div>
+]]></description><Snippet maxLines="2">Everything geo is so trendy right now that you cant turn around twice with someone geocoding this or placemarking that.
+
+In fact its so trendy that even Hollywood actresses are getting in on the act with Angelina Jolies latest tattoo featuring 4 latitude and longitude cordinates1.
+
+
+
+Plugging the coordinates into Google Earth, the </Snippet><LookAt><longitude>106.694444</longitude> 
+    			<latitude>10.766667</latitude> 
+    			<altitude>0</altitude> 
+    			<range>1000</range> 
+    			<tilt>0</tilt>
+    			<heading>0</heading>
+    			</LookAt><Point><coordinates>106.694444,10.766667</coordinates></Point></Placemark></Document></kml>
+
+

@@ -1,0 +1,622 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../common/css/reveal.css">
+        <link rel="stylesheet" href="../common/css/white.css">
+        <link rel="stylesheet" href="../common/css/overrides.css">
+	    <script src="../common/java/print.js"></script>
+        <title>Geospatial Visualization</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+				
+				<!-- **************************************************************************** 
+				                                    Slides Begin Here                               
+				     ****************************************************************************  -->
+					 
+				<section>
+
+					<section>
+						<h3>Geospatial Visualization</h3>
+						<table style="width: 90%; font-size: 70%;">
+							<tr style="vertical-align:top">
+								<td style="vertical-align: top; text-align: left; width: 35%;">
+									<h4 class="fragment" data-fragment-index="1" style="margin-top: 7px;">Tool of Statecraft</h4>
+									<span style="font-size: 80%; position: relative; top: -23px;" class="fragment" data-fragment-index="1">as far back as Rome</span><br>
+									<ul>
+										<li style="margin-top: 13px;" class="fragment" data-fragment-index="1">Divide conquered land
+										<li style="margin-top: 13px;" class="fragment" data-fragment-index="1">Reclaim appropriated state lands
+										<li style="margin-top: 13px;" class="fragment" data-fragment-index="1">State revenue (taxes)<br>
+										<span style="font-size: 80%;" class="fragment" data-fragment-index="1">late 16th and 17th C<br><i>rise of capitalist social relations<i></span>
+										<li style="margin-top: 13px;" class="fragment" data-fragment-index="1">Survey (governance)
+									</ul>
+								</td>
+								<td style="vertical-align:top;"><img src="../common/assets/images/chuquimayo.jpg" style="max-width: 340px; margin-top: -10px !important;"></td>
+								<td style="vertical-align:top;">
+									<h4 class="fragment" data-fragment-index="2" style="margin-top: 7px;">Estate map</h4>
+									<span style="font-size: 80%; position: relative; top: -23px;" class="fragment" data-fragment-index="2">late 13th or 14th C onwards</span><br>
+									<ul>
+										<li style="margin-top: 13px;" class="fragment" data-fragment-index="2">Profit<br>
+										<span style="font-size: 80%;" class="fragment" data-fragment-index="2">precision, permanence, governance and management of natural resources</span><br>
+										<li style="margin-top: 13px;" class="fragment" data-fragment-index="2">describe/plot boundaries
+										<li style="margin-top: 13px;" class="fragment" data-fragment-index="2">resolve/avoid disputes<br>
+										<span style="font-size: 80%;" class="fragment" data-fragment-index="2">Tenants, landlords, and between landlords</span><br>
+										<li style="margin-top: 13px;" class="fragment" data-fragment-index="2">Legal security
+									</ul>
+								</td>
+							</tr>
+						</table>
+						<p class="template-citation">
+							Palomino, Diego (1549). Traça de la conquista del capitán Diego Palomino: [de las <i>Relaciónes Geográficas</i>, Provincia de Chuquimayo, Perú]<br>
+							<span class="fragment" data-fragment-index="1">Kain, R. J. P., & Baigent, E. (1992). <i>The Cadastral Map in the Service of the State: A History of Property Mapping.</i> Chicago: University of Chicago Press.</span>
+						</p>
+						<p class="template-citation fragment fade-out" data-fragment-index="0" style="position: absolute; top: 100px; max-width: 100% !important; text-align: center !important; background-color: rgba(255,255,255,0.9); padding: 42px; font-size: 100% !important;">
+							Timothy Norris<br><a href="mailto:tnorris@miami.edu">tnorris@miami.edu</a><br>02/16/2018<br><br>You can follow along at:<br><a href="http://bit.ly/2xC0zsE">http://bit.ly/2xC0zsE</a><br><a href="https://tibbben.github.io/GISMethod/">https://tibbben.github.io/GISMethod/</a>
+						</p>
+					</section>
+
+					<section data-background-image="../common/assets/images/lasFlores-01-smithsonianSketch.jpg">
+						<div style="background-color: rgba(255,255,255,0.7); width: 50%; padding: 23px;" class="center fragment fade-out" data-fragment-index="2">
+							<h3>Geospatial Visualization</h3>
+							<ul>
+								<li>what is a map?
+								<li>what is GIS?
+								<li>what is cartography?
+								<li>what is geospatial analysis?
+								<li class="fragment" style="margin-top: 23px;" data-fragment-index="1">what questions can I ask with GIS?
+							<ul>
+						</div>
+					</section>
+				</section>
+				
+				<section>
+					<section data-background-image="../common/assets/images/names.png">
+						<div style="position: absolute; top: 400px; left: 80px; width: 200px;"><p class="template-citation">National Geographic made the map of the US based on translations of place names from their origins in Native American languages.</p></div>
+					</section>
+					<section data-background-image="../common/assets/images/Hereford_Mappa_Mundi.jpg">
+						<div style="position: absolute; top: -300px; right: 0px; width: 280px; background-color: rgba(150,150,150,0.6); border-radius: 10px;"><p class="template-citation">Hereford Mappa Mundi, Richard of Haldingham and Lafford, c 1300</p></div>
+					</section>
+					<section data-background-image="../common/assets/images/mercator.gif">
+						<div style="position: absolute; top: -200px; right: 80px; width: 280px; background-color: rgba(50,50,50,0.9); border-radius: 10px;"><p class="template-citation">Gerhard Mercator, 1569</p></div>
+						<div style="position: absolute; top: -140px; right: 80px; width: 200px;"><img src="../common/assets/images/mercatorportrait.jpg" style="max-width: 200px;"></div>
+					</section>
+					<section data-background-image="../common/assets/images/napoleon.png">
+						<div style="position: absolute; top: 650px; left: 200px; width: 800px;"><p class="template-citation">Napoleon's march on Moscow March 1812, Charles Joseph Minard</p></div>
+					</section>
+					<section data-background-image="../common/assets/images/snow.jpg">
+						<div style="position: absolute; top: 400px; left: 100px; width: 530px; background-color: rgba(50,50,50,0.9); border-radius: 10px;"><p class="template-citation">When a large outbreak occurred in London in 1854, Dr. John  Snow created a map that settled a debate between two schools of thought: that cholera is transmitted not through the inhalation of infected air, but through the ingestion of contaminated water or food.</p></div>
+					</section>
+					<section data-background-image="../common/assets/images/snow_close.jpg"></section>
+					<section data-background-image="../common/assets/images/twitter.jpg"></section>
+					<section data-background-image="../common/assets/images/internet.jpg"></section>
+					<section data-background-image="../common/assets/images/transit.jpg"></section>
+					<section data-background-image="../common/assets/images/miami.png"></section>
+				</section>
+				
+				<section>
+					<section>
+						<h3>Sebastien Caquard: Cartography I</h3>
+						<ul>
+							<li class="fragment">What stories will you tell with maps?
+							<li class="fragment">tension between fiction and reality, map and territory
+							<li class="fragment">the critical turn in cartography - maps and power
+							<li class="fragment">story (imaginative) vs. grid (lack of imagination) (Macfarlane)
+							<li class="fragment">maps as navigational tools for <i>data</i> as well as the world
+							<li class="fragment">maps are more interesting than reality?
+						</ul>
+					</section>
+					<section>
+						<h3>Sebastien Caquard: Cartography I</h3>
+						<p style="width: 77%;" class="center">"Grid maps 'encourage the elimination of wonder from our relationship with the world. And once wonder has been chased from our thinking about the land, then we are lost' (Macfarlane, 2007: 145)" (Caquard 2011:136)</p>
+					</section>
+					<section>
+						<h3>Sebastien Caquard: Cartography I</h3>
+						<h4>relevant tools</h4>
+						<ul style="width: 70%;">
+							<li class="fragment">ESRI storymap - we have this here on campus - <a href="https://storymaps.arcgis.com/">https://storymaps.arcgis.com/</a><br>
+								<ul style="font-size: 80%;">
+									<li>example: <a href="https://nation.maps.arcgis.com/apps/Cascade/index.html?appid=6984ffb035ed40b8b11e23f41236aac2">Taxi Cab Terrain</a>
+									<li>for an account contact Abraham Parrish (GIS Librarian): <a href="mailto:aparrish@miami.edu">aparrish@miami.edu</a>
+								</ul>
+							<li class="fragment" style="margin-top: 13px;">[ storymap.js - <a href-"https://storymap.knightlab.com/">https://storymap.knightlab.com/</a> ]
+								<ul style="font-size: 80%;">
+									<li>example: <a href="https://www.minnpost.com/stroll/2014/06/hockey-hip-hop-and-other-green-line-highlights">Hockey, hip-hop, and other Green Line highlights</a>
+								</ul>
+						</ul>
+					</section>
+					<section>
+						<h3>Sebastien Caquard: Cartography I</h3>
+						<h4>relevant data</h4>
+						<ul>
+							<li class="fragment" data-fragment-index="1">OSM - Open Street Map - <a href="https://www.openstreetmap.org/">https://www.openstreetmap.org/</a>
+							<li class="fragment" data-fragment-index="2">Google as a base map (grid) upon which to tell stories
+							<li class="fragment" data-fragment-index="3" style="margin-top: 23px;">[ how open are Google and OSM? ]
+							<li class="fragment" data-fragment-index="3">[ how accurate are OSM and Google? ]
+						</ul>
+					</section>					
+					<section>
+						<h3>Sebastien Caquard: Cartography I</h3>
+						<h4>relevant data - gazetteers</h4>
+						<ul style="width: 50%;">
+							<li class="fragment">Geonames - <a href="http://www.geonames.org/">http://www.geonames.org/</a>
+							<li class="fragment" style="margin-top: 23px;">[ National Geospatial-Intelligence Agency - <a href="https://www.nga.mil/ProductsServices/GeographicNames/Pages/default.aspx">https://www.nga.mil/ProductsServices/GeographicNames/Pages/default.aspx</a> ]
+						</ul>
+					</section>
+					<section>
+						<h3>Sebastien Caquard: Cartography I</h3>
+						<p style="width: 70%;" class="center">"In indigenous culture, maps are often 'at the juncture of performance and artifact, the visual and the aural, of the static and dynamic' (Woodward and Lewis, 1998: 10)"<br>(Caquard 2011:139)</p>
+						<p class="template-citation">Woodward, D., & Lewis, G. M. (Eds.). (1998). <i>Cartography in the Traditional African, American, Arctic, Australian, <br>and Pacific Societies</i> (Vol. 2). Chicago: University of Chicago Press.</p>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h3>Daniel Sui: Angelina Jolie's New Tatoo</h3>
+						<ul style="width: 65%;">
+            	<li class="fragment">Web 2.0 and the geospatial turn - "easy maps"
+							<li class="fragment">Definition of GIS - 'S' for system
+							<li class="fragment">"crowdsourcing" as a data collection method; "citizens as sensors" (Goodchild)
+							<li class="fragment">new assemblages of data, people, machines and code revisit old questions about maps
+							<li class="fragment">"naive" geography and vernacular development
+							<li class="fragment">public participation in GIS - P/PGIS
+						</ul>
+					</section>
+					<section>
+						<h3>Daniel Sui: Angelina Jolie's New Tatoo</h3>
+						<h4>definition of GIS</h4>
+						<ul style="width: 55%;">
+							<li class="fragment">Geographic Information System
+								<ul style="font-size: 80%;">
+									<li>collections of tools, data, hardware, and people
+								</ul>
+							<li style="margin-top: 23px;" class="fragment">Geographic Information Science
+								<ul style="font-size: 80%;">
+									<li>systematic inquiry into research questions about the relationship between GIS and socio-natural systems
+								</ul>
+							<li style="margin-top: 23px;" class="fragment">Geographic Information conStruction
+								<ul style="font-size: 80%;">
+									<li>tool building for storage, collection or analysis of geospatial data
+								</ul>
+						</ul>
+						<p class="template-citation">Wright, D. J., Goodchild, M. F., & Proctor, J. D. (1997). Demystifying the Persistent Ambiguity of GIS as ‘Tool’ versus ‘Science’. <br><i>Annals of the Association of American Geographers</i>, 87(2), 346-362. doi:<a href ="http://doi.org/10.1111/0004-5608.872057">10.1111/0004-5608.872057</a></p>
+					</section>
+					<section>
+						<h3>Daniel Sui: Angelina Jolie's New Tatoo</h3>
+						<h4>relevant tools</h4>
+						<ul style="width: 60%;">
+							<li class="fragment">"grid computing" - now called High Performance Computing (HPC) - available on campus
+								<ul style="font-size: 80%;">
+									<li>Pegasus - <a href="http://ccs.miami.edu/pegasus">http://ccs.miami.edu/pegasus</a>
+									<li>interested? create an account at <a href="http://portal.ccs.miami.edu/accounts/new_account/">http://portal.ccs.miami.edu/accounts/new_account/</a>
+								</ul>							
+							<li class="fragment" style="margin-top: 23px;">open source software
+								<ul style="font-size: 80%;">
+									<li>GRASS - <a href="https://grass.osgeo.org/">https://grass.osgeo.org/</a>
+									<li>QGIS - <a href="http://www.qgis.org/en/site/">http://www.qgis.org/en/site/</a>
+									<li>MapServer - <a href="http://mapserver.org/">http://mapserver.org/</a>
+								</ul>
+						</ul>
+					</section>
+					<section>
+						<h3>Daniel Sui: Angelina Jolie's New Tatoo</h3>
+						<h4>relevant data</h4>
+						<ul style="width: 55%;">
+							<li>Volunteered Geographic Information (VGI) for disaster support
+								<ul style="font-size: 80%;">
+                  <li>The National Map Corps (USGS) - <a href="https://nationalmap.gov/TheNationalMapCorps/">https://nationalmap.gov/TheNationalMapCorps/</a>
+									<li>URISA GIS Corps - <a href="http://www.giscorps.org/">http://www.giscorps.org/</a>
+									<li>OpenStreetMap Task Manager - <a href="http://tasks.hotosm.org/">http://tasks.hotosm.org/</a>
+								</ul>	
+							<li class="fragment" style="margin-top:23px;">Mapathons					
+						</ul>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h3>Eric Sheppard: GIS and Society</h3>
+						<ul style="width: 53%;">
+							<li class="fragment">tool or social process?
+							<li class="fragment">GIS priviledges "instrumental logic over other ways of knowing" (abstract)
+							<li class="fragment">"techies" vs "intellectuals"
+							<li class="fragment">mapping technology and expansion of empire
+							<li class="fragment">critical cartography/GIS
+						</ul>
+					</section>
+					<section>
+						<h3>Eric Sheppard: GIS and Society</h3>
+						<p style="width: 70%;" class="center">"... cartographers, and surveyors not only solved problems but made possible the transformation of space from a complex cultural category into a precise, universal, and objective metric which was highly functional to the development of trade, the cataloging of resources, and the definition of property ownership. Harvey (1990) argues that this regulation of spatial metrics was central to the success of capitalism as an economic and political system ..." (Sheppard 1995: 6)</p>
+						<p class="template-citation">Harvey, D (1990). Between Space and Time: Reflections on the Geographic Imagination. <i>Annals of the Association of American Geographers</i> 80: 418-35.</p>
+					</section>
+					<section>
+						<h3>Eric Sheppard: GIS and Society</h3>
+						<h4>thoughts on tools</h4>
+						<ul style="width: 50%;">
+							<li class="fragment">[ who invented GIS and why? ]
+							<li class="fragment">[ who pays for development and for what? ]
+							<li class="fragment">GIS is limited by what machines can do					
+							<li class="fragment">very rapidly moving field (Moore's law)
+							<li class="fragment">[ becomes more accessible to everyone ]
+							<li class="fragment">which approach/solution is the best?
+						</ul>
+					</section>
+					<section>
+						<h3>Eric Sheppard: GIS and Society</h3>
+						<h4>thoughts on data</h4>
+						<ul style="width: 57%;">
+							<li class="fragment">some data and relationships are privileged
+							<li class="fragment">[ points, lines, polygons (vector) and grids (raster) ]
+							<li class="fragment">boolean logic, instrumental logic
+							<li class="fragment">how do these constraints infuence questions we can ask? stories we tell?
+							<li class="fragment">things are easy, relationships are hard
+							<li class="fragment">analysis is driven by availability of data
+						</ul>
+					</section>
+					<section>
+            <div style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;">
+              <h3>Eric Sheppard: GIS and Society</h3>
+              <h4>thoughts on GIS and conflict resolution</h4>
+              <ul style="width: 55%;">
+                <li class="fragment" style="margin-top: 13px;">access to technology
+                <li class="fragment">access to information
+                <li class="fragment">defining information
+                <li class="fragment" style="margin-top: 13px;">GIS as a political process
+                <li class="fragment" style="margin-top: 13px;">who wins and who loses?
+                <li class="fragment">what knowledge is priviledged?
+                <li class="fragment">how is GIS used? by whom? how successfully?
+              </ul>
+            </div>
+            <div class="fragment" style="font-size: 1.3em; position: relative; top: 130px; margin-right: auto; margin-left: auto; width: 420px; background-color: rgba(255,255,255,0.9); border: 2px solid #555; padding: 50px; border-radius: 10px; display: block;">
+              tension between empowerment and surveillance
+            </div>
+					</section>
+					<section>
+						<h3>Eric Sheppard: GIS and Society</h3>
+						<p style="width: 70%;" class="center">"... the popularity of GIS ... requires us to assess the implications of popularizing these particular representations [points, lines, polygons and rasters] and implicitly marginalizing others ..." (Sheppard 1995: 9)</p>
+						<p style="width: 70%;" class="center">"GIS is not a neutal tool to achieve a predefined end but can influence the ends themselves." (Sheppard 1995: 14)</p>
+					</section>
+					<section>
+						<h3>Eric Sheppard: GIS and Society</h3>
+						<h4>further reading</h4>
+						<ul style="width: 17%;">
+							<li>Penrose
+							<li>Hacking
+							<li>Godel
+							<li>Pickles
+							<li>Rundstrom							
+						</ul>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h3>Renee Sieber: Public Participation GIS</h3>
+						<h4>review piece on P/PGIS</h4>
+						<ul style="width: 53%;">
+							<li>more than just geography
+							<li>GIS, technology, and democracy
+							<li>urban planning
+							<li>uneven access to technology and data
+							<li>who is empowered or dis-empowered?
+						</ul>
+					</section>
+					<section>
+						<h3>Renee Sieber: Public Participation GIS</h3>
+						<p style="width: 70%;" class="center">"It is an odd concept to attribute to a piece of software the potential to enhance or limit public participation in policymaking, empower or marginalize community members to improve their lives, counter or enable agendas of the powerful, and advance or diminish democratic principles. However, that is exactly what has happened with geographic information systems (GIS) ..." (Sieber 2006: 491)</p>
+					</section>
+          <section>
+            <p><a href="https://demographics.virginia.edu/DotMap/">Racial dot map</a></p>
+            <p><a href="http://www.justicemap.org/">Justice map</a></p>
+          </section>
+					<section data-background-image="../common/assets/images/lasflores_image.jpg"></section>
+					<section data-background-video="../common/assets/video/drone-video-lasflores.m4v" data-background-video-muted></section>
+					<section data-background-video="../common/assets/video/lasflores-flyover-2017-1080p.mp4" data-background-video-muted></section>
+					<section data-background-image="../common/assets/images/lasflores_imagelarge.jpg"></section>
+					<section data-background-image="../common/assets/images/lasFlores_fg.jpg"></section>
+					<section data-background-image="../common/assets/images/P1040192.JPG"></section>
+					<section data-background-image="../common/assets/images/P1040218.JPG"></section>
+					<section data-background-image="../common/assets/images/P1040215.JPG"></section>
+					<section data-background-image="../common/assets/images/P1040225.JPG"></section>
+					<section data-background-image="../common/assets/images/P1040211.JPG"></section>
+					<section data-background-image="../common/assets/images/P1040222.JPG"></section>
+					<section data-background-image="../common/assets/images/P1040231.JPG"></section>
+					<section data-background-image="../common/assets/images/lasFlores_map.jpg"></section>
+					<section data-background-image="../common/assets/images/lasFloresWaypointsLetter.jpg"></section>
+				</section>
+
+				<section>
+					<section>
+						<h3>Common geospatial questions</h3>
+						<h4>this here / here this</h4>
+						<ul style="width: 40%;">
+							<li>where?
+							<li>what (who)?
+							<li>how much?
+							<li>extent or area?
+							<li>[ when? ]
+						</ul>
+					</section>
+					<section>
+						<h3>Common geospatial questions</h3>
+						<h4>analysis</h4>
+						<ul style="width: 40%;">
+							<li>distance between (travel time)?
+							<li>path of least resistance (route)?
+							<li>overlap of areas (jurisdictions)?
+							<li>areal statistics (demographics)
+							<li>land use / land cover change
+							<li>clusters (spatial statistics)
+							<li>interpolation
+							<li>[ why? ]
+						</ul>
+					</section>
+					<section>
+						<h3>Common geospatial questions</h3>
+						<h4>models</h4>
+						<ul style="width: 40%;">
+							<li>watersheds (flows)
+							<li>traffic patterns
+							<li>pollution
+							<li>viewsheds
+							<li>geo-fencing (buffers)
+						</ul>
+					</section>
+					<section>
+						<h3>Common geospatial questions</h3>
+						<h4>before you start remember</h4>
+						<ul style="width: 40%;">
+							<li>scope of question (is it doable)
+							<li>scale and type of output (design question)
+							<li>visualization (print, online, etc)
+							<li>how will you get the data!!!
+						</ul>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h3>Key elements of GIS Assemblages</h3>
+						<ul style="width: 40%;">
+							<li>Tool set
+								<ul style="font-size: 80%;">
+									<li>collection of software programs
+									<li>in some cases referred to as a stack
+								</ul>							
+							<li style="margin-top: 23px">Data model
+								<ul style="font-size: 80%;">
+									<li>Relational Databases (tables)
+									<li>Extensible data models (trees)
+									<li>[ linked data (triples) ]
+								</ul>
+							<li style="margin-top: 23px">Scripting languages
+						</ul>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h3>Common Desktop GIS Assemblages</h3>
+						<h4>Environmental Systems Research Institute (ESRI)</h4>
+						<ul style="width: 50%;">
+							<li>Tool set
+								<ul style="font-size: 80%;">
+									<li>ArcGIS Desktop
+									<li>ArcGIS Pro *NEW*
+								</ul>							
+							<li style="margin-top: 23px">Relational data model
+								<ul style="font-size: 80%;">
+									<li>shapfiles (.shp)
+									<li>geodatabases (.gdb)
+									<li>geotiffs (.tif)
+									<li>database servers (SQLServer, posgreSQL)
+								</ul>
+							<li style="margin-top: 23px">Scripting languages
+								<ul style="font-size: 80%;">
+									<li>python
+								</ul>
+						</ul>
+					</section>
+					<section>
+						<h3>Common Desktop GIS Assemblages</h3>
+						<h4>Environmental Systems Research Institute (ESRI)</h4>
+						<ul style="width: 50%;">
+							<li>University of Miami Resources
+								<ul style="font-size: 80%;">
+									<li>for an account contact Abraham Parrish (GIS Librarian): <a href="mailto:aparrish@miami.edu">aparrish@miami.edu</a>
+									<li>for library GIS resources see <a href="http://sp.library.miami.edu/subjects/gis">http://sp.library.miami.edu/subjects/gis</a>
+									<li>in the Geography department contact Chris Hanson (lab manager) <a href="mailto:hansonc@miami.edu">hansonc@miami.edu</a>
+									<li>for ArcGIS Pro contact Maria L. Estevanez (RSMAS) <a href="mailto:mestevanez@rsmas.miami.edu">mestevanez@rsmas.miami.edu</a>
+									<li>for FOSS and advanced GIS contact Timothy Norris (UML/CCS) <a href="mailto:tnorris@miami.edu">tnorris@miami.edu</a>
+								</ul>							
+						</ul>
+					</section>
+					<section>
+						<h3>Common GIS Assemblages</h3>
+						<h4>Quantum GIS (FOSS)</h4>
+						<ul style="width: 50%;">
+							<li>Tool set
+								<ul style="font-size: 80%;">
+									<li>QGIS - <a href="http://www.qgis.org/en/site/">http://www.qgis.org/en/site/</a>
+									<li>base: Geospatial Data Abstraction Library (GDAL)
+									<li>base: Open GIS Reference (OGR)
+								</ul>							
+							<li style="margin-top: 23px">Relational data model
+								<ul style="font-size: 80%;">
+									<li>shapfiles (.shp)
+									<li>geodatabases (.gdb)
+									<li>geotiffs (.tif)
+									<li>database servers (postgreSQL, oracle)
+								</ul>
+							<li style="margin-top: 23px">Scripting languages
+								<ul style="font-size: 80%;">
+									<li>python
+								</ul>
+						</ul>
+					</section>
+					<section>
+						<h3>Common GIS Assemblages</h3>
+						<h4>R (FOSS)</h4>
+						<ul style="width: 50%;">
+							<li>Tool set
+								<ul style="font-size: 80%;">
+									<li>R - <a href="https://www.r-project.org/">https://www.r-project.org/</a>
+									<li>packages: maps, ggplot2
+									<ll>leaflet for visualization
+								</ul>							
+							<li style="margin-top: 23px">Relational and Tree data model
+								<ul style="font-size: 80%;">
+									<li>raw text, csv (tables)
+									<li>raw text, json (trees)
+									<li>raw text, grids (raster)
+								</ul>
+							<li style="margin-top: 23px">Scripting languages
+								<ul style="font-size: 80%;">
+									<li>R
+								</ul>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h3>Common Web Based GIS Assemblages</h3>
+						<h4>Environmental Systems Research Institute (ESRI)</h4>
+						<ul style="width: 50%;">
+							<li>Tool set
+								<ul style="font-size: 80%;">
+									<li>ArcGIS Online
+									<ul>
+										<li><a href="http://scholar.library.miami.edu/hometownmaps/">http://scholar.library.miami.edu/hometownmaps/</a>
+									</ul>
+									<li>ESRI Storymap
+									<li>ArcGIS for Server - for serving data and images
+								</ul>							
+							<li style="margin-top: 23px">Relational data model
+								<ul style="font-size: 80%;">
+									<li>feature services (ArcGIS Online)
+									<li>database servers (SQLServer, posgreSQL)
+								</ul>
+							<li style="margin-top: 23px">Scripting languages
+								<ul style="font-size: 80%;">
+									<li><i>not really any</i>
+								</ul>
+						</ul>
+					</section>
+					<section>
+						<h3>Common Web Based GIS Assemblages</h3>
+						<h4>MapServer (FOSS) - for serving data and images</h4>
+						<ul style="width: 50%;">
+							<li>Tool set
+								<ul style="font-size: 80%;">
+									<li>MapServer - <a href="http://mapserver.org/">http://mapserver.org/</a>
+									<li>base: Geospatial Data Abstraction Library (GDAL)
+									<li>base: Open GIS Reference (OGR)
+								</ul>							
+							<li style="margin-top: 23px">Relational data model
+								<ul style="font-size: 80%;">
+									<li>shapfiles (.shp)
+									<li>geotiffs (.tif)
+								</ul>
+							<li style="margin-top: 23px">Scripting/programming languages
+								<ul style="font-size: 80%;">
+									<li>c++ family
+									<li>python, ruby, php
+								</ul>
+						</ul>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h3>Common Web Based Visualization</h3>
+						<h4>Google Earth</h4>
+						<ul style="width: 50%;">
+							<li>Tool set
+								<ul style="font-size: 80%;">
+									<li>Google Earth - <a href="https://www.google.com/earth/">https://www.google.com/earth/</a>
+								</ul>							
+							<li style="margin-top: 23px">table data model
+								<ul style="font-size: 80%;">
+									<li>Keyhole Markup Language (KML)
+								</ul>
+							<li style="margin-top: 23px">Scripting languages
+								<ul style="font-size: 80%;">
+									<li><i>not really any</i>
+								</ul>
+						</ul>
+					</section>
+					<section>
+						<h3>Common Web Based GIS Assemblages</h3>
+						<h4>Leaflet - creating "mashups"</h4>
+						<ul style="width: 50%;">
+							<li>Tool set
+								<ul style="font-size: 80%;">
+									<li>Leaflet - <a href="http://leafletjs.com/">http://leafletjs.com/</a>
+									<li>HTML - javascript - CSS
+								</ul>							
+							<li style="margin-top: 23px">tree and raster only
+								<ul style="font-size: 80%;">
+									<li>json, kml (trees)
+									<li>jpg, png, etc (raster)
+								</ul>
+							<li style="margin-top: 23px">Scripting/programming languages
+								<ul style="font-size: 80%;">
+									<li>javascript (front end)
+									<li>anything (backend)
+								</ul>
+						</ul>
+					</section>
+				</section>
+				
+				<section>
+					<h3>For Ideas</h3>
+					<ul style="width: 40%;">
+						<li><a href="http://scimaps.org/">Places and Spaces: mapping science</a>
+						<li><a href="http://www.maproomblog.com/">The Map Room (blog)</a>
+						<li><a href="https://www.wired.com/category/maplab/">WIRED Map Lab</A>		
+					</ul>
+				</section>
+				
+            </div>
+        </div>
+        <script src="../common/java/reveal.js"></script>
+	    <script src="../common/java/notes.js"></script>
+	    <script src="../common/java/head.min.js"></script>
+        <script>
+            Reveal.initialize({
+                width: 1366, height: 768, margin: 0.0,
+                controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				mouseWheel: true,
+				chart: {
+					defaults: { 
+						global: { 
+							defaultFontSize: 20,
+							title: { fontColor: "#333" }, 
+							legend: {
+								position: "top",
+								labels: { fontColor: "#333" },
+							},
+							tooltips: {
+								labels: { fontColor: "#333" },
+							},
+						}, 
+						scale: { 
+							scaleLabel: { fontColor: "#333" }, 
+							gridLines: { color: "#333", zeroLineColor: "#333" }, 
+							ticks: { fontColor: "#333" }, 
+						} 
+					},
+				},
+                dependencies: [
+                    { src: '../common/java/Chart.min.js' },
+                    { src: '../common/java/csv2chart.js' }
+                ] 
+            });
+        </script>
+    </body>
+</html>

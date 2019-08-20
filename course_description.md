@@ -97,7 +97,7 @@ None
 2.  Able to describe geographic information systems as assemblages of data, humans, machines and code.
 3.  Able to design file system structure for a GIS and geospatial data management.
 4.  Know the difference between vector and raster data structures.
-5.  Able to identify sources of geospatial data.
+5.  Able to identify sources of geospatial data and to create geospatial data.
 6.  Understand basic principals of map projections and coordinate reference systems.
 7.  Able to perform basic overlay analysis using GIS.
 8.  Able to describe classification in terms of geospatial data and cartography.
