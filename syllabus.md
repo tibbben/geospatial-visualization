@@ -61,7 +61,9 @@ Introduce maps and GIS as as tools for storytelling.
 -   Choose a subject for the final project and design a file system for the project. 
 -   Be ready to present on chosen subject in the next class meeting.
 
->  [slide deck](slides/slides01.html) | [HW example #1](slides/slides01_sampleHWpresentation01.html) | [HW example #2](slides/slides01_sampleHWpresentation02.html)    
+>  [slide deck](slides/slides01.html)  
+>  [HW example #1](slides/slides01_sampleHWpresentation01.html)  
+>  [HW example #2](slides/slides01_sampleHWpresentation02.html)  
 
 *__Week 2:__ Geospatial Data: Sources and structures*  
 

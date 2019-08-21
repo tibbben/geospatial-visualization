@@ -62,7 +62,7 @@ Students are required to download and transform geospatial data for projects thr
 
 *Box Folder*  
 
-A class box folder for readings and geospatial data is located at: <a href="https://miami.box.com/s/b61jftys3ciuunccc6sepagl9iahjpw8">https://miami.box.com/s/b61jftys3ciuunccc6sepagl9iahjpw8</a>
+A class box folder for readings and geospatial data is located at: [https://miami.box.com/s/b61jftys3ciuunccc6sepagl9iahjpw8](https://miami.box.com/s/b61jftys3ciuunccc6sepagl9iahjpw8)
 
 ---
 
