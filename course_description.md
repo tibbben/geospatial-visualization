@@ -54,11 +54,15 @@ The course will use limited materials from both of the above books. Students are
 
 *Other Readings:*  
 
-Optional reading materials will be available through online access or directly from the instructors. Please see the course schedule below for the links.
+Optional reading materials will be available through online access or directly from the instructors. Please see the box folder and/or the course schedule for the links (both below).
 
 *Geospatial Data:*  
 
 Students are required to download and transform geospatial data for projects throughout the course and for the final project. Guidance will be given on how to do this.
+
+*Box Folder*  
+
+A class box folder for readings and geospatial data is located at: <a href="https://miami.box.com/s/b61jftys3ciuunccc6sepagl9iahjpw8">https://miami.box.com/s/b61jftys3ciuunccc6sepagl9iahjpw8</a>
 
 ---
 
