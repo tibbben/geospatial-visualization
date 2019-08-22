@@ -1,6 +1,6 @@
 ## ARC581/681-K1 Special Problems (Geospatial Visualization) 
 ## Fall 2019 - 1 credit  
-[https://tibbben.github.com/geospatial-visualization](https://tibbben.github.com/geospatial-visualization) (this page)  
+[https://tibbben.github.io/geospatial-visualization](https://tibbben.github.io/geospatial-visualization) (this page)  
 
 ---
 
@@ -63,6 +63,9 @@ Students are required to download and transform geospatial data for projects thr
 *Box Folder*  
 
 A class box folder for readings and geospatial data is located at: [https://miami.box.com/s/b61jftys3ciuunccc6sepagl9iahjpw8](https://miami.box.com/s/b61jftys3ciuunccc6sepagl9iahjpw8)
+
+*Google Doc*  
+A google doc for tracking the in class presentations from Field (2018) is at: [https://docs.google.com/document/d/1XiBNPdDYHxetezWgm4hxp1SUUWbXkRMwVeZpKM7BW5s/edit?usp=sharing](https://docs.google.com/document/d/1XiBNPdDYHxetezWgm4hxp1SUUWbXkRMwVeZpKM7BW5s/edit?usp=sharing)
 
 ---
 
