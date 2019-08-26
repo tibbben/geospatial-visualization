@@ -22,7 +22,7 @@ ph: 305.284.2826
 Christopher Mader  
 Director of Software Engineering  
 Center for Computational Science  
-Ungar Building, 330F
+Ungar Building, 330F  
 Office Hours: Mo 9:30 - 11:30
 [cmader@med.miami.edu](mailto:cmader@med.miami.edu)  
 ph: 305.243.1607
