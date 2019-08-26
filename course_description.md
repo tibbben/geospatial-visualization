@@ -14,7 +14,7 @@ Dr. Timothy Norris
 Librarian Associate Professor, Data Scientist  
 University of Miami Libraries  
 Center for Computational Science  
-Richter Library, Room 320D  
+Richter Library, Room 347M  
 Office Hours: Tu 10am - 11am, Th 2:30pm - 3:30pm  
 [tnorris@miami.edu](mailto:tnorris@miami.edu)  
 ph: 305.284.2826  
@@ -22,8 +22,8 @@ ph: 305.284.2826
 Christopher Mader  
 Director of Software Engineering  
 Center for Computational Science  
-Gables One Tower, Room 600L  
-Office Hours: by appointment only  
+Ungar Building, 330G
+Office Hours: Mo 9:30 - 11:30
 [cmader@med.miami.edu](mailto:cmader@med.miami.edu)  
 ph: 305.243.1607
 
