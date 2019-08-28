@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="../common/css/reveal.css">
         <link rel="stylesheet" href="../common/css/white.css">
         <link rel="stylesheet" href="../common/css/overrides.css">
-	    <script src="../common/java/print.js"></script>
+	      <script src="../common/java/print.js"></script>
         <title>Geospatial Visualization</title>
         <meta charset="UTF-8">
     </head>
@@ -24,13 +24,14 @@
                   <div class="template-title">Geospatial Data</div>
                   <div>
                     <ul>
-                      <li>makes propositions: here this and this here</li>
-                      <li>points, ranges, classification, interpolation, aerial units ...</li>
-                      <li>where will you get it?</li>
-                      <li>will you create it?</li>
+                      <li class="fragment">makes propositions: here this and this here *</li>
+                      <li class="fragment" style="margin: 13px 0px 13px 0px; font-size: 110%; font-weight: 600;">location + attributes</li>
+                      <li class="fragment">points, ranges, classification, interpolation, statistics ...</li>
+                      <li class="fragment" style="margin: 13px 0px 0px 0px;">where will you get it?</li>
+                      <li class="fragment">will you create it?</li>
                     </ul>
                   </div>
-                  <div class="template-citation" style="margin-top: 42px !important;">Wood, Denis, and John Fels. 2008. <i>The Natures of Maps</i>. Chicago: The University of Chicago Press.</div>
+                  <div class="template-citation" style="margin-top: 42px !important;">* Wood, Denis, and John Fels. 2008. <i>The Natures of Maps</i>. Chicago: The University of Chicago Press.</div>
                 </section>
 
                 <section>
@@ -81,7 +82,7 @@
                         </td>
                         <td style="vertical-align: top !important; padding-top: 60px;">
                           <ul style="text-align: center; list-style: none;">
-                            <li style="margin-bottom: 23px;">Raster Structure<br><span style="font-size: 80%;">geotiff, grid</span></li>
+                            <li style="margin-bottom: 23px;"><b>Raster Structure</b><br><span style="font-size: 80%;">geotiff, grid</span></li>
                             <li style="margin-bottom: 23px;">Raster Model<br><span style="font-size: 80%;">&nbsp;</span></li>
                             <li style="margin-bottom: 23px;">Object View<br><span style="font-size: 80%;">Continuous</span></li>
                             <li style="margin-bottom: 23px;">Entity:<br><span style="font-size: 80%;">Temperature, Topography</span></li>
@@ -91,7 +92,7 @@
                         </td>
                         <td style="vertical-align: top !important; padding-top: 60px;">
                           <ul style="text-align: center; list-style: none;">
-                            <li style="margin-bottom: 23px;">Vector Structure<br><span style="font-size: 80%;">shapefile, geodatabase, json</span></li>
+                            <li style="margin-bottom: 23px;"><b>Vector Structure</b><br><span style="font-size: 80%;">shapefile, geodatabase, json</span></li>
                             <li style="margin-bottom: 23px;">Vector Model<br><span style="font-size: 80%;">&nbsp;</span></li>
                             <li style="margin-bottom: 23px;">Object View:<br><span style="font-size: 80%;">Discrete</span></li>
                             <li style="margin-bottom: 23px;">Entity:<br><span style="font-size: 80%;">Trees, Houses, Streets</span></li>
@@ -109,7 +110,124 @@
                 </section>
 
                 <section>
-                  <div class="template-title">Slippy Data</div>
+                  <div class="template-title">Vector Data Model</div>
+                  <div>
+                    <ul>
+                      <li>Points, Lines and Polygons</li>
+                      <ul style="font-size: 85%;">
+                        <li>all based on x,y coordinate pairs of geographic data</li>
+                        <li>lines and polygons are built from groups of points</li>
+                        <li>attribute data is linked to points, lines, or polygons (features)</li>
+                        <li>each feature is associated with a unique record in an attribute table</li>
+                      </ul>
+                    </ul>
+                  </div>
+                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto;">
+                    <img src="../common/assets/images/vector.png">
+                  </div>
+                </section> 
+
+                <section>
+                  <div class="template-title">Vector Data Model</div>
+                  <div>
+                    <ul>
+                      <li style="margin-bottom: 23px;">Common File Formats</li>
+                      <table style="font-size: 90%"><tr style="background-color: #ddd; font-weight: 600;">
+                        <td>Name</td><td>Extension</td><td>Source</td>
+                      </tr><tr>
+                        <td>shapefile</td><td>.shp *</td><td>ESRI</td>
+                      </tr><tr>
+                        <td>geojson</td><td>.json</td><td>open</td>
+                      </tr><tr>
+                        <td>geodatabase</td><td>.gdb</td><td>ESRI</td>
+                      </tr><tr>
+                        <td>google earth</td><td>.kml</td><td>open</td>
+                      </tr><tr>
+                        <td>autoCAD</td><td>.dxf .dwg</td><td>AutoDesk</td>
+                      </tr></table>
+                    </ul>
+                  </div>
+                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto; font-size: 70%">
+                    * .shp is the main file extension, others include: .shx .dbf .sbn .prj (and more - be careful!!)
+                  </div>
+                </section>
+
+                <section>
+                  <div class="template-title">Raster Data Model</div>
+                  <div>
+                    <ul>
+                      <li>Grids of Rows and Columns</li>
+                      <ul style="font-size: 85%;">
+                        <li>each cell represents an x,y coordinate</li>
+                        <li>each cell has a specific size on the surface of the earth (scale)</li>
+                        <li>cell scale is based on the resolution of the image</li>
+                        <li>each cell has only one value (color or categorical)</li>
+                      </ul>
+                    </ul>
+                  </div>
+                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto;">
+                    <img src="../common/assets/images/raster.png" style="max-height: 400px;">
+                  </div>
+                </section> 
+
+                <section>
+                  <div class="template-title">Raster Data Model</div>
+                  <div>
+                    <ul>
+                      <li>Resolution</li>
+                      <ul style="font-size: 85%;">
+                        <li>Original resolution of the collected data limits spatial accuracy</li>
+                        <li>Can’t improve by replicating cells to create smaller size cells</li>
+                        <li>Location implied; rounded to cell coordinate (center of cell)</li>
+                      </ul>
+                    </ul>
+                  </div>
+                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto;">
+                    <img src="../common/assets/images/resolution.png" style="max-height: 400px;">
+                  </div>
+                </section> 
+
+                <section>
+                  <div class="template-title">Raster Data Model</div>
+                  <div>
+                    <ul>
+                      <li>Types of Data</li>
+                      <ul style="font-size: 85%;">
+                        <li>Continuous<br><span style="font-size: 80%">elevation, temperature</span></li>
+                        <li>Categorical/Discrete<br><span style="font-size: 80%">land use</span></li>
+                      </ul>
+                    </ul>
+                  </div>
+                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto;">
+                    <img src="../common/assets/images/raster_types.png" style="max-height: 300px;">
+                  </div>
+                </section>   
+
+                <section>
+                  <div class="template-title">Raster Data Model</div>
+                  <div>
+                    <ul>
+                      <li style="margin-bottom: 23px;">Common File Formats</li>
+                      <table style="font-size: 90%"><tr style="background-color: #ddd; font-weight: 600;">
+                        <td>Name</td><td>Extension</td><td>Source</td>
+                      </tr><tr>
+                        <td>geotiff</td><td>.tiff .tif</td><td>open</td>
+                      </tr><tr>
+                        <td>jpg</td><td>.jpg</td><td>open</td>
+                      </tr><tr>
+                        <td>Arcinfo GRID</td><td><directory> *</td><td>ESRI</td>
+                      </tr><tr>
+                        <td>ERDAS imagine</td><td>.img</td><td>ERDAS</td>
+                      </tr></table>
+                    </ul>
+                  </div>
+                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto; font-size: 70%">
+                    * grids are stored in directories with many files all with the extension .adf; all files must be present. 
+                  </div>
+                </section>             
+
+                <section>
+                  <div class="template-title">and Slippy Data ...</div>
                   <div>
                     <ul>
                       <li>In ESRI you have several choices - add basemap</li>
@@ -117,6 +235,8 @@
                       <li>NOT suitable for printing!! The real alternative is good raster data</li>
                     </ul>
                   </div>
+                  <iframe src=lasFloresOrtho.html height=250 width=600 style="max-width: 100%; max-height: 100%; margin: 42px auto 0px auto; border: none;"></iframe>
+
                 </section>
 
               </section>
@@ -124,9 +244,12 @@
               <section>
 
                 <section>
-                  <div class="template-title">Getting Data</div>
+                  <div class="template-title">
+                    Getting Data<br>
+                    <span style="font-size: 85%; font-weight: 500 !important;">[ will likely be the hardest part of your project ]</span>
+                  </div>
                   <div>
-                    <ul>
+                    <ul class="fragment">
                       <li>survey instruments</li>
                       <li>GPS</li>
                       <li>cell phone</li>
@@ -139,38 +262,58 @@
 
                 <section>
                   <div class="template-title">Survey Instruments</div>
-                  <div>
+                  <div style="max-width: 50%; float: left; margin-left: 5%; margin-bottom: 100px;">
                     <ul>
                       <li>door to door</li>
                       <li>paper or digital?</li>
-                      <li>geocoding addresses</li>
+                      <li style="margin-top: 23px;" class="fragment">geocoding addresses
+                        <ul style="font-size: 85%;">
+                          <li>ESRI ArcGIS Service uses "Credits"<br><a href="https://www.esri.com/en-us/arcgis/products/arcgis-online/pricing/credits">pricing</a></li>
+                          <li>Open source: google "online geocoder"</li>
+                          <li>QGIS with OpenStreetMap</li>
+                        </ul>
+                      </li>
                     </ul>
+                  </div>
+                  <div style="float: right; max-width: 40%; margin-right: 5%;">
+                    <img src="../common/assets/images/IMG_0380.JPG" style="max-width: 450px;"><br>
+                    <div class="template-citation">door to door survey, Las Flores, Colombia, Jan 2019</div>
                   </div>
                 </section> 
 
                 <section>
                   <div class="template-title">Global Positioning Systems (GPS)</div>
-                  <div>
+                  <div style="max-width: 55%; float: right; margin-left: 5%; margin-bottom: 100px;">
                     <ul>
-                      <li>ground control points</li>
-                      <li>discrete entities (trees, fire hydrants, underground access)</li>
-                      <li>device accuracy</li>
-                      <li>transfer of data</li>
+                      <li>ground control points (GCPs)</li>
+                      <li>discrete entities<br><span style="font-size: 80%;">(trees, fire hydrants, underground access, etc)</span></li>
+                      <li>walking the line<br><span style="font-size: 80%;">(routes and boundaries)</span></li>
+                      <li style="margin-top: 23px;">device accuracy?</li>
+                      <li>transfer of data?</li>
                       <li class="fragment" style="margin-top: 23px;">smart phones are very similar</li>
                     </ul>
                   </div>
+                  <div style="float: left; max-width: 35%; margin-right: 5%; text-align: right;">
+                    <img src="../common/assets/images/GPS24goldenSML.gif" style="max-width: 400px;"><br>
+                    <div class="template-citation" style="text-align: right !important; margin-right: -20px !important; with: 100% !important;">A visual example of a 24 satellite GPS constellation in motion with the Earth rotating. Notice how the number of satellites in view from a given point on the Earth's surface changes with time. The point in this example is in Golden, Colorado, USA (39.7469° N, 105.2108° W).</div>
                 </section>  
 
                 <section>
                   <div class="template-title">Existing Maps and Data</div>
-                  <div>
+                  <div style="margin-bottom: 42px;">
                     <ul>
                       <li>paper maps: scan, georeference, and trace</li>
-                      <li>online search terms</li>
-                      <li>geospatial data stores/portals</li>
-                      <li>data quality</li>
-                      <li>data documentation/provenance</li>
-                      <li>spatial reference systems and projection transformations</li>
+                      <li>online search terms??</li>
+                      <li style="margin-top: 23px; font-size: 110%; font-weight: 600;">geospatial data stores/portals</li>
+                      <li style="margin-top: 23px;">data quality?</li>
+                      <li>data documentation/provenance?</li>
+                      <li>spatial reference systems and projection transformations?</li>
+                    </ul>
+                  </div>
+                  <div class="fragment" style="background-color: #ddd; border: 1px solid #aaa; padding: 23px; max-width: 80%; margin: 0px auto 0px auto;">
+                    <ul style="font-size: 85%; color: #555;">
+                      <li><a href="https://gis-mdc.opendata.arcgis.com">https://gis-mdc.opendata.arcgis.com</a></li>
+                      <li><a href="https://www.barranquilla.gov.co/hacienda/catastro-mas-facil">https://www.barranquilla.gov.co/hacienda/catastro-mas-facil</a></li>
                     </ul>
                   </div>
                 </section>  
@@ -178,13 +321,25 @@
                 <section>
                   <div class="template-title">Remote Sensing</div>
                   <div>
-                    <ul>
-                      <li>satellite or aerial</li>
-                      <li>custom acquisition or from standard source</li>
-                      <li>resolution</li>
-                      <li>georeference process</li>
-                      <li>data documentation/provenance</li>
-                      <li>spatial reference systems and projection transformations</li>
+                    <div style="max-width: 55%; float: right; margin-left: 5%; margin-bottom: 100px;">
+                      <ul>
+                        <li>satellite or aerial?</li>
+                        <li>custom acquisition?</li>
+                        <li>standard source?</li>
+                        <li>resolution?</li>
+                        <li>georeference process?</li>
+                        <li>data documentation/provenance?</li>
+                        <li>spatial reference systems and projection transformations?</li>
+                      </ul>
+                    </div>
+                    <div style="max-width: 35%; max-height: 300px; float: left; margin-right: 5%; text-align: right; margin-top: 23px">
+                      <iframe src=lasFloresVideo.html width=500 height=350></iframe><br>
+                      <div class="template-citation">Flying drone based surveys in Las Flores, Colombia</div>
+                    </div>
+                  </div>
+                  <div style="background-color: #ddd; border: 1px solid #aaa; padding: 23px; max-width: 80%; margin: 0px auto 0px auto; display: inline-block;">
+                    <ul style="font-size: 85%; color: #555;">
+                      <li><a href="https://earthdata.nasa.gov/earth-observation-data/visualize-data">https://earthdata.nasa.gov/earth-observation-data/visualize-data</a></li>
                     </ul>
                   </div>
                 </section>  
@@ -195,9 +350,15 @@
                     <ul>
                       <li>humans as sensors</li>
                       <li>citizens as sensors</li>
-                      <li>quality of data</li>
-                      <li>sustainability</li>
-                      <li>community engagement</li>
+                      <li>quality of data?</li>
+                      <li>sustainability?</li>
+                      <li>community engagement?</li>
+                      <li style="margin-top: 23px;">PPGIS - Public Participatory GIS</li>
+                    </ul>
+                  </div>
+                  <div style="background-color: #ddd; border: 1px solid #aaa; padding: 23px; max-width: 60%; margin: 13px auto 0px auto; display: inline-block;">
+                    <ul style="font-size: 85%; color: #555;">
+                      <li><a href="https://www.openstreetmap.org/">https://www.openstreetmap.org/</a></li>
                     </ul>
                   </div>
                 </section>
@@ -220,8 +381,8 @@
             </div>
         </div>
         <script src="../common/java/reveal.js"></script>
-	    <script src="../common/java/notes.js"></script>
-	    <script src="../common/java/head.min.js"></script>
+	      <script src="../common/java/notes.js"></script>
+	      <script src="../common/java/head.min.js"></script>
         <script>
             Reveal.initialize({
                 width: 1366, height: 768, margin: 0.05,

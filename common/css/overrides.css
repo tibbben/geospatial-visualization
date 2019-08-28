@@ -64,7 +64,7 @@ section {
   line-height: 145%;
 }
 .template-citation {
-  flex: none; font-size: 40% !important; width: 100%; margin: 7px auto 7px auto !important; z-index: 100 !important; max-width: 80%; text-align: left; padding-left: 23px !important; color: #aaa;
+  flex: none; font-size: 40% !important; width: 100%; margin: 7px auto 7px auto !important; z-index: 100 !important; max-width: 80%; text-align: left; padding-left: 23px !important; color: #aaa; line-height: 110% !important;
 }
 .reference {
   font-size: 55% !important; 
