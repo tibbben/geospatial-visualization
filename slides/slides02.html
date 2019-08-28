@@ -5,26 +5,217 @@
         <link rel="stylesheet" href="../common/css/white.css">
         <link rel="stylesheet" href="../common/css/overrides.css">
 	    <script src="../common/java/print.js"></script>
-        <title>Urban Cartography - 02</title>
+        <title>Geospatial Visualization</title>
         <meta charset="UTF-8">
     </head>
     <body>
         <div class="reveal">
             <div class="slides">
 
-               <section data-background-image="">
-                    <div style="position: absolute; left: 340px; top: 125px; font-size: 150%; line-height: 100%;"><strong>Urban Cartography</strong></div>
-                    <div style="position: absolute; left: 750px; top: 285px; font-size: 90%">SOA <script>var today = new Date();document.write(today.getFullYear());</script></div>
-                    <div style="position: absolute; left: 460px; top: 390px; font-size: 50%; text-align: left">Dr. Timothy Norris <a href="mailto:tnorris@miami.edu" style="color: #222 !important; text-decoration: underline;">tnorris@miami.edu</a><br>Christopher Mader - <a href="mailto:cmader@med.miami.edu" style="color: #222 !important; text-decoration: underline;">cmader@med.miami.edu</a></div>
-                </section>		
-				
-<!-- ########################################################################################################################## -->
-<!-- ##               end of session one - transition next set of slides (only one slide set for week 2) [MLK holiday]       ## -->				
-<!-- ########################################################################################################################## -->		
+              <section data-background-image="../common/assets/images/globe.jpg" data-background-size="contain" data-background-color="#000">
+                <div style="position: absolute; left: 340px; top: 25px; font-size: 150%; line-height: 100%; color: #ddd !important;"><strong>Geospatial Visualization</strong></div>
+                <div style="position: absolute; left: 650px; top: 185px; font-size: 90%; color: #ddd !important;">School of Architecture<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
+                <div style="position: absolute; left: 460px; top: 390px; font-size: 50%; text-align: left">Dr. Timothy Norris - <a href="mailto:tnorris@miami.edu" style="color: #ddd !important; text-decoration: underline;">tnorris@miami.edu</a><br>Christopher Mader - <a href="mailto:cmader@med.miami.edu" style="color: #ddd !important; text-decoration: underline;">cmader@med.miami.edu</a></div>
+              </section>
+              
+              <section>
 
-				<section>
-					... break for next class ...
-				</section>
+                <section>
+                  <div class="template-title">Geospatial Data</div>
+                  <div>
+                    <ul>
+                      <li>makes propositions: here this and this here</li>
+                      <li>points, ranges, classification, interpolation, aerial units ...</li>
+                      <li>where will you get it?</li>
+                      <li>will you create it?</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">Wood, Denis, and John Fels. 2008. <i>The Natures of Maps</i>. Chicago: The University of Chicago Press.</div>
+                </section>
+
+                <section>
+                  <div style="width: 400px; height: 580px; font-size: 110%; font-weight: bold; text-align: left; margin-left: 30%; margin-right: auto; position: relative;top: -20px;">On Data</div>
+                  
+                  <div class="fragment" style="width: 400px; font-size: 82%; font-weight: bold; text-align: left; left: 80px; top: 100px; position: absolute;">Qualitative - Quantitative</div>
+                  <div class="fragment" style="width: 250px; font-size: 65%; text-align: left; left: 0px; top: 20px; position: absolute;">Non-numeric<br>Text, Image, Sound</div>
+                  <div class="fragment" style="width: 250px; font-size: 65%; text-align: left; left: 280px; top: 150px; position: absolute;">Nominal, Ordinal, Interval, Ratio</div>
+                  
+                  <div class="fragment" style="width: 650px; font-size: 82%; font-weight: bold; text-align: left; left: 80px; top: 420px; position: absolute;">Captured, Exhaust, Transient, Derived</div>
+                  <div class="fragment" style="width: 250px; font-size: 65%; text-align: left; left: 0px; top: 310px; position: absolute;">Observed<br>Experimental,<br>Modeled</div>
+                  <div class="fragment" style="width: 250px; font-size: 65%; text-align: left; left: 230px; top: 475px; position: absolute;">Modeled<br>Technical Metadata</div>
+                  <div class="fragment" style="width: 250px; font-size: 65%; text-align: left; left: 355px; top: 380px; position: absolute;">Non-Observed</div>
+                  <div class="fragment" style="width: 3000px; font-size: 65%; text-align: left; left: 550px; top: 475px; position: absolute;">Not "Raw"<br>Levels (more in a moment)</div>
+
+                  <div class="fragment" style="width: 850px; font-size: 82%; font-weight: bold; text-align: left; left: 710px; top: 80px; position: absolute;">Structured, Semi-structured, Unstructured</div>
+                  <div class="fragment" style="width: 280px; font-size: 65%; text-align: left; left: 880px; top: 0px; position: absolute;">Irregular, Flexible<br>Nested, Trees, Tagged</div>
+                  <div class="fragment" style="width: 250px; font-size: 65%; text-align: left; left: 650px; top: 135px; position: absolute;">Data model, Schema,<br>Relational Database</div>
+
+                  <div class="fragment" style="width: 850px; font-size: 82%; font-weight: bold; text-align: left; left: 890px; top: 380px; position: absolute;">Primary, Secondary, Tertiary</div>
+                  <div class="fragment" style="width: 250px; font-size: 65%; text-align: left; left: 1040px; top: 310px; position: absolute;">Incorporated<br>Re-used</div>
+                  <div class="fragment" style="width: 250px; font-size: 65%; text-align: left; left: 800px; top: 425px; position: absolute;">Created, Collected</div>
+                  <div class="fragment" style="width: 250px; font-size: 65%; text-align: left; left: 1220px; top: 425px; position: absolute;">Released<br>Truncated</div>
+                  
+                  <div class="fragment" style="width: 850px; font-size: 82%; font-weight: bold; text-align: left; left: 450px; top: 280px; position: absolute;">Indexical, Attribute, Metadata</div>
+                  <div class="fragment" style="width: 250px; font-size: 65%; text-align: left; left: 400px; top: 245px; position: absolute;">Identifiers</div>
+                  <div class="fragment" style="width: 250px; font-size: 65%; text-align: left; left: 810px; top: 245px; position: absolute;">Descriptions</div>
+                  <div class="fragment" style="width: 250px; font-size: 65%; text-align: left; left: 580px; top: 330px; position: absolute;">Characteristics</div>
+
+                  <div class="template-citation">
+                    Kitchin, R (2014). “Conceptualizing Data” in Kitchin, R. <i>The Data Revolution</i>. Washington DC: Sage.<br>
+                    <a href="http://uk.sagepub.com/sites/default/files/upm-binaries/63923_Kitchin_CH1.pdf">http://uk.sagepub.com/sites/default/files/upm-binaries/63923_Kitchin_CH1.pdf</a>
+                  </div>
+                </section>
+
+                <section>
+                  <div class="template-title">Geospatial Data</div>
+                  <div style="display: inline-block; width: 100%;">
+                    <table style="font-size: 60%; width: 100%;">
+                      <tr>
+                        <td style="vertical-align: top !important; padding-top: 60px;">
+                          <ul style="text-align: right; list-style: none; color: #888 !important;">
+                            <li style="margin-bottom: 23px;">Physical Model<br><span style="font-size: 80%; margin-right: 13px;">(files on disk)</span></li>
+                            <li style="margin-bottom: 23px;">Logical Model<br><span style="font-size: 80%; margin-right: 13px;">(vector and raster)</span></li>
+                            <li style="margin-bottom: 23px;">Conceptual Model<br><span style="font-size: 80%; margin-right: 13px;">(discrete or continuous)</span></li>
+                            <li>Reality<br><span style="font-size: 80%; margin-right: 13px;">(the world out there)</span></li>
+                          </ul>
+                        </td>
+                        <td style="vertical-align: top !important; padding-top: 60px;">
+                          <ul style="text-align: center; list-style: none;">
+                            <li style="margin-bottom: 23px;">Raster Structure<br><span style="font-size: 80%;">geotiff, grid</span></li>
+                            <li style="margin-bottom: 23px;">Raster Model<br><span style="font-size: 80%;">&nbsp;</span></li>
+                            <li style="margin-bottom: 23px;">Object View<br><span style="font-size: 80%;">Continuous</span></li>
+                            <li style="margin-bottom: 23px;">Entity:<br><span style="font-size: 80%;">Temperature, Topography</span></li>
+                          </ul>
+                        </td>
+                        <td>
+                        </td>
+                        <td style="vertical-align: top !important; padding-top: 60px;">
+                          <ul style="text-align: center; list-style: none;">
+                            <li style="margin-bottom: 23px;">Vector Structure<br><span style="font-size: 80%;">shapefile, geodatabase, json</span></li>
+                            <li style="margin-bottom: 23px;">Vector Model<br><span style="font-size: 80%;">&nbsp;</span></li>
+                            <li style="margin-bottom: 23px;">Object View:<br><span style="font-size: 80%;">Discrete</span></li>
+                            <li style="margin-bottom: 23px;">Entity:<br><span style="font-size: 80%;">Trees, Houses, Streets</span></li>
+                          </ul>
+                        </td>
+                        <td>
+                          <img src="../common/assets/images/layers.jpg" style="max-width: 300px;">
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+
+                  <div class="template-citation" style="display: inline-block;">adapted from: <a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/index.html">https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/index.html</a></div>
+
+                </section>
+
+                <section>
+                  <div class="template-title">Slippy Data</div>
+                  <div>
+                    <ul>
+                      <li>In ESRI you have several choices - add basemap</li>
+                      <li style="margin-bottom: 23px;">for QGIS, google search for ... </li>
+                      <li>NOT suitable for printing!! The real alternative is good raster data</li>
+                    </ul>
+                  </div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section>
+                  <div class="template-title">Getting Data</div>
+                  <div>
+                    <ul>
+                      <li>survey instruments</li>
+                      <li>GPS</li>
+                      <li>cell phone</li>
+                      <li>existing maps and data</li>
+                      <li>remote sensing</li>
+                      <li>crowd sourcing</li>
+                    </ul>
+                  </div>
+                </section>
+
+                <section>
+                  <div class="template-title">Survey Instruments</div>
+                  <div>
+                    <ul>
+                      <li>door to door</li>
+                      <li>paper or digital?</li>
+                      <li>geocoding addresses</li>
+                    </ul>
+                  </div>
+                </section> 
+
+                <section>
+                  <div class="template-title">Global Positioning Systems (GPS)</div>
+                  <div>
+                    <ul>
+                      <li>ground control points</li>
+                      <li>discrete entities (trees, fire hydrants, underground access)</li>
+                      <li>device accuracy</li>
+                      <li>transfer of data</li>
+                      <li class="fragment" style="margin-top: 23px;">smart phones are very similar</li>
+                    </ul>
+                  </div>
+                </section>  
+
+                <section>
+                  <div class="template-title">Existing Maps and Data</div>
+                  <div>
+                    <ul>
+                      <li>paper maps: scan, georeference, and trace</li>
+                      <li>online search terms</li>
+                      <li>geospatial data stores/portals</li>
+                      <li>data quality</li>
+                      <li>data documentation/provenance</li>
+                      <li>spatial reference systems and projection transformations</li>
+                    </ul>
+                  </div>
+                </section>  
+
+                <section>
+                  <div class="template-title">Remote Sensing</div>
+                  <div>
+                    <ul>
+                      <li>satellite or aerial</li>
+                      <li>custom acquisition or from standard source</li>
+                      <li>resolution</li>
+                      <li>georeference process</li>
+                      <li>data documentation/provenance</li>
+                      <li>spatial reference systems and projection transformations</li>
+                    </ul>
+                  </div>
+                </section>  
+
+                <section>
+                  <div class="template-title">Crowd Sourcing</div>
+                  <div>
+                    <ul>
+                      <li>humans as sensors</li>
+                      <li>citizens as sensors</li>
+                      <li>quality of data</li>
+                      <li>sustainability</li>
+                      <li>community engagement</li>
+                    </ul>
+                  </div>
+                </section>
+
+              </section>
+
+              <section>
+                <div class="template-title">Data Accuracy</div>
+                <div>
+                  <ul>
+                    <li>how collected?</li>
+                    <li>when collected?</li>
+                    <li>hidden assumptions?</li>
+                    <li>scale collected?</li>
+                    <li>does detail vary?</li>
+                  </ul>
+                </div>
+              </section>
 
             </div>
         </div>
