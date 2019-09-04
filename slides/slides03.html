@@ -5,18 +5,244 @@
         <link rel="stylesheet" href="../common/css/white.css">
         <link rel="stylesheet" href="../common/css/overrides.css">
 	    <script src="../common/java/print.js"></script>
-        <title>Urban Cartography - 03</title>
+        <title>Geospatial Visualization - 3</title>
         <meta charset="UTF-8">
     </head>
     <body>
         <div class="reveal">
             <div class="slides">
 
-                <section data-background-image="">
-                    <div style="position: absolute; left: 340px; top: 125px; font-size: 150%; line-height: 100%;"><strong>Urban Cartography</strong></div>
-                    <div style="position: absolute; left: 750px; top: 285px; font-size: 90%">SOA <script>var today = new Date();document.write(today.getFullYear());</script></div>
-                    <div style="position: absolute; left: 460px; top: 390px; font-size: 50%; text-align: left">Dr. Timothy Norris <a href="mailto:tnorris@miami.edu" style="color: #222 !important; text-decoration: underline;">tnorris@miami.edu</a><br>Christopher Mader - <a href="mailto:cmader@med.miami.edu" style="color: #222 !important; text-decoration: underline;">cmader@med.miami.edu</a></div>
+              <section data-background-image="../common/assets/images/orange-flower.png" data-background-size="contain" data-background-color="#000">
+                <div style="position: absolute; left: 80px; top: 40px; font-size: 150%; line-height: 100%; color: #ddd !important; text-align: left;"><strong>Geospatial<br>  Visualization</strong></div>
+                <div style="position: absolute; left: 140px; top: 220px; font-size: 90%; color: #ddd !important;">School of Architecture<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
+                <div style="position: absolute; left: 590px; top: 430px; font-size: 50%; text-align: left">Dr. Timothy Norris<br><a href="mailto:tnorris@miami.edu" style="color: #ddd !important; text-decoration: underline;">tnorris@miami.edu</a></div>
+                <div style="position: absolute; left: 460px; top: 650px; font-size: 50%; text-align: left">Christopher Mader<br><a href="mailto:cmader@med.miami.edu" style="color: #ddd !important; text-decoration: underline;">cmader@med.miami.edu</a></div>
+              </section>
+
+              <section>
+                <section>
+                  <div class="template-title">A few exercises</div>
+                  <div>
+                    <ul>
+                      <li>Geocoding<br><span style="font-size: 80%">> give addresses lat/long coordinates</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Joining tables<br><span style="font-size: 80%">> attach attributes to spatial geometries</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Creating data<br><span style="font-size: 80%">> enter data by hand</span></li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
                 </section>
+
+                <section>
+                  <div class="template-title">Geocoding</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>list of address information, usually comma separated values (csv)</li>
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS geocoding service
+                        <ul style="font-size: 80%;">
+                            <li>Very accurate and up-to-date geocoding engine</li>
+                            <li>Uses credits - see <a href="docs.arcgis.com/en/arcgis-online/administer/credits.htm">Understanding Credits</a>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">"Free" online geocoding services
+                        <ul style="font-size: 80%;">
+                            <li><a href="https://geocoding.geo.census.gov">Census.gov</a> - somewhat accurate</li>
+                            <li><a href="http://geoservices.tamu.edu/Services/Geocode/">Texas A&M</a> - needs free account</li>
+                            <li><a href="https://www.geocod.io">geocode.io</a> - first 1000/day free, then you pay</li>
+                            <li>More, ... google "online geocoders"</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">in the GIS ...
+                        <ul style="font-size: 80%;">
+                            <li>Import as csv with lat/long coordinates as columns</li>
+                            <li>Google "create x,y points from csv" in [GIS of choice]</li>
+                        </ul>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Joining tables - 1</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>Census data example: attributes and geography come separate</li>
+                      <li style="margin: 13px 0px 0px 0px;">Get Census data from the "Census American Factfinder"
+                        <ul style="font-size: 80%;">
+                            <li>Advanced Search > Show Me All</li>
+                            <li>On left side select "Topics"</li>
+                            <li>On left side select "Geographies"</li>
+                            <li>When ready > click "Download"</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Get geographic data from "Census Geography Program"
+                        <ul style="font-size: 80%;">
+                            <li>Look for "Tiger/Line Geodatabases"</li>
+                            <li>Select "State Level Geodatbases" and your state</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Joining tables - 2</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>Census data example: attributes and geography come separate</li>
+                      <li style="margin: 13px 0px 0px 0px;">in the GIS ...
+                        <ul style="font-size: 80%;">
+                            <li>Import as csv with no geometries<br><span style="font-size=90%;">> must delete one header row first</span></li>
+                            <li style="margin: 13px 0px 0px 0px;">Import selected layers from geodatabase<br><span style="font-size=90%;">> must include geometry from Census data</span></li>
+                            <li style="margin: 13px 0px 0px 0px;">In geometry layer, find "Joins" in the layer properties<br><span style="font-size=90%;">> either double click or right click</span></li>
+                            <li style="margin: 13px 0px 0px 0px;">Join based on GEO.id2 and GEOID</li>
+                            <li>Symbolize from layer properties</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Creating data</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>Remember: the project file/folder is NOT the data</li>
+                      <li style="margin: 13px 0px 0px 0px;">Create a data layer
+                        <ul style="font-size: 80%;">
+                            <li>Layer > create</li>
+                            <li>In ArcCatalog window > right click > create new</li>
+                            <li>Define the columns you want ...
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Make Layer editable
+                        <ul style="font-size: 80%;">
+                            <li>QGIS - the little yellow pencil</li>
+                            <li>ArcGIS - right click > make layer editable</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Add features
+                        <ul style="font-size: 80%;">
+                            <li>Try to maintain one scale</li>
+                            <li>Remember to save often</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Turn off layer editing</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section data-background-image="../common/assets/images/globe_dark.jpg" data-background-size="contain" data-background-color="#000">
+                  <div style="color: #ddd !important;" class="template-title">Coordinate Reference Systems</div>
+                  <div style="color: #ddd !important;">
+                    <ul>
+                      <li>Datum</li>
+                      <li>Geographic coordinate system</li>
+                      <li>Projected coordinate system</li>
+                      <li class="fragment" style="margin: 23px 0px 0px 0px;">Geospatial data must have: <strong>datum + geographic coordinate system</strong></li>
+                      <li class="fragment" style="margin: 13px 0px 0px 0px;">Projected coordinate systems are optional<br>(but needed for measurement)</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-background-image="../common/assets/images/globe_dark.jpg" data-background-size="contain" data-background-color="#000">
+                  <div style="color: #ddd !important;" class="template-title">Datum</div>
+                  <div style="color: #ddd !important;">
+                    <ul>
+                      <li>Center of the earth?</li>
+                      <li>That which is given?</li>
+                      <li class="fragment" style="margin: 23px 0px 0px 0px;">Ellipsoid<br><span style="font-size: 80%">mathematically defined surface approximating the shape of the earth</span></li>
+                      <li class="fragment" style="margin: 13px 0px 0px 0px;">Geoid<br><span style="font-size: 80%">surface of the earths gravity field - approx sea level</span></li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-background-image="../common/assets/images/globe_dark.jpg" data-background-size="contain" data-background-color="#000">
+                  <div style="color: #ddd !important;" class="template-title">Geographical Coordinate Systems</div>
+                  <div style="color: #ddd !important;">
+                    <ul>
+                      <li>Latitude and Longitude - <i>spherical coordinates</i></li>
+                      <li>Very common, but cannot be used for measurement</li>
+                      <li class="fragment" style="margin: 23px 0px 0px 0px;">Things to remember:
+                        <ul style="font-size: 80%;">
+                            <li>ESPG - European Petroleum Survey Group</li>
+                            <li style="margin: 13px 0px 0px 0px;">WGS 84 - most common globally - ESPG:4326</li>
+                            <li>NAD 83 - most common in the United States - ESPG:4269</li>
+                        </ul>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-background-image="../common/assets/images/globe_dark.jpg" data-background-size="contain" data-background-color="#000">
+                  <div style="color: #ddd !important;" class="template-title">Projected Coordinate Systems</div>
+                  <div style="color: #ddd !important;">
+                    <ul>
+                      <li>meters or feet - <i>Cartesian coordinates</i></li>
+                      <li>Used for measurement and mapping</li>
+                      <li class="fragment" style="margin: 23px 0px 0px 0px;">Things to remember:
+                        <ul style="font-size: 80%;">
+                            <li>Projected Coordinate Systems are <i>specific</i> to the area being mapped</li>
+                            <li style="margin: 13px 0px 0px 0px;">In the USA: the "State Plane System"</li>
+                            <li>Around the Globe: the "UTM Grid"</li>
+                            <li style="margin: 13px 0px 0px 0px;">For web based mapping systems<br><span style="font-size: 80%">WGS 84 Web Mercator - ESPG:3857</span></li>
+                        </ul>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section>
+                  <div style="position: relative; top: 60px;" class="template-title">Projected Coordinate Systems (more)</div>
+                  <div style="position: relative; top: -200px; left: -140px;">
+                    <object data="../common/assets/images/cylindrical.svg" type="image/svg+xml" style="width: 1600px; height: 1000px;"></object>
+                  </div>
+                </section>
+
+                <section>
+                  <div style="position: relative; top: 0px;" class="template-title">Projection Surfaces</div>
+                  <div >
+                    <object data="../common/assets/images/projections.svg" type="image/svg+xml" style="width: 1000px; height: 500px;"></object>
+                  </div>
+                </section>
+
+                <section>
+                  <div style="position: relative; top: 0px;" class="template-title">Tissot and Distortion</div>
+                  <img src="../common/assets/images/tissot.jpg" style="max-width: 1000px;">
+                  <div style="font-size: 60%;">Tissot's ellipses on an unprojected (lat/long) earth</div>
+                </section>
+
+                <section>
+                  <div style="position: relative; top: 0px;" class="template-title">Universal Transverse Mercator - UTM</div>
+                  <img src="../common/assets/images/utm.jpg" style="max-width: 1000px;">
+                  <div style="font-size: 60%;">The 60 UTM coordinate system zones, each divided into north and south halves at the equator</div>
+                </section>
+
+                <section>
+                  <div style="position: relative; top: 0px;" class="template-title">State Plane</div>
+                  <div style="position: relative; top: -200px; left: -240px;">
+                    <object data="../common/assets/images/stateplane.svg" type="image/svg+xml" style="width: 1400px; height: 800px;"></object>
+                  </div>
+                </section>
+
+                <section>
+                  <div style="position: relative; top: 0px;" class="template-title">Other Projections</div>
+                  <object data="../common/assets/images/otherprojections.svg" type="image/svg+xml" style="width: 900px; height: 600px;"></object>
+                </section>
+
+              </section>
 				
             </div>
         </div>
