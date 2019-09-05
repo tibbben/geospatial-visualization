@@ -108,9 +108,7 @@ putting multiple data layers together in one GIS and exploring relationships bet
 
 >  Learning Objectives:
 
--   Understand basic principals of map projections and coordinate reference systems.
 -   Able to perform basic overlay analysis using GIS.
--   Able to describe classification in terms of geospatial data and cartography.
 -   Able to perform spatial or categorical joins between two geospatial data sets/layers.
 
 >  Practical Objectives:
@@ -121,9 +119,7 @@ putting multiple data layers together in one GIS and exploring relationships bet
 
 >  Assigned Reading:
 
--   *Making Maps* (Krygier & Wood, 2016)
-  -   chapter 9: Map Symbolization. pp. 184 - 201.
-  -   chapter 10: Map Symbol Abstraction. pp. 204 - 231.
+-  none
 	
 >  Optional Reading:
 
@@ -133,9 +129,12 @@ putting multiple data layers together in one GIS and exploring relationships bet
 
 >  Assignments:
 
--   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting.
 -   Complete construction of basic GIS if not complete: all layers correctly loaded in one GIS file.
 -   Be ready to present the GIS in the next class meeting.
+
+>  Optional:
+
+-   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting.
 
 >  [slide deck](slides/slides03.html)  
 	
@@ -145,10 +144,8 @@ Apply basic design principals to make a map. This will include using color theor
 
 > Learning Objectives:
 
--   Understand map symbolization and map symbol abstraction for geospatial data.
--   Understand the basics of digital color theory for printers (subtractive - cmyk) and screens (additive - rgb).
--   Know cartographic standards for the use of fonts in labeling geographic features on a map.
--   Understand how cartographic elements come together in a map to tell stories.
+-   Understand basic principals of map projections and coordinate reference systems.
+-   Able to describe classification in terms of geospatial data and cartography.
 
 >  Practical Objectives:
 
@@ -157,10 +154,13 @@ Apply basic design principals to make a map. This will include using color theor
 
 >  Assigned Reading:
 
--   Sheppard, Eric. 1995. "GIS and society: towards a research agenda."  Cartography and Geographic Information Systems 22 (1):5-16. doi: [10.1559/152304095782540555](https://doi.org/10.1559/152304095782540555). [ NOTE: This article is not available with University of Miami subscriptions, and instead will be provided by the instructors. ]
+-   *Making Maps* (Krygier & Wood, 2016)
+  -   chapter 9: Map Symbolization. pp. 184 - 201.
+  -   chapter 10: Map Symbol Abstraction. pp. 204 - 231.
 
 >  Optional Reading:
 
+-   Sheppard, Eric. 1995. "GIS and society: towards a research agenda."  Cartography and Geographic Information Systems 22 (1):5-16. doi: [10.1559/152304095782540555](https://doi.org/10.1559/152304095782540555). [ NOTE: This article is not available with University of Miami subscriptions, and instead will be provided by the instructors. ]
 -   Sieber, Renee. 2006. "Public Participation Geographic Information Systems: A Literature Review and Framework."  Annals of the Association of American Geographers 96 (3):491-507. doi: [10.1111/j.1467-8306.2006.00702.x](https://doi.org/10.1111/j.1467-8306.2006.00702.x).
 
 >  Assignments:
@@ -177,8 +177,9 @@ Explore how maps are woven into political and social contexts of urban developme
 
 >  Learning Objectives:  
 
--   Place maps in context of larger storytelling devices.
--   Understand maps as political tools.
+-   Understand map symbolization and map symbol abstraction for geospatial data.
+-   Know cartographic standards for the use of fonts in labeling geographic features on a map.
+-   Understand how cartographic elements come together in a map to tell stories.
 
 >  Practical Objectives:
 
