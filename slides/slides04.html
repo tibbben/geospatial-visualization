@@ -130,6 +130,75 @@
               </section>
 
               <section>
+
+                <section>
+                  <div class="template-title">A few exercises</div>
+                  <div>
+                    <ul>
+                      <li>Georeferencing<br><span style="font-size: 80%">> locating external files in geographic space</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Creating Layouts and Exporting<br><span style="font-size: 80%">> for AI and other design programs</span></li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Georeferencing ARC GIS Pro</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>For both raster (tiff, jpg) and vector (dxf) data</li>
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro Raster
+                        <ul style="font-size: 80%;">
+                          <li>add layer to map</li>
+                          <li>click Raster layer: find "Image" panel -> georeference</li>
+                          <li>fit to display, move, scale</li>
+                          <li>add control points</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro Vector
+                        <ul style="font-size: 80%;">
+                          <li>add layer to map</li>
+                          <li>click CAD layer group -> expand layer group -> select one CAD layer</li>
+                          <li>Click "CAD Layer" panel -> georeference</li>
+                          <li>fit to display, move, scale</li>
+                          <li>add control points</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Georeferencing QGIS</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>For both raster (tiff, jpg) and vector (dxf) data</li>
+                      <li style="margin: 13px 0px 0px 0px;">QGIS Vector
+                        <ul style="font-size: 80%;">
+                          <li>possible but a little complicated</li>
+                          <li>google "georeference dxf QGIS"
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">QGIS Raster
+                        <ul style="font-size: 80%;">
+                          <li>Plugins - GDAL georeferencer</li>
+                          <li>Raster -> GDAL Georeferencer</li>
+                          <li>add image to georeferencer</li>
+                          <li>add control points (from map canvas)</li>
+                          <li>Settings -> Transformation Settings -> (Choose Transformation Type)</li>
+                          <li>"Play" button</li>
+                          <li>load image in QGIS</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+              </section>
+
+              <section>
                   <section data-background-image="../common/assets/images/fools_Cap_Map_of_the_World.jpg" data-background-size="contain">
                     <div style="position: absolute; left: 80px; top: -40px; font-size: 150%; line-height: 100%; text-align: left; background-color: rgba(255,255,255,0.7); padding: 23px; border-radius: 13px;"><strong>Simplification and Selection</strong></div>
                     <div style="position: absolute; left: 600px; top: 450px; font-size: 150%; line-height: 100%; text-align: left; background-color: rgba(255,255,255,0.7); padding: 23px; border-radius: 13px;"><strong>Classification</strong></div>
@@ -312,23 +381,79 @@
                 <section data-transition="fade">
                   <div class="template-container">
                     <div class="template-title">Classification</div>
-                    <div style="position: absolute; top: 160px;" class="fragment fade-out" data-fragment-index=1>
+                    <div style="position: absolute; top: 113px;" class="fragment fade-out" data-fragment-index=1>
                       <object data="../common/assets/images/plain_data.svg" type="image/svg+xml" style="width: 800px;"></object>
                     </div>
-                    <div style="position: absolute; top: 113px;" class="fragment fade-in-then-out" data-fragment-index=1>
-                      <object data="../common/assets/images/jenks_data.svg" type="image/svg+xml" style="width: 800px;"></object>
+                    <div style="position: absolute; top: 113px;" class="fragment fade-in" data-fragment-index=1>
+                      <div class="fragment fade-out" data-fragment-index=2>
+                        <object data="../common/assets/images/jenks_data.svg" type="image/svg+xml" style="width: 800px;"></object>
+                      </div>
                     </div>
-                    <div style="position: absolute; top: 113px;" class="fragment fade-in-then-out" data-fragment-index=2>
-                      <object data="../common/assets/images/equal_data.svg" type="image/svg+xml" style="width: 800px;"></object>
+                    <div style="position: absolute; top: 113px;" class="fragment fade-in" data-fragment-index=2>
+                      <div class="fragment fade-out" data-fragment-index=3>
+                        <object data="../common/assets/images/equal_data.svg" type="image/svg+xml" style="width: 797px;"></object>
+                      </div>
                     </div>
-                    <div style="position: absolute; top: 113px;" class="fragment fade-in-then-out" data-fragment-index=3>
-                      <object data="../common/assets/images/quantile_data.svg" type="image/svg+xml" style="width: 800px;"></object>
+                    <div style="position: absolute; top: 113px;" class="fragment fade-in" data-fragment-index=3>
+                      <div class="fragment fade-out" data-fragment-index=4>
+                        <object data="../common/assets/images/quantile_data.svg" type="image/svg+xml" style="width: 797px;"></object>
+                      </div>
                     </div>
-                    <div style="position: absolute; top: 113px;" class="fragment fade-in-then-out" data-fragment-index=4>
-                      <object data="../common/assets/images/SD_data.svg" type="image/svg+xml" style="width: 800px;"></object>
+                    <div style="position: absolute; top: 113px;" class="fragment fade-in" data-fragment-index=4>
+                      <div class="fragment fade-out" data-fragment-index=5>
+                        <object data="../common/assets/images/SD_data.svg" type="image/svg+xml" style="width: 797px;"></object>
+                      </div>
                     </div>
-                    <div style="position: absolute; top: 113px;" class="fragment fade-in-then-out" data-fragment-index=5>
-                      <object data="../common/assets/images/color_data.svg" type="image/svg+xml" style="width: 800px;"></object>
+                    <div style="position: absolute; top: 113px;" class="fragment fade-in" data-fragment-index=5>
+                      <object data="../common/assets/images/color_data.svg" type="image/svg+xml" style="width: 797px;"></object>
+                    </div>
+                  </div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-container">
+                    <div style="position: absolute; top: 30px; left: 200px;" class="fragment fade-out" data-fragment-index=1>
+                      <object data="../common/assets/images/distribution.svg" type="image/svg+xml" style="width: 380px;"></object>
+                    </div>
+                    <div style="position: absolute; top: 30px; left: 200px;" class="fragment fade-in" data-fragment-index=1>
+                      <object data="../common/assets/images/color_distribution.svg" type="image/svg+xml" style="width: 380px;"></object>
+                    </div>
+                    <div style="position: absolute; top: 30px; right: 200px" class="fragment fade-in" data-fragment-index=1>
+                      <object data="../common/assets/images/classed_maps.svg" type="image/svg+xml" style="width: 550px;"></object>
+                    </div>
+                  </div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-container">
+                    <div style="position: absolute; top: 100px; left: 200px;" class="fragment fade-out" data-fragment-index=1>
+                      <object data="../common/assets/images/spectral.svg" type="image/svg+xml" style="width: 900px;"></object>
+                    </div>
+                    <div style="position: absolute; top: 100px; left: 200px;" class="fragment fade-in" data-fragment-index=1>
+                      <div class="fragment fade-out" data-fragment-index=2>
+                        <object data="../common/assets/images/diverging.svg" type="image/svg+xml" style="width: 900px;"></object>
+                      </div>
+                    </div>
+                    <div style="position: absolute; top: 100px; left: 200px" class="fragment fade-in" data-fragment-index=2>
+                      <object data="../common/assets/images/sequential.svg" type="image/svg+xml" style="width: 900px;"></object>
+                    </div>
+                  </div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-container">
+                    <div class="template-title">Perceptual Problems</div>
+                    <div style="position: absolute; top: 100px; left: 200px;">
+                      <img src="../common/assets/images/three.jpg" style="max-width: 900px;">
+                    </div>
+                    <div style="position: absolute; top: 450px; right: 150px;">
+                      <img src="../common/assets/images/illusion.jpg" style="max-width: 400px;">
+                    </div>
+                    <div style="position: absolute; top: 500px; left: 150px;">
+                      <ul style="font-size: 80%;">
+                        <li>Be careful with the range of sizes (above)</li>
+                        <li>Be careful of optical illusions (right)</li>
+                      </ul>
                     </div>
                   </div>
                 </section>
