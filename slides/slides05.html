@@ -5,18 +5,321 @@
         <link rel="stylesheet" href="../common/css/white.css">
         <link rel="stylesheet" href="../common/css/overrides.css">
 	    <script src="../common/java/print.js"></script>
-        <title>Urban Cartography - 05</title>
+        <title>Geospatial Visualization - 5</title>
         <meta charset="UTF-8">
     </head>
     <body>
         <div class="reveal">
             <div class="slides">
 
-                <section data-background-image="">
-                    <div style="position: absolute; left: 340px; top: 125px; font-size: 150%; line-height: 100%;"><strong>Urban Cartography</strong></div>
-                    <div style="position: absolute; left: 750px; top: 285px; font-size: 90%">SOA <script>var today = new Date();document.write(today.getFullYear());</script></div>
-                    <div style="position: absolute; left: 460px; top: 390px; font-size: 50%; text-align: left">Dr. Timothy Norris <a href="mailto:tnorris@miami.edu" style="color: #222 !important; text-decoration: underline;">tnorris@miami.edu</a><br>Christopher Mader - <a href="mailto:cmader@med.miami.edu" style="color: #222 !important; text-decoration: underline;">cmader@med.miami.edu</a></div>
+              <section data-background-image="../common/assets/images/figure_2_Colvard.jpg" data-background-size="contain" data-background-color="#000">
+                <div style="position: absolute; left: 0px; top: 40px; font-size: 150%; line-height: 100%; color: #333 !important; text-align: left;"><strong>Geospatial<br>  Visualization</strong></div>
+                <div style="position: absolute; left: 0px; top: 220px; font-size: 90%; color: #333 !important;text-align: right;">School of Architecture<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
+                <div style="position: absolute; left: 0px; top: 400px; font-size: 50%; text-align: left; color: #333 !important; line-height: 145%">Dr. Timothy Norris : <a href="mailto:tnorris@miami.edu" style="color: #333 !important; text-decoration: underline;">tnorris@miami.edu</a><br>Christopher Mader : <a href="mailto:cmader@med.miami.edu" style="color: #333 !important; text-decoration: underline;">cmader@med.miami.edu</a></div>
+                <div style="position: absolute; left: 0px; top: 550px; font-size: 40%; text-align: right; color: #555; width: 280px;">Map from the Detroit Expeditions organized by Bill Bunge in the late 1960s (Colvard 1971, 18). </div>
+              </section>
+
+              <section>
+
+                <section>
+                  <div class="template-title">Symbology and Cartography</div>
+                  <div>
+                    <ul>
+                      <li>The Symbolization Problem</li>
+                      <li>Conventions</li>
+                      <li>Standardization</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
                 </section>
+
+                <section>
+                  <div>
+                    <div class="template-title">The Symbolization Problem</div>
+                    <div>
+                        <div>How to understand geographic phenomena,<br>symbolize them,<br>and then <i>re-present</i> them on a map?<br><br></div>
+                        <ul style="font-size: 80%;">
+                          <li style="margin-bottom: 13px;">Select a measurement level (or find data for the level you are interested in)<br><span style="font-size: 90%;">nominal, ordinal, interval, or ratio (categories to numbers, respectively)</span></li>
+                          <li style="margin-bottom: 13px;">Choose the dimension for the symbol<br><span style="font-size: 90%;">point, line, or area</span></li>
+                          <li>Repeat this process for all features that are desired on the map</li>
+                        </ul>
+                    </div>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div>
+                    <div class="template-title">Symbology and Cartography</div>
+                    <div>
+                        <ul style="font-size: 80%;">
+                          <li style="margin-bottom: 13px;"><i>Mimetic</i> Symbols<br><span style="font-size: 90%;">pictorial symbols or icons</span></li>
+                          <li style="margin-bottom: 13px;"><i>Geometric</i> Symbols<br><span style="font-size: 90%;">points, lines, or polygons</span></li>
+                          <li>... <i>conventions, conventions, conventions</i> ...</li>
+                        </ul>
+                    </div>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                  <section data-transition="fade">
+                    <div class="template-container">
+                      <div class="template-header">&nbsp;</div>
+                      <div class="template-content-containter">
+
+                        <div>
+                          <div class="template-title" style="margin-bottom: 72px !important;">Iconography and Mimetic Symbols</div>
+                          <div class="template-element">
+                            <div style="float: left; width: 40%; margin-left: 4%; margin-top: 42px;">
+                                <ul style="font-size: 80%;">
+                                  <li style="margin-bottom: 42px;">Large online libraries of symbols<br><span style="font-size: 90%;">mostly based on fonts</span>
+                                    <ul style="font-size: 80%;">
+                                        <li><a href="https://labs.mapbox.com/maki-icons/">Mapbox Maki Icons</a></li>
+                                        <li><a href="https://www.dropbox.com/sh/tez260wz22f7q85/AAD1n38kh8SRQmh9qB8AUZkKa?dl=0">OCHA Humanitarian Icons</a></li>
+                                    </ul>
+                                  </li>
+                                  <li>Make your own ...
+                                    <ul style="font-size: 80%;">
+                                      <li>Multi-layered Symbols</li>
+                                      <li>Bitmap Symbols</li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                            </div>
+                            <div style="float: right; width: 50%; margin-right: 4%;">
+                                <div style="display: inline-block; font-size: 85%; text-align: left;">
+                                  <img src="../common/assets/images/symbols1.jpg" style="max-width: 400px;">
+                                </div>
+                                <div style="display: inline-block; font-size: 85%; font-weight: bold; text-align: left; margin-top: 42px; margin-left: 0px;">
+                                  <img src="../common/assets/images/symbols2.jpg" style="max-width: 300px;">
+                                </div> 
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      
+                      <div class="template-footer">&nbsp;</div>
+                   </div>
+                  </section>
+
+                  <section data-transition="fade">
+                    <div class="template-container">
+                      <div class="template-header">&nbsp;</div>
+                      <div class="template-content-containter">
+
+                        <div>
+                          <div class="template-title" style="margin-bottom: 72px !important;">Stacked Symbols</div>
+                          <div class="template-element">
+                            <div style="float: left; width: 40%; margin-left: 4%; margin-top: 42px;">
+                                <ul style="font-size: 80%;">
+                                  <li style="margin-bottom: 42px;">The Highway shield is a classic example of a stacked symbol</li>
+                                  <li>The yellow and black outline that surrounds Peru is a single complex cartographic line symbol with 13 stacked layers</li>
+                                </ul>
+                            </div>
+                            <div style="float: right; width: 50%; margin-right: 4%;">
+                                <div style="display: inline-block; position: relative; top: -190px; left: 300px;">
+                                  <img src="../common/assets/images/highway.jpg" style="max-width: 200px;">
+                                </div> 
+                                <div style="display: inline-block; position: relative; left: -260px; top: 90px;">
+                                  <img src="../common/assets/images/peru.jpg" style="max-width: 300px;">
+                                </div><br>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      
+                      <div class="template-footer">&nbsp;</div>
+                   </div>
+                  </section>
+
+                  <section data-transition="fade">
+                    <div class="template-container">
+                      <div class="template-header">&nbsp;</div>
+                      <div class="template-content-containter">
+
+                        <div>
+                          <div class="template-title" style="margin-bottom: 72px !important;">Geometric Symbols</div>
+                          <div class="template-element">
+                            <div style="float: right; width: 40%; margin-right: 4%; margin-top: 42px;">
+                                <ul style="font-size: 80%;">
+                                  <li style="margin-bottom: 42px;">Primary visual variables: size, shape, orientation, and color (hue, saturation, and value)</li>
+                                  <li>Secondary visual variables: texture, arrangement, pattern orientation, focus                                  </li>
+                                </ul>
+                            </div>
+                            <div style="float: left; width: 50%; margin-left: 4%;">
+                                <div style="display: inline-block; font-size: 85%; text-align: left;">
+                                  <img src="../common/assets/images/variation.jpg" style="max-width: 500px; position: relative; top: -70px; left: -100px;">
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      
+                      <div class="template-footer">&nbsp;</div>
+                   </div>
+                  </section>
+
+                  <section data-transition="fade">
+                    <div class="template-container">
+                      <div class="template-header">&nbsp;</div>
+                      <div class="template-content-containter">
+
+                        <div>
+                          <div class="template-title" style="margin-bottom: 72px !important;">Texture (picture) Symbols</div>
+                          <div class="template-element">
+                            <div style="float: left; width: 20%; margin-left: 4%; margin-top: 42px;">
+                                <ul style="font-size: 80%;">
+                                  <li style="margin-bottom: 42px;">An image for point symbols</li>
+                                  <li>An image as a fill symbol</li>
+                                </ul>
+                            </div>
+                            <div style="float: right; width: 30%; margin-right: 4%;">
+                                <div style="display: inline-block;">
+                                  <img src="../common/assets/images/butterfliesInSwamp.jpg" style="max-width: 400px;">
+                                </div>
+                            </div>
+                            <div style="float: right; width: 35%; margin-right: 4%;">
+                                <div style="display: inline-block;">
+                                  <object data="../common/assets/images/butterfly.svg" type="image/svg+xml" style="width: 200px; height: 200px;"></object>
+                                </div><br>
+                                <div style="display: inline-block;">
+                                  <img src="../common/assets/images/swamp.jpg" style="max-width: 400px; width: 120px;">
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      
+                      <div class="template-footer">&nbsp;</div>
+                   </div>
+                  </section>
+
+            </section>
+
+            <section>
+                
+                  <section data-transition="fade">
+                    <div class="template-container">
+                      <div class="template-header">&nbsp;</div>
+                      <div class="template-content-containter">
+
+                        <div>
+                          <div class="template-title" style="margin-bottom: 72px !important;">Typography and Cartography</div>
+                          <div class="template-element">
+                            <div style="float: left; width: 20%; margin-left: 4%; font-size: 85%">
+                                Perhaps the second hardest part of cartography (after finding data)
+                            </div>
+                            <div style="float: right; width: 70%; margin-right: 4%;">
+                                <div style="display: inline-block;">
+                                  <img src="../common/assets/images/subway.jpg" style="width: 300px; position: relative; top: 300px; left: -600px">
+                                </div><br>
+                                <div style="display: inline-block;">
+                                  <img src="../common/assets/images/worldwords.jpg" style="max-width: 850px; position: relative; top: -250px; left: 100px">
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      
+                      <div class="template-footer">&nbsp;</div>
+                   </div>
+                  </section>
+
+                  <section data-transition="fade" data-background-image="../common/assets/images/periodictype.jpg" data-background-size="contain" data-background-color="#fff">
+                    <div class="template-container">
+                        <div class="fragment" style="position: absolute; top: 40px; left: 40px; background-color: rgba(255,255,255,0.85); padding: 13px; border-radius: 7px; font-size: 80%; border: 1px #000 solid;">Sans Serif</div>
+                        <div class="fragment" style="position: absolute; top: 240px; left: 560px; background-color: rgba(255,255,255,0.85); padding: 13px; border-radius: 7px; font-size: 80%; border: 1px #000 solid;">Serif</div>
+                        <div class="fragment" style="position: absolute; top: 350px; left: 100px; background-color: rgba(255,255,255,0.85); padding: 23px; border-radius: 13px; font-size: 80%; border: 1px #000 solid;">    
+                            Fonts for Cartography<br>
+                            <div style="font-family: gill sans; display: block;">Gill Sans</div>
+                            <div style="font-family: optima; display: block;">Optima</div>
+                            <div style="font-family: caslon pro; display: block;">Caslon Pro</div>
+                            <div style="font-family: myriad pro; display: block;">Myriad Pro</div>
+                            <div style="font-family: meridian; display: block;">Meridian</div>
+                            <div style="font-family: kepler; display: block;">Kepler</div>
+                        </div>
+                        <div class="fragment" style="position: absolute; top: 220px; right: 100px; background-color: rgba(255,255,255,0.85); padding: 23px; border-radius: 13px; font-size: 80%; border: 1px #000 solid;">    
+                            Popular Design Fonts<br>
+                            <div style="font-family: helvetica; display: block;">Helvetica</div>
+                            <div style="font-family: trajan; display: block;">Trajan</div>
+                            <div style="font-family: garamond; display: block;">Garamond</div>
+                            <div style="font-family: futura; display: block;">Futura</div>
+                            <div style="font-family: bodini; display: block;">Bodini</div>
+                            <div style="font-family: frutiger; display: block;">Frutiger</div>
+                        </div>
+                    </div>
+                  </section>
+
+                  <section data-transition="fade">
+                    <div class="template-container">
+                        <div style="position: absolute; top: 40px; left: 40px; "><img src="../common/assets/images/type1.jpg"></div>
+                        <div style="position: absolute; top: 440px; left: 200px;"><img src="../common/assets/images/type2.jpg"></div>
+                        <div style="position: absolute; top: 350px; right: 150px;"><img src="../common/assets/images/type3.jpg"></div>
+                        <div style="position: absolute; top: 150px; right: 100px; font-size: 80%;">Some Terminology<br><i style="font-size: 80%;">More than you wanted to know, but . . .</i></div>
+                    </div>
+                  </section>
+
+                  <section data-transition="fade">
+                    <div class="template-container">
+                      <div class="template-header">&nbsp;</div>
+                      <div class="template-content-containter">
+
+                        <div>
+                          <div class="template-title" style="margin-bottom: 42px !important;">Character SPacing</div>
+                          <div class="template-element">
+                            <div style="float: left; width: 37%; margin-left: 4%; margin-top: 0px; font-size: 80%; text-align: left;">
+                                Kerning<br>
+                                <ul style="font-size: 80%;">
+                                  <li>Special spacing between characters</li>
+                                  <li style="margin-bottom: 42px;">Different for each font</li>
+                                </ul>
+                                Word Spacing<br>
+                                <ul style="font-size: 80%;">
+                                  <li style="margin-bottom: 42px;">Space between words</li>
+                                </ul><br>
+                                Leading<br>
+                                <ul style="font-size: 80%;">
+                                  <li>Space between lines</li>
+                                  <li style="margin-bottom: 42px;">Can be expressed as percent of font height or points</li>
+                                </ul>
+                            </div>
+                            <div style="float: right; width: 55%; margin-right: 4%;">
+                                <div style="display: inline-block;">
+                                    <div style="float: left; width: 40%">
+                                        <img src="../common/assets/images/kerning.jpg" style="max-width: 150px;">
+                                    </div>
+                                    <div style="float: right; width: 45%; font-size: 45%">
+                                        <i>Most design software packages allow for adjustment to kerning between individual characters in a word. This can be important for large fonts; for example poster titles.</i>
+                                    </div>
+                                </div><br>
+                                <div style="display: inline-block;">
+                                  <img src="../common/assets/images/wordspace.jpg" style="max-width: 600px;">
+                                </div>
+                                <div style="display: inline-block;">
+                                  <img src="../common/assets/images/leading.jpg" style="max-width: 600px;">
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      
+                      <div class="template-footer">&nbsp;</div>
+                   </div>
+                  </section>
+
+                  <section data-transition="fade" data-background-image="../common/assets/images/spacing.jpg" data-background-size="contain" data-background-color="#fff">
+                  </section>
+
+                  <section data-transition="fade" data-background-image="../common/assets/images/lettersonmap.jpg" data-background-size="contain" data-background-color="#fff">
+                  </section>
+
+            </section>
 				
             </div>
         </div>

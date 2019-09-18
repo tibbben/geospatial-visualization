@@ -37,7 +37,7 @@ section {
   display: flex; flex-direction: column; align-items: center; width: 1366px; height: 768px; position: absolute; top: 0px; left: 0px;
 }
 .template-header {
-  flex: none; font-size: 0.6em !important; width: 100%; text-align: left; color: #777; border-bottom: 1px solid #c9bf9d !important;
+  flex: none; font-size: 0.6em !important; width: 100%; text-align: left; color: #777;
 }
 .template-header span {
   margin-left: 23px; float: right; margin-right: 23px; color: #c9bf9d;
@@ -79,7 +79,6 @@ section {
 }
 .template-footer {
   flex: none; width: 110%;
-  background-color: #febc11;
   text-align: left;
 }
 .template-footer td {
