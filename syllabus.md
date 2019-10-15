@@ -61,9 +61,9 @@ Introduce maps and GIS as as tools for storytelling.
 -   Choose a subject for the final project and design a file system for the project. 
 -   Be ready to present on chosen subject in the next class meeting.
 
->  [slide deck](slides/slides01.html)  
->  [HW example #1](slides/slides01_sampleHWpresentation01.html)  
->  [HW example #2](slides/slides01_sampleHWpresentation02.html)  
+>  [slide deck](slides/slides010.html)  
+>  [HW example #1](slides/slides010_sampleHWpresentation01.html)  
+>  [HW example #2](slides/slides010_sampleHWpresentation02.html)  
 
 *__Week 2:__ Geospatial Data: Sources and structures*  
 
@@ -99,7 +99,7 @@ sources of data.
 -   Obtain at least three data layers and store in correct file system location.  
 -   Be ready to present the data gathering/transformation process and solution in the next class meeting.  
 
->  [slide deck](slides/slides02.html)  
+>  [slide deck](slides/slides020.html)  
 
 *__Week 3:__ Geospatial Data: coordinate reference systems and interoperability*  
 
@@ -136,7 +136,7 @@ putting multiple data layers together in one GIS and exploring relationships bet
 
 -   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting.
 
->  [slide deck](slides/slides03.html)  
+>  [slide deck](slides/slides030.html)  
 	
 *__Week 4:__ Cartography: The art and science of making a map*  
 
@@ -169,7 +169,7 @@ Apply basic design principals to make a map. This will include using color theor
 -   Complete final project by placing the map image in the context of a larger project.
 -   Be ready to present the export/import work flow and class project in the next class meeting.
 
->  [slide deck](slides/slides04.html)  
+>  [slide deck](slides/slides040.html)  
 	
 *__Week 5:__ GIS, Cartography, and Urban Development*  
 
@@ -187,6 +187,6 @@ Explore how maps are woven into political and social contexts of urban developme
 -   Use criticism to improve final project within a given time.
 -   In class essay that describes how Sheppard (1995) *and any other class material* is relevant in the context of contemporary architecture and urban design. 300 - 500 words.
 
-> [slide deck](slides/slides05.html)  
+> [slide deck](slides/slides050.html)  
 
 ---
