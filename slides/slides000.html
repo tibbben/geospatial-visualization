@@ -53,8 +53,9 @@
 										<span class="fragment" data-fragment-index="1">Kain, R. J. P., & Baigent, E. (1992). <i>The Cadastral Map in the Service of the State: A History of Property Mapping.</i> Chicago: University of Chicago Press.</span>
 									</p>
 									<p class="center fragment fade-out" data-fragment-index="0" style="position: absolute; top: 100px; width: 100%; max-width: 100% !important; text-align: center !important; background-color: rgba(255,255,255,0.9); font-size: 80% !important; padding: 42px 0px 42px 0px;">
-										Timothy B Norris, PhD<br>
-										<br><br><span style="font-size: 80%;">You can follow along at:<br><a href="https://tibbben.github.io/geospatial-visualization/slides/slides000.html">https://tibbben.github.io/geospatial-visualization/</a></span>
+										Timothy B Norris<br><span style="font-size: 80%;">Librarian Associate Professor, Data Science<br>
+										UM Libraries - Institute for Data Science and Computing<br><a href="mailto:tnorris@miami.edu">tnorris@miami.edu</a></span>
+										<br><br><span style="font-size: 80%;">You can follow along at:<br><a href="https://tibbben.github.io/geospatial-visualization/slides/slides000.html">https://tibbben.github.io/geospatial-visualization/slides/slides000.html</a><br><a href="https://bit.ly/3c5SZXO">https://bit.ly/3c5SZXO</a></span>
 									</p>
 								</section>
 
@@ -214,6 +215,26 @@
 				            <div style="font-weight: bold; margin-bottom: 42px;">Note on Physical Model (files on disk)</div>
 				            <object data="../common/assets/images/GISfiles.svg" type="image/svg+xml" style="width: 810px;"></object>
 				        </section>
+
+								<section>
+			            <div style="top: 0px; font-weight: bold; font-size: 110%; position: relative; right: 50px; margin-bottom: 100px;">Two Suggestions for File System Organization</div>
+			            <div style="width: 40%; float: left; font-size: 80%; line-height: normal; text-align: left; position: relative; left: 150px;">
+			            	<span style="font-weight: 600; margin-bottom: 23px !important;">One Project Folder</span>
+				            <ul style="text-align: left; list-style: none; margin-top: 23px; font-size: 85%;">
+				            	<li style="margin-bottom: 13px;">If all project files can reasonable fit in one folder ...</li>
+				            	<li style="margin-bottom: 13px;">Good for sharing projects</li>
+				            	<l>Bad if projects re-use datasets</li>
+				            </ul>
+				          </div>
+				          <div style="width: 40%; float: right; font-size: 80%; line-height: normal; text-align: right; position: relative; right: 150px;">
+				          	<span style="font-weight: 600;  margin-bottom: 23px !important;">One Data Folder</span>
+				            <ul style="text-align: right; list-style: none; margin-top: 23px; font-size: 85%;">
+				            	<li style="margin-bottom: 13px;">If you have lots of data that gets shared across projects ...</li>
+				            	<li style="margin-bottom: 13px;">Bad for sharing projects</li>
+				            	<li>Good for data re-use across projects</li>
+				            </ul>
+			            </div>
+								</section>
 								
 							</section>
 
@@ -507,7 +528,7 @@
 													<li>example: <a href="https://nation.maps.arcgis.com/apps/Cascade/index.html?appid=6984ffb035ed40b8b11e23f41236aac2">Taxi Cab Terrain</a>
 													<li>for an account contact Abraham Parrish (GIS Librarian): <a href="mailto:aparrish@miami.edu">aparrish@miami.edu</a>
 												</ul>
-											<li style="margin-top: 13px;">[ storymap.js - <a href-"https://storymap.knightlab.com/">https://storymap.knightlab.com/</a> ]
+											<li style="margin-top: 13px;">[ storymap.js - <a href="https://storymap.knightlab.com/">https://storymap.knightlab.com/</a> ]
 												<ul style="font-size: 80%;">
 													<li>example: <a href="https://www.minnpost.com/stroll/2014/06/hockey-hip-hop-and-other-green-line-highlights">Hockey, hip-hop, and other Green Line highlights</a>
 												</ul>
@@ -535,7 +556,7 @@
 													<li style="margin-top: 23px;">Backend</li>
 														<ul>
 															<li>RESTful endpoints to database servers</li>
-															<li>tile servers (vector or raster)</li>
+															<li>Tile servers (vector or raster)</li>
 															<li>RESTful endpoints to map servers</li>
 														</ul>
 												</ul>							
@@ -544,194 +565,124 @@
 								</section>
 
 								<section>
-									<div style="font-weight: 600;">Common Web Based GIS Assemblages</div>
+									<div style="font-weight: 600;">Common database servers with/for RESTful endpoints</div>
 									<div style="font-size: 90%;">open source "mashups"</div>
 									<div class="center" style="margin-top: 42px;">
 										<ul style="font-size: 80%;">
-											<li>Common database servers with/for RESTful endpoints
+											<li>Already available</li>
 												<ul style="font-size: 80%;">
-													<li>Already available</li>
-														<ul>
-															<li>ArcGIS Online - <a href="https://www.arcgis.com/index.html">https://www.arcgis.com/index.html</a></li>
-															<li>Many government agencies<br>
-																&nbsp;&nbsp;Miami-Dade County <a href="https://gis-mdc.opendata.arcgis.com">https://gis-mdc.opendata.arcgis.com</a><br>
-																&nbsp;&nbsp;Florda Department of Health <a href="https://fdoh.maps.arcgis.com/home/index.html">https://fdoh.maps.arcgis.com/home/index.html</a></li>
-														</ul>
-													<li style="margin-top: 23px;">Custom built (common approaches)</li>
-														<ul>
-															<li>Relational database (LAMP stack or similar)<br><i>&nbsp;&nbsp;NOTE: the database must have geospatial extensions<br>&nbsp;&nbsp;(postGIS for postgreSQL for example)</i></li>
-															<li>Non SQL database (mongo or similar)</li>
-															<li>Search engine (SOLR/Lucene or similar)</li>
-														</ul>
-												</ul>							
-										</ul>
+													<li>ArcGIS Online - <a href="https://www.arcgis.com/index.html">https://www.arcgis.com/index.html</a><br>&nbsp;&nbsp<i>NOTE: sharing depends on who is providing the data</i></li>
+													<li>Many government agencies<br>
+														&nbsp;&nbsp;Miami-Dade County <a href="https://gis-mdc.opendata.arcgis.com">https://gis-mdc.opendata.arcgis.com</a><br>
+														&nbsp;&nbsp;Florda Department of Health <a href="https://fdoh.maps.arcgis.com/home/index.html">https://fdoh.maps.arcgis.com/home/index.html</a></li>
+												</ul>
+											<li style="margin-top: 23px;">Custom built (common approaches)</li>
+												<ul style="font-size: 80%;">
+													<li>Relational database (LAMP stack or similar)<br><i>&nbsp;&nbsp;NOTE: the database must have geospatial extensions<br>&nbsp;&nbsp;(postGIS for postgreSQL for example)</i></li>
+													<li>Non SQL database (mongo or similar)</li>
+													<li>Search engine (SOLR/Lucene or similar)</li>
+												</ul>
+										</ul>							
 									</div>
 								</section>
 
-							</section>				
-
-							<section>
-								<div style="font-size: 90%;">Less Common GIS Assemblage<br><span style="font-size: 70%;">(but growing quickly)</span></div>
-								<div class="center" style="margin-top: 42px;">
-									<ul style="font-size: 80%;">
-										<li class="fragment">"grid computing" - now called High Performance Computing (HPC) - available on campus
-											<ul style="font-size: 80%;">
-												<li>Pegasus - <a href="http://ccs.miami.edu/pegasus">http://ccs.miami.edu/pegasus</a>
-												<li>interested? create an account at <a href="http://portal.ccs.miami.edu/accounts/new_account/">http://portal.ccs.miami.edu/accounts/new_account/</a>
-											</ul>							
-									</ul>
-								</div>
-							</section>
-
-							<!-- ***
-				            * Organization
-				            * -->
-				            
-				      <section>
-				        
-				        <section data-background-image="../common/assets/images/timeAndSpace.jpg">
-				          <div style="position: absolute; left: 260px; top: -0px; font-size: 110%; line-height: 100%; color: #ddd;"><strong>Data Organization</strong></div>
-				          <div style="position: absolute; left: 350px; top: 160px; font-size: 90%; color: #ddd;">Think about time and space<br>
-				            <ul style="font-size: 85%; line-height: 140%; color: #ddd">
-				              <li>Directory Structure</li>
-				              <li>File Naming Convention</li>
-				            </ul>
-				          </div>
-				          <div style="position: absolute; left: 440px; top: 450px; font-size: 90%; text-align: left; color: #ddd;">Save time and space</div>
-				        </section>
-				        
-				        <section>
-				          <div style="width: 40%; font-size: 85%; top: 150px; left: 150px; position: relative;">
-				            this will get personal
-				          </div>
-				          <br><br><br><br><br>
-				        </section>
-				        
-				        <section>
-				          <div style="font-weight: bold; font-size: 110%;">So ....</div>
-				          <div style="width: 75%; margin-left: auto; margin-right: auto; font-size: 85%; text-align: left; top: 130px; line-height: 120%; position: relative; top: 43px;">
-				            <ul style="font-size: 85%; line-height: 120%;">
-				              <li>Take a moment, think about your file naming for your articles that you save</li>
-				              <ul style="font-size: 85%;">
-				                <li>Are you consistent?</li>
-				                <li>Is it easy to find what you want several months later?</li>
-				              </ul>
-				              <li style="position: relative; left: 23px; margin-top: 50px;">Now think about your file structure for your downloaded articles</li>
-				              <ul style="font-size: 85%;">
-				                <li>Where are the actual files on the computer?</li>
-				                <li>How many folders are you using?</li>
-				                <li>Are they logically organized?</li>
-				              </ul>
-				            </ul>
-				          </div><br><br><br>
-				        </section>
-
-				        <section>
-				          <img src="../common/assets/images/versions.gif" style="max-width: 800px;">
-				          <br><br>
-				          <div style="font-size: 50%; margin-left: auto; margin-right: auto; width: 600px;"><a href="http://phdcomics.com/comics.php?f=1531">http://phdcomics.com/comics.php?f=1531</a></div>
-				        </section>
-				      
-				        <section>
-				          <img src="../common/assets/images/final.gif" style="max-width: 800px;">
-				          <div style="font-size: 50%; margin-left: auto; margin-right: auto; width: 600px;"><a href="http://phdcomics.com/comics.php?f=1531">http://phdcomics.com/comics.php?f=1531</a></div>
-				        </section>        
-				        
-				        <section>
-				          <div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">The Bottom Line: File Naming Conventions<br><span style="font-size: 90%">[ best practices ]</span></div>
-				          <div style="position: relative; margin-left: 20px; margin-right: auto; top: 30px; font-size: 75%; width: 50%; text-align: left;">
-				            <span class="fragment" style="padding-left: 13px;">DO</span><br>
-				            <ul style="font-size: 95%;">
-				              <li class="fragment">useCamelCasing.docx</li>
-				              <li class="fragment">use_underscores.txt</li>
-				              <li class="fragment">2015_put_The_Date_First.csv</li>
-				              <li class="fragment">20150214_useTwoDidgitDateNumbers.xls</li>
-				              <li class="fragment">startASeriesWithLeadingZeros_001.doc</li>
-				              <li class="fragment">20150214_UM_date-place.shp</li>
-				              <li class="fragment">useFileExtensions.jpg</li>
-				            </ul><br><br><br><br>
-				          </div>
-				          <div class="fragment" style="position: absolute; left: 50px; top: 560px; text-align: left; font-size: 45%; width: 300px;">
-				            Mac: Finder: Finder -> Preferences ... : "Advanced" tab, check box next to "Show all filename extensions"
-				          </div>
-				          <div class="fragment" style="position: absolute; left: 1050px; top: 560px; text-align: left; font-size: 45%; width: 300px;">
-				            Win 8 and above: File Explorer: "view" tab, check the box next to: "File name extensions"
-				          </div>
-				          <div style="position: absolute; left: 620px; top: 150px; font-size: 75%; width: 55%; text-align: left;">
-				            <span class="fragment" style="padding-left: 13px;">DON'T</span><br>
-				            <ul style="font-size: 95%;">
-				              <li class="fragment">Leave spaces in the file name.xls</li>
-				              <li class="fragment">Use the default save name from MS word that is simply the long first sentence in your file.doc</li>
-				              <li class="fragment">January 5 2015 Samples with the month first.xls</li>
-				              <li class="fragment">Label as final version.doc</li>
-				              <li class="fragment">"special characters: & , * % # ; * ( ) ! @$ ^ ~ ' { } [ ] ? < > - + /"</li>
-				              <li class="fragment">No more than about 25 characters</li>
-				            </ul><br><br><br><br>
-				          </div>
-				          <div style="position: relative; margin-left: auto; margin-right: auto; top: -60px; text-align: center; font-size: 45%; width: 50%;">
-				            <img src="../common/assets/images/dilbertFileNaming.gif" /><br><a href="http://assets.amuniversal.com/42ec27b03718012ea5cb00163e41dd5b">http://assets.amuniversal.com/42ec27b03718012ea5cb00163e41dd5b</a>
-				          </div>
-				        </section>
-
-				        <section>
-				          <div style="position: relative; margin-left: auto; margin-right: auto; top: 0px; font-weight: bold; font-size: 110%;">The Bottom Line: File Naming Conventions<br><span style="font-size: 90%">[ best practices ]</span></div>
-				          <div style="position: relative; margin-left: 20px; margin-right: auto; top: 30px; font-size: 75%; width: 50%; text-align: left; color: #aaa;">
-				            <span style="padding-left: 13px;">DO</span><br>
-				            <ul style="font-size: 95%;">
-				              <li>useCamelCasing.docx</li>
-				              <li>use_underscores.txt</li>
-				              <li>2015_put_The_Date_First.csv</li>
-				              <li>20150214_useTwoDidgitDateNumbers.xls</li>
-				              <li>startASeriesWithLeadingZeros_001.doc</li>
-				              <li>20150214_UM_date-place.shp</li>
-				              <li>useFileExtensions.jpg</li>
-				            </ul><br><br><br><br>
-				          </div>
-				          <div style="position: absolute; left: 620px; top: 150px; font-size: 75%; width: 55%; text-align: left; color: #aaa;">
-				            <span style="padding-left: 13px;">DON'T</span><br>
-				            <ul style="font-size: 95%;">
-				              <li>Leave spaces in the file name.xls</li>
-				              <li>Use the default save name from MS word that is simply the long first sentence in your file.doc</li>
-				              <li>January 5 2015 Samples with the month first.xls</li>
-				              <li>Label as final version.doc</li>
-				              <li>special characters: & , * % # ; * ( ) ! @$ ^ ~ ' { } [ ] ? < > - + /</li>
-				              <li>No more than about 25 characters</li>
-				            </ul><br><br><br><br>
-				          </div>
-				          <div style="position: relative; margin-left: auto; margin-right: auto; top: -60px; text-align: center; font-size: 45%; width: 50%;">
-				            <img src="../common/assets/images/dilbertFileNaming.gif" /><br><a href="http://assets.amuniversal.com/42ec27b03718012ea5cb00163e41dd5b">http://assets.amuniversal.com/42ec27b03718012ea5cb00163e41dd5b</a>
-				          </div>
-				          <div style="color: #aaa; position: absolute; left: 50px; top: 560px; text-align: left; font-size: 45%; width: 300px;">
-				            Mac: Finder: Finder -> Preferences ... : "Advanced" tab, check box next to "Show all filename extensions"
-				          </div>
-				          <div style="color: #aaa; position: absolute; left: 1050px; top: 560px; text-align: left; font-size: 45%; width: 300px;">
-				            Win 8 and above: File Explorer: "view" tab, check the box next to: "File name extensions"
-				          </div>
-				          <div style="position: absolute; left: 130px; top: 160px; font-size: 200%; width: 1100px; text-align: center; border: 4px red solid; padding-top: 80px; padding-bottom: 80px; background-color: #fff;">Be Consistent</div>
-				        </section>
+								<section>
+									<div style="font-weight: 600;">Common database servers with/for RESTful endpoints</div>
+									<div style="font-size: 90%;">open source "mashups"</div>
+									<div class="center" style="margin-top: 42px;">
+										<ul style="font-size: 80%;">
+											<li>Standards for API data sharing</li>
+												<ul style="font-size: 80%;">
+													<li>ArcGIS Online - <a href="https://www.arcgis.com/index.html">https://www.arcgis.com/index.html</a><br>&nbsp;&nbsp<i>NOTE: sharing depends on who is providing the data</i></li>
+													<li>Many government agencies<br>
+														&nbsp;&nbsp;Miami-Dade County <a href="https://gis-mdc.opendata.arcgis.com">https://gis-mdc.opendata.arcgis.com</a><br>
+														&nbsp;&nbsp;Florda Department of Health <a href="https://fdoh.maps.arcgis.com/home/index.html">https://fdoh.maps.arcgis.com/home/index.html</a></li>
+												</ul>
+											<li style="margin-top: 23px;">Custom built (common approaches)</li>
+												<ul style="font-size: 80%;">
+													<li>Relational database (LAMP stack or similar)<br><i>&nbsp;&nbsp;NOTE: the database must have geospatial extensions<br>&nbsp;&nbsp;(postGIS for postgreSQL for example)</i></li>
+													<li>Non SQL database (mongo or similar)</li>
+													<li>Search engine (SOLR/Lucene or similar)</li>
+												</ul>
+										</ul>							
+									</div>
+								</section>
 
 								<section>
-			            <div style="top: 0px; font-weight: bold; font-size: 110%; position: relative; right: 50px; margin-bottom: 100px;">Two Suggestions for File System Organization</div>
-			            <div style="width: 40%; float: left; font-size: 80%; line-height: normal; text-align: left; position: relative; left: 150px;">
-			            	<span style="font-weight: 600; margin-bottom: 23px !important;">One Project Folder</span>
-				            <ul style="text-align: left; list-style: none; margin-top: 23px; font-size: 85%;">
-				            	<li style="margin-bottom: 13px;">If all project files can reasonable fit in one folder ...</li>
-				            	<li style="margin-bottom: 13px;">Good for sharing projects</li>
-				            	<l>Bad if projects re-use datasets</li>
-				            </ul>
-				          </div>
-				          <div style="width: 40%; float: right; font-size: 80%; line-height: normal; text-align: right; position: relative; right: 150px;">
-				          	<span style="font-weight: 600;  margin-bottom: 23px !important;">One Data Folder</span>
-				            <ul style="text-align: right; list-style: none; margin-top: 23px; font-size: 85%;">
-				            	<li style="margin-bottom: 13px;">If you have lots of data that gets shared across projects ...</li>
-				            	<li style="margin-bottom: 13px;">Bad for sharing projects</li>
-				            	<li>Good for data re-use across projects</li>
-				            </ul>
-			            </div>
+									<div style="font-weight: 600;">Tile servers (vector or raster)</div>
+									<div style="font-size: 90%;">open source "mashups"</div>
+									<div class="center" style="margin-top: 42px;">
+										<ul style="font-size: 80%;">
+											<li>Already available (no fees)</li>
+												<ul style="font-size: 80%;">
+													<li>ESRI
+														<ul>
+															<li>https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/<br>MapServer/tile/{z}/{y}/{x}</li>
+															<li>NatGeo_World_Map, USA_Topo_Maps, World_Imagery, World_Physical_Map,<br>World_Shaded_Relief, World_Street_Map, World_Terrain_Base, World_Topo_Map</li>
+														</ul>
+													<li>Stamen - <a href="http://maps.stamen.com/">http://maps.stamen.com/</a></li>
+														<ul>
+															<li>http://a.tile.stamen.com/toner/${z}/${x}/${y}.png</li>
+															<li>toner, watercolor, terrain</li>
+														</ul>
+													<li>Open Street Map</li>
+														<ul>
+															<li>https://a.tile.openstreetmap.org/${z}/${x}/${y}.png</li>
+															<li>reference list: <a href="https://wiki.openstreetmap.org/wiki/Tile_servers">https://wiki.openstreetmap.org/wiki/Tile_servers</a></li>
+														</ul>
+												</ul>
+										</ul>							
+									</div>
 								</section>
-				        
-				      </section>
-				
+
+								<section>
+									<div style="font-weight: 600;">Tile servers (vector or raster)</div>
+									<div style="font-size: 90%;">open source "mashups"</div>
+									<div class="center" style="margin-top: 42px;">
+										<ul style="font-size: 80%;">
+											<li style="margin-top: 23px;">Custom built (common approaches)</li>
+												<ul style="font-size: 80%;">
+													<li>http webserver (NGINX or apache for example) [raster]<br>
+													  &nbsp;&nbsp;<i>'slippy' tiles in folder structure z/x/y (z is zoom)</i></li>
+													<li>TileserverGL running in Docker container [vector]<br>
+														&nbsp;&nbsp;<a href="http://tileserver.org">http://tileserver.org</a><br>
+														&nbsp;&nbsp;github: <a href="https://github.com/maptiler/tileserver-gl">https://github.com/maptiler/tileserver-gl</a><br>
+													</li>
+												</ul>
+											<li style="margin-top: 23px;">NOTE: all tiles are pre-rendered
+										</ul>							
+									</div>
+								</section>
+
+
+								<section>
+									<div style="font-weight: 600;">RESTful endpoints to map servers</div>
+									<div style="font-size: 90%;">open source "mashups"</div>
+									<div class="center" style="margin-top: 42px;">
+										<ul style="font-size: 80%;">
+											<li style="margin-top: 23px;">On the fly map rendering</li>
+												<ul style="font-size: 80%;">
+													<li>MapServer - <a href="http://mapserver.org/">http://mapserver.org/</a><br>
+													&nbsp;&nbsp;<i>base: Geospatial Data Abstraction Library (GDAL)<br>
+													&nbsp;&nbsp;base: Open GIS Reference (OGR)</i></li>
+												</ul>			
+										</ul>							
+									</div>
+								</section>
+
+							<section>
+								<div style="font-weight: 600; margin-bottom: 42px;">QUESTIONS</div>
+								<ul style="max-width: 85%; font-size: 85%;">
+									<li>What are the four abstraction layers for geospatial data?
+									<li>What four elements of your project do you need to consider before beginning?
+									<li>What are the three common data models for GIS?
+									<li>What is the most common map projection for online mapping applications?
+									<li>What are the two principle components of a map projection?
+									<li>What are the three definitions of GIS?
+									<li>What are the three key elements of a GIS assemblage?
+								</ul>
+							</section>
+
             </div>
         </div>
         <script src="../common/java/reveal.js"></script>
