@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="../common/css/white.css">
         <link rel="stylesheet" href="../common/css/overrides.css">
 	    <script src="../common/java/print.js"></script>
-        <title>Geospatial Visualization - 1</title>
+        <title>GIS for Software Development</title>
         <meta charset="UTF-8">
     </head>
     <body>
@@ -19,7 +19,7 @@
 							<section>
 
 								<section>
-									<div style="margin-bottom: 23px; font-weight: 600;">ARC 581/681 - Geospatial Visualization</div>
+									<div style="margin-bottom: 23px; font-weight: 600;">GIS for Software Development</div>
 									<table style="width: 90%; font-size: 70%;">
 										<tr style="vertical-align:top">
 											<td style="vertical-align: top; text-align: left; width: 35%;">
@@ -54,7 +54,7 @@
 									</p>
 									<p class="center fragment fade-out" data-fragment-index="0" style="position: absolute; top: 100px; width: 100%; max-width: 100% !important; text-align: center !important; background-color: rgba(255,255,255,0.9); font-size: 80% !important; padding: 42px 0px 42px 0px;">
 										Timothy B Norris, PhD<br>
-										Christopher Mader<br><br><span style="font-size: 80%;">You can follow along at:<br><a href="https://tibbben.github.io/geospatial-visualization/">https://tibbben.github.io/geospatial-visualization/</a></span>
+										<br><br><span style="font-size: 80%;">You can follow along at:<br><a href="https://tibbben.github.io/geospatial-visualization/slides/slides000.html">https://tibbben.github.io/geospatial-visualization/</a></span>
 									</p>
 								</section>
 
@@ -294,7 +294,7 @@
 												<li>Extensible data models (trees)
 												<li>Raster data (images)
 											</ul>
-										<li style="margin-top: 23px">Scripting languages
+										<li style="margin-top: 23px">Scripting/programming languages
 									</ul>
 								</div>
 							</section>
@@ -472,13 +472,17 @@
 
 								<section>
 									<div style="font-weight: 600;">Common Web Based GIS Assemblages</div>
-									<div style="font-size: 90%;">Leaflet - creating "mashups"</div>
+									<div style="font-size: 90%;">proprietary "mashups"</div>
 									<div class="center" style="margin-top: 42px;">
 										<ul style="font-size: 80%;">
 											<li>Tool set
 												<ul style="font-size: 80%;">
-													<li>Leaflet - <a href="http://leafletjs.com/">http://leafletjs.com/</a>
-													<li>HTML - javascript - CSS
+													<li>Front end API (javascript)</li>
+														<ul>
+															<li>MapBox-GL - <a href="https://docs.mapbox.com/mapbox-gl-js/api/">https://docs.mapbox.com/mapbox-gl-js/api/</a></li>
+															<li>Google - <a href="https://developers.google.com/maps/documentation/">https://developers.google.com/maps/documentation/</a><br>&nbsp;&nbsp;<i>Look for "Maps Javascript API"</i></li>
+														</ul>
+													<li>HTML - javascript - CSS</li>
 												</ul>							
 											<li style="margin-top: 23px">tree and raster only
 												<ul style="font-size: 80%;">
@@ -512,6 +516,59 @@
 								</section>
 
 							</section>
+
+							<section>
+
+								<section>
+									<div style="font-weight: 600;">Common Web Based GIS Assemblages</div>
+									<div style="font-size: 90%;">open source "mashups"</div>
+									<div class="center" style="margin-top: 42px;">
+										<ul style="font-size: 80%;">
+											<li>Tool set
+												<ul style="font-size: 80%;">
+													<li>Front end API (javascript - html - css)</li>
+														<ul>
+															<li>Leaflet (oldest FOSS API) - <a href="http://leafletjs.com/">http://leafletjs.com/</a></li>
+															<li>Polymaps (a Stamen project) - <a href="http://polymaps.org/">http://polymaps.org/</a></li>
+															<li>Open Street Map Reference list<br><a href="https://wiki.openstreetmap.org/wiki/Frameworks">https://wiki.openstreetmap.org/wiki/Frameworks</a>
+														</ul>
+													<li style="margin-top: 23px;">Backend</li>
+														<ul>
+															<li>RESTful endpoints to database servers</li>
+															<li>tile servers (vector or raster)</li>
+															<li>RESTful endpoints to map servers</li>
+														</ul>
+												</ul>							
+										</ul>
+									</div>
+								</section>
+
+								<section>
+									<div style="font-weight: 600;">Common Web Based GIS Assemblages</div>
+									<div style="font-size: 90%;">open source "mashups"</div>
+									<div class="center" style="margin-top: 42px;">
+										<ul style="font-size: 80%;">
+											<li>Common database servers with/for RESTful endpoints
+												<ul style="font-size: 80%;">
+													<li>Already available</li>
+														<ul>
+															<li>ArcGIS Online - <a href="https://www.arcgis.com/index.html">https://www.arcgis.com/index.html</a></li>
+															<li>Many government agencies<br>
+																&nbsp;&nbsp;Miami-Dade County <a href="https://gis-mdc.opendata.arcgis.com">https://gis-mdc.opendata.arcgis.com</a><br>
+																&nbsp;&nbsp;Florda Department of Health <a href="https://fdoh.maps.arcgis.com/home/index.html">https://fdoh.maps.arcgis.com/home/index.html</a></li>
+														</ul>
+													<li style="margin-top: 23px;">Custom built (common approaches)</li>
+														<ul>
+															<li>Relational database (LAMP stack or similar)<br><i>&nbsp;&nbsp;NOTE: the database must have geospatial extensions<br>&nbsp;&nbsp;(postGIS for postgreSQL for example)</i></li>
+															<li>Non SQL database (mongo or similar)</li>
+															<li>Search engine (SOLR/Lucene or similar)</li>
+														</ul>
+												</ul>							
+										</ul>
+									</div>
+								</section>
+
+							</section>				
 
 							<section>
 								<div style="font-size: 90%;">Less Common GIS Assemblage<br><span style="font-size: 70%;">(but growing quickly)</span></div>

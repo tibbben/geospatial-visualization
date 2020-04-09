@@ -50,7 +50,7 @@ This course introduces the student to Geographic Information Systems (GIS) and h
 -   Krygier, J. & Wood, D. (2016). *Making Maps: A visual Guide to Map Design for GIS (Third ed.)*. New York: The Guilford Press.  
 -   Field, K. (2018). *Cartography. The Definitive Guide to Making Maps*. Redlands, ESRI Press.  
 
-The course will use limited materials from both of the above books. Students are not required to purchase the two books as they both will be available in the Architecture Library as Course Reserve Material. 
+The course will use limited materials from both of the above books. The Krygier and Wood book is a great set of 'how to' materials. The Field book is a beautiful reference for all things cartography. Students are not required to purchase the two books as they both will be available in the Architecture Library as Course Reserve Material, but the books will make valuable additions to any personal library. 
 
 *Other Readings:*  
 
