@@ -1,5 +1,5 @@
 ## ARC581/681-K1 Special Problems (Geospatial Visualization) 
-## Fall 2019 - 1 credit  
+## Fall 2020 - 1 credit  
 [https://tibbben.github.io/geospatial-visualization](https://tibbben.github.io/geospatial-visualization) (this page)  
 
 ---
