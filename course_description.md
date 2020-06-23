@@ -14,7 +14,7 @@ Dr. Timothy Norris
 Librarian Associate Professor, Data Scientist  
 University of Miami Libraries  
 Center for Computational Science  
-Richter Library, Room 347M  
+Ungar Building, 330E  
 Office Hours: Tu 10am - 11am, Th 2:30pm - 3:30pm  
 [tnorris@miami.edu](mailto:tnorris@miami.edu)  
 ph: 305.284.2826  
@@ -31,8 +31,8 @@ ph: 305.243.1607
 
 ###Meetings:  
 
-August 19th - September 20th 2019  
-Time: Wednesdays 6:25pm - 9:05pm  
+August 17th - September 18th 2020
+Time: TBD  
 Place: A49-110  
 
 ---
@@ -50,7 +50,7 @@ This course introduces the student to Geographic Information Systems (GIS) and h
 -   Krygier, J. & Wood, D. (2016). *Making Maps: A visual Guide to Map Design for GIS (Third ed.)*. New York: The Guilford Press.  
 -   Field, K. (2018). *Cartography. The Definitive Guide to Making Maps*. Redlands, ESRI Press.  
 
-The course will use limited materials from both of the above books. The Krygier and Wood book is a great set of 'how to' materials. The Field book is a beautiful reference for all things cartography. Students are not required to purchase the two books as they both will be available in the Architecture Library as Course Reserve Material, but the books will make valuable additions to any personal library. 
+The course will use selected materials from both of the above books. The Krygier and Wood book is a great set of 'how to' materials. The Field book is a beautiful reference for all things cartography. Students are not required to purchase the two books as they both will be available in the Architecture Library as Course Reserve Material, but the books will make valuable additions to any personal library. 
 
 *Other Readings:*  
 
@@ -60,13 +60,13 @@ Optional reading materials will be available through online access or directly f
 
 Students are required to download and transform geospatial data for projects throughout the course and for the final project. Guidance will be given on how to do this.
 
-*Box Folder*  
+*Shared Teams Folder*  
 
-A class box folder for readings and geospatial data is located at: [https://miami.box.com/s/b61jftys3ciuunccc6sepagl9iahjpw8](https://miami.box.com/s/b61jftys3ciuunccc6sepagl9iahjpw8)
+A class box folder for readings and geospatial data is located at: [https://teams.microsoft.com/_#/school/files/General?threadId=19%3A120e795b48384e1d8b935c82aaf3eb43%40thread.tacv2&ctx=channel&context=General&rootfolder=%252Fsites%252FArc581681%252FShared%2520Documents%252FGeneral](https://teams.microsoft.com/_#/school/files/General?threadId=19%3A120e795b48384e1d8b935c82aaf3eb43%40thread.tacv2&ctx=channel&context=General&rootfolder=%252Fsites%252FArc581681%252FShared%2520Documents%252FGeneral)
 
-*Google Doc*  
+*Presentation Schedule*  
 
-A google doc for tracking the in class presentations from Field (2018) is at: [https://docs.google.com/document/d/1XiBNPdDYHxetezWgm4hxp1SUUWbXkRMwVeZpKM7BW5s/edit?usp=sharing](https://docs.google.com/document/d/1XiBNPdDYHxetezWgm4hxp1SUUWbXkRMwVeZpKM7BW5s/edit?usp=sharing)
+An online docx for tracking the in class presentations from Field (2018) is at: [https://teams.microsoft.com/l/file/577347ED-8AAF-486D-B478-87EDBAD66846?tenantId=2a144b72-f239-42d4-8c0e-6f0f17c48e33&fileType=docx&objectUrl=https%3A%2F%2Fmiamiedu.sharepoint.com%2Fsites%2FArc581681%2FShared%20Documents%2FGeneral%2FPresentation%20Topics.docx&baseUrl=https%3A%2F%2Fmiamiedu.sharepoint.com%2Fsites%2FArc581681&serviceName=teams&threadId=19:120e795b48384e1d8b935c82aaf3eb43@thread.tacv2&groupId=9b680da7-c00c-4428-b76d-f87793cef709](https://teams.microsoft.com/l/file/577347ED-8AAF-486D-B478-87EDBAD66846?tenantId=2a144b72-f239-42d4-8c0e-6f0f17c48e33&fileType=docx&objectUrl=https%3A%2F%2Fmiamiedu.sharepoint.com%2Fsites%2FArc581681%2FShared%20Documents%2FGeneral%2FPresentation%20Topics.docx&baseUrl=https%3A%2F%2Fmiamiedu.sharepoint.com%2Fsites%2FArc581681&serviceName=teams&threadId=19:120e795b48384e1d8b935c82aaf3eb43@thread.tacv2&groupId=9b680da7-c00c-4428-b76d-f87793cef709)
 
 ---
 
@@ -82,7 +82,7 @@ Throughout the course students will use several software tools that are propriet
   -   [http://www.esri.com/](http://www.esri.com/arcgis/about-arcgis)
   -   [UMIT ArcGIS](https://www.it.miami.edu/a-z-listing/arcgis/index.html)  
   -   Get ArcGIS Online account from Abe
--   the Adobe Creative Clound suite of design tools:
+-   the Adobe Creative Cloud suite of design tools:
   -   [https://www.adobe.com/](https://www.adobe.com/creativecloud.html)
   -   [UMIT Adobe Creative Cloud](https://www.it.miami.edu/a-z-listing/adobe-creative-cloud/index.html)  
 
