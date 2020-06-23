@@ -29,7 +29,6 @@ ph: 305.243.1607
 
 ---
 
-  
 ###Meetings:  
 
 August 17th - September 18th 2020
