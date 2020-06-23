@@ -62,11 +62,11 @@ Students are required to download and transform geospatial data for projects thr
 
 *Shared Teams Folder*  
 
-A class box folder for readings and geospatial data is located at: [https://teams.microsoft.com/_#/school/files/General?threadId=19%3A120e795b48384e1d8b935c82aaf3eb43%40thread.tacv2&ctx=channel&context=General&rootfolder=%252Fsites%252FArc581681%252FShared%2520Documents%252FGeneral](https://teams.microsoft.com/_#/school/files/General?threadId=19%3A120e795b48384e1d8b935c82aaf3eb43%40thread.tacv2&ctx=channel&context=General&rootfolder=%252Fsites%252FArc581681%252FShared%2520Documents%252FGeneral)
+A shared Microsoft teams folder for readings and geospatial data is located at [https://bit.ly/3dvRCC6](https://bit.ly/3dvRCC6)
 
 *Presentation Schedule*  
 
-An online docx for tracking the in class presentations from Field (2018) is at: [https://teams.microsoft.com/l/file/577347ED-8AAF-486D-B478-87EDBAD66846?tenantId=2a144b72-f239-42d4-8c0e-6f0f17c48e33&fileType=docx&objectUrl=https%3A%2F%2Fmiamiedu.sharepoint.com%2Fsites%2FArc581681%2FShared%20Documents%2FGeneral%2FPresentation%20Topics.docx&baseUrl=https%3A%2F%2Fmiamiedu.sharepoint.com%2Fsites%2FArc581681&serviceName=teams&threadId=19:120e795b48384e1d8b935c82aaf3eb43@thread.tacv2&groupId=9b680da7-c00c-4428-b76d-f87793cef709](https://teams.microsoft.com/l/file/577347ED-8AAF-486D-B478-87EDBAD66846?tenantId=2a144b72-f239-42d4-8c0e-6f0f17c48e33&fileType=docx&objectUrl=https%3A%2F%2Fmiamiedu.sharepoint.com%2Fsites%2FArc581681%2FShared%20Documents%2FGeneral%2FPresentation%20Topics.docx&baseUrl=https%3A%2F%2Fmiamiedu.sharepoint.com%2Fsites%2FArc581681&serviceName=teams&threadId=19:120e795b48384e1d8b935c82aaf3eb43@thread.tacv2&groupId=9b680da7-c00c-4428-b76d-f87793cef709)
+An on line docx for tracking the in class presentations from Field (2018) is at: [https://bit.ly/2B2k9lC](https://bit.ly/2B2k9lC)
 
 ---
 
