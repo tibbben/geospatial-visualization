@@ -1,4 +1,4 @@
-## ARC581/681-K1 Special Problems (Geospatial Visualization) 
+## ARC581/681-K1 Special Problems (Geospatial Visualization)  
 ## Fall 2020 - 1 credit  
 [https://tibbben.github.io/geospatial-visualization](https://tibbben.github.io/geospatial-visualization) (this page)  
 
@@ -29,6 +29,7 @@ ph: 305.243.1607
 
 ---
 
+  
 ###Meetings:  
 
 August 17th - September 18th 2020
