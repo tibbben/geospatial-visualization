@@ -1,4 +1,4 @@
-## ARC581/681-K1 Special Problems (Geospatial Visualization)  
+## ARC 581/681-K1 Special Problems (Geospatial Visualization)  
 ## Fall 2020 - 1 credit  
 [https://tibbben.github.io/geospatial-visualization](https://tibbben.github.io/geospatial-visualization) (this page)  
 
@@ -13,27 +13,25 @@
 Dr. Timothy Norris  
 Librarian Associate Professor, Data Scientist  
 University of Miami Libraries  
-Center for Computational Science  
+Institute for Data Science and Computing  
 Ungar Building, 330E  
-Office Hours: Tu 10am - 11am, Th 2:30pm - 3:30pm  
+Office Hours: by appointment only (virtual)  
 [tnorris@miami.edu](mailto:tnorris@miami.edu)  
-ph: 305.284.2826  
 
 Christopher Mader  
 Director of Software Engineering  
-Center for Computational Science  
+Institute for Data Science and Computing  
 Ungar Building, 330F  
-Office Hours: Mo 9:30 - 11:30  
+Office Hours: by appointment only (virtual)  
 [cmader@med.miami.edu](mailto:cmader@med.miami.edu)  
-ph: 305.243.1607
 
 ---
 
 ###Meetings:  
 
-August 17th - September 18th 2020
-Time: TBD  
-Place: A49-110  
+August 17th - September 18th 2020  
+Time: 6:35 pm - 9:05 pm  
+Place: A49-110 (SOA Media Lab)  
 
 ---
 

@@ -21,10 +21,14 @@
        htmlDescription = markdown.toHTML(mdDescription,'Maruku'),
 	     mdSyllabus = readTextFile("syllabus.md"),
        htmlSyllabus = markdown.toHTML(mdSyllabus,'Maruku'),
-       mdBoilerplate = readTextFile("boilerplate.md"),
-       htmlBoilerplate = markdown.toHTML(mdBoilerplate,'Maruku'),
+       mdClassBoilerplate = readTextFile("classboilerplate.md"),
+       htmlClassBoilerplate = markdown.toHTML(mdClassBoilerplate,'Maruku'),
+       mdCovidBoilerplate = readTextFile("covidboilerplate.md"),
+       htmlCovidBoilerplate = markdown.toHTML(mdCovidBoilerplate,'Maruku'),
+       mdSOABoilerplate = readTextFile("soaboilerplate.md"),
+       htmlSOABoilerplate = markdown.toHTML(mdSOABoilerplate,'Maruku'),
        mdView = document.getElementById('main');
-   mdView.innerHTML = htmlDescription + htmlSyllabus + htmlBoilerplate;       
+   mdView.innerHTML = htmlDescription + htmlSyllabus + htmlClassBoilerplate + htmlCovidBoilerplate + htmlSOABoilerplate;       
   </script>
  </body>
  
