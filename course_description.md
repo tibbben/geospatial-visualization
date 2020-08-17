@@ -23,7 +23,7 @@ Christopher Mader
 Director of Software Engineering  
 Institute for Data Science and Computing  
 Ungar Building, 330F  
-Office Hours: by appointment only (virtual) 
+Office Hours: by appointment only (virtual)  
 Book appointment: [https://cmader.youcanbook.me](https://cmader.youcanbook.me){:target="\_blank"}  
 [cmader@med.miami.edu](mailto:cmader@med.miami.edu)  
 
