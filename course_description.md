@@ -16,13 +16,15 @@ University of Miami Libraries
 Institute for Data Science and Computing  
 Ungar Building, 330E  
 Office Hours: by appointment only (virtual)  
+Book appointment: [https://tibben.youcanbook.me/](https://tibben.youcanbook.me/){:target="\_blank"}  
 [tnorris@miami.edu](mailto:tnorris@miami.edu)  
 
 Christopher Mader  
 Director of Software Engineering  
 Institute for Data Science and Computing  
 Ungar Building, 330F  
-Office Hours: by appointment only (virtual)  
+Office Hours: by appointment only (virtual) 
+Book appointment: [https://cmader.youcanbook.me](https://cmader.youcanbook.me){:target="\_blank"}  
 [cmader@med.miami.edu](mailto:cmader@med.miami.edu)  
 
 ---
@@ -32,6 +34,7 @@ Office Hours: by appointment only (virtual)
 August 17th - September 18th 2020  
 Time: 6:35 pm - 9:05 pm  
 Place: A49-110 (SOA Media Lab)  
+Zoom meeting links: [https://www.courses.miami.edu/webapps/blackboard/content/launchLink.jsp?course\_id=\_556411\_1&tool\_id=\_6571\_1&tool\_type=TOOL&mode=cpview&mode=reset](https://www.courses.miami.edu/webapps/blackboard/content/launchLink.jsp?course\_id=\_556411\_1&tool\_id=\_6571\_1&tool\_type=TOOL&mode=cpview&mode=reset){:target="\_blank"}  
 
 ---
 
@@ -50,7 +53,7 @@ In these unusual and extra-ordinary times we are making every effort to provide 
 -   Krygier, J. & Wood, D. (2016). *Making Maps: A visual Guide to Map Design for GIS (Third ed.)*. New York: The Guilford Press.  
 -   Field, K. (2018). *Cartography. The Definitive Guide to Making Maps*. Redlands, ESRI Press.  
 
-The course will use selected materials from both of the above books. The Krygier and Wood book is a great set of 'how to' materials. The Field book is a beautiful reference for all things cartography. Students are not required to purchase the two books, but aquiring your own copy is highly recommended and will make valuable additions to any personal library. Alternatively the Krygier and Wood book is available as en eBook through the library website and the instructors will provide limited access to the Field book as needed for assignments.
+The course will use selected materials from both of the above books. The Krygier and Wood book is a great set of 'how to' materials. The Field book is a beautiful reference for all things cartography. Students are not required to purchase the two books, but acquiring your own copy is highly recommended and will make valuable additions to any personal library. Alternatively the Krygier and Wood book is available as en eBook through the library website and the instructors will provide limited access to the Field book as needed for assignments.
 
 *Other Readings:*  
 
@@ -60,13 +63,13 @@ Optional reading materials will be available through online access or directly f
 
 Students are required to download and transform geospatial data for projects throughout the course and for the final project. Guidance will be given on how to do this.
 
-*Shared Teams Folder*  
+*Shared Box Folder*  
 
-A shared Microsoft teams folder for readings and geospatial data is located at [https://bit.ly/3dvRCC6](https://bit.ly/3dvRCC6){:target="\_blank"}
+A sharedbox folder for readings and geospatial data is located at [https://miami.box.com/s/zyty0b8zc7d8ngsy0wi396lubqwoa36u](https://miami.box.com/s/zyty0b8zc7d8ngsy0wi396lubqwoa36u){:target="\_blank"}
 
 *Presentation Schedule*  
 
-An on line docx file (PresentationsTopics.docx) for tracking the in class presentations from Field (2018) is in the shared teams folder mentioned above and can be accessed directly at: [https://bit.ly/2B2k9lC](https://bit.ly/2B2k9lC){:target="\_blank"}
+An online docx file (PresentationsTopics.docx) for tracking the in class presentations from Field (2018) is in the shared teams folder mentioned above and can be accessed directly at: [https://miami.box.com/s/7zb14u6ho2mneweiv63z46n3j3w0tdot](https://miami.box.com/s/7zb14u6ho2mneweiv63z46n3j3w0tdot){:target="\_blank"}
 
 ---
 
@@ -78,13 +81,19 @@ Throughout the course students will use several software tools that are propriet
 
 *Proprietary (get through UMIT)*  
 
--   the ESRI ArcGIS suite of mapping tools (PC only):
+-   the ESRI ArcGIS suite of mapping tools:
   -   [http://www.esri.com/](http://www.esri.com/arcgis/about-arcgis){:target="\_blank"}
   -   [UMIT ArcGIS](https://www.it.miami.edu/a-z-listing/arcgis/index.html){:target="\_blank"}  
-  -   Please email [software@miami.edu](mailto:software@miami.edu) with your instructor's name (Norris) and class (Arc 581/681), to gain access to ArcGIS.
+  -   Please email [software@miami.edu](mailto:software@miami.edu) with your instructor's name (Norris) and class (Arc 581/681), to gain access to ArcGIS. 
+
+-   Mac Users: to use ESRI's ArcGIS suite you can install bootcamp on your Mac and then gain access as above (optional)
+  -   Get Bootcamp from [https://support.apple.com/boot-camp](https://support.apple.com/boot-camp)
+  -   Free UMIT install service at [https://studentsupport.it.miami.edu/sthd/services.html](https://studentsupport.it.miami.edu/sthd/services.html)
+
 -   ESRI ArcGIS Online (all platforms)
   -   Get ArcGIS Online account; you should have received an invite already. If you did not receive the invite, please contact the GIS Librarian, Abraham Parrish [aparrish@miami.edu](mailto:aparrish@miami.edu).
--   the Adobe Creative Cloud suite of design tools:
+
+-   the Adobe Creative Cloud suite of design tools
   -   [https://www.adobe.com/](https://www.adobe.com/creativecloud.html){:target="\_blank"}
   -   [UMIT Adobe Creative Cloud](https://www.it.miami.edu/a-z-listing/adobe-creative-cloud/index.html){:target="\_blank"}  
 
@@ -94,7 +103,7 @@ Throughout the course students will use several software tools that are propriet
 *Open-Source*  
 
 -   QGIS [https://www.qgis.org/](https://www.qgis.org/en/site/){:target="\_blank"}  
--   PostgreSQL [https://www.postgresql.org/](https://www.postgresql.org){:target="\_blank"}  
+-   PostgreSQL [https://www.postgresql.org/](https://www.postgresql.org){:target="\_blank"} (optional)  
 
 *Extras for Covid19 hybrid classroom*  
 
@@ -169,7 +178,7 @@ Students will be assigned a letter grade (A-F) based on the following:
 ###Assignments:  
 
 With the exception of the first meeting, there will be assignments for each meeting throughout 
-the five week course. These assignments will include reading, practical computer work, preparation 
+the five week course. These assignments will include reading with short written summaries, practical computer work, preparation 
 for in class presentations, and cartography/GIS assignments. All assignments made will be due in the 
 following class meeting as per the weekly schedule.  
 
@@ -181,12 +190,13 @@ While the class schedule in this syllabus (below) contains guidelines for the as
 
 Engagement in class activities through speaking, assigned in-class presentations, and participating in 
 thoughtful, engaged and positive criticism of instructor and student work is very important and will 
-be evaluated for each class meeting.
+be evaluated for each class meeting. As a part of class participation in the Zoom meetings you may be asked 
+to share your screen; you are expected to be prepared to share your screen at a moments notice.
 
 ---
 
 ###Class Project:  
 
-As a class project, each student will create one map layout and present it through a medium of their choice (print, projected, online, or another). The map image must have at least two layers of data displayed in a simple overlay analysis (this does not include background or base map layers) and there must be an aggregated data set either displayed as geographic information on the map image itself or as a summary table included in the map layout. The map layout must tell a story: this means the layout may use elements such as a title, legend, labels, geographic features, scale, descriptive text, context, locater map, insets, credits, and sources with integrity in a harmonious and holistic presentation to make a spatial argument or to present a spatial vision of past, present or future. The class project will be presented in the final meeting for a critical review by fellow students and instructors.
+As a class project, each student will create one map layout and present it through a medium of their choice (print, projected, online, or another). The map  must have at least two layers of data displayed in a simple overlay analysis (this does not include background or base map layers) and there must be an aggregated data set either displayed as geographic information on the map image itself or as a summary table included in the map layout. The map layout must tell a story: this means the layout may use elements such as a title, legend, labels, geographic features, scale, descriptive text, context, locater map, insets, credits, and sources with integrity in a harmonious and holistic presentation to make a spatial argument or to present a spatial vision of past, present or future. The class project will be presented in the final meeting for a critical review by fellow students and instructors.
 
 ---

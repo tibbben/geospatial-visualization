@@ -4,7 +4,7 @@ All topics/dates/assignments are subject to revision/change based on
 instructor decisions and any other *force majeur* that may take place
 during the quarter.  
 
-All assigned reading is to be completed before the next class meeting. While the optional reading is not required, most of these suggestions are not long reads, and the student's understanding of the material will benefit greatly if time is available.
+All assigned reading is to be completed before the next class meeting. *A short one paragraph written summary of the required readings is to be emailed to [tnorris@miami.edu](mailto:tnorris@miami.edu) and [cmader@med.miami.edu](mailto:cmader@med.miami.edu) before class instruction begins (one email)*. While the optional reading is not required, most of these suggestions are not long reads, and the student's understanding of the material will benefit greatly if time is available.
 
 *__Pre-Class Preparation:__*  
 
