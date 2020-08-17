@@ -18,7 +18,7 @@ Before the first class meeting all students should also complete the following r
   -   front matter of book up to page 17.
   -   chapter 2: What's Your Map For? pp. 36 - 41.
 
-NOTE: *Making Maps* (Krygier & Wood, 2016) download through page 31 available at: [https://www.researchgate.net/publication/307640488_Making_Maps_A_Visual_Guide_to_Map_Design_for_GIS_3rd_Edition](https://www.researchgate.net/publication/307640488_Making_Maps_A_Visual_Guide_to_Map_Design_for_GIS_3rd_Edition).
+NOTE: *Making Maps* (Krygier & Wood, 2016) download through page 31 available at: [https://www.researchgate.net/publication/307640488_Making_Maps_A_Visual_Guide_to_Map_Design_for_GIS_3rd_Edition](https://www.researchgate.net/publication/307640488_Making_Maps_A_Visual_Guide_to_Map_Design_for_GIS_3rd_Edition){:target="\_blank"}.
 
 >  Optional Reading (can be completed before first class meeting):
 
@@ -51,8 +51,8 @@ Introduce maps and GIS as as tools for storytelling.
 >  Optional Reading:
 
 -   *Making Maps* (Krygier & Wood, 2016). All of chapters 2 and 3.
--   Sui, Daniel. 2008. "The Wikification of GIS and its Consequences or Angelina Jolie's New Tattoo and the Future of GIS."  *Computers, Environment and Urban Systems* 32:1-5. DOI: [10.1016/j.compenvurbsys.2007.12.001](https://doi.org/10.1016/j.compenvurbsys.2007.12.001).  
--   Vernacularology. [http://vernacularology.ccs.miami.edu/](http://vernacularology.ccs.miami.edu/)
+-   Sui, Daniel. 2008. "The Wikification of GIS and its Consequences or Angelina Jolie's New Tattoo and the Future of GIS."  *Computers, Environment and Urban Systems* 32:1-5. DOI: [10.1016/j.compenvurbsys.2007.12.001](https://doi.org/10.1016/j.compenvurbsys.2007.12.001){:target="\_blank"}.  
+-   Vernacularology. [http://vernacularology.ccs.miami.edu/](http://vernacularology.ccs.miami.edu/){:target="\_blank"}
 
 >  Assignments:
 
@@ -61,9 +61,9 @@ Introduce maps and GIS as as tools for storytelling.
 -   Choose a subject for the final project and design a file system for the project. 
 -   Be ready to present on chosen subject in the next class meeting.
 
->  [slide deck](slides/slides010.html)  
->  [HW example #1](slides/slides010_sampleHWpresentation01.html)  
->  [HW example #2](slides/slides010_sampleHWpresentation02.html)  
+>  [slide deck](slides/slides010.html){:target="\_blank"}  
+>  [HW example #1](slides/slides010_sampleHWpresentation01.html){:target="\_blank"}  
+>  [HW example #2](slides/slides010_sampleHWpresentation02.html){:target="\_blank"}  
 
 *__Week 2:__ Geospatial Data: Sources and structures*  
 
@@ -91,7 +91,7 @@ sources of data.
 
 >  Optional Reading:
 
--   Caquard, Sébastien. 2011. "Cartography I."  *Progress in Human Geography* 37 (1):135-144. doi: [10.1177/0309132511423796](https://doi.org/10.1177/0309132511423796).  
+-   Caquard, Sébastien. 2011. "Cartography I."  *Progress in Human Geography* 37 (1):135-144. doi: [10.1177/0309132511423796](https://doi.org/10.1177/0309132511423796){:target="\_blank"}.  
 
 >  Assignments:  
 
@@ -99,7 +99,7 @@ sources of data.
 -   Obtain at least three data layers and store in correct file system location.  
 -   Be ready to present the data gathering/transformation process and solution in the next class meeting.  
 
->  [slide deck](slides/slides020.html)  
+>  [slide deck](slides/slides020.html){:target="\_blank"}  
 
 *__Week 3:__ Geospatial Data: coordinate reference systems and interoperability*  
 
@@ -136,7 +136,7 @@ putting multiple data layers together in one GIS and exploring relationships bet
 
 -   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting.
 
->  [slide deck](slides/slides030.html)  
+>  [slide deck](slides/slides030.html){:target="\_blank"}  
 	
 *__Week 4:__ Cartography: The art and science of making a map*  
 
@@ -160,8 +160,8 @@ Apply basic design principals to make a map. This will include using color theor
 
 >  Optional Reading:
 
--   Sheppard, Eric. 1995. "GIS and society: towards a research agenda."  Cartography and Geographic Information Systems 22 (1):5-16. doi: [10.1559/152304095782540555](https://doi.org/10.1559/152304095782540555). [ NOTE: This article is not available with University of Miami subscriptions, and instead will be provided by the instructors. ]
--   Sieber, Renee. 2006. "Public Participation Geographic Information Systems: A Literature Review and Framework."  Annals of the Association of American Geographers 96 (3):491-507. doi: [10.1111/j.1467-8306.2006.00702.x](https://doi.org/10.1111/j.1467-8306.2006.00702.x).
+-   Sheppard, Eric. 1995. "GIS and society: towards a research agenda."  Cartography and Geographic Information Systems 22 (1):5-16. doi: [10.1559/152304095782540555](https://doi.org/10.1559/152304095782540555){:target="\_blank"}. [ NOTE: This article is not available with University of Miami subscriptions, and instead will be provided by the instructors. ]
+-   Sieber, Renee. 2006. "Public Participation Geographic Information Systems: A Literature Review and Framework."  Annals of the Association of American Geographers 96 (3):491-507. doi: [10.1111/j.1467-8306.2006.00702.x](https://doi.org/10.1111/j.1467-8306.2006.00702.x){:target="\_blank"}.
 
 >  Assignments:
 
@@ -169,7 +169,7 @@ Apply basic design principals to make a map. This will include using color theor
 -   Complete final project by placing the map image in the context of a larger project.
 -   Be ready to present the export/import work flow and class project in the next class meeting.
 
->  [slide deck](slides/slides040.html)  
+>  [slide deck](slides/slides040.html){:target="\_blank"}  
 	
 *__Week 5:__ GIS, Cartography, and Urban Development*  
 
@@ -187,6 +187,6 @@ Explore how maps are woven into political and social contexts of urban developme
 -   Use criticism to improve final project within a given time.
 -   In class essay that describes how Sheppard (1995) *and any other class material* is relevant in the context of contemporary architecture and urban design. 300 - 500 words.
 
-> [slide deck](slides/slides050.html)  
+> [slide deck](slides/slides050.html){:target="\_blank"}  
 
 ---
