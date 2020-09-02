@@ -108,24 +108,23 @@ putting multiple data layers together in one GIS and exploring relationships bet
 
 >  Learning Objectives:
 
+-   Understand basic principals of map projections and coordinate reference systems.
 -   Able to perform basic overlay analysis using GIS.
--   Able to perform spatial or categorical joins between two geospatial data sets/layers.
 
 >  Practical Objectives:
 
 -   Transform all datasets to one chosen coordinate reference system (CRS), if necessary.
 -   Construct a Geographic Information System (GIS) for the final project.
--   Perform a "join" between two sources of geospatial data.
 
 >  Assigned Reading:
 
--  none
+-   *Making Maps* (Krygier & Wood, 2016)
+  -   chapter 9: Map Symbolization. pp. 184 - 201.
+  -   chapter 11: Words on Maps. pp. 232 - 251.
 	
 >  Optional Reading:
 
--   *Making Maps* (Krygier & Wood, 2016)
-  -   chapter 11: Words on Maps. pp. 232 - 251.
-  -   chapter 10: Map Symbol Abstraction. pp. 252 - 277.
+-   Sheppard, Eric. 1995. "GIS and society: towards a research agenda."  Cartography and Geographic Information Systems 22 (1):5-16. doi: [10.1559/152304095782540555](https://doi.org/10.1559/152304095782540555){:target="\_blank"}. [ NOTE: This article is not available with University of Miami subscriptions, and instead will be provided by the instructors. ]
 
 >  Assignments:
 
@@ -144,23 +143,24 @@ Apply basic design principals to make a map. This will include using color theor
 
 > Learning Objectives:
 
--   Understand basic principals of map projections and coordinate reference systems.
+-   Able to perform spatial or categorical joins between two geospatial data sets/layers.
 -   Able to describe classification in terms of geospatial data and cartography.
 
 >  Practical Objectives:
 
+-   Perform a "join" between two sources of geospatial data.
 -   Symbolize several data layers in the GIS and prepare the maps for export to a design application.
 -   Create a final publication ready map in a design application of choice to be presented through a medium of choice.
 
 >  Assigned Reading:
 
 -   *Making Maps* (Krygier & Wood, 2016)
-  -   chapter 9: Map Symbolization. pp. 184 - 201.
   -   chapter 10: Map Symbol Abstraction. pp. 204 - 231.
 
 >  Optional Reading:
 
--   Sheppard, Eric. 1995. "GIS and society: towards a research agenda."  Cartography and Geographic Information Systems 22 (1):5-16. doi: [10.1559/152304095782540555](https://doi.org/10.1559/152304095782540555){:target="\_blank"}. [ NOTE: This article is not available with University of Miami subscriptions, and instead will be provided by the instructors. ]
+-   *Making Maps* (Krygier & Wood, 2016)
+  -   chapter 10: Map Symbol Abstraction. pp. 252 - 277.
 -   Sieber, Renee. 2006. "Public Participation Geographic Information Systems: A Literature Review and Framework."  Annals of the Association of American Geographers 96 (3):491-507. doi: [10.1111/j.1467-8306.2006.00702.x](https://doi.org/10.1111/j.1467-8306.2006.00702.x){:target="\_blank"}.
 
 >  Assignments:
