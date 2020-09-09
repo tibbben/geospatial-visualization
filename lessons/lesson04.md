@@ -1,28 +1,30 @@
-Lesson 4
+Lesson 4  
 ========
-
-**Learning Objectives**
-- TBD
-
----
 
 **Lesson Plan**  
 
-*__Class 1__*  
+total time 150 minutes. 
 
-1. TBD
+1.   Housekeeping (6:40 pm - 10 min)  
+   -   Questions on homework, readings, syllabus (note on readings)
+   -   Ask about problems with downloading data
+   -   Encourage early conversations with Chris or myself about project ideas
+   -   Introduce shift to getting data and hands on work (rest of course)
 
-*__Class 2__*  
+2.   Demonstrations (6:50 pm 20 min)
+   -   georeferencing
+   -   layout windows
 
-1. TBD
+3.   Lecture - Selection, Simplification, Classification (7:10 - 20 minutes)
 
----
+4.   Demonstrations (7:30 - 20 minutes)
+   -   geocoding
+   -   id based join
 
-> Readings (required)
+5.   Break (7:50 - 5 minutes)]
 
- - TBD
+6.   Student Presentations (7:55 - 50 minutes)
 
-> Readings (highly recomended)
+7.   Lecture - Text on Maps (8:45 - 15 minutes)
 
- - TBD
-
+8.   Close (9:00 - 5 min)

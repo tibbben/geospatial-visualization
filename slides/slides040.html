@@ -21,6 +21,101 @@
               </section>
 
               <section>
+
+                <section>
+                  <div class="template-title">A few exercises</div>
+                  <div>
+                    <ul>
+                      <li>Georeferencing<br><span style="font-size: 80%">> locating external files in geographic space</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Creating Layouts<br><span style="font-size: 80%">> for printing and export to design programs</span></li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Georeferencing ARC GIS Pro</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>For both raster (tiff, jpg) and vector (dxf) data</li>
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro Raster
+                        <ul style="font-size: 80%;">
+                          <li>add layer to map</li>
+                          <li>click Raster layer: find "Image" panel > georeference</li>
+                          <li>fit to display, move, scale</li>
+                          <li>add control points</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro Vector
+                        <ul style="font-size: 80%;">
+                          <li>add layer to map</li>
+                          <li>click CAD layer group > expand layer group > select one CAD layer</li>
+                          <li>click "CAD Layer" panel > georeference</li>
+                          <li>fit to display, move, scale</li>
+                          <li>add control points</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Georeferencing QGIS</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>For both raster (tiff, jpg) and vector (dxf) data</li>
+                      <li style="margin: 13px 0px 0px 0px;">QGIS Vector
+                        <ul style="font-size: 80%;">
+                          <li>possible but a little complicated</li>
+                          <li>google "georeference dxf QGIS"
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">QGIS Raster
+                        <ul style="font-size: 80%;">
+                          <li>Plugins - GDAL georeferencer</li>
+                          <li>Raster > GDAL Georeferencer</li>
+                          <li>add image to georeferencer</li>
+                          <li>add control points (from map canvas)</li>
+                          <li>Settings > Transformation Settings > (Choose Transformation Type)</li>
+                          <li>"Play" button</li>
+                          <li>load image in QGIS</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Layouts for Printing and Export</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro 
+                        <ul style="font-size: 80%;">
+                          <li>"Insert" Panel > New Layout (choose size)</li>
+                          <li>Add "Map Frame" and adjust scale and size</li>
+                          <li>add other elements: title, legend, scalebar</li>
+                          <li>"Share" Panel > Layout > export</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">QGIS
+                        <ul style="font-size: 80%;">
+                          <li>Project > New Print Layout (create a name)</li>
+                          <li>right click on page to change "Page Properties"</li>
+                          <li>Add Item > Add Map (draw rectangle on page)</li>
+                          <li>add other elements: title, legend, scalebar</li>
+                          <li>Layout > Export</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+              </section>  
+
+              <section>
                   <section data-background-image="../common/assets/images/fools_Cap_Map_of_the_World.jpg" data-background-size="contain">
                     <div style="position: absolute; left: 80px; top: -40px; font-size: 150%; line-height: 100%; text-align: left; background-color: rgba(255,255,255,0.7); padding: 23px; border-radius: 13px;"><strong>Simplification and Selection</strong></div>
                     <div style="position: absolute; left: 600px; top: 450px; font-size: 150%; line-height: 100%; text-align: left; background-color: rgba(255,255,255,0.7); padding: 23px; border-radius: 13px;"><strong>Classification</strong></div>
@@ -329,18 +424,21 @@
                   <div>
                     <ul style="font-size: 80%;">
                       <li>Census data example: attributes and geography come separate</li>
-                      <li style="margin: 13px 0px 0px 0px;">Get Census data from the "Census American Factfinder"
+                      <li style="margin: 13px 0px 0px 0px;">Get Census data from the "US Census Bureau" (data.census.gov)
                         <ul style="font-size: 80%;">
-                            <li>Advanced Search > Show Me All</li>
-                            <li>On left side select "Topics"</li>
-                            <li>On left side select "Geographies"</li>
-                            <li>When ready > click "Download"</li>
+                            <li>Search and select table</li>
+                            <li>"Customize Table" and add geography</li>
+                            <li>Goto "Map" to check</li>
+                            <li>When ready, return to table > click "Download"</li>
                         </ul>
                       </li>
                       <li style="margin: 13px 0px 0px 0px;">Get geographic data from "Census Geography Program"
                         <ul style="font-size: 80%;">
                             <li>Look for "Tiger/Line Geodatabases"</li>
                             <li>Select "State Level Geodatbases" and your state</li>
+                            <li> -- OR -- </li>
+                            <li>Look for :cartographic Boundary Files"</li>
+                            <li>Choose type and scale -> download</li>
                         </ul>
                       </li>
                     </ul>
@@ -356,9 +454,9 @@
                       <li style="margin: 13px 0px 0px 0px;">in the GIS ...
                         <ul style="font-size: 80%;">
                             <li>Import as csv with no geometries<br><span style="font-size=90%;">> must delete one header row first</span></li>
-                            <li style="margin: 13px 0px 0px 0px;">Import selected layers from geodatabase<br><span style="font-size=90%;">> must include geometry from Census data</span></li>
+                            <li style="margin: 13px 0px 0px 0px;">Import selected layers from geodatabase or shapefile<br><span style="font-size=90%;">> must include geometry from Census data</span></li>
                             <li style="margin: 13px 0px 0px 0px;">In geometry layer, find "Joins" in the layer properties<br><span style="font-size=90%;">> either double click or right click</span></li>
-                            <li style="margin: 13px 0px 0px 0px;">Join based on GEO.id2 and GEOID</li>
+                            <li style="margin: 13px 0px 0px 0px;">Join based on GEO_ID and/or AFFGEOID (or some other combination)</li>
                             <li>Symbolize from layer properties</li>
                         </ul>
                       </li>
@@ -398,6 +496,150 @@
                 </section>
 
               </section>
+
+            <section>
+                
+              <section data-transition="fade">
+                <div class="template-container">
+                  <div class="template-header">&nbsp;</div>
+                  <div class="template-content-containter">
+
+                    <div>
+                      <div class="template-title" style="margin-bottom: 72px !important;">Typography and Cartography</div>
+                      <div class="template-element">
+                        <div style="float: left; width: 20%; margin-left: 4%; font-size: 85%">
+                            Perhaps the second hardest part of cartography (after finding data)
+                        </div>
+                        <div style="float: right; width: 70%; margin-right: 4%;">
+                            <div style="display: inline-block;">
+                              <img src="../common/assets/images/subway.jpg" style="width: 300px; position: relative; top: 300px; left: -600px">
+                            </div><br>
+                            <div style="display: inline-block;">
+                              <img src="../common/assets/images/worldwords.jpg" style="max-width: 850px; position: relative; top: -250px; left: 100px">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  
+                  <div class="template-footer">&nbsp;</div>
+               </div>
+              </section>
+
+              <section data-transition="fade" data-background-image="../common/assets/images/periodictype.jpg" data-background-size="contain" data-background-color="#fff">
+                <div class="template-container">
+                    <div class="fragment" style="position: absolute; top: 40px; left: 40px; background-color: rgba(255,255,255,0.85); padding: 13px; border-radius: 7px; font-size: 80%; border: 1px #000 solid;">Sans Serif</div>
+                    <div class="fragment" style="position: absolute; top: 240px; left: 560px; background-color: rgba(255,255,255,0.85); padding: 13px; border-radius: 7px; font-size: 80%; border: 1px #000 solid;">Serif</div>
+                    <div class="fragment" style="position: absolute; top: 350px; left: 100px; background-color: rgba(255,255,255,0.85); padding: 23px; border-radius: 13px; font-size: 80%; border: 1px #000 solid;">    
+                        Fonts for Cartography<br>
+                        <div style="font-family: gill sans; display: block;">Gill Sans</div>
+                        <div style="font-family: optima; display: block;">Optima</div>
+                        <div style="font-family: caslon pro; display: block;">Caslon Pro</div>
+                        <div style="font-family: myriad pro; display: block;">Myriad Pro</div>
+                        <div style="font-family: meridian; display: block;">Meridian</div>
+                        <div style="font-family: kepler; display: block;">Kepler</div>
+                    </div>
+                    <div class="fragment" style="position: absolute; top: 220px; right: 100px; background-color: rgba(255,255,255,0.85); padding: 23px; border-radius: 13px; font-size: 80%; border: 1px #000 solid;">    
+                        Popular Design Fonts<br>
+                        <div style="font-family: helvetica; display: block;">Helvetica</div>
+                        <div style="font-family: trajan; display: block;">Trajan</div>
+                        <div style="font-family: garamond; display: block;">Garamond</div>
+                        <div style="font-family: futura; display: block;">Futura</div>
+                        <div style="font-family: bodini; display: block;">Bodini</div>
+                        <div style="font-family: frutiger; display: block;">Frutiger</div>
+                    </div>
+                </div>
+              </section>
+
+              <section data-transition="fade">
+                <div class="template-container">
+                    <div style="position: absolute; top: 40px; left: 40px; "><img src="../common/assets/images/type1.jpg"></div>
+                    <div style="position: absolute; top: 440px; left: 200px;"><img src="../common/assets/images/type2.jpg"></div>
+                    <div style="position: absolute; top: 350px; right: 150px;"><img src="../common/assets/images/type3.jpg"></div>
+                    <div style="position: absolute; top: 150px; right: 100px; font-size: 80%;">Some Terminology<br><i style="font-size: 80%;">More than you wanted to know, but . . .</i></div>
+                </div>
+              </section>
+
+              <section data-transition="fade">
+                <div class="template-container">
+                  <div class="template-header">&nbsp;</div>
+                  <div class="template-content-containter">
+
+                    <div>
+                      <div class="template-title" style="margin-bottom: 42px !important;">Character Spacing</div>
+                      <div class="template-element">
+                        <div style="float: left; width: 37%; margin-left: 4%; margin-top: 0px; font-size: 80%; text-align: left;">
+                            Kerning<br>
+                            <ul style="font-size: 80%;">
+                              <li>Special spacing between characters</li>
+                              <li style="margin-bottom: 42px;">Different for each font</li>
+                            </ul>
+                            Word Spacing<br>
+                            <ul style="font-size: 80%;">
+                              <li style="margin-bottom: 42px;">Space between words</li>
+                            </ul><br>
+                            Leading<br>
+                            <ul style="font-size: 80%;">
+                              <li>Space between lines</li>
+                              <li style="margin-bottom: 42px;">Can be expressed as percent of font height or points</li>
+                            </ul>
+                        </div>
+                        <div style="float: right; width: 55%; margin-right: 4%;">
+                            <div style="display: inline-block;">
+                                <div style="float: left; width: 40%">
+                                    <img src="../common/assets/images/kerning.jpg" style="max-width: 150px;">
+                                </div>
+                                <div style="float: right; width: 45%; font-size: 45%">
+                                    <i>Most design software packages allow for adjustment to kerning between individual characters in a word. This can be important for large fonts; for example poster titles.</i>
+                                </div>
+                            </div><br>
+                            <div style="display: inline-block;">
+                              <img src="../common/assets/images/wordspace.jpg" style="max-width: 600px;">
+                            </div>
+                            <div style="display: inline-block;">
+                              <img src="../common/assets/images/leading.jpg" style="max-width: 600px;">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  
+                  <div class="template-footer">&nbsp;</div>
+               </div>
+              </section>
+
+              <section data-transition="fade" data-background-image="../common/assets/images/spacing.jpg" data-background-size="contain" data-background-color="#fff">
+              </section>
+
+              <section data-transition="fade" data-background-image="../common/assets/images/lettersonmap.jpg" data-background-size="contain" data-background-color="#fff">
+              </section>
+
+              <section>
+                <div class="template-title">Map Text Conventions</div>
+                <div>
+                  <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                    <li>Think about visual hierarchy and your story</li>
+                    <li style="margin: 23px 0px 0px 0px;">ALWAYS
+                      <ul style="font-size: 80%;">
+                          <li>Natural features (rivers, oceans, lakes, mountains) - SERIF</li>
+                          <li>Human features (cities, roads, states, counties) - SANS SERIF</li>
+                      </ul>
+                    </li>
+                    <li style="margin: 23px 0px 0px 0px;">Generally
+                      <ul style="font-size: 80%;">
+                          <li>Four fonts at most, better two or three</li>
+                          <li>Avoid bold text when possible</li>
+                          <li>Avoid type crashes (with lines, points or any other features)</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="template-citation" style="margin-top: 42px !important;"></div>
+              </section>
+
+            </section>
 				
             </div>
         </div>
