@@ -1,28 +1,21 @@
 Lesson 5
 ========
 
-**Learning Objectives**
-- TBD
-
----
-
 **Lesson Plan**  
 
-*__Class 1__*  
+total time 150 minutes. 
 
-1. TBD
+1.   Housekeeping (6:40 pm - 10 min)  
 
-*__Class 2__*  
+2.   Covid XSAT Presentation (6:50 pm 20 min)
 
-1. TBD
+3.   Student Presentations (7:10 - 90 minutes)
 
----
+4.   Final Lectures / Discussion (8:40 - 15 minutes)
+   -   Typography
+   -   Symbology
 
-> Readings (required)
+5.   Final Exercise (8:55 - 5 minutes)
+   -   creating data
 
- - TBD
-
-> Readings (highly recomended)
-
- - TBD
-
+8.   Close (9:00 - 5 min)
