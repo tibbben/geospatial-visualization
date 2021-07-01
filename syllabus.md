@@ -1,4 +1,4 @@
-###Weekly Schedule:  
+### Weekly Schedule:  
 
 All topics/dates/assignments are subject to revision/change based on
 instructor decisions and any other *force majeur* that may take place
@@ -190,7 +190,24 @@ Explore how maps are woven into political and social contexts of urban developme
 
 > [slide deck](slides/slides050.html){:target="\_blank"}  
 
-*__Week 6:__ Maps as Stories*  Sept. 27 - Oct. 1
+*__Week 6:__ Online Mapping*  Sept. 27 - Oct. 1
+
+Introduction to online mapping platforms
+
+> Learning Objectives
+
+-  Understand basic components of online mapping
+-  Describe several configurations for an online map or map mashup
+
+> Practical Objectives
+
+-  ArcGIS Online / Storymaps
+-  Knight Labs Storymap
+-  Web base APIs: Leaflet, Mapbox, OpenStreetMap
+
+>  [slide deck](slides/slides060.html){:target="\_blank"}  
+
+*__Week 7:__ Maps as Stories*  Oct. 4 - Oct. 8
 
 Explore how map images tell stories with beginning, middle, and end as well as providing indexes to elements of the story ....
 
@@ -202,9 +219,9 @@ Explore how map images tell stories with beginning, middle, and end as well as p
 
 -  Create online story map
 
->  [slide deck](slides/slides060.html){:target="\_blank"}  
+>  [slide deck](slides/slides070.html){:target="\_blank"}  
 
-*__Week 7:__ Site Suitability and Raster Math*  Oct. 4 - Oct. 8
+*__Week 8:__ Site Suitability and Raster Math*  Oct. 11 - Oct. 16 (short week mon-wed)
 
 Determine areas that best meet several criteria by using raster math to combine multiple data layers that represent the individual criteria of interest. Perhaps with sea level rise example.
 
@@ -216,22 +233,6 @@ Determine areas that best meet several criteria by using raster math to combine 
 
 -  Obtain and normalize several data layers to same resolution and scale
 -  Perform raster math and interpret the results
-
->  [slide deck](slides/slides070.html){:target="\_blank"}  
-
-*__Week 8:__ Miami-Dade County*  Oct. 11 - Oct. 16 (short week mon-wed)
-
-Bring in *guest speaker* from Miami-Dade GIS?? Look at the Oakland urban plan (or other) and critique. Other guest speakers??
-
-> Learning Objectives
-
--  Understand the role of GIS in County governance
--  Understand the role of GIS in Planning
-
-> Practical Objectives
-
--  Critique of Urban Plan
--  Navigation of Local Government Data Sources
 
 >  [slide deck](slides/slides080.html){:target="\_blank"}  
 
@@ -301,20 +302,19 @@ Moving data between applications and formats
 
 >  [slide deck](slides/slides120.html){:target="\_blank"}  
 
-*__Week 13:__*  Nov. 15 - Nov. 19
+*__Week 13:__ Miami-Dade County*  Nov. 15 - Nov. 19
 
-Introduction to online mapping platforms
+Bring in *guest speaker* from Miami-Dade GIS?? Look at the Oakland urban plan (or other) and critique. Other guest speakers??
 
 > Learning Objectives
 
--  Understand basic components of online mapping
--  Describe several configurations for an online map or map mashup
+-  Understand the role of GIS in County governance
+-  Understand the role of GIS in Planning
 
 > Practical Objectives
 
--  ArcGIS Online / Storymaps
--  Knight Labs Storymap
--  Web base APIs: Leaflet, Mapbox, OpenStreetMap
+-  Critique of Urban Plan
+-  Navigation of Local Government Data Sources
 
 >  [slide deck](slides/slides130.html){:target="\_blank"}  
 
