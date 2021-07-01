@@ -19,7 +19,7 @@ section {
 	  padding: 0px !important;
     font-size: 9pt !important;
 	  color: #727272;
-    margin: 15mm 15mm 15mm 15mm;
+    margin: 20mm 15mm 20mm 15mm;
   }
   #main {
 	  width: 100% !important; 
@@ -27,7 +27,7 @@ section {
   }
   @page {
     size: auto;
-    margin: 15mm 15mm 15mm 15mm;
+    margin: 20mm 15mm 20mm 15mm;
   }
 }
 .center {
