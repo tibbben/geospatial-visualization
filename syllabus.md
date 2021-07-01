@@ -1,4 +1,4 @@
-###Weekly Schedule:  
+### Weekly Schedule:  
 
 All topics/dates/assignments are subject to revision/change based on
 instructor decisions and any other *force majeur* that may take place
