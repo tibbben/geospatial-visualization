@@ -1,5 +1,5 @@
 ## ARC 581/681-K1 Special Problems (Geospatial Visualization)  
-## Fall 2020 - 1 credit  
+## Fall 2020 - 1 credit / 3 credits  
 [https://tibbben.github.io/geospatial-visualization](https://tibbben.github.io/geospatial-visualization) (this page)  
 
 ---
@@ -40,9 +40,7 @@ Zoom meeting links: [https://www.courses.miami.edu/webapps/blackboard/content/la
 
 ###Course Description:  
 
-This course introduces the student to Geographic Information Systems (GIS) and how to apply GIS technologies in architectural design and urban planning contexts. Three principal activities will be emphasized: how to find, access, and use pre-existing GIS datasets; how to use industry standard tools such as ArcGIS and QGIS to perform basic analysis of geospatial data; and how to use ArcGIS and QGIS to transform and export geospatial data for use with applications such as Illustrator, AutoCAD and Rino. A series of hands on lab based exercises will build student GIS skill sets and encourage students to produce materials applicable to real-world projects in their respective design studios. The class is designed to provide a basic introduction to geographic information systems, to foster spatial literacy, and to generate skills that will enable students to engage in geospatial storytelling and advanced cartographic projects.  
-
-In these unusual and extra-ordinary times we are making every effort to provide instruction at the same level as it would be if everyone were able to attend class in person, use university resources without restriction, and have access to all printed library materials without restriction. To provide the best learning experience will take collective effort and flexibility from all of us, and we welcome your input into how the class is (and is not) working as the semester unfolds. Please be aware that if, at any time, we determine that conditions are unsafe and/or pedagogically untenable, then *we reserve the right to change how we are operating (in both format and content), in order to promote the safest and most rewarding intellectual experience under the current conditions.*  
+This course introduces the student to Geographic Information Systems (GIS) and how to apply GIS technologies in architectural design and urban planning contexts. Three principal activities will be emphasized: how to find, access, and use pre-existing GIS datasets; how to use industry standard tools such as ArcGIS and QGIS to perform basic analysis of geospatial data; and how to use ArcGIS and QGIS to transform and export geospatial data for use with applications such as Illustrator, AutoCAD and Rino [ need to flesh out more ]. A series of hands on lab based exercises will build student GIS skill sets and encourage students to produce materials applicable to real-world projects in their respective design studios. The class is designed to provide a basic introduction to geographic information systems, to foster spatial literacy, and to generate skills that will enable students to engage in geospatial storytelling and advanced cartographic projects.   
 
 ---
 
@@ -136,12 +134,14 @@ None
 7.  Able to perform basic overlay analysis using GIS.
 8.  Able to describe classification in terms of geospatial data and cartography.
 9.  Able to perform spatial or categorical joins between two geospatial data sets/layers.
-10.  Understand map symbolization and map symbol abstraction for geospatial data.
-11.  Understand the basics of digital color theory for printers (subtractive - cmyk) and screens (additive - rgb).
-12.  Know cartographic standards for the use of fonts in labeling geographic features on a map.
-13.  Understand how cartographic elements come together in a map to tell stories.
-14.  Place maps in context of larger storytelling devices.
-15.  Understand maps as political tools.
+10.  Able to perform site suitability analysis with raster math
+11.  Understand map symbolization and map symbol abstraction for geospatial data.
+12.  Understand the basics of digital color theory for printers (subtractive - cmyk) and screens (additive - rgb).
+13.  Know cartographic standards for the use of fonts in labeling geographic features on a map.
+14.  Able to create print layouts both in GIS software and in graphic design software.
+14.  Understand how cartographic elements come together in a map to tell stories.
+15.  Place maps in context of larger storytelling devices.
+16.  Understand maps as political tools.
 
 ---
 
@@ -197,6 +197,8 @@ to share your screen; you are expected to be prepared to share your screen at a 
 
 ###Class Project:  
 
-As a class project, each student will create one map layout and present it through a medium of their choice (print, projected, online, or another). The map  must have at least two layers of data displayed in a simple overlay analysis (this does not include background or base map layers) and there must be an aggregated data set either displayed as geographic information on the map image itself or as a summary table included in the map layout. The map layout must tell a story: this means the layout may use elements such as a title, legend, labels, geographic features, scale, descriptive text, context, locater map, insets, credits, and sources with integrity in a harmonious and holistic presentation to make a spatial argument or to present a spatial vision of past, present or future. The class project will be presented in the final meeting for a critical review by fellow students and instructors.
+As a class project, each student will create one map layout and present it through a medium of their choice (print, projected, online, or another). The map  must have at least two layers of data displayed in a simple overlay analysis (this does not include background or base map layers) and there must be an aggregated data set either displayed as geographic information on the map image itself or as a summary table included in the map layout. The map layout must tell a story: this means the layout may use elements such as a title, legend, labels, geographic features, scale, descriptive text, context, locator map, insets, credits, and sources with integrity in a harmonious and holistic presentation to make a spatial argument or to present a spatial vision of past, present or future. The class project will be presented in the final meeting for a critical review by fellow students and instructors.
+
+[ needs reconsideration for full semester course, could be in pairs? ]
 
 ---

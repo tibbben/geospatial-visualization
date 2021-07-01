@@ -26,7 +26,7 @@ NOTE: *Making Maps* (Krygier & Wood, 2016) download through page 31 available at
   -   chapter 1: How to Make a Map. pp 22 - 31.
   -   chapter 2: What's Your Map For? pp. 34 - 35, 42 - 55.
 
-*__Week 1:__ Introduction: What are maps, what is GIS and why are we here?* 
+*__Week 1:__ Introduction: What are maps, what is GIS and why are we here?* Aug. 23 - 27
 
 Introduce the course, the instructors, and the students. 
 Share the students’ research/production contexts and objectives. 
@@ -65,11 +65,11 @@ Introduce maps and GIS as as tools for storytelling.
 >  [HW example #1](slides/slides010_sampleHWpresentation01.html){:target="\_blank"}  
 >  [HW example #2](slides/slides010_sampleHWpresentation02.html){:target="\_blank"}  
 
-*__Week 2:__ Geospatial Data: Sources and structures*  
+*__Week 2:__ Geospatial Data: Sources and structures*  Aug. 30 - Sept. 3
 
 Seek to understand data and data structures in terms of 
 geospatial data and geographic information systems. This will include exploring relevant 
-sources of data.
+sources of data. [ often Abe gives lecture in this class ]
 
 >  Learning Objectives:
 
@@ -101,7 +101,7 @@ sources of data.
 
 >  [slide deck](slides/slides020.html){:target="\_blank"}  
 
-*__Week 3:__ Geospatial Data: coordinate reference systems and interoperability*  
+*__Week 3:__ Geospatial Data: coordinate reference systems and interoperability*  Sept. 7 - Sept 10
 
 Explore how software and data come together in a custom built GIS. This will include 
 putting multiple data layers together in one GIS and exploring relationships between layers in the GIS.
@@ -137,7 +137,7 @@ putting multiple data layers together in one GIS and exploring relationships bet
 
 >  [slide deck](slides/slides030.html){:target="\_blank"}  
 	
-*__Week 4:__ Cartography: The art and science of making a map*  
+*__Week 4:__ Cartography: The art and science of making a map*  Sept. 13 - Sept. 17
 
 Apply basic design principals to make a map. This will include using color theory, the application of figure ground, the correct use of fonts, and other cartographic standards to create a map image.
 
@@ -151,6 +151,7 @@ Apply basic design principals to make a map. This will include using color theor
 -   Perform a "join" between two sources of geospatial data.
 -   Symbolize several data layers in the GIS and prepare the maps for export to a design application.
 -   Create a final publication ready map in a design application of choice to be presented through a medium of choice.
+-   geocoding? georeferencing? [ in slide deck as possibilities ]
 
 >  Assigned Reading:
 
@@ -171,7 +172,7 @@ Apply basic design principals to make a map. This will include using color theor
 
 >  [slide deck](slides/slides040.html){:target="\_blank"}  
 	
-*__Week 5:__ GIS, Cartography, and Urban Development*  
+*__Week 5:__ GIS, Cartography, and Urban Development*  Sept 20. - Sept. 24 [ END of one credit option ]
 
 Explore how maps are woven into political and social contexts of urban development and planning. This will include an analysis of how maps both represent and construct reality through cartographic performances.  
 
@@ -188,5 +189,121 @@ Explore how maps are woven into political and social contexts of urban developme
 -   In class essay that describes how Sheppard (1995) *and any other class material* is relevant in the context of contemporary architecture and urban design. 300 - 500 words.
 
 > [slide deck](slides/slides050.html){:target="\_blank"}  
+
+*__Week 6:__ Maps as Stories*  Sept. 27 - Oct. 1
+
+Explore how map images tell stories with beginning, middle, and end as well as providing indexes to elements of the story ....
+
+> Learning Objectives
+
+-  Understand maps in context of temporal flows
+
+> Practical Objectives
+
+-  Create online story map
+
+*__Week 7:__ Site Suitability and Raster Math*  Oct. 4 - Oct. 8
+
+Determine areas that best meet several criteria by using raster math to combine multiple data layers that represent the individual criteria of interest. Perhaps with sea level rise example.
+
+> Learning Objectives
+
+-  Understand data requirements to perform raster math 
+
+> Practical Objectives
+
+-  Obtain and normalize several data layers to same resolution and scale
+-  Perform raster math and interpret the results
+
+*__Week 8:__ Miami-Dade County*  Oct. 11 - Oct. 16 (short week mon-wed)
+
+Bring in *guest speaker* from Miami-Dade GIS?? Look at the Oakland urban plan (or other) and critique. Other guest speakers??
+
+> Learning Objectives
+
+-  Understand the role of GIS in County governance
+-  Understand the role of GIS in Planning
+
+> Practical Objectives
+
+-  Critique of Urban Plan
+-  Navigation of Local Government Data Sources
+
+*__Week 9:__ Vector Manipulation*  Oct. 18 - Oct. 22
+
+Combine vector layers .... perhaps with environmental justice example, site location of marijuana dispensaries?
+
+> Learning Objectives
+
+-  Understand intersect, merge, and other basic vector aggregation tools
+
+> Practical Objectives
+
+-  Obtain vector data with an identified aggregation goal
+-  Perform one or more vector manipulations and interpret the results
+
+*__Week 10:__ Real Estate Mapping*  Oct. 25 - Oct. 29
+
+Explore GIS for real estate: data sources, common issues, online systems, and so on. Use this context for learning about SQL queries.
+
+> Learning Objectives
+
+-  Understand common attribute data linked to both parcel and building data
+-  Know basic syntax for SQL queries
+
+> Practical Objectives
+
+-  Explore GIS and Real Estate Mapping
+-  Historical practices (Sanborn maps)?
+
+*__Week 11:__*  Nov. 1 - Nov. 5
+
+Collecting data in the field and creating data
+
+> Learning Objectives
+
+-  Know basic data design principals for new layers
+-  Understand database permissions and versioning for editing/creating features
+-  Describe basic process for moving vector data to a raster format and vice-versa
+
+> Practical Objectives
+
+-  Implement a Layer in ArcGIS online for use with Collector
+-  Create a geospatial data layer and create new features
+-  Transform vector data to a raster layer and vice-versa
+-  Trace features from a raster layer into a vector layer
+
+*__Week 12:__*  Nov. 8 - Nov. 12
+
+Moving data between applications and formats
+
+> Learning Objectives
+
+-  Understand basic geospatial data structures and formats used for data transfer/sharing
+-  
+
+*__Week 13:__*  Nov. 15 - Nov. 19
+
+Introduction to online mapping platforms
+
+> Practical Objectives
+
+-  ArcGIS Online / Storymaps
+-  Knight Labs Storymap
+-  Web base APIs: Leaflet, Mapbox, OpenStreetMap
+
+
+
+*__THANKSGIVING BREAK__*  
+
+*__Week 14:__*  Nov. 29 - Dec. 3
+
+Final Project Presentations
+
+*__Week 15:__*  Dec. 6. - Dec. 8 (short week mon-wed)
+
+Final Project Presentations
+
+
 
 ---
