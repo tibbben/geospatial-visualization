@@ -190,131 +190,131 @@ Explore how maps are woven into political and social contexts of urban developme
 
 > [slide deck](slides/slides050.html){:target="\_blank"}  
 
-*__Week 6:__ Maps as Stories*  Sept. 27 - Oct. 1
-
-Explore how map images tell stories with beginning, middle, and end as well as providing indexes to elements of the story ....
-
-> Learning Objectives
-
--  Understand maps in context of temporal flows
-
-> Practical Objectives
-
--  Create online story map
-
->  [slide deck](slides/slides060.html){:target="\_blank"}  
-
-*__Week 7:__ Site Suitability and Raster Math*  Oct. 4 - Oct. 8
-
-Determine areas that best meet several criteria by using raster math to combine multiple data layers that represent the individual criteria of interest. Perhaps with sea level rise example.
-
-> Learning Objectives
-
--  Understand data requirements to perform raster math 
-
-> Practical Objectives
-
--  Obtain and normalize several data layers to same resolution and scale
--  Perform raster math and interpret the results
-
->  [slide deck](slides/slides070.html){:target="\_blank"}  
-
-*__Week 8:__ Miami-Dade County*  Oct. 11 - Oct. 16 (short week mon-wed)
-
-Bring in *guest speaker* from Miami-Dade GIS?? Look at the Oakland urban plan (or other) and critique. Other guest speakers??
-
-> Learning Objectives
-
--  Understand the role of GIS in County governance
--  Understand the role of GIS in Planning
-
-> Practical Objectives
-
--  Critique of Urban Plan
--  Navigation of Local Government Data Sources
-
->  [slide deck](slides/slides080.html){:target="\_blank"}  
-
-*__Week 9:__ Vector Manipulation*  Oct. 18 - Oct. 22
-
-Combine vector layers .... perhaps with environmental justice example, site location of marijuana dispensaries?
-
-> Learning Objectives
-
--  Understand intersect, merge, and other basic vector aggregation tools
-
-> Practical Objectives
-
--  Obtain vector data with an identified aggregation goal
--  Perform one or more vector manipulations and interpret the results
-
->  [slide deck](slides/slides090.html){:target="\_blank"}  
-
-*__Week 10:__ Real Estate Mapping*  Oct. 25 - Oct. 29
-
-Explore GIS for real estate: data sources, common issues, online systems, and so on. Use this context for learning about SQL queries.
-
-> Learning Objectives
-
--  Understand common attribute data linked to both parcel and building data
--  Know basic syntax for SQL queries
-
-> Practical Objectives
-
--  Explore GIS and Real Estate Mapping
--  Historical practices (Sanborn maps)?
-
->  [slide deck](slides/slides100.html){:target="\_blank"}  
-
-*__Week 11:__*  Nov. 1 - Nov. 5
+*__Week 6:__ Collecting and Creating Data*  Sept. 27 - Oct. 1
 
 Collecting data in the field and creating data
 
 > Learning Objectives
 
--  Know basic data design principals for new layers
--  Understand database permissions and versioning for editing/creating features
--  Describe basic process for moving vector data to a raster format and vice-versa
+-   Know basic data design principals for new layers
+-   Understand database permissions and versioning for editing/creating features
+-   Describe basic process for moving vector data to a raster format and vice-versa
 
 > Practical Objectives
 
--  Implement a Layer in ArcGIS online for use with Collector
--  Create a geospatial data layer and create new features
--  Transform vector data to a raster layer and vice-versa
--  Trace features from a raster layer into a vector layer
+-   Implement a Layer in ArcGIS online for use with Collector
+-   Create a geospatial data layer and create new features
+-   Transform vector data to a raster layer and vice-versa
+-   Trace features from a raster layer into a vector layer
 
->  [slide deck](slides/slides110.html){:target="\_blank"}  
+>  [slide deck](slides/slides060.html){:target="\_blank"}  
 
-*__Week 12:__*  Nov. 8 - Nov. 12
+*__Week 7:__ Moving Data Between Applications*  Oct. 4 - Oct. 8
 
 Moving data between applications and formats
 
 > Learning Objectives
 
--  Understand basic geospatial data structures and formats used for data transfer/sharing
--  Maintain projection awareness for the transfer of geospatial data between applications
+-   Understand basic geospatial data structures and formats used for data transfer/sharing
+-   Maintain projection awareness for the transfer of geospatial data between applications
 
 > Practical Objectives
 
--  Move data from Autodesk to ArcGIS Pro and vice versa
--  Export data from GIS to Adobe Suite of design applications
+-   Move data from Autodesk to ArcGIS Pro and vice versa
+-   Export data from GIS to Adobe Suite of design applications
 
->  [slide deck](slides/slides120.html){:target="\_blank"}  
+>  [slide deck](slides/slides070.html){:target="\_blank"}  
 
-*__Week 13:__*  Nov. 15 - Nov. 19
+*__Week 8:__ Online Mapping*  Oct. 11 - Oct. 16 (short week mon-wed)
 
 Introduction to online mapping platforms
 
 > Learning Objectives
 
--  Understand basic components of online mapping
--  Describe several configurations for an online map or map mashup
+-   Understand basic components of online mapping
+-   Describe several configurations for an online map or map mashup
 
 > Practical Objectives
 
--  ArcGIS Online / Storymaps
--  Knight Labs Storymap
--  Web base APIs: Leaflet, Mapbox, OpenStreetMap
+-   ArcGIS Online / Storymaps
+-   Knight Labs Storymap
+-   Web base APIs: Leaflet, Mapbox, OpenStreetMap
+
+>  [slide deck](slides/slides080.html){:target="\_blank"}  
+
+*__Week 9:__ Maps as Stories*  Oct. 18 - Oct. 22
+
+Explore how map images tell stories with beginning, middle, and end as well as providing indexes to elements of the story ....
+
+> Learning Objectives
+
+-   Understand maps in context of temporal flows
+
+> Practical Objectives
+
+-   Create online story map
+
+>  [slide deck](slides/slides090.html){:target="\_blank"}  
+
+*__Week 10:__ Real Estate Mapping and SQL*  Oct. 25 - Oct. 29
+
+Explore GIS for real estate: data sources, common issues, online systems, and so on. Use this context for learning about SQL queries.
+
+> Learning Objectives
+
+-   Understand common attribute data linked to both parcel and building data
+-   Know basic syntax for SQL queries
+
+> Practical Objectives
+
+-   Explore GIS and Real Estate Mapping
+-   Historical practices (Sanborn maps)?
+
+>  [slide deck](slides/slides100.html){:target="\_blank"}  
+
+*__Week 11:__ Sea Level Rise and Raster Math*  Nov. 1 - Nov. 5
+
+Determine areas that best meet several criteria by using raster math to combine multiple data layers that represent the individual criteria of interest. Perhaps with sea level rise example.
+
+> Learning Objectives
+
+-   Understand data requirements to perform raster math 
+
+> Practical Objectives
+
+-   Obtain and normalize several data layers to same resolution and scale
+-   Perform raster math and interpret the results
+
+>  [slide deck](slides/slides110.html){:target="\_blank"}  
+
+*__Week 12:__ Environmental Justice and Vector Manipulation*  Nov. 8 - Nov. 12
+
+Combine vector layers .... perhaps with environmental justice example, site location of marijuana dispensaries?
+
+> Learning Objectives
+
+-   Understand intersect, merge, and other basic vector aggregation tools
+
+> Practical Objectives
+
+-   Obtain vector data with an identified aggregation goal
+-   Perform one or more vector manipulations and interpret the results
+
+>  [slide deck](slides/slides120.html){:target="\_blank"}  
+
+*__Week 13:__ GIS in Miami-Dade County*  Nov. 15 - Nov. 19
+
+Bring in *guest speaker* from Miami-Dade GIS?? Look at the Oakland urban plan (or other) and critique. Other guest speakers??
+
+> Learning Objectives
+
+-   Understand the role of GIS in County governance
+-   Understand the role of GIS in Planning
+
+> Practical Objectives
+
+-   Critique of Urban Plan
+-   Navigation of Local Government Data Sources
 
 >  [slide deck](slides/slides130.html){:target="\_blank"}  
 
