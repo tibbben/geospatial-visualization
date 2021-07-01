@@ -202,6 +202,8 @@ Explore how map images tell stories with beginning, middle, and end as well as p
 
 -  Create online story map
 
+>  [slide deck](slides/slides060.html){:target="\_blank"}  
+
 *__Week 7:__ Site Suitability and Raster Math*  Oct. 4 - Oct. 8
 
 Determine areas that best meet several criteria by using raster math to combine multiple data layers that represent the individual criteria of interest. Perhaps with sea level rise example.
@@ -214,6 +216,8 @@ Determine areas that best meet several criteria by using raster math to combine 
 
 -  Obtain and normalize several data layers to same resolution and scale
 -  Perform raster math and interpret the results
+
+>  [slide deck](slides/slides070.html){:target="\_blank"}  
 
 *__Week 8:__ Miami-Dade County*  Oct. 11 - Oct. 16 (short week mon-wed)
 
@@ -229,6 +233,8 @@ Bring in *guest speaker* from Miami-Dade GIS?? Look at the Oakland urban plan (o
 -  Critique of Urban Plan
 -  Navigation of Local Government Data Sources
 
+>  [slide deck](slides/slides080.html){:target="\_blank"}  
+
 *__Week 9:__ Vector Manipulation*  Oct. 18 - Oct. 22
 
 Combine vector layers .... perhaps with environmental justice example, site location of marijuana dispensaries?
@@ -241,6 +247,8 @@ Combine vector layers .... perhaps with environmental justice example, site loca
 
 -  Obtain vector data with an identified aggregation goal
 -  Perform one or more vector manipulations and interpret the results
+
+>  [slide deck](slides/slides090.html){:target="\_blank"}  
 
 *__Week 10:__ Real Estate Mapping*  Oct. 25 - Oct. 29
 
@@ -255,6 +263,8 @@ Explore GIS for real estate: data sources, common issues, online systems, and so
 
 -  Explore GIS and Real Estate Mapping
 -  Historical practices (Sanborn maps)?
+
+>  [slide deck](slides/slides100.html){:target="\_blank"}  
 
 *__Week 11:__*  Nov. 1 - Nov. 5
 
@@ -273,6 +283,8 @@ Collecting data in the field and creating data
 -  Transform vector data to a raster layer and vice-versa
 -  Trace features from a raster layer into a vector layer
 
+>  [slide deck](slides/slides110.html){:target="\_blank"}  
+
 *__Week 12:__*  Nov. 8 - Nov. 12
 
 Moving data between applications and formats
@@ -280,11 +292,23 @@ Moving data between applications and formats
 > Learning Objectives
 
 -  Understand basic geospatial data structures and formats used for data transfer/sharing
--  
+-  Maintain projection awareness for the transfer of geospatial data between applications
+
+> Practical Objectives
+
+-  Move data from Autodesk to ArcGIS Pro and vice versa
+-  Export data from GIS to Adobe Suite of design applications
+
+>  [slide deck](slides/slides120.html){:target="\_blank"}  
 
 *__Week 13:__*  Nov. 15 - Nov. 19
 
 Introduction to online mapping platforms
+
+> Learning Objectives
+
+-  Understand basic components of online mapping
+-  Describe several configurations for an online map or map mashup
 
 > Practical Objectives
 
@@ -292,7 +316,7 @@ Introduction to online mapping platforms
 -  Knight Labs Storymap
 -  Web base APIs: Leaflet, Mapbox, OpenStreetMap
 
-
+>  [slide deck](slides/slides130.html){:target="\_blank"}  
 
 *__THANKSGIVING BREAK__*  
 
