@@ -17,18 +17,16 @@
  <body>
   <div id="main" class="wrapper" style="width: 80%; max-width: 800px;"></div>
   <script type="text/javascript">
-   var mdDescription = readTextFile("course_description.md"),
-       htmlDescription = markdown.toHTML(mdDescription,'Maruku'),
-	     mdSyllabus = readTextFile("syllabus.md"),
-       htmlSyllabus = markdown.toHTML(mdSyllabus,'Maruku'),
-       mdClassBoilerplate = readTextFile("classboilerplate.md"),
-       htmlClassBoilerplate = markdown.toHTML(mdClassBoilerplate,'Maruku'),
-       mdCovidBoilerplate = readTextFile("covidboilerplate.md"),
-       htmlCovidBoilerplate = markdown.toHTML(mdCovidBoilerplate,'Maruku'),
-       mdSOABoilerplate = readTextFile("soaboilerplate.md"),
-       htmlSOABoilerplate = markdown.toHTML(mdSOABoilerplate,'Maruku'),
-       mdView = document.getElementById('main');
-   mdView.innerHTML = htmlDescription + htmlSyllabus + htmlClassBoilerplate + htmlCovidBoilerplate + htmlSOABoilerplate;       
+    var all_markdown = [
+          "course_description.md",
+          "syllabus.md",
+          "classboilerplate.md",
+          /* "covidboilerplate.md", */
+          "soaboilerplate.md"
+        ];
+    document.getElementById('main').innerHTML = all_markdown.map(
+      (file) => { return markdown.toHTML(readTextFile(file),'Maruku'); }
+    ).join(' ');       
   </script>
  </body>
  

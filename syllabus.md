@@ -4,13 +4,31 @@ All topics/dates/assignments are subject to revision/change based on
 instructor decisions and any other *force majeur* that may take place
 during the quarter.  
 
-All assigned reading is to be completed before the next class meeting. *A short one paragraph written summary of the required readings is to be emailed to [tnorris@miami.edu](mailto:tnorris@miami.edu) and [cmader@med.miami.edu](mailto:cmader@med.miami.edu) before class instruction begins (one email)*. While the optional reading is not required, most of these suggestions are not long reads, and the student's understanding of the material will benefit greatly if time is available.
+All assigned reading is to be completed before the class meeting it is listed under. *A short one paragraph written summary of the required readings is to be emailed to [tnorris@miami.edu](mailto:tnorris@miami.edu) and [cmader@med.miami.edu](mailto:cmader@med.miami.edu) before class instruction begins (one email)*. While the optional reading is not required, most of these suggestions are not long reads, and the student's understanding of the material will benefit greatly if time is available.
+
+All assignments listed in the week are due the following week unless otherwise noted.
 
 *__Pre-Class Preparation:__*  
 
 Before the first class meeting all students will receive an invite for an ESRI ArcGIS online account (if they do not already have one). All students should accept the invitation and log in to ArcGIS online at least one time before the first class meeting.  
 
-Before the first class meeting all students should also complete the following reading assignments.  
+> Before the first class meeting all students should also complete the Week 1 reading assignments (below).  
+
+### Part I - Introduction to GIS and Geospatial Data Visualization (1 credit - five weeks)
+
+*__Week 1 (Aug. 23 - 27):__ Introduction: What are maps, what is GIS and why are we here?*  
+
+Introduce the course, the instructors, and the students. Review the entire syllabus. Share the students’ research/production contexts and objectives. Introduce maps and GIS as as tools for storytelling. 
+
+>  Learning Objectives:
+
+-   Understand maps as tools for storytelling in the context of urban development and change.
+-   Able to describe geographic information systems as assemblages of data, humans, machines and code.
+-   Able to design file system structure for a GIS and geospatial data management.
+
+>  Practical Objectives:
+
+-   Identify and install appropriate software tools on student computers.
 
 >  Assigned Reading to be Completed Before First Class Meeting:
 
@@ -26,34 +44,6 @@ NOTE: *Making Maps* (Krygier & Wood, 2016) download through page 31 available at
   -   chapter 1: How to Make a Map. pp 22 - 31.
   -   chapter 2: What's Your Map For? pp. 34 - 35, 42 - 55.
 
-*__Week 1:__ Introduction: What are maps, what is GIS and why are we here?* Aug. 23 - 27
-
-Introduce the course, the instructors, and the students. 
-Share the students’ research/production contexts and objectives. 
-Introduce maps and GIS as as tools for storytelling. 
-
->  Learning Objectives:
-
--   Understand maps as tools for storytelling in the context of urban development and change.
--   Able to describe geographic information systems as assemblages of data, humans, machines and code.
--   Able to design file system structure for a GIS and geospatial data management.
-
->  Practical Objectives:
-
--   Identify and install appropriate software tools on student computers.
-
->  Assigned Reading:
-
--   *Making Maps* (Krygier & Wood, 2016)
-  -   chapter 3: Mappable Data. pp. 62 - 69.
-  -   chapter 4: Map Making Tools. pp. 82 - 92.
-
->  Optional Reading:
-
--   *Making Maps* (Krygier & Wood, 2016). All of chapters 2 and 3.
--   Sui, Daniel. 2008. "The Wikification of GIS and its Consequences or Angelina Jolie's New Tattoo and the Future of GIS."  *Computers, Environment and Urban Systems* 32:1-5. DOI: [10.1016/j.compenvurbsys.2007.12.001](https://doi.org/10.1016/j.compenvurbsys.2007.12.001){:target="\_blank"}.  
--   Vernacularology. [http://vernacularology.ccs.miami.edu/](http://vernacularology.ccs.miami.edu/){:target="\_blank"}
-
 >  Assignments:
 
 -   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting.  
@@ -65,11 +55,11 @@ Introduce maps and GIS as as tools for storytelling.
 >  [HW example #1](slides/slides010_sampleHWpresentation01.html){:target="\_blank"}  
 >  [HW example #2](slides/slides010_sampleHWpresentation02.html){:target="\_blank"}  
 
-*__Week 2:__ Geospatial Data: Sources and structures*  Aug. 30 - Sept. 3
+*__Week 2 (Aug. 30 - Sept. 3):__ Geospatial Data: Sources and structures*  
 
-Seek to understand data and data structures in terms of 
-geospatial data and geographic information systems. This will include exploring relevant 
-sources of data. [ often Abe gives lecture in this class ]
+Seek to understand data and data structures in terms of geospatial data and geographic information systems. This will include exploring relevant sources of data.
+
+[//]: # ( often Abe gives lecture in this class )
 
 >  Learning Objectives:
 
@@ -86,12 +76,14 @@ sources of data. [ often Abe gives lecture in this class ]
 >  Assigned Reading:
 
 -   *Making Maps* (Krygier & Wood, 2016)
-  -   chapter 5: Geographic Framework. pp 94-121. 
-  -   chapter 8: Map Generalization and Classification. pp. 163 - 183.
+  -   chapter 3: Mappable Data. pp. 62 - 69.
+  -   chapter 4: Map Making Tools. pp. 82 - 92.
 
 >  Optional Reading:
 
--   Caquard, Sébastien. 2011. "Cartography I."  *Progress in Human Geography* 37 (1):135-144. doi: [10.1177/0309132511423796](https://doi.org/10.1177/0309132511423796){:target="\_blank"}.  
+-   *Making Maps* (Krygier & Wood, 2016). All of chapters 2 and 3.
+-   Sui, Daniel. 2008. "The Wikification of GIS and its Consequences or Angelina Jolie's New Tattoo and the Future of GIS."  *Computers, Environment and Urban Systems* 32:1-5. DOI: [10.1016/j.compenvurbsys.2007.12.001](https://doi.org/10.1016/j.compenvurbsys.2007.12.001){:target="\_blank"}.  
+-   Vernacularology. [http://vernacularology.ccs.miami.edu/](http://vernacularology.ccs.miami.edu/){:target="\_blank"}
 
 >  Assignments:  
 
@@ -101,7 +93,7 @@ sources of data. [ often Abe gives lecture in this class ]
 
 >  [slide deck](slides/slides020.html){:target="\_blank"}  
 
-*__Week 3:__ Geospatial Data: coordinate reference systems and interoperability*  Sept. 7 - Sept 10
+*__Week 3 (Sept. 7 - Sept 10):__ Geospatial Data: coordinate reference systems and interoperability*  
 
 Explore how software and data come together in a custom built GIS. This will include 
 putting multiple data layers together in one GIS and exploring relationships between layers in the GIS.
@@ -119,12 +111,12 @@ putting multiple data layers together in one GIS and exploring relationships bet
 >  Assigned Reading:
 
 -   *Making Maps* (Krygier & Wood, 2016)
-  -   chapter 9: Map Symbolization. pp. 184 - 201.
-  -   chapter 11: Words on Maps. pp. 232 - 251.
-	
+  -   chapter 5: Geographic Framework. pp 94-121. 
+  -   chapter 8: Map Generalization and Classification. pp. 163 - 183.
+
 >  Optional Reading:
 
--   Sheppard, Eric. 1995. "GIS and society: towards a research agenda."  Cartography and Geographic Information Systems 22 (1):5-16. doi: [10.1559/152304095782540555](https://doi.org/10.1559/152304095782540555){:target="\_blank"}. [ NOTE: This article is not available with University of Miami subscriptions, and instead will be provided by the instructors. ]
+-   Caquard, Sébastien. 2011. "Cartography I."  *Progress in Human Geography* 37 (1):135-144. doi: [10.1177/0309132511423796](https://doi.org/10.1177/0309132511423796){:target="\_blank"}.  
 
 >  Assignments:
 
@@ -137,7 +129,7 @@ putting multiple data layers together in one GIS and exploring relationships bet
 
 >  [slide deck](slides/slides030.html){:target="\_blank"}  
 	
-*__Week 4:__ Cartography: The art and science of making a map*  Sept. 13 - Sept. 17
+*__Week 4 (Sept. 13 - Sept. 17):__ Cartography: The art and science of making a map*  
 
 Apply basic design principals to make a map. This will include using color theory, the application of figure ground, the correct use of fonts, and other cartographic standards to create a map image.
 
@@ -151,18 +143,18 @@ Apply basic design principals to make a map. This will include using color theor
 -   Perform a "join" between two sources of geospatial data.
 -   Symbolize several data layers in the GIS and prepare the maps for export to a design application.
 -   Create a final publication ready map in a design application of choice to be presented through a medium of choice.
--   geocoding? georeferencing? [ in slide deck as possibilities ]
+-   understand geocoding (locating points on the surface of the earth using address information)
+-   introduction to georeferencing (locating raster images on the surface of the earth)
 
 >  Assigned Reading:
 
 -   *Making Maps* (Krygier & Wood, 2016)
-  -   chapter 10: Map Symbol Abstraction. pp. 204 - 231.
-
+  -   chapter 9: Map Symbolization. pp. 184 - 201.
+  -   chapter 11: Words on Maps. pp. 232 - 251.
+  
 >  Optional Reading:
 
--   *Making Maps* (Krygier & Wood, 2016)
-  -   chapter 10: Map Symbol Abstraction. pp. 252 - 277.
--   Sieber, Renee. 2006. "Public Participation Geographic Information Systems: A Literature Review and Framework."  Annals of the Association of American Geographers 96 (3):491-507. doi: [10.1111/j.1467-8306.2006.00702.x](https://doi.org/10.1111/j.1467-8306.2006.00702.x){:target="\_blank"}.
+-   Sheppard, Eric. 1995. "GIS and society: towards a research agenda."  Cartography and Geographic Information Systems 22 (1):5-16. doi: [10.1559/152304095782540555](https://doi.org/10.1559/152304095782540555){:target="\_blank"}. [ NOTE: This article is not available with University of Miami subscriptions, and instead will be provided by the instructors. ]
 
 >  Assignments:
 
@@ -172,7 +164,7 @@ Apply basic design principals to make a map. This will include using color theor
 
 >  [slide deck](slides/slides040.html){:target="\_blank"}  
 	
-*__Week 5:__ GIS, Cartography, and Urban Development*  Sept 20. - Sept. 24 [ END of one credit option ]
+*__Week 5 (Sept 20. - Sept. 24):__ GIS, Cartography, and Urban Development*  
 
 Explore how maps are woven into political and social contexts of urban development and planning. This will include an analysis of how maps both represent and construct reality through cartographic performances.  
 
@@ -186,32 +178,56 @@ Explore how maps are woven into political and social contexts of urban developme
 
 -   Provide criticism to all class projects produced by the students.
 -   Use criticism to improve final project within a given time.
--   In class essay that describes how Sheppard (1995) *and any other class material* is relevant in the context of contemporary architecture and urban design. 300 - 500 words.
+
+[//]: # "In class essay that describes how Sheppard (1995) *and any other class material* is relevant in the context of contemporary architecture and urban design. 300 - 500 words."
+
+>  Assigned Reading:
+
+-   *Making Maps* (Krygier & Wood, 2016)
+  -   chapter 10: Map Symbol Abstraction. pp. 204 - 231.
+
+>  Optional Reading:
+
+-   *Making Maps* (Krygier & Wood, 2016)
+  -   chapter 10: Map Symbol Abstraction. pp. 252 - 277.
+-   Sieber, Renee. 2006. "Public Participation Geographic Information Systems: A Literature Review and Framework."  Annals of the Association of American Geographers 96 (3):491-507. doi: [10.1111/j.1467-8306.2006.00702.x](https://doi.org/10.1111/j.1467-8306.2006.00702.x){:target="\_blank"}.
 
 > [slide deck](slides/slides050.html){:target="\_blank"}  
 
-*__Week 6:__ Collecting and Creating Data*  Sept. 27 - Oct. 1
+### Part II - Cartography, GIS as a Tool, and Maps as Stories (two credits - ten weeks - Part I is prerequisite)
 
-Collecting data in the field and creating data
+*__Week 6 (Sept. 27 - Oct. 1):__ Collecting and Creating Data*  
+
+Explore methods for collecting data in the field including ArcGIS Online and the ESRI Collector cellphone app, high precision GPS survey instruments, drones, and sensors. Go through basic processes to create new geospatial data layers and add features to the new layers.
 
 > Learning Objectives
 
--   Know basic data design principals for new layers
+-   Know basic data design principals for new/empty geospatial data layers 
+-   Know common methods for gathering geospatial data in the field
 -   Understand database permissions and versioning for editing/creating features
 -   Describe basic process for moving vector data to a raster format and vice-versa
 
 > Practical Objectives
 
--   Implement a Layer in ArcGIS online for use with Collector
--   Create a geospatial data layer and create new features
+-   Implement a new geospatial data layer in ArcGIS online for use with the Collector cellphone app
+-   Create a new geospatial data layer and create new features
 -   Transform vector data to a raster layer and vice-versa
--   Trace features from a raster layer into a vector layer
+-   Trace features from a raster layer into a vector layer (heads-up digitizing)
+
+>  Assigned Reading:
+
+-   *Making Maps* (Krygier & Wood, 2016)
+  -   chapter 3: Mappable Data. pp. 70 - 81.
+
+>  Optional Reading:
+
+-   Goodchild, Michael F. (2007). Citizens as sensors: the world of volunteered geography. *GeoJournal*, 69(4), 211-221. doi: [10.1007/s10708-007-9111-y](https://doi.og/10.1007/s10708-007-9111-y){:target="\_blank"}.
 
 >  [slide deck](slides/slides060.html){:target="\_blank"}  
 
-*__Week 7:__ Moving Data Between Applications*  Oct. 4 - Oct. 8
+*__Week 7 (Oct. 4 - Oct. 8):__ Moving Data Between Applications*  
 
-Moving data between applications and formats
+Explore how common geospatial data structures can serve in a variety of applications and computing environments. Moving data between applications and formats
 
 > Learning Objectives
 
@@ -222,12 +238,24 @@ Moving data between applications and formats
 
 -   Move data from Autodesk to ArcGIS Pro and vice versa
 -   Export data from GIS to Adobe Suite of design applications
+-   Plot latitude/longitude data from csv in a GIS
+-   Know the file extensions csv, json, shp, and tif
+-   Review of geocoding (from week 4)
+-   Review of georeferencing (from week 4)
+
+>  Assigned Reading:
+
+-   TBD
+
+>  Optional Reading:
+
+-   TBD
 
 >  [slide deck](slides/slides070.html){:target="\_blank"}  
 
-*__Week 8:__ Online Mapping*  Oct. 11 - Oct. 16 (short week mon-wed)
+*__Week 8 (Oct. 11 - Oct. 16):__ MIDTERM and Online Mapping* [ short week mon-wed ]
 
-Introduction to online mapping platforms
+The midterm exam will take no longer than 45 minutes. It will be followed by an introduction to several online mapping platforms, basic components of an online mapping platform, and basic webpage concepts necessary to work with online mapping.
 
 > Learning Objectives
 
@@ -236,75 +264,108 @@ Introduction to online mapping platforms
 
 > Practical Objectives
 
--   ArcGIS Online / Storymaps
--   Knight Labs Storymap
--   Web base APIs: Leaflet, Mapbox, OpenStreetMap
+-   Create a simple ArcGIS Online Storymap
+-   Create a simple Knight Labs Storymap
+-   Create a basic webpage using HTML / css / javascript
+-   Identify different sources for map tiles
+-   Demonstrate web based mapping APIs: Leaflet, Mapbox, OpenStreetMap
+
+>  Assigned Reading:
+
+-   TBD
+
+>  Optional Reading:
+
+-   TBD
 
 >  [slide deck](slides/slides080.html){:target="\_blank"}  
 
-*__Week 9:__ Maps as Stories*  Oct. 18 - Oct. 22
+*__Week 9 (Oct. 18 - Oct. 22):__ Real Estate Mapping and Structured Query Language (SQL)*  
 
-Explore how map images tell stories with beginning, middle, and end as well as providing indexes to elements of the story ....
-
-> Learning Objectives
-
--   Understand maps in context of temporal flows
-
-> Practical Objectives
-
--   Create online story map
-
->  [slide deck](slides/slides090.html){:target="\_blank"}  
-
-*__Week 10:__ Real Estate Mapping and SQL*  Oct. 25 - Oct. 29
-
-Explore GIS for real estate: data sources, common issues, online systems, and so on. Use this context for learning about SQL queries.
+Explore GIS for real estate: data sources, common issues, and online systems. Use this context for learning about SQL queries. *Guest speaker* on geospatial data and Real Estate mapping: Elizabeth Plater-Zyberk.
 
 > Learning Objectives
 
+-   Explore GIS and Real Estate Mapping
+-   Introduce historical practices (eg. Sanborn maps)
 -   Understand common attribute data linked to both parcel and building data
 -   Know basic syntax for SQL queries
 
 > Practical Objectives
 
--   Explore GIS and Real Estate Mapping
--   Historical practices (Sanborn maps)?
+-   Perform SQL query with geospatial data
+-   Create buffers around geospatial features
+-   Use ESRI ArcGIS online tools to create travel time maps
 
->  [slide deck](slides/slides100.html){:target="\_blank"}  
+>  Assigned Reading:
 
-*__Week 11:__ Sea Level Rise and Raster Math*  Nov. 1 - Nov. 5
+-   [ Something from Elizabeth? ]
 
-Determine areas that best meet several criteria by using raster math to combine multiple data layers that represent the individual criteria of interest. Perhaps with sea level rise example.
+>  Optional Reading:
+
+-   TBD
+
+>  [slide deck](slides/slides090.html){:target="\_blank"}  
+
+*__Week 10 (Oct. 25 - Oct. 29):__ Sea Level Rise and Raster Math in GIS*  
+
+Determine geographic areas that meet several criteria by using raster math to combine multiple data layers that represent the individual criteria. A sea level rise example in South Florida will be used to illustrate this process. An alternate example will use raster math to identify potential ...
+
+[//]: # (Do we need a better example? Sea level rise is really only an elevation layer ... or we need to think of another good layer like SVI)
 
 > Learning Objectives
 
--   Understand data requirements to perform raster math 
+-   Understand how scale, resolution, and projection work together in raster data
+-   Understand basic mathematical operators that can be used on pixel values in raster data
+-   Know several GIS transformation methods to normalize two raster data layers
 
 > Practical Objectives
 
--   Obtain and normalize several data layers to same resolution and scale
--   Perform raster math and interpret the results
+-   Obtain and normalize several raster data layers to same resolution, scale, and projection
+-   Perform raster math between two raster layers
+-   Visualize and interpret the results from the raster math operation
 
->  [slide deck](slides/slides110.html){:target="\_blank"}  
+>  Assigned Reading:
 
-*__Week 12:__ Environmental Justice and Vector Manipulation*  Nov. 8 - Nov. 12
+-   TBD
 
-Combine vector layers .... perhaps with environmental justice example, site location of marijuana dispensaries?
+>  Optional Reading:
+
+-   TBD
+
+>  [slide deck](slides/slides100.html){:target="\_blank"}  
+
+*__Week 11 (Nov. 1 - Nov. 5):__ Environmental Justice and Vector Analysis in GIS*  
+
+Determine geographical areas that meet several criteria using vector based operations to combine multiple vector layers that represent individual criteria. An environmental justice example based on ??? will be used to illustrate these processes. An alternative example will use vector-based GIS analysis to identify potential site locations for marijuana dispensaries in San Francisco.
 
 > Learning Objectives
 
--   Understand intersect, merge, and other basic vector aggregation tools
+-   Understand intersect, merge, and dissolve as primary vector aggregation tools
+-   Describe different approaches for aggregating attribute data linked to spatial features
 
 > Practical Objectives
 
 -   Obtain vector data with an identified aggregation goal
--   Perform one or more vector manipulations and interpret the results
+-   Perform one or more vector manipulations
+-   Visualize and interpret the results
+-   Spatial join with two or more data layers
 
->  [slide deck](slides/slides120.html){:target="\_blank"}  
+>  Assigned Reading:
 
-*__Week 13:__ GIS in Miami-Dade County*  Nov. 15 - Nov. 19
+-   TBD
 
-Bring in *guest speaker* from Miami-Dade GIS?? Look at the Oakland urban plan (or other) and critique. Other guest speakers??
+>  Optional Reading:
+
+-   TBD
+
+>  [slide deck](slides/slides110.html){:target="\_blank"}  
+
+*__Week 12 (Nov. 8 - Nov. 12):__ GIS and Mapping in Miami-Dade County and Oakland CA*  
+
+Explore how GIS is used by government agencies and urban planners. George de la Paz will be a *guest speaker* from Miami-Dade County to share how the county uses GIS and cartographic data assets. The use of maps in the 2019 Downtown Oakland Specific Plan will be reviewed and critiqued.
+
+[//]: # (Do we need to teach to this more? The style of mapping)
 
 > Learning Objectives
 
@@ -313,18 +374,53 @@ Bring in *guest speaker* from Miami-Dade GIS?? Look at the Oakland urban plan (o
 
 > Practical Objectives
 
--   Critique of Urban Plan
+-   Critique of Oakland Urban Plan
 -   Navigation of Local Government Data Sources
+
+>  Assigned Reading:
+
+-   Dover, Kohl & Partners (2019). *Downtown Oakland Specific Plan – Public Review Draft Plan*. [https://www.oaklandca.gov/topics/downtown-oakland-specific-plan](https://www.oaklandca.gov/topics/downtown-oakland-specific-plan) [ SKIM THIS - Look at the maps and contextual information - Be prepared to critique the use of maps in the report. ]
+-   [ something from George? ]
+
+>  Optional Reading:
+
+-   TBD
+
+>  [slide deck](slides/slides120.html){:target="\_blank"}  
+
+*__Week 13 (Nov. 15 - Nov. 19):__ Maps as Stories*  
+
+Explore how map images tell stories with beginning, middle, and end, and how maps provide indices to elements of the story. Consider the relationships between map and space, map and place, and map and territory; how does one create the other and vice-versa. Consider how maps are a part of broader social contexts and how they cannot stand alone. A picture may be worth a thousand words, but a thousand words plus a picture (map) is worth a lot more ...
+
+> Learning Objectives
+
+-   Understand map design as a metaphor for literal communication
+-   Understand maps in context of temporal flows
+-   Identify elements of a map that control the flow of a story
+
+> Practical Objectives
+
+-   Complete online story map (from previous class)
+-   Critique static maps for storytelling effectiveness
+-   Refine stories for final project presentations
+
+>  Assigned Reading:
+
+-   TBD
+
+>  Optional Reading:
+
+-   TBD
 
 >  [slide deck](slides/slides130.html){:target="\_blank"}  
 
 *__THANKSGIVING BREAK__*  
 
-*__Week 14:__*  Nov. 29 - Dec. 3
+*__Week 14 (Nov. 29 - Dec. 3):__ Final Project Presentations*  
 
 Final Project Presentations
 
-*__Week 15:__*  Dec. 6. - Dec. 8 (short week mon-wed)
+*__Week 15 (Dec. 6. - Dec. 8):__ Final Project Presentations* (short week mon-wed)
 
 Final Project Presentations
 

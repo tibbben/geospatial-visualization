@@ -1,5 +1,6 @@
-## ARC 581/681-K1 Special Problems (Geospatial Visualization)  
-## Fall 2020 - 1 credit / 3 credits  
+## ARC 581/681-T2 Special Problems (Geospatial Visualization) - 1 credit 
+## ARC 594/694-T2 Geographic Information Systems in Urban Design - 3 credits
+## Fall 2021 
 [https://tibbben.github.io/geospatial-visualization](https://tibbben.github.io/geospatial-visualization) (this page)  
 
 ---
@@ -8,13 +9,15 @@
 
 ---
 
-###Instructors:  
+### Instructors:  
+
+[//]: # (Office hours??)
 
 Dr. Timothy Norris  
 Librarian Associate Professor, Data Scientist  
 University of Miami Libraries  
 Institute for Data Science and Computing  
-Ungar Building, 330E  
+Ungar Building, 330F  
 Office Hours: by appointment only (virtual)  
 Book appointment: [https://tibben.youcanbook.me/](https://tibben.youcanbook.me/){:target="\_blank"}  
 [tnorris@miami.edu](mailto:tnorris@miami.edu)  
@@ -29,22 +32,24 @@ Book appointment: [https://cmader.youcanbook.me](https://cmader.youcanbook.me){:
 
 ---
 
-###Meetings:  
+### Meetings:  
 
-August 17th - September 18th 2020  
-Time: 6:35 pm - 9:05 pm  
+[//]: # (meeting times?? meeting place?? hybrid?? zoom links??)
+
+August 23rd - September 24th / December 8th 2021  
+Time: TBD  
 Place: A49-110 (SOA Media Lab)  
-Zoom meeting links: [https://www.courses.miami.edu/webapps/blackboard/content/launchLink.jsp?course\_id=\_556411\_1&tool\_id=\_6571\_1&tool\_type=TOOL&mode=cpview&mode=reset](https://www.courses.miami.edu/webapps/blackboard/content/launchLink.jsp?course\_id=\_556411\_1&tool\_id=\_6571\_1&tool\_type=TOOL&mode=cpview&mode=reset){:target="\_blank"}  
+Zoom meeting links: [#](TBD){:target="\_blank"}  
 
 ---
 
-###Course Description:  
+### Course Description:  
 
-This course introduces the student to Geographic Information Systems (GIS) and how to apply GIS technologies in architectural design and urban planning contexts. Three principal activities will be emphasized: how to find, access, and use pre-existing GIS datasets; how to use industry standard tools such as ArcGIS and QGIS to perform basic analysis of geospatial data; and how to use ArcGIS and QGIS to transform and export geospatial data for use with applications such as Illustrator, AutoCAD and Rino [ need to flesh out more ]. A series of hands on lab based exercises will build student GIS skill sets and encourage students to produce materials applicable to real-world projects in their respective design studios. The class is designed to provide a basic introduction to geographic information systems, to foster spatial literacy, and to generate skills that will enable students to engage in geospatial storytelling and advanced cartographic projects.   
+This course introduces the student to Geographic Information Systems (GIS) and how to apply GIS technologies in architectural design and urban planning contexts. Three principal activities will be emphasized: how to find, access, and use pre-existing GIS datasets; how to use industry standard tools such as ArcGIS and QGIS to perform basic analysis of geospatial data; and how to use ArcGIS and QGIS to transform and export geospatial data for use with applications such as Illustrator and AutoCAD. A series of hands on lab based exercises will build student GIS skill sets and encourage students to produce materials applicable to real-world projects in their respective design studios. The class is designed to provide a basic introduction to geographic information systems, to foster spatial literacy, and to generate skills that will enable students to engage in geospatial storytelling and advanced cartographic projects.   
 
 ---
 
-###Texts and Materials: 
+### Texts and Materials: 
 
 *Books:*  
 
@@ -63,21 +68,21 @@ Students are required to download and transform geospatial data for projects thr
 
 *Shared Box Folder*  
 
-A sharedbox folder for readings and geospatial data is located at [https://miami.box.com/s/zyty0b8zc7d8ngsy0wi396lubqwoa36u](https://miami.box.com/s/zyty0b8zc7d8ngsy0wi396lubqwoa36u){:target="\_blank"}
+A sharedbox folder for readings and geospatial data is located at [https://miami.box.com/s/dcze4syqcoross5qdynhvlzuysefjtbr](https://miami.box.com/s/dcze4syqcoross5qdynhvlzuysefjtbr){:target="\_blank"}
 
 *Presentation Schedule*  
 
-An online docx file (PresentationsTopics.docx) for tracking the in class presentations from Field (2018) is in the shared teams folder mentioned above and can be accessed directly at: [https://miami.box.com/s/7zb14u6ho2mneweiv63z46n3j3w0tdot](https://miami.box.com/s/7zb14u6ho2mneweiv63z46n3j3w0tdot){:target="\_blank"}
+An online docx file (PresentationsTopics.docx) for tracking the in class presentations from Field (2018) is in the shared teams folder mentioned above and can be accessed directly at: [https://miami.box.com/s/buml6yired81a2gyurqii66tyby2fc3t](https://miami.box.com/s/buml6yired81a2gyurqii66tyby2fc3t){:target="\_blank"}
 
 ---
 
-###Computers and Software:  
+### Computers and Software:  
 
 Students are required to bring a functioning computer to every class meeting (Mac, PC, or Linux).  
 
 Throughout the course students will use several software tools that are proprietary (license provided by the University of Miami) and open-source (no license fee). With the exception of ArcGIS, any the software listed will run on any operating system (Mac, PC, or Linux). Guidance will be provided on how to choose the correct project specific software and how to install and configure a working environment on a computer.  
 
-*Proprietary (get through UMIT)*  
+> Proprietary (get through UMIT)  
 
 -   the ESRI ArcGIS suite of mapping tools:
   -   [http://www.esri.com/](http://www.esri.com/arcgis/about-arcgis){:target="\_blank"}
@@ -98,12 +103,12 @@ Throughout the course students will use several software tools that are propriet
 -   Microsoft Remote Desktop (Mac users only, already installed on any PC):
   -   [https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12](https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12){:target="\_blank"}  
 
-*Open-Source*  
+> Open-Source  
 
 -   QGIS [https://www.qgis.org/](https://www.qgis.org/en/site/){:target="\_blank"}  
 -   PostgreSQL [https://www.postgresql.org/](https://www.postgresql.org){:target="\_blank"} (optional)  
 
-*Extras for Covid19 hybrid classroom*  
+> Extras for Covid19 hybrid classroom [ DO WE NEED THIS?? ]  
 
 -   You are expected to login to the zoom meetings scheduled for each class session whether you attend in person or through Zoom remotely. The list of Zoom meetings can be found in blackboard at the link below (you must be logged into blackboard)
   -   Get Zoom at: [https://www.it.miami.edu/a-z-listing/zoom/](https://www.it.miami.edu/a-z-listing/zoom/). 
@@ -117,13 +122,15 @@ Throughout the course students will use several software tools that are propriet
 
 ---
 
-###Prerequisites:   
+### Prerequisites:   
 
 None  
 
 ---
 
-###Measurable Learning Outcomes:  
+### Measurable Learning Outcomes:  
+
+[//]: # (need to split this up??)
 
 1.  Understand maps as tools for storytelling in the context of urban development and change.
 2.  Able to describe geographic information systems as assemblages of data, humans, machines and code.
@@ -133,10 +140,10 @@ None
 6.  Understand basic principals of map projections and coordinate reference systems.
 7.  Able to perform basic overlay analysis using GIS.
 8.  Able to describe classification in terms of geospatial data and cartography.
-9.  Able to perform spatial or categorical joins between two geospatial data sets/layers.
-10.  Able to perform site suitability analysis with raster math
-11.  Understand map symbolization and map symbol abstraction for geospatial data.
-12.  Understand the basics of digital color theory for printers (subtractive - cmyk) and screens (additive - rgb).
+9.  Understand the basics of digital color theory for printers (subtractive - cmyk) and screens (additive - rgb).
+10.  Able to perform spatial or categorical joins between two geospatial data sets/layers.
+11.  Able to perform site suitability analysis with raster math
+12.  Understand map symbolization and map symbol abstraction for geospatial data.
 13.  Know cartographic standards for the use of fonts in labeling geographic features on a map.
 14.  Able to create print layouts both in GIS software and in graphic design software.
 14.  Understand how cartographic elements come together in a map to tell stories.
@@ -145,7 +152,9 @@ None
 
 ---
 
-###Practical Course Output/Activities
+### Practical Course Output/Activities
+
+[//]: # (need to update??)
 
 1.  Identify, download, install and configure appropriate software tools to construct a Geographic Information System (GIS)  
 2.  Find, download, transform and organize geospatial data for use in the GIS  
@@ -155,16 +164,13 @@ None
 
 ---
 
-###Methods of Instruction:  
+### Methods of Instruction:  
 
-Lecture-discussion, demonstration, and practical out-of-class and
-in-class assignments. Students are expected to participate in the
-lectures, discussions, and in-class projects. We expect that students
-have little or no prior GIS/cartography experience/training.
+Lecture-discussion, demonstration, and practical out-of-class and in-class assignments. Students are expected to participate in the lectures, discussions, and in-class projects. We expect that students have little or no prior GIS/cartography experience/training.
 
 ---
 
-###Evaluation of Student Performance: 
+### Evaluation of Student Performance (1 credit option): 
 
 Students will be assigned a letter grade (A-F) based on the following:
 
@@ -172,33 +178,64 @@ Students will be assigned a letter grade (A-F) based on the following:
 |:--- |:--- |  
 | Assignments | 30% / 30 pts |  
 | Class Participation | 30% / 30 pts |  
-| Class Project | 40% / 40 pts |  
+| Class Project (Initial Sketch) | 40% / 40 pts |  
 | Total | 100% / 100 pts |  
 
-###Assignments:  
+### Evaluation of Student Performance (3 credit option): 
 
-With the exception of the first meeting, there will be assignments for each meeting throughout 
-the five week course. These assignments will include reading with short written summaries, practical computer work, preparation 
-for in class presentations, and cartography/GIS assignments. All assignments made will be due in the 
-following class meeting as per the weekly schedule.  
+Students will be assigned a letter grade (A-F) based on the following:
+
+| Evaluated work | percentage / points |  
+|:--- |:--- |  
+| Assignments | 30% / 30 pts |  
+| Class Participation | 10% / 10 pts |  
+| Midterm Exam | 20% / 20 pts |
+| Class Project (Final Presentation) | 40% / 40 pts |  
+| Total | 100% / 100 pts |  
+
+### Assignments:  
+
+With the exception of the first meeting, there will be assignments for each meeting throughout the entire course. These assignments will include reading with short written summaries, practical computer work, preparation for in class presentations, and cartography/GIS assignments. All assignments made will be due in the following class meeting as per the weekly schedule.  
 
 While the class schedule in this syllabus (below) contains guidelines for the assignments, final expectations for the individual assignments will be set during class.
 
 ---
 
-###Class Participation:  
+### Midterm Examination:  
 
-Engagement in class activities through speaking, assigned in-class presentations, and participating in 
-thoughtful, engaged and positive criticism of instructor and student work is very important and will 
-be evaluated for each class meeting. As a part of class participation in the Zoom meetings you may be asked 
-to share your screen; you are expected to be prepared to share your screen at a moments notice.
+There will be a written midterm exam given during the week of October 11th. The exam will consist of multiple choice and short answer questions based on lecture slides and required readings.
 
 ---
 
-###Class Project:  
+### Class Participation:  
 
-As a class project, each student will create one map layout and present it through a medium of their choice (print, projected, online, or another). The map  must have at least two layers of data displayed in a simple overlay analysis (this does not include background or base map layers) and there must be an aggregated data set either displayed as geographic information on the map image itself or as a summary table included in the map layout. The map layout must tell a story: this means the layout may use elements such as a title, legend, labels, geographic features, scale, descriptive text, context, locator map, insets, credits, and sources with integrity in a harmonious and holistic presentation to make a spatial argument or to present a spatial vision of past, present or future. The class project will be presented in the final meeting for a critical review by fellow students and instructors.
+Engagement in class activities through speaking, assigned in-class presentations, and participating in 
+thoughtful, engaged and positive criticism of instructor and student work is very important and will 
+be evaluated for each class meeting.  
 
-[ needs reconsideration for full semester course, could be in pairs? ]
+[//]: # (As a part of class participation in the Zoom meetings you may be asked to share your screen; you are expected to be prepared to share your screen at a moments notice.)
+
+---
+
+### Class Project:  
+
+As a class project, each student will create one map layout and present it through a medium of their choice (print, projected, online, or another). All projects must be discussed and approved with one of the instructors prior to presentation. There will be two stages of presentation for this project, an initial sketch due in the fifth week and then a final presentation given at the end of the course.
+
+> __Initial Sketch__ (due in week 5):
+
+The map must have at least two layers of data displayed in a simple overlay analysis (the two layers are not background or base map layers) and there must be an aggregated data set either displayed as geographic information on the map image itself or as a summary table included in the map layout. The map layout must tell a story: this means the layout may use elements such as a title, legend, labels, geographic features, scale, descriptive text, context, locator map, insets, credits, and sources with integrity in a harmonious and holistic presentation to make a spatial argument or to present a spatial vision of past, present or future. The initial sketch of the class project will be due in the week five meeting with a brief presentation (no longer than five minutes)for a critical review by fellow students and instructors. 
+
+> __Final Presentation__ (due in weeks 14 and 15):
+
+[//]: # (needs reconsideration for full semester course, could be in pairs?)
+
+The map(s) for the final class project must meet all the same requirements as the initial sketch. Additionally, more than one map may be presented, at least five data layers must be put into a conversation for the story to be told, and the map(s) should be an integral part of another design studio in the School of Architecture. All final projects must be discussed and approved by one of the instructors. Additionally the map must be put into context with a 400-500 word written statement that accompanies the map(s). The written statement can for part of the map layout or can be a separate document. The statement will augment the story that the map (or maps) tell. Each final project will be presented in the final two course meetings; students will be prepared to give a 10-15 minute presentation about their work followed by a critique from fellow students and instructors. The presentation must include:
+
+-   An outline of the story that the map(s) tell
+-   A discussion of data sources
+-   A discussion of data transformation
+-   A discussion of software applications used
+-   A discussion of design choices for the map(s)
+-   A self-critique of the cartographic processes with attention give to strengths and weaknesses
 
 ---
