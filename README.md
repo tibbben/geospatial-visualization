@@ -1,6 +1,7 @@
-##ARC581/681-K1 - Geospatial Visualization
+## ARC581/681-K1 - Geospatial Visualization
+## ARC 594/694-T2 Geographic Information Systems in Urban Design
 
-This folder contains the *working* syllabus and lectures for a one-unit experimental geospatial visualization class taught at the School of Architecture at the University of Miami. It has been offered in the following semesters: fall 2019, fall 2020.
+This folder contains the *working* syllabus and lectures for a hybrid one-unit/three-unit experimental geospatial visualization class taught at the School of Architecture at the University of Miami. It has been offered in the following semesters: fall 2019, fall 2020, and fall 2021.
 
 Please see the [hosted version](https://tibbben.github.io/geospatial-visualization/) for more information.
 
