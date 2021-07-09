@@ -227,7 +227,7 @@ The map must have at least two layers of data displayed in a simple overlay anal
 
 > __Final Presentation__ (due in weeks 14 and 15):
 
-[//]: # (needs reconsideration for full semester course, could be in pairs?)
+[//]: # (needs reconsideration for full semester course, could be in pairs? How many students should we expect?)
 
 The map(s) for the final class project must meet all the same requirements as the initial sketch. Additionally, more than one map may be presented, at least five data layers must be put into a conversation for the story to be told, and the map(s) should be an integral part of another design studio in the School of Architecture. All final projects must be discussed and approved by one of the instructors. Additionally the map must be put into context with a 400-500 word written statement that accompanies the map(s). The written statement can for part of the map layout or can be a separate document. The statement will augment the story that the map (or maps) tell. Each final project will be presented in the final two course meetings; students will be prepared to give a 10-15 minute presentation about their work followed by a critique from fellow students and instructors. The presentation must include:
 
