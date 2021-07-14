@@ -37,7 +37,7 @@ Book appointment: [https://cmader.youcanbook.me](https://cmader.youcanbook.me){:
 [//]: # (meeting times?? meeting place?? hybrid?? zoom links??)
 
 August 23rd - September 24th / December 8th 2021  
-Time: TBD  
+Time: Tuesday 2:40 - 5:25 pm  
 Place: A49-110 (SOA Media Lab)  
 Zoom meeting links: [#](TBD){:target="\_blank"}  
 
@@ -142,12 +142,12 @@ None
 8.  Able to describe classification in terms of geospatial data and cartography.
 9.  Understand the basics of digital color theory for printers (subtractive - cmyk) and screens (additive - rgb).
 10.  Able to perform spatial or categorical joins between two geospatial data sets/layers.
-11.  Able to perform site suitability analysis with raster math
+11.  Able to perform site suitability analysis with raster math.
 12.  Understand map symbolization and map symbol abstraction for geospatial data.
 13.  Know cartographic standards for the use of fonts in labeling geographic features on a map.
 14.  Able to create print layouts both in GIS software and in graphic design software.
 14.  Understand how cartographic elements come together in a map to tell stories.
-15.  Place maps in context of larger storytelling devices.
+15.  Place maps in context of research endeavors focused on urban sustainability and resilience.
 16.  Understand maps as political tools.
 
 ---
@@ -161,12 +161,13 @@ None
 3.  Construct a GIS using a combination of the above software and data  
 4.  Export intermediate cartographic products from the GIS and import said products into design applications  
 5.  Prepare output ready cartographic products in design applications  
+6.  Design GIS-based analytic approaches for research problems in urban sustainability and resilience
 
 ---
 
 ### Methods of Instruction:  
 
-Lecture-discussion, demonstration, and practical out-of-class and in-class assignments. Students are expected to participate in the lectures, discussions, and in-class projects. We expect that students have little or no prior GIS/cartography experience/training.
+Lecture-discussion, demonstration, and practical out-of-class and in-class assignments. Students are expected to participate in the lectures, discussions, and in-class projects. We expect that students have little or no prior GIS, cartography, graphic design, or CAD experience/training.
 
 ---
 
@@ -219,23 +220,29 @@ be evaluated for each class meeting.
 
 ### Class Project:  
 
-As a class project, each student will create one map layout and present it through a medium of their choice (print, projected, online, or another). All projects must be discussed and approved with one of the instructors prior to presentation. There will be two stages of presentation for this project, an initial sketch due in the fifth week and then a final presentation given at the end of the course.
+As a class project, each student will create one map layout and present it through a medium of their choice (print, projected, online, or another). All projects must be discussed and approved with one of the instructors prior to presentation. There will be two stages of presentation for this project, an initial sketch due in the fifth week and then a final presentation given at the end of the course. All students enrolled in the full three credit course must choose a class project that is within the context of urban sustainability and/or resilience. 
 
 > __Initial Sketch__ (due in week 5):
 
-The map must have at least two layers of data displayed in a simple overlay analysis (the two layers are not background or base map layers) and there must be an aggregated data set either displayed as geographic information on the map image itself or as a summary table included in the map layout. The map layout must tell a story: this means the layout may use elements such as a title, legend, labels, geographic features, scale, descriptive text, context, locator map, insets, credits, and sources with integrity in a harmonious and holistic presentation to make a spatial argument or to present a spatial vision of past, present or future. The initial sketch of the class project will be due in the week five meeting with a brief presentation (no longer than five minutes)for a critical review by fellow students and instructors. 
+The map must have at least two layers of data displayed in a simple overlay analysis (the two layers are not background or base map layers) and there must be an aggregated data set either displayed as geographic information on the map image itself or as a summary table included in the map layout. The map layout must tell a story: this means the layout may use elements such as a title, legend, labels, geographic features, scale, descriptive text, context, locator map, insets, credits, and sources with integrity in a harmonious and holistic presentation to make a spatial argument or to present a spatial vision of past, present or future. The initial sketch of the class project will be due in the week five meeting with a brief presentation (no longer than five minutes)for a critical review by fellow students and instructors. All students enrolled in the full three credit course must also propose an urban sustainability/resilience research question that the project will seek to answer.
 
 > __Final Presentation__ (due in weeks 14 and 15):
 
 [//]: # (needs reconsideration for full semester course, could be in pairs? How many students should we expect?)
 
-The map(s) for the final class project must meet all the same requirements as the initial sketch. Additionally, more than one map may be presented, at least five data layers must be put into a conversation for the story to be told, and the map(s) should be an integral part of another design studio in the School of Architecture. All final projects must be discussed and approved by one of the instructors. Additionally the map must be put into context with a 400-500 word written statement that accompanies the map(s). The written statement can for part of the map layout or can be a separate document. The statement will augment the story that the map (or maps) tell. Each final project will be presented in the final two course meetings; students will be prepared to give a 10-15 minute presentation about their work followed by a critique from fellow students and instructors. The presentation must include:
+The map(s) for the final class project must meet all the same requirements as the initial sketch. Additionally, more than one map may be presented, at least five data layers must be put into a conversation for the story to be told, and the map(s) should be an integral part of a GIS-based analysis that seeks to answer the proposed urban sustainability and/or resilience research question. All final projects must be discussed and approved by one of the instructors. Additionally the map must be put into context with a 400-500 word written statement that accompanies the map(s). The written statement can for part of the map layout or can be a separate document. The statement will augment the story that the map (or maps) tell and will have a bibliography that lists references and all data sources used for the project. Each final project will be presented in the final two course meetings; students will be prepared to give a 10-15 minute presentation about their work followed by a critique from fellow students and instructors. The presentation must include:
+
+[//]: # (do we still want to critique SOA style??)
 
 -   An outline of the story that the map(s) tell
 -   A discussion of data sources
 -   A discussion of data transformation
 -   A discussion of software applications used
 -   A discussion of design choices for the map(s)
--   A self-critique of the cartographic processes with attention give to strengths and weaknesses
+-   A discussion of the findings to the proposed urban sustainability/resilience research question  
+-   A self-critique of the cartographic processes with attention give to strengths and weaknesses  
+
+[//]: # (focus more on answer or on story >> is the course to prepare students for the political realities of sustainability/resilience or simply be a researcher in this field?)
+
 
 ---

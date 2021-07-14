@@ -16,7 +16,7 @@ Before the first class meeting all students will receive an invite for an ESRI A
 
 ### Part I - Introduction to GIS and Geospatial Data Visualization (1 credit - five weeks)
 
-*__Week 1 (Aug. 23 - 27):__ Introduction: What are maps, what is GIS and why are we here?*  
+*__Week 1 (Aug. 24):__ Introduction: What are maps, what is GIS and why are we here?*  
 
 Introduce the course, the instructors, and the students. Review the entire syllabus. Share the students’ research/production contexts and objectives. Introduce maps and GIS as as tools for storytelling. 
 
@@ -55,7 +55,7 @@ NOTE: *Making Maps* (Krygier & Wood, 2016) download through page 31 available at
 >  [HW example #1](slides/slides010_sampleHWpresentation01.html){:target="\_blank"}  
 >  [HW example #2](slides/slides010_sampleHWpresentation02.html){:target="\_blank"}  
 
-*__Week 2 (Aug. 30 - Sept. 3):__ Geospatial Data: Sources and structures*  
+*__Week 2 (Aug. 31):__ Geospatial Data: Sources and structures*  
 
 Seek to understand data and data structures in terms of geospatial data and geographic information systems. This will include exploring relevant sources of data.
 
@@ -93,7 +93,7 @@ Seek to understand data and data structures in terms of geospatial data and geog
 
 >  [slide deck](slides/slides020.html){:target="\_blank"}  
 
-*__Week 3 (Sept. 7 - Sept 10):__ Geospatial Data: coordinate reference systems and interoperability*  
+*__Week 3 (Sept. 7):__ Geospatial Data: coordinate reference systems and interoperability*  
 
 Explore how software and data come together in a custom built GIS. This will include 
 putting multiple data layers together in one GIS and exploring relationships between layers in the GIS.
@@ -129,7 +129,7 @@ putting multiple data layers together in one GIS and exploring relationships bet
 
 >  [slide deck](slides/slides030.html){:target="\_blank"}  
 	
-*__Week 4 (Sept. 13 - Sept. 17):__ Cartography: The art and science of making a map*  
+*__Week 4 (Sept. 14):__ Cartography: The art and science of making a map*  
 
 Apply basic design principals to make a map. This will include using color theory, the application of figure ground, the correct use of fonts, and other cartographic standards to create a map image.
 
@@ -159,12 +159,12 @@ Apply basic design principals to make a map. This will include using color theor
 >  Assignments:
 
 -   Construct a fully symbolized GIS and export the resulting map for import into a design application.
--   Complete final project by placing the map image in the context of a larger project.
+-   Complete initial sketch by placing the map image in the context of a larger project.
 -   Be ready to present the export/import work flow and class project in the next class meeting.
 
 >  [slide deck](slides/slides040.html){:target="\_blank"}  
 	
-*__Week 5 (Sept 20. - Sept. 24):__ GIS, Cartography, and Urban Development*  
+*__Week 5 (Sept 21):__ GIS, Cartography, and Urban Development*  
 
 Explore how maps are woven into political and social contexts of urban development and planning. This will include an analysis of how maps both represent and construct reality through cartographic performances.  
 
@@ -198,7 +198,7 @@ Explore how maps are woven into political and social contexts of urban developme
 
 ### Part II - Cartography, GIS as a Tool, and Maps as Stories (two credits - ten weeks - Part I is prerequisite)
 
-*__Week 6 (Sept. 27 - Oct. 1):__ Collecting and Creating Data*  
+*__Week 6 (Sept. 28):__ Collecting and Creating Data*  
 
 Explore methods for collecting data in the field including ArcGIS Online and the ESRI Collector cellphone app, high precision GPS survey instruments, drones, and sensors. Go through basic processes to create new geospatial data layers and add features to the new layers.
 
@@ -228,9 +228,9 @@ Explore methods for collecting data in the field including ArcGIS Online and the
 
 >  [slide deck](slides/slides060.html){:target="\_blank"}  
 
-*__Week 7 (Oct. 4 - Oct. 8):__ Moving Data Between Applications*  
+*__Week 7 (Oct. 5):__ Moving Data Between Applications*  
 
-Explore how common geospatial data structures can serve in a variety of applications and computing environments. Moving data between applications and formats
+Explore how common geospatial data structures can serve in a variety of applications and computing environments. Moving data between applications and formats.
 
 > Learning Objectives
 
@@ -256,9 +256,13 @@ Explore how common geospatial data structures can serve in a variety of applicat
 
 >  [slide deck](slides/slides070.html){:target="\_blank"}  
 
-*__Week 8 (Oct. 11 - Oct. 16):__ MIDTERM and Online Mapping* [ short week mon-wed ]
+*__Week 8 (Oct. 12):__ MIDTERM and Online Mapping* 
 
-The midterm exam will take no longer than 45 minutes. It will be followed by an introduction to several online mapping platforms, basic components of an online mapping platform, and basic webpage concepts necessary to work with online mapping.
+[//]: # (short week mon-wed)
+
+The midterm exam will take no longer than 45 minutes. It will be followed by an introduction to several online mapping platforms with a focus on how they are used to map urban sustainability and resilience. Basic components of an online mapping platform and basic webpage concepts necessary to work with online mapping will be identified. 
+
+[//]: # (include a focus on sustainability and resilience. Find good resources to explore)
 
 > Learning Objectives
 
@@ -283,7 +287,7 @@ The midterm exam will take no longer than 45 minutes. It will be followed by an 
 
 >  [slide deck](slides/slides080.html){:target="\_blank"}  
 
-*__Week 9 (Oct. 18 - Oct. 22):__ Real Estate Mapping and Structured Query Language (SQL)*  
+*__Week 9 (Oct. 19):__ Real Estate Mapping and Structured Query Language (SQL)*  
 
 Explore GIS for real estate: data sources, common issues, and online systems. Use this context for learning about SQL queries. *Guest speaker* on geospatial data and Real Estate mapping: Elizabeth Plater-Zyberk.
 
@@ -310,13 +314,15 @@ Explore GIS for real estate: data sources, common issues, and online systems. Us
 
 >  [slide deck](slides/slides090.html){:target="\_blank"}  
 
-*__Week 10 (Oct. 25 - Oct. 29):__ Sea Level Rise and Raster Math in GIS*  
+*__Week 10 (Oct. 26):__ Sea Level Rise and Raster Math in GIS*  
 
-Determine geographic areas that meet several criteria by using raster math to combine multiple data layers that represent the individual criteria. A sea level rise example in South Florida will be used to illustrate this process. Jennifer Posner as a *guest speaker* on urban resilience.
+Determine geographic areas that meet several criteria by using raster math to combine multiple data layers that represent the individual criteria. A sea level rise example in South Florida will be used to illustrate this process. Jennifer Posner from the University of Miami Office of Community and Civic Engagement as a *guest speaker* on urban resilience.
 
 [//]: # (Do we need a better example? Sea level rise is really only an elevation layer ... or we need to think of another good layer like storm surge, or forest cover)
 
 [//]: # (are there good papers on urban resilience??)
+
+[//]: # (make sure Jennifer speaks to mapping at the Office of Community and Civic Engagement)
 
 > Learning Objectives
 
@@ -343,9 +349,9 @@ Determine geographic areas that meet several criteria by using raster math to co
 
 >  [slide deck](slides/slides100.html){:target="\_blank"}  
 
-*__Week 11 (Nov. 1 - Nov. 5):__ Environmental Justice and Vector Analysis in GIS*  
+*__Week 11 (Nov. 2):__ Environmental Justice and Vector Analysis in GIS*  
 
-Determine geographical areas that meet several criteria using vector based operations to combine multiple vector layers that represent individual criteria. An environmental justice example based on ??? will be used to illustrate these processes. An alternative example will use vector-based GIS analysis to identify potential site locations for marijuana dispensaries in San Francisco.
+Determine geographical areas that meet several criteria using vector based operations to combine multiple vector layers that represent individual criteria. An environmental justice example based on social vulnerabilities in the face of climate change will be used to illustrate these processes. An alternative example will use vector-based GIS analysis to identify potential site locations for marijuana dispensaries in San Francisco.
 
 > Learning Objectives
 
@@ -369,11 +375,13 @@ Determine geographical areas that meet several criteria using vector based opera
 
 >  [slide deck](slides/slides110.html){:target="\_blank"}  
 
-*__Week 12 (Nov. 8 - Nov. 12):__ GIS and Mapping in Miami-Dade County and Oakland CA*  
+*__Week 12 (Nov. 9):__ GIS and Mapping in Miami-Dade County and Oakland CA*  
 
 Explore how GIS is used by government agencies and urban planners. George de la Paz will be a *guest speaker* from Miami-Dade County to share how the county uses GIS and cartographic data assets. The use of maps in the 2019 Downtown Oakland Specific Plan will be reviewed and critiqued.
 
 [//]: # (Do we need to teach to this more? The style of mapping)
+
+[//]: # (somehow create a focus on sustainability and resilience)
 
 > Learning Objectives
 
@@ -396,7 +404,7 @@ Explore how GIS is used by government agencies and urban planners. George de la 
 
 >  [slide deck](slides/slides120.html){:target="\_blank"}  
 
-*__Week 13 (Nov. 15 - Nov. 19):__ Maps as Stories*  
+*__Week 13 (Nov. 16):__ Maps as Stories*  
 
 Explore how map images tell stories with beginning, middle, and end, and how maps provide indices to elements of the story. Consider the relationships between map and space, map and place, and map and territory; how does one create the other and vice-versa. Consider how maps are a part of broader social contexts and how they cannot stand alone. A picture may be worth a thousand words, but a thousand words plus a picture (map) is worth a lot more ... revisit the role of maps in urban sustainability and resilience.
 
@@ -424,9 +432,9 @@ Explore how map images tell stories with beginning, middle, and end, and how map
 
 >  [slide deck](slides/slides130.html){:target="\_blank"}  
 
-*__THANKSGIVING BREAK__*  
+*__THANKSGIVING BREAK (Nov. 22 - Nov. 26)__*  
 
-*__Week 14 (Nov. 29 - Dec. 3):__ Final Project Presentations and Advanced Topics in Geospatial Data Visualization*  
+*__Week 14 (Nov. 30):__ Final Project Presentations and Advanced Topics in Geospatial Data Visualization*  
 
 Final Project Presentations will be followed by demonstrations in advanced topics in GIS and 
 
@@ -443,7 +451,7 @@ Final Project Presentations will be followed by demonstrations in advanced topic
 
 -   TBD
 
-*__Week 15 (Dec. 6. - Dec. 8):__ Final Project Presentations* (short week mon-wed)
+*__Week 15 (Dec. 7):__ Final Project Presentations* (short week mon-wed)
 
 Final Project Presentations
 
