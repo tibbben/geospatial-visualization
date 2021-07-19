@@ -17,11 +17,11 @@ section {
 a {
   color: #17a;
 }
-@media print {
+@media print, @media pdf {
   body {
-	  padding: 0px !important;
+    padding: 0px !important;
     font-size: 9pt !important;
-	  color: #727272;
+    color: #727272;
     margin: 20mm 15mm 20mm 15mm;
     font: 14px/1.5 Helvetica, Arial, sans-serif;
   }
