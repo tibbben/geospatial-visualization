@@ -14,6 +14,9 @@ section {
 .bluetable td {
 	border: 2px solid white !important;
 }
+a {
+  color: #17a;
+}
 @media print {
   body {
 	  padding: 0px !important;

@@ -1,11 +1,11 @@
 ## ARC 581/681-T2 Special Problems (Geospatial Visualization) - 1 credit 
 ## ARC 594/694-T2 Geographic Information Systems in Urban Design - 3 credits
 ## Fall 2021 
-[https://tibbben.github.io/geospatial-visualization](https://tibbben.github.io/geospatial-visualization) (this page)  
+[https://tibbben.github.io/geospatial-visualization](https://tibbben.github.io/geospatial-visualization){:alt="syllabus (this page)"} (this page)  
 
 ---
 
-![](common/assets/images/Miami3D.png)
+![Miami in 3D](common/assets/images/Miami3D.png)
 
 ---
 
@@ -19,7 +19,7 @@ University of Miami Libraries
 Institute for Data Science and Computing  
 Ungar Building, 330F  
 Office Hours: by appointment only (virtual)  
-Book appointment: [https://tibben.youcanbook.me/](https://tibben.youcanbook.me/){:target="\_blank"}  
+Book appointment: [https://tibben.youcanbook.me/](https://tibben.youcanbook.me/){:target="\_blank" alt="you can book me page for Tim Norris"}  
 [tnorris@miami.edu](mailto:tnorris@miami.edu)  
 
 Christopher Mader  
@@ -27,7 +27,7 @@ Director of Software Engineering
 Institute for Data Science and Computing  
 Ungar Building, 330F  
 Office Hours: by appointment only (virtual)  
-Book appointment: [https://cmader.youcanbook.me](https://cmader.youcanbook.me){:target="\_blank"}  
+Book appointment: [https://cmader.youcanbook.me](https://cmader.youcanbook.me){:target="\_blank" alt="you can book me page for Chris Mader"}  
 [cmader@med.miami.edu](mailto:cmader@med.miami.edu)  
 
 ---
@@ -39,13 +39,13 @@ Book appointment: [https://cmader.youcanbook.me](https://cmader.youcanbook.me){:
 August 23rd - September 24th / December 8th 2021  
 Time: Tuesday 2:40 - 5:25 pm  
 Place: A49-110 (SOA Media Lab)  
-Zoom meeting links: [#](TBD){:target="\_blank"}  
+Zoom meeting links: [TBD](#){:target="\_blank" alt="zoom links for course, TBD"}  
 
 ---
 
 ### Course Description:  
 
-This course introduces the student to Geographic Information Systems (GIS) and how to apply GIS technologies in architectural design and urban planning contexts. Three principal activities will be emphasized: how to find, access, and use pre-existing GIS datasets; how to use industry standard tools such as ArcGIS and QGIS to perform basic analysis of geospatial data; and how to use ArcGIS and QGIS to transform and export geospatial data for use with applications such as Illustrator and AutoCAD. A series of hands on lab based exercises will build student GIS skill sets and encourage students to produce materials applicable to real-world projects in their respective design studios. The class is designed to provide a basic introduction to geographic information systems, to foster spatial literacy, and to generate skills that will enable students to engage in geospatial storytelling and advanced cartographic projects.   
+This course introduces the student to Geographic Information Systems (GIS) and how to apply GIS technologies in sustainable and resilient urban planning and architectural design contexts. Three principal activities will be emphasized: how to find, access, and use pre-existing GIS datasets; how to use industry standard tools such as ArcGIS and QGIS to perform basic analysis of geospatial data; and how to use ArcGIS and QGIS to transform and export geospatial data for use with applications such as Illustrator and AutoCAD. A series of hands on lab based exercises will build student GIS skill sets and encourage students to produce materials applicable to real-world projects for their respective research projects or design studios. The one credit option is designed to provide a basic introduction to geographic information systems, to foster spatial literacy, and to generate skills that will enable students to engage in geospatial storytelling and advanced cartographic projects. The three credit option introduces tools to enable students in more advanced geospatial data analysis with a focus on sustainable and resilient urban design and planning. 
 
 ---
 
@@ -101,24 +101,26 @@ Throughout the course students will use several software tools that are propriet
   -   [UMIT Adobe Creative Cloud](https://www.it.miami.edu/a-z-listing/adobe-creative-cloud/index.html){:target="\_blank"}  
 
 -   Microsoft Remote Desktop (Mac users only, already installed on any PC):
-  -   [https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12](https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12){:target="\_blank"}  
+  -   [https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12](https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12){:target="\_blank" alt="microsoft remote desktop"}  
 
 > Open-Source  
 
 -   QGIS [https://www.qgis.org/](https://www.qgis.org/en/site/){:target="\_blank"}  
--   PostgreSQL [https://www.postgresql.org/](https://www.postgresql.org){:target="\_blank"} (optional)  
+-   PostgreSQL [https://www.postgresql.org/](https://www.postgresql.org){:target="\_blank" alt="postgresql"} (optional)  
 
-> Extras for Covid19 hybrid classroom [ DO WE NEED THIS?? ]  
+> Extras for Covid19 hybrid classroom  
+
+[//]: # (DO WE NEED THIS??)
 
 -   You are expected to login to the zoom meetings scheduled for each class session whether you attend in person or through Zoom remotely. The list of Zoom meetings can be found in blackboard at the link below (you must be logged into blackboard)
-  -   Get Zoom at: [https://www.it.miami.edu/a-z-listing/zoom/](https://www.it.miami.edu/a-z-listing/zoom/). 
-  -   Meeting links: [https://www.courses.miami.edu/webapps/blackboard/content/launchLink.jsp?course\_id=\_556411\_1&tool\_id=\_6571\_1&tool\_type=TOOL&mode=cpview&mode=reset](https://www.courses.miami.edu/webapps/blackboard/content/launchLink.jsp?course\_id=\_556411\_1&tool\_id=\_6571\_1&tool\_type=TOOL&mode=cpview&mode=reset){:target="\_blank"}
+  -   Get Zoom at: [https://www.it.miami.edu/a-z-listing/zoom/](https://www.it.miami.edu/a-z-listing/zoom/){:target="\_blank" alt="get zoom"}. 
+  -   Meeting links: [TBD](#){:target="\_blank" alt="zoom links for course, TBD"}
 
 -   A set of headphones with microphone to better enable class participation and to enable semi-private conversations between yourself and the instructor will be useful (optional, but highly recommended)  
   -   USB preferable for SOA media lab machines, but micro jack will work  
 
 -   School of Architecture Remote Labs
-  -   [https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html](https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html){:target="\_blank"}
+  -   [https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html](https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html){:target="\_blank" alt="SOA Remote Labs"}
 
 ---
 
@@ -188,17 +190,17 @@ Students will be assigned a letter grade (A-F) based on the following:
 
 | Evaluated work | percentage / points |  
 |:--- |:--- |  
-| Assignments | 30% / 30 pts |  
+| Assignments | 25% / 25 pts |  
 | Class Participation | 10% / 10 pts |  
-| Midterm Exam | 20% / 20 pts |
-| Class Project (Final Presentation) | 40% / 40 pts |  
+| Midterm Exam | 25% / 25 pts |
+| Class Project (Initial Sketch and Final Presentation) | 40% / 40 pts |  
 | Total | 100% / 100 pts |  
 
 ### Assignments:  
 
 With the exception of the first meeting, there will be assignments for each meeting throughout the entire course. These assignments will include reading with short written summaries, practical computer work, preparation for in class presentations, and cartography/GIS assignments. All assignments made will be due in the following class meeting as per the weekly schedule.  
 
-While the class schedule in this syllabus (below) contains guidelines for the assignments, final expectations for the individual assignments will be set during class.
+While the class schedule in this syllabus (below) contains guidelines for the assignments, final expectations for the individual assignments will be set during class. The instructors reserve the right to make reasonable changes to the assignments in the course schedule below.
 
 ---
 
@@ -210,9 +212,7 @@ There will be a written midterm exam given during the week of October 11th. The 
 
 ### Class Participation:  
 
-Engagement in class activities through speaking, assigned in-class presentations, and participating in 
-thoughtful, engaged and positive criticism of instructor and student work is very important and will 
-be evaluated for each class meeting.  
+Engagement in class activities through speaking, assigned in-class presentations, and participating in thoughtful, engaged and positive criticism of instructor and student work is very important and will be evaluated for each class meeting.  
 
 [//]: # (As a part of class participation in the Zoom meetings you may be asked to share your screen; you are expected to be prepared to share your screen at a moments notice.)
 
@@ -230,7 +230,7 @@ The map must have at least two layers of data displayed in a simple overlay anal
 
 [//]: # (needs reconsideration for full semester course, could be in pairs? How many students should we expect?)
 
-The map(s) for the final class project must meet all the same requirements as the initial sketch. Additionally, more than one map may be presented, at least five data layers must be put into a conversation for the story to be told, and the map(s) should be an integral part of a GIS-based analysis that seeks to answer the proposed urban sustainability and/or resilience research question. All final projects must be discussed and approved by one of the instructors. Additionally the map must be put into context with a 400-500 word written statement that accompanies the map(s). The written statement can for part of the map layout or can be a separate document. The statement will augment the story that the map (or maps) tell and will have a bibliography that lists references and all data sources used for the project. Each final project will be presented in the final two course meetings; students will be prepared to give a 10-15 minute presentation about their work followed by a critique from fellow students and instructors. The presentation must include:
+The map(s) for the final class project must meet all the same requirements as the initial sketch. Additionally, more than one map may be presented, at least five data layers must be put into a conversation for the story to be told, and the map(s) should be an integral part of a GIS-based analysis that seeks to answer the proposed urban sustainability and/or resilience research question. All final projects must be discussed and approved by one of the instructors. Additionally the map must be put into context with a 400-500 word written statement that accompanies the map(s). The written statement can for part of the map layout or can be a separate document. The statement will augment the story that the map (or maps) tell and will have a bibliography that lists references and all data sources used for the project (bibliography and sources not included in word count). Each final project will be presented in the final two course meetings; students will be prepared to give a 10-15 minute presentation about their work followed by a critique from fellow students and instructors. The presentation must include:
 
 [//]: # (do we still want to critique SOA style??)
 

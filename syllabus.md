@@ -1,8 +1,6 @@
 ### Weekly Schedule:  
 
-All topics/dates/assignments are subject to revision/change based on
-instructor decisions and any other *force majeur* that may take place
-during the quarter.  
+All topics/dates/assignments are subject to revision/change based on instructor decisions and any other *force majeur* that may take place during the quarter.  
 
 All assigned reading is to be completed before the class meeting it is listed under. *A short one paragraph written summary of the required readings is to be emailed to [tnorris@miami.edu](mailto:tnorris@miami.edu) and [cmader@med.miami.edu](mailto:cmader@med.miami.edu) before class instruction begins (one email)*. While the optional reading is not required, most of these suggestions are not long reads, and the student's understanding of the material will benefit greatly if time is available.
 
@@ -19,6 +17,8 @@ Before the first class meeting all students will receive an invite for an ESRI A
 *__Week 1 (Aug. 24):__ Introduction: What are maps, what is GIS and why are we here?*  
 
 Introduce the course, the instructors, and the students. Review the entire syllabus. Share the students’ research/production contexts and objectives. Introduce maps and GIS as as tools for storytelling. 
+
+[//]: # (be sure to discusss capstone projects)
 
 >  Learning Objectives:
 
@@ -123,7 +123,7 @@ putting multiple data layers together in one GIS and exploring relationships bet
 -   Complete construction of basic GIS if not complete: all layers correctly loaded in one GIS file.
 -   Be ready to present the GIS in the next class meeting.
 
->  Optional:
+>  Optional Assignment (extra credit):
 
 -   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting.
 
@@ -159,7 +159,7 @@ Apply basic design principals to make a map. This will include using color theor
 >  Assignments:
 
 -   Construct a fully symbolized GIS and export the resulting map for import into a design application.
--   Complete initial sketch by placing the map image in the context of a larger project.
+-   Complete initial sketch by placing the map image in the context of a larger research or design project.
 -   Be ready to present the export/import work flow and class project in the next class meeting.
 
 >  [slide deck](slides/slides040.html){:target="\_blank"}  
@@ -175,8 +175,6 @@ Explore how maps are woven into political and social contexts of urban developme
 -   Understand how cartographic elements come together in a map to tell stories.
 
 >  Practical Objectives:
-
-[//]: # (move presentations to midterm?? 1 credit students come back for that one class??)
 
 -   Provide criticism to all class projects produced by the students.
 -   Use criticism to improve final project within a given time.
@@ -194,9 +192,14 @@ Explore how maps are woven into political and social contexts of urban developme
   -   chapter 10: Map Symbol Abstraction. pp. 252 - 277.
 -   Sieber, Renee. 2006. "Public Participation Geographic Information Systems: A Literature Review and Framework."  Annals of the Association of American Geographers 96 (3):491-507. doi: [10.1111/j.1467-8306.2006.00702.x](https://doi.org/10.1111/j.1467-8306.2006.00702.x){:target="\_blank"}.
 
+>  Assignments:
+
+-   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting. 
+-   Download ESRI ArcGIS Collector app on your cellphone.
+
 > [slide deck](slides/slides050.html){:target="\_blank"}  
 
-### Part II - Cartography, GIS as a Tool, and Maps as Stories (two credits - ten weeks - Part I is prerequisite)
+### Part II - Cartography, GIS as a Research Tool, and Maps as Stories (two credits - ten weeks - Part I is prerequisite)
 
 *__Week 6 (Sept. 28):__ Collecting and Creating Data*  
 
@@ -222,10 +225,6 @@ Explore methods for collecting data in the field including ArcGIS Online and the
 -   *Making Maps* (Krygier & Wood, 2016)
   -   chapter 3: Mappable Data. pp. 70 - 81.
 
->  Optional Reading:
-
--   Goodchild, Michael F. (2007). Citizens as sensors: the world of volunteered geography. *GeoJournal*, 69(4), 211-221. doi: [10.1007/s10708-007-9111-y](https://doi.og/10.1007/s10708-007-9111-y){:target="\_blank"}.
-
 >  [slide deck](slides/slides060.html){:target="\_blank"}  
 
 *__Week 7 (Oct. 5):__ Moving Data Between Applications*  
@@ -245,14 +244,6 @@ Explore how common geospatial data structures can serve in a variety of applicat
 -   Export vector data to csv or json
 -   Review of geocoding (from week 4)
 -   Review of georeferencing (from week 4)
-
->  Assigned Reading:
-
--   TBD
-
->  Optional Reading:
-
--   TBD
 
 >  [slide deck](slides/slides070.html){:target="\_blank"}  
 
@@ -277,13 +268,9 @@ The midterm exam will take no longer than 45 minutes. It will be followed by an 
 -   Identify different sources for map tiles
 -   Demonstrate web based mapping APIs: Leaflet, Mapbox, OpenStreetMap
 
->  Assigned Reading:
+>  Assignments:
 
--   TBD
-
->  Optional Reading:
-
--   TBD
+-   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting. 
 
 >  [slide deck](slides/slides080.html){:target="\_blank"}  
 
@@ -304,13 +291,13 @@ Explore GIS for real estate: data sources, common issues, and online systems. Us
 -   Create buffers around geospatial features
 -   Use ESRI ArcGIS online tools to create travel time maps
 
->  Assigned Reading:
+[//]: # (>  Assigned Reading:)
 
--   [ Something from Elizabeth? ]
+[//]: # (-   [ Something from Elizabeth? ])
 
->  Optional Reading:
+>  Assignments:
 
--   TBD
+-   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting. 
 
 >  [slide deck](slides/slides090.html){:target="\_blank"}  
 
@@ -323,6 +310,8 @@ Determine geographic areas that meet several criteria by using raster math to co
 [//]: # (are there good papers on urban resilience??)
 
 [//]: # (make sure Jennifer speaks to mapping at the Office of Community and Civic Engagement)
+
+[//]: # (neighborhood vulnerability based on building characteristics)
 
 > Learning Objectives
 
@@ -339,19 +328,19 @@ Determine geographic areas that meet several criteria by using raster math to co
 -   Perform raster math between two raster layers
 -   Visualize and interpret the results from the raster math operation
 
->  Assigned Reading:
+>  Assignments:
 
--   TBD
-
->  Optional Reading:
-
--   TBD
+-   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting. 
 
 >  [slide deck](slides/slides100.html){:target="\_blank"}  
 
 *__Week 11 (Nov. 2):__ Environmental Justice and Vector Analysis in GIS*  
 
-Determine geographical areas that meet several criteria using vector based operations to combine multiple vector layers that represent individual criteria. An environmental justice example based on social vulnerabilities in the face of climate change will be used to illustrate these processes. An alternative example will use vector-based GIS analysis to identify potential site locations for marijuana dispensaries in San Francisco.
+Determine geographical areas that meet several criteria using vector based operations to combine multiple vector layers that represent individual criteria. An environmental justice example based on social vulnerabilities and resilience in the face of climate change will be used to illustrate these processes.
+
+[//]: # (An alternative example will use vector-based GIS analysis to identify potential site locations for marijuana dispensaries in San Francisco.)
+
+[//]: # (Office of resilience, Katie Hegemann)
 
 > Learning Objectives
 
@@ -365,19 +354,15 @@ Determine geographical areas that meet several criteria using vector based opera
 -   Visualize and interpret the results
 -   Spatial join with two or more data layers
 
->  Assigned Reading:
+>  Assignments:
 
--   TBD
-
->  Optional Reading:
-
--   TBD
+-   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting. 
 
 >  [slide deck](slides/slides110.html){:target="\_blank"}  
 
 *__Week 12 (Nov. 9):__ GIS and Mapping in Miami-Dade County and Oakland CA*  
 
-Explore how GIS is used by government agencies and urban planners. George de la Paz will be a *guest speaker* from Miami-Dade County to share how the county uses GIS and cartographic data assets. The use of maps in the 2019 Downtown Oakland Specific Plan will be reviewed and critiqued.
+Explore how GIS is used by government agencies and urban planners to plan for urban sustainability and resilience. George de la Paz will be a *guest speaker* from Miami-Dade County to share how the county uses GIS and cartographic data assets. The use of maps in the 2019 Downtown Oakland Specific Plan will be reviewed and critiqued.
 
 [//]: # (Do we need to teach to this more? The style of mapping)
 
@@ -396,19 +381,22 @@ Explore how GIS is used by government agencies and urban planners. George de la 
 >  Assigned Reading:
 
 -   Dover, Kohl & Partners (2019). *The Downtown Oakland Preliminary Draft Plan*. [https://www.oaklandca.gov/topics/downtown-oakland-specific-plan](https://www.oaklandca.gov/topics/downtown-oakland-specific-plan) [ SKIM THIS - Look at the maps and contextual information - Be prepared to critique the use of maps in the report. ]
--   [ something from George? ]
 
->  Optional Reading:
+[//]: # (something from George?)
 
--   TBD
+>  Assignments:
+
+-   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting. 
 
 >  [slide deck](slides/slides120.html){:target="\_blank"}  
 
-*__Week 13 (Nov. 16):__ Maps as Stories*  
+*__Week 13 (Nov. 16):__ Maps as Stories: Urban Sustainability and Resilience*  
 
-Explore how map images tell stories with beginning, middle, and end, and how maps provide indices to elements of the story. Consider the relationships between map and space, map and place, and map and territory; how does one create the other and vice-versa. Consider how maps are a part of broader social contexts and how they cannot stand alone. A picture may be worth a thousand words, but a thousand words plus a picture (map) is worth a lot more ... revisit the role of maps in urban sustainability and resilience.
+Explore how map images tell stories of urban sustainability and resilience with beginning, middle, and end, and how maps provide indices to elements of the story. Consider the relationships between map and space, map and place, and map and territory; how does one create the other and vice-versa. Consider how maps are a part of broader social contexts and how they cannot stand alone. A picture may be worth a thousand words, but a thousand words plus a picture (map) is worth a lot more.
 
 [//]: # (emphasize sustainability and resilience more? On the other hand, shorten and make more about drone surveys, point clouds, and the process of getting a drone survey into a GIS)
+
+[//]: # (urban footprint, Peter Calthorpe: https://urbanfootprint.com)
 
 > Learning Objectives
 
@@ -422,14 +410,6 @@ Explore how map images tell stories with beginning, middle, and end, and how map
 -   Critique static maps for storytelling effectiveness
 -   Refine stories for final project presentations
 
->  Assigned Reading:
-
--   TBD
-
->  Optional Reading:
-
--   TBD
-
 >  [slide deck](slides/slides130.html){:target="\_blank"}  
 
 *__THANKSGIVING BREAK (Nov. 22 - Nov. 26)__*  
@@ -438,16 +418,18 @@ Explore how map images tell stories with beginning, middle, and end, and how map
 
 Final Project Presentations will be followed by demonstrations in advanced topics in GIS and 
 
-> Practical Objectives
+> Practical Objectives:
 
--   Jupyter Notebooks and geospatial data visualization (point clouds?)
--   Participatory Mapping, risk, and resilience in urban planning (flood zones in San Diego)
+-   Demonstration of Jupyter Notebooks and geospatial data visualization using point clouds.
+-   Participatory Mapping, risk, and resilience in urban planning: flood mapping in San Diego CA.
 
 >  Assigned Reading:
 
--   TBD
+-   Sanders, Brett F., Schubert, Jochen E., Goodrich, Kristen A., Houston, Douglas, Feldman, David L., Basolo, Victoria, . . . Matthew, Richard A. (2020). Collaborative Modeling With Fine-Resolution Data Enhances Flood Awareness, Minimizes Differences in Flood Perception, and Produces Actionable Flood Maps. *Earth's Future*, 8(1), e2019EF001391. doi: [https://doi.org/10.1029/2019EF001391](https://doi.org/10.1029/2019EF001391)
 
 >  Optional Reading:
+
+-   Goodchild, Michael F. (2007). Citizens as sensors: the world of volunteered geography. *GeoJournal*, 69(4), 211-221. doi: [10.1007/s10708-007-9111-y](https://doi.og/10.1007/s10708-007-9111-y){:target="\_blank"}.
 
 -   TBD
 
@@ -455,18 +437,12 @@ Final Project Presentations will be followed by demonstrations in advanced topic
 
 Final Project Presentations
 
->  Demonstrations
+> Practical Objectives:
 
--   South Beach Data Collection (Sonia's Class)
--   Tree Inventory of Gables Campus
+-   Demonstrate South Beach Data Collection Project
+-   Demonstrate Tree Inventory of Gables Campus
 
->  Assigned Reading:
-
--   TBD
-
->  Optional Reading:
-
--   TBD
+[//]: # (Is there something published from the South Beach project?)
 
 [//]: # (Is there a final? Should we give one? How does this usually work?)
 
