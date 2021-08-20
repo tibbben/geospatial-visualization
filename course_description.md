@@ -108,19 +108,22 @@ Throughout the course students will use several software tools that are propriet
 -   QGIS [https://www.qgis.org/](https://www.qgis.org/en/site/){:target="\_blank"}  
 -   PostgreSQL [https://www.postgresql.org/](https://www.postgresql.org){:target="\_blank" alt="postgresql"} (optional)  
 
-> Extras for Covid19 hybrid classroom  
+> School of Architecture Remote Labs
+
+-   [https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html](https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html){:target="\_blank" alt="SOA Remote Labs"}
+
+> Zoom (Extras for Covid19 Quarantine and Isolation)  
 
 [//]: # (DO WE NEED THIS??)
 
--   You are expected to login to the zoom meetings scheduled for each class session whether you attend in person or through Zoom remotely. The list of Zoom meetings can be found in blackboard at the link below (you must be logged into blackboard)
+[//]: # (-   You are expected to login to the zoom meetings scheduled for each class session whether you attend in person or through Zoom remotely. The list of Zoom meetings can be found in blackboard at the link below; you must be logged into blackboard.)
+
+-   If you are under quarantine or isolation for Covid19 you will be able to access class meetings either live or as recordings through Zoom.
   -   Get Zoom at: [https://www.it.miami.edu/a-z-listing/zoom/](https://www.it.miami.edu/a-z-listing/zoom/){:target="\_blank" alt="get zoom"}. 
-  -   Meeting links: [TBD](#){:target="\_blank" alt="zoom links for course, TBD"}
+  -   Class Meeting links: [https://www.courses.miami.edu/webapps/blackboard/content/launchLink](https://www.courses.miami.edu/webapps/blackboard/content/launchLink.jsp?course_id=_576809_1&content_id=_11400144_1&mode=cpview){:target="\_blank" alt="zoom links for course, TBD"}
 
--   A set of headphones with microphone to better enable class participation and to enable semi-private conversations between yourself and the instructor will be useful (optional, but highly recommended)  
-  -   USB preferable for SOA media lab machines, but micro jack will work  
-
--   School of Architecture Remote Labs
-  -   [https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html](https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html){:target="\_blank" alt="SOA Remote Labs"}
+[//]: # (-   A set of headphones with microphone to better enable class participation and to enable semi-private conversations between yourself and the instructor will be useful. These are optional, but highly recommended.)   
+[//]: # (  -   USB preferable for SOA media lab machines, but micro jack will work.)  
 
 ---
 
@@ -230,7 +233,7 @@ The map must have at least two layers of data displayed in a simple overlay anal
 
 [//]: # (needs reconsideration for full semester course, could be in pairs? How many students should we expect?)
 
-The map(s) for the final class project must meet all the same requirements as the initial sketch. Additionally, more than one map may be presented, at least five data layers must be put into a conversation for the story to be told, and the map(s) should be an integral part of a GIS-based analysis that seeks to answer the proposed urban sustainability and/or resilience research question. All final projects must be discussed and approved by one of the instructors. Additionally the map must be put into context with a 400-500 word written statement that accompanies the map(s). The written statement can for part of the map layout or can be a separate document. The statement will augment the story that the map (or maps) tell and will have a bibliography that lists references and all data sources used for the project (bibliography and sources not included in word count). Each final project will be presented in the final two course meetings; students will be prepared to give a 10-15 minute presentation about their work followed by a critique from fellow students and instructors. The presentation must include:
+The map(s) for the final class project must meet all the same requirements as the initial sketch. Additionally, more than one map may be presented, at least five data layers must be put into a conversation for the story to be told, and the map(s) should be an integral part of a GIS-based analysis that seeks to answer the proposed urban sustainability and/or resilience research question. All final projects must be discussed and approved by one of the instructors. Additionally the map must be put into context with a 400-500 word written statement that accompanies the map(s). The written statement can form part of the map layout or can be a separate document. The statement will augment the story that the map (or maps) tell and will have a bibliography that lists references and all data sources used for the project (bibliography and sources not included in word count). The statement can be thought of as a five paragraph essay that touches on: 1) an introduction to the research question, 2) a discussion of data sources, 3) a summary of methods used for data transformations 4) a narrative of the story or findings, and 5) an assessment of strengths and weaknesses in the story/findings. Each final project will be presented in the final two course meetings; students will be prepared to give a 10-15 minute presentation about their work followed by a critique from fellow students and instructors. The presentation must include:
 
 [//]: # (do we still want to critique SOA style??)
 
