@@ -5,7 +5,7 @@ Lesson 1
 
 total time 150 minutes.
 
-1. Introductions (6:40 pm - 20 min)  
+1. Introductions (2:40 pm - 20 min)  
    -   Instructors  
    -   Students go around  
    -   Class
@@ -14,7 +14,7 @@ total time 150 minutes.
       -   telling stories with maps, GIS is a side
    - Covid challenges ...
 
-2. Syllabus review (7:00 pm - 20 min)  
+2. Syllabus review (3:00 pm - 20 min)  
    -   Computers, Software Data
       -   software setup complete by next class
       -   show box folder
@@ -38,27 +38,27 @@ total time 150 minutes.
       -   class will be mix of lecture, student presentations, exercises together (and maybe time to work)
    -  Time for Covid questions
 
-3. Break (7:20 pm - 5 min)
+3. Break (3:20 pm - 5 min)
 
-4. Lecture: what is GIS and Cartography (7:25 pm - 30 min)
+4. Lecture: what is GIS and Cartography (3:25 pm - 30 min)
    -   physical data model - map file vs data files
    -   make sure to emphasize first decisions in project
       -   scale of map, size of map, medium, story, audience (from reading)
    -   is question/story possible - where do you get your data
    -   in data organization, come back to physical data model 
 
-5. Install some software / Break (7:55 pm - 10 min)
+5. Install some software / Break (3:55 pm - 10 min)
    -   test breakout room remote and in person for debugging
 
-6. Example HW presentations (8:05 pm - 15 min)
+6. Example HW presentations (4:05 pm - 15 min)
       -   what it is, my take, and one external thing related to it
 
-7. Choose HW pages (8:20 pm - 15 min)
+7. Choose HW pages (4:20 pm - 15 min)
    -   flip through Field and students choose pages
    -   students choose start letter each week
    -   we will scan and place in shared data folder
 
-7. Re-create Miami image in ArcGIS Pro (8:35 pm - 30 min)
+7. Re-create Miami image in ArcGIS Pro (4:35 pm - 30 min)
    -   difficult on a Mac, but possible in QGIS (ask for appointment if interested)
    -   remember
       -   lighting (out of the box is not good)
