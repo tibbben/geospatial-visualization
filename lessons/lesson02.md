@@ -5,27 +5,26 @@ Lesson 2
 
 total time 150 minutes. 
 
-1.   Housekeeping (6:40 pm - 10 min)  
+1.   Housekeeping (2:40 pm - 10 min)  
    -   Questions on homework, readings, syllabus (note on readings)
    -   Ask about problems with software installation
    -   Encourage early conversations with Chris or myself about project ideas
 
-2.   Map Ideas (6:50 - 10 min)
+2.   Map Ideas (2:50 - 10 min)
    -   Students go around and talk about their initial ideas (3 min each)
+   -   not everyone - ask for volunteers
 
-3.   Abe and AGOL BOA (7:00 pm - 60 min)
-
-4.   Student presentations from Field (8:00 pm - 30 min)
+3.   Student presentations from Field (3:00 pm - 30 min)
    -   max 4 minutes each
 
-5.   Chris presents possible project ideas (8:30 - 15 min)
+4.   Chris presents possible project ideas (3:30 - 15 min)
 
-6.   Reading discussion (8:45 pm - 10 min)
+5.   Reading discussion (3:45 pm - 10 min)
    -   Chapter 3 - Mappable Data
       -   Review phenomena -> data abstraction 
       -   What kinds of data will they use?
       -   What sources of data might they use?
-      -   What transformations might they ue?
+      -   What transformations might they use?
       -   Will time data be used?
       -   Maya Atlas??
    -   Chapter 4 - How is it Made?
@@ -35,8 +34,12 @@ total time 150 minutes.
          -   Look up David Rumsey Map Collection
          -   Show Miami Dade data portal again
 
-7.   Lecture - data (8:55 - 25 min) - MAYBE NEXT WEEK
+6.   BREAK (3:55 - 5 min)
 
-8.   Exercise - Get data and put in GIS of choice (25 min) - IF WE HAVE TIME - probably next week
+7.   Abe and AGOL BOA (4:00 pm - 60 min)
 
-9.   Closing (5 min)
+8.   Lecture - data (5:00 - 25 min) - MAYBE NEXT WEEK
+
+9.   Exercise - Get data and put in GIS of choice (25 min) - IF WE HAVE TIME - probably next week
+
+10.   Closing (5 min)
