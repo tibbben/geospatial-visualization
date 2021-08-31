@@ -19,7 +19,7 @@ total time 150 minutes.
 
 4.   Chris presents possible project ideas (3:30 - 15 min)
 
-5.   Reading discussion (3:45 pm - 10 min)
+5.   Reading discussion (3:45 pm - 10 min)  
    -   Chapter 3 - Mappable Data  
       -   Review phenomena -> data abstraction  
       -   What kinds of data will they use?  
