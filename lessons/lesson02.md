@@ -20,19 +20,19 @@ total time 150 minutes.
 4.   Chris presents possible project ideas (3:30 - 15 min)
 
 5.   Reading discussion (3:45 pm - 10 min)
-   -   Chapter 3 - Mappable Data
-      -   Review phenomena -> data abstraction 
-      -   What kinds of data will they use?
-      -   What sources of data might they use?
-      -   What transformations might they use?
-      -   Will time data be used?
-      -   Maya Atlas??
-   -   Chapter 4 - How is it Made?
-      -   Best tool (trick question)?
-      -   What attracted you the most of all the tools?
+   -   Chapter 3 - Mappable Data  
+      -   Review phenomena -> data abstraction  
+      -   What kinds of data will they use?  
+      -   What sources of data might they use?  
+      -   What transformations might they use?  
+      -   Will time data be used?  
+      -   Maya Atlas??  
+   -   Chapter 4 - How is it Made?  
+      -   Best tool (trick question)?  
+      -   What attracted you the most of all the tools?  
       -   Sources:  
-         -   Look up David Rumsey Map Collection
-         -   Show Miami Dade data portal again
+         -   Look up David Rumsey Map Collection  
+         -   Show Miami Dade data portal again  
 
 6.   BREAK (3:55 - 5 min)
 
