@@ -39,7 +39,7 @@ Book appointment: [https://cmader.youcanbook.me](https://cmader.youcanbook.me){:
 August 23rd - September 24th / December 8th 2021  
 Time: Tuesday 2:40 - 5:25 pm  
 Place: A49-110 (SOA Media Lab)  
-Zoom meeting links: [TBD](#){:target="\_blank" alt="zoom links for course, TBD"}  
+Zoom meeting links: [https://www.courses.miami.edu/webapps/blackboard/content/launchLink](https://www.courses.miami.edu/webapps/blackboard/content/launchLink.jsp?course_id=_576809_1&content_id=_11400144_1&mode=cpview){:target="\_blank" alt="zoom links for course"}  
 
 ---
 
@@ -120,7 +120,7 @@ Throughout the course students will use several software tools that are propriet
 
 -   If you are under quarantine or isolation for Covid19 you will be able to access class meetings either live or as recordings through Zoom.
   -   Get Zoom at: [https://www.it.miami.edu/a-z-listing/zoom/](https://www.it.miami.edu/a-z-listing/zoom/){:target="\_blank" alt="get zoom"}. 
-  -   Class Meeting links: [https://www.courses.miami.edu/webapps/blackboard/content/launchLink](https://www.courses.miami.edu/webapps/blackboard/content/launchLink.jsp?course_id=_576809_1&content_id=_11400144_1&mode=cpview){:target="\_blank" alt="zoom links for course, TBD"}
+  -   Class Meeting links: [https://www.courses.miami.edu/webapps/blackboard/content/launchLink](https://www.courses.miami.edu/webapps/blackboard/content/launchLink.jsp?course_id=_576809_1&content_id=_11400144_1&mode=cpview){:target="\_blank" alt="zoom links for course"}
 
 [//]: # (-   A set of headphones with microphone to better enable class participation and to enable semi-private conversations between yourself and the instructor will be useful. These are optional, but highly recommended.)   
 [//]: # (  -   USB preferable for SOA media lab machines, but micro jack will work.)  
