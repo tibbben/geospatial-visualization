@@ -26,8 +26,90 @@
                   <div class="template-title">A few exercises</div>
                   <div>
                     <ul>
-                      <li>Georeferencing<br><span style="font-size: 80%">> locating external files in geographic space</span></li>
-                      <li style="margin: 13px 0px 0px 0px;">Creating Layouts<br><span style="font-size: 80%">> for printing and export to design programs</span></li>
+                      <li style="margin: 23px 0px 0px 0px;">Use API as service<br><span style="top: -13px; font-size: 70%; position: relative;">> load online dynamic data into a GIS</span></li>
+                      <li style="margin: 23px 0px 0px 0px;">Get OSM Data<br><span style="top: -13px; font-size: 70%; position: relative;">> use data from Open Street Map</span></li>
+                      <li style="margin: 23px 0px 0px 0px;">Georeferencing<br><span style="top: -13px; font-size: 70%; position: relative;">> locating external files in geographic space</span></li>
+                      <li style="margin: 23px 0px 0px 0px;">Creating Layouts<br><span style="top: -13px; font-size: 70%; position: relative;">> for printing and export to design programs</span></li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Use API as Service - 1</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>API - Application Programming Interface</a>
+                        <ul style="font-size: 80%;">
+                          <li>Sharing of dynamic data across some network protocol (i.e. the internet)</li>
+                          <li>Include "API" in your search terms (as an alternative to "shapefile")</li>
+                          <li>Among many other data providers, Arc GIS Online provides data as APIs</li>
+                          <li>Great for data exploration and online mapping applications</li>
+                          <li>Not suitable for publication ready maps (hard to cite)</li>
+                        </ul>
+                      </li>
+                      <li style="margin-top: 23px;">Find an API endpoint
+                        <ul style="font-size: 80%;">
+                          <li>Identify metadata</li>
+                          <li>Copy the URL</li>
+                          <li>[ sometimes not obvious ]
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Use API as Service - 1</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro
+                        <ul style="font-size: 80%;">
+                          <li>Add data to map -> from website</li>
+                          <li>Paste URL</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 23px 0px 0px 0px;">QGIS
+                        <ul style="font-size: 80%;">
+                          <li>Add data to map - ArcGIS Feature Server</li>
+                          <li>Edit the URL and delete everything after .../FeatureServer</li>
+                          <li>Paste URL</li>
+                          <li>Click "add to map"</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Get OSM Data</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>All data released under <a href="https://www.openstreetmap.org/export#:~:text=Open%20Data%20Commons%20Open%20Database%20License">Open Data Commons Open Database License</a>
+                        <ul style="font-size: 80%;">
+                          <li>Start at <a href="https://www.openstreetmap.org/">https://www.openstreetmap.org/</a></li>
+                          <li>Navigate to area of interest</li>
+                          <li>Click export</li>
+                          <li>If the export fails, try other options at lower right (Overpass API is a good place to start)</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">QGIS
+                        <ul style="font-size: 80%;">
+                          <li>Add data to map</li>
+                          <li>Select all geometry types, click add</li>
+                          <li>Open attribute tables and explore</li>
+                          <li>Filter, symbolize, and copy layers as needed</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro
+                        <ul style="font-size: 80%;">
+                          <li>License and activate the Data Interoperability extension</li>
+                          <li>Use the Data Interoperability toolbox to import the OSM files</li>
+                          <li>Explore,filter, symbolize, and copy layers as needed</li>
+                        </ul>
+                      </li>
                     </ul>
                   </div>
                   <div class="template-citation" style="margin-top: 42px !important;"></div>
@@ -425,6 +507,7 @@
                       <li>Census data example: attributes and geography come separate</li>
                       <li style="margin: 13px 0px 0px 0px;">Get Census data from the "US Census Bureau" (data.census.gov)
                         <ul style="font-size: 80%;">
+                            <li>start at <a href="https://data.census.gov/cedsci/">https://data.census.gov/cedsci/</a></li>
                             <li>Search and select table</li>
                             <li>"Customize Table" and add geography</li>
                             <li>Goto "Map" to check</li>
@@ -433,6 +516,7 @@
                       </li>
                       <li style="margin: 13px 0px 0px 0px;">Get geographic data from "Census Geography Program"
                         <ul style="font-size: 80%;">
+                            <li>start at <a href="https://www.census.gov/programs-surveys/geography.html">https://www.census.gov/programs-surveys/geography.html</a></li>
                             <li>Look for "Tiger/Line Geodatabases"</li>
                             <li>Select "State Level Geodatbases" and your state</li>
                             <li> -- OR -- </li>
