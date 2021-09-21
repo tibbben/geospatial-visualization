@@ -5,17 +5,19 @@ Lesson 5
 
 total time 150 minutes. 
 
-1.   Housekeeping (6:40 pm - 10 min)  
+1.   Housekeeping (2:40 pm - 10 min)  
 
-2.   Covid XSAT Presentation (6:50 pm 20 min)
+2.   Student Presentations (2:50 - 120 minutes with break)
+   -   perhaps geocoding as a break??
+   -   perhaps nicklaus as a break??
+   -   perhaps lectures as a break??
 
-3.   Student Presentations (7:10 - 90 minutes)
-
-4.   Final Lectures / Discussion (8:40 - 15 minutes)
+4.   Final Lectures / Discussion (4:50 - 15 minutes)
    -   Typography
    -   Symbology
 
-5.   Final Exercise (8:55 - 5 minutes)
+5.   Final Exercises (5:05 - 10 minutes)
    -   creating data
+   -   editing data
 
-8.   Close (9:00 - 5 min)
+8.   Close (5:15 - 5 min)

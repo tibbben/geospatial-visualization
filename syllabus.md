@@ -18,7 +18,7 @@ Before the first class meeting all students will receive an invite for an ESRI A
 
 Introduce the course, the instructors, and the students. Review the entire syllabus. Share the students’ research/production contexts and objectives. Introduce maps and GIS as as tools for storytelling. 
 
-[//]: # (be sure to discusss capstone projects)
+[//]: # (be sure to discuss capstone projects)
 
 >  Learning Objectives:
 
@@ -312,6 +312,8 @@ Determine geographic areas that meet several criteria by using raster math to co
 [//]: # (make sure Jennifer speaks to mapping at the Office of Community and Civic Engagement)
 
 [//]: # (neighborhood vulnerability based on building characteristics)
+
+[//]: # (zoning handbook - https://www1.nyc.gov/site/planning/zoning/zh-2016.page)
 
 > Learning Objectives
 
