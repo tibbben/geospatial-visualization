@@ -12,15 +12,208 @@
         <div class="reveal">
             <div class="slides">
 
-              <section data-background-image="" data-background-size="contain" data-background-color="#000">
+              <section data-background-image="../common/assets/images/dronesplash.jpg" data-background-size="contain" data-background-color="#000">
 
-                <div style="position: absolute; left: 0px; top: 40px; font-size: 150%; line-height: 100%; color: #999 !important; text-align: left;"><strong>Geospatial<br>  Visualization</strong></div>
+                <div style="position: absolute; left: 300px; top: 40px; font-size: 150%; line-height: 100%; color: #555 !important; text-align: left;text-shadow: 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2;"><strong>Geospatial Visualization</strong></div>
 
-                <div style="position: absolute; left: 0px; top: 220px; font-size: 90%; color: #999 !important;text-align: right;">School of Architecture<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
+                <div style="position: absolute; left: 300px; top: 290px; font-size: 90%; color: #555 !important;text-align: right;text-shadow: 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2;">School of Architecture <br><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></div>
                 
-                <div style="position: absolute; left: 0px; top: 400px; font-size: 50%; text-align: left; color: #999 !important; line-height: 145%">Dr. Timothy Norris : <a href="mailto:tnorris@miami.edu" style="color: #999 !important; text-decoration: underline;">tnorris@miami.edu</a><br>Christopher Mader : <a href="mailto:cmader@med.miami.edu" style="color: #999 !important; text-decoration: underline;">cmader@med.miami.edu</a></div>
+                <div style="position: absolute; right: 0px; top: 670px; font-size: 50%; text-align: right; color: #555 !important; line-height: 145%; text-shadow: 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2,0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2;">Dr. Timothy Norris : <a href="mailto:tnorris@miami.edu" style="color: #555 !important; text-shadow: 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2,0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2;text-decoration: underline;">tnorris@miami.edu</a><br>Christopher Mader : <a href="mailto:cmader@med.miami.edu" style="color: #555 !important; text-decoration: underline;text-shadow: 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2,0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2, 0px 0px 23px #ede9e2;">cmader@med.miami.edu</a></div>
                 
                 <div style="position: absolute; left: 0px; top: 550px; font-size: 40%; text-align: right; color: #555; width: 280px;"></div>
+
+              </section>
+
+            </section>
+
+             <section>
+                <section>
+                  <div class="template-title">Some exercises</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Geocoding<br><span style="font-size: 80%">> using addresses for location</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Labeling<br><span style="font-size: 80%">> adding text to a map</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Creating vector data<br><span style="font-size: 80%">> enter data by hand<br>> review georeferencing</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Editing vector data<br><span style="font-size: 80%">> modify geometries and attributes</span></li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Geocoding</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>list of address information, usually comma separated values (csv)</li>
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS geocoding service
+                        <ul style="font-size: 80%;">
+                            <li>Very accurate and up-to-date geocoding engine</li>
+                            <li>Uses credits - see <a href="https://doc.arcgis.com/en/arcgis-online/administer/credits.htm">Understanding Credits</a>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">"Free" online geocoding services
+                        <ul style="font-size: 80%;">
+                            <li><a href="https://geocoding.geo.census.gov">Census.gov</a> - somewhat accurate</li>
+                            <li><a href="http://geoservices.tamu.edu/Services/Geocode/">Texas A&M</a> - needs free account</li>
+                            <li><a href="https://www.geocod.io">geocode.io</a> - first 1000/day free, then you pay</li>
+                            <li>More, ... google "online geocoders"</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">in the GIS ...
+                        <ul style="font-size: 80%;">
+                            <li>Import as csv with lat/long coordinates as columns</li>
+                            <li>Google "create x,y points from csv" in [GIS of choice]</li>
+                        </ul>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">Note: we will use the LEED project profiles (<a href="https://www.usgbc.org/projects">https://www.usgbc.org/projects</a>) to map LEED buildings in Miami</div>
+                </section>
+
+                <section>
+                  <div class="template-title">Labeling 1</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>Besides getting data, the most difficult task in cartography</li>
+                      <li style="margin: 13px 0px 0px 0px;">Label the LEEDs layer
+                        <ul style="font-size: 80%;">
+                            <li>QGIS: right click layer > layer properties > labels</li>
+                            <li>ArcGIS Pro: right click layer > label</a>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Select field to make label from
+                        <ul style="font-size: 80%;">
+                            <li>QGIS: in label properties look for fields menu</li>
+                            <li>ArcGIS Pro: right click layer > Labeling properties</li>
+                            <li>Note: you can make compound expressions from two or more fields</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Set font characteristics
+                        <ul style="font-size: 80%;">
+                            <li>San serif for human geography, serif for natural features</li>
+                            <li>Set positions of labels
+                            <li>Note many options: priority, stacking, and so on</li>
+                        </ul>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Labeling 2</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>Besides getting data, the most difficult task in cartography</li>
+                      <li style="margin: 13px 0px 0px 0px;">Get some data and add to your map:
+                        <ul style="font-size: 80%;">
+                            <li>Miami-Dade Data Portal: streets</li>
+                            <li>Florida Fish and Wildlife Conservation Commission: Florida Shoreline</a>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Explore the streets attribute table
+                        <ul style="font-size: 80%;">
+                            <li>Note: ST_NAME and ST_TYPE</li>
+                            <li>Note: CLASS</li>
+                            <li>anything else useful for labels?</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Label the streets layer
+                        <ul style="font-size: 80%;">
+                            <li>choose field or create compound string</li>
+                            <li>filter layer on CLASS=1
+                            <li>Note: very messy, to many segments</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Labeling 3</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>Besides getting data, the most difficult task in cartography</li>
+                      <li style="margin: 13px 0px 0px 0px;">Create a layout (review)
+                        <ul style="font-size: 80%;">
+                            <li>Add locator map</li>
+                        	<li>QGIS: overviews in layout properties</li>
+                        	<li>ArcGIS Pro: add second map and use extent indicators</li>
+                            <li>Add title, scale, legend, and north arrow</li>
+                            <li>Add individual labels as text elements</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Creating vector data 1</div>
+                  <div>
+                    <ul style="font-size: 0.75em;">
+                      <li>We will use the geo referenced Drone Survey Image<br>> <a href="file:///Users/tibben/Documents/Sync/UMLibrary/curriculum/urban-cartography/slides/slides040.html#/1/4">review from week 4</a></li>
+                      <li style="margin: 13px 0px 0px 0px;">Remember: the project file/folder is NOT the data</li>
+                      <li style="margin: 13px 0px 0px 0px;">Create a data layer
+                        <ul style="font-size: 80%;">
+                            <li>In QGIS > 'Layer' Menu > create</li>
+                            <li>In ArcGIS Pro 'View' tab > Catalog View > right click in catalog <br> create new Feature Class / Shapefile</li>
+                            <li>set the projection</li>
+                            <li>Define the columns you want ...</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Creating vector data 2</div>
+                  <div>
+                    <ul style="font-size: 0.75em;">
+                      <li style="margin: 13px 0px 0px 0px;">Make Layer editable
+                        <ul style="font-size: 80%;">
+                            <li>QGIS - the little yellow pencil</li>
+                            <li>ArcGIS - Edit tab -> Create</li>
+                            <li>QGIS - look for the editing icons</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Add features
+                        <ul style="font-size: 80%;">
+                            <li>Try to maintain one scale</li>
+                            <li>right click to finish sketch/part</li>
+                            <li>Remember to save edits often<br>layer, not the project</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Turn off layer editing, save edits</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Editing vector data</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>Remember: the project file/folder is NOT the data</li>
+                      <li style="margin: 13px 0px 0px 0px;">Make Layer editable
+                        <ul style="font-size: 80%;">
+                            <li>QGIS - the little yellow pencil</li>
+                            <li>ArcGIS - right click > make layer editable</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Modify features
+                        <ul style="font-size: 80%;">
+                            <li>add, delete, or move entire feature</li>
+                            <li>for one feature: add, delete, or move vertices</li>
+                            <li>modify attribute data for individual features (in attribute table)</li>
+                            <li>Remember to save edits often (not the project)</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Turn off layer editing</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
 
               </section>
 				
