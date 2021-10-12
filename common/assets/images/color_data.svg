@@ -1,1 +1,342 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 531.08 381.47"><defs><style>.cls-1{fill:#fdcd9a;}.cls-1,.cls-2,.cls-3,.cls-4,.cls-5{opacity:0.5;}.cls-2{fill:#f05354;}.cls-3{fill:#cb2026;}.cls-4{fill:#7f1416;}.cls-5{fill:#f79869;}.cls-13,.cls-14,.cls-15,.cls-6,.cls-7,.cls-8,.cls-9{font-size:14px;}.cls-6,.cls-7,.cls-8,.cls-9{font-family:Corbel, Corbel;}.cls-6{letter-spacing:-0.01em;}.cls-7{letter-spacing:0em;}.cls-9{letter-spacing:0em;}.cls-10,.cls-11,.cls-12{font-size:12px;}.cls-10,.cls-11,.cls-12,.cls-13,.cls-14,.cls-15{font-family:ArialMT, Arial;}.cls-10{letter-spacing:0em;}.cls-12{letter-spacing:0em;}.cls-13,.cls-14,.cls-15{fill:#7f7f7f;}.cls-14{letter-spacing:0em;}.cls-15{letter-spacing:-0.02em;}.cls-16,.cls-18,.cls-19{fill:none;stroke-linejoin:round;}.cls-16{stroke:#a3a3a3;stroke-width:0.6px;}.cls-17{fill:#e7d749;stroke:#231f20;stroke-miterlimit:10;}.cls-18,.cls-19{stroke:#4b1214;stroke-width:2px;}.cls-18{stroke-dasharray:6 2;}.cls-19{stroke-dasharray:2 2;}</style></defs><title>Asset 9</title><g id="Layer_2" data-name="Layer 2"><g id="colored_boxes" data-name="colored boxes"><rect class="cls-1" x="4.5" y="20.07" width="87" height="34"/><rect class="cls-2" x="275.5" y="20.07" width="103" height="34"/><rect class="cls-3" x="378.5" y="20.07" width="76.95" height="33.95"/><rect class="cls-4" x="455.5" y="20.07" width="69" height="33.81"/><rect class="cls-5" x="91.5" y="20.07" width="184" height="34"/><rect class="cls-1" x="4.5" y="114.07" width="104" height="34"/><rect class="cls-2" x="221.23" y="114.07" width="95.27" height="34"/><rect class="cls-3" x="316.5" y="114.07" width="111" height="34"/><rect class="cls-4" x="427.5" y="114.07" width="97" height="33.82"/><rect class="cls-5" x="108.5" y="114.07" width="113" height="34"/><rect class="cls-1" x="5.5" y="218.13" width="60" height="34.94"/><rect class="cls-2" x="244.5" y="218.13" width="105" height="34.94"/><rect class="cls-3" x="349.5" y="218.13" width="92" height="34.94"/><rect class="cls-4" x="441.5" y="218.13" width="84" height="34.94"/><rect class="cls-5" x="65.5" y="218.13" width="179" height="34.94"/><rect class="cls-5" x="4.5" y="318.07" width="87" height="35"/><rect class="cls-3" x="278.5" y="318.07" width="176" height="35"/><rect class="cls-4" x="454.5" y="318.07" width="70" height="35"/><rect class="cls-2" x="91.5" y="318.07" width="187" height="35"/></g><g id="text"><text class="cls-6" transform="translate(170.09 208.57)">Quantile (equal number of features)</text><text class="cls-7" transform="translate(173.28 104.57)">Equal Interval (equal range of values)</text><text class="cls-8" transform="translate(234.22 11.57)">Natural Breaks</text><text class="cls-9" transform="translate(217.3 306.57)">Standard Deviation</text><text class="cls-10" transform="translate(264.6 377.57)">mean</text><text class="cls-11" transform="translate(79.34 377.57)">-1 SD</text><text class="cls-12" transform="translate(442.03 377.57)">+1 SD</text><text class="cls-13" transform="translate(1.48 66.57)">0</text><text class="cls-13" transform="translate(131.13 66.57)">5</text><text class="cls-14" transform="translate(257.6 66.57)">10</text><text class="cls-14" transform="translate(387.25 66.57)">15</text><text class="cls-15" transform="translate(516.1 66.57)">20</text><text class="cls-13" transform="translate(1.48 160.57)">0</text><text class="cls-13" transform="translate(131.13 160.57)">5</text><text class="cls-14" transform="translate(257.6 160.57)">10</text><text class="cls-14" transform="translate(387.25 160.57)">15</text><text class="cls-15" transform="translate(516.1 160.57)">20</text><text class="cls-13" transform="translate(1.48 264.57)">0</text><text class="cls-13" transform="translate(131.13 264.57)">5</text><text class="cls-14" transform="translate(257.6 264.57)">10</text><text class="cls-14" transform="translate(387.25 264.57)">15</text><text class="cls-15" transform="translate(516.1 264.57)">20</text><text class="cls-13" transform="translate(1.48 365.57)">0</text><text class="cls-13" transform="translate(131.13 365.57)">5</text><text class="cls-14" transform="translate(257.6 365.57)">10</text><text class="cls-14" transform="translate(387.25 365.57)">15</text><text class="cls-15" transform="translate(516.1 365.57)">20</text></g><g id="boxes_and_ticks" data-name="boxes and ticks"><line class="cls-16" x1="4.5" y1="246.07" x2="523.72" y2="246.17"/><line class="cls-16" x1="134.62" y1="240.07" x2="134.5" y2="252.4"/><line class="cls-16" x1="160.62" y1="240.07" x2="160.5" y2="252.4"/><line class="cls-16" x1="186.62" y1="240.07" x2="186.5" y2="252.4"/><line class="cls-16" x1="212.62" y1="240.07" x2="212.5" y2="252.4"/><line class="cls-16" x1="238.62" y1="240.07" x2="238.5" y2="252.4"/><line class="cls-16" x1="264.62" y1="240.07" x2="264.5" y2="252.4"/><line class="cls-16" x1="290.62" y1="240.07" x2="290.5" y2="252.4"/><line class="cls-16" x1="316.62" y1="240.07" x2="316.5" y2="252.4"/><line class="cls-16" x1="342.62" y1="240.07" x2="342.5" y2="252.4"/><line class="cls-16" x1="367.62" y1="240.07" x2="367.5" y2="252.4"/><line class="cls-16" x1="393.62" y1="240.07" x2="393.5" y2="252.4"/><line class="cls-16" x1="419.62" y1="240.07" x2="419.5" y2="252.4"/><line class="cls-16" x1="445.62" y1="240.07" x2="445.5" y2="252.4"/><line class="cls-16" x1="471.62" y1="240.07" x2="471.5" y2="252.4"/><line class="cls-16" x1="497.62" y1="240.07" x2="497.5" y2="252.4"/><line class="cls-16" x1="523.62" y1="240.07" x2="523.5" y2="252.4"/><line class="cls-16" x1="108.62" y1="240.07" x2="108.5" y2="252.4"/><line class="cls-16" x1="82.62" y1="240.07" x2="82.5" y2="252.4"/><line class="cls-16" x1="56.62" y1="240.07" x2="56.5" y2="252.4"/><line class="cls-16" x1="30.62" y1="240.07" x2="30.5" y2="252.4"/><line class="cls-16" x1="5.62" y1="240.07" x2="5.5" y2="252.4"/><ellipse class="cls-16" cx="5.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="19" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="32.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="57.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="83" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="200" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="213" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="238" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="252" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="265" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="328.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="342" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="355.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="368.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="420.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="433.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="446.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="497.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="511" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="523.5" cy="233.57" rx="5" ry="4.5"/><line class="cls-16" x1="4.5" y1="141.07" x2="523.72" y2="141.17"/><line class="cls-16" x1="134.62" y1="135.07" x2="134.5" y2="147.41"/><line class="cls-16" x1="160.62" y1="135.07" x2="160.5" y2="147.41"/><line class="cls-16" x1="186.62" y1="135.07" x2="186.5" y2="147.41"/><line class="cls-16" x1="212.62" y1="135.07" x2="212.5" y2="147.41"/><line class="cls-16" x1="238.62" y1="135.07" x2="238.5" y2="147.41"/><line class="cls-16" x1="264.62" y1="135.07" x2="264.5" y2="147.41"/><line class="cls-16" x1="290.62" y1="135.07" x2="290.5" y2="147.41"/><line class="cls-16" x1="316.62" y1="135.07" x2="316.5" y2="147.41"/><line class="cls-16" x1="342.62" y1="135.07" x2="342.5" y2="147.41"/><line class="cls-16" x1="367.62" y1="135.07" x2="367.5" y2="147.41"/><line class="cls-16" x1="393.62" y1="135.07" x2="393.5" y2="147.41"/><line class="cls-16" x1="419.62" y1="135.07" x2="419.5" y2="147.41"/><line class="cls-16" x1="445.62" y1="135.07" x2="445.5" y2="147.41"/><line class="cls-16" x1="471.62" y1="135.07" x2="471.5" y2="147.41"/><line class="cls-16" x1="497.62" y1="135.07" x2="497.5" y2="147.41"/><line class="cls-16" x1="523.62" y1="135.07" x2="523.5" y2="147.41"/><line class="cls-16" x1="108.62" y1="135.07" x2="108.5" y2="147.41"/><line class="cls-16" x1="82.62" y1="135.07" x2="82.5" y2="147.41"/><line class="cls-16" x1="56.62" y1="135.07" x2="56.5" y2="147.41"/><line class="cls-16" x1="30.62" y1="135.07" x2="30.5" y2="147.41"/><line class="cls-16" x1="5.62" y1="135.07" x2="5.5" y2="147.41"/><ellipse class="cls-16" cx="5.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-16" cx="19" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="32.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-16" cx="57.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-16" cx="83" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="200" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="213" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="238" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="252" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="265" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="328.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-16" cx="342" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="355.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-16" cx="368.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-16" cx="420.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-16" cx="433.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-16" cx="446.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-16" cx="497.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-16" cx="511" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="523.5" cy="129.07" rx="5" ry="4"/><line class="cls-16" x1="4.5" y1="48.07" x2="523.72" y2="48.17"/><ellipse class="cls-16" cx="5.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-16" cx="19" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="32.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-16" cx="57.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-16" cx="83" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="200" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="213" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="238" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="252" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="265" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="328.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-16" cx="342" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="355.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-16" cx="368.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-16" cx="420.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-16" cx="433.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-16" cx="446.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-16" cx="497.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-16" cx="511" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-16" cx="523.5" cy="36.07" rx="5" ry="4"/><line class="cls-16" x1="4.5" y1="346.07" x2="523.72" y2="346.17"/><line class="cls-16" x1="134.62" y1="340.07" x2="134.5" y2="352.41"/><line class="cls-16" x1="160.62" y1="340.07" x2="160.5" y2="352.41"/><line class="cls-16" x1="186.62" y1="340.07" x2="186.5" y2="352.41"/><line class="cls-16" x1="212.62" y1="340.07" x2="212.5" y2="352.41"/><line class="cls-16" x1="238.62" y1="340.07" x2="238.5" y2="352.41"/><line class="cls-16" x1="264.62" y1="340.07" x2="264.5" y2="352.41"/><line class="cls-16" x1="290.62" y1="340.07" x2="290.5" y2="352.41"/><line class="cls-16" x1="316.62" y1="340.07" x2="316.5" y2="352.41"/><line class="cls-16" x1="342.62" y1="340.07" x2="342.5" y2="352.41"/><line class="cls-16" x1="367.62" y1="340.07" x2="367.5" y2="352.41"/><line class="cls-16" x1="393.62" y1="340.07" x2="393.5" y2="352.41"/><line class="cls-16" x1="419.62" y1="340.07" x2="419.5" y2="352.41"/><line class="cls-16" x1="445.62" y1="340.07" x2="445.5" y2="352.41"/><line class="cls-16" x1="471.62" y1="340.07" x2="471.5" y2="352.41"/><line class="cls-16" x1="497.62" y1="340.07" x2="497.5" y2="352.41"/><line class="cls-16" x1="523.62" y1="340.07" x2="523.5" y2="352.41"/><line class="cls-16" x1="108.62" y1="340.07" x2="108.5" y2="352.41"/><line class="cls-16" x1="82.62" y1="340.07" x2="82.5" y2="352.41"/><line class="cls-16" x1="56.62" y1="340.07" x2="56.5" y2="352.41"/><line class="cls-16" x1="30.62" y1="340.07" x2="30.5" y2="352.41"/><line class="cls-16" x1="5.62" y1="340.07" x2="5.5" y2="352.41"/><ellipse class="cls-16" cx="5.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="19" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="32.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="57.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="83" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="200" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="213" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="238" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="252" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="265" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="328.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="342" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="355.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="368.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="420.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="433.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="446.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="497.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-16" cx="511" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-16" cx="523.5" cy="333.57" rx="5" ry="4.5"/><line class="cls-16" x1="134.62" y1="42.07" x2="134.5" y2="54.41"/><line class="cls-16" x1="160.62" y1="42.07" x2="160.5" y2="54.41"/><line class="cls-16" x1="186.62" y1="42.07" x2="186.5" y2="54.41"/><line class="cls-16" x1="212.62" y1="42.07" x2="212.5" y2="54.41"/><line class="cls-16" x1="238.62" y1="42.07" x2="238.5" y2="54.41"/><line class="cls-16" x1="264.62" y1="42.07" x2="264.5" y2="54.41"/><line class="cls-16" x1="290.62" y1="42.07" x2="290.5" y2="54.41"/><line class="cls-16" x1="316.62" y1="42.07" x2="316.5" y2="54.41"/><line class="cls-16" x1="342.62" y1="42.07" x2="342.5" y2="54.41"/><line class="cls-16" x1="367.62" y1="42.07" x2="367.5" y2="54.41"/><line class="cls-16" x1="393.62" y1="42.07" x2="393.5" y2="54.41"/><line class="cls-16" x1="419.62" y1="42.07" x2="419.5" y2="54.41"/><line class="cls-16" x1="445.62" y1="42.07" x2="445.5" y2="54.41"/><line class="cls-16" x1="471.62" y1="42.07" x2="471.5" y2="54.41"/><line class="cls-16" x1="497.62" y1="42.07" x2="497.5" y2="54.41"/><line class="cls-16" x1="523.62" y1="42.07" x2="523.5" y2="54.41"/><line class="cls-16" x1="108.62" y1="42.07" x2="108.5" y2="54.41"/><line class="cls-16" x1="82.62" y1="42.07" x2="82.5" y2="54.41"/><line class="cls-16" x1="56.62" y1="42.07" x2="56.5" y2="54.41"/><line class="cls-16" x1="30.62" y1="42.07" x2="30.5" y2="54.41"/><line class="cls-16" x1="5.62" y1="42.07" x2="5.5" y2="54.41"/></g><g id="balls"><ellipse class="cls-17" cx="5.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="19" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="32.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="57.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="83" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="200" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="213" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="238" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="252" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="265" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="328.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="342" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="355.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="368.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="420.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="433.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="446.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="497.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="511" cy="233.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="523.5" cy="233.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="5.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-17" cx="19" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="32.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-17" cx="57.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-17" cx="83" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="200" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="213" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="238" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="252" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="265" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="328.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-17" cx="342" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="355.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-17" cx="368.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-17" cx="420.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-17" cx="433.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-17" cx="446.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-17" cx="497.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-17" cx="511" cy="129.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="523.5" cy="129.07" rx="5" ry="4"/><ellipse class="cls-17" cx="5.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-17" cx="19" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="32.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-17" cx="57.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-17" cx="83" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="200" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="213" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="238" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="252" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="265" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="328.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-17" cx="342" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="355.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-17" cx="368.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-17" cx="420.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-17" cx="433.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-17" cx="446.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-17" cx="497.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-17" cx="511" cy="36.07" rx="5.5" ry="4"/><ellipse class="cls-17" cx="523.5" cy="36.07" rx="5" ry="4"/><ellipse class="cls-17" cx="5.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="19" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="32.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="57.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="83" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="200" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="213" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="238" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="252" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="265" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="328.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="342" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="355.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="368.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="420.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="433.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="446.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="497.5" cy="333.57" rx="5" ry="4.5"/><ellipse class="cls-17" cx="511" cy="333.57" rx="5.5" ry="4.5"/><ellipse class="cls-17" cx="523.5" cy="333.57" rx="5" ry="4.5"/></g><g id="breaks"><line class="cls-18" x1="64.75" y1="216.57" x2="64" y2="253.52"/><line class="cls-18" x1="243.75" y1="216.57" x2="243" y2="253.52"/><line class="cls-18" x1="348.75" y1="216.57" x2="348" y2="253.52"/><line class="cls-18" x1="440.75" y1="216.57" x2="440" y2="253.52"/><line class="cls-18" x1="108.75" y1="112.57" x2="108" y2="149.52"/><line class="cls-18" x1="220.75" y1="112.57" x2="220" y2="149.52"/><line class="cls-18" x1="315.75" y1="113.57" x2="315" y2="150.52"/><line class="cls-18" x1="426.75" y1="112.57" x2="426" y2="149.52"/><line class="cls-18" x1="92.07" y1="18.28" x2="91.32" y2="55.24"/><line class="cls-18" x1="276.08" y1="18.06" x2="275.33" y2="55.02"/><line class="cls-18" x1="379.08" y1="18.62" x2="378.33" y2="55.58"/><line class="cls-18" x1="455.97" y1="19.18" x2="455.21" y2="56.14"/><line class="cls-18" x1="90.75" y1="316.57" x2="90" y2="353.53"/><line class="cls-18" x1="453.75" y1="316.57" x2="453" y2="353.53"/><line class="cls-19" x1="278" y1="313.57" x2="278.18" y2="366.01"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 531.1 381.5" style="enable-background:new 0 0 531.1 381.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.5;fill:#FDCD9A;enable-background:new    ;}
+	.st1{opacity:0.5;fill:#F05354;enable-background:new    ;}
+	.st2{opacity:0.5;fill:#CB2026;enable-background:new    ;}
+	.st3{opacity:0.5;fill:#7F1416;enable-background:new    ;}
+	.st4{opacity:0.5;fill:#F79869;enable-background:new    ;}
+	.st5{font-family:'Corbel';}
+	.st6{font-size:14px;}
+	.st7{font-family:'ArialMT';}
+	.st8{font-size:12px;}
+	.st9{fill:#7F7F7F;}
+	.st10{fill:none;stroke:#A3A3A3;stroke-width:0.6;stroke-linejoin:round;}
+	.st11{fill:#E7D749;stroke:#231F20;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#4B1214;stroke-width:2;stroke-linejoin:round;stroke-dasharray:6,2;}
+	.st13{fill:none;stroke:#4B1214;stroke-width:2;stroke-linejoin:round;stroke-dasharray:2,2;}
+</style>
+<g id="Layer_2_1_">
+	<g id="colored_boxes">
+		<rect x="4.5" y="20.1" class="st0" width="87" height="34"/>
+		<rect x="275.5" y="20.1" class="st1" width="103" height="34"/>
+		<rect x="378.5" y="20.1" class="st2" width="77" height="34"/>
+		<rect x="455.5" y="20.1" class="st3" width="69" height="33.8"/>
+		<rect x="91.5" y="20.1" class="st4" width="184" height="34"/>
+		<rect x="4.5" y="114.1" class="st0" width="104" height="34"/>
+		<rect x="213.4" y="114.1" class="st1" width="103.1" height="34"/>
+		<rect x="316.5" y="114.1" class="st2" width="103" height="34"/>
+		<rect x="419.6" y="114.1" class="st3" width="104.9" height="33.8"/>
+		<rect x="108.5" y="114.1" class="st4" width="105.2" height="34"/>
+		<rect x="5.5" y="218.1" class="st0" width="60" height="34.9"/>
+		<rect x="244.5" y="218.1" class="st1" width="105" height="34.9"/>
+		<rect x="349.5" y="218.1" class="st2" width="92" height="34.9"/>
+		<rect x="441.5" y="218.1" class="st3" width="84" height="34.9"/>
+		<rect x="65.5" y="218.1" class="st4" width="179" height="34.9"/>
+		<rect x="4.5" y="318.1" class="st4" width="87" height="35"/>
+		<rect x="278.5" y="318.1" class="st2" width="176" height="35"/>
+		<rect x="454.5" y="318.1" class="st3" width="70" height="35"/>
+		<rect x="91.5" y="318.1" class="st1" width="187" height="35"/>
+	</g>
+	<g id="text">
+		<text transform="matrix(1 0 0 1 170.09 208.57)" class="st5 st6">Quantile (equal number of features)</text>
+		<text transform="matrix(1 0 0 1 173.28 104.57)" class="st5 st6">Equal Interval (equal range of values)</text>
+		<text transform="matrix(1 0 0 1 234.22 11.57)" class="st5 st6">Natural Breaks</text>
+		<text transform="matrix(1 0 0 1 217.3 306.57)" class="st5 st6">Standard Deviation</text>
+		<text transform="matrix(1 0 0 1 264.6 377.57)" class="st7 st8">mean</text>
+		<text transform="matrix(1 0 0 1 79.34 377.57)" class="st7 st8">-1 SD</text>
+		<text transform="matrix(1 0 0 1 442.03 377.57)" class="st7 st8">+1 SD</text>
+		<text transform="matrix(1 0 0 1 1.48 66.57)" class="st9 st7 st6">0</text>
+		<text transform="matrix(1 0 0 1 131.13 66.57)" class="st9 st7 st6">5</text>
+		<text transform="matrix(1 0 0 1 257.6 66.57)" class="st9 st7 st6">10</text>
+		<text transform="matrix(1 0 0 1 387.25 66.57)" class="st9 st7 st6">15</text>
+		<text transform="matrix(1 0 0 1 516.1 66.57)" class="st9 st7 st6">20</text>
+		<text transform="matrix(1 0 0 1 1.48 160.57)" class="st9 st7 st6">0</text>
+		<text transform="matrix(1 0 0 1 131.13 160.57)" class="st9 st7 st6">5</text>
+		<text transform="matrix(1 0 0 1 257.6 160.57)" class="st9 st7 st6">10</text>
+		<text transform="matrix(1 0 0 1 387.25 160.57)" class="st9 st7 st6">15</text>
+		<text transform="matrix(1 0 0 1 516.1 160.57)" class="st9 st7 st6">20</text>
+		<text transform="matrix(1 0 0 1 1.48 264.57)" class="st9 st7 st6">0</text>
+		<text transform="matrix(1 0 0 1 131.13 264.57)" class="st9 st7 st6">5</text>
+		<text transform="matrix(1 0 0 1 257.6 264.57)" class="st9 st7 st6">10</text>
+		<text transform="matrix(1 0 0 1 387.25 264.57)" class="st9 st7 st6">15</text>
+		<text transform="matrix(1 0 0 1 516.1 264.57)" class="st9 st7 st6">20</text>
+		<text transform="matrix(1 0 0 1 1.48 365.57)" class="st9 st7 st6">0</text>
+		<text transform="matrix(1 0 0 1 131.13 365.57)" class="st9 st7 st6">5</text>
+		<text transform="matrix(1 0 0 1 257.6 365.57)" class="st9 st7 st6">10</text>
+		<text transform="matrix(1 0 0 1 387.25 365.57)" class="st9 st7 st6">15</text>
+		<text transform="matrix(1 0 0 1 516.1 365.57)" class="st9 st7 st6">20</text>
+	</g>
+	<g id="boxes_and_ticks">
+		<line class="st10" x1="4.5" y1="246.1" x2="523.7" y2="246.2"/>
+		<line class="st10" x1="134.6" y1="240.1" x2="134.5" y2="252.4"/>
+		<line class="st10" x1="160.6" y1="240.1" x2="160.5" y2="252.4"/>
+		<line class="st10" x1="186.6" y1="240.1" x2="186.5" y2="252.4"/>
+		<line class="st10" x1="212.6" y1="240.1" x2="212.5" y2="252.4"/>
+		<line class="st10" x1="238.6" y1="240.1" x2="238.5" y2="252.4"/>
+		<line class="st10" x1="264.6" y1="240.1" x2="264.5" y2="252.4"/>
+		<line class="st10" x1="290.6" y1="240.1" x2="290.5" y2="252.4"/>
+		<line class="st10" x1="316.6" y1="240.1" x2="316.5" y2="252.4"/>
+		<line class="st10" x1="342.6" y1="240.1" x2="342.5" y2="252.4"/>
+		<line class="st10" x1="367.6" y1="240.1" x2="367.5" y2="252.4"/>
+		<line class="st10" x1="393.6" y1="240.1" x2="393.5" y2="252.4"/>
+		<line class="st10" x1="419.6" y1="240.1" x2="419.5" y2="252.4"/>
+		<line class="st10" x1="445.6" y1="240.1" x2="445.5" y2="252.4"/>
+		<line class="st10" x1="471.6" y1="240.1" x2="471.5" y2="252.4"/>
+		<line class="st10" x1="497.6" y1="240.1" x2="497.5" y2="252.4"/>
+		<line class="st10" x1="523.6" y1="240.1" x2="523.5" y2="252.4"/>
+		<line class="st10" x1="108.6" y1="240.1" x2="108.5" y2="252.4"/>
+		<line class="st10" x1="82.6" y1="240.1" x2="82.5" y2="252.4"/>
+		<line class="st10" x1="56.6" y1="240.1" x2="56.5" y2="252.4"/>
+		<line class="st10" x1="30.6" y1="240.1" x2="30.5" y2="252.4"/>
+		<line class="st10" x1="5.6" y1="240.1" x2="5.5" y2="252.4"/>
+		<ellipse class="st10" cx="5.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="19" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="32.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="57.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="83" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="200" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="213" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="238" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="252" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="265" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="328.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="342" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="355.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="368.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="420.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="433.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="446.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="497.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="511" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="523.5" cy="233.6" rx="5" ry="4.5"/>
+		<line class="st10" x1="4.5" y1="141.1" x2="523.7" y2="141.2"/>
+		<line class="st10" x1="134.6" y1="135.1" x2="134.5" y2="147.4"/>
+		<line class="st10" x1="160.6" y1="135.1" x2="160.5" y2="147.4"/>
+		<line class="st10" x1="186.6" y1="135.1" x2="186.5" y2="147.4"/>
+		<line class="st10" x1="212.6" y1="135.1" x2="212.5" y2="147.4"/>
+		<line class="st10" x1="238.6" y1="135.1" x2="238.5" y2="147.4"/>
+		<line class="st10" x1="264.6" y1="135.1" x2="264.5" y2="147.4"/>
+		<line class="st10" x1="290.6" y1="135.1" x2="290.5" y2="147.4"/>
+		<line class="st10" x1="316.6" y1="135.1" x2="316.5" y2="147.4"/>
+		<line class="st10" x1="342.6" y1="135.1" x2="342.5" y2="147.4"/>
+		<line class="st10" x1="367.6" y1="135.1" x2="367.5" y2="147.4"/>
+		<line class="st10" x1="393.6" y1="135.1" x2="393.5" y2="147.4"/>
+		<line class="st10" x1="419.6" y1="135.1" x2="419.5" y2="147.4"/>
+		<line class="st10" x1="445.6" y1="135.1" x2="445.5" y2="147.4"/>
+		<line class="st10" x1="471.6" y1="135.1" x2="471.5" y2="147.4"/>
+		<line class="st10" x1="497.6" y1="135.1" x2="497.5" y2="147.4"/>
+		<line class="st10" x1="523.6" y1="135.1" x2="523.5" y2="147.4"/>
+		<line class="st10" x1="108.6" y1="135.1" x2="108.5" y2="147.4"/>
+		<line class="st10" x1="82.6" y1="135.1" x2="82.5" y2="147.4"/>
+		<line class="st10" x1="56.6" y1="135.1" x2="56.5" y2="147.4"/>
+		<line class="st10" x1="30.6" y1="135.1" x2="30.5" y2="147.4"/>
+		<line class="st10" x1="5.6" y1="135.1" x2="5.5" y2="147.4"/>
+		<ellipse class="st10" cx="5.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="19" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="32.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="57.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="83" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="200" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="213" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="238" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="252" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="265" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="328.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="342" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="355.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="368.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="420.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="433.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="446.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="497.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="511" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="523.5" cy="129.1" rx="5" ry="4"/>
+		<line class="st10" x1="4.5" y1="48.1" x2="523.7" y2="48.2"/>
+		<ellipse class="st10" cx="5.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="19" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="32.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="57.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="83" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="200" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="213" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="238" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="252" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="265" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="328.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="342" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="355.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="368.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="420.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="433.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="446.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="497.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st10" cx="511" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st10" cx="523.5" cy="36.1" rx="5" ry="4"/>
+		<line class="st10" x1="4.5" y1="346.1" x2="523.7" y2="346.2"/>
+		<line class="st10" x1="134.6" y1="340.1" x2="134.5" y2="352.4"/>
+		<line class="st10" x1="160.6" y1="340.1" x2="160.5" y2="352.4"/>
+		<line class="st10" x1="186.6" y1="340.1" x2="186.5" y2="352.4"/>
+		<line class="st10" x1="212.6" y1="340.1" x2="212.5" y2="352.4"/>
+		<line class="st10" x1="238.6" y1="340.1" x2="238.5" y2="352.4"/>
+		<line class="st10" x1="264.6" y1="340.1" x2="264.5" y2="352.4"/>
+		<line class="st10" x1="290.6" y1="340.1" x2="290.5" y2="352.4"/>
+		<line class="st10" x1="316.6" y1="340.1" x2="316.5" y2="352.4"/>
+		<line class="st10" x1="342.6" y1="340.1" x2="342.5" y2="352.4"/>
+		<line class="st10" x1="367.6" y1="340.1" x2="367.5" y2="352.4"/>
+		<line class="st10" x1="393.6" y1="340.1" x2="393.5" y2="352.4"/>
+		<line class="st10" x1="419.6" y1="340.1" x2="419.5" y2="352.4"/>
+		<line class="st10" x1="445.6" y1="340.1" x2="445.5" y2="352.4"/>
+		<line class="st10" x1="471.6" y1="340.1" x2="471.5" y2="352.4"/>
+		<line class="st10" x1="497.6" y1="340.1" x2="497.5" y2="352.4"/>
+		<line class="st10" x1="523.6" y1="340.1" x2="523.5" y2="352.4"/>
+		<line class="st10" x1="108.6" y1="340.1" x2="108.5" y2="352.4"/>
+		<line class="st10" x1="82.6" y1="340.1" x2="82.5" y2="352.4"/>
+		<line class="st10" x1="56.6" y1="340.1" x2="56.5" y2="352.4"/>
+		<line class="st10" x1="30.6" y1="340.1" x2="30.5" y2="352.4"/>
+		<line class="st10" x1="5.6" y1="340.1" x2="5.5" y2="352.4"/>
+		<ellipse class="st10" cx="5.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="19" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="32.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="57.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="83" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="200" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="213" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="238" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="252" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="265" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="328.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="342" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="355.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="368.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="420.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="433.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="446.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="497.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st10" cx="511" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st10" cx="523.5" cy="333.6" rx="5" ry="4.5"/>
+		<line class="st10" x1="134.6" y1="42.1" x2="134.5" y2="54.4"/>
+		<line class="st10" x1="160.6" y1="42.1" x2="160.5" y2="54.4"/>
+		<line class="st10" x1="186.6" y1="42.1" x2="186.5" y2="54.4"/>
+		<line class="st10" x1="212.6" y1="42.1" x2="212.5" y2="54.4"/>
+		<line class="st10" x1="238.6" y1="42.1" x2="238.5" y2="54.4"/>
+		<line class="st10" x1="264.6" y1="42.1" x2="264.5" y2="54.4"/>
+		<line class="st10" x1="290.6" y1="42.1" x2="290.5" y2="54.4"/>
+		<line class="st10" x1="316.6" y1="42.1" x2="316.5" y2="54.4"/>
+		<line class="st10" x1="342.6" y1="42.1" x2="342.5" y2="54.4"/>
+		<line class="st10" x1="367.6" y1="42.1" x2="367.5" y2="54.4"/>
+		<line class="st10" x1="393.6" y1="42.1" x2="393.5" y2="54.4"/>
+		<line class="st10" x1="419.6" y1="42.1" x2="419.5" y2="54.4"/>
+		<line class="st10" x1="445.6" y1="42.1" x2="445.5" y2="54.4"/>
+		<line class="st10" x1="471.6" y1="42.1" x2="471.5" y2="54.4"/>
+		<line class="st10" x1="497.6" y1="42.1" x2="497.5" y2="54.4"/>
+		<line class="st10" x1="523.6" y1="42.1" x2="523.5" y2="54.4"/>
+		<line class="st10" x1="108.6" y1="42.1" x2="108.5" y2="54.4"/>
+		<line class="st10" x1="82.6" y1="42.1" x2="82.5" y2="54.4"/>
+		<line class="st10" x1="56.6" y1="42.1" x2="56.5" y2="54.4"/>
+		<line class="st10" x1="30.6" y1="42.1" x2="30.5" y2="54.4"/>
+		<line class="st10" x1="5.6" y1="42.1" x2="5.5" y2="54.4"/>
+	</g>
+	<g id="balls">
+		<ellipse class="st11" cx="5.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="19" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="32.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="57.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="83" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="200" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="213" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="238" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="252" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="265" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="328.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="342" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="355.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="368.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="420.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="433.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="446.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="497.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="511" cy="233.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="523.5" cy="233.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="5.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="19" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="32.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="57.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="83" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="200" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="213" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="238" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="252" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="265" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="328.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="342" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="355.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="368.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="420.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="433.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="446.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="497.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="511" cy="129.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="523.5" cy="129.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="5.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="19" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="32.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="57.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="83" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="200" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="213" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="238" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="252" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="265" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="328.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="342" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="355.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="368.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="420.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="433.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="446.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="497.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="511" cy="36.1" rx="5.5" ry="4"/>
+		<ellipse class="st11" cx="523.5" cy="36.1" rx="5" ry="4"/>
+		<ellipse class="st11" cx="5.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="19" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="32.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="57.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="83" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="200" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="213" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="238" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="252" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="265" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="328.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="342" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="355.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="368.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="420.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="433.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="446.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="497.5" cy="333.6" rx="5" ry="4.5"/>
+		<ellipse class="st11" cx="511" cy="333.6" rx="5.5" ry="4.5"/>
+		<ellipse class="st11" cx="523.5" cy="333.6" rx="5" ry="4.5"/>
+	</g>
+	<g id="breaks">
+		<line class="st12" x1="64.8" y1="216.6" x2="64" y2="253.5"/>
+		<line class="st12" x1="243.8" y1="216.6" x2="243" y2="253.5"/>
+		<line class="st12" x1="348.8" y1="216.6" x2="348" y2="253.5"/>
+		<line class="st12" x1="440.8" y1="216.6" x2="440" y2="253.5"/>
+		<line class="st12" x1="108.8" y1="112.6" x2="108" y2="149.5"/>
+		<line class="st12" x1="213.8" y1="112.6" x2="213" y2="149.5"/>
+		<line class="st12" x1="315.8" y1="113.6" x2="315" y2="150.5"/>
+		<line class="st12" x1="419.8" y1="112.6" x2="419" y2="149.5"/>
+		<line class="st12" x1="92.1" y1="18.3" x2="91.3" y2="55.2"/>
+		<line class="st12" x1="276.1" y1="18.1" x2="275.3" y2="55"/>
+		<line class="st12" x1="379.1" y1="18.6" x2="378.3" y2="55.6"/>
+		<line class="st12" x1="456" y1="19.2" x2="455.2" y2="56.1"/>
+		<line class="st12" x1="90.8" y1="316.6" x2="90" y2="353.5"/>
+		<line class="st12" x1="453.8" y1="316.6" x2="453" y2="353.5"/>
+		<line class="st13" x1="278" y1="313.6" x2="278.2" y2="366"/>
+	</g>
+</g>
+</svg>

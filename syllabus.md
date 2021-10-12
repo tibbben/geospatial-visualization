@@ -189,7 +189,7 @@ Explore how maps are woven into political and social contexts of urban developme
 >  Optional Reading:
 
 -   *Making Maps* (Krygier & Wood, 2016)
-  -   chapter 10: Map Symbol Abstraction. pp. 252 - 277.
+  -   chapter 12: Color on Maps. pp. 252 - 277.
 -   Sieber, Renee. 2006. "Public Participation Geographic Information Systems: A Literature Review and Framework."  Annals of the Association of American Geographers 96 (3):491-507. doi: [10.1111/j.1467-8306.2006.00702.x](https://doi.org/10.1111/j.1467-8306.2006.00702.x){:target="\_blank"}.
 
 >  Assignments:
