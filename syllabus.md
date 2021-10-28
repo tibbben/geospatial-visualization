@@ -276,7 +276,9 @@ The midterm exam will take no longer than 45 minutes. It will be followed by an 
 
 *__Week 9 (Oct. 19):__ Real Estate Mapping and Structured Query Language (SQL)*  
 
-Explore GIS for real estate: data sources, common issues, and online systems. Use this context for learning about SQL queries. *Guest speaker* on geospatial data and Real Estate mapping: Elizabeth Plater-Zyberk.
+Explore GIS for real estate: data sources, common issues, and online systems. Use this context for learning about SQL queries. 
+
+[//]: # (*Guest speaker* on geospatial data and Real Estate mapping: Elizabeth Plater-Zyberk.)
 
 > Learning Objectives
 
@@ -294,10 +296,6 @@ Explore GIS for real estate: data sources, common issues, and online systems. Us
 [//]: # (>  Assigned Reading:)
 
 [//]: # (-   [ Something from Elizabeth? ])
-
->  Assignments:
-
--   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting. 
 
 >  [slide deck](slides/slides090.html){:target="\_blank"}  
 
@@ -328,11 +326,7 @@ Determine geographic areas that meet several criteria by using raster math to co
 -   Obtain and normalize several raster data layers to same resolution, scale, and projection
 -   Obtain at least one data layer from HAZUS
 -   Perform raster math between two raster layers
--   Visualize and interpret the results from the raster math operation
-
->  Assignments:
-
--   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting. 
+-   Visualize and interpret the results from the raster math operation 
 
 >  [slide deck](slides/slides100.html){:target="\_blank"}  
 
@@ -356,43 +350,19 @@ Determine geographical areas that meet several criteria using vector based opera
 -   Visualize and interpret the results
 -   Spatial join with two or more data layers
 
+>  Assigned Reading:
+
+-   *Making Maps* (Krygier & Wood, 2016)
+  -   chapter 6: The Big Picture of Map Design. pp. 122 - 139.
+
 >  Assignments:
 
--   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting. 
+-   Continue to refine story ideas for final project
+-   Schedule meeting with one of the instructors before November 16th
 
 >  [slide deck](slides/slides110.html){:target="\_blank"}  
 
-*__Week 12 (Nov. 9):__ GIS and Mapping in Miami-Dade County and Oakland CA*  
-
-Explore how GIS is used by government agencies and urban planners to plan for urban sustainability and resilience. George de la Paz will be a *guest speaker* from Miami-Dade County to share how the county uses GIS and cartographic data assets. The use of maps in the 2019 Downtown Oakland Specific Plan will be reviewed and critiqued.
-
-[//]: # (Do we need to teach to this more? The style of mapping)
-
-[//]: # (somehow create a focus on sustainability and resilience)
-
-> Learning Objectives
-
--   Understand the role of GIS in County governance
--   Understand the role of GIS in Planning
-
-> Practical Objectives
-
--   Critique of Oakland Urban Plan
--   Navigation of Local Government Data Sources
-
->  Assigned Reading:
-
--   Dover, Kohl & Partners (2019). *The Downtown Oakland Preliminary Draft Plan*. [https://www.oaklandca.gov/topics/downtown-oakland-specific-plan](https://www.oaklandca.gov/topics/downtown-oakland-specific-plan) [ SKIM THIS - Look at the maps and contextual information - Be prepared to critique the use of maps in the report. ]
-
-[//]: # (something from George?)
-
->  Assignments:
-
--   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting. 
-
->  [slide deck](slides/slides120.html){:target="\_blank"}  
-
-*__Week 13 (Nov. 16):__ Maps as Stories: Urban Sustainability and Resilience*  
+*__Week 12 (Nov. 9):__ Maps as Stories: Urban Sustainability and Resilience*  
 
 Explore how map images tell stories of urban sustainability and resilience with beginning, middle, and end, and how maps provide indices to elements of the story. Consider the relationships between map and space, map and place, and map and territory; how does one create the other and vice-versa. Consider how maps are a part of broader social contexts and how they cannot stand alone. A picture may be worth a thousand words, but a thousand words plus a picture (map) is worth a lot more.
 
@@ -408,9 +378,50 @@ Explore how map images tell stories of urban sustainability and resilience with 
 
 > Practical Objectives
 
--   Complete online story map (from previous class)
+-   Complete online story map
+-   Complete layout for printed map with all map elements
 -   Critique static maps for storytelling effectiveness
--   Refine stories for final project presentations
+-   Refine stories for final project presentations  
+
+>  Assigned Reading:
+
+-   *Making Maps* (Krygier & Wood, 2016)
+  -   chapter 6: The Inner Workings of Map Design. pp. 140 - 155.
+
+>  Assignments:
+
+-   Continue to refine story ideas for final project
+-   Schedule meeting with one of the instructors before November 16th
+
+>  [slide deck](slides/slides120.html){:target="\_blank"}  
+
+*__Week 13 (Nov. 16):__ GIS and Mapping in Miami-Dade County and Oakland CA*
+
+Explore how GIS is used by government agencies and urban planners to plan for urban sustainability and resilience. We are seeking a *guest speaker* from Miami-Dade County to share how the county uses GIS and cartographic data assets in their resilience office. The use of maps in the 2019 Downtown Oakland Specific Plan will be reviewed and critiqued.
+
+[//]: # (Do we need to teach to this more? The style of mapping)
+
+[//]: # (somehow create a focus on sustainability and resilience)
+
+[//]: # (something from George?)
+
+> Learning Objectives
+
+-   Understand the role of GIS in County governance
+-   Understand the role of GIS in Planning
+
+> Practical Objectives
+
+-   Critique of Oakland Urban Plan
+-   Navigation of Local Government Data Sources
+
+>  Assigned Reading:
+
+-   Dover, Kohl & Partners (2019). *The Downtown Oakland Preliminary Draft Plan*. [https://www.oaklandca.gov/topics/downtown-oakland-specific-plan](https://www.oaklandca.gov/topics/downtown-oakland-specific-plan) [ SKIM THIS - Look at the maps and contextual information - Be prepared to critique the use of maps in the report. ]
+
+>  Optional Reading:
+
+-   Sanders, Brett F., Schubert, Jochen E., Goodrich, Kristen A., Houston, Douglas, Feldman, David L., Basolo, Victoria, . . . Matthew, Richard A. (2020). Collaborative Modeling With Fine-Resolution Data Enhances Flood Awareness, Minimizes Differences in Flood Perception, and Produces Actionable Flood Maps. *Earth's Future*, 8(1), e2019EF001391. doi: [https://doi.org/10.1029/2019EF001391](https://doi.org/10.1029/2019EF001391)
 
 >  [slide deck](slides/slides130.html){:target="\_blank"}  
 
@@ -424,10 +435,6 @@ Final Project Presentations will be followed by demonstrations in advanced topic
 
 -   Demonstration of Jupyter Notebooks and geospatial data visualization using point clouds.
 -   Participatory Mapping, risk, and resilience in urban planning: flood mapping in San Diego CA.
-
->  Assigned Reading:
-
--   Sanders, Brett F., Schubert, Jochen E., Goodrich, Kristen A., Houston, Douglas, Feldman, David L., Basolo, Victoria, . . . Matthew, Richard A. (2020). Collaborative Modeling With Fine-Resolution Data Enhances Flood Awareness, Minimizes Differences in Flood Perception, and Produces Actionable Flood Maps. *Earth's Future*, 8(1), e2019EF001391. doi: [https://doi.org/10.1029/2019EF001391](https://doi.org/10.1029/2019EF001391)
 
 >  Optional Reading:
 

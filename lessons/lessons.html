@@ -4,7 +4,7 @@
  <head>
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-   <title>Lesson 05</title>
+   <title>Lesson</title>
    
    <script type="text/javascript" src="../common/java/markdown.js"></script>
    <script type="text/javascript" src="../common/java/readmd.js"></script>
@@ -17,10 +17,13 @@
  <body>
   <div id="main" class="wrapper" style="width: 80%; max-width: 800px;"></div>
   <script type="text/javascript">
-   var mdContent = readTextFile("lesson05.md"),
+   var url = new URL(window.location.href),
+       lesson = url.searchParams.get("l"),
+       mdContent = readTextFile("lesson" + lesson + ".md"),
        htmlContent = markdown.toHTML(mdContent,'Maruku'),
        mdView = document.getElementById('main');
-   mdView.innerHTML = htmlContent;       
+   mdView.innerHTML = htmlContent;
+   document.title = "Lesson " + lesson;    
   </script>
  </body>
  
