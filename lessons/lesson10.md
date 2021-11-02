@@ -18,12 +18,9 @@ total time 150 minutes.
 3.   Rethinking Image/Raster Data
    -   Color in photoshop? Who has experience
    -   Note SQL in dialogs
+   -   Raster math/calculator
 
 4.   Student Presentations if time permits
  
-5.   Student Presentations
-
-
-Send out GIS Day announcement
-Send out reading updates
-Send out Jen Posners contact information
+5.   Raster exercise
+   -   5ft sea level rise in Miami

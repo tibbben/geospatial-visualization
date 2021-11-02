@@ -12,15 +12,218 @@
         <div class="reveal">
             <div class="slides">
 
-              <section data-background-image="" data-background-size="contain" data-background-color="#000">
+              <section data-background-image="../common/assets/images/polygon_abstract.jpeg" data-background-size="fill" data-background-color="#000">
 
-                <div style="position: absolute; left: 0px; top: 40px; font-size: 150%; line-height: 100%; color: #999 !important; text-align: left;"><strong>Geospatial<br>  Visualization</strong></div>
+                <div style="position: absolute; left: 120px; top: 40px; font-size: 150%; line-height: 100%; color: #000 !important; text-align: left;text-shadow: 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff;"><strong>Geospatial<br>  Visualization</strong></div>
 
-                <div style="position: absolute; left: 0px; top: 220px; font-size: 90%; color: #999 !important;text-align: right;">School of Architecture<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
+                <div style="position: absolute; left: 300px; top: 220px; font-size: 90%; color: #000 !important;text-align: right;text-shadow: 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff;;">School of Architecture<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
                 
-                <div style="position: absolute; left: 0px; top: 400px; font-size: 50%; text-align: left; color: #999 !important; line-height: 145%">Dr. Timothy Norris : <a href="mailto:tnorris@miami.edu" style="color: #999 !important; text-decoration: underline;">tnorris@miami.edu</a><br>Christopher Mader : <a href="mailto:cmader@med.miami.edu" style="color: #999 !important; text-decoration: underline;">cmader@med.miami.edu</a></div>
+                <div style="position: absolute; left: 500px; top: 400px; font-size: 50%; text-align: left; color: #000 !important; line-height: 145%;text-shadow: 0px 0px 7px #fff, 0px 0px 7px #fff, 0px 0px 7px #fff, 0px 0px 7px #fff,0px 0px 7px #fff, 0px 0px 7px #fff, 0px 0px 13px #fff;">Dr. Timothy Norris : <a href="mailto:tnorris@miami.edu" style="color: #000 !important;">tnorris@miami.edu</a><br>Christopher Mader : <a href="mailto:cmader@med.miami.edu" style="color: #000 !important;">cmader@med.miami.edu</a></div>
                 
                 <div style="position: absolute; left: 0px; top: 550px; font-size: 40%; text-align: right; color: #555; width: 280px;"></div>
+
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Vector Analysis</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Vector Operations (one layer)</li>
+                      <li style="margin: 13px 0px 0px 0px;">Vector Operations (two layers)<br><span style="font-style: italic;"><b>Spatial Join</b></span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Attribute Statistics & Aggregation</li>
+                      <li style="margin: 42px 0px 0px 0px;"><a href="https://gisgeography.com/spatial-analysis-periodic-table/" target="_blank">So Many Tools - !CLICK ME!</a></li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">One Layer Vector Operations</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Buffer</li>
+                      <li style="margin: 13px 0px 0px 0px;">Dissolve)</li>
+                      <li style="margin: 13px 0px 0px 0px;">Transformations (vector to raster)</li>
+                      <li style="margin: 13px 0px 0px 0px; color: #999;">Convex Hull</li>
+                      <li style="margin: 13px 0px 0px 0px; color: #999;">Centroids</li>
+                      <li style="margin: 13px 0px 0px 0px; color: #999;">Transformations (polygon to line or vice versa)</li>
+                      <li style="margin: 13px 0px 0px 0px; color: #999;">Voroni Polygons (fill plane from points)</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">One Layer Vector Operations - Buffer</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">ring buffer (one radius)</li>
+                      <li style="margin: 13px 0px 0px 0px;">multiple-ring buffer (several radii)</li>
+                    </ul>
+                    <img src="../common/assets/images/buffer.jpg" style="width: 800px">
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html">https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">More Buffers</div>
+                  <div style="margin-top: -30px; width: 100%; display: inline-block;">
+                      <div style="margin: 0px auto; width: 65%">
+                        <div style="float:left; font-size: 0.7em; margin-top: 80px;">
+                            <ol type="a" style="font-size: 0.85em;">
+                              <li style="margin: 13px 0px 0px 0px;">variable width</li>
+                              <li style="margin: 13px 0px 0px 0px;">multiple ring</li>
+                              <li style="margin: 13px 0px 0px 0px;">doughnut</li>
+                              <li style="margin: 13px 0px 0px 0px;">setback</li>
+                              <li style="margin: 13px 0px 0px 0px;">non-dissolved</li>
+                              <li style="margin: 13px 0px 0px 0px;">dissolved</li>
+                            </ol>
+                        </div>
+                        <div style="float:left; margin-left: 92px;">
+                            <img src="../common/assets/images/more_buffers.jpg" style="max-width: 500px; margin: 0px;">
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html">https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">One Layer Vector Operations - Dissolve</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">combines features based on attribute</li>
+                      <li style="margin: 13px 0px 0px 0px;">useful for data aggregation</li>
+                      <li style="margin: 13px 0px 0px 0px;">useful for cartography
+                        <ul style="font-size: 0.85em;">
+                          <li style="margin: 13px 0px 0px 0px;">multiple line segments with same label (roads)</li>
+                          <li style="margin: 13px 0px 0px 0px;">remove duplicate polygon labels for area</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <img src="../common/assets/images/dissolve.png" style="width: 800px">
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/dissolve.htm">https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/dissolve.htm</a></div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Two Layer Vector Operations<br><span style="font-style: italic;"><b>** Spatial Join **</b></span></div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Points in Polygon</li>
+                      <li style="margin: 13px 0px 0px 0px;">Intersect</li>
+                      <li style="margin: 13px 0px 0px 0px;">Join Attributes by Location</li>
+                      <li style="margin: 13px 0px 0px 0px; color: #999;">Union</li>
+                      <li style="margin: 13px 0px 0px 0px; color: #999;">Clip</li>
+                      <li style="margin: 13px 0px 0px 0px; color: #999;">Difference</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Points in Polygon<br><span style="font-style: italic;"><b>Simple Spatial Join</b></span></div>
+                  <div style="margin-top: -30px; width: 100%; display: inline-block;">
+                      <div style="margin: 0px auto; width: 80%">
+                        <div style="float:left; font-size: 0.7em; margin-top: 40px;">
+                            <ul style="font-size: 0.95em;">
+                              <li style="margin: 13px 0px 0px 0px;">one point layer and one polygon layer</li>
+                              <li style="margin: 13px 0px 0px 0px;">counts number of points in polygon</li>
+                              <li style="margin: 13px 0px 0px 0px;">point attribute aggregation possible > polygons</li>
+                              <li style="margin: 42px 0px 0px 0px;">New <b>"COUNT"</b> column in polygon attributes</li>
+                            </ul>
+                        </div>
+                        <div style="float:left; margin-left: 23px;">
+                            <img src="../common/assets/images/pip.png" style="width: 400px">
+                        </div>
+                      </div>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://datawanderings.com/2018/09/01/r-point-in-polygon-a-mathematical-cookie-cutter/">https://datawanderings.com/2018/09/01/r-point-in-polygon-a-mathematical-cookie-cutter/</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Intersect two layers</div>
+                  <div>
+                    <ol type="a" style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Can be lines or polygons</li>
+                      <li style="margin: 13px 0px 0px 0px;">Boundaries from both layers</li>
+                      <li style="margin: 13px 0px 0px 0px;">Attributes from both layers</li>
+                      <li style="margin: 42px 0px 0px 0px;">May need to dissolve after to make sense of analysis</li>
+                    </ol>
+                    <img src="../common/assets/images/intersect.gif" style="max-width: 500px; margin: 0px;">
+                  </div>
+
+                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/intersect.htm">https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/intersect.htm</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Join Attributes by Location</div>
+                  <div>
+                    <img src="../common/assets/images/Spatial-Join-1265x723.png" style="width: 800px">
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://gisgeography.com/spatial-join/">https://gisgeography.com/spatial-join/</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Join Attributes by Location<br><span style="font-style: italic;"><b>** Spatial Join **</b></span></div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">combines attributes based on shared locations
+                        <ul style="font-size: 0.85em;">
+                          <li style="margin: 13px 0px 0px 0px;">points in polygon)</li>
+                          <li style="margin: 13px 0px 0px 0px;">intersection</li>
+                          <li style="margin: 13px 0px 0px 0px;">other ...</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">example: attach tract ID to point data</li>
+                      <li style="margin: 13px 0px 0px 0px;">example: summarize point data and attach to polygon</li>
+                    </ul><br>
+                    <img src="../common/assets/images/Spatial-Join-1265x723.png" style="width: 300px">
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://gisgeography.com/spatial-join/">https://gisgeography.com/spatial-join/</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Join Attributes by Location<br><span style="font-style: italic;">raster to vector or vice versa</span></div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Add attribute to vector data based on underlying raster values<br><span style="font-style: italic">Often call "extraction" or "extract"</span><img src="../common/assets/images/extraction_multi.jpg"></li>
+                      <li style="margin: 42px 0px 0px 0px;">Basic statistics from pixels inside polygon (review)<br><span style="font-style: italic">Often called "Zonal Statistics" or "Zonal Histogram"</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://www.esri.com/arcgis-blog/products/analytics/analytics/how-to-extract-raster-values-at-point-locations/">https://www.esri.com/arcgis-blog/products/analytics/analytics/how-to-extract-raster-values-at-point-locations/</a></div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Attribute Statistics and Aggregation</span></div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Basic column statistics available in GIS</li>
+                      <li style="margin: 13px 0px 0px 0px;">Basic aggregation tools available in GIS</li>
+                      <li style="margin: 13px 0px 0px 0px;">Sometimes you need to take results to other program
+                        <ul style="font-size: 0.85em;">
+                          <li style="margin: 13px 0px 0px 0px;">export attribute table</li>
+                          <li style="margin: 13px 0px 0px 0px;">Python, STATA, R, Excel, other ...</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
 
               </section>
 				
