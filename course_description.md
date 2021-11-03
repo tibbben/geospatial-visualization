@@ -72,7 +72,7 @@ A sharedbox folder for readings and geospatial data is located at [https://miami
 
 *Presentation Schedule*  
 
-An online docx file (PresentationsTopics.docx) for tracking the in class presentations from Field (2018) is in the shared teams folder mentioned above and can be accessed directly at: [https://miami.box.com/s/buml6yired81a2gyurqii66tyby2fc3t](https://miami.box.com/s/buml6yired81a2gyurqii66tyby2fc3t){:target="\_blank"}
+An online xlsx file (PresentationsTopics.xlsx) for tracking the in class presentations from Field (2018) is in the shared teams folder mentioned above and can be accessed directly at: [https://miami.box.com/s/6dxvna0xjqgaz6tchrj3u3b9ww571j2a](https://miami.box.com/s/6dxvna0xjqgaz6tchrj3u3b9ww571j2a){:target="\_blank"}
 
 ---
 
