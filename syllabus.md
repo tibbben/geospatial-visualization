@@ -394,6 +394,8 @@ Explore how map images tell stories of urban sustainability and resilience with 
 -   Schedule meeting with one of the instructors before November 16th
 
 >  [slide deck](slides/slides120.html){:target="\_blank"}  
+>  [HW example #1](slides/slides120_sampleHWpresentation01.html){:target="\_blank"}  
+>  [HW example #2](slides/slides120_sampleHWpresentation02.html){:target="\_blank"}  
 
 *__Week 13 (Nov. 16):__ GIS and Mapping in Miami-Dade County and Oakland CA*
 

@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../common/css/reveal.css">
+        <link rel="stylesheet" href="../common/css/white.css">
+        <link rel="stylesheet" href="../common/css/overrides.css">
+	    <script src="../common/java/print.js"></script>
+        <title>Continuous Surfaces</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+
+                <section>
+                    <div style="font-size: 130%; line-height: 100%; margin-bottom: 42px;"><strong>Heat Maps<br><br><span style="font-size: 0.8em">A surface representation of data that occurs at discrete points,<br>or not</span></strong></div>
+                    <div style="font-size: 90%; margin-bottom: 42px;">ARC 594/694 Fall <script>var today = new Date();document.write(today.getFullYear());</script></div>
+                    <div style="font-size: 50%;">Dr. Timothy Norris - <a href="mailto:tnorris@miami.edu" style="color: #222 !important; text-decoration: underline;">tnorris@miami.edu</a><br>Adapted from Field (2017) <i>Cartography</i>. Redlands, ESRI Press.  pp. 212-213.</div>
+                </section>
+
+                <section>
+                    <div style="font-size: 80%; max-width: 80%; margin: 0px auto 0px auto !important;">
+                        <h3>Heat maps</h3>
+                        <ul style="margin-bottom: 42px;">
+                            <li style="margin-bottom: 7px;">Most often density of point based information as surface</li>
+                            <li style="margin-bottom: 7px;">As (kernel) density is based on scale of analysis, visualization may be very misleading</li>
+                            <li style="margin-bottom: 7px;">Common use of "rainbow" color ramp can falsely portray density (color perception)</li>
+                            <li style="margin-bottom: 7px;">Most cartographers <b>do not use</b> this visualization method</b></li>
+                            <li style="margin-bottom: 7px;">Almost all "heat maps" use "invented" data from interpolation</li>
+                        </ul>
+                    </div>
+                </section>  
+
+                <section>
+                    <div style="font-size: 130%; line-height: 100%; margin-bottom: 42px;"><span style="font-size: 0.8em">A density surface of ball possession (not a heat map)</span></strong></div>
+                    <img src="../common/assets/images/football.jpg" style="max-width: 1000px;">
+                </section>
+
+                <section>
+                    <div style="font-size: 130%; line-height: 100%; margin-bottom: 23px;"><span style="font-size: 0.8em">A Heat Map</span></strong></div>
+                    <img src="../common/assets/images/heatmap.jpg" style="max-width: 700px;">
+                    <p style="font-size: 0.7em;">Look up "heat map" under google images ...</p>
+                </section>
+
+                <section>
+                    <div style="font-size: 80%; max-width: 85%; margin: 0px auto 0px auto !important;">
+                        <h3>The GDELT Project</h3>
+                        <p>Supported by <a href="https://jigsaw.google.com/">Google Jigsaw</a>, the <a href="https://www.gdeltproject.org/">GDELT Project</a> monitors the world's broadcast, print, and web news from nearly every corner of every country in over 100 languages and identifies the people, locations, organizations, themes, sources, emotions, counts, quotes, images and events driving our global society every second of every day, creating a free open platform for computing on the entire world.</p>
+                        <div style="max-width: 70%; margin: 0px auto 0px auto;">
+                            An interactive "heat map":<br>
+                                <a href="http://data.gdeltproject.org/analytics_gallery/blog/2014-civilian-conflict.heatmap.html">http://data.gdeltproject.org/analytics_gallery/blog/2014-civilian-conflict.heatmap.html</a></li>
+                        </div>
+                    </div>
+                </section>        	
+				
+            </div>
+        </div>
+        <script src="../common/java/reveal.js"></script>
+	    <script src="../common/java/notes.js"></script>
+	    <script src="../common/java/head.min.js"></script>
+        <script>
+            Reveal.initialize({
+                width: 1366, height: 768, margin: 0.05,
+                controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				mouseWheel: true,
+				chart: {
+					defaults: { 
+						global: { 
+							defaultFontSize: 20,
+							title: { fontColor: "#333" }, 
+							legend: {
+								position: "top",
+								labels: { fontColor: "#333" },
+							},
+							tooltips: {
+								labels: { fontColor: "#333" },
+							},
+						}, 
+						scale: { 
+							scaleLabel: { fontColor: "#333" }, 
+							gridLines: { color: "#333", zeroLineColor: "#333" }, 
+							ticks: { fontColor: "#333" }, 
+						} 
+					},
+				},
+                dependencies: [
+                    { src: '../common/java/Chart.min.js' },
+                    { src: '../common/java/csv2chart.js' }
+                ] 
+            });
+        </script>
+    </body>
+</html>

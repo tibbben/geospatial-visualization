@@ -5,22 +5,205 @@
         <link rel="stylesheet" href="../common/css/white.css">
         <link rel="stylesheet" href="../common/css/overrides.css">
 	    <script src="../common/java/print.js"></script>
-        <title>Geospatial Visualization - 12</title>
+        <title>Geospatial Visualization - 11</title>
         <meta charset="UTF-8">
     </head>
     <body>
         <div class="reveal">
             <div class="slides">
 
-              <section data-background-image="" data-background-size="contain" data-background-color="#000">
+              <section data-background-image="../common/assets/images/long.jpg" data-background-size="fill" data-background-color="#000">
 
-                <div style="position: absolute; left: 0px; top: 40px; font-size: 150%; line-height: 100%; color: #999 !important; text-align: left;"><strong>Geospatial<br>  Visualization</strong></div>
+                <div style="position: absolute; left: 120px; top: 40px; font-size: 150%; line-height: 100%; color: #000 !important; text-align: left;text-shadow: 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff;"><strong>Geospatial<br>  Visualization</strong></div>
 
-                <div style="position: absolute; left: 0px; top: 220px; font-size: 90%; color: #999 !important;text-align: right;">School of Architecture<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
+                <div style="position: absolute; left: 600px; top: 240px; font-size: 90%; color: #000 !important;text-align: right;text-shadow: 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff;;">School of Architecture<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
                 
-                <div style="position: absolute; left: 0px; top: 400px; font-size: 50%; text-align: left; color: #999 !important; line-height: 145%">Dr. Timothy Norris : <a href="mailto:tnorris@miami.edu" style="color: #999 !important; text-decoration: underline;">tnorris@miami.edu</a><br>Christopher Mader : <a href="mailto:cmader@med.miami.edu" style="color: #999 !important; text-decoration: underline;">cmader@med.miami.edu</a></div>
+                <div style="position: absolute; left: 455px; top: 400px; font-size: 50%; text-align: left; color: #000 !important; line-height: 145%;text-shadow: 0px 0px 7px #fff, 0px 0px 7px #fff, 0px 0px 7px #fff, 0px 0px 7px #fff,0px 0px 7px #fff, 0px 0px 7px #fff, 0px 0px 13px #fff;">Dr. Timothy Norris : <a href="mailto:tnorris@miami.edu" style="color: #000 !important;">tnorris@miami.edu</a><br>Christopher Mader : <a href="mailto:cmader@med.miami.edu" style="color: #000 !important;">cmader@med.miami.edu</a></div>
                 
                 <div style="position: absolute; left: 0px; top: 550px; font-size: 40%; text-align: right; color: #555; width: 280px;"></div>
+
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Vector Analysis Exercise (Review)</div>
+                  <div>
+                    <P style="font-size: 0.75em;">Download from indicated source or Box</P>
+                    <ol type="a" style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">DEM 10 ft (Miami-Dade Data Portal)</li>
+                      <li style="margin: 13px 0px 0px 0px;">FEMA Flood Zones (FEMA Hazard Layer)</li>
+                      <li style="margin: 13px 0px 0px 0px;">Census Resilience Estimates (US Census Bureau)</li>
+                      <li style="margin: 13px 0px 0px 0px;">Water_p (Miami-Dade Data Portal)</li>
+                      <li style="margin: 13px 0px 0px 0px;">CDC Social Vulnerability Index (CDC SVI)</li>
+                      <li style="margin: 13px 0px 0px 0px;">Florida Coastline (Florida Fish and Wildlife)</li>
+                      <li style="margin: 13px 0px 0px 0px;">Street (Miami-Dade Data Portal)</li>
+                      <li style="margin: 13px 0px 0px 0px;">TRI 2020 (EPA Toxic Release Inventory)</li>
+                    </ol>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Vector Analysis Exercise (Review)</div>
+                  <div>
+                    <P style="font-size: 0.75em;">Create project and load all data</P>
+                    <img src="../common/assets/images/layersorder.PNG">
+                    <P style="font-size: 0.75em;">Symbolize as needed (also for all steps that follow)</P>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Vector Analysis Exercise (Review)</div>
+                  <div>
+                    <P style="font-size: 0.75em;">Re-create 5ft sea level rise scenario</P>
+                    <ol type="a" style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Raster Math (on DEM layer)<br>
+                        <ul>
+                          <li>0 < dem_10ft and dem_10ft < 5<br>[ pseudo code - needs corrected syntax for ArcGIS or QGIS ]</li>
+                          <li>Result is logical, 0 (false) or 1 (true), raster layer</li>
+                          <li>Symbolize 0 as 100% transparent and 1 as some color</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Symbolize S_FLD_HAZ_AR layer<br>
+                        <ul>
+                          <li>categorized on FLD_ZONE</li>
+                          <li>find category meanings (google) and symbolize</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Explore relationship between 5ft scenario and FIRMs data</li>
+                    </ol>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Vector Analysis Exercise (Review)</div>
+                  <div>
+                    <P style="font-size: 0.75em;">Re-create 5ft sea level rise scenario</P>
+                    <ol type="a" style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Run "Zonal Histogram"
+                        <ul>
+                          <li>with SVI FIPS as input feature</li>
+                          <li>logical raster as input raster</li>
+                          <li>check "zones as rows in output table"</li>
+                          <li>join result table back to SVI layer using FIPS</li>
+                          <li>calculate estimated number of people impacted<br>
+                            estimate = E_TOTPOP * CLASS_2 / (CLASS_1 + CLASS_2)</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Choose a neighborhood and explore
+                        <ul>
+                          <li>SVI attributes</li>
+                          <li>Resilience Index attributes</li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Vector Analysis Exercise (Review)</div>
+                  <div>
+                    <P style="font-size: 0.75em;">Count TRI Sites in Census Tracts</P>
+                    <ol type="a" style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Load tri_2020.csv as X,Y data points</li>
+                      <li style="margin: 13px 0px 0px 0px;">Run "Summarize Within"
+                        <ul>
+                          <li>Resilience Tract Polygons as input</li>
+                          <li>TRI point layer as second input</li>
+                          <li>run (make no other changes)</li>
+                          <li>explore output table of attributes (see COUNT)</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Export attribute as CSV
+                        <ul>
+                          <li>open in excel</li>
+                          <li>explore relationship between resilience measures and COUNT</li>
+                          <li>make graph of COUNT vs a resilience measure</li>
+                          <li>add regression line</li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Create Map Layout</div>
+                  <div>
+                    <ol type="a" style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Landscape may be better</li>
+                      <li style="margin: 13px 0px 0px 0px;">Insert map frame
+                        <ul>
+                          <li>explore "extent" (scale and center)</li>
+                          <li>explore "position" (x,y and width,height)</li>
+                          <li>look at other 'map frame' options</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Create second map
+                        <ul>
+                          <li>Only coastline, street, and water_p layers</li>
+                          <li>Symbolize (filter street on CLASS)</li>
+                          <li>QGIS Note: you must lock the first map frame, then edit the maps and insert again as a second map frame.
+                        </ul>
+                      </li>
+                    </ol>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Create Map Layout</div>
+                  <div>
+                    <ol type="a" style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Add second map to layout
+                        <ul>
+                          <li>organize: flood layout large, street layout small</li>
+                          <li>leave space for other elements (title, legend, etc)</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Insert extent indicator to street map frame
+                        <ul>
+                          <li>Only coastline, street, and water_p layers</li>
+                          <li>Symbolize (filter street on CLASS)</li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Create Map Layout</div>
+                  <div>
+                    <ol type="a" style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Add all other elements
+                        <ul>
+                          <li>title</li>
+                          <li>legend</li>
+                          <li>sources</li>
+                          <li>scale</li>
+                          <li>etc</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Export as SVG
+                        <ul>
+                          <li>Open in Adobe Illustrator</li>
+                          <li>Use Layers (window) to navigate</li>
+                          <li>Finalize map</li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
 
               </section>
 				

@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../common/css/reveal.css">
+        <link rel="stylesheet" href="../common/css/white.css">
+        <link rel="stylesheet" href="../common/css/overrides.css">
+	    <script src="../common/java/print.js"></script>
+        <title>Continuous Surfaces</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+
+                <section>
+                    <div style="font-size: 130%; line-height: 100%; margin-bottom: 42px;"><strong>Continuous surface maps<br><span style="font-size: 0.8em">Technique for mapping gradually changing phenomena</span></strong></div>
+                    <div style="font-size: 90%; margin-bottom: 42px;">ARC 594/694 Fall <script>var today = new Date();document.write(today.getFullYear());</script></div>
+                    <div style="font-size: 50%;">Dr. Timothy Norris - <a href="mailto:tnorris@miami.edu" style="color: #222 !important; text-decoration: underline;">tnorris@miami.edu</a><br>Adapted from Field (2017) <i>Cartography</i>. Redlands, ESRI Press.  pp. 74-75.</div>
+                </section>
+
+                <section>
+                    <div style="font-size: 80%; max-width: 80%; margin: 0px auto 0px auto !important;">
+                        <h3>Mapping continuous surfaces</h3>
+                        <ul style="margin-bottom: 42px;">
+                            <li style="margin-bottom: 7px;">For data without discreet boundaries</li>
+                            <li style="margin-bottom: 7px;">Often data is collected at points and then <b>Interpolated</b></li>
+                            <li style="margin-bottom: 7px;">Interpolation from point data to continuous a raster surface requires statistics</li>
+                            <li>Continuous surfaces representing phenomena and heat maps representing density are not the same</li>
+                        </ul>
+                    </div>
+                </section>  
+
+                <section>
+                    <img src="../common/assets/images/interpolation.jpg" style="max-width: 1000px;">
+                    <div style="width: 100%; font-size: 0.7em;">
+                        <div style="width: 45%; float: left;">
+                            <ul>
+                                <li>point data</li>
+                                <li>polynomial surface</li>
+                                <li>trend surface</li>
+                                <li>universal kriging</li>
+                            </ul>
+                        </div>
+                        <div style="width: 45%; float: left;">
+                            <ul>
+                                <li>kernel density</li>
+                                <li>inverse distance weighted (IDW)</li>
+                                <li>spline interpolator</li>
+                                <li>bayensian kriging</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div style="position: absolute; top: 100px; left: 0px; width: 100%" class="fragment" data-fragment-index="1">
+                        <div style="margin: 0px auto;"><img src="../common/assets/images/hot-spot.jpg" style="max-width: 300px; margin-bottom: 0px;"><br><p style="margin: 0px auto; font-size: 0.7em; background-color: #fff; max-width: 380px; padding: 7px;">getis-ord gi surface (hot spot)</p></div>
+                    </div>
+                </section>
+
+                <section>
+                    <div style="font-size: 80%; max-width: 100%; margin: 0px auto 0px auto !important;">
+                        <h3>Related Information</h3>
+                        <div style="max-width: 70%; margin: 0px auto 0px auto;">
+                            <img src="../common/assets/images/InterpolateScatteredData.png" style="max-width: 800px; margin-bottom: 0px;"><br>
+                            MatLab Help on Interpolation:<br>
+                                <a href="https://www.mathworks.com/help/matlab/ref/griddata.html">https://www.mathworks.com/help/matlab/ref/griddata.html</a></li>
+                        </div>
+                    </div>
+                </section>      
+
+                <section data-background-image="../common/assets/images/moistureFig3.jpeg" data-background-size="fill">
+                    <div style="font-size: 80%; max-width: 100%; margin: 0px auto 0px auto !important; color: #fff; background-color: rgba(0,0,0,0.6); padding: 23px; border-radius: 13px;" class="fragment fade-out">
+                        <h3 style="color: #fff;">Related Information</h3>
+                        <div style="max-width: 70%; margin: 0px auto 0px auto;">
+                            Water accumulation map:<br>
+                                <a  style="color: #fff;" href="https://nawimaps.com/maps/moisture-model/">https://nawimaps.com/maps/moisture-model/</a></li>
+                        </div>
+                    </div>
+                </section>    	
+				
+            </div>
+        </div>
+        <script src="../common/java/reveal.js"></script>
+	    <script src="../common/java/notes.js"></script>
+	    <script src="../common/java/head.min.js"></script>
+        <script>
+            Reveal.initialize({
+                width: 1366, height: 768, margin: 0.05,
+                controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				mouseWheel: true,
+				chart: {
+					defaults: { 
+						global: { 
+							defaultFontSize: 20,
+							title: { fontColor: "#333" }, 
+							legend: {
+								position: "top",
+								labels: { fontColor: "#333" },
+							},
+							tooltips: {
+								labels: { fontColor: "#333" },
+							},
+						}, 
+						scale: { 
+							scaleLabel: { fontColor: "#333" }, 
+							gridLines: { color: "#333", zeroLineColor: "#333" }, 
+							ticks: { fontColor: "#333" }, 
+						} 
+					},
+				},
+                dependencies: [
+                    { src: '../common/java/Chart.min.js' },
+                    { src: '../common/java/csv2chart.js' }
+                ] 
+            });
+        </script>
+    </body>
+</html>
