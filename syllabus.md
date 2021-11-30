@@ -399,7 +399,7 @@ Explore how map images tell stories of urban sustainability and resilience with 
 
 *__Week 13 (Nov. 16):__ GIS and Mapping in Miami-Dade County and Oakland CA*
 
-Explore how GIS is used by government agencies and urban planners to plan for urban sustainability and resilience. We are seeking a *guest speaker* from Miami-Dade County to share how the county uses GIS and cartographic data assets in their resilience office. The use of maps in the 2019 Downtown Oakland Specific Plan will be reviewed and critiqued.
+Explore how GIS is used by government agencies and urban planners to plan for urban sustainability and resilience. We are pleased to welcome Christian Kamrath from the Miami-Dade County to share how the county uses GIS and cartographic data assets in their resilience office. The use of maps in the 2019 Downtown Oakland Specific Plan will be reviewed and critiqued.
 
 [//]: # (Do we need to teach to this more? The style of mapping)
 

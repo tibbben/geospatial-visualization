@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../common/css/reveal.css">
+        <link rel="stylesheet" href="../common/css/white.css">
+        <link rel="stylesheet" href="../common/css/overrides.css">
+	    <script src="../common/java/print.js"></script>
+        <title>Longitude</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+
+                <section data-transition="fade">
+                    <div style="font-size: 130%; line-height: 100%; margin-bottom: 42px;"><strong>Longitude</strong></div>
+                    <div style=" max-width: 70%; margin: 0px auto 42px auto; font-size: 0.8em;">"Longitude allows the measurement of east-west location"</div>
+                    <div style="font-size: 90%; margin-bottom: 42px;">ARC 594/694 Fall <script>var today = new Date();document.write(today.getFullYear());</script></div>
+                    <div style="font-size: 50%;">Dr. Timothy Norris - <a href="mailto:tnorris@miami.edu" style="color: #222 !important; text-decoration: underline;">tnorris@miami.edu</a><br>Adapted from Field (2017) <i>Cartography</i>. Redlands, ESRI Press.  pp. 280-281.</div>
+                </section>
+
+                <section data-transition="fade">
+                    <div style="font-size: 80%; max-width: 80%; margin: 0px auto 0px auto !important;">
+                        <h3>Longitude</h3>
+                        <ul style="margin-bottom: 42px;">
+                            <li style="margin-bottom: 7px;">Cannot be measured by star positions or other landmarks (unlike latitude)</li>
+                            <li style="margin-bottom: 7px;">As an arbitrary measure, the earth rotates 360 degrees in 24 hours or 15 degrees per hour</li>
+                            <li style="margin-bottom: 7px;">Even more arbitrary, the prime meridian located in Greenwich England was set by Sir George Airy in 1851; by 1884 it was accepted by most nations as zero degrees longitude</li>
+                            <li>To navigate using longitude you need accurate clocks</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section data-transition="fade">
+                    <div style="max-width: 90%; margin: 0px auto;">
+                        <div style="float: left; max-width: 45%"><img src="../common/assets/images/harrison_clock_h1.jpg" style="max-width: 500px;"></div>
+                        <div style="float: left; max-width: 45%; margin-left: 42px; font-size: 0.8em"><strong>H1</strong><ul style="margin-top: 42px;"><li>John Harrison's first attempt at a seaworthy timekeeper (~1730-35)</li><li>weighed 72 pounds</li><li>won parts of a prize for £20,000 from the Royal Society for his life's work</div>
+                    </div>
+                </section>
+
+                <section data-transition="fade">
+                    <div style="max-width: 90%; margin: 0px auto;">
+                        <div style="float: left; max-width: 45%; margin-top: 130px; font-size: 0.65em;">Sobel, Dava. (1995). <i>Longitude: The True Story of a Lone Genius Who Solved the Greatest Scientific Problem of His Time</i>. New York: Walker and Company.</div>
+                        <div style="float: left; max-width: 45%; margin-left: 42px;"><img src="../common/assets/images/longitude_book.jpg" style="max-width: 500px;"></div>
+                    </div>
+                </section>
+				
+            </div>
+        </div>
+        <script src="../common/java/reveal.js"></script>
+	    <script src="../common/java/notes.js"></script>
+	    <script src="../common/java/head.min.js"></script>
+        <script>
+            Reveal.initialize({
+                width: 1366, height: 768, margin: 0.05,
+                controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				mouseWheel: true,
+				chart: {
+					defaults: { 
+						global: { 
+							defaultFontSize: 20,
+							title: { fontColor: "#333" }, 
+							legend: {
+								position: "top",
+								labels: { fontColor: "#333" },
+							},
+							tooltips: {
+								labels: { fontColor: "#333" },
+							},
+						}, 
+						scale: { 
+							scaleLabel: { fontColor: "#333" }, 
+							gridLines: { color: "#333", zeroLineColor: "#333" }, 
+							ticks: { fontColor: "#333" }, 
+						} 
+					},
+				},
+                dependencies: [
+                    { src: '../common/java/Chart.min.js' },
+                    { src: '../common/java/csv2chart.js' }
+                ] 
+            });
+        </script>
+    </body>
+</html>
