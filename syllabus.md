@@ -429,14 +429,9 @@ Explore how GIS is used by government agencies and urban planners to plan for ur
 
 *__THANKSGIVING BREAK (Nov. 22 - Nov. 26)__*  
 
-*__Week 14 (Nov. 30):__ Final Project Presentations and Advanced Topics in Geospatial Data Visualization*  
+*__Week 14 (Nov. 30):__ Class time for project work*  
 
-Final Project Presentations will be followed by demonstrations in advanced topics in GIS and 
-
-> Practical Objectives:
-
--   Demonstration of Jupyter Notebooks and geospatial data visualization using point clouds.
--   Participatory Mapping, risk, and resilience in urban planning: flood mapping in San Diego CA.
+Class will be left open as an opportunity to work on final projects with the instructors present.
 
 >  Optional Reading:
 
@@ -444,14 +439,18 @@ Final Project Presentations will be followed by demonstrations in advanced topic
 
 -   TBD
 
-*__Week 15 (Dec. 7):__ Final Project Presentations* (short week mon-wed)
+*__Week 15 (Dec. 7):__ Class time for project work* (short week mon-wed)
 
-Final Project Presentations
+Class will be left open as an opportunity to work on final projects with the instructors present. Short presentations will be given on:
 
 > Practical Objectives:
 
--   Demonstrate South Beach Data Collection Project
--   Demonstrate Tree Inventory of Gables Campus
+-   Demonstrate the use of Jupyter notebooks to visualize 3D point clouds derived from drone surveys
+-   Participatory data gathering and auto-documentation in Las Flores, Barranquilla, Colombia
+
+*__FINAL PRESENTATIONS (Dec. 15 @ 5:00 p.m.):__ Students will present their final projects*
+
+Students will have 10 minutes (strict) to give an outline of their final project as described in the course description above under "Final Project".
 
 [//]: # (Is there something published from the South Beach project?)
 
