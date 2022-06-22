@@ -1,6 +1,6 @@
 ## ARC 581/681-T2 Special Problems (Geospatial Visualization) - 1 credit 
 ## ARC 594/694-T2 Geographic Information Systems in Urban Design - 3 credits
-## Fall 2021 
+## Fall 2022 
 [https://tibbben.github.io/geospatial-visualization](https://tibbben.github.io/geospatial-visualization){:alt="syllabus (this page)"} (this page)  
 
 ---
@@ -37,7 +37,7 @@ Book appointment: [https://cmader.youcanbook.me](https://cmader.youcanbook.me){:
 [//]: # (meeting times?? meeting place?? hybrid?? zoom links??)
 
 August 23rd - September 24th / December 8th 2021  
-Time: Tuesday 2:40 - 5:25 pm  
+Time: TBD  
 Place: A49-110 (SOA Media Lab)  
 Zoom meeting links: [https://www.courses.miami.edu/webapps/blackboard/content/launchLink](https://www.courses.miami.edu/webapps/blackboard/content/launchLink.jsp?course_id=_576809_1&content_id=_11400144_1&mode=cpview){:target="\_blank" alt="zoom links for course"}  
 
@@ -45,7 +45,7 @@ Zoom meeting links: [https://www.courses.miami.edu/webapps/blackboard/content/la
 
 ### Course Description:  
 
-This course introduces the student to Geographic Information Systems (GIS) and how to apply GIS technologies in sustainable and resilient urban planning and architectural design contexts. Three principal activities will be emphasized: how to find, access, and use pre-existing GIS datasets; how to use industry standard tools such as ArcGIS and QGIS to perform basic analysis of geospatial data; and how to use ArcGIS and QGIS to transform and export geospatial data for use with applications such as Illustrator and AutoCAD. A series of hands on lab based exercises will build student GIS skill sets and encourage students to produce materials applicable to real-world projects for their respective research projects or design studios. The one credit option is designed to provide a basic introduction to geographic information systems, to foster spatial literacy, and to generate skills that will enable students to engage in geospatial storytelling and advanced cartographic projects. The three credit option introduces tools to enable students in more advanced geospatial data analysis with a focus on sustainable and resilient urban design and planning. 
+This course introduces the student to Geographic Information Systems (GIS) and how to apply GIS technologies in sustainable and resilient urban planning and architectural design contexts. Three principal activities will be emphasized: how to find, access, and use pre-existing GIS datasets; how to use industry standard tools such as ArcGIS and QGIS to perform basic analysis of geospatial data; and how to use ArcGIS and QGIS to transform and export geospatial data for use with applications such as Illustrator and AutoCAD. A series of hands on lab based exercises will build student GIS skill sets and encourage students to produce materials applicable to real-world projects for their respective research projects or design studios. The one credit option is designed to provide a basic introduction to geographic information systems, to foster spatial literacy, and to generate skills that will enable students to engage in geospatial storytelling and advanced cartographic projects. The three credit option introduces tools to enable students in more advanced geospatial data analysis and visualization with a focus on sustainable and resilient urban design and planning. 
 
 ---
 
@@ -62,9 +62,25 @@ The course will use selected materials from both of the above books. The Krygier
 
 Optional reading materials will be available through online access or directly from the instructors. Please see the box folder and/or the course schedule for the links (both below).
 
+[//]: # (How to lie with maps)
+
 *Geospatial Data:*  
 
-Students are required to download and transform geospatial data for projects throughout the course and for the final project. Guidance will be given on how to do this.
+Students are required to download and transform geospatial data for projects throughout the course and for the final project. Guidance will be given on how to do this. Some good starting points include:
+
+-   UM Libraries GIS Data Resources at [Global](https://sp.library.miami.edu/subjects/gis#tab-4), [National](https://sp.library.miami.edu/subjects/gis#tab-6), and [Florida](https://sp.library.miami.edu/subjects/gis#tab-3) based scales
+-   [Redistricting Data Hub](https://redistrictingdatahub.org)
+-   [WorldPop](https://www.worldpop.org)
+-   [NASA's Socioeconomic Data and Applications Center (SEDAC)](https://earthdata.nasa.gov/eosdis/daacs/sedac)
+-   [US Environmental Protection Agency (EPA)](https://www.epa.gov/data)
+
+[//]: # (https://www.corelogic.com)
+[//]: # (dataaxle)
+[//]: # (https://nigeria.opendataforafrica.org/)
+[//]: # (https://www.openstreetmap.org/)
+[//]: # (https://www.openhistoricalmap.org/)
+[//]: # (https://www.epa.gov/smartgrowth/smart-location-mapping)
+[//]: # (https://coast.noaa.gov/slrdata/)
 
 *Shared Box Folder*  
 
@@ -225,6 +241,8 @@ Engagement in class activities through speaking, assigned in-class presentations
 
 As a class project, each student will create one map layout and present it through a medium of their choice (print, projected, online, or another). All projects must be discussed and approved with one of the instructors prior to presentation. There will be two stages of presentation for this project, an initial sketch due in the fifth week and then a final presentation given at the end of the course. All students enrolled in the full three credit course must choose a class project that is within the context of urban sustainability and/or resilience. 
 
+[//]: # (upload project folder to box)
+
 > __Initial Sketch__ (due in week 5):
 
 The map must have at least two layers of data displayed in a simple overlay analysis (the two layers are not background or base map layers) and there must be an aggregated data set either displayed as geographic information on the map image itself or as a summary table included in the map layout. The map layout must tell a story: this means the layout may use elements such as a title, legend, labels, geographic features, scale, descriptive text, context, locator map, insets, credits, and sources with integrity in a harmonious and holistic presentation to make a spatial argument or to present a spatial vision of past, present or future. The initial sketch of the class project will be due in the week five meeting with a brief presentation (no longer than five minutes)for a critical review by fellow students and instructors. All students enrolled in the full three credit course must also propose an urban sustainability/resilience research question that the project will seek to answer.
@@ -246,6 +264,8 @@ The map(s) for the final class project must meet all the same requirements as th
 -   A self-critique of the cartographic processes with attention give to strengths and weaknesses  
 
 [//]: # (focus more on answer or on story >> is the course to prepare students for the political realities of sustainability/resilience or simply be a researcher in this field?)
+
+[//]: # (two sets of criteria, one for architects and one for urban design/geography)
 
 
 ---

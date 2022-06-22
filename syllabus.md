@@ -6,6 +6,24 @@ All assigned reading is to be completed before the class meeting it is listed un
 
 All assignments listed in the week are due the following week unless otherwise noted.
 
+[//]: # (include Coastal Resilience Symposium in Syllabus)
+[//]: # (Link: https://resilience.miami.edu/post-event-recordings-for-ceus/index.html)
+[//]: # (Password: resilience21!)
+[//]: # (You may find the presentations from the following sessions most useful:)
+[//]: # (    Resilience: Vulnerability Assessments, Master Planning, and Collaborations [morning session])
+[//]: # (        Presentation: "Reduction in Vulnerability of Coastal Buildings to Storm Surge Flooding Under Different Reef Scenarios: Case study of Miami Beach” by Benjamin Ghansah and Sonia Chao)
+[//]: # (    Resilience: Definitions, Transitions, and Jurisdictions [mid-day session])
+
+[//]: # (2021...)
+[//]: # (Miami Beach Resilience Office: Ini Knowles)
+[//]: # (County Sustainability office: Michael Sarasti)
+[//]: # (County Resiliency Office: Jim Marley)
+[//]: # (County Heat Officer: Jane Gilbert)
+[//]: # (County director IT: Margaret Brisbane)
+[//]: # (Coral Gables: Raimundo Rodolfo, Sean Meadows, Chris Cowen)
+[//]: # (County GIS - Christian Kamrath)
+
+
 *__Pre-Class Preparation:__*  
 
 Before the first class meeting all students will receive an invite for an ESRI ArcGIS online account (if they do not already have one). All students should accept the invitation and log in to ArcGIS online at least one time before the first class meeting.  
