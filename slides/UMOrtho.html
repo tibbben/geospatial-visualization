@@ -1,0 +1,18 @@
+<html>
+ <head>
+  <title>UM 2022</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+ </head>
+ <body bgcolor="#fff">
+  <div id="mapdiv" style="width: 100%; height: 100%;" bgcolor="#000000"></div> 
+  <script>
+
+   // create leaflet instance 
+   var map = L.map('mapdiv').setView([25.719266,-80.278067], 17); 
+   
+   var lasflores = L.tileLayer('https://tiles.gdsc.miami.edu/2022_umgables_drone/{z}/{x}/{y}.png', {attribution: 'las flores', maxZoom: 21}).addTo(map);
+
+  </script>
+ </body>
+</html>

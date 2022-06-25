@@ -1,0 +1,1208 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../common/css/reveal.css">
+        <link rel="stylesheet" href="../common/css/white.css">
+        <link rel="stylesheet" href="../common/css/overrides.css">
+	    <script src="../common/java/print.js"></script>
+        <title>GIS and Resiience</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+				
+							<!-- **************************************************************************** 
+							                                    Slides Begin Here                               
+							     ****************************************************************************  -->
+
+							<section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/Mapa_de_Diego_Palomino.jpeg">
+									<div class="center fragment fade-out template-title" data-fragment-index="0" style="margin-bottom: 23px; margin-top: 64px; background-color: rgba(255,255,255,0.9);">GIS, Cartography, and Resilience</div>
+									<div class="center fragment fade-in template-title" data-fragment-index="1" style="margin-bottom: 23px; background-color: rgba(255,255,255,0.9); margin-top: -95px">GIS, Cartography, and Resilience</div>
+									<table style="width: 85%; font-size: 70%;">
+										<tr style="vertical-align:top">
+											<td class="fragment" data-fragment-index="1" style="vertical-align: top; text-align: left; width: 40%; background-color: rgba(255,255,255,0.9); border-radius: 10px; padding-left: 23px; padding-bottom: 13px;">
+												<div style="margin-top: 7px;">Tool of Statecraft</div>
+												<span style="font-size: 80%; position: relative; left: 7px; top: -7px;" class="fragment" data-fragment-index="1">as far back as Rome</span><br>
+												<ul>
+													<li style="margin-top: 13px;" class="fragment" data-fragment-index="1">Divide conquered land
+													<li style="margin-top: 13px;" class="fragment" data-fragment-index="1">Reclaim appropriated state lands
+													<li style="margin-top: 13px;" class="fragment" data-fragment-index="1">State revenue (taxes)<br>
+													<span style="font-size: 80%;" class="fragment" data-fragment-index="1">late 16th and 17th C<br><i>rise of capitalist social relations<i></span>
+													<li style="margin-top: 13px;" class="fragment" data-fragment-index="1">Survey (governance)
+												</ul>
+											</td>
+											<td style="vertical-align:top; width: 42px;"><!-- <img src="../common/assets/images/chuquimayo.jpg" style="max-width: 340px; margin-top: -10px !important;"> --></td>
+											<td class="fragment" data-fragment-index="2" style="vertical-align:top; background-color: rgba(255,255,255,0.9); border-radius: 10px; padding-left: 23px; padding-bottom: 13px;">
+												<div style="margin-top: 7px;">Estate map</div>
+												<span style="font-size: 80%; position: relative; left: 7px; top: -7px;" class="fragment" data-fragment-index="2">late 13th or 14th C onwards</span><br>
+												<ul>
+													<li style="margin-top: 13px;" class="fragment" data-fragment-index="2">Profit<br>
+													<span style="font-size: 80%;" class="fragment" data-fragment-index="2">Precision, permanence, governance and management of natural resources</span><br>
+													<li style="margin-top: 13px;" class="fragment" data-fragment-index="2">Describe/plot boundaries
+													<li style="margin-top: 13px;" class="fragment" data-fragment-index="2">Resolve/avoid disputes<br>
+													<span style="font-size: 80%;" class="fragment" data-fragment-index="2">Tenants, landlords, and between landlords</span><br>
+													<li style="margin-top: 13px;" class="fragment" data-fragment-index="2">Legal security
+												</ul>
+											</td>
+										</tr>
+									</table>
+									<p class="template-citation fragment" data-fragment-index="0" style="background-color: rgba(255,255,255,0.9); border-radius: 10px; padding: 7px 0px; margin-top: 91px !important;">
+										Palomino, Diego (1549). Traça de la conquista del capitán Diego Palomino: [de las <i>Relaciónes Geográficas</i>, Provincia de Chuquimayo, Perú]<br>
+										<span class="fragment" data-fragment-index="1">Kain, R. J. P., & Baigent, E. (1992). <i>The Cadastral Map in the Service of the State: A History of Property Mapping.</i> Chicago: University of Chicago Press.</span>
+									</p>
+									<p class="center fragment fade-out" data-fragment-index="0" style="position: absolute; top: 140px; width: 100%; max-width: 100% !important; text-align: center !important; background-color: rgba(255,255,255,0.9); font-size: 80% !important; padding: 42px 0px 42px 0px;">
+										Timothy B Norris<br><span style="font-size: 80%;">Librarian Associate Professor, Data Science<br>
+										UM Libraries - Institute for Data Science and Computing<br><a href="mailto:tnorris@miami.edu">tnorris@miami.edu</a></span>
+										<br><br><span style="font-size: 80%;">You can follow along at:<br><a href="https://tibbben.github.io/geospatial-visualization/slides/slides001.html">https://tibbben.github.io/geospatial-visualization/slides/slides001.html</a><br><a href="https://bit.ly/TO_FIX">https://bit.ly/3c5SZXO</a></span>
+									</p>
+								</section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/lasFlores-01-smithsonianSketch.jpg">
+									<div style="background-color: rgba(255,255,255,0.8); width: 50%; padding: 23px; border-radius: 7px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="center fragment fade-out" data-fragment-index="3">
+										<div style="font-weight: 600; margin-bottom: 13px;">GIS, Cartography, and Resilience</div>
+										<ul style="font-size: 80%;">
+											<li><a href="#/1">what is a map?</a></li>
+											<li><a href="#/2">what is GIS?</a></li>
+											<li><a href="#/3">what is geospatial data?</a></li>
+											<li class="fragment" data-fragment-index="1" style="margin-top: 23px;"><strong><a href="#/4">what questions can I ask?</strong></li>
+											<li style="margin-top: 23px;"><a href="#/5">what are coordinate systems?</a></li>
+											<li><a href="#/6">what is cartography?</a></li>
+											<li class="fragment" data-fragment-index="2" style="margin-bottom: 23px; margin-top: 23px;"><strong><a href="#/7">what stories can I tell?</a></strong></li>
+										<ul>
+									</div>
+								</section>
+
+						  </section>
+
+							<!-- **
+								    * Introduction to maps
+								    ** -->
+
+							<section>
+
+								<section data-transition="fade" >
+						            <div class="template-title">What is a Map?</div>
+						            <div style="width: 45%; float: left; font-size: 80%; line-height: normal; text-align: left; position: relative; left: 150px;">
+							            <ul style="text-align: left; list-style: none;">
+							            	<li style="margin-bottom: 13px;">Maps tell stories ...<br><span style="font-size: 80%; margin-left: 13px;">... the story is about place and space</span></li>
+							            	<li style="margin-bottom: 13px;">Maps are representations of reality<br><span style="font-size: 80%; margin-left: 13px;">Location and attributes: spatial relationships</span></li>
+							            </ul>
+							          </div>
+							          <div style="width: 45%; float: right; font-size: 80%; line-height: normal; text-align: right; position: relative; right: 150px;">
+							            <ul style="text-align: right; list-style: none;">
+							            	<li style="margin-bottom: 13px;">Maps are performances<br><span style="font-size: 80%; margin-right: 13px;">... and they have purpose</span></li>
+							            	<li>Maps are abstractions<br><span style="font-size: 80%; margin-right: 13px;">symbolization and generalization</span></li>
+							            </ul>
+						            </div>
+						            <div style="width: 100%; margin-top: 23px !important;">
+						            	<img src="../common/assets/images/catal_map_1964.png" style="max-width: 60% !important; margin-top: 42px;"><br>
+						            	<p class="center template-citation" style="position: relative; left: 200px;">The 6200 BC “map” of Çatalhöyük in Turkey</p>
+						            </div>
+								</section>
+
+								<section data-transition="fade" >
+									<img src="../common/assets/images/catal_photo_1964.png" style="max-width: 800px;"><br>
+			            			<p class="center template-citation" style="position: relative; left: 200px;">Is this a Map?</p>
+								</section>
+
+								<!-- **
+									    * Map examples
+									    ** -->
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/names.png">
+									<div style="position: absolute; top: 400px; left: 80px; width: 200px;"><p class="template-citation">National Geographic made the map of the US based on translations of place names from their origins in Native American languages.</p></div>
+								</section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/Hereford_Mappa_Mundi.jpg">
+									<div style="position: absolute; top: -300px; right: 42px; width: 280px; background-color: rgba(150,150,150,0.6); border-radius: 10px;"><p class="template-citation">Hereford Mappa Mundi, Richard of Haldingham and Lafford, c 1300</p></div>
+								</section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/mercator.jpg">
+									<div style="position: absolute; top: -180px; right: 80px; width: 280px; background-color: rgba(50,50,50,0.9); border-radius: 10px;"><p class="template-citation">Gerhard Mercator, 1569</p></div>
+									<div style="position: absolute; top: -140px; right: 80px; width: 200px;"><img src="../common/assets/images/mercatorportrait.jpg" style="max-width: 200px;"></div>
+								</section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/napoleon.png">
+									<div style="position: absolute; top: 650px; left: 200px; width: 800px;"><p class="template-citation">Napoleon's march on Moscow March 1812, Charles Joseph Minard</p></div>
+								</section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/snow.jpg">
+									<div style="position: absolute; top: 400px; left: 100px; width: 530px; background-color: rgba(50,50,50,0.9); border-radius: 10px;"><p class="template-citation" style="margin-top: 23px !important; margin-bottom: 23px !important;">When a large outbreak occurred in London in 1854, Dr. John  Snow created a map that settled a debate between two schools of thought: that cholera is transmitted not through the inhalation of infected air, but through the ingestion of contaminated water or food.</p></div>
+								</section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/snow_close.jpg"></section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/twitter.jpg">
+									<div style="position: absolute; top: 70px; right: 100px; width: 250px; background-color: rgba(50,50,50,0.9); border-radius: 10px;"><p class="template-citation" style="margin-top: 23px !important; margin-bottom: 23px !important;">credit: <a href="https://www.flickr.com/photos/walkingsf/">Erica Fischer - 2012</a></p></div>
+								</section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/global_internet.jpg">
+									<div style="position: absolute; top: 600px; right: 450px; width: 200px; border-radius: 10px;"><p class="template-citation" style="margin-top: 23px !important; margin-bottom: 23px !important;">map credit: <a href="https://www.infrapedia.com/app">infrapedia</a></p></div>
+								</section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/world_transit.jpg">
+									<div style="position: absolute; top: 620px; left: 130px; width: 240px; background-color:  rgba(100,100,100,0.9);border-radius: 10px;"><p class="template-citation" style="margin: 23px !important; padding: 0px !important">Ovenden, M. (2005). <i>Metro Maps of the World</i>. Capital Transport Pub, London. Cartography by Alan Foale of LS London.</p></div>
+								</section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/miami.png"></section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/MiamiDade_100Year SeaLeveRise_MAP.jpg">
+									<div style="position: absolute; top: -190px; right: 25px; width: 250px; background-color:  rgba(100,100,100,0.9);border-radius: 10px;"><p class="template-citation" style="margin: 23px !important; padding: 0px !important; text-align: right;">UM Office of Civic Engagement and the UM Institute for Data Science and Computing. Miami Affordability Project. <a href="https://map.idsc.miami.edu/">https://map.idsc.miami.edu/</a> (accessed 2022-06-22).</p></div>
+								</section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/TenFoot_SeaLevelRise_ClimateCentral.jpg">
+									<div style="position: absolute; top: 600px; left: 25px; width: 350px; background-color:  rgba(100,100,100,0.9);border-radius: 10px;"><p class="template-citation" style="margin: 23px !important; padding: 0px !important;">Climate Central. Coastal Risk Screening Tool: Land Below 10.0 Feet of Water. <a href="https://coastal.climatecentral.org/map/12/-80.269/25.771/?theme=water_level&map_type=water_level_above_mhhw&basemap=roadmap&contiguous=true&elevation_model=best_available&refresh=true&water_level=10.0&water_unit=ft">https://coastal.climatecentral.org/</a> (accessed 2022-06-22).</p></div>
+								</section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/CC_StakesRising_Florida.jpg">
+									<div style="position: absolute; top: -190px; right: 25px; width: 370px; background-color:  rgba(100,100,100,0.9);border-radius: 10px;"><p class="template-citation" style="margin: 23px !important; padding: 0px !important; text-align: right;">Climate Central. Stakes Rising: 2100. <a href="https://stakes.climatecentral.org/#7/27.960/-83.315?show=stakes&level=3&unit=feet&pois=hide">https://stakes.climatecentral.org/</a><br>(accessed 2022-06-22).</p></div>
+								</section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/CC_Extreme_Florida.jpg">
+									<div style="position: absolute; top: -190px; right: 25px; width: 370px; background-color:  rgba(100,100,100,0.9);border-radius: 10px;"><p class="template-citation" style="margin: 23px !important; padding: 0px !important; text-align: right;">Climate Central. Extreme Scenario 2100. <a href="https://xs.climatecentral.org/#7/27.960/-83.326?scenario=extreme_p50">https://xs.climatecentral.org/</a><br>(accessed 2022-06-22).</p></div>
+								</section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/littleRiverElevation.jpg">
+									<div style="position: absolute; top: -330px; right: 80px; width: 1255px; background-color:  rgba(255,255,255,0.9);border-radius: 10px;"><p class="template-citation" style="margin: 13px 23px !important; padding: 0px !important; max-width: 95% !important; font-size: 0.37em !important;">Savino Miller Design Studio (2022). Adaptation Plan: Little River Adaptation Action Area 16. <a href="https://adaptation-action-area-in-little-river-mdc.hub.arcgis.com">https://adaptation-action-area-in-little-river-mdc.hub.arcgis.com</a> (accessed 2022-06-24).</p></div>
+								</section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/littleRiverTreeCanopy.jpg">
+									<div style="position: absolute; top: -330px; right: 80px; width: 1255px; background-color:  rgba(255,255,255,0.9);border-radius: 10px;"><p class="template-citation" style="margin: 13px 23px !important; padding: 0px !important; max-width: 95% !important; font-size: 0.37em !important;">Savino Miller Design Studio (2022). Adaptation Plan: Little River Adaptation Action Area 16. <a href="https://adaptation-action-area-in-little-river-mdc.hub.arcgis.com">https://adaptation-action-area-in-little-river-mdc.hub.arcgis.com</a> (accessed 2022-06-24).</p></div>
+								</section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/um_drone.jpg">
+									<div style="position: absolute; top: -330px; left: 80px; width: 247px; background-color:  rgba(50,50,50,0.9);border-radius: 10px;"><p class="template-citation" style="margin: 13px 23px !important; padding: 0px !important; max-width: 95% !important; font-size: 0.37em !important;">UM Drone Survey (2022-04-04)</p></div>
+								</section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/um_trees.jpg">
+									<div style="position: absolute; top: -330px; left: 80px; width: 237px; background-color:  rgba(50,50,50,0.9);border-radius: 10px;"><p class="template-citation" style="margin: 13px 23px !important; padding: 0px !important; max-width: 95% !important; font-size: 0.37em !important;">UM Tree Inventory (ongoing)</p></div>
+								</section>
+
+								<!-- **
+									    * How people use maps
+									    ** -->
+
+								<section data-transition="fade" >
+									<ul>
+										<li>What stories will you tell with maps?</li>
+										<li style="color: #ccc;">Tension between fiction and reality, map and territory</li>
+										<li style="color: #ccc;">The critical turn in cartography - maps and power</li>
+										<li style="color: #ccc;">Story (imaginative) vs. grid (lack of imagination)</li>
+										<li style="color: #ccc;">Maps as navigational tools for <i>data</i> as well as the world</li>
+										<li style="color: #ccc;">Maps are more interesting than reality?</li>
+									</ul>
+								</section>
+
+								<section data-transition="fade" >
+									<ul>
+										<li style="color: #ccc;">What stories will you tell with maps?</li>
+										<li>Tension between fiction and reality, map and territory</li>
+										<li style="color: #ccc;">The critical turn in cartography - maps and power</li>
+										<li style="color: #ccc;">Story (imaginative) vs. grid (lack of imagination)</li>
+										<li style="color: #ccc;">Maps as navigational tools for <i>data</i> as well as the world</li>
+										<li style="color: #ccc;">Maps are more interesting than reality?</li>
+									</ul>
+								</section>
+
+								<section data-transition="fade" >
+									<ul>
+										<li style="color: #ccc;">What stories will you tell with maps?</li>
+										<li style="color: #ccc;">Tension between fiction and reality, map and territory</li>
+										<li>The critical turn in cartography - maps and power</li>
+										<li style="color: #ccc;">Story (imaginative) vs. grid (lack of imagination)</li>
+										<li style="color: #ccc;">Maps as navigational tools for <i>data</i> as well as the world</li>
+										<li style="color: #ccc;">Maps are more interesting than reality?</li>
+									</ul>
+								</section>
+
+								<section data-transition="fade" >
+									<ul>
+										<li style="color: #ccc;">What stories will you tell with maps?</li>
+										<li style="color: #ccc;">Tension between fiction and reality, map and territory</li>
+										<li style="color: #ccc;">The critical turn in cartography - maps and power</li>
+										<li>Story (imaginative) vs. grid (lack of imagination)</li>
+										<li style="color: #ccc;">Maps as navigational tools for <i>data</i> as well as the world</li>
+										<li style="color: #ccc;">Maps are more interesting than reality?</li>
+									</ul>
+								</section>
+
+								<section data-transition="fade" >
+									<ul>
+										<li style="color: #ccc;">What stories will you tell with maps?</li>
+										<li style="color: #ccc;">Tension between fiction and reality, map and territory</li>
+										<li style="color: #ccc;">The critical turn in cartography - maps and power</li>
+										<li style="color: #ccc;">Story (imaginative) vs. grid (lack of imagination)</li>
+										<li>Maps as navigational tools for <i>data</i> as well as the world</li>
+										<li style="color: #ccc;">Maps are more interesting than reality?</li>
+									</ul>
+								</section>
+
+								<section data-transition="fade" >
+									<ul>
+										<li style="color: #ccc;">What stories will you tell with maps?</li>
+										<li style="color: #ccc;">Tension between fiction and reality, map and territory</li>
+										<li style="color: #ccc;">The critical turn in cartography - maps and power</li>
+										<li style="color: #ccc;">Story (imaginative) vs. grid (lack of imagination)</li>
+										<li style="color: #ccc;">Maps as navigational tools for <i>data</i> as well as the world</li>
+										<li>Maps are more interesting than reality?</li>
+									</ul>
+								</section>
+
+							</section>
+
+							<!-- **
+								    * What is GIS? Definitions in GIS
+								    ** -->
+							
+							<section>
+
+								<section data-transition="fade" >
+									<div class="template-title" style="margin-bottom: 42px;">Defining GIS</div>
+									<ul style="width: 60%; font-size: 80%; margin-bottom: 42px;">
+										<li class="fragment">Geographic Information System
+											<ul style="font-size: 80%;">
+												<li>collections of tools, data, hardware, and people
+											</ul>
+										<li style="margin-top: 23px;" class="fragment">Geographic Information Science
+											<ul style="font-size: 80%;">
+												<li>systematic inquiry into research questions about the relationship between GIS and socio-natural systems
+											</ul>
+										<li style="margin-top: 23px;" class="fragment">Geographic Information conStruction
+											<ul style="font-size: 80%;">
+												<li>tool building for storage, collection or analysis of geospatial data
+											</ul>
+									</ul>
+									<p class="template-citation">Wright, D. J., Goodchild, M. F., & Proctor, J. D. (1997). Demystifying the Persistent Ambiguity of GIS as ‘Tool’ versus ‘Science’. <br><i>Annals of the Association of American Geographers</i>, 87(2), 346-362. doi:<a href ="http://doi.org/10.1111/0004-5608.872057">10.1111/0004-5608.872057</a></p>
+								</section>
+
+								<section data-transition="fade" >
+									<div style="display: inline-block;">
+										<div style="float: right; width: 45%;">
+											<img src="../common/assets/images/layers.jpg" style="max-width: 70%; margin-right: 100px;">
+										</div>
+										<div style="float: left; width: 40%; margin: 130px auto auto 100px; font-size: 75%;">
+											GIS as a collection of datasets that are organized in a systemic way (as layers).<br><br>The system of organization can be digital (software) or analog (drawn on paper).<br><br>The actual process of organization is done with a purpose by human beings.
+										</div>
+									</div>
+									<div class="template-citation" style="display: inline-block;">adapted from: <a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/index.html">https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/index.html</a></div>
+								</section>
+
+						        <section data-transition="fade" >
+						            <div class="template-title" style="float: right; top: 0px; position: relative; right: 150px;">Geospatial Abstractions</div>
+						            <div style="width: 45%; float: left;"><img src="../common/assets/images/Pyramid.png" style="max-width: 110% !important; position: relative; left: 15%;"></div>
+						            <div class="fragment" style="width: 45%; float: right; font-size: 80%; line-height: normal; text-align: right; position: relative; right: 150px;">
+							            <ul style="margin-top: 42px; text-align: right; list-style: none;">
+							            	<li style="margin-bottom: 13px;">Physical Model<br><span style="font-size: 80%; margin-right: 13px;">(files on disk)</span></li>
+							            	<li style="margin-bottom: 13px;">Logical Model<br><span style="font-size: 80%; margin-right: 13px;">(data structures - vector and raster)</span></li>
+							            	<li style="margin-bottom: 13px;">Conceptual Model<br><span style="font-size: 80%; margin-right: 13px;">(discrete or continuous)</span></li>
+							            	<li>Reality<br><span style="font-size: 80%; margin-right: 13px;">(the world out there)</span></li>
+							            </ul>
+						            </div>
+						        </section>
+
+								<!-- **
+									    * GIS Assemblages
+									    ** -->
+
+								<section>
+									<div class="template-title">Key elements of GIS Assemblages</div>
+									<div class="center" style="margin-top: 42px;">
+										<ul style="font-size: 80%;">
+											<li>Tool set
+												<ul style="font-size: 80%;">
+													<li>collection of software programs
+													<li>in some cases referred to as a stack
+												</ul>							
+											<li style="margin-top: 23px">Data model
+												<ul style="font-size: 80%;">
+													<li>Relational databases (tables)
+													<li>Extensible data models (trees)
+													<li>Raster data (images)
+												</ul>
+											<li style="margin-top: 23px">Scripting/programming languages
+										</ul>
+									</div>
+								</section>
+
+								<!-- **
+									    * Common desktop GIS assemblages
+									    ** -->
+
+								<section>
+									<div class="template-title">Common Desktop GIS Assemblages</div>
+									<div style="font-size: 80%;">Environmental Systems Research Institute (ESRI)</div>
+                  					<div style="font-size: 90%;">ArcGIS Pro, ArcGIS Desktop, ArcGIS Online</div>
+									<div class="center" style="margin-top: 42px;">
+										<ul style="font-size: 80%;">
+											<li>Tool set
+												<ul style="font-size: 80%;">
+													<li>ArcGIS Desktop
+													<li>ArcGIS Pro *NEW*
+												</ul>							
+											<li style="margin-top: 23px">Relational data model
+												<ul style="font-size: 80%;">
+													<li>shapfiles (.shp)
+													<li>geodatabases (.gdb)
+													<li>geotiffs (.tif)
+													<li>database servers (SQLServer, posgreSQL)
+												</ul>
+											<li style="margin-top: 23px">Scripting languages
+												<ul style="font-size: 80%;">
+													<li>python
+												</ul>
+										</ul>
+									</div>
+								</section>
+
+								<section>
+									<div class="template-title">Common GIS Assemblages</div>
+									<div style="font-size: 90%;">Quantum GIS - QGIS (FOSS)</div>
+									<div class="center" style="margin-top: 42px;">
+										<ul style="font-size: 80%;">
+											<li>Tool set
+												<ul style="font-size: 80%;">
+													<li>QGIS - <a href="http://www.qgis.org/en/site/">http://www.qgis.org/en/site/</a>
+													<li>base: Geospatial Data Abstraction Library (GDAL)
+													<li>base: Open GIS Reference (OGR)
+												</ul>							
+											<li style="margin-top: 23px">Relational and Tree data model
+												<ul style="font-size: 80%;">
+													<li>shapfiles (.shp) (relational)
+													<li>json (.geosjon) (trees)
+													<li>geotiffs (.tif) (raster)
+													<li>relational database servers (postgreSQL, oracle)
+												</ul>
+											<li style="margin-top: 23px">Scripting languages
+												<ul style="font-size: 80%;">
+													<li>python
+												</ul>
+										</ul>
+									</div>
+								</section>
+
+								<section>
+									<div class="template-title">Common GIS Assemblages</div>
+									<div style="font-size: 90%;">Python or R (FOSS)</div>
+									<div class="center" style="margin-top: 42px;">
+										<ul style="font-size: 80%;">
+											<li>Tool set
+												<ul style="font-size: 80%;">
+												    <li>Python - <a href="https://www.python.org/">https://www.python.org/</a>
+													<li>R - <a href="https://www.r-project.org/">https://www.r-project.org/</a>
+													<li>packages: GDAL/OGR, sp
+													<li>leaflet for visualization
+												</ul>							
+											<li style="margin-top: 23px">Relational and Tree data model
+												<ul style="font-size: 80%;">
+													<li>raw text, csv (tables)
+													<li>raw text, json, geojson (trees)
+													<li>raw text, grids (raster)
+												</ul>
+											<li style="margin-top: 23px">Scripting languages
+												<ul style="font-size: 80%;">
+													<li>Python
+													<li>R
+												</ul>
+										</ul>
+									</div>
+								</section>
+
+								<section>
+									<div class="template-title">
+										Common Desktop GIS Assemblages<br>
+										University of Miami Resources</div>
+									<div class="center" style="margin-top: 42px; width: 80%">
+										<ul style="font-size: 80%;">
+											<li style="margin-bottom: 13px;">for an <strong>ESRI account</strong> contact Abraham Parrish (GIS Librarian): <a href="mailto:aparrish@miami.edu">aparrish@miami.edu</a>
+											<li style="margin-bottom: 13px;">for <strong>Library GIS resources</strong>  see <a href="http://sp.library.miami.edu/subjects/gis">http://sp.library.miami.edu/subjects/gis</a>
+											<li style="margin-bottom: 13px;">for <strong>Geography department resources</strong> contact Chris Hanson (GIS lab manager) <a href="mailto:hansonc@miami.edu">hansonc@miami.edu</a>
+											<li style="margin-bottom: 13px;">for <strong>ArcGIS Pro</strong>  contact Maria L. Estevanez (RSMAS) <a href="mailto:mestevanez@rsmas.miami.edu">mestevanez@rsmas.miami.edu</a>
+											<li style="margin-bottom: 13px;">for <strong>FOSS GIS</strong>  contact Timothy Norris (UML/IDSC) <a href="mailto:tnorris@miami.edu">tnorris@miami.edu</a>						
+										</ul>
+									</div>
+								</section>
+								
+							</section>
+
+							<!-- **
+								    * Geospatial Data
+								    ** -->
+
+							<section>
+
+				                <section data-transition="fade" >
+				                  <div class="template-title">Geospatial Data</div>
+				                  <div style="display: inline-block; width: 100%;">
+				                    <table style="font-size: 60%; width: 100%;">
+				                      <tr>
+				                        <td style="vertical-align: top !important; padding-top: 60px;">
+				                          <ul style="text-align: right; list-style: none; color: #888 !important;">
+				                            <li style="margin-bottom: 23px;">Physical Model<br><span style="font-size: 80%; margin-right: 13px;">(files on disk)</span></li>
+				                            <li style="margin-bottom: 23px;">Logical Model<br><span style="font-size: 80%; margin-right: 13px;">(vector and raster)</span></li>
+				                            <li style="margin-bottom: 23px;">Conceptual Model<br><span style="font-size: 80%; margin-right: 13px;">(discrete or continuous)</span></li>
+				                            <li>Reality<br><span style="font-size: 80%; margin-right: 13px;">(the world out there)</span></li>
+				                          </ul>
+				                        </td>
+				                        <td style="vertical-align: top !important; padding-top: 60px;">
+				                          <ul style="text-align: center; list-style: none;">
+				                            <li style="margin-bottom: 23px;"><b>Raster Structure</b><br><span style="font-size: 80%;">geotiff, grid</span></li>
+				                            <li style="margin-bottom: 23px;">Raster Model<br><span style="font-size: 80%;">&nbsp;</span></li>
+				                            <li style="margin-bottom: 23px;">Object View<br><span style="font-size: 80%;">Continuous</span></li>
+				                            <li style="margin-bottom: 23px;">Entity:<br><span style="font-size: 80%;">Temperature, Topography</span></li>
+				                          </ul>
+				                        </td>
+				                        <td>
+				                        </td>
+				                        <td style="vertical-align: top !important; padding-top: 60px;">
+				                          <ul style="text-align: center; list-style: none;">
+				                            <li style="margin-bottom: 23px;"><b>Vector Structure</b><br><span style="font-size: 80%;">shapefile, geodatabase, json</span></li>
+				                            <li style="margin-bottom: 23px;">Vector Model<br><span style="font-size: 80%;">&nbsp;</span></li>
+				                            <li style="margin-bottom: 23px;">Object View:<br><span style="font-size: 80%;">Discrete</span></li>
+				                            <li style="margin-bottom: 23px;">Entity:<br><span style="font-size: 80%;">Trees, Houses, Streets</span></li>
+				                          </ul>
+				                        </td>
+				                        <td>
+				                          <img src="../common/assets/images/layers.jpg" style="max-width: 300px;">
+				                        </td>
+				                      </tr>
+				                    </table>
+				                  </div>
+
+				                  <div class="template-citation" style="display: inline-block;">adapted from: <a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/index.html">https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/index.html</a></div>
+
+				                </section>
+
+				                <section data-transition="fade" >
+				                  <div class="template-title">Vector Data Model</div>
+				                  <div style="font-size: 85%;">
+				                    <ul>
+				                      <li>Points, Lines and Polygons</li>
+				                      <ul style="font-size: 85%;">
+				                        <li>all based on x,y coordinate pairs of geographic data</li>
+				                        <li>lines and polygons are built from groups of points</li>
+				                        <li>attribute data is linked to points, lines, or polygons (features)</li>
+				                        <li>each feature is associated with a unique record in an attribute table</li>
+				                      </ul>
+				                    </ul>
+				                  </div>
+				                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto;">
+				                    <img src="../common/assets/images/vector.png">
+				                  </div>
+				                </section> 
+
+				                <section data-transition="fade" >
+				                  <div class="template-title">Vector Data Model</div>
+				                  <div style="font-size: 85%;">
+				                    <ul>
+				                      <li style="margin-bottom: 23px;">Common File Formats</li>
+				                      <table style="font-size: 90%"><tr style="background-color: #ddd; font-weight: 600;">
+				                        <td>Name</td><td>Extension</td><td>Source</td>
+				                      </tr><tr>
+				                        <td>shapefile</td><td>.shp *</td><td>ESRI</td>
+				                      </tr><tr>
+				                        <td>geojson</td><td>.json</td><td>open</td>
+				                      </tr><tr>
+				                        <td>geodatabase</td><td>.gdb</td><td>ESRI</td>
+				                      </tr><tr>
+				                        <td>google earth</td><td>.kml</td><td>open</td>
+				                      </tr><tr>
+				                        <td>autoCAD</td><td>.dxf .dwg</td><td>AutoDesk</td>
+				                      </tr></table>
+				                    </ul>
+				                  </div>
+				                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto; font-size: 70%">
+				                    * .shp is the main file extension, others include: .shx .dbf .sbn .prj<br> (and more - be careful!!)
+				                  </div>
+				                </section>
+
+				                <section data-transition="fade" >
+				                  <div class="template-title">Raster Data Model</div>
+				                  <div style="font-size: 85%;">
+				                    <ul>
+				                      <li>Grids of Rows and Columns</li>
+				                      <ul style="font-size: 85%;">
+				                        <li>each cell represents an x,y coordinate</li>
+				                        <li>each cell has a specific size on the surface of the earth (scale)</li>
+				                        <li>cell scale is based on the resolution of the image</li>
+				                        <li>each cell has only one value (color or categorical)</li>
+				                      </ul>
+				                    </ul>
+				                  </div>
+				                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto;">
+				                    <img src="../common/assets/images/raster.png" style="max-height: 400px;">
+				                  </div>
+				                </section> 
+
+				                <section data-transition="fade" >
+				                  <div class="template-title">Raster Data Model</div>
+				                  <div style="font-size: 85%;">
+				                    <ul>
+				                      <li>Resolution</li>
+				                      <ul style="font-size: 85%;">
+				                        <li>Original resolution of the collected data limits spatial accuracy</li>
+				                        <li>Can’t improve by replicating cells to create smaller size cells</li>
+				                        <li>Location implied; rounded to cell coordinate (center of cell)</li>
+				                      </ul>
+				                    </ul>
+				                  </div>
+				                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto;">
+				                    <img src="../common/assets/images/resolution.png" style="max-height: 400px;">
+				                  </div>
+				                </section> 
+
+				                <section data-transition="fade" >
+				                  <div class="template-title">Raster Data Model</div>
+				                  <div style="font-size: 85%;">
+				                    <ul>
+				                      <li>Types of Data</li>
+				                      <ul style="font-size: 85%;">
+				                        <li>Continuous<br><span style="font-size: 80%">elevation, temperature</span></li>
+				                        <li>Categorical/Discrete<br><span style="font-size: 80%">land use</span></li>
+				                      </ul>
+				                    </ul>
+				                  </div>
+				                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto;">
+				                    <img src="../common/assets/images/raster_types.png" style="max-height: 300px;">
+				                  </div>
+				                </section>   
+
+				                <section data-transition="fade" >
+				                  <div class="template-title">Raster Data Model</div>
+				                  <div style="font-size: 85%;">
+				                    <ul>
+				                      <li style="margin-bottom: 23px;">Common File Formats</li>
+				                      <table style="font-size: 90%"><tr style="background-color: #ddd; font-weight: 600;">
+				                        <td>Name</td><td>Extension</td><td>Source</td>
+				                      </tr><tr>
+				                        <td>geotiff</td><td>.tiff .tif</td><td>open</td>
+				                      </tr><tr>
+				                        <td>jpg</td><td>.jpg</td><td>open</td>
+				                      </tr><tr>
+				                        <td>Arcinfo GRID</td><td><directory> *</td><td>ESRI</td>
+				                      </tr><tr>
+				                        <td>ERDAS imagine</td><td>.img</td><td>ERDAS</td>
+				                      </tr></table>
+				                    </ul>
+				                  </div>
+				                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto; font-size: 70%">
+				                    * grids are stored in directories with many files all with the extension .adf; all files must be present. 
+				                  </div>
+				                </section>             
+
+				                <section data-transition="fade" >
+				                  <div class="template-title">and Slippy Data (tiles) ...</div>
+				                  <div style="font-size: 85%;">
+				                    <ul>
+				                      <li>In ESRI you have several choices - add basemap</li>
+				                      <li style="margin-bottom: 23px;">for QGIS, google search for ... </li>
+				                      <li>NOT suitable for printing!! The real alternative is good raster data</li>
+				                    </ul>
+				                  </div>
+				                  <iframe src=UMOrtho.html height=350 width=800 style="max-width: 100%; max-height: 100%; margin: 42px auto 0px auto; border: none;"></iframe>
+
+				                </section>
+
+							</section>
+
+							<!-- **
+								    * Common map questions
+								    ** -->
+
+							<section>
+
+								<section data-transition="fade" >
+									<div class="template-title">Common geospatial questions</div>
+									<div style="font-size: 90%;">this here / here this</div>
+									<div class="center" style="margin-top: 42px;">
+										<ul style="font-size: 80%;">
+											<li>where?
+											<li>what (who)?
+											<li>how much?
+											<li>extent or area?
+											<li>[ when? ]
+										</ul>
+									</div>
+								</section>
+
+								<section data-transition="fade" >
+									<div class="template-title">Common geospatial questions</div>
+									<div style="font-size: 90%;">analysis</div>
+									<div class="center" style="margin-top: 42px;">
+										<ul style="font-size: 80%;">
+											<li>distance between (travel time)?
+											<li>path of least resistance (route)?
+											<li>overlap of areas (jurisdictions)?
+											<li>areal statistics (demographics)
+											<li>land use / land cover change
+											<li>clusters (spatial statistics)
+											<li>interpolation
+											<li>[ why? ]
+										</ul>
+									</div>
+								</section>
+
+								<section data-transition="fade" >
+									<div class="template-title">Common geospatial questions</div>
+									<div style="font-size: 90%;">models</div>
+									<div class="center" style="margin-top: 42px;">
+										<ul style="font-size: 80%;">
+											<li>watersheds (flows)
+											<li>traffic patterns
+											<li>pollution
+											<li>view sheds
+											<li>geo-fencing (buffers)
+										</ul>
+									</div>
+								</section>
+
+								<section data-transition="fade" >
+									<div class="template-title">Common geospatial questions</div>
+									<div style="font-size: 90%;"><b>before you start remember</b></div>
+									<div class="center" style="margin-top: 42px;">
+										<ul style="font-size: 80%;">
+											<li>scope of question (is it doable)
+											<li>scale and type of output (design question)
+											<li>visualization (print, online, etc)
+											<li>how will you get the data!!!
+										</ul>
+									</div>
+								</section>
+
+							</section>
+
+							<!-- **
+								    * Map Projections
+								    ** -->
+
+							<section>
+
+								<section data-background-image="../common/assets/images/orange-flower.png" data-background-size="contain" data-background-color="#000">
+									<div style="position: absolute; left: 80px; top: -180px; font-size: 130%; line-height: 100%; color: #ddd !important; text-align: left;"><strong>Map Projections and<br>Coordinate Systems</strong></div>
+									<div style="position: absolute; right: 40px; top: 60px; font-size: 40%; text-align: right; color: #ccc; width: 280px;">Image: D.M. Swart<br><a href="https://dmswart.com/2017/11/01/creative-cartography/#more-1874" style="color: #ddd !important; text-decoration: underline;"><i>Artistic cartography:<br>creative ways to peel the globe</i></a></div>
+								</section>
+
+								<section data-background-image="../common/assets/images/globe_dark.jpg" data-background-size="contain" data-background-color="#000">
+								  <div style="color: #ddd !important;" class="template-title">Coordinate Reference Systems</div>
+								  <div style="color: #ddd !important;">
+								    <ul>
+								      <li>Datum</li>
+								      <li>Geographic coordinate system</li>
+								      <li>Projected coordinate system</li>
+								      <li class="fragment" style="margin: 23px 0px 0px 0px;">Geospatial data must have: <strong>datum + geographic coordinate system</strong></li>
+								      <li class="fragment" style="margin: 13px 0px 0px 0px;">Projected coordinate systems are optional<br>(but needed for measurement)</li>
+								    </ul>
+								  </div>
+								  <div class="template-citation" style="margin-top: 42px !important;"></div>
+								</section>
+
+								<section data-background-image="../common/assets/images/globe_dark.jpg" data-background-size="contain" data-background-color="#000">
+								  <div style="color: #ddd !important;" class="template-title">Datum</div>
+								  <div style="color: #ddd !important;">
+								    <ul>
+								      <li>Center of the earth?</li>
+								      <li>That which is given?</li>
+								      <li class="fragment" style="margin: 23px 0px 0px 0px;">Ellipsoid<br><span style="font-size: 80%">mathematically defined surface approximating the shape of the earth</span></li>
+								      <li class="fragment" style="margin: 13px 0px 0px 0px;">Geoid<br><span style="font-size: 80%">surface of the earths gravity field - approx sea level</span></li>
+								    </ul>
+								  </div>
+								  <div class="template-citation" style="margin-top: 42px !important;"></div>
+								</section>
+
+								<section data-background-image="../common/assets/images/globe_dark.jpg" data-background-size="contain" data-background-color="#000">
+								  <div style="color: #ddd !important;" class="template-title">Geographical Coordinate Systems</div>
+								  <div style="color: #ddd !important;">
+								    <ul>
+								      <li>Latitude and Longitude - <i>spherical coordinates</i></li>
+								      <li>Very common, but cannot be used for measurement</li>
+								      <li class="fragment" style="margin: 23px 0px 0px 0px;">Things to remember:
+								        <ul style="font-size: 80%;">
+								            <li>ESPG - European Petroleum Survey Group</li>
+								            <li style="margin: 13px 0px 0px 0px;">WGS 84 - most common globally - ESPG:4326</li>
+								            <li>NAD 83 - most common in the United States - ESPG:4269</li>
+								        </ul>
+								    </ul>
+								  </div>
+								  <div class="template-citation" style="margin-top: 42px !important;"></div>
+								</section>
+
+								<section data-background-image="../common/assets/images/globe_dark.jpg" data-background-size="contain" data-background-color="#000">
+								  <div style="color: #ddd !important;" class="template-title">Projected Coordinate Systems</div>
+								  <div style="color: #ddd !important;">
+								    <ul>
+								      <li>meters or feet - <i>Cartesian coordinates</i></li>
+								      <li>Used for measurement and mapping</li>
+								      <li class="fragment" style="margin: 23px 0px 0px 0px;">Things to remember:
+								        <ul style="font-size: 80%;">
+								            <li style="font-size: 80%">Projected Coordinate Systems are <i>specific</i> to the area being mapped</li>
+								            <li style="margin: 13px 0px 0px 0px;font-size: 80%">In the USA: the "State Plane System"</li>
+								            <li style="font-size: 80%">Around the Globe: the "UTM Grid"</li>
+								            <li style="margin: 13px 0px 0px 0px;font-size: 110%;">For web based mapping systems<br><b>WGS 84 Web Mercator - ESPG:3857</b></li>
+								        </ul>
+								    </ul>
+								  </div>
+								  <div class="template-citation" style="margin-top: 42px !important;"></div>
+								</section>
+
+								<!-- <section>
+								  <div style="position: relative; top: 60px;" class="template-title">Projected Coordinate Systems (more)</div>
+								  <div style="position: relative; top: -200px; left: -140px;">
+								    <object data="../common/assets/images/cylindrical.svg" type="image/svg+xml" style="width: 1600px; height: 1000px;"></object>
+								  </div>
+								</section>
+
+								<section>
+								  <div style="position: relative; top: 0px;" class="template-title">Projection Surfaces</div>
+								  <div >
+								    <object data="../common/assets/images/projections.svg" type="image/svg+xml" style="width: 1000px; height: 500px;"></object>
+								  </div>
+								</section>
+
+								<section>
+								  <div style="position: relative; top: 0px;" class="template-title">Tissot and Distortion</div>
+								  <img src="../common/assets/images/tissot.jpg" style="max-width: 1000px;">
+								  <div style="font-size: 60%;">Tissot's ellipses on an unprojected (lat/long) earth</div>
+								</section>
+
+								<section>
+								  <div style="position: relative; top: 0px;" class="template-title">Universal Transverse Mercator - UTM</div>
+								  <img src="../common/assets/images/utm.jpg" style="max-width: 1000px;">
+								  <div style="font-size: 60%;">The 60 UTM coordinate system zones, each divided into north and south halves at the equator</div>
+								</section>
+
+								<section>
+								  <div style="position: relative; top: 0px;" class="template-title">State Plane</div>
+								  <div style="position: relative; top: -200px; left: -240px;">
+								    <object data="../common/assets/images/stateplane.svg" type="image/svg+xml" style="width: 1400px; height: 800px;"></object>
+								  </div>
+								</section>
+
+								<section>
+								  <div style="position: relative; top: 0px;" class="template-title">Other Projections</div>
+								  <object data="../common/assets/images/otherprojections.svg" type="image/svg+xml" style="width: 900px; height: 600px;"></object>
+								</section> -->
+
+							</section>
+
+							<!-- **
+								    * Symbolization, classification, and general cartography
+								    ** -->
+
+							<section>
+
+							    <section data-background-image="../common/assets/images/fools_Cap_Map_of_the_World.jpg" data-background-size="contain">
+							      <div style="position: absolute; left: 200px; top: -40px; font-size: 150%; line-height: 100%; text-align: left; background-color: rgba(255,255,255,0.7); padding: 23px; border-radius: 13px;"><strong>Cartography</strong></div>
+							      <div style="position: absolute; left: 320px; top: 450px; font-size: 100%; line-height: 100%; text-align: left; background-color: rgba(255,255,255,0.7); padding: 23px; border-radius: 13px;"><strong>Generalization, Classification, and Typography</strong></div>
+							    </section>
+
+							    <section>
+							      <div class="template-title">Quick Overview</div>
+							      <div style="float: left; width: 60%; margin-left: 10%">
+							        <ul style="font-size: 80%;">
+							          <li style="margin: 13px 0px 0px 0px;">Generalization
+							            <ul style="font-size: 80%;">
+							                <li>The decision of what geographic phenomena are represented on the map</li>
+							            </ul>
+							          </li>
+							          <li style="margin: 42px 0px 0px 0px;">Classification
+							            <ul style="font-size: 80%;">
+							                <li>The decision of how to display attribute information that represents geographic phenomena</li>
+							            </ul>
+							          </li>
+							          <li style="margin: 42px 0px 0px 0px;">Typography
+							            <ul style="font-size: 80%;">
+							                <li>The decision of how to place words on a map</li>
+							            </ul>
+							          </li>
+							        </ul>
+							      </div>
+							      <div style="float:right; width: 15%; margin-right: 10%">
+							        <i>Scale Matters<br><br>Purpose Matters<br><br>Words Matter</i>
+							      </div>
+							      <div class="template-citation" style="margin-top: 42px !important;"></div>
+							    </section>
+
+							    <section>
+							        <object data="../common/assets/images/generalization.svg" type="image/svg+xml" style="width: 900px; height: 500px;"></object>
+
+							        <div class="template-citation" style="margin-top: 42px !important;"><span style="font-size: 125%;">“Map Generalization [selection and simplification]: Little white lies and lots of them”</span><br><br>
+
+							              Monmonier, M. (1996 [1991]). How to Lie With Maps. Chicago, University of Chicago Press.</div>
+							    </section>
+
+							    <section>
+							      <div class="template-title">Selection</div>
+							      <div style="font-size: 75%;">
+							          <div style="float: left; width: 35%; padding: 2%;">
+							              <p><b>Scale matters:</b> several examples of selection across different scales</p>
+							              <img style="max-width: 100%;" src="../common/assets/images/river_selection.jpg">
+							          </div>
+							          <div style="float: right; width: 55%; padding: 2%;">
+							              <p><b>Purpose matters:</b> selection across constant scale where on the left physical geography is emphasized whereas on the right there is a base map good for showing attribute information of non-physical phenomena</p>
+							              <img style="max-width: 100%;" src="../common/assets/images/river_selection_constantscale.jpg">
+							          </div>
+							      </div>
+							      <div class="template-citation">Robinson, A. H., J. L. Morrison, et al. (1995 [1953]). <i>Elements of Cartography, sixth edition</i>. USA, John Wiley and Sons.</div>
+							    </section>
+
+							    <section>
+							      <div class="template-title">Generalization</div> 
+							      <div style="font-size: 75%;">
+							        <div>
+							            <p>How long is the coastline of Great Britain??</p>
+							            <div style="width: 80%; margin: 0px auto 0px auto !important;">
+							                <div style="float: left; width: 25%;">
+							                    <img style="max-height: 380px;" src="../common/assets/images/gb_simple.jpg">
+							                </div>
+							                <div style="float: left; width: 25%;">
+							                    <img style="max-height: 380px;" src="../common/assets/images/gb_complex.jpg">
+							                </div>
+							                <div style="float: left; width: 50%; padding-top: 42px;">
+							                    <b>Scale Matters:</b> for a large scale world map, the polygon on the left will be sufficient, but for a poster map of the world more detail will be necessary.
+							                </div>
+							            </div>
+							        </div>
+							      </div>
+							      <div class="template-citation" style="display: inline-block; width: 70% !important;">Benoît Mandelbrot (1967). "How Long Is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension", <i>Science</i>, New Series, Vol. 156, No. 3775. (May 5, 1967), pp. 636-638.</div>
+							    </section>
+
+							    <!-- <section>
+							      <div class="template-title">Simplification</div> 
+							      <div style="font-size: 75%;">
+							        <div style="display: inline-block; width: 75%; margin 0px auto 0px auto;">
+							          <div style="float: left; width: 40%; padding-top: 42px; padding-left: 30px;">
+							            Too much detail gives more visual weight to the line
+							          </div>
+							          <div style="float: right; width: 50%;">
+							              <img style="max-width: 420px;" src="../common/assets/images/canada_large.jpg">
+							          </div>
+							        </div>
+							        <div style="display: inline-block; width: 75%; margin 0px auto 0px auto;">
+							          <div style="float: left; width: 35%; padding-top: 42px; padding-left: 42px;">
+							            Too much detail will make the file size larger 
+							          </div>
+							          <div style="float: right; width: 50%;">
+							              <img style="max-width: 420px;" src="../common/assets/images/canada_small.jpg">
+							          </div>
+							        </div>
+							      </div>
+							    </section>
+
+							    <section>
+							      <div class="template-title">Simplification</div> 
+							      <div style="font-size: 75%;">
+							        <div style="display: inline-block; width: 75%; margin 0px auto 0px auto;">
+							          <div style="float: right; width: 50%; padding-top: 42px; padding-left: 30px;">
+							            ArcMap has two common algorithms<br>
+							            <ul style="font-size: 85%;">
+							              <li>Point remove</li>
+							              <li>Bend simplify</li>
+							            </ul>
+							          </div>
+							          <div style="float: left; width: 45%;">
+							              <img style="max-width: 420px;" src="../common/assets/images/line_simplify.jpg">
+							          </div>
+							        </div>
+							        <div style="display: inline-block; width: 75%; margin 0px auto 0px auto;">
+							          <div style="float: right; width: 45%; padding-top: 42px; padding-left: 42px;">
+							            QGIS has several tools<br>
+							            <ul style="font-size: 85%;">
+							              <li>Simplify Geometries</li>
+							              <li>GRASS - v.generalize</li>
+							            </ul>
+							          </div>
+							          <div style="float: left; width: 50%;">
+							              <img style="max-width: 420px;" src="../common/assets/images/line_simplify2.jpg">
+							          </div>
+							        </div>
+							      </div>
+							    </section> -->
+
+							    <section>
+							      <div class="template-title">Classification</div> 
+							      <div style="font-size: 75%; text-align: left; width: 90%; margin: 0px auto 200px auto;">
+							          <div style="float: left; width: 55%; padding: 2%;">
+							              <p>Classification is not <i>always</i> desirable</p>
+							              <ul style="font-size: 80%; margin-left: 42px">
+							                <li>
+							                  Attribute data directly linked to the visual variable<br>
+							                  - the <i>color</i> is linked to the data (a satellite image)<br>
+							                  - the <i>size</i> is linked to the data (a proportional symbol map)
+							                </li>
+							                <li>For interval or ratio measurement</li>
+							              </ul>
+							              <p>Classed: how many classes?</p>
+							              <ul style="font-size: 80%; margin-left: 42px;">
+							                <li>Clorapleth: 5-7 is recommended</li>
+							                <li>Chorachromatic: < 7
+							                <li style="margin-top: 42px;">How to decide on class divisions?</li>
+							              </ul>
+							          </div>
+							          <div style="float: left; width: 35%; padding: 2%;">
+							              <img style="max-width: 100%;" src="../common/assets/images/non-classed.jpg">
+							              <p class="template-citation" style="font-size: 70% !important;">A non-classed proportional symbol map. Note how you automatically class them in your mind.</p>
+							          </div>
+							      </div>
+							    </section>
+
+							    <section data-transition="fade" data-background-image="../common/assets/images/us_2008_counties_winner.jpg" data-background-size="contain">
+							      <div class="template-container">
+							        <div style="position: absolute; top: 60px; right: 270px; font-size: 90% !important;" class="template-title">
+							          Classed
+							        </div>
+							        <div style="position: absolute; bottom: 60px; left: 0px; font-size: 70% !important; max-width: 500px;" class="template-title">
+							          2008 Presidential Election by County
+							        </div>
+							        <div style="position: absolute; bottom: 10px; left: 0px; font-size: 60%; max-width: 600px; text-align: left !important; padding-left: 0px !important" class="template-citation">
+							          Mark Newman - <a href="mailto:mejn@umich.edu">mejn@umich.edu</a>. Department of Physics and Center for the Study of Complex Systems, University of Michigan. Under creative commons license.
+							        </div>
+							      </div>
+							    </section>
+
+							    <section data-transition="fade" data-background-image="../common/assets/images/us_2008_counties_linear_percentage.jpg" data-background-size="contain">
+							      <div class="template-container">
+							        <div style="position: absolute; top: 60px; right: 270px; font-size: 90% !important;" class="template-title">
+							          non-Classed
+							        </div>
+							        <div style="position: absolute; bottom: 60px; left: 0px; font-size: 70% !important; max-width: 500px; text-align: left;" class="template-title">
+							          2008 Presidential Election by County with Linear Percentages
+							        </div>
+							        <div style="position: absolute; bottom: 10px; left: 0px; font-size: 60%; max-width: 600px; text-align: left !important; padding-left: 0px !important" class="template-citation">
+							          Mark Newman - <a href="mailto:mejn@umich.edu">mejn@umich.edu</a>. Department of Physics and Center for the Study of Complex Systems, University of Michigan. Under creative commons license.
+							        </div>
+							      </div>
+							    </section>
+
+							    <section data-transition="fade">
+							      <div class="template-container">
+							        <div class="template-title">Classification</div>
+							        <div style="position: absolute; top: 113px;" class="fragment fade-out" data-fragment-index=1>
+							          <object data="../common/assets/images/plain_data.svg" type="image/svg+xml" style="width: 800px;"></object>
+							        </div>
+							        <div style="position: absolute; top: 113px;" class="fragment fade-in" data-fragment-index=1>
+							          <div class="fragment fade-out" data-fragment-index=2>
+							            <object data="../common/assets/images/jenks_data.svg" type="image/svg+xml" style="width: 800px;"></object>
+							          </div>
+							        </div>
+							        <div style="position: absolute; top: 113px;" class="fragment fade-in" data-fragment-index=2>
+							          <div class="fragment fade-out" data-fragment-index=3>
+							            <object data="../common/assets/images/equal_data.svg" type="image/svg+xml" style="width: 797px;"></object>
+							          </div>
+							        </div>
+							        <div style="position: absolute; top: 113px;" class="fragment fade-in" data-fragment-index=3>
+							          <div class="fragment fade-out" data-fragment-index=4>
+							            <object data="../common/assets/images/quantile_data.svg" type="image/svg+xml" style="width: 797px;"></object>
+							          </div>
+							        </div>
+							        <div style="position: absolute; top: 113px;" class="fragment fade-in" data-fragment-index=4>
+							          <div class="fragment fade-out" data-fragment-index=5>
+							            <object data="../common/assets/images/SD_data.svg" type="image/svg+xml" style="width: 797px;"></object>
+							          </div>
+							        </div>
+							        <div style="position: absolute; top: 113px;" class="fragment fade-in" data-fragment-index=5>
+							          <object data="../common/assets/images/color_data.svg" type="image/svg+xml" style="width: 797px;"></object>
+							        </div>
+							      </div>
+							    </section>
+
+							    <section data-transition="fade">
+							      <div class="template-container">
+							        <div style="position: absolute; top: 30px; left: 200px;" class="fragment fade-out" data-fragment-index=1>
+							          <object data="../common/assets/images/distribution.svg" type="image/svg+xml" style="width: 380px;"></object>
+							        </div>
+							        <div style="position: absolute; top: 30px; left: 200px;" class="fragment fade-in" data-fragment-index=1>
+							          <object data="../common/assets/images/color_distribution.svg" type="image/svg+xml" style="width: 380px;"></object>
+							        </div>
+							        <div style="position: absolute; top: 30px; right: 200px" class="fragment fade-in" data-fragment-index=1>
+							          <object data="../common/assets/images/classed_maps.svg" type="image/svg+xml" style="width: 550px;"></object>
+							        </div>
+							      </div>
+							    </section>
+
+							    <section data-transition="fade">
+							      <div class="template-container">
+							        <div style="position: absolute; top: 100px; left: 200px;" class="fragment fade-out" data-fragment-index=1>
+							          <object data="../common/assets/images/spectral.svg" type="image/svg+xml" style="width: 900px;"></object>
+							        </div>
+							        <div style="position: absolute; top: 100px; left: 200px;" class="fragment fade-in" data-fragment-index=1>
+							          <div class="fragment fade-out" data-fragment-index=2>
+							            <object data="../common/assets/images/diverging.svg" type="image/svg+xml" style="width: 900px;"></object>
+							          </div>
+							        </div>
+							        <div style="position: absolute; top: 100px; left: 200px" class="fragment fade-in" data-fragment-index=2>
+							          <object data="../common/assets/images/sequential.svg" type="image/svg+xml" style="width: 900px;"></object>
+							        </div>
+							      </div>
+							    </section>
+
+							    <section data-transition="fade">
+							      <div class="template-container">
+							        <div class="template-title">Perceptual Problems</div>
+							        <div style="position: absolute; top: 100px; left: 200px;">
+							          <img src="../common/assets/images/three.jpg" style="max-width: 900px;">
+							        </div>
+							        <div style="position: absolute; top: 450px; right: 150px;">
+							          <img src="../common/assets/images/illusion.jpg" style="max-width: 400px;">
+							        </div>
+							        <div style="position: absolute; top: 500px; left: 150px;">
+							          <ul style="font-size: 80%;">
+							            <li>Be careful with the range of sizes (above)</li>
+							            <li>Be careful of optical illusions (right)</li>
+							          </ul>
+							        </div>
+							      </div>
+							    </section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/typography_miami.jpeg">
+									<div class="template-title" style="margin-right: 550px;">Typography</div>
+									<div style="position: absolute; top: 600px; right: 450px; width: 200px; border-radius: 10px;"><p class="template-citation" style="margin-top: 23px !important; margin-bottom: 23px !important;">map credit: <a href="https://www.etsy.com/shop/joebstudio">joebstudio</a></p></div>
+								</section>
+
+					            <section data-transition="fade" data-background-image="../common/assets/images/periodictype.jpg" data-background-size="contain" data-background-color="#fff">
+					                <div class="template-container">
+					                    <div class="fragment" style="position: absolute; top: 30px; left: 40px; background-color: rgba(200,200,200,0.85); padding: 13px; border-radius: 7px; font-size: 80%; border: 1px #000 solid;">Sans Serif</div>
+					                    <div class="fragment" style="position: absolute; top: 240px; left: 560px; background-color: rgba(200,200,200,0.85); padding: 13px; border-radius: 7px; font-size: 80%; border: 1px #000 solid;">Serif</div>
+					                    <div class="fragment" style="position: absolute; top: 350px; left: 100px; background-color: rgba(255,255,255,0.95); padding: 23px; border-radius: 13px; font-size: 80%; border: 1px #000 solid;">    
+					                        <strong>Fonts for Cartography</strong><br>
+					                        <div style="font-family: gill sans; display: block;">Gill Sans</div>
+					                        <div style="font-family: optima; display: block;">Optima</div>
+					                        <div style="font-family: caslon pro; display: block;">Caslon Pro</div>
+					                        <div style="font-family: myriad pro; display: block;">Myriad Pro</div>
+					                        <div style="font-family: meridian; display: block;">Meridian</div>
+					                        <div style="font-family: kepler; display: block;">Kepler</div>
+					                    </div>
+					                    <div class="fragment" style="position: absolute; top: 220px; right: 100px; background-color: rgba(255,255,255,0.95); padding: 23px; border-radius: 13px; font-size: 80%; border: 1px #000 solid;">    
+					                        <strong>Popular Design Fonts</strong><br>
+					                        <div style="font-family: helvetica; display: block;">Helvetica</div>
+					                        <div style="font-family: trajan; display: block;">Trajan</div>
+					                        <div style="font-family: garamond; display: block;">Garamond</div>
+					                        <div style="font-family: futura; display: block;">Futura</div>
+					                        <div style="font-family: bodini; display: block;">Bodini</div>
+					                        <div style="font-family: frutiger; display: block;">Frutiger</div>
+					                    </div>
+					                </div>
+					            </section>
+
+					            <section data-transition="fade">
+					                <div class="template-container">
+					                    <div style="position: absolute; top: 40px; left: 40px; "><img src="../common/assets/images/type1.jpg"></div>
+					                    <div style="position: absolute; top: 440px; left: 200px;"><img src="../common/assets/images/type2.jpg"></div>
+					                    <div style="position: absolute; top: 350px; right: 150px;"><img src="../common/assets/images/type3.jpg"></div>
+					                    <div style="position: absolute; top: 150px; right: 100px; font-size: 80%;">Some Terminology<br><i style="font-size: 80%;">More than you wanted to know, but . . .</i></div>
+					                </div>
+					            </section>
+
+					            <section data-transition="fade" data-background-image="../common/assets/images/lettersonmap.jpg" data-background-size="contain" data-background-color="#fff">
+					            </section>
+
+				                <section data-transition="fade" >
+				                  <iframe src=https://nawimaps.com/wp-content/static/reefFront.html height=720 width=1200 style="max-width: 100%; max-height: 100%; margin: 42px auto 0px auto; border: none;"></iframe>
+				                </section>
+
+							</section>
+
+							<!-- **
+							      * So What
+							      ** -->
+
+							<section>
+
+						        <section data-transition="slide none">
+						          <div style="font-size: 800%; text-align: center;">!?</div>
+						        </section>
+
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/um_trees.jpg">
+									<div style="background-color: rgba(255,255,255,0.92); width: 70%; padding: 42px; border-radius: 7px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="center">
+										<div style="font-weight: 600; margin-bottom: 42px;">GIS, Cartography and Resilience</div>
+										<div>
+											What questions can we ask?<br><br>
+											What stories can we tell?<br><br>
+											What future will we create?
+										</div>
+									</div>
+								</section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/um_drone.jpg">
+									<div style="background-color: rgba(255,255,255,0.92); width: 75%; padding: 42px; border-radius: 7px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="center">
+										<div style="font-weight: 600; margin-bottom: 42px;">See you soon!!</div>
+										<div style="font-size: 0.65em;margin-bottom: 42px;">
+											<strong>Reading</strong><br> Krygier & Wood (2016). <i>Making Maps</i>. Guilford Press, New York. pp 1 - 31.<br>
+											Available for <a href="https://www.researchgate.net/publication/307640488MakingMapsAVisualGuidetoMapDesignforGIS3rdEdition">download</a>.
+										</div>
+										<div style="font-size: 0.65em;">
+											Timothy B Norris<br>
+											Librarian Associate Professor, Data Science<br>
+											University of Miami Libraries<br>
+											Institute for Data Science and Computing<br>
+											<a href="mailto:tnorris@miami.edu">tnorris@miami.edu</a><br>
+										</div>
+									</div>
+								</section>
+
+						    </section>
+
+							<!-- **
+								    * Questions
+								    ** -->
+
+							<!-- <section>
+								<div  class="template-title" style="margin-bottom: 42px;">QUESTIONS</div>
+								<ul style="max-width: 85%; font-size: 85%;">
+									<li>What four elements of your project do you need to consider before beginning?
+									<li>What are the four abstraction layers for geospatial data?
+									<li>What are the three common data models for GIS?
+									<li>What is the most common map projection for web mapping applications?
+									<li>What are the two principle components of a map projection?
+									<li>What are the three definitions of GIS?
+									<li>What are the three key elements of a GIS assemblage?
+								</ul>
+							</section> -->
+
+							<!-- **************************************************************************** 
+							                                    Slides End Here                               
+							     ****************************************************************************  -->
+
+            </div>
+        </div>
+        <script src="../common/java/reveal.js"></script>
+	      <script src="../common/java/notes.js"></script>
+	      <script src="../common/java/head.min.js"></script>
+        <script>
+            Reveal.initialize({
+                width: 1366, height: 768, margin: 0.0,
+                controls: true,
+								progress: true,
+								history: true,
+								center: true,
+								mouseWheel: true,
+								chart: {
+									defaults: { 
+										global: { 
+											defaultFontSize: 20,
+											title: { fontColor: "#333" }, 
+											legend: {
+												position: "top",
+												labels: { fontColor: "#333" },
+											},
+											tooltips: {
+												labels: { fontColor: "#333" },
+											},
+										}, 
+										scale: { 
+											scaleLabel: { fontColor: "#333" }, 
+											gridLines: { color: "#333", zeroLineColor: "#333" }, 
+											ticks: { fontColor: "#333" }, 
+										} 
+									},
+								},
+                dependencies: [
+                    { src: '../common/java/Chart.min.js' },
+                    { src: '../common/java/csv2chart.js' }
+                ] 
+            });
+        </script>
+    </body>
+</html>
