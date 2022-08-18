@@ -1,5 +1,5 @@
-## ARC 581/681-T2 Special Problems (Geospatial Visualization) - 1 credit 
-## ARC 594/694-T2 Geographic Information Systems in Urban Design - 3 credits
+## ARC 581/681-R2 Special Problems (Geospatial Visualization) - 1 credit 
+## ARC 594/694-R Geographic Information Systems in Urban Design - 3 credits
 ## Fall 2022 
 [https://tibbben.github.io/geospatial-visualization](https://tibbben.github.io/geospatial-visualization){:alt="syllabus (this page)"} (this page)  
 
@@ -18,7 +18,7 @@ Librarian Associate Professor, Data Scientist
 University of Miami Libraries  
 Institute for Data Science and Computing  
 Ungar Building, 330F  
-Office Hours: by appointment only (virtual)  
+Office Hours: by appointment only (in person and virtual)  
 Book appointment: [https://tibben.youcanbook.me/](https://tibben.youcanbook.me/){:target="\_blank" alt="you can book me page for Tim Norris"}  
 [tnorris@miami.edu](mailto:tnorris@miami.edu)  
 
@@ -26,7 +26,7 @@ Christopher Mader
 Director of Software Engineering  
 Institute for Data Science and Computing  
 Ungar Building, 330F  
-Office Hours: by appointment only (virtual)  
+Office Hours: by appointment only (in person and virtual)  
 Book appointment: [https://cmader.youcanbook.me](https://cmader.youcanbook.me){:target="\_blank" alt="you can book me page for Chris Mader"}  
 [cmader@med.miami.edu](mailto:cmader@med.miami.edu)  
 
@@ -36,10 +36,11 @@ Book appointment: [https://cmader.youcanbook.me](https://cmader.youcanbook.me){:
 
 [//]: # (meeting times?? meeting place?? hybrid?? zoom links??)
 
-August 23rd - September 24th / December 8th 2021  
-Time: TBD  
+August 22nd - September 24th (581/681) / December 15th 2022 (594/694) 
+Time: 5:05 pm - 7:50 pm  
 Place: A49-110 (SOA Media Lab)  
-Zoom meeting links: [https://www.courses.miami.edu/webapps/blackboard/content/launchLink](https://www.courses.miami.edu/webapps/blackboard/content/launchLink.jsp?course_id=_576809_1&content_id=_11400144_1&mode=cpview){:target="\_blank" alt="zoom links for course"}  
+
+[//]: # (Zoom meeting links: [https://www.courses.miami.edu/webapps/blackboard/content/launchLink](https://www.courses.miami.edu/webapps/blackboard/content/launchLink.jsp?course_id=_576809_1&content_id=_11400144_1&mode=cpview{close parenthesis}{:target="\_blank" alt="zoom links for course"})  
 
 ---
 
@@ -84,11 +85,11 @@ Students are required to download and transform geospatial data for projects thr
 
 *Shared Box Folder*  
 
-A sharedbox folder for readings and geospatial data is located at [https://miami.box.com/s/dcze4syqcoross5qdynhvlzuysefjtbr](https://miami.box.com/s/dcze4syqcoross5qdynhvlzuysefjtbr){:target="\_blank"}
+A sharedbox folder for readings and geospatial data is located at [https://miami.box.com/s/1bkcnyrmvxhmg99ixe08ml7s8es3duey](https://miami.box.com/s/1bkcnyrmvxhmg99ixe08ml7s8es3duey){:target="\_blank"}
 
 *Presentation Schedule*  
 
-An online xlsx file (PresentationsTopics.xlsx) for tracking the in class presentations from Field (2018) is in the shared teams folder mentioned above and can be accessed directly at: [https://miami.box.com/s/6dxvna0xjqgaz6tchrj3u3b9ww571j2a](https://miami.box.com/s/6dxvna0xjqgaz6tchrj3u3b9ww571j2a){:target="\_blank"}
+An online xlsx file (PresentationsTopics.xlsx) for tracking the in class presentations from Field (2018) is in the shared teams folder mentioned above and can be accessed directly at: [https://miami.box.com/s/0l5ebatqdhod9du98gpvhv2jw3l71g9w](https://miami.box.com/s/0l5ebatqdhod9du98gpvhv2jw3l71g9w){:target="\_blank"}
 
 ---
 
@@ -103,7 +104,7 @@ Throughout the course students will use several software tools that are propriet
 -   the ESRI ArcGIS suite of mapping tools:
   -   [http://www.esri.com/](http://www.esri.com/arcgis/about-arcgis){:target="\_blank"}
   -   [UMIT ArcGIS](https://www.it.miami.edu/a-z-listing/arcgis/index.html){:target="\_blank"}  
-  -   Please email [software@miami.edu](mailto:software@miami.edu) with your instructor's name (Norris) and class (Arc 581/681), to gain access to ArcGIS. 
+  -   Please email [software@miami.edu](mailto:software@miami.edu) with your instructor's name (Norris) and class (Arc 581/681 or ARC594/694), to gain access to ArcGIS. 
 
 -   Mac Users: to use ESRI's ArcGIS suite you can install bootcamp on your Mac and then gain access as above (optional)
   -   Get Bootcamp from [https://support.apple.com/boot-camp](https://support.apple.com/boot-camp)
@@ -192,7 +193,7 @@ Lecture-discussion, demonstration, and practical out-of-class and in-class assig
 
 ---
 
-### Evaluation of Student Performance (1 credit option): 
+### Evaluation of Student Performance (581/681 1 credit option): 
 
 Students will be assigned a letter grade (A-F) based on the following:
 
@@ -203,7 +204,7 @@ Students will be assigned a letter grade (A-F) based on the following:
 | Class Project (Initial Sketch) | 40% / 40 pts |  
 | Total | 100% / 100 pts |  
 
-### Evaluation of Student Performance (3 credit option): 
+### Evaluation of Student Performance (594/694 3 credit option): 
 
 Students will be assigned a letter grade (A-F) based on the following:
 

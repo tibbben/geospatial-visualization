@@ -32,7 +32,7 @@ Before the first class meeting all students will receive an invite for an ESRI A
 
 ### Part I - Introduction to GIS and Geospatial Data Visualization (1 credit - five weeks)
 
-*__Week 1 (Aug. 24):__ Introduction: What are maps, what is GIS and why are we here?*  
+*__Week 1 (Aug. 22):__ Introduction: What are maps, what is GIS and why are we here?*  
 
 Introduce the course, the instructors, and the students. Review the entire syllabus. Share the students’ research/production contexts and objectives. Introduce maps and GIS as as tools for storytelling. 
 
@@ -73,7 +73,7 @@ NOTE: *Making Maps* (Krygier & Wood, 2016) download through page 31 available at
 >  [HW example #1](slides/slides010_sampleHWpresentation01.html){:target="\_blank"}  
 >  [HW example #2](slides/slides010_sampleHWpresentation02.html){:target="\_blank"}  
 
-*__Week 2 (Aug. 31):__ Geospatial Data: Sources and structures*  
+*__Week 2 (Aug. 29):__ Geospatial Data: Sources and structures*  
 
 Seek to understand data and data structures in terms of geospatial data and geographic information systems. This will include exploring relevant sources of data.
 
@@ -111,7 +111,7 @@ Seek to understand data and data structures in terms of geospatial data and geog
 
 >  [slide deck](slides/slides020.html){:target="\_blank"}  
 
-*__Week 3 (Sept. 7):__ Geospatial Data: coordinate reference systems and interoperability*  
+*__Week 3 (Sept. 5):__ Geospatial Data: coordinate reference systems and interoperability*  
 
 Explore how software and data come together in a custom built GIS. This will include 
 putting multiple data layers together in one GIS and exploring relationships between layers in the GIS.
@@ -147,7 +147,7 @@ putting multiple data layers together in one GIS and exploring relationships bet
 
 >  [slide deck](slides/slides030.html){:target="\_blank"}  
 	
-*__Week 4 (Sept. 14):__ Cartography: The art and science of making a map*  
+*__Week 4 (Sept. 12):__ Cartography: The art and science of making a map*  
 
 Apply basic design principals to make a map. This will include using color theory, the application of figure ground, the correct use of fonts, and other cartographic standards to create a map image.
 
@@ -182,7 +182,7 @@ Apply basic design principals to make a map. This will include using color theor
 
 >  [slide deck](slides/slides040.html){:target="\_blank"}  
 	
-*__Week 5 (Sept 21):__ GIS, Cartography, and Urban Development*  
+*__Week 5 (Sept 19):__ GIS, Cartography, and Urban Development*  
 
 Explore how maps are woven into political and social contexts of urban development and planning. This will include an analysis of how maps both represent and construct reality through cartographic performances.  
 
@@ -219,7 +219,7 @@ Explore how maps are woven into political and social contexts of urban developme
 
 ### Part II - Cartography, GIS as a Research Tool, and Maps as Stories (two credits - ten weeks - Part I is prerequisite)
 
-*__Week 6 (Sept. 28):__ Collecting and Creating Data*  
+*__Week 6 (Sept. 26):__ Collecting and Creating Data*  
 
 Explore methods for collecting data in the field including ArcGIS Online and the ESRI Collector cellphone app, high precision GPS survey instruments, drones, and sensors. Go through basic processes to create new geospatial data layers and add features to the new layers.
 
@@ -245,7 +245,7 @@ Explore methods for collecting data in the field including ArcGIS Online and the
 
 >  [slide deck](slides/slides060.html){:target="\_blank"}  
 
-*__Week 7 (Oct. 5):__ Moving Data Between Applications*  
+*__Week 7 (Oct. 3):__ Moving Data Between Applications*  
 
 Explore how common geospatial data structures can serve in a variety of applications and computing environments. Moving data between applications and formats.
 
@@ -265,7 +265,7 @@ Explore how common geospatial data structures can serve in a variety of applicat
 
 >  [slide deck](slides/slides070.html){:target="\_blank"}  
 
-*__Week 8 (Oct. 12):__ MIDTERM and Online Mapping* 
+*__Week 8 (Oct. 10):__ MIDTERM and Online Mapping* 
 
 [//]: # (short week mon-wed)
 
@@ -292,7 +292,7 @@ The midterm exam will take no longer than 45 minutes. It will be followed by an 
 
 >  [slide deck](slides/slides080.html){:target="\_blank"}  
 
-*__Week 9 (Oct. 19):__ Real Estate Mapping and Structured Query Language (SQL)*  
+*__Week 9 (Oct. 17):__ Real Estate Mapping and Structured Query Language (SQL)*  
 
 Explore GIS for real estate: data sources, common issues, and online systems. Use this context for learning about SQL queries. 
 
@@ -317,7 +317,7 @@ Explore GIS for real estate: data sources, common issues, and online systems. Us
 
 >  [slide deck](slides/slides090.html){:target="\_blank"}  
 
-*__Week 10 (Oct. 26):__ Sea Level Rise and Raster Math in GIS*  
+*__Week 10 (Oct. 24):__ Sea Level Rise and Raster Math in GIS*  
 
 Determine geographic areas that meet several criteria by using raster math to combine multiple data layers that represent the individual criteria. A sea level rise example in South Florida will be used to illustrate this process. Jennifer Posner from the University of Miami Office of Community and Civic Engagement as a *guest speaker* on urban resilience.
 
@@ -348,7 +348,7 @@ Determine geographic areas that meet several criteria by using raster math to co
 
 >  [slide deck](slides/slides100.html){:target="\_blank"}  
 
-*__Week 11 (Nov. 2):__ Environmental Justice and Vector Analysis in GIS*  
+*__Week 11 (Oct. 31):__ Environmental Justice and Vector Analysis in GIS*  
 
 Determine geographical areas that meet several criteria using vector based operations to combine multiple vector layers that represent individual criteria. An environmental justice example based on social vulnerabilities and resilience in the face of climate change will be used to illustrate these processes.
 
@@ -380,7 +380,7 @@ Determine geographical areas that meet several criteria using vector based opera
 
 >  [slide deck](slides/slides110.html){:target="\_blank"}  
 
-*__Week 12 (Nov. 9):__ Maps as Stories: Urban Sustainability and Resilience*  
+*__Week 12 (Nov. 7):__ Maps as Stories: Urban Sustainability and Resilience*  
 
 Explore how map images tell stories of urban sustainability and resilience with beginning, middle, and end, and how maps provide indices to elements of the story. Consider the relationships between map and space, map and place, and map and territory; how does one create the other and vice-versa. Consider how maps are a part of broader social contexts and how they cannot stand alone. A picture may be worth a thousand words, but a thousand words plus a picture (map) is worth a lot more.
 
@@ -415,7 +415,7 @@ Explore how map images tell stories of urban sustainability and resilience with 
 >  [HW example #1](slides/slides120_sampleHWpresentation01.html){:target="\_blank"}  
 >  [HW example #2](slides/slides120_sampleHWpresentation02.html){:target="\_blank"}  
 
-*__Week 13 (Nov. 16):__ GIS and Mapping in Miami-Dade County and Oakland CA*
+*__Week 13 (Nov. 14):__ GIS and Mapping in Miami-Dade County and Oakland CA*
 
 Explore how GIS is used by government agencies and urban planners to plan for urban sustainability and resilience. We are pleased to welcome Christian Kamrath from the Miami-Dade County to share how the county uses GIS and cartographic data assets in their resilience office. The use of maps in the 2019 Downtown Oakland Specific Plan will be reviewed and critiqued.
 
@@ -447,7 +447,7 @@ Explore how GIS is used by government agencies and urban planners to plan for ur
 
 *__THANKSGIVING BREAK (Nov. 22 - Nov. 26)__*  
 
-*__Week 14 (Nov. 30):__ Class time for project work*  
+*__Week 14 (Nov. 28):__ Class time for project work*  
 
 Class will be left open as an opportunity to work on final projects with the instructors present.
 
@@ -457,7 +457,7 @@ Class will be left open as an opportunity to work on final projects with the ins
 
 -   TBD
 
-*__Week 15 (Dec. 7):__ Class time for project work* (short week mon-wed)
+*__Week 15 (Dec. 5):__ Class time for project work* (short week mon-wed)
 
 Class will be left open as an opportunity to work on final projects with the instructors present. Short presentations will be given on:
 
@@ -466,7 +466,7 @@ Class will be left open as an opportunity to work on final projects with the ins
 -   Demonstrate the use of Jupyter notebooks to visualize 3D point clouds derived from drone surveys
 -   Participatory data gathering and auto-documentation in Las Flores, Barranquilla, Colombia
 
-*__FINAL PRESENTATIONS (Dec. 15 @ 5:00 p.m.):__ Students will present their final projects*
+*__FINAL PRESENTATIONS (Dec. 13 @ 5:00 p.m.):__ Students will present their final projects*
 
 Students will have 10 minutes (strict) to give an outline of their final project as described in the course description above under "Final Project".
 
