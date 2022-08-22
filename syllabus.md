@@ -294,7 +294,7 @@ The midterm exam will take no longer than 45 minutes. It will be followed by an 
 
 *__Week 9 (Oct. 17):__ Real Estate Mapping and Structured Query Language (SQL)*  
 
-Explore GIS for real estate: data sources, common issues, and online systems. Use this context for learning about SQL queries. 
+Explore GIS for real estate: data sources, common issues, and online systems. Use this context for learning about SQL queries. It is likely that we will have a guest speaker, Jennifer Posner, Sr. Program Manager of the University of Miami Office for Civic Engagement (to be confirmed). Jennifer will provide insight into real estate and planning issues and problems from experience in both New York and Miami.
 
 [//]: # (*Guest speaker* on geospatial data and Real Estate mapping: Elizabeth Plater-Zyberk.)
 
@@ -319,7 +319,7 @@ Explore GIS for real estate: data sources, common issues, and online systems. Us
 
 *__Week 10 (Oct. 24):__ Sea Level Rise and Raster Math in GIS*  
 
-Determine geographic areas that meet several criteria by using raster math to combine multiple data layers that represent the individual criteria. A sea level rise example in South Florida will be used to illustrate this process. Jennifer Posner from the University of Miami Office of Community and Civic Engagement as a *guest speaker* on urban resilience.
+Determine geographic areas that meet several criteria by using raster math to combine multiple data layers that represent the individual criteria. A sea level rise example in South Florida will be used to illustrate this process.
 
 [//]: # (Do we need a better example? Sea level rise is really only an elevation layer ... or we need to think of another good layer like storm surge, or forest cover)
 
@@ -350,7 +350,7 @@ Determine geographic areas that meet several criteria by using raster math to co
 
 *__Week 11 (Oct. 31):__ Environmental Justice and Vector Analysis in GIS*  
 
-Determine geographical areas that meet several criteria using vector based operations to combine multiple vector layers that represent individual criteria. An environmental justice example based on social vulnerabilities and resilience in the face of climate change will be used to illustrate these processes.
+Determine geographical areas that meet several criteria using vector based operations to combine multiple vector layers that represent individual criteria. An environmental justice example based on social vulnerabilities and resilience in the face of climate change will be used to illustrate these processes. It is likely that we will have a guest speaker, Abigail Flemming, from the University of Miami Environmental Justice Clinic (to be confirmed). Abigail will provide insight into how maps and data can be used to better understand problems of vulnerability, displacement, and social justice.
 
 [//]: # (An alternative example will use vector-based GIS analysis to identify potential site locations for marijuana dispensaries in San Francisco.)
 
@@ -447,28 +447,26 @@ Explore how GIS is used by government agencies and urban planners to plan for ur
 
 *__THANKSGIVING BREAK (Nov. 22 - Nov. 26)__*  
 
-*__Week 14 (Nov. 28):__ Class time for project work*  
+*__Week 14 (Nov. 28):__ Student Project Review*  
 
-Class will be left open as an opportunity to work on final projects with the instructors present.
+Class will be an opportunity for students to present their course work and receive constructive criticism from the other students and instructors. If time is available, students will have the opportunity to work on final projects with the instructors present.
 
 >  Optional Reading:
 
 -   Goodchild, Michael F. (2007). Citizens as sensors: the world of volunteered geography. *GeoJournal*, 69(4), 211-221. doi: [10.1007/s10708-007-9111-y](https://doi.og/10.1007/s10708-007-9111-y){:target="\_blank"}.
 
--   TBD
+*__Week 15 (Dec. 5):__ Student Project Review* (short week mon-wed)
 
-*__Week 15 (Dec. 5):__ Class time for project work* (short week mon-wed)
-
-Class will be left open as an opportunity to work on final projects with the instructors present. Short presentations will be given on:
+Class will be an opportunity for students to present their course work and receive constructive criticism from the other students and instructors. If time is available, students will have the opportunity to work on final projects with the instructors present.
 
 > Practical Objectives:
 
 -   Demonstrate the use of Jupyter notebooks to visualize 3D point clouds derived from drone surveys
--   Participatory data gathering and auto-documentation in Las Flores, Barranquilla, Colombia
+-   Short presentation on participatory data gathering and auto-documentation in Las Flores, Barranquilla, Colombia
 
 *__FINAL PRESENTATIONS (Dec. 13 @ 5:00 p.m.):__ Students will present their final projects*
 
-Students will have 10 minutes (strict) to give an outline of their final project as described in the course description above under "Final Project".
+Students will have 10 minutes (strict) to give a formal presentation of their final project as described in the course description above under "Final Project".
 
 [//]: # (Is there something published from the South Beach project?)
 

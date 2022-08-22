@@ -74,14 +74,15 @@ Students are required to download and transform geospatial data for projects thr
 -   [WorldPop](https://www.worldpop.org)
 -   [NASA's Socioeconomic Data and Applications Center (SEDAC)](https://earthdata.nasa.gov/eosdis/daacs/sedac)
 -   [US Environmental Protection Agency (EPA)](https://www.epa.gov/data)
+-   [EPA Smart Location Mapping](https://www.epa.gov/smartgrowth/smart-location-mapping)
+-   [NOAA Sea Level Rise](https://coast.noaa.gov/slrdata)
+-   [Open Street Map (OSM)](https://www.openstreetmap.org/)
+-   [Open Historical Map](https://www.openhistoricalmap.org/)
+-   [FEMA Flood Maps](https://www.fema.gov/flood-maps)
 
 [//]: # (https://www.corelogic.com)
 [//]: # (dataaxle)
 [//]: # (https://nigeria.opendataforafrica.org/)
-[//]: # (https://www.openstreetmap.org/)
-[//]: # (https://www.openhistoricalmap.org/)
-[//]: # (https://www.epa.gov/smartgrowth/smart-location-mapping)
-[//]: # (https://coast.noaa.gov/slrdata/)
 
 *Shared Box Folder*  
 
@@ -129,15 +130,15 @@ Throughout the course students will use several software tools that are propriet
 
 -   [https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html](https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html){:target="\_blank" alt="SOA Remote Labs"}
 
-> Zoom (Extras for Covid19 Quarantine and Isolation)  
+[//]: # (> Zoom (Extras for Covid19 Quarantine and Isolation)  
 
 [//]: # (DO WE NEED THIS??)
 
 [//]: # (-   You are expected to login to the zoom meetings scheduled for each class session whether you attend in person or through Zoom remotely. The list of Zoom meetings can be found in blackboard at the link below; you must be logged into blackboard.)
 
--   If you are under quarantine or isolation for Covid19 you will be able to access class meetings either live or as recordings through Zoom.
-  -   Get Zoom at: [https://www.it.miami.edu/a-z-listing/zoom/](https://www.it.miami.edu/a-z-listing/zoom/){:target="\_blank" alt="get zoom"}. 
-  -   Class Meeting links: [https://www.courses.miami.edu/webapps/blackboard/content/launchLink](https://www.courses.miami.edu/webapps/blackboard/content/launchLink.jsp?course_id=_576809_1&content_id=_11400144_1&mode=cpview){:target="\_blank" alt="zoom links for course"}
+[//]: # (-   If you are under quarantine or isolation for Covid19 you will be able to access class meetings either live or as recordings through Zoom.)
+[//]: # (  -   Get Zoom at: [https://www.it.miami.edu/a-z-listing/zoom/](https://www.it.miami.edu/a-z-listing/zoom/{:target="\_blank" alt="get zoom"}.)
+[//]: # (  -   Class Meeting links: [https://www.courses.miami.edu/webapps/blackboard/content/launchLink](https://www.courses.miami.edu/webapps/blackboard/content/launchLink.jsp?course_id=_576809_1&content_id=_11400144_1&mode=cpview{:target="\_blank" alt="zoom links for course"})
 
 [//]: # (-   A set of headphones with microphone to better enable class participation and to enable semi-private conversations between yourself and the instructor will be useful. These are optional, but highly recommended.)   
 [//]: # (  -   USB preferable for SOA media lab machines, but micro jack will work.)  

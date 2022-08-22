@@ -19,7 +19,7 @@
 							<section>
 
 								<section>
-									<div style="margin-bottom: 23px; font-weight: 600;">ARC 581/681 - Geospatial Visualization</div>
+									<div style="margin-bottom: 23px; font-weight: 600;">ARC 581/681 - Geospatial Visualization<br>ARC 594/694 - Geographic Information Systems in Urban Design</div>
 									<table style="width: 90%; font-size: 70%;">
 										<tr style="vertical-align:top">
 											<td style="vertical-align: top; text-align: left; width: 35%;">
@@ -128,11 +128,13 @@
 
 								<section data-background-image="../common/assets/images/snow_close.jpg"></section>
 
-								<section>
-									<img src="../common/assets/images/twitter.jpg">
+								<section data-background-image="../common/assets/images/twitter.jpg"></section>
+
+								<section data-transition="fade"  data-background-image="../common/assets/images/global_internet.jpg">
+									<div style="position: absolute; top: 600px; right: 450px; width: 200px; border-radius: 10px;"><p class="template-citation" style="margin-top: 23px !important; margin-bottom: 23px !important;">map credit: <a href="https://www.infrapedia.com/app">infrapedia</a></p></div>
 								</section>
 
-								<section data-background-image="../common/assets/images/internet.jpg"></section>
+								<!-- <section data-background-image="../common/assets/images/internet.jpg"></section> -->
 
 								<section data-background-image="../common/assets/images/world_transit.jpg"></section>
 
@@ -291,7 +293,7 @@
 										<li style="margin-top: 23px">Data model
 											<ul style="font-size: 80%;">
 												<li>Relational databases (tables)
-												<li>Extensible data models (trees)
+												<li>Extensible/hierarchical data models (trees)
 												<li>Raster data (images)
 											</ul>
 										<li style="margin-top: 23px">Scripting languages
@@ -313,10 +315,10 @@
 												</ul>							
 											<li style="margin-top: 23px">Relational data model
 												<ul style="font-size: 80%;">
-													<li>shapfiles (.shp)
+													<li>shapefiles (.shp)
 													<li>geodatabases (.gdb)
 													<li>geotiffs (.tif)
-													<li>database servers (SQLServer, posgreSQL)
+													<li>database servers (SQLServer, postgreSQL)
 												</ul>
 											<li style="margin-top: 23px">Scripting languages
 												<ul style="font-size: 80%;">
@@ -339,8 +341,8 @@
 												</ul>							
 											<li style="margin-top: 23px">Relational data model
 												<ul style="font-size: 80%;">
-													<li>shapfiles (.shp)
-													<li>geodatabases (.gdb)
+													<li>shapefiles (.shp), raw text (.csv)
+													<li>geojson (.json)
 													<li>geotiffs (.tif)
 													<li>database servers (postgreSQL, oracle)
 												</ul>
@@ -437,7 +439,7 @@
 												</ul>							
 											<li style="margin-top: 23px">Relational data model
 												<ul style="font-size: 80%;">
-													<li>shapfiles (.shp)
+													<li>shapefiles (.shp)
 													<li>geotiffs (.tif)
 												</ul>
 											<li style="margin-top: 23px">Scripting/programming languages
@@ -464,7 +466,7 @@
 												</ul>
 											<li style="margin-top: 23px">Scripting languages
 												<ul style="font-size: 80%;">
-													<li><i>not really any</i>
+													<li><i>javascript</i>
 												</ul>
 										</ul>
 									</div>
@@ -503,7 +505,7 @@
 													<li>example: <a href="https://nation.maps.arcgis.com/apps/Cascade/index.html?appid=6984ffb035ed40b8b11e23f41236aac2">Taxi Cab Terrain</a>
 													<li>for an account contact Abraham Parrish (GIS Librarian): <a href="mailto:aparrish@miami.edu">aparrish@miami.edu</a>
 												</ul>
-											<li style="margin-top: 13px;">[ storymap.js - <a href-"https://storymap.knightlab.com/">https://storymap.knightlab.com/</a> ]
+											<li style="margin-top: 13px;">[ storymap.js - <a href="https://storymap.knightlab.com/">https://storymap.knightlab.com/</a> ]
 												<ul style="font-size: 80%;">
 													<li>example: <a href="https://www.minnpost.com/stroll/2014/06/hockey-hip-hop-and-other-green-line-highlights">Hockey, hip-hop, and other Green Line highlights</a>
 												</ul>
@@ -514,14 +516,33 @@
 							</section>
 
 							<section>
-								<div style="font-size: 90%;">Less Common GIS Assemblage<br><span style="font-size: 70%;">(but growing quickly)</span></div>
+								<div style="font-weight: 600;">Less Common GIS Assemblage</div>
+								<div style="font-size: 90%;">High Performance Computing (HPC)</div>
 								<div class="center" style="margin-top: 42px;">
-									<ul style="font-size: 80%;">
-										<li class="fragment">"grid computing" - now called High Performance Computing (HPC) - available on campus
+										<ul style="font-size: 70%;">
+											<li>Tool set
+												<ul style="font-size: 80%;">
+													<li>No standard toolset ...
+													<li>... Jupyter notebooks or R Studio
+												</ul>							
+											<li style="margin-top: 23px">relational data model
+												<ul style="font-size: 80%;">
+													<li>NetCDF grids and vectors) (.nc)
+													<li>Raster (.geotiff, .jpg, .png, etc)
+													<li>raw text (.csv, .json, etc)
+												</ul>
+											<li style="margin-top: 23px">Scripting/programming languages
+												<ul style="font-size: 80%;">
+													<li>python
+													<li>R
+													<li>sql
+												</ul>
+										<li class="fragment" style="margin-top: 42px;">Available at the University of Miami
 											<ul style="font-size: 80%;">
-												<li>Pegasus - <a href="http://ccs.miami.edu/pegasus">http://ccs.miami.edu/pegasus</a>
-												<li>interested? create an account at <a href="http://portal.ccs.miami.edu/accounts/new_account/">http://portal.ccs.miami.edu/accounts/new_account/</a>
-											</ul>							
+												<li>Pegasus - <a href="https://idsc.miami.edu/pegasus/">https://idsc.miami.edu/pegasus/</a></li>
+												<li>interested? <a href="https://redcap.miami.edu/surveys/?s=LWNTAWTTJ4">create an IDSC account</a></li>
+											</ul>
+										</li>						
 									</ul>
 								</div>
 							</section>
