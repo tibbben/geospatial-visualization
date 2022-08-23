@@ -36,8 +36,8 @@ Book appointment: [https://cmader.youcanbook.me](https://cmader.youcanbook.me){:
 
 [//]: # (meeting times?? meeting place?? hybrid?? zoom links??)
 
-August 22nd - September 24th (581/681) / December 15th 2022 (594/694) 
-Time: 5:05 pm - 7:50 pm  
+August 22nd - September 24th (581/681) / December 15th 2022 (594/694)  
+Tuesdays: 2:00 pm - 4:45 pm  
 Place: A49-110 (SOA Media Lab)  
 
 [//]: # (Zoom meeting links: [https://www.courses.miami.edu/webapps/blackboard/content/launchLink](https://www.courses.miami.edu/webapps/blackboard/content/launchLink.jsp?course_id=_576809_1&content_id=_11400144_1&mode=cpview{close parenthesis}{:target="\_blank" alt="zoom links for course"})  
