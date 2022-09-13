@@ -5,26 +5,30 @@ Lesson 4
 
 total time 150 minutes. 
 
-1.   Housekeeping (2:40 pm - 10 min)  
+1.   Housekeeping (2:00 pm - 10 min)  
    -   Questions on homework, readings, syllabus (note on readings)
    -   Ask about problems with downloading data
-   -   Encourage early conversations with Chris or myself about project ideas
+   -   Remind people they must meet about project ...
+   -   Questions about draft expectations
    -   Introduce shift to getting data and hands on work (rest of course)
 
-2.   Demonstrations (2:50 pm 40 min)
-   -   georeferencing
+2.   Demonstrations (2:10 pm 40 min)
+   -   APIs as a service (review)
+   -   geo-referencing
+   -   get OSM data
+   -   create new feature
    -   layout windows
 
-3.   Lecture - Selection, Simplification, Classification (3:30 - 20 minutes)
+3.   Student Presentations (2:50 - 30 min)
 
-4.   Demonstrations (3:50 - 20 minutes)
+4.   Break (3:20 - 5 minutes)
+
+5.   Lecture - Selection, Simplification, Classification (3:25 - 20 minutes)
+
+6.   Lecture - Text on Maps (3:45 - 15 min)
+
+7.   Demonstrations (4:00 - 40 min)
    -   geocoding
    -   id based join
 
-5.   Break (4:10 - 5 minutes)
-
-6.   Student Presentations (4:15 - 50 minutes)
-
-7.   Lecture - Text on Maps (5:05 - 10 minutes)
-
-8.   Close (5:15 - 5 min)
+8.   Close (4:40 - 5 min)

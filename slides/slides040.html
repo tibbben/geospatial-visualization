@@ -25,11 +25,12 @@
                 <section>
                   <div class="template-title">A few exercises</div>
                   <div>
-                    <ul>
-                      <li style="margin: 23px 0px 0px 0px;">Use API as service<br><span style="top: -13px; font-size: 70%; position: relative;">> load online dynamic data into a GIS</span></li>
-                      <li style="margin: 23px 0px 0px 0px;">Get OSM Data<br><span style="top: -13px; font-size: 70%; position: relative;">> use data from Open Street Map</span></li>
-                      <li style="margin: 23px 0px 0px 0px;">Georeferencing<br><span style="top: -13px; font-size: 70%; position: relative;">> locating external files in geographic space</span></li>
-                      <li style="margin: 23px 0px 0px 0px;">Creating Layouts<br><span style="top: -13px; font-size: 70%; position: relative;">> for printing and export to design programs</span></li>
+                    <ul style="font-size: 0.7em;">
+                      <li style="margin: 7px 0px 0px 0px;">Use API as service<br><span style="top: -13px; font-size: 70%; position: relative;">> load online dynamic data into a GIS</span></li>
+                      <li style="margin: 7px 0px 0px 0px;">Get OSM Data<br><span style="top: -13px; font-size: 70%; position: relative;">> use data from Open Street Map</span></li>
+                      <li style="margin: 7px 0px 0px 0px;">Georeferencing<br><span style="top: -13px; font-size: 70%; position: relative;">> locating external files in geographic space</span></li>
+                      <li style="margin: 7px 0px 0px 0px;">Creating Data Layer<br><span style="top: -13px; font-size: 70%; position: relative;">> drawing in GIS</span></li>
+                      <li style="margin: 7px 0px 0px 0px;">Creating Layouts<br><span style="top: -13px; font-size: 70%; position: relative;">> for printing and export to design programs</span></li>
                     </ul>
                   </div>
                   <div class="template-citation" style="margin-top: 42px !important;"></div>
@@ -162,6 +163,33 @@
                           <li>Settings > Transformation Settings > (Choose Transformation Type)</li>
                           <li>"Play" button</li>
                           <li>load image in QGIS</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Creating a data layer</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro 
+                        <ul style="font-size: 80%;">
+                          <li>Find an appropriate location to create a new file in Catalog</li>
+                          <li>Right click and choose type of layer to create</li>
+                          <li>Specify parameters (depends on layer type)</li>
+                          <li>From Edit panel edit layer and add a feature (draw) -> save</li>
+                          <li>From attribute table edit fields and add one, then enter a value -> save</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">QGIS
+                        <ul style="font-size: 80%;">
+                          <li>Find an appropriate location to create a new file in Browser</li>
+                          <li>Right click and choose type of layer to create</li>
+                          <li>Specify parameters (depends on layer type) -> add a field before saving</li>
+                          <li>Use pencil icon to edit layer and then add tool (point, polygon or line) -> right click to finish</li>
+                          <li>Enter values for fields and then save with pencil icon</li>
                         </ul>
                       </li>
                     </ul>
@@ -486,7 +514,7 @@
                         <ul style="font-size: 80%;">
                             <li><a href="https://geocoding.geo.census.gov">Census.gov</a> - somewhat accurate</li>
                             <li><a href="http://geoservices.tamu.edu/Services/Geocode/">Texas A&M</a> - needs free account</li>
-                            <li><a href="https://www.geocod.io">geocode.io</a> - first 1000/day free, then you pay</li>
+                            <li><a href="https://www.geocod.io">geocod.io</a> - first 1000/day free, then you pay</li>
                             <li>More, ... google "online geocoders"</li>
                         </ul>
                       </li>
