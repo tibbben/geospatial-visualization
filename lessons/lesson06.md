@@ -11,9 +11,14 @@ total time 150 minutes.
    -   make Field assignments
 
 2.   Practical Exercises (2:50 pm - 50 min)  
-   -   geocoding
+   -   join
    -   labeling
+   -   (geocoding)
+   -   labeling
+   -   layout review
+       -  elements of map (scale, north arrow, title, sources, author, legend)
    -   creating data (georeference review with Drone image, trace outline, layout review)
+   -   creating data: data types (point layer for trees)
    -   editing data
 
 2.   Student Presentations (3:40 - 20 min)  

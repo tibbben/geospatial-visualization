@@ -31,49 +31,76 @@
                   <div class="template-title">Some exercises</div>
                   <div>
                     <ul style="font-size: 0.85em;">
-                      <li style="margin: 13px 0px 0px 0px;">Geocoding<br><span style="font-size: 80%">> using addresses for location</span></li>
-                      <li style="margin: 13px 0px 0px 0px;">Labeling<br><span style="font-size: 80%">> adding text to a map</span></li>
-                      <li style="margin: 13px 0px 0px 0px;">Creating vector data<br><span style="font-size: 80%">> enter data by hand<br>> review georeferencing</span></li>
-                      <li style="margin: 13px 0px 0px 0px;">Editing vector data<br><span style="font-size: 80%">> modify geometries and attributes</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Joining tables<br><span style="font-size: 80%">> use a key column to join data to geometries</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Labeling<br><span style="font-size: 80%">> adding text to a map<br>> geocode review<br>> review print layouts</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Creating vector data<br><span style="font-size: 80%">> enter data by hand<br>> review georeferencing<br>> review editing data</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Use layer in ArcGIS Field cellphone app</li>
                     </ul>
                   </div>
                   <div class="template-citation" style="margin-top: 42px !important;"></div>
                 </section>
 
-                <section data-transition="fade">
-                  <div class="template-title">Geocoding</div>
+              </section>
+              <section>
+
+                <section>
+                  <div class="template-title">Joining tables - 1</div>
+                  <div style="font-size: 0.9em">Census data example: attributes and geography come separate</div>
                   <div>
                     <ul style="font-size: 80%;">
-                      <li>list of address information, usually comma separated values (csv)</li>
-                      <li style="margin: 13px 0px 0px 0px;">ArcGIS geocoding service
+                      <li style="margin: 13px 0px 0px 0px;">Get Census data from the "US Census Bureau" (data.census.gov)
                         <ul style="font-size: 80%;">
-                            <li>Very accurate and up-to-date geocoding engine</li>
-                            <li>Uses credits - see <a href="https://doc.arcgis.com/en/arcgis-online/administer/credits.htm">Understanding Credits</a>
+                            <li>start at <a href="https://data.census.gov/cedsci/">https://data.census.gov/cedsci/</a></li>
+                            <li>Search and select table</li>
+                            <li>"Customize Table" and add geography</li>
+                            <li>Goto "Map" to check</li>
+                            <li>When ready, return to table > click "Download"</li>
+                            <li style="margin-top: 23px;">use IPUMS at <a href="https://uma.pop.umn.edu/">https://uma.pop.umn.edu/</a> as an alternative</li>
                         </ul>
                       </li>
-                      <li style="margin: 13px 0px 0px 0px;">"Free" online geocoding services
+                      <li style="margin: 13px 0px 0px 0px;">Get geographic data from "Census Geography Program"
                         <ul style="font-size: 80%;">
-                            <li><a href="https://geocoding.geo.census.gov">Census.gov</a> - somewhat accurate</li>
-                            <li><a href="http://geoservices.tamu.edu/Services/Geocode/">Texas A&M</a> - needs free account</li>
-                            <li><a href="https://www.geocod.io">geocode.io</a> - first 1000/day free, then you pay</li>
-                            <li>More, ... google "online geocoders"</li>
+                            <li>start at <a href="https://www.census.gov/programs-surveys/geography.html">https://www.census.gov/programs-surveys/geography.html</a></li>
+                            <li>Look for "Tiger/Line Geodatabases"</li>
+                            <li>Select "State Level Geodatbases" and your state</li>
+                            <li> -- OR -- </li>
+                            <li>Look for :cartographic Boundary Files"</li>
+                            <li>Choose type and scale -> download</li>
                         </ul>
                       </li>
-                      <li style="margin: 13px 0px 0px 0px;">in the GIS ...
-                        <ul style="font-size: 80%;">
-                            <li>Import as csv with lat/long coordinates as columns</li>
-                            <li>Google "create x,y points from csv" in [GIS of choice]</li>
-                        </ul>
                     </ul>
                   </div>
-                  <div class="template-citation" style="margin-top: 42px !important;">Note: we will use the LEED project profiles (<a href="https://www.usgbc.org/projects">https://www.usgbc.org/projects</a>) to map LEED buildings in Miami</div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
                 </section>
+
+                <section>
+                  <div class="template-title">Joining tables - 2</div>
+                  <div style="font-size: 0.9em">Census data example: attributes and geography come separate</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li style="margin: 13px 0px 0px 0px;">in the GIS ...
+                        <ul style="font-size: 80%;">
+                            <li>Import as csv with no geometries<br><span style="font-size=90%;">> must delete one header row first</span></li>
+                            <li style="margin: 13px 0px 0px 0px;">Import selected layers from geodatabase or shapefile<br><span style="font-size=90%;">> must include geometry from Census data</span></li>
+                            <li style="margin: 13px 0px 0px 0px;">Identify key column in both tables<br><span style="font-size=90%;">> you may need to modify data types and/or values</span></li>
+                            <li style="margin: 13px 0px 0px 0px;">In geometry layer, find "Joins" in the layer properties<br><span style="font-size=90%;">> either double click or right click<br>> Join based on GEO_ID and/or AFFGEOID (or some other combination)</li>
+                            <li style="margin: 13px 0px 0px 0px;">Symbolize from layer properties</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+              </section>
+
+              <section>
 
                 <section data-transition="fade">
                   <div class="template-title">Labeling 1</div>
                   <div>
                     <ul style="font-size: 80%;">
-                      <li>Besides getting data, the most difficult task in cartography</li>
+                      <li>Besides getting data, the most difficult task in cartography<br><span style="font-size:0.8em;">> get LEED data from: <a href="https://www.usgbc.org/projects">https://www.usgbc.org/projects</a><br>> must filter (subset) and geocode (review)</span></li>
                       <li style="margin: 13px 0px 0px 0px;">Label the LEEDs layer
                         <ul style="font-size: 80%;">
                             <li>QGIS: right click layer > layer properties > labels</li>
@@ -99,10 +126,39 @@
                 </section>
 
                 <section data-transition="fade">
+                  <div class="template-title">Geocoding (review)</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>list of address information, usually comma separated values (csv)</li>
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS geocoding service
+                        <ul style="font-size: 80%;">
+                            <li>Very accurate and up-to-date geocoding engine</li>
+                            <li>Uses credits - see <a href="https://doc.arcgis.com/en/arcgis-online/administer/credits.htm">Understanding Credits</a>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">"Free" online geocoding services
+                        <ul style="font-size: 80%;">
+                            <li><a href="https://geocoding.geo.census.gov">Census.gov</a> - somewhat accurate</li>
+                            <li><a href="http://geoservices.tamu.edu/Services/Geocode/">Texas A&M</a> - needs free account</li>
+                            <li><a href="https://www.geocod.io">geocode.io</a> - first 1000/day free, then you pay</li>
+                            <li>More, ... google "online geocoders"</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">in the GIS ...
+                        <ul style="font-size: 80%;">
+                            <li>Import as csv with lat/long coordinates as columns</li>
+                            <li>Google "create x,y points from csv" in [GIS of choice]</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">Note: we will use the LEED project profiles (<a href="https://www.usgbc.org/projects">https://www.usgbc.org/projects</a>) to map LEED buildings in Miami</div>
+                </section>
+
+                <section data-transition="fade">
                   <div class="template-title">Labeling 2</div>
                   <div>
                     <ul style="font-size: 80%;">
-                      <li>Besides getting data, the most difficult task in cartography</li>
                       <li style="margin: 13px 0px 0px 0px;">Get some data and add to your map:
                         <ul style="font-size: 80%;">
                             <li>Miami-Dade Data Portal: streets</li>
@@ -120,7 +176,7 @@
                         <ul style="font-size: 80%;">
                             <li>choose field or create compound string</li>
                             <li>filter layer on CLASS=1
-                            <li>Note: very messy, to many segments</li>
+                            <li>Note: very messy, to many segments<br><span style="font-size:  0.85em">solution: search "dissolve GIS" on google</span></li>
                         </ul>
                       </li>
                     </ul>
@@ -155,11 +211,52 @@
                   <div class="template-citation" style="margin-top: 42px !important;"></div>
                 </section>
 
+                <section>
+                  <div class="template-title">Layouts for Printing and Export</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro 
+                        <ul style="font-size: 80%;">
+                          <li>"Insert" Panel > New Layout (choose size)</li>
+                          <li>Add "Map Frame" and adjust scale and size</li>
+                          <li>add other elements: title, legend, scalebar</li>
+                          <li>"Share" Panel > Layout > export</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">QGIS
+                        <ul style="font-size: 80%;">
+                          <li>Project > New Print Layout (create a name)</li>
+                          <li>right click on page to change "Page Properties"</li>
+                          <li>Add Item > Add Map (draw rectangle on page)</li>
+                          <li>add other elements: title, legend, scalebar</li>
+                          <li>Layout > Export</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                  <div style="position: absolute; left: 130px; top: 100px; font-size: 0.9em; width: 1100px; text-align: center; border: 4px red solid; padding-top: 80px; padding-bottom: 80px; background-color: #fff;" class="fragment">
+                    All maps should have:<br>
+                      <ul style="font-size: 80%;">
+                        <li>Title</li>
+                        <li>Legend</li>
+                        <li>Scale</li>
+                        <li>Author</li>
+                        <li>References/sources</li>
+                        <li>North arrow</li>
+                        <li>Projection information</li>
+                      </ul>
+                  </div>
+                </section>
+
+              </section>
+              <section>
+
                 <section data-transition="fade">
                   <div class="template-title">Creating vector data 1</div>
                   <div>
                     <ul style="font-size: 0.75em;">
-                      <li>We will use the geo referenced Drone Survey Image<br>> <a href="file:///Users/tibben/Documents/Sync/UMLibrary/curriculum/urban-cartography/slides/slides040.html#/1/4">review from week 4</a></li>
+                      <li>We will use the geo referenced Drone Survey Image<br>> <a href="slides040.html#/1/4">review from week 4</a></li>
                       <li style="margin: 13px 0px 0px 0px;">Remember: the project file/folder is NOT the data</li>
                       <li style="margin: 13px 0px 0px 0px;">Create a data layer
                         <ul style="font-size: 80%;">
@@ -189,7 +286,7 @@
                         <ul style="font-size: 80%;">
                             <li>Try to maintain one scale</li>
                             <li>right click to finish sketch/part</li>
-                            <li>Remember to save edits often<br>layer, not the project</li>
+                            <li>Remember to save edits often<br>> save the layer, not the project<br>> or save both layer and project</li>
                         </ul>
                       </li>
                       <li style="margin: 13px 0px 0px 0px;">Turn off layer editing, save edits</li>
@@ -218,6 +315,94 @@
                         </ul>
                       </li>
                       <li style="margin: 13px 0px 0px 0px;">Turn off layer editing</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+              </section>
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">ArcGIS Field App 1</div>
+                  <div>
+                    <ul style="font-size: 0.75em;">
+                      <li>Similar to create polygon layer (back two slides)<br>> *but* do this in ArcGIS Online</li>
+                      <li style="margin: 13px 0px 0px 0px;">Login and go to main "Contents" tab:
+                        <ul style="font-size: 80%;">
+                            <li>+ New Item > Create Feature Layer</li>
+                            <li>Define your own layer > call it "trees" and make it a "point Layer" > NEXT</li>
+                            <li>Add tags, summary, and click SAVE</li>
+                        </ul>
+                      <li style="margin: 13px 0px 0px 0px;">Finish setting up your layer
+                        <ul style="font-size: 80%;">
+                            <li>on the DATA tab add fields (see next slide)</li>
+                            <li>on the SETTINGS tab approve "Public Data Collection" > SAVE
+                            <li>on the OVERVIEW tab click the "Share" button, make public "Everyone (public)"</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Turn off layer editing, save edits</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">ArcGIS Field App 2</div>
+                  <div>
+                    <ul style="font-size: 0.75em;">
+                      <li style="margin: 13px 0px 0px 0px;">Create several columns/fields for:
+                        <ul style="font-size: 80%;">
+                            <li>Family</li>
+                            <li>Species</li>
+                            <li>Common name</li>
+                            <li>Height</li>
+                            <li>Value</li>
+                            <li>Canopy Area</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Pay attention to data types:
+                        <ul style="font-size: 80%;">
+                            <li>text</li>
+                            <li>integer</li>
+                            <li>double</li>
+                            <li>numeric</li>
+                            <li>float</li>
+                            <li>blob</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Turn off layer editing, save edits</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                  <div style="position: absolute; left: 130px; top: 100px; font-size: 0.9em; width: 1100px; text-align: center; border: 4px red solid; padding-top: 80px; padding-bottom: 80px; background-color: #fff;" class="fragment">
+                    Edit the field "Family" to have a controlled vocabulary:<br>
+                      <ul style="font-size: 80%;">
+                        <li>on the DATA tab edit FIELDS and choose "Family"</li>
+                        <li>click the "Create List" button and enter the following:
+                          <ul>
+                            <li>Meliaceae</li>
+                            <li>Burseraceae</li>
+                            <li>Fagaceae</li>
+                          </ul>
+                        </li>
+                      </ul>
+                  </div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">ArcGIS Field App 3</div>
+                  <div>
+                    <ul style="font-size: 0.75em;">
+                      <li>Create a new ArcGIS Online Map</li>
+                      <li style="margin: 13px 0px 0px 0px;">Go to main "Map" tab and click "Open in Map Viewer Classic":
+                        <ul style="font-size: 80%;">
+                            <li>rename your map (upper left corner)</li>
+                            <li>add your new tree layer with the add button</li>
+                            <li>add the "Layer from web"</li>
+                            <li>more directions to come</li>
+                        </ul>
+                      <li style="margin: 13px 0px 0px 0px;">Turn off layer editing, save edits</li>
                     </ul>
                   </div>
                   <div class="template-citation" style="margin-top: 42px !important;"></div>
