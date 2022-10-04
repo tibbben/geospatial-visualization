@@ -17,16 +17,52 @@ total time 150 minutes.
 
 3.   Student Presentations
 
-4.   Lecture - Vector Analysis
- 
-5.   Vector Exercise
-   -   count points in polygon - TRIs in census tracts (pushed to next lesson)
-   -   dissolve streets layer
-   -   buffer and intersect
-   -   spatial join - add tract IDs to TRI sites (SQL example as well)
-   -   extract from raster?
+6.   Moving data between applications (4:20 pm - 30 min)
+   -   Exercise to look up possible formats online and seek common formats
+   -   Try to note the following formats and keywords on the white board
+   -   Formats
+      -   DAE (COLLADA)
+      -   DWG
+      -   glTF
+      -   OBJ
+      -   OSM
+      -   PLY
+      -   SKP
+      -   SVG
+      -   AI
+      -   DEM
+      -   STL
+      -   PSD
+      -   FBX
+   -   Keywords
+      -   mesh
+      -   vertices
+      -   faces
+      -   DEM
+      -   DSM
+      -   normals
+      -   textures
 
-6.   Self directed exercises? (pushed to next lesson)
-   -   HAZUS/FEMA flood zone data and tracts?
-   -   supermarkets and census tracts
+7.   City Engine Example
+   -   OSM data use
+   -   small areas
+
+8.   Illustrator Example
+   -   QGIS export
+
+
+
+City Engine Exports
+https://doc.arcgis.com/en/cityengine/latest/get-started/get-started-model-export.htm
+
+City Engine Imports
+https://doc.arcgis.com/en/cityengine/latest/help/help-import-files-project.htm
+
+AutoCad read write in ArcGIS Pro
+https://pro.arcgis.com/en/pro-app/latest/help/data/cad/supported-cad-formats-in-arcgis.htm
+
+Rhino File Formats
+https://www.rhino3d.com/features/file-formats/
+
+Khronos ...
 

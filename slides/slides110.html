@@ -24,208 +24,230 @@
 
               </section>
 
-              <section>
+        <section>
 
-                <section data-transition="fade">
-                  <div class="template-title">Vector Analysis</div>
-                  <div>
-                    <ul style="font-size: 0.85em;">
-                      <li style="margin: 13px 0px 0px 0px;">Vector Operations (one layer)</li>
-                      <li style="margin: 13px 0px 0px 0px;">Vector Operations (two layers)<br><span style="font-style: italic;"><b>Spatial Join</b></span></li>
-                      <li style="margin: 13px 0px 0px 0px;">Attribute Statistics & Aggregation</li>
-                      <li style="margin: 42px 0px 0px 0px;"><a href="https://gisgeography.com/spatial-analysis-periodic-table/" target="_blank">So Many Tools - !CLICK ME!</a></li>
-                    </ul>
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;"></div>
-                </section>
+          <section data-transition="fade">
+            <div class="template-title">Thinking about 3D GIS terrain data</div>
+            <div>
+              <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                <li style="margin: 23px 0px 0px 0px;">The surface of the earth
+                  <ul style="font-size: 80%;">
+                    <li style="margin-top: 13px;">Raster format<br>
+                      <i>Digital Elevation Models (DEM)</i><br>
+                      <i>Digital Surface Models (DSM)</i>
+                    </li>
+                    <li style="margin-top: 13px;">Triangular Irregular Networks (TINs)<br>
+                      <i>Vector format</i><br>
+                      <i>Vertices (x,y,z) and triangles</i><br>
+                      <i>similar to mesh</i>
+                    </li>
+                    <li style="margin-top: 13px;">Contours</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="template-citation" style="margin-top: 42px !important;"></div>
+          </section>
 
-              </section>
+          <section data-transition="fade">
+            <div class="template-title">Thinking about 3D GIS feature data</div>
+            <div>
+              <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                <li style="margin: 23px 0px 0px 0px;">z-values
+                  <ul style="font-size: 80%;">
+                    <li style="margin-top: 13px;">Vector format</li>
+                    <li style="margin-top: 13px;">polygons and extrusion<br>
+                        <i>for example: building footprints and heights</i>
+                    </li>
+                    <li style="margin-top: 13px;">point clouds (x,y,z)</li>
+                    <li style="margin-top: 13px;">any kind of elevation information<br>
+                      <i>both above and below the earth's surface</i>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="template-citation" style="margin-top: 42px !important;"></div>
+          </section>
 
-              <section>
+          <section data-transition="fade">
+            <div class="template-title">Thinking about 3D Object data</div>
+            <div>
+              <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                <li style="margin: 23px 0px 0px 0px;">Meshes
+                  <ul style="font-size: 80%;">
+                    <li>Like TINs, but can be closed</li>
+                  </ul>
+                </li>
+                <li style="margin: 23px 0px 0px 0px;">Models
+                  <ul style="font-size: 80%;">
+                    <li>Vertices</li>
+                    <li>Faces</li>
+                    <li>Materials and texture maps</li>
+                    <li>Procedural surfaces</li>
+                  </ul>
+                </li>
+                <li style="margin: 23px 0px 0px 0px;">Almost never has geographical coordinates!!</li>
+              </ul>
+            </div>
+            <div class="template-citation" style="margin-top: 42px !important;"></div>
+          </section>
 
-                <section data-transition="fade">
-                  <div class="template-title">One Layer Vector Operations</div>
-                  <div>
-                    <ul style="font-size: 0.85em;">
-                      <li style="margin: 13px 0px 0px 0px;">Buffer</li>
-                      <li style="margin: 13px 0px 0px 0px;">Dissolve</li>
-                      <li style="margin: 13px 0px 0px 0px;">Transformations (vector to raster)</li>
-                      <li style="margin: 13px 0px 0px 0px; color: #999;">Convex Hull</li>
-                      <li style="margin: 13px 0px 0px 0px; color: #999;">Centroids</li>
-                      <li style="margin: 13px 0px 0px 0px; color: #999;">Transformations (polygon to line or vice versa)</li>
-                      <li style="margin: 13px 0px 0px 0px; color: #999;">Voroni Polygons (fill plane from points)</li>
-                    </ul>
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;"></div>
-                </section>
+          <section data-transition="fade">
+            <div class="template-title">Imports and Exports (3D design)</div>
+            <div>
+              <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                <li style="margin: 23px 0px 0px 0px;">GIS to 3D design
+                  <ul style="font-size: 80%;">
+                    <li>Geographic coordinates are lost<br>
+                      <i>almost always</i>
+                    </li>
+                    <li>Layer information is lost</li>
+                  </ul>
+                </li>
+                <li style="margin: 23px 0px 0px 0px;">3D Design to GIS
+                  <ul style="font-size: 80%;">
+                    <li>Materials and procedural textures are lost<br>
+                      <i>almost always</i>
+                    </li>
+                    <li>BIM information is lost</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="template-citation" style="margin-top: 42px !important;"></div>
+          </section>
 
-                <section data-transition="fade">
-                  <div class="template-title">One Layer Vector Operations - Buffer</div>
-                  <div>
-                    <ul style="font-size: 0.85em;">
-                      <li style="margin: 13px 0px 0px 0px;">ring buffer (one radius)</li>
-                      <li style="margin: 13px 0px 0px 0px;">multiple-ring buffer (several radii)</li>
-                    </ul>
-                    <img src="../common/assets/images/buffer.jpg" style="width: 800px">
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html">https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html</a></div>
-                </section>
+        </section>
 
-                <section data-transition="fade">
-                  <div class="template-title">More Buffers</div>
-                  <div style="margin-top: -30px; width: 100%; display: inline-block;">
-                      <div style="margin: 0px auto; width: 65%">
-                        <div style="float:left; font-size: 0.7em; margin-top: 80px;">
-                            <ol type="a" style="font-size: 0.85em;">
-                              <li style="margin: 13px 0px 0px 0px;">variable width</li>
-                              <li style="margin: 13px 0px 0px 0px;">multiple ring</li>
-                              <li style="margin: 13px 0px 0px 0px;">doughnut</li>
-                              <li style="margin: 13px 0px 0px 0px;">setback</li>
-                              <li style="margin: 13px 0px 0px 0px;">non-dissolved</li>
-                              <li style="margin: 13px 0px 0px 0px;">dissolved</li>
-                            </ol>
-                        </div>
-                        <div style="float:left; margin-left: 92px;">
-                            <img src="../common/assets/images/more_buffers.jpg" style="max-width: 500px; margin: 0px;">
+        <section>
+
+          <section data-background-image="../common/assets/images/lasFlores-01-smithsonianSketch.jpg" data-background-size="fill" data-transition="fade">
+
+            <div style="position: absolute; left: 150px; top: 250px; font-size: 150%; line-height: 100%; color: #000 !important; text-align: left; text-shadow: 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee;"><strong>Moving data between applications</strong></div>
+
+          </section>
+
+          <section data-background-image="../common/assets/images/lasFlores-01-smithsonianSketch.jpg" data-background-size="fill" data-transition="fade"></section>
+
+        </section>
+
+        <section>
+
+          <section data-transition="fade">
+            <div class="template-title">ESRI File Formats of Common 3D Design Packages</div>
+            <div>
+              <ul style="font-size: 0.9em; margin: 23px 0px 0px 0px;">
+                <li style="margin: 23px 0px 0px 0px;"><a href="https://doc.arcgis.com/en/cityengine/latest/help/help-export-models-overview.htm" target="_blank">ArcGIS City Engine Exports</a></li>
+                <li style="margin: 23px 0px 0px 0px;"><a href="https://doc.arcgis.com/en/cityengine/latest/help/help-import-data-overview.htm" target="_blank">ArcGIS City Engine Imports</a></li>
+                <li style="margin: 23px 0px 0px 0px;"><a href="https://pro.arcgis.com/en/pro-app/latest/help/data/cad/supported-cad-formats-in-arcgis.htm" target="_blank">AutoCad read/write in ArcGIS Pro</a></li>
+              </ul>
+              <div style="margin-top: 42px; font-size: 1em;">Take a look at the <a href="https://doc.arcgis.com/en/cityengine/latest/help/help-esri-lib-webstyles.htm">ESRI Content Library</a></div>
+            </div>
+            <div class="template-citation" style="margin-top: 42px !important;"></div>
+          </section>
+
+          <section data-transition="fade">
+            <div class="template-title">Common 3D Design Package Formats</div>
+            <div>
+              <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                <li style="margin: 23px 0px 0px 0px;"><a href="https://www.rhino3d.com/features/file-formats/" target="_blank">Rhino</a></li>
+                <li style="margin: 23px 0px 0px 0px;"><a href="https://support.sketchup.com/s/article/What-file-types-can-I-import-export-with-the-SketchUp-Pro-subscription" target="_blank">Sketch-up Pro</a></li>
+                <li style="margin: 23px 0px 0px 0px;"><a href="https://resources.imaginit.com/building-solutions-blog/autodesk-to-twinmotion-preferred-and-accepted-file-formats">Twin Motion (?)</a></li>
+              </ul>
+            </div>
+            <div class="template-citation" style="margin-top: 42px !important;"></div>
+          </section>
+
+          <section data-transition="fade">
+            <div class="um-template-container">
+              <div class="um-template-header"></div>
+              <div class="um-template-content-containter" style="font-size: 1.2em">
+
+                <div class="um-template-content" style="max-width: 95%; width: 95%;">
+                  <div class="um-template-title">3D Common Formats and Keywords</div>
+                  <div style="font-size: 0.7em; display: inline-block; line-height: 1.2em; margin-top: 42px">
+                    <div style="float: left">
+                      <div class="um-template-title" style="font-size: .6em">Formats</div>
+                      <div style="float: left;">
+                        <div style="float:left; margin-left: 42px;">
+                          <ul style="font-size: 0.85em;">
+                            <li><a href="https://github.com/KhronosGroup/OpenCOLLADA">DAE</a> (COLLADA)</li>
+                            <li><a href="https://github.com/KhronosGroup/glTF">glTF</a></li>
+                            <li><a herf="https://www.loc.gov/preservation/digital/formats/fdd/fdd000507.shtml">OBJ</a></li>
+                            <li><a href="http://paulbourke.net/dataformats/ply/">PLY</a></li>
+                            <li>SKP</li>
+                            <li><a href="https://code.blender.org/2013/08/fbx-binary-file-format-specification/">FBX</a></li>
+                            <li><a href="https://www.loc.gov/preservation/digital/formats/fdd/fdd000504.shtml">STL</a></li>
+                          </ul>
                         </div>
                       </div>
+                    </div>
+                    <div style="float: left; margin-left: 180px;">
+                      <div class="um-template-title" style="font-size: .6em">Keywords</div>
+                      <ul>
+                        <li>mesh</li>
+                        <li>vertices</li>
+                        <li>faces</li>
+                        <li>DEM</li>
+                        <li>DSM</li>
+                        <li>normals</li>
+                        <li>textures</li>
+                      </ul>
+                    </div>
                   </div>
+                </div>
+              </div>
+            </div>              
+          </section>
 
-                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html">https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html</a></div>
-                </section>
+        </section>
 
-                <section data-transition="fade">
-                  <div class="template-title">One Layer Vector Operations - Dissolve</div>
-                  <div>
-                    <ul style="font-size: 0.85em;">
-                      <li style="margin: 13px 0px 0px 0px;">combines features based on attribute</li>
-                      <li style="margin: 13px 0px 0px 0px;">useful for data aggregation</li>
-                      <li style="margin: 13px 0px 0px 0px;">useful for cartography
-                        <ul style="font-size: 0.85em;">
-                          <li style="margin: 13px 0px 0px 0px;">multiple line segments with same label (roads)</li>
-                          <li style="margin: 13px 0px 0px 0px;">remove duplicate polygon labels for area</li>
-                        </ul>
-                      </li>
-                    </ul>
-                    <img src="../common/assets/images/dissolve.png" style="width: 800px">
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/dissolve.htm">https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/dissolve.htm</a></div>
-                </section>
+        <!-- <section>
 
-              </section>
+          <section data-transition="fade">
+            <div class="um-template-container">
+              <div class="um-template-header"></div>
+              <div class="um-template-content-containter" style="font-size: 1.2em">
 
-              <section>
-
-                <section data-transition="fade">
-                  <div class="template-title">Two Layer Vector Operations<br><span style="font-style: italic;"><b>** Spatial Join **</b></span></div>
-                  <div>
-                    <ul style="font-size: 0.85em;">
-                      <li style="margin: 13px 0px 0px 0px;">Points in Polygon</li>
-                      <li style="margin: 13px 0px 0px 0px;">Intersect</li>
-                      <li style="margin: 13px 0px 0px 0px;">Join Attributes by Location</li>
-                      <li style="margin: 13px 0px 0px 0px; color: #999;">Union</li>
-                      <li style="margin: 13px 0px 0px 0px; color: #999;">Clip</li>
-                      <li style="margin: 13px 0px 0px 0px; color: #999;">Difference</li>
-                    </ul>
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;"></div>
-                </section>
-
-                <section data-transition="fade">
-                  <div class="template-title">Points in Polygon<br><span style="font-style: italic;"><b>Simple Spatial Join</b></span></div>
-                  <div style="margin-top: -30px; width: 100%; display: inline-block;">
-                      <div style="margin: 0px auto; width: 80%">
-                        <div style="float:left; font-size: 0.7em; margin-top: 40px;">
-                            <ul style="font-size: 0.95em;">
-                              <li style="margin: 13px 0px 0px 0px;">one point layer and one polygon layer</li>
-                              <li style="margin: 13px 0px 0px 0px;">counts number of points in polygon</li>
-                              <li style="margin: 13px 0px 0px 0px;">point attribute aggregation possible > polygons</li>
-                              <li style="margin: 42px 0px 0px 0px;">New <b>"COUNT"</b> column in polygon attributes</li>
+                <div class="um-template-content" style="max-width: 95%; width: 95%;">
+                  <div class="um-template-title">Common Import/Export Formats for 2D GIS Data</div>
+                  <div style="font-size: 0.7em; display: inline-block; line-height: 1.2em; margin-top: 42px">
+                    <div style="float: left">
+                      <div style="float: left;">
+                        <ul>
+                          <li>Line Drawing (vector)
+                            <ul style="font-size: 0.85em;">
+                              <li>DWG (AutoCAD)</li>
+                              <li>SVG (scaleable vector graphic)</li>
+                              <li>AI (Adobe Illustrator)</li>
+                              <li>PDF (Adobe Portable Document Format)
+                              <li>OSM (Open Street Map)</li>
                             </ul>
-                        </div>
-                        <div style="float:left; margin-left: 23px;">
-                            <img src="../common/assets/images/pip.png" style="width: 400px">
-                        </div>
+                          </li>
+                        </ul>
                       </div>
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://datawanderings.com/2018/09/01/r-point-in-polygon-a-mathematical-cookie-cutter/">https://datawanderings.com/2018/09/01/r-point-in-polygon-a-mathematical-cookie-cutter/</a></div>
-                </section>
-
-                <section data-transition="fade">
-                  <div class="template-title">Intersect two layers</div>
-                  <div>
-                    <ol type="a" style="font-size: 0.85em;">
-                      <li style="margin: 13px 0px 0px 0px;">Can be lines or polygons</li>
-                      <li style="margin: 13px 0px 0px 0px;">Boundaries from both layers</li>
-                      <li style="margin: 13px 0px 0px 0px;">Attributes from both layers</li>
-                      <li style="margin: 42px 0px 0px 0px;">May need to dissolve after to make sense of analysis</li>
-                    </ol>
-                    <img src="../common/assets/images/intersect.gif" style="max-width: 500px; margin: 0px;">
-                  </div>
-
-                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/intersect.htm">https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/intersect.htm</a></div>
-                </section>
-
-                <section data-transition="fade">
-                  <div class="template-title">Join Attributes by Location</div>
-                  <div>
-                    <img src="../common/assets/images/Spatial-Join-1265x723.png" style="width: 800px">
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://gisgeography.com/spatial-join/">https://gisgeography.com/spatial-join/</a></div>
-                </section>
-
-                <section data-transition="fade">
-                  <div class="template-title">Join Attributes by Location<br><span style="font-style: italic;"><b>** Spatial Join **</b></span></div>
-                  <div>
-                    <ul style="font-size: 0.85em;">
-                      <li style="margin: 13px 0px 0px 0px;">combines attributes based on shared locations
-                        <ul style="font-size: 0.85em;">
-                          <li style="margin: 13px 0px 0px 0px;">points in polygon)</li>
-                          <li style="margin: 13px 0px 0px 0px;">intersection</li>
-                          <li style="margin: 13px 0px 0px 0px;">other ...</li>
+                      <div style="float: left; margin-left: 100px;">
+                        <ul>
+                          <li>Images and Surfaces (raster)
+                            <ul style="font-size: 0.85em;">
+                              <li>DEM (Digital Elevation Model)</li>
+                              <li>PSD (Adobe Photoshop)</li>
+                              <li>PNG (Portable Network Graphic)</li>
+                              <li>JPG or JPEG (Joint Photographic Experts Group) </li>
+                              <li>TIFF or geoTIFF (Tagged Image File Format)</li>
+                            </ul>
+                          </li>
                         </ul>
-                      </li>
-                      <li style="margin: 13px 0px 0px 0px;">example: attach tract ID to point data</li>
-                      <li style="margin: 13px 0px 0px 0px;">example: summarize point data and attach to polygon</li>
-                    </ul><br>
-                    <img src="../common/assets/images/Spatial-Join-1265x723.png" style="width: 300px">
+                      </div>
+                    </div>
                   </div>
-                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://gisgeography.com/spatial-join/">https://gisgeography.com/spatial-join/</a></div>
-                </section>
+                </div>
+              </div>
+            </div>              
+          </section>
 
-                <section data-transition="fade">
-                  <div class="template-title">Join Attributes by Location<br><span style="font-style: italic;">raster to vector or vice versa</span></div>
-                  <div>
-                    <ul style="font-size: 0.85em;">
-                      <li style="margin: 13px 0px 0px 0px;">Add attribute to vector data based on underlying raster values<br><span style="font-style: italic">Often call "extraction" or "extract"</span><img src="../common/assets/images/extraction_multi.jpg"></li>
-                      <li style="margin: 42px 0px 0px 0px;">Basic statistics from pixels inside polygon (review)<br><span style="font-style: italic">Often called "Zonal Statistics" or "Zonal Histogram"</li>
-                    </ul>
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://www.esri.com/arcgis-blog/products/analytics/analytics/how-to-extract-raster-values-at-point-locations/">https://www.esri.com/arcgis-blog/products/analytics/analytics/how-to-extract-raster-values-at-point-locations/</a></div>
-                </section>
-
-              </section>
-
-              <section>
-
-                <section data-transition="fade">
-                  <div class="template-title">Attribute Statistics and Aggregation</span></div>
-                  <div>
-                    <ul style="font-size: 0.85em;">
-                      <li style="margin: 13px 0px 0px 0px;">Basic column statistics available in GIS</li>
-                      <li style="margin: 13px 0px 0px 0px;">Basic aggregation tools available in GIS</li>
-                      <li style="margin: 13px 0px 0px 0px;">Sometimes you need to take results to other program
-                        <ul style="font-size: 0.85em;">
-                          <li style="margin: 13px 0px 0px 0px;">export attribute table</li>
-                          <li style="margin: 13px 0px 0px 0px;">Python, STATA, R, Excel, other ...</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;"></div>
-                </section>
-
-              </section>
+        </section> -->
 				
             </div>
         </div>
