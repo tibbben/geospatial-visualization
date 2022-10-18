@@ -331,6 +331,7 @@ Determine geographic areas that meet several criteria by using raster math to co
 -   Understand how scale, resolution, and projection work together in raster data
 -   Understand basic mathematical operators that can be used on pixel values in raster data
 -   Know several GIS transformation methods to normalize two raster data layers
+-   Explore the FEMA HAZUS program
 -   Demo of the Miami Affordability Project
 
 > Practical Objectives
@@ -340,19 +341,29 @@ Determine geographic areas that meet several criteria by using raster math to co
 -   Perform raster math between two raster layers
 -   Visualize and interpret the results from the raster math operation 
 
-> Required Reading
-
--   Explore the online FEMA Flood Map Products (HAZUS Program and National Risk Index)
-
 >  [slide deck](slides/slides100.html){:target="\_blank"}  
 
-*__Week 11 (Nov. 1):__ SQL, Environmental Justice, and GIS*  
+*__Week 11 (Nov. 1):__ Environmental Justice and Vector Analysis in GIS*  
 
-Explore GIS for real estate and cadastral mapping: data sources, common issues, and online systems. Use this context for learning about SQL queries. Abigail Flemming from the University of Miami Environmental Justice Clinic will visit as a guest speaker and provide insight into how maps and data can be used to better understand problems of vulnerability, displacement, and social justice.
+Determine geographical areas that meet several criteria using vector based operations to combine multiple vector layers that represent individual criteria. An environmental justice example based on social vulnerabilities and resilience in the face of climate change will be used to illustrate these processes. Abigail Flemming, from the University of Miami Environmental Justice Clinic will visit as a guest speaker and provide insight into how maps and data can be used to better understand problems of vulnerability, displacement, and social justice.
 
 [//]: # (An alternative example will use vector-based GIS analysis to identify potential site locations for marijuana dispensaries in San Francisco.)
 
 [//]: # (Office of resilience, Katie Hegemann)
+
+> Learning Objectives
+
+-   Understand basic geospatial data structures and formats used for data transfer/sharing
+-   Maintain projection awareness for the transfer of geospatial data between applications
+
+> Practical Objectives
+
+-   Move data from Autodesk to ArcGIS Pro and vice versa
+-   Export data from GIS to Adobe Suite of design applications
+-   Plot latitude/longitude data from csv in a GIS
+-   Export vector data to csv or json
+-   Review of geocoding (from week 4)
+-   Review of georeferencing (from week 4)
 
 > Learning Objectives
 
@@ -363,8 +374,9 @@ Explore GIS for real estate and cadastral mapping: data sources, common issues, 
 
 > Practical Objectives
 
--   Perform SQL query with geospatial data (select by attributes)
--   Create buffers around geospatial features and use for selection
+-   Perform SQL query with geospatial data
+-   Create buffers around geospatial features
+-   Use ESRI ArcGIS online tools to create travel time maps
 
 >  Assigned Reading:
 
@@ -477,3 +489,8 @@ Students will have 10 minutes (strict) to give a formal presentation of their fi
 
 
 ---
+
+
+Real Estate Mapping and Structured Query Language (SQL)*  
+
+Explore GIS for real estate: data sources, common issues, and online systems. Use this context for learning about SQL queries. It is likely that we will have a guest speaker, Jennifer Posner, Sr. Program Manager of the University of Miami Office for Civic Engagement (to be confirmed). Jennifer will provide insight into real estate and planning issues and problems from experience in both New York and Miami.
