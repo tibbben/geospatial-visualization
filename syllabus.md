@@ -245,23 +245,22 @@ Explore methods for collecting data in the field including ArcGIS Online and the
 
 >  [slide deck](slides/slides060.html){:target="\_blank"}  
 
-*__Week 7 (Oct. 4):__ Moving Data Between Applications*  
+*__Week 7 (Oct. 4):__ Resilience through Vector Aggregation and Spatial Joins*  
 
-Explore how common geospatial data structures can serve in a variety of applications and computing environments. Moving data between applications and formats.
+Brief introduction to resilience thinking across disciplines and what data might be useful for modeling resilience in urban environments. Explore how vector aggregation and spatial joins bring distinct data layers into analytical relationships.
 
 > Learning Objectives
 
--   Understand basic geospatial data structures and formats used for data transfer/sharing
--   Maintain projection awareness for the transfer of geospatial data between applications
+-   Describe origins of resilience thinking and how it is used in urban planning
+-   Understand intersect, merge, and dissolve as primary vector aggregation tools
+-   Describe different approaches for aggregating attribute data linked to spatial features
 
 > Practical Objectives
 
--   Move data from Autodesk to ArcGIS Pro and vice versa
--   Export data from GIS to Adobe Suite of design applications
--   Plot latitude/longitude data from csv in a GIS
--   Export vector data to csv or json
--   Review of geocoding (from week 4)
--   Review of georeferencing (from week 4)
+-   Obtain vector data with an identified aggregation goal
+-   Perform one or more vector manipulations
+-   Visualize and interpret the results
+-   Spatial join with two or more data layers
 
 >  [slide deck](slides/slides070.html){:target="\_blank"}  
 
@@ -292,30 +291,26 @@ The midterm exam will take no longer than 45 minutes. It will be followed by an 
 
 >  [slide deck](slides/slides080.html){:target="\_blank"}  
 
-*__Week 9 (Oct. 18):__ Real Estate Mapping and Structured Query Language (SQL)*  
+*__Week 9 (Oct. 18):__ Data Modeling and GIS in Urban Design*
 
-Explore GIS for real estate: data sources, common issues, and online systems. Use this context for learning about SQL queries. It is likely that we will have a guest speaker, Jennifer Posner, Sr. Program Manager of the University of Miami Office for Civic Engagement (to be confirmed). Jennifer will provide insight into real estate and planning issues and problems from experience in both New York and Miami.
+Explore theoretical data modeling and how it can be applied to resilience thinking in urban contexts. Explore the use of GIS in urban planning through guest lecture from Jennifer Posner, Sr. Program Manager of the University of Miami Office for Civic Engagement. Jennifer will provide insight into real estate and planning issues and problems from experience in both New York and Miami.\
 
 [//]: # (*Guest speaker* on geospatial data and Real Estate mapping: Elizabeth Plater-Zyberk.)
 
 > Learning Objectives
 
--   Explore GIS and Real Estate Mapping
--   Introduce historical practices (eg. Sanborn maps)
--   Understand common attribute data linked to both parcel and building data
--   Know basic syntax for SQL queries
+-   Understand basic components of data modeling
+-   Gain insight from experience with GIS in urban planning
 
 > Practical Objectives
 
--   Perform SQL query with geospatial data
--   Create buffers around geospatial features
--   Use ESRI ArcGIS online tools to create travel time maps
+-   Create a data model for the final project
 
 [//]: # (>  Assigned Reading:)
 
 [//]: # (-   [ Something from Elizabeth? ])
 
->  [slide deck](slides/slides090.html){:target="\_blank"}  
+[//]: # (>  [slide deck](slides/slides090.html{:target="\_blank"})  
 
 *__Week 10 (Oct. 25):__ Sea Level Rise and Raster Math in GIS*  
 
@@ -350,7 +345,7 @@ Determine geographic areas that meet several criteria by using raster math to co
 
 *__Week 11 (Nov. 1):__ Environmental Justice and Vector Analysis in GIS*  
 
-Determine geographical areas that meet several criteria using vector based operations to combine multiple vector layers that represent individual criteria. An environmental justice example based on social vulnerabilities and resilience in the face of climate change will be used to illustrate these processes. It is likely that we will have a guest speaker, Abigail Flemming, from the University of Miami Environmental Justice Clinic (to be confirmed). Abigail will provide insight into how maps and data can be used to better understand problems of vulnerability, displacement, and social justice.
+Determine geographical areas that meet several criteria using vector based operations to combine multiple vector layers that represent individual criteria. An environmental justice example based on social vulnerabilities and resilience in the face of climate change will be used to illustrate these processes. Abigail Flemming, from the University of Miami Environmental Justice Clinic will visit as a guest speaker and provide insight into how maps and data can be used to better understand problems of vulnerability, displacement, and social justice.
 
 [//]: # (An alternative example will use vector-based GIS analysis to identify potential site locations for marijuana dispensaries in San Francisco.)
 
@@ -358,15 +353,30 @@ Determine geographical areas that meet several criteria using vector based opera
 
 > Learning Objectives
 
--   Understand intersect, merge, and dissolve as primary vector aggregation tools
--   Describe different approaches for aggregating attribute data linked to spatial features
+-   Understand basic geospatial data structures and formats used for data transfer/sharing
+-   Maintain projection awareness for the transfer of geospatial data between applications
 
 > Practical Objectives
 
--   Obtain vector data with an identified aggregation goal
--   Perform one or more vector manipulations
--   Visualize and interpret the results
--   Spatial join with two or more data layers
+-   Move data from Autodesk to ArcGIS Pro and vice versa
+-   Export data from GIS to Adobe Suite of design applications
+-   Plot latitude/longitude data from csv in a GIS
+-   Export vector data to csv or json
+-   Review of geocoding (from week 4)
+-   Review of georeferencing (from week 4)
+
+> Learning Objectives
+
+-   Explore GIS and Real Estate Mapping
+-   Introduce historical practices (eg. Sanborn maps)
+-   Understand common attribute data linked to both parcel and building data
+-   Know basic syntax for SQL queries
+
+> Practical Objectives
+
+-   Perform SQL query with geospatial data
+-   Create buffers around geospatial features
+-   Use ESRI ArcGIS online tools to create travel time maps
 
 >  Assigned Reading:
 
@@ -382,7 +392,7 @@ Determine geographical areas that meet several criteria using vector based opera
 
 *__Week 12 (Nov. 8):__ Maps as Stories: Urban Sustainability and Resilience*  
 
-Explore how map images tell stories of urban sustainability and resilience with beginning, middle, and end, and how maps provide indices to elements of the story. Consider the relationships between map and space, map and place, and map and territory; how does one create the other and vice-versa. Consider how maps are a part of broader social contexts and how they cannot stand alone. A picture may be worth a thousand words, but a thousand words plus a picture (map) is worth a lot more.
+Explore how map images tell stories of urban sustainability and resilience with beginning, middle, and end, and how maps provide indices to elements of the story. Consider the relationships between map and space, map and place, and map and territory; how does one create the other and vice-versa. Consider how maps are a part of broader social contexts and how they cannot stand alone. A picture may be worth a thousand words, but a thousand words plus a picture (map) is worth a lot more. We are pleased to welcome Christian Kamrath from the Miami-Dade County to share how the county uses GIS and cartographic data assets in their resilience office.
 
 [//]: # (emphasize sustainability and resilience more? On the other hand, shorten and make more about drone surveys, point clouds, and the process of getting a drone survey into a GIS)
 
@@ -396,8 +406,8 @@ Explore how map images tell stories of urban sustainability and resilience with 
 
 > Practical Objectives
 
--   Complete online story map
--   Complete layout for printed map with all map elements
+[//]: # (-   Complete online story map)
+[//]: # (-   Complete layout for printed map with all map elements)
 -   Critique static maps for storytelling effectiveness
 -   Refine stories for final project presentations  
 
@@ -417,7 +427,9 @@ Explore how map images tell stories of urban sustainability and resilience with 
 
 *__Week 13 (Nov. 15):__ GIS and Mapping in Miami-Dade County and Oakland CA*
 
-Explore how GIS is used by government agencies and urban planners to plan for urban sustainability and resilience. We are pleased to welcome Christian Kamrath from the Miami-Dade County to share how the county uses GIS and cartographic data assets in their resilience office. The use of maps in the 2019 Downtown Oakland Specific Plan will be reviewed and critiqued.
+Explore how common geospatial data structures can serve in a variety of applications and computing environments. Moving data between applications and formats.
+
+Explore how GIS is used by government agencies and urban planners to plan for urban sustainability and resilience. The use of maps in the 2019 Downtown Oakland Specific Plan will be reviewed and critiqued.
 
 [//]: # (Do we need to teach to this more? The style of mapping)
 
@@ -477,3 +489,8 @@ Students will have 10 minutes (strict) to give a formal presentation of their fi
 
 
 ---
+
+
+Real Estate Mapping and Structured Query Language (SQL)*  
+
+Explore GIS for real estate: data sources, common issues, and online systems. Use this context for learning about SQL queries. It is likely that we will have a guest speaker, Jennifer Posner, Sr. Program Manager of the University of Miami Office for Civic Engagement (to be confirmed). Jennifer will provide insight into real estate and planning issues and problems from experience in both New York and Miami.
