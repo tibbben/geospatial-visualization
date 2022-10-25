@@ -401,6 +401,11 @@ Explore how map images tell stories of urban sustainability and resilience with 
 
 >  Assigned Reading:
 
+-   Be familiar with:
+  -   [Planning for Sea Level Rise in the
+Little River Adaptation Action Area](https://adaptation-action-area-in-little-river-mdc.hub.arcgis.com)
+  -   Little River Adaptation Action Area (in box folder Readings/ADAPTATION_PLAN_JANUARY_2022.pdf)
+  -   [Miami-Dade Flooding Vulnerability Viewer](https://gisweb.miamidade.gov/vulnerabilityviewer/)
 -   *Making Maps* (Krygier & Wood, 2016)
   -   chapter 6: The Inner Workings of Map Design. pp. 140 - 155.
 
@@ -413,11 +418,9 @@ Explore how map images tell stories of urban sustainability and resilience with 
 >  [HW example #1](slides/slides120_sampleHWpresentation01.html){:target="\_blank"}  
 >  [HW example #2](slides/slides120_sampleHWpresentation02.html){:target="\_blank"}  
 
-*__Week 13 (Nov. 15):__ GIS and Mapping in Miami-Dade County and Oakland CA*
+*__Week 13 (Nov. 15):__ GIS and Mapping in Oakland CA*
 
-Explore how common geospatial data structures can serve in a variety of applications and computing environments. Moving data between applications and formats.
-
-Explore how GIS is used by government agencies and urban planners to plan for urban sustainability and resilience. The use of maps in the 2019 Downtown Oakland Specific Plan will be reviewed and critiqued.
+Explore how common geospatial data structures can serve in a variety of applications and computing environments. Moving data between applications and formats. Explore how GIS is used by government agencies and urban planners to plan for urban sustainability and resilience. The use of maps in the 2019 Downtown Oakland Specific Plan will be reviewed and critiqued.
 
 [//]: # (Do we need to teach to this more? The style of mapping)
 
@@ -451,7 +454,7 @@ Explore how GIS is used by government agencies and urban planners to plan for ur
 
 *__Week 14 (Nov. 29):__ Student Project Review*  
 
-Class will be an opportunity for students to present their course work and receive constructive criticism from the other students and instructors. If time is available, students will have the opportunity to work on final projects with the instructors present.
+Class will be an opportunity for students to present their course work and receive constructive criticism from the other students and instructors. If time is available, students will have the opportunity to work on final projects with the instructors present. We are pleased to welcome Bertrand Dano from the School of Engineering who will share his use of GIS in 3D modeling with Blender.
 
 >  Optional Reading:
 
