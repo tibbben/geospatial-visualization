@@ -16,7 +16,7 @@
 
                 <div style="position: absolute; left: 120px; top: 40px; font-size: 150%; line-height: 100%; color: #000 !important; text-align: left;text-shadow: 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff;"><strong>Geospatial<br>  Visualization</strong></div>
 
-                <div style="position: absolute; left: 300px; top: 220px; font-size: 90%; color: #000 !important;text-align: right;text-shadow: 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff;;">School of Architecture<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
+                <div style="position: absolute; left: 300px; top: 220px; font-size: 90%; color: #000 !important;text-align: right;text-shadow: 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff;">School of Architecture<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
                 
                 <div style="position: absolute; left: 500px; top: 400px; font-size: 50%; text-align: left; color: #000 !important; line-height: 145%;text-shadow: 0px 0px 7px #fff, 0px 0px 7px #fff, 0px 0px 7px #fff, 0px 0px 7px #fff,0px 0px 7px #fff, 0px 0px 7px #fff, 0px 0px 13px #fff;">Dr. Timothy Norris : <a href="mailto:tnorris@miami.edu" style="color: #000 !important;">tnorris@miami.edu</a><br>Christopher Mader : <a href="mailto:cmader@med.miami.edu" style="color: #000 !important;">cmader@med.miami.edu</a></div>
                 
@@ -24,231 +24,273 @@
 
               </section>
 
-        <section>
-
-          <section data-transition="fade">
-            <div class="template-title">Thinking about 3D GIS terrain data</div>
-            <div>
-              <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
-                <li style="margin: 23px 0px 0px 0px;">The surface of the earth
-                  <ul style="font-size: 80%;">
-                    <li style="margin-top: 13px;">Raster format<br>
-                      <i>Digital Elevation Models (DEM)</i><br>
-                      <i>Digital Surface Models (DSM)</i>
-                    </li>
-                    <li style="margin-top: 13px;">Triangular Irregular Networks (TINs)<br>
-                      <i>Vector format</i><br>
-                      <i>Vertices (x,y,z) and triangles</i><br>
-                      <i>similar to mesh</i>
-                    </li>
-                    <li style="margin-top: 13px;">Contours</li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="template-title">Thinking about 3D GIS feature data</div>
-            <div>
-              <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
-                <li style="margin: 23px 0px 0px 0px;">z-values
-                  <ul style="font-size: 80%;">
-                    <li style="margin-top: 13px;">Vector format</li>
-                    <li style="margin-top: 13px;">polygons and extrusion<br>
-                        <i>for example: building footprints and heights</i>
-                    </li>
-                    <li style="margin-top: 13px;">point clouds (x,y,z)</li>
-                    <li style="margin-top: 13px;">any kind of elevation information<br>
-                      <i>both above and below the earth's surface</i>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="template-title">Thinking about 3D Object data</div>
-            <div>
-              <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
-                <li style="margin: 23px 0px 0px 0px;">Meshes
-                  <ul style="font-size: 80%;">
-                    <li>Like TINs, but can be closed</li>
-                  </ul>
-                </li>
-                <li style="margin: 23px 0px 0px 0px;">Models
-                  <ul style="font-size: 80%;">
-                    <li>Vertices</li>
-                    <li>Faces</li>
-                    <li>Materials and texture maps</li>
-                    <li>Procedural surfaces</li>
-                  </ul>
-                </li>
-                <li style="margin: 23px 0px 0px 0px;">Almost never has geographical coordinates!!</li>
-              </ul>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="template-title">Imports and Exports (3D design)</div>
-            <div>
-              <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
-                <li style="margin: 23px 0px 0px 0px;">GIS to 3D design
-                  <ul style="font-size: 80%;">
-                    <li>Geographic coordinates are lost<br>
-                      <i>almost always</i>
-                    </li>
-                    <li>Layer information is lost</li>
-                  </ul>
-                </li>
-                <li style="margin: 23px 0px 0px 0px;">3D Design to GIS
-                  <ul style="font-size: 80%;">
-                    <li>Materials and procedural textures are lost<br>
-                      <i>almost always</i>
-                    </li>
-                    <li>BIM information is lost</li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-        </section>
-
-        <section>
-
-          <section data-background-image="../common/assets/images/lasFlores-01-smithsonianSketch.jpg" data-background-size="fill" data-transition="fade">
-
-            <div style="position: absolute; left: 150px; top: 250px; font-size: 150%; line-height: 100%; color: #000 !important; text-align: left; text-shadow: 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee;"><strong>Moving data between applications</strong></div>
-
-          </section>
-
-          <section data-background-image="../common/assets/images/lasFlores-01-smithsonianSketch.jpg" data-background-size="fill" data-transition="fade"></section>
-
-        </section>
-
-        <section>
-
-          <section data-transition="fade">
-            <div class="template-title">ESRI File Formats of Common 3D Design Packages</div>
-            <div>
-              <ul style="font-size: 0.9em; margin: 23px 0px 0px 0px;">
-                <li style="margin: 23px 0px 0px 0px;"><a href="https://doc.arcgis.com/en/cityengine/latest/help/help-export-models-overview.htm" target="_blank">ArcGIS City Engine Exports</a></li>
-                <li style="margin: 23px 0px 0px 0px;"><a href="https://doc.arcgis.com/en/cityengine/latest/help/help-import-data-overview.htm" target="_blank">ArcGIS City Engine Imports</a></li>
-                <li style="margin: 23px 0px 0px 0px;"><a href="https://pro.arcgis.com/en/pro-app/latest/help/data/cad/supported-cad-formats-in-arcgis.htm" target="_blank">AutoCad read/write in ArcGIS Pro</a></li>
-              </ul>
-              <div style="margin-top: 42px; font-size: 1em;">Take a look at the <a href="https://doc.arcgis.com/en/cityengine/latest/help/help-esri-lib-webstyles.htm">ESRI Content Library</a></div>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="template-title">Common 3D Design Package Formats</div>
-            <div>
-              <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
-                <li style="margin: 23px 0px 0px 0px;"><a href="https://www.rhino3d.com/features/file-formats/" target="_blank">Rhino</a></li>
-                <li style="margin: 23px 0px 0px 0px;"><a href="https://support.sketchup.com/s/article/What-file-types-can-I-import-export-with-the-SketchUp-Pro-subscription" target="_blank">Sketch-up Pro</a></li>
-                <li style="margin: 23px 0px 0px 0px;"><a href="https://resources.imaginit.com/building-solutions-blog/autodesk-to-twinmotion-preferred-and-accepted-file-formats">Twin Motion (?)</a></li>
-              </ul>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="um-template-container">
-              <div class="um-template-header"></div>
-              <div class="um-template-content-containter" style="font-size: 1.2em">
-
-                <div class="um-template-content" style="max-width: 95%; width: 95%;">
-                  <div class="um-template-title">3D Common Formats and Keywords</div>
-                  <div style="font-size: 0.7em; display: inline-block; line-height: 1.2em; margin-top: 42px">
-                    <div style="float: left">
-                      <div class="um-template-title" style="font-size: .6em">Formats</div>
-                      <div style="float: left;">
-                        <div style="float:left; margin-left: 42px;">
-                          <ul style="font-size: 0.85em;">
-                            <li><a href="https://github.com/KhronosGroup/OpenCOLLADA">DAE</a> (COLLADA)</li>
-                            <li><a href="https://github.com/KhronosGroup/glTF">glTF</a></li>
-                            <li><a herf="https://www.loc.gov/preservation/digital/formats/fdd/fdd000507.shtml">OBJ</a></li>
-                            <li><a href="http://paulbourke.net/dataformats/ply/">PLY</a></li>
-                            <li>SKP</li>
-                            <li><a href="https://code.blender.org/2013/08/fbx-binary-file-format-specification/">FBX</a></li>
-                            <li><a href="https://www.loc.gov/preservation/digital/formats/fdd/fdd000504.shtml">STL</a></li>
+              <section data-transition="fade">
+                <div class="template-title">SQL and Environmental/Social Justice (?)</div>
+                <div style="max-width: 90%; margin: 0px auto; display: inline-block;">
+                  <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                    <li style="margin: 23px 0px 0px 0px;">Today' Outline
+                      <ul style="font-size: 80%;">
+                        <li style="margin-top: 13px;">Abigail Fleming<br>
+                          <ul style="list-style-type: '- '; margin-left: -1em; font-style: italic">
+                            <li>Environmental/Social Justice and GIS</li>
+                            <li>University of Miami Environmental Justice Clinic, School of Law</li>
                           </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div style="float: left; margin-left: 180px;">
-                      <div class="um-template-title" style="font-size: .6em">Keywords</div>
-                      <ul>
-                        <li>mesh</li>
-                        <li>vertices</li>
-                        <li>faces</li>
-                        <li>DEM</li>
-                        <li>DSM</li>
-                        <li>normals</li>
-                        <li>textures</li>
+                        </li>
+                        <li style="margin-top: 13px;">Structured Query Language (SQL)<br>
+                          <ul style="list-style-type: '- '; margin-left: -1em; font-style: italic">
+                            <li>Relational Database Management Systems (RDBMS)</li>
+                            <li>Joins: attribute and spatial</li>
+                            <li>Select, Transform, Save</li>
+                          </ul>
+                        </li>
+                        <li style="margin-top: 13px;">Overlay Tools<br>
+                          <i>- Vector layer overlays</i><br>
+                          <i>- Clipping</i>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="template-citation" style="margin-top: -42px !important;"></div>
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Structured Query Language (SQL)</div>
+                  <div style="max-width: 80%; margin: 0px auto; display: inline-block;">
+                    <img src="../common/assets/images/sql_join.png" style="max-height: 600px;"><br>
+                    <ul style="font-size: 80%; margin: 0px 0px 0px 0px;">
+                      <li style="margin: 0px 0px 0px 0px;">The Join: Relational and Spatial<br>
+                        <p style="font-size: 0.85em;">The “Join” is a concept from the world of Relational Databases, SQL and set theory, but the term is used generally to talk about combining data from one or more entities based on the relationship between those entities. In the land of Relational Databases a Join is the intersection between two sets (tables/entities).</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: -42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Relational Join (attribute based)</div>
+                  <div style="max-width: 80%; margin: 0px auto; display: inline-block;">
+                    <img src="../common/assets/images/sql_join.png" style="max-height: 600px;"><br>
+                    <ul style="font-size: 80%; margin: 0px 0px 0px 0px;">
+                      <li style="margin: 0px 0px 0px 0px;"><b>SQL - Structured Query Language</b><br>
+                        <p style="font-size: 0.85em;">Widely used even outside the world of strictly “relational” databases.  Created to operate on Relational Databases to retrieve and manipulate data.<br><br>SQL is often used for data analytic purposes  - to aggregate values, sort, group, etc.</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: -42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">SQL</div>
+                  <div style="max-width: 80%; margin: 0px auto; display: inline-block;">
+                    <img src="../common/assets/images/sql_join.png" style="max-height: 600px;"><br>
+                    <pre style="font-size: 0.75em; line-height: 1.6em; padding: 13px;"><b>SELECT</b> watch_warning.extent, watch_warning.type<br><b>FROM</b> hurricane, advisory, watch_warning<br><b>WHERE</b> hurricane.name = “Ian”<br><b>AND</b> hurricane.h_id = advisory.h_id<br><b>AND</b> advisory.ad_id = watch_warning.ad_id</pre>
+                  </div>
+                  <div class="template-citation" style="margin-top: -42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">SQL</div>
+                  <div style="max-width: 80%; margin: 0px auto; display: inline-block;">
+                    <img src="../common/assets/images/sql_join.png" style="max-height: 600px;"><br>
+                    <pre style="font-size: 0.75em; line-height: 1.6em; padding: 13px;"><b>SELECT</b> watch_warning.type, <b>COUNT(*)</b><br><b>FROM</b> hurricane, advisory, watch_warning<br><b>WHERE</b> hurricane.name = “Ian”<br><b>AND</b> hurricane.h_id = advisory.h_id<br><b>AND</b> advisory.ad_id = watch_warning.ad_id<br><b>GROUP</b> BY watch_warning.type</pre>
+                  </div>
+                  <div class="template-citation" style="margin-top: -42px !important;"></div>
+                  <pre class="fragment" style="position: absolute; top: 380px; right: 50px; font-size: 0.6em; font-family: arial; background-color: #fff; padding: 13px; width: 320px;">TROP STORM WATCH, 2<br>HURRICANE WATCH, 5<br>TROP STORM WARNING, 1<br>HURRICANE WARNING, 10</pre>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Spatial Join</div>
+                  <div style="max-width: 80%; margin: 0px auto; display: inline-block;">
+                    <img src="../common/assets/images/sql_join.png">
+                    <p style="font-size: 0.85em; margin-top: 0px !important">Analogous to a relational Join, but uses spatial attributes to accomplish the Join. GIS facilitates this kind of Join.</p>
+                    <img src="../common/assets/images/sql_spatialjoin.png" style="max-width: 1350px; width: 1350px; margin-left: -140px"><br>
+                  </div>
+                  <div class="template-citation" style="margin-top: -42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Spatial Join</div>
+                  <div style="max-width: 80%; margin: 0px auto; display: inline-block;">
+                    <img src="../common/assets/images/sql_spatialjoin.png" style="max-width: 1350px; width: 1350px; margin-left: -140px"><br>
+                    <pre style="font-size: 0.75em; line-height: 1.6em; padding: 13px;"><b>SELECT</b> watch_warning.type, <b>COUNT(*)</b><br><b>FROM</b> hurricane, advisory, watch_warning<br><b>WHERE</b> hurricane.name = “Ian”<br><b>AND</b> hurricane.h_id = advisory.h_id<br><b>AND</b> advisory.ad_id = watch_warning.ad_id<br><b>AND st_within</b>(city.postion, watch_warning.extent)<br><b>GROUP</b> BY watch_warning.type</pre>
+                  </div>
+                  <div class="template-citation" style="margin-top: -42px !important;"></div>
+                  <pre class="fragment" style="position: absolute; top: 380px; right: 50px; font-size: 0.6em; font-family: arial; background-color: #fff; padding: 13px; width: 320px;">TROP STORM WATCH, 1<br>HURRICANE WATCH, 1<br>TROP STORM WARNING, 1<br>HURRICANE WARNING, 2</pre>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Vector Data Overlays</div>
+                  <div style="max-width: 80%; margin: 0px auto; display: inline-block;">
+                    <div style="float:left; margin-right: 120px;">
+                      <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                        <li style="margin: 23px 0px 0px 0px;">Data Structures: Connection and Transformation
+                          <ul style="font-size: 80%;">
+                            <li style="margin-top: 13px;">Overlay tools<br>
+                              <ul style="list-style-type: '- '; margin-left: -1em; font-style: italic">
+                                <li><b>Intersect</b></li>
+                                <li><b>Union</b></li>
+                                <li><b>Subtract</b></li>
+                                <li style="margin-top: 13px;">Symmetric Difference</li>
+                                <li>Identity</li>
+                                <li>Cover</li>
+                              </ul>
+                            </li>
+                            <li style="margin-top: 13px;"><b>Clipping</b><br>
+                              <i>- Sub-setting data with polygons</i><br>
+                              <i>- Raster or vector</i>
+                            </li>
+                          </ul>
+                        </li>
                       </ul>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>              
-          </section>
-
-        </section>
-
-        <!-- <section>
-
-          <section data-transition="fade">
-            <div class="um-template-container">
-              <div class="um-template-header"></div>
-              <div class="um-template-content-containter" style="font-size: 1.2em">
-
-                <div class="um-template-content" style="max-width: 95%; width: 95%;">
-                  <div class="um-template-title">Common Import/Export Formats for 2D GIS Data</div>
-                  <div style="font-size: 0.7em; display: inline-block; line-height: 1.2em; margin-top: 42px">
-                    <div style="float: left">
-                      <div style="float: left;">
-                        <ul>
-                          <li>Line Drawing (vector)
-                            <ul style="font-size: 0.85em;">
-                              <li>DWG (AutoCAD)</li>
-                              <li>SVG (scaleable vector graphic)</li>
-                              <li>AI (Adobe Illustrator)</li>
-                              <li>PDF (Adobe Portable Document Format)
-                              <li>OSM (Open Street Map)</li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </div>
-                      <div style="float: left; margin-left: 100px;">
-                        <ul>
-                          <li>Images and Surfaces (raster)
-                            <ul style="font-size: 0.85em;">
-                              <li>DEM (Digital Elevation Model)</li>
-                              <li>PSD (Adobe Photoshop)</li>
-                              <li>PNG (Portable Network Graphic)</li>
-                              <li>JPG or JPEG (Joint Photographic Experts Group) </li>
-                              <li>TIFF or geoTIFF (Tagged Image File Format)</li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </div>
+                    <div style="float: right;">
+                      <img src="../common/assets/images/Overlay_wikiGIS.png" style="max-height: 600px;">
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>              
-          </section>
+                  <div class="template-citation" style="margin-top: -42px !important;">image credit: Overlay. <a href="http://wiki.gis.com/wiki/index.php/Overlay">wiki.GIS.com</a></div>
+                </section>
 
-        </section> -->
-				
+                <section data-transition="fade">
+                  <div class="template-title">Intersection of Two Vector Layers</div>
+                  <div>
+                    <ul style="font-size: 60%;">
+                      <li style="margin-top: 13px;">Only geometries and attributes that overlap are preserved<br>
+                        <i>- Attributes from both layers copied to new feature</i><br>
+                        <i>- Output geometry is lowest dimension of input geometries</i>
+                      </li>
+                      <li style="margin-top: 13px;"><b>Ratio</b> (ArcGIS) or <b>Overlap</b> (QGIS) analysis<br>
+                        <i>- Attributes calculated as percentage of original area for each new polygon</i><br>
+                        <img src ="../common/assets/images/ArcGISIntersect-web.gif">
+                      </li>
+                      <li>Two rectangles in one layer and one circle in second layer<br>
+                        <i>- Three features in two layers to begin</i><br>
+                        <i>- Two features in one layer as a result</i>
+                      </li>
+                      <li style="margin-top: 13px;">Similar to logical <b>AND</b></li>      
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">Intersect (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/intersect.htm">ArcGIS Pro Help</a>.Calculating percentage of overlap of two layers in QGIS 3. <a href="https://gis.stackexchange.com/questions/339929/calculating-percentage-of-overlap-of-two-layers-in-qgis-3">GIS StackExchange</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Union of Two Vector Layers</div>
+                  <div>
+                    <ul style="font-size: 60%;">
+                      <li style="margin-top: 13px;">All geometries and attributes preserved<br>
+                        <i>- FID's are labelled according to layer names</i><br>
+                        <i>- All features are of original size or smaller (never larger)</i>
+                      </li>
+                      <li style="margin-top: 13px;"><b>Ratio</b> (ArcGIS) or <b>Overlap</b> (QGIS) analysis<br>
+                        <i>- Attributes calculated as percentage of original area for each new polygon</i><br>
+                        <img src ="../common/assets/images/ArcGISUnion-web.gif">
+                      </li>
+                      <li>Two rectangles in one layer and one circle in second layer<br>
+                        <i>- Three features in two layers to begin</i><br>
+                        <i>- Five features in one layer as a result</i>
+                      </li>
+                      <li style="margin-top: 13px;">Similar to logical <b>OR</b></li>      
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">Union (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/union.htm">ArcGIS Pro Help</a>.<br>Overlay. <a href="http://wiki.gis.com/wiki/index.php/Overlay">wiki.GIS.com</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Erase (Subtract) of Two Vector Layers</div>
+                  <div>
+                    <ul style="font-size: 60%;">
+                      <li style="margin-top: 13px;">Only geometries and attributes from input preserved<br>
+                        <i>- All features are of original size or smaller (never larger)</i>
+                      </li>
+                      <li style="margin-top: 13px;"><b>Ratio</b> (ArcGIS) or <b>Overlap</b> (QGIS) analysis<br>
+                        <i>- Attributes calculated as percentage of original area for each new polygon</i><br>
+                        <img src ="../common/assets/images/ArcGISErase-web.gif">
+                      </li>
+                      <li>Four polygons one layer and one square in second layer<br>
+                        <i>- Five features in two layers to begin</i><br>
+                        <i>- Four features in one layer as a result (with multipart)</i>
+                      </li>
+                      <li style="margin-top: 13px;">Similar to logical <b>AND NOT</b></li>      
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">Erase (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/erase.htm">ArcGIS Pro Help</a>.</div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Less common Operations on Two Vector Layers</div>
+                  <div style="max-width: 90%; margin: 0px auto; display: inline-block;">
+                    <div style="max-width: 70%; float: left;">
+                      <ul style="font-size: 60%;">
+                        <li style="margin-top: 13px;">Symmetric Difference<br>
+                          <i>- All geometries and attributes that do not co-exist are preserved</i><br>
+                          <i>- Similar to logical <b>XOR</b></i><br>
+                          <i>- (A union B) subtract (A intersect B)</i>
+                        </li>
+                        <li style="margin-top: 35px;">Identity<br>
+                          <i>- Extent of input with geometry and attributes from both layers merged</i><br>
+                          <i>- (A subtract B) union (A intersect B)</i>
+                        </li>
+                        <li style="margin-top: 65px;">Cover or Update<br>
+                          <i>- Similar to union in extent, but only preserves input geometry and attributes if feature not in update, otherwise copies update attributes to new geometry</i><br>
+                          <i>- A union (B subtract A)</i>
+                        </li>   
+                      </ul>
+                    </div>
+                    <div style="float: right;">
+                      <img src="../common/assets/images/ArcMapSD-web.gif" style="max-height: 120px;"><br>
+                      <img src="../common/assets/images/ArcGISIdentity-web.gif" style="max-height: 140px;"><br>
+                      <img src="../common/assets/images/ArcGISUpdate-web.gif" style="max-height: 140px;">
+                    </div>
+                  </div>
+                  <div class="template-citation">Overlay. <a href="http://wiki.gis.com/wiki/index.php/Overlay">wiki.GIS.com</a><br>Identity (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/identity.htm">ArcGIS Pro Help.</a><br>Update (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/update.htm">ArGIS Pro Help</a><br>Symmetrical Difference. <a href="https://desktop.arcgis.com/en/arcmap/10.3/tools/analysis-toolbox/symmetrical-difference.htm">ArcMap Help</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Clip Vector with Vector (crop)</div>
+                  <div>
+                    <ul style="font-size: 60%;">
+                      <li style="margin-top: 13px;">Only geometries and attributes from input preserved<br>
+                        <i>- All features are of original size or smaller (never larger)</i>
+                      </li>
+                      <li style="margin-top: 13px;">Both input and clip features can be points lines or polygons<br>
+                        <i>- Be careful of unexpected results</i><br>
+                        <img src ="../common/assets/images/ArcGISClip-web.png">
+                      </li>
+                      <li>Four polygons and two points in one layer and one circle in clip layer<br>
+                        <i>- Seven features in two layers to begin</i><br>
+                        <i>- Four features in one layer as a result (with multi geometries)</i>
+                      </li>     
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">Clipping line layer based on polygons with QGIS? <a href="https://gis.stackexchange.com/questions/78835/clipping-line-layer-based-on-polygons-with-qgis">GIS StackExchange</a>.<br>Clip (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/clip.htm">ArcGIS Pro Help</a>.</div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Clip Raster with Vector</div>
+                  <div>
+                    <ul style="font-size: 60%;">
+                      <li style="margin-top: 13px;">Must use one vector feature to clip
+                      </li>
+                      <li style="margin-top: 13px;">Make sure projections are the same<br>
+                        <i>- It will function across projections, but makes computer work harder</i><br>
+                        <img src ="../common/assets/images/ArcGISClip-web.gif">
+                      </li>
+                      <li>Does not have to be rectangle<br>
+                        <i>- Hence not "crop"</i><br>
+                        <img src="../common/assets/images/QGISClip.png" style="margin-top: -100px; margin-left: 320px;"></li>      
+                    </ul>
+                  </div>
+                  <div class="template-citation">Clip Raster (Data Management). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/clip.htm">ArcGIS Pro Help</a>.<br>Clipping raster with vector boundaries using QGIS. <a href="https://gis.stackexchange.com/questions/10117/clipping-raster-with-vector-boundaries-using-qgis">GIS StackExchange</a>.</div>
+                </section>
+
+              </section> 
+
             </div>
         </div>
         <script src="../common/java/reveal.js"></script>

@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../common/css/reveal.css">
+        <link rel="stylesheet" href="../common/css/white.css">
+        <link rel="stylesheet" href="../common/css/overrides.css">
+	    <script src="../common/java/print.js"></script>
+        <title>Geospatial Visualization - 14</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+
+              <section data-background-image="../common/assets/images/moistureFig3.jpeg" data-background-size="contain" data-background-color="#000">
+
+                <div style="position: absolute; left: 0px; top: 180px; font-size: 150%; line-height: 100%; color: #222 !important; text-align: left;text-shadow: 0px 0px 13px #fd9, 0px 0px 13px #fd9, 0px 0px 13px #fd9, 0px 0px 13px #fd9,0px 0px 13px #fd9;"><strong>Geospatial<br>  Visualization</strong></div>
+
+                <div style="position: absolute; left: 650px; top: 300px; font-size: 90%; color: #222 !important;text-align: right; text-shadow: 0px 0px 13px #fd9, 0px 0px 13px #fd9, 0px 0px 13px #fd9, 0px 0px 13px #fd9,0px 0px 13px #fd9, 0px 0px 13px #fd9, 0px 0px 13px #fd9;">School of Architecture<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
+                
+                <div style="position: absolute; left: 620px; top: 400px; font-size: 50%; text-align: left; color: #222 !important; line-height: 145%; text-shadow: 0px 0px 7px #fd9, 0px 0px 7px #fd9, 0px 0px 7px #fd9, 0px 0px 7px #fd9,0px 0px 7px #fd9, 0px 0px 7px #fd9, 0px 0px 13px #fd9;">Dr. Timothy Norris : <a href="mailto:tnorris@miami.edu" style="color: #222 !important;">tnorris@miami.edu</a><br>Christopher Mader : <a href="mailto:cmader@med.miami.edu" style="color: #222 !important;">cmader@med.miami.edu</a></div>
+                
+                <div style="position: absolute; left: 0px; top: 550px; font-size: 40%; text-align: right; color: #555; width: 280px;"></div>
+
+              </section>
+
+            <section>
+
+              <section data-transition="fade">
+                <div class="template-title">Thinking about 3D GIS terrain data</div>
+                <div>
+                  <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                    <li style="margin: 23px 0px 0px 0px;">The surface of the earth
+                      <ul style="font-size: 80%;">
+                        <li style="margin-top: 13px;">Raster format<br>
+                          <i>Digital Elevation Models (DEM)</i><br>
+                          <i>Digital Surface Models (DSM)</i>
+                        </li>
+                        <li style="margin-top: 13px;">Triangular Irregular Networks (TINs)<br>
+                          <i>Vector format</i><br>
+                          <i>Vertices (x,y,z) and triangles</i><br>
+                          <i>similar to mesh</i>
+                        </li>
+                        <li style="margin-top: 13px;">Contours</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="template-citation" style="margin-top: 42px !important;"></div>
+              </section>
+
+              <section data-transition="fade">
+                <div class="template-title">Thinking about 3D GIS feature data</div>
+                <div>
+                  <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                    <li style="margin: 23px 0px 0px 0px;">z-values
+                      <ul style="font-size: 80%;">
+                        <li style="margin-top: 13px;">Vector format</li>
+                        <li style="margin-top: 13px;">polygons and extrusion<br>
+                            <i>for example: building footprints and heights</i>
+                        </li>
+                        <li style="margin-top: 13px;">point clouds (x,y,z)</li>
+                        <li style="margin-top: 13px;">any kind of elevation information<br>
+                          <i>both above and below the earth's surface</i>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="template-citation" style="margin-top: 42px !important;"></div>
+              </section>
+
+              <section data-transition="fade">
+                <div class="template-title">Thinking about 3D Object data</div>
+                <div>
+                  <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                    <li style="margin: 23px 0px 0px 0px;">Meshes
+                      <ul style="font-size: 80%;">
+                        <li>Like TINs, but can be closed</li>
+                      </ul>
+                    </li>
+                    <li style="margin: 23px 0px 0px 0px;">Models
+                      <ul style="font-size: 80%;">
+                        <li>Vertices</li>
+                        <li>Faces</li>
+                        <li>Materials and texture maps</li>
+                        <li>Procedural surfaces</li>
+                      </ul>
+                    </li>
+                    <li style="margin: 23px 0px 0px 0px;">Almost never has geographical coordinates!!</li>
+                  </ul>
+                </div>
+                <div class="template-citation" style="margin-top: 42px !important;"></div>
+              </section>
+
+              <section data-transition="fade">
+                <div class="template-title">Imports and Exports (3D design)</div>
+                <div>
+                  <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                    <li style="margin: 23px 0px 0px 0px;">GIS to 3D design
+                      <ul style="font-size: 80%;">
+                        <li>Geographic coordinates are lost<br>
+                          <i>almost always</i>
+                        </li>
+                        <li>Layer information is lost</li>
+                      </ul>
+                    </li>
+                    <li style="margin: 23px 0px 0px 0px;">3D Design to GIS
+                      <ul style="font-size: 80%;">
+                        <li>Materials and procedural textures are lost<br>
+                          <i>almost always</i>
+                        </li>
+                        <li>BIM information is lost</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="template-citation" style="margin-top: 42px !important;"></div>
+              </section>
+
+            </section>
+
+            <section>
+
+              <section data-background-image="../common/assets/images/lasFlores-01-smithsonianSketch.jpg" data-background-size="fill" data-transition="fade">
+
+                <div style="position: absolute; left: 150px; top: 250px; font-size: 150%; line-height: 100%; color: #000 !important; text-align: left; text-shadow: 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee;"><strong>Moving data between applications</strong></div>
+
+              </section>
+
+              <section data-background-image="../common/assets/images/lasFlores-01-smithsonianSketch.jpg" data-background-size="fill" data-transition="fade"></section>
+
+            </section>
+
+            <section>
+
+              <section data-transition="fade">
+                <div class="template-title">ESRI File Formats of Common 3D Design Packages</div>
+                <div>
+                  <ul style="font-size: 0.9em; margin: 23px 0px 0px 0px;">
+                    <li style="margin: 23px 0px 0px 0px;"><a href="https://doc.arcgis.com/en/cityengine/latest/help/help-export-models-overview.htm" target="_blank">ArcGIS City Engine Exports</a></li>
+                    <li style="margin: 23px 0px 0px 0px;"><a href="https://doc.arcgis.com/en/cityengine/latest/help/help-import-data-overview.htm" target="_blank">ArcGIS City Engine Imports</a></li>
+                    <li style="margin: 23px 0px 0px 0px;"><a href="https://pro.arcgis.com/en/pro-app/latest/help/data/cad/supported-cad-formats-in-arcgis.htm" target="_blank">AutoCad read/write in ArcGIS Pro</a></li>
+                  </ul>
+                  <div style="margin-top: 42px; font-size: 1em;">Take a look at the <a href="https://doc.arcgis.com/en/cityengine/latest/help/help-esri-lib-webstyles.htm">ESRI Content Library</a></div>
+                </div>
+                <div class="template-citation" style="margin-top: 42px !important;"></div>
+              </section>
+
+              <section data-transition="fade">
+                <div class="template-title">Common 3D Design Package Formats</div>
+                <div>
+                  <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                    <li style="margin: 23px 0px 0px 0px;"><a href="https://www.rhino3d.com/features/file-formats/" target="_blank">Rhino</a></li>
+                    <li style="margin: 23px 0px 0px 0px;"><a href="https://support.sketchup.com/s/article/What-file-types-can-I-import-export-with-the-SketchUp-Pro-subscription" target="_blank">Sketch-up Pro</a></li>
+                    <li style="margin: 23px 0px 0px 0px;"><a href="https://resources.imaginit.com/building-solutions-blog/autodesk-to-twinmotion-preferred-and-accepted-file-formats">Twin Motion (?)</a></li>
+                  </ul>
+                </div>
+                <div class="template-citation" style="margin-top: 42px !important;"></div>
+              </section>
+
+              <section data-transition="fade">
+                <div class="um-template-container">
+                  <div class="um-template-header"></div>
+                  <div class="um-template-content-containter" style="font-size: 1.2em">
+
+                    <div class="um-template-content" style="max-width: 95%; width: 95%;">
+                      <div class="um-template-title">3D Common Formats and Keywords</div>
+                      <div style="font-size: 0.7em; display: inline-block; line-height: 1.2em; margin-top: 42px">
+                        <div style="float: left">
+                          <div class="um-template-title" style="font-size: .6em">Formats</div>
+                          <div style="float: left;">
+                            <div style="float:left; margin-left: 42px;">
+                              <ul style="font-size: 0.85em;">
+                                <li><a href="https://github.com/KhronosGroup/OpenCOLLADA">DAE</a> (COLLADA)</li>
+                                <li><a href="https://github.com/KhronosGroup/glTF">glTF</a></li>
+                                <li><a herf="https://www.loc.gov/preservation/digital/formats/fdd/fdd000507.shtml">OBJ</a></li>
+                                <li><a href="http://paulbourke.net/dataformats/ply/">PLY</a></li>
+                                <li>SKP</li>
+                                <li><a href="https://code.blender.org/2013/08/fbx-binary-file-format-specification/">FBX</a></li>
+                                <li><a href="https://www.loc.gov/preservation/digital/formats/fdd/fdd000504.shtml">STL</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div style="float: left; margin-left: 180px;">
+                          <div class="um-template-title" style="font-size: .6em">Keywords</div>
+                          <ul>
+                            <li>mesh</li>
+                            <li>vertices</li>
+                            <li>faces</li>
+                            <li>DEM</li>
+                            <li>DSM</li>
+                            <li>normals</li>
+                            <li>textures</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>              
+              </section>
+
+            </section>
+
+            <!-- <section>
+
+              <section data-transition="fade">
+                <div class="um-template-container">
+                  <div class="um-template-header"></div>
+                  <div class="um-template-content-containter" style="font-size: 1.2em">
+
+                    <div class="um-template-content" style="max-width: 95%; width: 95%;">
+                      <div class="um-template-title">Common Import/Export Formats for 2D GIS Data</div>
+                      <div style="font-size: 0.7em; display: inline-block; line-height: 1.2em; margin-top: 42px">
+                        <div style="float: left">
+                          <div style="float: left;">
+                            <ul>
+                              <li>Line Drawing (vector)
+                                <ul style="font-size: 0.85em;">
+                                  <li>DWG (AutoCAD)</li>
+                                  <li>SVG (scaleable vector graphic)</li>
+                                  <li>AI (Adobe Illustrator)</li>
+                                  <li>PDF (Adobe Portable Document Format)
+                                  <li>OSM (Open Street Map)</li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                          <div style="float: left; margin-left: 100px;">
+                            <ul>
+                              <li>Images and Surfaces (raster)
+                                <ul style="font-size: 0.85em;">
+                                  <li>DEM (Digital Elevation Model)</li>
+                                  <li>PSD (Adobe Photoshop)</li>
+                                  <li>PNG (Portable Network Graphic)</li>
+                                  <li>JPG or JPEG (Joint Photographic Experts Group) </li>
+                                  <li>TIFF or geoTIFF (Tagged Image File Format)</li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>              
+              </section>
+
+            </section> -->
+				
+            </div>
+        </div>
+        <script src="../common/java/reveal.js"></script>
+	    <script src="../common/java/notes.js"></script>
+	    <script src="../common/java/head.min.js"></script>
+        <script>
+            Reveal.initialize({
+                width: 1366, height: 768, margin: 0.05,
+                controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				mouseWheel: true,
+				chart: {
+					defaults: { 
+						global: { 
+							defaultFontSize: 20,
+							title: { fontColor: "#333" }, 
+							legend: {
+								position: "top",
+								labels: { fontColor: "#333" },
+							},
+							tooltips: {
+								labels: { fontColor: "#333" },
+							},
+						}, 
+						scale: { 
+							scaleLabel: { fontColor: "#333" }, 
+							gridLines: { color: "#333", zeroLineColor: "#333" }, 
+							ticks: { fontColor: "#333" }, 
+						} 
+					},
+				},
+                dependencies: [
+                    { src: '../common/java/Chart.min.js' },
+                    { src: '../common/java/csv2chart.js' }
+                ] 
+            });
+        </script>
+    </body>
+</html>

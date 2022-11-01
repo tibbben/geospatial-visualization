@@ -5,64 +5,70 @@ Lesson 11
 
 total time 150 minutes. 
 
-1.   Housekeeping (2:40 pm - 10 min)  
+1.   Housekeeping (2:00 pm - 5 min)  
    -   Chris note about last minute projects
-   -   Remind about Nov 16 deadline for meetings with us
+   -   Nov 14 deadline for meetings with us
 
-2.   Continue Raster Exercise
-   -   review census data acquisition and join
-   -   zonal histogram (Q) or zonal statistics (ARC)
-   -   attempt estimate of affected population (simple)
-   -   point out error (water) and if there is time, have them include the water (together)
+2.   Abigail Flemming (2:05 pm - 60 min)
 
-3.   Student Presentations
+3.   Break (3:05 pm - 5 min)
 
-6.   Moving data between applications (4:20 pm - 30 min)
-   -   Exercise to look up possible formats online and seek common formats
-   -   Try to note the following formats and keywords on the white board
-   -   Formats
-      -   DAE (COLLADA)
-      -   DWG
-      -   glTF
-      -   OBJ
-      -   OSM
-      -   PLY
-      -   SKP
-      -   SVG
-      -   AI
-      -   DEM
-      -   STL
-      -   PSD
-      -   FBX
-   -   Keywords
-      -   mesh
-      -   vertices
-      -   faces
-      -   DEM
-      -   DSM
-      -   normals
-      -   textures
+5.   SQL (4:00 pm - 15 min)
 
-7.   City Engine Example
-   -   OSM data use
-   -   small areas
+3.   Student Presentations (3:40 pm - 20 min)
 
-8.   Illustrator Example
-   -   QGIS export
+4.   Vector Relationships, Structures, and Tools (3:10 pm - 30 min)
+   -   Overlays
+      - pay attention to attributes!!
+   -   Clipping
+
+6.   SQL demonstration (4:15 pm - 30 min)
+   -   intersection of features
+      -   https://blog.cleverelephant.ca/2019/07/postgis-overlays.html
+   -   estimated population impact of 100 year flood (see below)
+   -   join on zipcodes (column) and within census tracts (geom)
 
 
+SELECT fzone, ST_Transform(geom,4269) as geom 
+INTO fz100 
+FROM public.mdc_flood_hazard 
+WHERE fzone LIKE 'AH';
 
-City Engine Exports
-https://doc.arcgis.com/en/cityengine/latest/get-started/get-started-model-export.htm
+SELECT total_population,geom 
+INTO dade_tracts 
+FROM acs_2019_5yr_tract_12_florida_dvmt 
+WHERE countyfp = '086'
 
-City Engine Imports
-https://doc.arcgis.com/en/cityengine/latest/help/help-import-files-project.htm
+SELECT dade_tracts.total_population, dade_tracts.geom 
+FROM dade_tracts, fz100
+WHERE ST_Intersects(dade_tracts.geom, fz100.geom)
 
-AutoCad read write in ArcGIS Pro
-https://pro.arcgis.com/en/pro-app/latest/help/data/cad/supported-cad-formats-in-arcgis.htm
+SELECT sum(dade_tracts.total_population) 
+FROM dade_tracts, fz100
+WHERE ST_Intersects(dade_tracts.geom, fz100.geom)
 
-Rhino File Formats
-https://www.rhino3d.com/features/file-formats/
+SELECT 
+   dade_tracts.total_population, 
+   ROUND(dade_tracts.total_population * (ST_Area(ST_Intersection(dade_tracts.geom,fz100.geom))/ST_Area(dade_tracts.geom))) as prop_est, 
+   dade_tracts.geom 
+FROM dade_tracts, fz100
+WHERE ST_Intersects(dade_tracts.geom, fz100.geom)
 
-Khronos ...
+SELECT ROUND(SUM( 
+   dade_tracts.total_population * (ST_Area(ST_Intersection(dade_tracts.geom,fz100.geom))/ST_Area(dade_tracts.geom)) 
+))
+FROM dade_tracts, fz100
+WHERE ST_Intersects(dade_tracts.geom, fz100.geom)
+
+SELECT ROUND(SUM( 
+   dade_tracts.total_population * (ST_Area(ST_Intersection(dade_tracts.geom,fz100.geom))/ST_Area(dade_tracts.geom)) 
+))
+INTO tract_prop_est
+FROM dade_tracts, fz100
+WHERE ST_Intersects(dade_tracts.geom, fz100.geom)
+
+DROP TABLE fz100;
+DROP TABLE dade_tracts;
+DROP TABLE tract_prop_est;
+
 
