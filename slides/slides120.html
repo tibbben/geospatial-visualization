@@ -24,6 +24,245 @@
 
               </section>
 
+              <section data-transition="fade">
+                <div class="template-title">Today's Goals</div>
+                <div>
+                  <ol type="a" style="font-size: 0.85em;">
+                    <li style="margin: 13px 0px 0px 0px;">Finish SQL demonstration</li>
+                    <li style="margin: 13px 0px 0px 0px;">Interpolation (overview and exercise)</li>
+                    <li style="margin: 13px 0px 0px 0px;">Field Presentations</li>
+                    <li style="margin: 13px 0px 0px 0px;">Little River Critique and Review</li>
+                    <li style="margin: 13px 0px 0px 0px;">Extra Credit Exercise (review)</li>
+                    <li style="margin: 13px 0px 0px 0px;">Map Layout with Locator Map (review)</li>
+                  </ol>
+                </div>
+                <div class="template-citation" style="margin-top: 42px !important;"></div>
+              </section>
+
+              <section>
+
+                <section>
+                  <div class="template-title">Interpolation</div>
+                  <P style="font-size: 0.75em;">Moving data from vector to raster structures</P>
+                  <div>
+                    <ul type="a" style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">(review) Raster to Vector : <b>Extract</b> or <b>Zonal Statistics</b>
+                        <ul style="font-size: 0.8em;">
+                          <li>Extracts data from continuous surface to discrete features</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 23px 0px 0px 0px;" class="fragment">Vector (point/line) to Raster: <b>Interpolation</b>
+                        <ul style="font-size: 0.8em;">
+                          <li>Interpolates one or more specific data values</li>
+                          <li>Fills in the gaps between discrete features on a continuous surface</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;" class="fragment">Vector to Raster (point/line/polygon): <b>Rasterize</b>
+                        <ul style="font-size: 0.8em;">
+                          <li>Converts vector geometries to raster image</li>
+                          <li>Leaves gaps in raster where there is no discrete feature</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                    <div style="font-size: 130%; line-height: 100%; margin-bottom: 42px;"><strong>Continuous surface maps<br><span style="font-size: 0.8em">Technique for mapping gradually changing phenomena</span></strong></div>
+                    <div style="font-size: 90%; margin-bottom: 42px;">ARC 594/694 Fall <script>var today = new Date();document.write(today.getFullYear());</script></div>
+                    <div style="font-size: 50%;">Dr. Timothy Norris - <a href="mailto:tnorris@miami.edu" style="color: #222 !important; text-decoration: underline;">tnorris@miami.edu</a><br>Adapted from Field (2017) <i>Cartography</i>. Redlands, ESRI Press.  pp. 74-75.</div>
+                </section>
+
+                <section>
+                    <div style="font-size: 80%; max-width: 80%; margin: 0px auto 0px auto !important;">
+                        <h3>Mapping continuous surfaces</h3>
+                        <ul style="margin-bottom: 42px;">
+                            <li style="margin-bottom: 7px;">For data without discreet boundaries</li>
+                            <li style="margin-bottom: 7px;">Often data is collected at points and then <b>Interpolated</b></li>
+                            <li style="margin-bottom: 7px;">Interpolation from point data to continuous a raster surface requires statistics</li>
+                            <li>Continuous surfaces representing phenomena and heat maps representing density are not the same</li>
+                        </ul>
+                    </div>
+                </section>  
+
+                <section>
+                    <img src="../common/assets/images/interpolation.jpg" style="max-width: 1000px;">
+                    <div style="width: 100%; font-size: 0.7em;">
+                        <div style="width: 45%; float: left;">
+                            <ul>
+                                <li>point data</li>
+                                <li>polynomial surface</li>
+                                <li>trend surface</li>
+                                <li>universal kriging</li>
+                            </ul>
+                        </div>
+                        <div style="width: 45%; float: left;">
+                            <ul>
+                                <li>kernel density</li>
+                                <li>inverse distance weighted (IDW)</li>
+                                <li>spline interpolator</li>
+                                <li>bayensian kriging</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div style="position: absolute; top: 100px; left: 0px; width: 100%" class="fragment" data-fragment-index="1">
+                        <div style="margin: 0px auto;"><img src="../common/assets/images/hot-spot.jpg" style="max-width: 300px; margin-bottom: 0px;"><br><p style="margin: 0px auto; font-size: 0.7em; background-color: #fff; max-width: 380px; padding: 7px;">getis-ord gi surface (hot spot)</p></div>
+                    </div>
+                </section>
+
+                <section>
+                    <div style="font-size: 80%; max-width: 100%; margin: 0px auto 0px auto !important;">
+                        <h3>Related Information</h3>
+                        <div style="max-width: 70%; margin: 0px auto 0px auto;">
+                            <img src="../common/assets/images/InterpolateScatteredData.png" style="max-width: 800px; margin-bottom: 0px;"><br>
+                            MatLab Help on Interpolation:<br>
+                                <a href="https://www.mathworks.com/help/matlab/ref/griddata.html">https://www.mathworks.com/help/matlab/ref/griddata.html</a></li>
+                        </div>
+                    </div>
+                </section>      
+
+                <section data-background-image="../common/assets/images/moistureFig3.jpeg" data-background-size="fill">
+                    <div style="font-size: 80%; max-width: 100%; margin: 0px auto 0px auto !important; color: #fff; background-color: rgba(0,0,0,0.6); padding: 23px; border-radius: 13px;" class="fragment fade-out">
+                        <h3 style="color: #fff;">Related Information</h3>
+                        <div style="max-width: 70%; margin: 0px auto 0px auto;">
+                            Water accumulation map:<br>
+                                <a  style="color: #fff;" href="https://nawimaps.com/maps/moisture-model/">https://nawimaps.com/maps/moisture-model/</a></li>
+                        </div>
+                    </div>
+                </section>      
+
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Interpolation Exercise</div>
+                  <div>
+                    <P style="font-size: 0.85em;">Estimating PM2 concentrations for the continental United States</P>
+                    <ol type="a" style="font-size: 0.6em;">
+                      <li style="margin: 13px 0px 0px 0px;">Creating x/y data from a csv (review)</li>
+                      <li style="margin: 13px 0px 0px 0px;">Inverse Distance Weighting Interpolation</li>
+                      <li style="margin: 13px 0px 0px 0px;">Spline Interpolation</li>
+                      <li style="margin: 13px 0px 0px 0px;">Kriging</li>
+                      <li style="margin: 13px 0px 0px 0px;">Clipping interpolation with boundary polygon</li>
+                      <li style="margin: 13px 0px 0px 0px;">Clipping raster with boundary polygon</li>
+                      <li style="margin: 13px 0px 0px 0px;">Raster algebra (review)</li>
+                    </ol>
+                  </div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Interpolation Exercise</div>
+                  <div>
+                    <P style="font-size: 0.85em;">Download from indicated source or Box (epa.zip in data folder)</P>
+                    <ol type="a" style="font-size: 0.6em;">
+                      <li style="margin: 13px 0px 0px 0px;">EPA AQS PM2.5 Annually Summary data 2022<br><span style="font-stlye: italic;">annual_conc_by_monitor_2022.csv (create x/y points from lat/lon - NAD83!!)</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">USA nation outline TIGER file (geography division, census bureau)<br><span style="font-stlye: italic;">cb_2018_us_nation_5m.shp</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">USA major cities (ESRI living atlas)</li>
+                    </ol>
+                    <P style="font-size: 0.75em;">Load into ArcGIS Pro and style as needed</P>
+                    <img src="../common/assets/images/pm2_1.jpg" style="max-height: 300px;">
+                  </div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Inverse Distance Weighting (IDW) Interpolation</div>
+                  <div>
+                    <P style="font-size: 0.85em;">In tool box under Spatial Analyst</P>
+                    <ol type="a" style="font-size: 0.6em;">
+                      <li style="margin: 13px 0px 0px 0px;">Take a moment to review the <b>Interpolation</b> toolbox</li>
+                      <li style="margin: 13px 0px 0px 0px;">Open <b>IDW</b> tool
+                        <ul>
+                            <li>Input point features: EPA data</li>
+                            <li>Z_value: Arithmetic Mean (what is Z-Value?)</li>
+                            <li>Output Cell Size: 0.183071288 (what is this?)</li>
+                            <li>Search radius: variable</li>
+                            <li>Number of Points: 12</li>
+                        </ul>
+                      </li>
+                    </ol><br>
+                    <img src="../common/assets/images/idw.jpg" style="max-height: 300px;">
+                  </div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Spline Interpolation</div>
+                  <div>
+                    <P style="font-size: 0.85em;">In tool box under Spatial Analyst</P>
+                    <ol type="a" style="font-size: 0.6em;">
+                      <li style="margin: 13px 0px 0px 0px;">Open <b>Spline</b> tool
+                        <ul>
+                            <li>Input point features: EPA data</li>
+                            <li>Z_value: Arithmetic Mean</li>
+                            <li>Output Cell Size: 0.183071288</li>
+                            <li>Spline Type: regularized</li>
+                            <li>Weight: 0.1</li>
+                            <li>Number of Points: 12</li>
+                        </ul>
+                      </li>
+                    </ol><br>
+                    <img src="../common/assets/images/spline.jpg" style="max-height: 300px;">
+                  </div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Kriging Interpolation</div>
+                  <div>
+                    <ol type="a" style="font-size: 0.6em;">
+                      <li style="margin: 13px 0px 0px 0px;">Open <b>Kriging</b> tool
+                        <ul>
+                            <li>Input point features: EPA data</li>
+                            <li>Z_value: Arithmetic Mean</li>
+                            <li>Kriging Method: Ordinary</li>
+                            <li>Sevivariogram Model: Spherical</li>
+                            <li>Lag size: 0.183071288</li>
+                            <li>Number of Points: 12</li>
+                            <li>Output Cell Size: 0.183071288</li>
+                            <li>Search Radius: Variable</li>
+                            <li>Number of Points: 12</li>
+                        </ul>
+                      </li>
+                    </ol><br>
+                    <img src="../common/assets/images/kriging.jpg" style="max-height: 300px;">
+                  </div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Compare Different Interpolations</div>
+                  <div>
+                    <P style="font-size: 0.85em;">Clip all three rasters to extend of continental USA</P>
+                    <ol type="a" style="font-size: 0.6em;">
+                      <li style="margin: 13px 0px 0px 0px;">edit <i>cb_2018_us_nation_5m.shp</i> and delete Alaska, Hawaii, and Puerto Rico (review)</li>
+                      <li style="margin: 13px 0px 0px 0px;">Open <b>clip</b> tool (analysis tools)
+                        <ul>
+                            <li>Input Raster: an interpolated raster layer</li>
+                            <li>Output extent: cb_2018_us_nation_5m</li>
+                            <li>[x] Use Input Features for Clipping Geometry </li>
+                            <li>When complete, copy symbology from source to new layer<br><i>hint: right click new layer, select symbology and use hamburger menu to "Import from Layer"</i></li>
+                        </ul>
+                      </li>
+                    </ol><br>
+                    <img src="../common/assets/images/clipped.jpg" style="max-height: 300px;">
+                  </div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Compare Different Interpolations</div>
+                  <div>
+                    <P style="font-size: 0.85em;">Use <b>Raster Calculator</b> to compare values (review)</P>
+                    <ol type="a" style="font-size: 0.6em;">
+                      <li style="margin: 13px 0px 0px 0px;">Open <b>Raster Calculator</b> (spatial analyst tools)</li>
+                      <li>Map algebra expression: kriging - spline</li>
+                      <li>Symbolize with diverging color ramp</li>
+                      <li>Interpret ....</li>
+                    </ol><br>
+                    <img src="../common/assets/images/diff.jpg" style="max-height: 300px;">
+                  </div>
+                </section>
+
+              </section>
+
               <section>
 
                 <section data-transition="fade">

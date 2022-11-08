@@ -9,9 +9,6 @@ total time 150 minutes.
    -   meetings ....
    -   projects, thanksgiving break
 
-2.   Miami-Dade Sustainability Office (3:00 pm - 4:00 pm)
-   -   Christian Kamrath (virtual)
-
 3.   Student Presentations
 
 4.   Oakland plan critique
@@ -35,5 +32,5 @@ total time 150 minutes.
  
 5.   Finish Layout exercise
    -   repeat first part with extent indicators
-   -   include title, sclae, legend
+   -   include title, scale, legend
    -   export as svg for illustrator
