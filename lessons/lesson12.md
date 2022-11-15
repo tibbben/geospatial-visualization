@@ -9,6 +9,7 @@ total time 150 minutes.
    -   Field update
    -   Reading update (remind about late acceptance)
    -   ask about extra credit
+   -   philosophy of urban planning ....?
 
 2.   Continue SQL exercise
    -   how many people effected by sea level rise
@@ -43,18 +44,3 @@ total time 150 minutes.
       -   Transportation 89
 
    -   data citation?? data sharing??
-
-2.   Extra credit raster exercise
-   -   look at HAZUS metadata and how it relates to 5 ft flood zone scenario
-   -   look at CDC SVI data
-   -   look at US Census resilience data
-
-4.   Continue Vector exercise
-   -   spatial join; count TRI sites in Florida census tracts
-   -   count pixels in polygons (5ft scenario raster), estimate population affected
-
-5.   Start layout exercise (both QGIS and ArcGIS)
-   -   extent indicators on locator map
-   -   layout features (location, size)
-   -   title, legend, scale
-   -   export as svg for illustrator 

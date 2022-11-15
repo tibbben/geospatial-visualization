@@ -12,15 +12,121 @@
         <div class="reveal">
             <div class="slides">
 
-              <section data-background-image="" data-background-size="contain" data-background-color="#000">
+              <section data-background-image="../common/assets/images/cusco-test-bkgrd.jpeg" data-background-size="fill" data-background-color="#000">
 
-                <div style="position: absolute; left: 0px; top: 40px; font-size: 150%; line-height: 100%; color: #999 !important; text-align: left;"><strong>Geospatial<br>  Visualization</strong></div>
+                <div style="position: absolute; right: 180px; top: 100px; font-size: 150%; line-height: 100%; color: #bbb !important; text-align: left;"><strong>Geospatial<br>  Visualization</strong></div>
 
-                <div style="position: absolute; left: 0px; top: 220px; font-size: 90%; color: #999 !important;text-align: right;">School of Architecture<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
+                <div style="position: absolute; left: 0px; top:440px; font-size: 90%; color: #bbb !important;text-align: left;">School of<br>Architecture<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span><br><span style="font-size: 0.5em; line-height: 0.2em important; display: block;"><br>image credit: Smithsonian (2016). <i>The Great Inka Road: Engineering and Empire</i>.<br>[<a href="https://americanindian.si.edu/inkaroad/inkauniverse/cusco/cusco-experience.html">online exhibit</a>]</span></div>
                 
-                <div style="position: absolute; left: 0px; top: 400px; font-size: 50%; text-align: left; color: #999 !important; line-height: 145%">Dr. Timothy Norris : <a href="mailto:tnorris@miami.edu" style="color: #999 !important; text-decoration: underline;">tnorris@miami.edu</a><br>Christopher Mader : <a href="mailto:cmader@med.miami.edu" style="color: #999 !important; text-decoration: underline;">cmader@med.miami.edu</a></div>
+                <div style="position: absolute; right: 200px; top: 680px; font-size: 50%; text-align: left; color: #bbb !important; line-height: 145%">Dr. Timothy Norris : <a href="mailto:tnorris@miami.edu" style="color: #bbb !important; text-decoration: underline;">tnorris@miami.edu</a><br>Christopher Mader : <a href="mailto:cmader@med.miami.edu" style="color: #bbb !important; text-decoration: underline;">cmader@med.miami.edu</a></div>
                 
                 <div style="position: absolute; left: 0px; top: 550px; font-size: 40%; text-align: right; color: #555; width: 280px;"></div>
+
+              </section>
+
+              <section data-transition="fade">
+                <div class="template-title">Today's Goals</div>
+                <div>
+                  <ol type="a" style="font-size: 0.85em;">
+                    <li style="margin: 13px 0px 0px 0px;">Field <i>Cartography</i> presentations</li>
+                    <li style="margin: 13px 0px 0px 0px;">Oakland Plan Critique</li>
+                    <li style="margin: 13px 0px 0px 0px;">UM trees homework review</li>
+                    <li style="margin: 13px 0px 0px 0px;">5 ft flood scenario (extra credit) review</li>
+                    <li style="margin: 13px 0px 0px 0px;">Creating a layout with extent indicators (review)</li>
+                  </ol>
+                </div>
+                <div class="template-citation" style="margin-top: 42px !important;"></div>
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">5ft Flood Scenario (Review)</div>
+                  <div>
+                    <P style="font-size: 0.75em;">Download <a href="https://miami.box.com/s/dquyblle0dvchugqga10biy3criwpmpd">slr5.zip</a> from box and unzip</P>
+                    <ol type="a" style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Open project in ArcGIS Pro</li>
+                      <li style="margin: 13px 0px 0px 0px;">Use <b>con</b> (Spatial Analyst) to create logical 5ft scenario layer from 10ft DEM (0 < value < 5 is true as 1, false as 0)</li>
+                      <li style="margin: 13px 0px 0px 0px;">Run <b>Zonal Statistics as Table</b> to count scenario pixels (previous step) inside MD_census tracts (GEO_ID as Zone Field and Sum as Statistics Type)</li>
+                      <li style="margin: 13px 0px 0px 0px;">Join zonal statistics to MD_census and calculate two new fields in MD_census attribute table
+                        <ul>
+                          <li>percent_inundated (float) as: SUM / COUNT</li>
+                          <li>estimated_pop (float) as: percent_inundated * P1_001N</li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">5ft Flood Scenario (Review)</div>
+                  <div>
+                    <P style="font-size: 0.75em;">Measure census tract areas with correct projection</P>
+                    <ol type="a" style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Right click <i>MD_Census layer</i> and select <b>data -> export features</b></li>
+                      <li style="margin: 13px 0px 0px 0px;">Save in <i>slr5.gdb</i> with the name <i>MD_Census_FLEastNAD83</i></li>
+                      <li style="margin: 13px 0px 0px 0px;">On <b>environments</b> tab choose the <b>output coordinate system</b> as <i>NAD_1983_StatePlane_Florida_East_FIPS_0901_Feet</i></li>
+                      <li style="margin: 13px 0px 0px 0px;">When finished, open attribute table and note the SHAPE_AREA field</li>
+                      <li style="margin: 13px 0px 0px 0px;">An ArcGIS geodatabase automatically calculates area in the units of the layer's coordinate reference system
+                    </ol>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Create Map Layout With Extent Indicators</div>
+                  <div>
+                    <ol type="a" style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Landscape may be better</li>
+                      <li style="margin: 13px 0px 0px 0px;">Insert map frame
+                        <ul>
+                          <li>explore "extent" (scale and center)</li>
+                          <li>explore "position" (x,y and width,height)</li>
+                          <li>look at other 'map frame' options</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Create second map
+                        <ul>
+                          <li>Simple design for "locator map"</li>
+                          <li>Add second map to layout</li>
+                          <li>Insert "Extent Indicator" on second map in layout</li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+
+                <!-- <section data-transition="fade">
+                  <div class="template-title">Create Map Layout</div>
+                  <div>
+                    <ol type="a" style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Add all other elements
+                        <ul>
+                          <li>title</li>
+                          <li>legend</li>
+                          <li>sources</li>
+                          <li>scale</li>
+                          <li>etc</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Export as SVG
+                        <ul>
+                          <li>Open in Adobe Illustrator</li>
+                          <li>Use Layers (window) to navigate</li>
+                          <li>Finalize map</li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section> -->
 
               </section>
 				
