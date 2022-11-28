@@ -5,67 +5,25 @@ Lesson 14
 
 total time 150 minutes. 
 
-1.   Housekeeping (2:40 pm - 10 min)  
-   -   will update syllabus
-   -   course evaluations
-   -   change in office hours to Wed 2 - 4 pm (this week only)
-   -   are there any more student presentations (extra credit)
-   -   final project questions??
+1.   Housekeeping (2:00 pm - 10 min)  
+   -   course evaluations - please pay attention to email - we really appreciate them.
+   -   feedback presentation opportunity (required)
+   -   final project review/questions (from syllabus)??
+      -   summarize expectations for final project expectations
+      -   mailed final project with written statement (Due December 13th at midnight? No map files, just the product and the written part)
+      -   presentation follows written statement format for syllabus
+      -   practice!!!! 5 min max.
 
-6.   Moving data between applications (4:20 pm - 30 min)
-   -   Exercise to look up possible formats online and seek common formats
-   -   Try to note the following formats and keywords on the white board
-   -   Formats
-      -   DAE (COLLADA)
-      -   DWG
-      -   glTF
-      -   OBJ
-      -   OSM
-      -   PLY
-      -   SKP
-      -   SVG
-      -   AI
-      -   DEM
-      -   STL
-      -   PSD
-      -   FBX
-   -   Keywords
-      -   mesh
-      -   vertices
-      -   faces
-      -   DEM
-      -   DSM
-      -   normals
-      -   textures
+2.   Field presentations (2:10 pm - 45 min)
+   -   five or six at least
+   -   perhaps I can start?
 
-7.   City Engine Example
-   -   OSM data use
-   -   small areas
+3.   Break (2:55 pm - 5 min)
 
-8.   Illustrator Example
-   -   QGIS export
+4.   Student Projects (3:00 pm - 45 min)
+   -   up to four presentations
 
+5.   Moving data between applications (2:45 pm - 10 min)
 
-summarize expectations for final project expectations.
-- mailed final project with written statement
-- presentation follows written statement format for syllabus
+6.   Bertrand Presentation (4:00 pm - 45 min)
 
-
-reminder for the evaluations
-office hours
-
-
-
-City Engine Exports
-https://doc.arcgis.com/en/cityengine/latest/get-started/get-started-model-export.htm
-
-City Engine Imports
-https://doc.arcgis.com/en/cityengine/latest/help/help-import-files-project.htm
-
-AutoCad read write in ArcGIS Pro
-https://pro.arcgis.com/en/pro-app/latest/help/data/cad/supported-cad-formats-in-arcgis.htm
-
-Rhino File Formats
-https://www.rhino3d.com/features/file-formats/
-
-Khronos ...

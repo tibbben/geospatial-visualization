@@ -460,6 +460,10 @@ Class will be an opportunity for students to present their course work and recei
 
 -   Goodchild, Michael F. (2007). Citizens as sensors: the world of volunteered geography. *GeoJournal*, 69(4), 211-221. doi: [10.1007/s10708-007-9111-y](https://doi.og/10.1007/s10708-007-9111-y){:target="\_blank"}.
 
+>  [slide deck](slides/slides140.html){:target="\_blank"}  
+>  [HW example #1](slides/slides140_sampleHWpresentation01.html){:target="\_blank"}  
+>  [HW example #2](slides/slides140_sampleHWpresentation02.html){:target="\_blank"}  
+
 *__Week 15 (Dec. 6):__ Student Project Review* (short week mon-wed)
 
 Class will be an opportunity for students to present their course work and receive constructive criticism from the other students and instructors. If time is available, students will have the opportunity to work on final projects with the instructors present.
