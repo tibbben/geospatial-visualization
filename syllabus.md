@@ -466,12 +466,14 @@ Class will be an opportunity for students to present their course work and recei
 
 > Practical Objectives:
 
--   Demonstrate the use of Jupyter notebooks to visualize 3D point clouds derived from drone surveys
--   Short presentation on participatory data gathering and auto-documentation in Las Flores, Barranquilla, Colombia
+-   Finalize projects
 
-*__FINAL PRESENTATIONS (Dec. 12 @ 2:00 p.m.):__ Students will present their final projects*
+[//]: # (-   Demonstrate the use of Jupyter notebooks to visualize 3D point clouds derived from drone surveys)
+[//]: # (-   Short presentation on participatory data gathering and auto-documentation in Las Flores, Barranquilla, Colombia)
 
-Students will have 10 minutes (strict) to give a formal presentation of their final project as described in the course description above under "Final Project".
+*__FINAL PRESENTATIONS (Dec. 14 @ 5:00 p.m.):__ Students will present their final projects*
+
+Students will have 10 minutes (strict: 5 minutes for presentation, 5 minutes for q/a) to give a formal presentation of their final project as described in the course description above under "Final Project".
 
 [//]: # (Is there something published from the South Beach project?)
 
