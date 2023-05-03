@@ -1,0 +1,522 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../common/css/reveal.css">
+        <link rel="stylesheet" href="../common/css/white.css">
+        <link rel="stylesheet" href="../common/css/overrides.css">
+	    <script src="../common/java/print.js"></script>
+        <title>GIS and Resilience</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+				
+				<!-- **************************************************************************** 
+				                                    Slides Begin Here                               
+				     ****************************************************************************  -->
+
+              <section data-background-image="../common/assets/images/globy.png" data-background-size="contain" data-background-color="#fff">
+                <div style="position: absolute; left: 40px; top: -120px; font-size: 150%; line-height: 100%; color: #000 !important;"><strong>DCN - Planetears</strong></div>
+                <div style="position: absolute; right: 0px; top: 0px; font-size: 90%; color: #000 !important;">Geospatial Data Curation<br>an introduction<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
+                <div style="position: absolute; left: 0px; top: 290px; font-size: 45%; text-align: left">Jennifer Moore - <a href="mailto:j.moore@wustl.edu" style="color: #000 !important; text-decoration: underline;">j.moore@wustl.edu</a><br>Melinda Kernik - <a href="mailto:kerni016@umn.edu" style="color: #000 !important; text-decoration: underline;">kerni016@umn.edu</a><br>Leighton Christiansen - <a href="mailto:Leighton.christiansen@dot.gov" style="color: #000 !important; text-decoration: underline;">Leighton.christiansen@dot.gov</a><br>Timothy Norris - <a href="mailto:tnorris@miami.edu" style="color: #000 !important; text-decoration: underline;">tnorris@miami.edu</a><br>Kelly Grove - <a href="mailto:kegrove@fsu.edu" style="color: #000 !important; text-decoration: underline;">kegrove@fsu.edu</a></div>
+              </section>
+
+
+				<!-- **
+					    * What is GIS? Definitions in GIS
+					    ** -->
+				
+				<section>
+
+					<section data-transition="fade" >
+						<div class="template-title" style="margin-bottom: 42px;">Defining GIS</div>
+						<ul style="width: 60%; font-size: 80%; margin-bottom: 42px;">
+							<li class="fragment">Geographic Information System
+								<ul style="font-size: 80%;">
+									<li>collections of tools, data, hardware, and people
+								</ul>
+							<li style="margin-top: 23px;" class="fragment">Geographic Information Science
+								<ul style="font-size: 80%;">
+									<li>systematic inquiry into research questions about the relationship between GIS and socio-natural systems
+								</ul>
+							<li style="margin-top: 23px;" class="fragment">Geographic Information conStruction
+								<ul style="font-size: 80%;">
+									<li>tool building for storage, collection or analysis of geospatial data
+								</ul>
+						</ul>
+						<p class="template-citation">Wright, D. J., Goodchild, M. F., & Proctor, J. D. (1997). Demystifying the Persistent Ambiguity of GIS as ‘Tool’ versus ‘Science’. <br><i>Annals of the Association of American Geographers</i>, 87(2), 346-362. doi:<a href ="http://doi.org/10.1111/0004-5608.872057">10.1111/0004-5608.872057</a></p>
+					</section>
+
+					<section data-transition="fade" >
+						<div style="display: inline-block;">
+							<div style="float: right; width: 45%;">
+								<img src="../common/assets/images/layers.jpg" style="max-width: 70%; margin-right: 100px;">
+							</div>
+							<div style="float: left; width: 40%; margin: 130px auto auto 100px; font-size: 75%;">
+								GIS as a collection of datasets that are organized in a systemic way (as layers).<br><br>The system of organization can be digital (software) or analog (drawn on paper).<br><br>The actual process of organization is done with a purpose by human beings.
+							</div>
+						</div>
+						<div class="template-citation" style="display: inline-block;">adapted from: <a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/index.html">https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/index.html</a></div>
+					</section>
+
+			        <section data-transition="fade" >
+			            <div class="template-title" style="float: right; top: 0px; position: relative; right: 150px;">Geospatial Abstractions</div>
+			            <div style="width: 45%; float: left;"><img src="../common/assets/images/Pyramid.png" style="max-width: 110% !important; position: relative; left: 15%;"></div>
+			            <div class="fragment" style="width: 45%; float: right; font-size: 80%; line-height: normal; text-align: right; position: relative; right: 150px;">
+				            <ul style="margin-top: 42px; text-align: right; list-style: none;">
+				            	<li style="margin-bottom: 13px;">Physical Model<br><span style="font-size: 80%; margin-right: 13px;">(files on disk)</span></li>
+				            	<li style="margin-bottom: 13px;">Logical Model<br><span style="font-size: 80%; margin-right: 13px;">(data structures - vector and raster)</span></li>
+				            	<li style="margin-bottom: 13px;">Conceptual Model<br><span style="font-size: 80%; margin-right: 13px;">(discrete or continuous)</span></li>
+				            	<li>Reality<br><span style="font-size: 80%; margin-right: 13px;">(the world out there)</span></li>
+				            </ul>
+			            </div>
+			        </section>
+
+					<!-- **
+						    * GIS Assemblages
+						    ** -->
+
+					<section>
+						<div class="template-title">Key elements of GIS Assemblages</div>
+						<div class="center" style="margin-top: 42px;">
+							<ul style="font-size: 80%;">
+								<li>Tool set
+									<ul style="font-size: 80%;">
+										<li>collection of software programs
+										<li>in some cases referred to as a stack
+									</ul>							
+								<li style="margin-top: 23px">Data model
+									<ul style="font-size: 80%;">
+										<li>Relational databases (tables)
+										<li>Extensible data models (trees)
+										<li>Raster data (images)
+									</ul>
+								<li style="margin-top: 23px">Scripting/programming languages
+							</ul>
+						</div>
+					</section>
+
+					<!-- **
+						    * Common desktop GIS assemblages
+						    ** -->
+
+					<section>
+						<div class="template-title">Common Desktop GIS Assemblages</div>
+						<div style="font-size: 80%;">Environmental Systems Research Institute (ESRI)</div>
+	  					<div style="font-size: 90%;">ArcGIS Pro, ArcGIS Desktop, ArcGIS Online</div>
+						<div class="center" style="margin-top: 42px;">
+							<ul style="font-size: 80%;">
+								<li>Tool set
+									<ul style="font-size: 80%;">
+										<li>ArcGIS Desktop
+										<li>ArcGIS Pro *NEW*
+									</ul>							
+								<li style="margin-top: 23px">Relational data model
+									<ul style="font-size: 80%;">
+										<li>shapfiles (.shp)
+										<li>geodatabases (.gdb)
+										<li>geotiffs (.tif)
+										<li>database servers (SQLServer, posgreSQL)
+									</ul>
+								<li style="margin-top: 23px">Scripting languages
+									<ul style="font-size: 80%;">
+										<li>python
+									</ul>
+							</ul>
+						</div>
+					</section>
+
+					<section>
+						<div class="template-title">Common GIS Assemblages</div>
+						<div style="font-size: 90%;">Quantum GIS - QGIS (FOSS)</div>
+						<div class="center" style="margin-top: 42px;">
+							<ul style="font-size: 80%;">
+								<li>Tool set
+									<ul style="font-size: 80%;">
+										<li>QGIS - <a href="http://www.qgis.org/en/site/">http://www.qgis.org/en/site/</a>
+										<li>base: Geospatial Data Abstraction Library (GDAL)
+										<li>base: Open GIS Reference (OGR)
+									</ul>							
+								<li style="margin-top: 23px">Relational and Tree data model
+									<ul style="font-size: 80%;">
+										<li>shapfiles (.shp) (relational)
+										<li>json (.geosjon) (trees)
+										<li>geotiffs (.tif) (raster)
+										<li>relational database servers (postgreSQL, oracle)
+									</ul>
+								<li style="margin-top: 23px">Scripting languages
+									<ul style="font-size: 80%;">
+										<li>python
+									</ul>
+							</ul>
+						</div>
+					</section>
+
+					<section>
+						<div class="template-title">Common GIS Assemblages</div>
+						<div style="font-size: 90%;">Python or R (FOSS)</div>
+						<div class="center" style="margin-top: 42px;">
+							<ul style="font-size: 80%;">
+								<li>Tool set
+									<ul style="font-size: 80%;">
+									    <li>Python - <a href="https://www.python.org/">https://www.python.org/</a>
+										<li>R - <a href="https://www.r-project.org/">https://www.r-project.org/</a>
+										<li>packages: GDAL/OGR, sp
+										<li>leaflet for visualization
+									</ul>							
+								<li style="margin-top: 23px">Relational and Tree data model
+									<ul style="font-size: 80%;">
+										<li>raw text, csv (tables)
+										<li>raw text, json, geojson (trees)
+										<li>raw text, grids (raster)
+									</ul>
+								<li style="margin-top: 23px">Scripting languages
+									<ul style="font-size: 80%;">
+										<li>Python
+										<li>R
+									</ul>
+							</ul>
+						</div>
+					</section>
+					
+				</section>
+
+				<!-- **
+					    * Geospatial Data
+					    ** -->
+
+				<section>
+
+	                <section data-transition="fade" >
+	                  <div class="template-title">Geospatial Data</div>
+	                  <div style="display: inline-block; width: 100%;">
+	                    <table style="font-size: 60%; width: 100%;">
+	                      <tr>
+	                        <td style="vertical-align: top !important; padding-top: 60px;">
+	                          <ul style="text-align: right; list-style: none; color: #888 !important;">
+	                            <li style="margin-bottom: 23px;">Physical Model<br><span style="font-size: 80%; margin-right: 13px;">(files on disk)</span></li>
+	                            <li style="margin-bottom: 23px;">Logical Model<br><span style="font-size: 80%; margin-right: 13px;">(vector and raster)</span></li>
+	                            <li style="margin-bottom: 23px;">Conceptual Model<br><span style="font-size: 80%; margin-right: 13px;">(discrete or continuous)</span></li>
+	                            <li>Reality<br><span style="font-size: 80%; margin-right: 13px;">(the world out there)</span></li>
+	                          </ul>
+	                        </td>
+	                        <td style="vertical-align: top !important; padding-top: 60px;">
+	                          <ul style="text-align: center; list-style: none;">
+	                            <li style="margin-bottom: 23px;"><b>Raster Structure</b><br><span style="font-size: 80%;">geotiff, grid</span></li>
+	                            <li style="margin-bottom: 23px;">Raster Model<br><span style="font-size: 80%;">&nbsp;</span></li>
+	                            <li style="margin-bottom: 23px;">Object View<br><span style="font-size: 80%;">Continuous</span></li>
+	                            <li style="margin-bottom: 23px;">Entity:<br><span style="font-size: 80%;">Temperature, Topography</span></li>
+	                          </ul>
+	                        </td>
+	                        <td>
+	                        </td>
+	                        <td style="vertical-align: top !important; padding-top: 60px;">
+	                          <ul style="text-align: center; list-style: none;">
+	                            <li style="margin-bottom: 23px;"><b>Vector Structure</b><br><span style="font-size: 80%;">shapefile, geodatabase, json</span></li>
+	                            <li style="margin-bottom: 23px;">Vector Model<br><span style="font-size: 80%;">&nbsp;</span></li>
+	                            <li style="margin-bottom: 23px;">Object View:<br><span style="font-size: 80%;">Discrete</span></li>
+	                            <li style="margin-bottom: 23px;">Entity:<br><span style="font-size: 80%;">Trees, Houses, Streets</span></li>
+	                          </ul>
+	                        </td>
+	                        <td>
+	                          <img src="../common/assets/images/layers.jpg" style="max-width: 300px;">
+	                        </td>
+	                      </tr>
+	                    </table>
+	                  </div>
+
+	                  <div class="template-citation" style="display: inline-block;">adapted from: <a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/index.html">https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/index.html</a></div>
+
+	                </section>
+
+	                <section data-transition="fade" >
+	                  <div class="template-title">Vector Data Model</div>
+	                  <div style="font-size: 85%;">
+	                    <ul>
+	                      <li>Points, Lines and Polygons</li>
+	                      <ul style="font-size: 85%;">
+	                        <li>all based on x,y coordinate pairs of geographic data</li>
+	                        <li>lines and polygons are built from groups of points</li>
+	                        <li>attribute data is linked to points, lines, or polygons (features)</li>
+	                        <li>each feature is associated with a unique record in an attribute table</li>
+	                      </ul>
+	                    </ul>
+	                  </div>
+	                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto;">
+	                    <img src="../common/assets/images/vector.png">
+	                  </div>
+	                </section> 
+
+	                <section data-transition="fade" >
+	                  <div class="template-title">Vector Data Model</div>
+	                  <div style="font-size: 85%;">
+	                    <ul>
+	                      <li style="margin-bottom: 23px;">Common File Formats</li>
+	                      <table style="font-size: 90%"><tr style="background-color: #ddd; font-weight: 600;">
+	                        <td>Name</td><td>Extension</td><td>Source</td>
+	                      </tr><tr>
+	                        <td>shapefile</td><td>.shp *</td><td>ESRI</td>
+	                      </tr><tr>
+	                        <td>geojson</td><td>.json</td><td>open</td>
+	                      </tr><tr>
+	                        <td>geodatabase</td><td>.gdb</td><td>ESRI</td>
+	                      </tr><tr>
+	                        <td>google earth</td><td>.kml</td><td>open</td>
+	                      </tr><tr>
+	                        <td>autoCAD</td><td>.dxf .dwg</td><td>AutoDesk</td>
+	                      </tr></table>
+	                    </ul>
+	                  </div>
+	                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto; font-size: 70%">
+	                    * .shp is the main file extension, others include: .shx .dbf .sbn .prj<br> (and more - be careful!!)
+	                  </div>
+	                </section>
+
+	                <section data-transition="fade" >
+	                  <div class="template-title">Raster Data Model</div>
+	                  <div style="font-size: 85%;">
+	                    <ul>
+	                      <li>Grids of Rows and Columns</li>
+	                      <ul style="font-size: 85%;">
+	                        <li>each cell represents an x,y coordinate</li>
+	                        <li>each cell has a specific size on the surface of the earth (scale)</li>
+	                        <li>cell scale is based on the resolution of the image</li>
+	                        <li>each cell has only one value (color or categorical)</li>
+	                      </ul>
+	                    </ul>
+	                  </div>
+	                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto;">
+	                    <img src="../common/assets/images/raster.png" style="max-height: 400px;">
+	                  </div>
+	                </section> 
+
+	                <section data-transition="fade" >
+	                  <div class="template-title">Raster Data Model</div>
+	                  <div style="font-size: 85%;">
+	                    <ul>
+	                      <li>Resolution</li>
+	                      <ul style="font-size: 85%;">
+	                        <li>Original resolution of the collected data limits spatial accuracy</li>
+	                        <li>Can’t improve by replicating cells to create smaller size cells</li>
+	                        <li>Location implied; rounded to cell coordinate (center of cell)</li>
+	                      </ul>
+	                    </ul>
+	                  </div>
+	                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto;">
+	                    <img src="../common/assets/images/resolution.png" style="max-height: 400px;">
+	                  </div>
+	                </section> 
+
+	                <section data-transition="fade" >
+	                  <div class="template-title">Raster Data Model</div>
+	                  <div style="font-size: 85%;">
+	                    <ul>
+	                      <li>Types of Data</li>
+	                      <ul style="font-size: 85%;">
+	                        <li>Continuous<br><span style="font-size: 80%">elevation, temperature</span></li>
+	                        <li>Categorical/Discrete<br><span style="font-size: 80%">land use</span></li>
+	                      </ul>
+	                    </ul>
+	                  </div>
+	                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto;">
+	                    <img src="../common/assets/images/raster_types.png" style="max-height: 300px;">
+	                  </div>
+	                </section>   
+
+	                <section data-transition="fade" >
+	                  <div class="template-title">Raster Data Model</div>
+	                  <div style="font-size: 85%;">
+	                    <ul>
+	                      <li style="margin-bottom: 23px;">Common File Formats</li>
+	                      <table style="font-size: 90%"><tr style="background-color: #ddd; font-weight: 600;">
+	                        <td>Name</td><td>Extension</td><td>Source</td>
+	                      </tr><tr>
+	                        <td>geotiff</td><td>.tiff .tif</td><td>open</td>
+	                      </tr><tr>
+	                        <td>jpg</td><td>.jpg</td><td>open</td>
+	                      </tr><tr>
+	                        <td>Arcinfo GRID</td><td><directory> *</td><td>ESRI</td>
+	                      </tr><tr>
+	                        <td>ERDAS imagine</td><td>.img</td><td>ERDAS</td>
+	                      </tr></table>
+	                    </ul>
+	                  </div>
+	                  <div style="padding: 23px; max-width: 80%; margin: 0px auto 0px auto; font-size: 70%">
+	                    * grids are stored in directories with many files all with the extension .adf; all files must be present. 
+	                  </div>
+	                </section>             
+
+	                <section data-transition="fade" >
+	                  <div class="template-title">and Slippy Data (tiles) ...</div>
+	                  <div style="font-size: 85%;">
+	                    <ul>
+	                      <li>In ESRI you have several choices - add basemap</li>
+	                      <li style="margin-bottom: 23px;">for QGIS, google search for ... </li>
+	                      <li>NOT suitable for printing!! The real alternative is good raster data</li>
+	                    </ul>
+	                  </div>
+	                  <iframe src=UMOrtho.html height=350 width=800 style="max-width: 100%; max-height: 100%; margin: 42px auto 0px auto; border: none;"></iframe>
+
+	                </section>
+
+				</section>
+
+				<!-- **
+					    * Map Projections
+					    ** -->
+
+				<section>
+
+					<section data-background-image="../common/assets/images/orange-flower.png" data-background-size="contain" data-background-color="#000">
+						<div style="position: absolute; left: 80px; top: -180px; font-size: 130%; line-height: 100%; color: #ddd !important; text-align: left;"><strong>Map Projections and<br>Coordinate Systems</strong></div>
+						<div style="position: absolute; right: 40px; top: 60px; font-size: 40%; text-align: right; color: #ccc; width: 280px;">Image: D.M. Swart<br><a href="https://dmswart.com/2017/11/01/creative-cartography/#more-1874" style="color: #ddd !important; text-decoration: underline;"><i>Artistic cartography:<br>creative ways to peel the globe</i></a></div>
+					</section>
+
+					<section data-background-image="../common/assets/images/globe_dark.jpg" data-background-size="contain" data-background-color="#000">
+					  <div style="color: #ddd !important;" class="template-title">Coordinate Reference Systems</div>
+					  <div style="color: #ddd !important;">
+					    <ul>
+					      <li>Datum</li>
+					      <li>Geographic coordinate system</li>
+					      <li>Projected coordinate system</li>
+					      <li class="fragment" style="margin: 23px 0px 0px 0px;">Geospatial data must have: <strong>datum + geographic coordinate system</strong></li>
+					      <li class="fragment" style="margin: 13px 0px 0px 0px;">Projected coordinate systems are optional<br>(but needed for measurement)</li>
+					    </ul>
+					  </div>
+					  <div class="template-citation" style="margin-top: 42px !important;"></div>
+					</section>
+
+					<section data-background-image="../common/assets/images/globe_dark.jpg" data-background-size="contain" data-background-color="#000">
+					  <div style="color: #ddd !important;" class="template-title">Datum</div>
+					  <div style="color: #ddd !important;">
+					    <ul>
+					      <li>Center of the earth?</li>
+					      <li>That which is given?</li>
+					      <li class="fragment" style="margin: 23px 0px 0px 0px;">Ellipsoid<br><span style="font-size: 80%">mathematically defined surface approximating the shape of the earth</span></li>
+					      <li class="fragment" style="margin: 13px 0px 0px 0px;">Geoid<br><span style="font-size: 80%">surface of the earths gravity field - approx sea level</span></li>
+					    </ul>
+					  </div>
+					  <div class="template-citation" style="margin-top: 42px !important;"></div>
+					</section>
+
+					<section data-background-image="../common/assets/images/globe_dark.jpg" data-background-size="contain" data-background-color="#000">
+					  <div style="color: #ddd !important;" class="template-title">Geographical Coordinate Systems</div>
+					  <div style="color: #ddd !important;">
+					    <ul>
+					      <li>Latitude and Longitude - <i>spherical coordinates</i></li>
+					      <li>Very common, but cannot be used for measurement</li>
+					      <li class="fragment" style="margin: 23px 0px 0px 0px;">Things to remember:
+					        <ul style="font-size: 80%;">
+					            <li>ESPG - European Petroleum Survey Group</li>
+					            <li style="margin: 13px 0px 0px 0px;">WGS 84 - most common globally - ESPG:4326</li>
+					            <li>NAD 83 - most common in the United States - ESPG:4269</li>
+					        </ul>
+					    </ul>
+					  </div>
+					  <div class="template-citation" style="margin-top: 42px !important;"></div>
+					</section>
+
+					<section data-background-image="../common/assets/images/globe_dark.jpg" data-background-size="contain" data-background-color="#000">
+					  <div style="color: #ddd !important;" class="template-title">Projected Coordinate Systems</div>
+					  <div style="color: #ddd !important;">
+					    <ul>
+					      <li>meters or feet - <i>Cartesian coordinates</i></li>
+					      <li>Used for measurement and mapping</li>
+					      <li class="fragment" style="margin: 23px 0px 0px 0px;">Things to remember:
+					        <ul style="font-size: 80%;">
+					            <li style="font-size: 80%">Projected Coordinate Systems are <i>specific</i> to the area being mapped</li>
+					            <li style="margin: 13px 0px 0px 0px;font-size: 80%">In the USA: the "State Plane System"</li>
+					            <li style="font-size: 80%">Around the Globe: the "UTM Grid"</li>
+					            <li style="margin: 13px 0px 0px 0px;font-size: 110%;">For web based mapping systems<br><b>WGS 84 Web Mercator - ESPG:3857</b></li>
+					        </ul>
+					    </ul>
+					  </div>
+					  <div class="template-citation" style="margin-top: 42px !important;"></div>
+					</section>
+
+					<section>
+					  <div style="position: relative; top: 60px;" class="template-title">Projected Coordinate Systems (more)</div>
+					  <div style="position: relative; top: -200px; left: -140px;">
+					    <object data="../common/assets/images/cylindrical.svg" type="image/svg+xml" style="width: 1600px; height: 1000px;"></object>
+					  </div>
+					</section>
+
+					<section>
+					  <div style="position: relative; top: 0px;" class="template-title">Projection Surfaces</div>
+					  <div >
+					    <object data="../common/assets/images/projections.svg" type="image/svg+xml" style="width: 1000px; height: 500px;"></object>
+					  </div>
+					</section>
+
+					<section>
+					  <div style="position: relative; top: 0px;" class="template-title">Tissot and Distortion</div>
+					  <img src="../common/assets/images/tissot.jpg" style="max-width: 1000px;">
+					  <div style="font-size: 60%;">Tissot's ellipses on an unprojected (lat/long) earth</div>
+					</section>
+
+					<section>
+					  <div style="position: relative; top: 0px;" class="template-title">Universal Transverse Mercator - UTM</div>
+					  <img src="../common/assets/images/utm.jpg" style="max-width: 1000px;">
+					  <div style="font-size: 60%;">The 60 UTM coordinate system zones, each divided into north and south halves at the equator</div>
+					</section>
+
+					<section>
+					  <div style="position: relative; top: 0px;" class="template-title">State Plane</div>
+					  <div style="position: relative; top: -200px; left: -240px;">
+					    <object data="../common/assets/images/stateplane.svg" type="image/svg+xml" style="width: 1400px; height: 800px;"></object>
+					  </div>
+					</section>
+
+					<section>
+					  <div style="position: relative; top: 0px;" class="template-title">Other Projections</div>
+					  <object data="../common/assets/images/otherprojections.svg" type="image/svg+xml" style="width: 900px; height: 600px;"></object>
+					</section>
+
+				</section>
+
+				<!-- **************************************************************************** 
+				                                    Slides End Here                               
+				     ****************************************************************************  -->
+
+            </div>
+        </div>
+        <script src="../common/java/reveal.js"></script>
+	      <script src="../common/java/notes.js"></script>
+	      <script src="../common/java/head.min.js"></script>
+        <script>
+            Reveal.initialize({
+                width: 1366, height: 768, margin: 0.0,
+                controls: true,
+								progress: true,
+								history: true,
+								center: true,
+								mouseWheel: true,
+								chart: {
+									defaults: { 
+										global: { 
+											defaultFontSize: 20,
+											title: { fontColor: "#333" }, 
+											legend: {
+												position: "top",
+												labels: { fontColor: "#333" },
+											},
+											tooltips: {
+												labels: { fontColor: "#333" },
+											},
+										}, 
+										scale: { 
+											scaleLabel: { fontColor: "#333" }, 
+											gridLines: { color: "#333", zeroLineColor: "#333" }, 
+											ticks: { fontColor: "#333" }, 
+										} 
+									},
+								},
+                dependencies: [
+                    { src: '../common/java/Chart.min.js' },
+                    { src: '../common/java/csv2chart.js' }
+                ] 
+            });
+        </script>
+    </body>
+</html>
