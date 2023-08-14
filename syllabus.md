@@ -226,7 +226,7 @@ Explore how maps are woven into political and social contexts of urban developme
 
 Explore theoretical data modeling and how it can be applied to resilience thinking in urban contexts. Go through basic processes to create new geospatial data layers and add features to the new layers.
 
-[//]: # (Explore the use of GIS in urban planning through guest lecture from Jennifer Posner, Sr. Program Manager of the University of Miami Office for Civic Engagement. Jennifer will provide insight into real estate and planning issues and problems from experience in both New York and Miami.)  
+[//]: # ()  
 
 > Learning Objectives
 
@@ -254,7 +254,7 @@ Explore theoretical data modeling and how it can be applied to resilience thinki
 
 [//]: # (invite to Posner, Jennifer M <jposner@miami.edu> sent)
 
-Brief introduction to resilience thinking across disciplines and what data might be useful for modeling resilience in urban environments. Explore how vector aggregation and spatial joins bring distinct data layers into analytical relationships.
+Brief introduction to resilience thinking across disciplines and what data might be useful for modeling resilience in urban environments. Explore how vector aggregation and spatial joins bring distinct data layers into analytical relationships. We are pleased to welcome Jennifer Posner, Sr. Program Manager of the University of Miami Office for Civic Engagement. Her presentation will explore the use of GIS in urban planning and will provide insight into real estate, planning issues, and urban development problems from experience in both New York and Miami.
 
 > Learning Objectives
 
