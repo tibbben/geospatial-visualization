@@ -1,6 +1,6 @@
-## ARC 581/681-R2 Special Problems (Geospatial Visualization) - 1 credit 
-## ARC 594/694-R Geographic Information Systems in Urban Design - 3 credits
-## Fall 2022 
+## ARC 581/681-1R Special Problems (Geospatial Visualization) - 1 credit 
+## ARC 594/694-1R Geographic Information Systems in Urban Design - 3 credits
+## Fall 2023  
 [https://tibbben.github.io/geospatial-visualization](https://tibbben.github.io/geospatial-visualization){:alt="syllabus (this page)"} (this page)  
 
 ---
@@ -36,7 +36,7 @@ Book appointment: [https://cmader.youcanbook.me](https://cmader.youcanbook.me){:
 
 [//]: # (meeting times?? meeting place?? hybrid?? zoom links??)
 
-August 22nd - September 24th (581/681) / December 15th 2022 (594/694)  
+August 21nd - September 22th (581/681) / December 8th 2023 (594/694)  
 Tuesdays: 2:00 pm - 4:45 pm  
 Place: A49-110 (SOA Media Lab)  
 
@@ -86,11 +86,11 @@ Students are required to download and transform geospatial data for projects thr
 
 *Shared Box Folder*  
 
-A sharedbox folder for readings and geospatial data is located at [https://miami.box.com/s/1bkcnyrmvxhmg99ixe08ml7s8es3duey](https://miami.box.com/s/1bkcnyrmvxhmg99ixe08ml7s8es3duey){:target="\_blank"}
+A shared box folder for readings and geospatial data is located at [https://miami.box.com/s/t6dpf0gnc3ubh6f6q6enf2aodmivk8zm](https://miami.box.com/s/t6dpf0gnc3ubh6f6q6enf2aodmivk8zm){:target="\_blank"}
 
 *Presentation Schedule*  
 
-An online xlsx file (PresentationsTopics.xlsx) for tracking the in class presentations from Field (2018) is in the shared teams folder mentioned above and can be accessed directly at: [https://miami.box.com/s/0l5ebatqdhod9du98gpvhv2jw3l71g9w](https://miami.box.com/s/0l5ebatqdhod9du98gpvhv2jw3l71g9w){:target="\_blank"}
+An online xlsx file (PresentationsTopics.xlsx) for tracking the in class presentations from Field (2018) is in the shared teams folder mentioned above and can be accessed directly at: [https://miami.box.com/s/td590op4f2penu6qhdwgdntshlqzci1g](https://miami.box.com/s/td590op4f2penu6qhdwgdntshlqzci1g){:target="\_blank"}. __NOTE: ONLY OPEN WITH EXCEL ONLINE TO AVOID EDITING CONFLICTS.__
 
 ---
 
@@ -107,18 +107,25 @@ Throughout the course students will use several software tools that are propriet
   -   [UMIT ArcGIS](https://www.it.miami.edu/a-z-listing/arcgis/index.html){:target="\_blank"}  
   -   Please email [software@miami.edu](mailto:software@miami.edu) with your instructor's name (Norris) and class (Arc 581/681 or ARC594/694), to gain access to ArcGIS. 
 
--   Mac Users: to use ESRI's ArcGIS suite you can install bootcamp on your Mac and then gain access as above (optional)
+-   Mac Users: to use ESRI's ArcGIS suite on your Mac you can install bootcamp and then gain access as above (optional). As an alternative you can use Microsoft Remote Desktop and use the PCs in the SOA Media Lab (see below).
   -   Get Bootcamp from [https://support.apple.com/boot-camp](https://support.apple.com/boot-camp)
   -   Free UMIT install service at [https://studentsupport.it.miami.edu/sthd/services.html](https://studentsupport.it.miami.edu/sthd/services.html)
 
 -   ESRI ArcGIS Online (all platforms)
-  -   Get ArcGIS Online account; you should have received an invite already. If you did not receive the invite, please contact the GIS Librarian, Abraham Parrish [aparrish@miami.edu](mailto:aparrish@miami.edu).
+  -   Get ArcGIS Online account; you should have received an invite already. If you did not receive the invite, please contact the Tim Norris [tnorris@miami.edu](mailto:tnorris@miami.edu).
 
 -   the Adobe Creative Cloud suite of design tools
   -   [https://www.adobe.com/](https://www.adobe.com/creativecloud.html){:target="\_blank"}
   -   [UMIT Adobe Creative Cloud](https://www.it.miami.edu/a-z-listing/adobe-creative-cloud/index.html){:target="\_blank"}  
 
--   Microsoft Remote Desktop (Mac users only, already installed on any PC):
+-   Citrix Workspace for Remote Labs:  
+  -   Download and Install Citrix Workspace:  
+      -  Windows: https://www.citrix.com/downloads/workspace-app/windows/workspace-app-for-windows-latest.html  
+      -  Mac: https://www.citrix.com/downloads/workspace-app/mac/workspace-app-for-mac-latest.html  
+  -   Choose a location below and then click on the connect button to connect to the next available computer; you will be redirected to the Citrix portal.  
+  -   Use your CaneID credentials to sign in and navigate to the Desktops icon/tab located at the top. Select Architecture from the list groups and click Open to download the connection file.  Depending on your browser, a window may pop up. If not, locate the downloaded file and run it.  
+
+-   Microsoft Remote Desktop (Only if you have access to a specific windows machine) (Mac users only, already installed on any PC):  
   -   [https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12](https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466?mt=12){:target="\_blank" alt="microsoft remote desktop"}  
 
 > Open-Source  
@@ -126,7 +133,7 @@ Throughout the course students will use several software tools that are propriet
 -   QGIS [https://www.qgis.org/](https://www.qgis.org/en/site/){:target="\_blank"}  
 -   PostgreSQL [https://www.postgresql.org/](https://www.postgresql.org){:target="\_blank" alt="postgresql"} (optional)  
 
-> School of Architecture Remote Labs
+> School of Architecture Remote Labs Windows Machines (through remote desktop)
 
 -   [https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html](https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html){:target="\_blank" alt="SOA Remote Labs"}
 
