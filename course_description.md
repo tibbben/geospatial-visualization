@@ -120,9 +120,9 @@ Throughout the course students will use several software tools that are propriet
 
 -   Citrix Workspace for Remote Labs:  
   -   Download and Install Citrix Workspace:  
-      -  Windows: https://www.citrix.com/downloads/workspace-app/windows/workspace-app-for-windows-latest.html  
-      -  Mac: https://www.citrix.com/downloads/workspace-app/mac/workspace-app-for-mac-latest.html  
-  -   Choose a location below and then click on the connect button to connect to the next available computer; you will be redirected to the Citrix portal.  
+      -  Windows: [https://www.citrix.com/downloads/workspace-app/windows/workspace-app-for-windows-latest.html](https://www.citrix.com/downloads/workspace-app/windows/workspace-app-for-windows-latest.html  ){:target="\_blank"}
+      -  Mac: [https://www.citrix.com/downloads/workspace-app/mac/workspace-app-for-mac-latest.html](https://www.citrix.com/downloads/workspace-app/mac/workspace-app-for-mac-latest.html){:target="\_blank"}
+  -   Choose a location from the bottom of [https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html](https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html) and then click on the connect button to connect to the next available computer; you will be redirected to the Citrix portal.  
   -   Use your CaneID credentials to sign in and navigate to the Desktops icon/tab located at the top. Select Architecture from the list groups and click Open to download the connection file.  Depending on your browser, a window may pop up. If not, locate the downloaded file and run it.  
 
 -   Microsoft Remote Desktop (Only if you have access to a specific windows machine) (Mac users only, already installed on any PC):  
@@ -135,7 +135,7 @@ Throughout the course students will use several software tools that are propriet
 
 > School of Architecture Remote Labs Windows Machines (through remote desktop)
 
--   [https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html](https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html){:target="\_blank" alt="SOA Remote Labs"}
+-   [https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html](https://www.arc.miami.edu/resources/labs-and-centers/computer-lab/remote-labs/index.html){:target="\_blank" alt="SOA Remote Labs"} (see Citrix Workspace above).
 
 [//]: # (> Zoom (Extras for Covid19 Quarantine and Isolation)  
 
