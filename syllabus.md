@@ -32,7 +32,7 @@ Before the first class meeting all students will receive an invite for an ESRI A
 
 ### Part I - Introduction to GIS and Geospatial Data Visualization (1 credit - five weeks)
 
-*__Week 1 (Aug. 23):__ Introduction: What are maps, what is GIS and why are we here?*  
+*__Week 1 (Aug. 22):__ Introduction: What are maps, what is GIS and why are we here?*  
 
 Introduce the course, the instructors, and the students. Review the entire syllabus. Share the students’ research/production contexts and objectives. Introduce maps and GIS as as tools for storytelling. 
 
@@ -73,7 +73,7 @@ NOTE: *Making Maps* (Krygier & Wood, 2016) download through page 31 available at
 >  [HW example #1](slides/slides010_sampleHWpresentation01.html){:target="\_blank"}  
 >  [HW example #2](slides/slides010_sampleHWpresentation02.html){:target="\_blank"}  
 
-*__Week 2 (Aug. 30):__ Geospatial Data: Sources and structures*  
+*__Week 2 (Aug. 29):__ Geospatial Data: Sources and structures*  
 
 Seek to understand data and data structures in terms of geospatial data and geographic information systems. This will include exploring relevant sources of data.
 
@@ -111,7 +111,7 @@ Seek to understand data and data structures in terms of geospatial data and geog
 
 >  [slide deck](slides/slides020.html){:target="\_blank"}  
 
-*__Week 3 (Sept. 6):__ Geospatial Data: coordinate reference systems and interoperability*  
+*__Week 3 (Sept. 5):__ Geospatial Data: coordinate reference systems and interoperability*  
 
 Explore how software and data come together in a custom built GIS. This will include 
 putting multiple data layers together in one GIS and exploring relationships between layers in the GIS.
@@ -147,7 +147,7 @@ putting multiple data layers together in one GIS and exploring relationships bet
 
 >  [slide deck](slides/slides030.html){:target="\_blank"}  
 	
-*__Week 4 (Sept. 13):__ Cartography: The art and science of making a map*  
+*__Week 4 (Sept. 12):__ Cartography: The art and science of making a map*  
 
 Apply basic design principals to make a map. This will include using color theory, the application of figure ground, the correct use of fonts, and other cartographic standards to create a map image.
 
@@ -182,7 +182,7 @@ Apply basic design principals to make a map. This will include using color theor
 
 >  [slide deck](slides/slides040.html){:target="\_blank"}  
 	
-*__Week 5 (Sept 20):__ GIS, Cartography, and Urban Development*  
+*__Week 5 (Sept 19):__ GIS, Cartography, and Urban Development*  
 
 Explore how maps are woven into political and social contexts of urban development and planning. This will include an analysis of how maps both represent and construct reality through cartographic performances.  
 
@@ -219,12 +219,18 @@ Explore how maps are woven into political and social contexts of urban developme
 
 ### Part II - Cartography, GIS as a Research Tool, and Maps as Stories (two credits - ten weeks - Part I is prerequisite)
 
-*__Week 6 (Sept. 27):__ Collecting and Creating Data*  
+*__Week 6 (Sept. 26):__ Data Modeling*  
 
-Explore methods for collecting data in the field including ArcGIS Online and the ESRI Collector cellphone app, high precision GPS survey instruments, drones, and sensors. Go through basic processes to create new geospatial data layers and add features to the new layers.
+[//]: # (and GIS in Urban Design)
+[//]: # (invite to Posner, Jennifer M <jposner@miami.edu> sent)
+
+Explore theoretical data modeling and how it can be applied to resilience thinking in urban contexts. Go through basic processes to create new geospatial data layers and add features to the new layers.
+
+[//]: # (Explore the use of GIS in urban planning through guest lecture from Jennifer Posner, Sr. Program Manager of the University of Miami Office for Civic Engagement. Jennifer will provide insight into real estate and planning issues and problems from experience in both New York and Miami.)  
 
 > Learning Objectives
 
+-   Understand basic components of data modeling
 -   Know basic data design principals for new/empty geospatial data layers 
 -   Know common methods for gathering geospatial data in the field
 -   Understand database permissions and versioning for editing/creating features
@@ -232,11 +238,10 @@ Explore methods for collecting data in the field including ArcGIS Online and the
 
 > Practical Objectives
 
--   Implement a new geospatial data layer in ArcGIS online for use with the Collector cellphone app
+-   Create a data model for the final project
 -   Create a new geospatial data layer and create new features
 -   Transform vector data to a raster layer and vice-versa
--   Trace features from a raster layer into a vector layer (heads-up digitizing)
--   Potential field survey with drone??
+-   Implement a new geospatial data layer in ArcGIS online for use with the Collector cellphone app
 
 >  Assigned Reading:
 
@@ -245,7 +250,9 @@ Explore methods for collecting data in the field including ArcGIS Online and the
 
 >  [slide deck](slides/slides060.html){:target="\_blank"}  
 
-*__Week 7 (Oct. 4):__ Resilience through Vector Aggregation and Spatial Joins*  
+*__Week 7 (Oct. 3):__ Resilience through Vector Aggregation and Spatial Joins*  
+
+[//]: # (invite to Posner, Jennifer M <jposner@miami.edu> sent)
 
 Brief introduction to resilience thinking across disciplines and what data might be useful for modeling resilience in urban environments. Explore how vector aggregation and spatial joins bring distinct data layers into analytical relationships.
 
@@ -264,26 +271,26 @@ Brief introduction to resilience thinking across disciplines and what data might
 
 >  [slide deck](slides/slides070.html){:target="\_blank"}  
 
-*__Week 8 (Oct. 11):__ MIDTERM and Online Mapping* 
+*__Week 8 (Oct. 10):__ MIDTERM, South Beach resilience, and Raster Math* 
 
-[//]: # (short week mon-wed)
+[//]: # (confirmed Ortega, Cristina <CristinaOrtega@miamibeachfl.gov>)
 
-The midterm exam will take no longer than 45 minutes. It will be followed by an introduction to several online mapping platforms with a focus on how they are used to map urban sustainability and resilience. Basic components of an online mapping platform and basic webpage concepts necessary to work with online mapping will be identified. 
+The midterm exam will be based on short answers, multiple choice questions, and a few fill in the blanks; it will take no longer than 45 minutes. We are pleased to announce that the midterm will be followed by a visit from Christina Ortega, city engineer for Miami Beach. She will give an introduction to thinking about sea level rise and elevation mapping. If there is time we will introduce basic concepts of raster math in GIS applications. If time permits we will show how to determine geographic areas that meet several criteria by using raster math to combine multiple data layers that represent the individual criteria. A sea level rise example in South Florida will be used to illustrate this process.
 
 [//]: # (include a focus on sustainability and resilience. Find good resources to explore)
 
 > Learning Objectives
 
--   Understand basic components of online mapping
--   Describe several configurations for an online map or map mashup
+-   Understand how scale, resolution, and projection work together in raster data
+-   Understand basic mathematical operators that can be used on pixel values in raster data
+-   Know several GIS transformation methods to normalize two raster data layers
 
 > Practical Objectives
 
--   Create a simple ArcGIS Online Storymap
--   Create a simple Knight Labs Storymap
--   Create a basic webpage using HTML / css / javascript
--   Identify different sources for map tiles
--   Demonstrate web based mapping APIs: Leaflet, Mapbox, OpenStreetMap
+-   Obtain and normalize several raster data layers to same resolution, scale, and projection
+-   Obtain at least one data layer from HAZUS
+-   Perform raster math between two raster layers
+-   Visualize and interpret the results from the raster math operation 
 
 >  Assignments:
 
@@ -291,30 +298,32 @@ The midterm exam will take no longer than 45 minutes. It will be followed by an 
 
 >  [slide deck](slides/slides080.html){:target="\_blank"}  
 
-*__Week 9 (Oct. 18):__ Data Modeling and GIS in Urban Design*
+*__Week 9 (Oct. 17):__ NO CLASS - fall recess*
 
-Explore theoretical data modeling and how it can be applied to resilience thinking in urban contexts. Explore the use of GIS in urban planning through guest lecture from Jennifer Posner, Sr. Program Manager of the University of Miami Office for Civic Engagement. Jennifer will provide insight into real estate and planning issues and problems from experience in both New York and Miami.\
+[//]: # (now part of fall recess - 2023 - October 14-17 : sat-tue)
+
+[//]: # (Explore methods for collecting data in the field including ArcGIS Online and the ESRI Collector cellphone app, high precision GPS survey instruments, drones, and sensors.)
+
+[//]: # (> Learning Objectives)
+
+[//]: # (> Practical Objectives)
+[//]: # (-   Trace features from a raster layer into a vector layer (heads-up digitizing))
+[//]: # (-   Potential field survey with drone??)
 
 [//]: # (*Guest speaker* on geospatial data and Real Estate mapping: Elizabeth Plater-Zyberk.)
 
-> Learning Objectives
-
--   Understand basic components of data modeling
--   Gain insight from experience with GIS in urban planning
-
-> Practical Objectives
-
--   Create a data model for the final project
-
 [//]: # (>  Assigned Reading:)
-
-[//]: # (-   [ Something from Elizabeth? ])
 
 [//]: # (>  [slide deck](slides/slides090.html{:target="\_blank"})  
 
-*__Week 10 (Oct. 25):__ Sea Level Rise and Raster Math in GIS*  
+*__Week 10 (Oct. 24):__ GIS and Climate Resilience in Miami-Dade County*  
 
-Determine geographic areas that meet several criteria by using raster math to combine multiple data layers that represent the individual criteria. A sea level rise example in South Florida will be used to illustrate this process.
+[//]: # (confirmed - Kamrath, Christian <Christian.Kamrath@miamidade.gov>)
+[//]: # (confirmed - Hebert, Mark <mhebert@coralgables.com>)
+
+[//]: # (invited Office of resilience, Katie Hegemann)
+
+We are pleased to welcome Christian Kamrath from the Miami-Dade County Resilience Office and Mark Hebert from the Coral Gables GIS Lab. They will share how GIS and geospatial thinking are used in the context of resilience thinking in Miami-Dade county and the Coral Gables Municipality.
 
 [//]: # (Do we need a better example? Sea level rise is really only an elevation layer ... or we need to think of another good layer like storm surge, or forest cover)
 
@@ -342,17 +351,23 @@ Determine geographic areas that meet several criteria by using raster math to co
 
 > Required Reading
 
+-   Be familiar with:
+  -   [Planning for Sea Level Rise in the
+Little River Adaptation Action Area](https://adaptation-action-area-in-little-river-mdc.hub.arcgis.com)
+  -   Little River Adaptation Action Area (in box folder Readings/ADAPTATION_PLAN_JANUARY_2022.pdf)
+  -   [Miami-Dade Flooding Vulnerability Viewer](https://gisweb.miamidade.gov/vulnerabilityviewer/)
+
 -   Explore the online FEMA Flood Map Products (HAZUS Program and National Risk Index)
 
 >  [slide deck](slides/slides100.html){:target="\_blank"}  
 
-*__Week 11 (Nov. 1):__ SQL, Environmental Justice, and GIS*  
+*__Week 11 (Oct. 31):__ SQL, Environmental Justice, and GIS*  
 
-Explore GIS for real estate and cadastral mapping: data sources, common issues, and online systems. Use this context for learning about SQL queries. Abigail Flemming from the University of Miami Environmental Justice Clinic will visit as a guest speaker and provide insight into how maps and data can be used to better understand problems of vulnerability, displacement, and social justice.
+[//]: # (confirmed - Fleming, Abigail L <afleming@law.miami.edu>)
+
+We are pleased to welcome Abigail Flemming, associate director of the University of Miami Environmental Justice Clinic will visit as a guest speaker and provide insight into how maps and data can be used to better understand problems of vulnerability, displacement, and social justice. Following this presentation we will explore GIS for real estate and cadastral mapping with special attention given to data sources, common issues, and online systems. If time permits we will use this context for learning about SQL queries.
 
 [//]: # (An alternative example will use vector-based GIS analysis to identify potential site locations for marijuana dispensaries in San Francisco.)
-
-[//]: # (Office of resilience, Katie Hegemann)
 
 > Learning Objectives
 
@@ -378,9 +393,11 @@ Explore GIS for real estate and cadastral mapping: data sources, common issues, 
 
 >  [slide deck](slides/slides110.html){:target="\_blank"}  
 
-*__Week 12 (Nov. 8):__ Maps as Stories: Urban Sustainability and Resilience*  
+*__Week 12 (Nov. 7):__ Maps as Stories: Urban Sustainability and Resilience*  
 
-Explore how map images tell stories of urban sustainability and resilience with beginning, middle, and end, and how maps provide indices to elements of the story. Consider the relationships between map and space, map and place, and map and territory; how does one create the other and vice-versa. Consider how maps are a part of broader social contexts and how they cannot stand alone. A picture may be worth a thousand words, but a thousand words plus a picture (map) is worth a lot more. We are pleased to welcome Christian Kamrath from the Miami-Dade County to share how the county uses GIS and cartographic data assets in their resilience office.
+Through the assigned readings we will explore how map images tell stories of urban sustainability and resilience with beginning, middle, and end, and how maps provide indices to elements of the story. Consider the relationships between map and space, map and place, and map and territory; how does one create the other and vice-versa. Consider how maps are a part of broader social contexts and how they cannot stand alone. A picture may be worth a thousand words, but a thousand words plus a picture (map) is worth a lot more. 
+
+We will also spend time reviewing relationships between vector and raster data (interpolation) and how to create final map layouts in both ArcGIS Pro and QGIS.
 
 [//]: # (emphasize sustainability and resilience more? On the other hand, shorten and make more about drone surveys, point clouds, and the process of getting a drone survey into a GIS)
 
@@ -395,17 +412,13 @@ Explore how map images tell stories of urban sustainability and resilience with 
 > Practical Objectives
 
 [//]: # (-   Complete online story map)
-[//]: # (-   Complete layout for printed map with all map elements)
+-   Complete layout for printed map with all map elements
 -   Critique static maps for storytelling effectiveness
 -   Refine stories for final project presentations  
+-   Complete an interpolation exercise (point data to raster data conversion)
 
 >  Assigned Reading:
 
--   Be familiar with:
-  -   [Planning for Sea Level Rise in the
-Little River Adaptation Action Area](https://adaptation-action-area-in-little-river-mdc.hub.arcgis.com)
-  -   Little River Adaptation Action Area (in box folder Readings/ADAPTATION_PLAN_JANUARY_2022.pdf)
-  -   [Miami-Dade Flooding Vulnerability Viewer](https://gisweb.miamidade.gov/vulnerabilityviewer/)
 -   *Making Maps* (Krygier & Wood, 2016)
   -   chapter 6: The Inner Workings of Map Design. pp. 140 - 155.
 
@@ -418,9 +431,9 @@ Little River Adaptation Action Area](https://adaptation-action-area-in-little-ri
 >  [HW example #1](slides/slides120_sampleHWpresentation01.html){:target="\_blank"}  
 >  [HW example #2](slides/slides120_sampleHWpresentation02.html){:target="\_blank"}  
 
-*__Week 13 (Nov. 15):__ GIS and Mapping in Oakland CA*
+*__Week 13 (Nov. 14):__ GIS and Mapping in Oakland CA*
 
-Explore how common geospatial data structures can serve in a variety of applications and computing environments. Moving data between applications and formats. Explore how GIS is used by government agencies and urban planners to plan for urban sustainability and resilience. The use of maps in the 2019 Downtown Oakland Specific Plan will be reviewed and critiqued.
+Explore how GIS is used by government agencies and urban planners to plan for urban sustainability and resilience. The use of maps in the 2019 Downtown Oakland Specific Plan will be reviewed and critiqued. If there is time we will explore how common geospatial data structures can serve in a variety of applications and computing environments. Moving data between applications and formats. 
 
 [//]: # (Do we need to teach to this more? The style of mapping)
 
@@ -448,13 +461,29 @@ Explore how common geospatial data structures can serve in a variety of applicat
 
 >  [slide deck](slides/slides130.html){:target="\_blank"}  
 
-*__THANKSGIVING BREAK (Nov. 23 - Nov. 26)__* 
+*__THANKSGIVING BREAK (Nov. 21 - Nov. 26)__* 
 
 >  There will be no class this week: students are encouraged to use the time either to meet with the instructors with questions about the final project or to work on the final project.
 
-*__Week 14 (Nov. 29):__ Student Project Review*  
+*__Week 14 (Nov. 28):__ Story Maps and Student Project Review*  
 
-Class will be an opportunity for students to present their course work and receive constructive criticism from the other students and instructors. If time is available, students will have the opportunity to work on final projects with the instructors present. We are pleased to welcome Bertrand Dano from the School of Engineering who will share his use of GIS in 3D modeling with Blender.
+[//]: # (sent Bertrand a note - danob@miami.edu)
+
+We will give an introduction to several online mapping platforms with a focus on how they are used to map urban sustainability and resilience. Basic components of an online mapping platform and basic webpage concepts necessary to work with online mapping will be identified. The remainder of class will be an opportunity for students to present their course work and receive constructive criticism from the other students and instructors. If time is available, students will have the opportunity to work on final projects with the instructors present. We are pleased to welcome Bertrand Dano from the School of Engineering who will share his use of GIS in 3D modeling with Blender.
+
+> Learning Objectives
+
+-   Understand basic components of online mapping
+-   Describe several configurations for an online map or map mashup
+
+> Practical Objectives (one or two only - TBD)
+
+-   Create a simple ArcGIS Online Storymap
+-   Create a simple Knight Labs Storymap
+-   Create a basic webpage using HTML / css / javascript
+-   Identify different sources for map tiles
+-   Demonstrate web based mapping APIs: Leaflet, Mapbox, OpenStreetMap
+-   Demo of the Miami Affordability Project
 
 >  Optional Reading:
 
@@ -464,18 +493,19 @@ Class will be an opportunity for students to present their course work and recei
 >  [HW example #1](slides/slides140_sampleHWpresentation01.html){:target="\_blank"}  
 >  [HW example #2](slides/slides140_sampleHWpresentation02.html){:target="\_blank"}  
 
-*__Week 15 (Dec. 6):__ Student Project Review* (short week mon-wed)
+*__Week 15 (Dec. 5):__ Student Project Review* (short week mon-wed)
+
+[//]: # (sent Bertrand a note - danob@miami.edu)
 
 Class will be an opportunity for students to present their course work and receive constructive criticism from the other students and instructors. If time is available, students will have the opportunity to work on final projects with the instructors present.
 
 > Practical Objectives:
 
 -   Finalize projects
+-   Demonstrate the use of Jupyter notebooks to visualize 3D point clouds derived from drone surveys
+-   Short presentation on participatory data gathering and auto-documentation in Las Flores, Barranquilla, Colombia
 
-[//]: # (-   Demonstrate the use of Jupyter notebooks to visualize 3D point clouds derived from drone surveys)
-[//]: # (-   Short presentation on participatory data gathering and auto-documentation in Las Flores, Barranquilla, Colombia)
-
-*__FINAL PRESENTATIONS (Dec. 14 @ 5:00 p.m.):__ Students will present their final projects*
+*__FINAL PRESENTATIONS (Dec. 8 @ 5:00 p.m.):__ Students will present their final projects*
 
 Students will have 10 minutes (strict: 5 minutes for presentation, 5 minutes for q/a) to give a formal presentation of their final project as described in the course description above under "Final Project".
 
