@@ -222,7 +222,8 @@ Students will be assigned a letter grade (A-F) based on the following:
 | Class Participation | 15% / 15 pts |  
 | Class Project (Initial Sketch) | 10% / 10 pts |  
 | Midterm Exam | 25% / 25 pts |
-| Class Project (Final Presentation) | 25% / 25 pts |  
+| Class Project (Review Presentation) | 15% / 15 pts |  
+| Class Project (Final Presentation) | 10% / 10 pts |  
 | Total | 100% / 100 pts |  
 
 ### Assignments:  
@@ -249,7 +250,7 @@ Engagement in class activities through speaking, assigned in-class presentations
 
 ### Class Project:  
 
-As a class project, each student will create at least one map layout and present it through a medium of their choice (print, projected, online, or another). All projects must be discussed and approved with one of the instructors prior to presentation. There will be two stages of presentation for this project, an initial sketch due in the fifth week and then a final presentation given at the end of the course. All students enrolled in the full three credit course must choose a class project that is within the context of urban sustainability and/or resilience. 
+As a class project, each student will create at least one map layout and present it through a medium of their choice (print, projected, online, or another). All projects must be discussed and approved with one of the instructors prior to presentation. There will be three stages of presentation for this project, an initial sketch due in the fifth week, then a review presentation given during the last two of the course, and a polished presentation given during the final exam period. All students enrolled in the full three credit course must choose a class project that is within the context of urban sustainability and/or resilience. NOTE: screenshots of maps and/or map images from other publications are not acceptable in any stage of these presentations; the maps presented must be your own work and must be exported from the GIS software of choice for use in the presentations.
 
 [//]: # (upload project folder to box)
 

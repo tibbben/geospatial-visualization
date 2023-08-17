@@ -65,7 +65,7 @@ NOTE: *Making Maps* (Krygier & Wood, 2016) download through page 31 available at
 >  Assignments:
 
 -   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting.  
--   Complete installation of software if not yet done.
+-   Identify GIS platform of choice and complete installation of software if not yet done.
 -   Choose a subject for the final project and design a file system for the project. 
 -   Be ready to present on chosen subject in the next class meeting.
 
@@ -108,6 +108,7 @@ Seek to understand data and data structures in terms of geospatial data and geog
 -   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting.  
 -   Obtain at least three data layers and store in correct file system location.  
 -   Be ready to present the data gathering/transformation process and solution in the next class meeting.  
+-   Schedule a meeting with one of instructors to discuss class project; must be on or before Friday September 8th. 
 
 >  [slide deck](slides/slides020.html){:target="\_blank"}  
 
@@ -140,6 +141,7 @@ putting multiple data layers together in one GIS and exploring relationships bet
 
 -   Complete construction of basic GIS if not complete: all layers correctly loaded in one GIS file.
 -   Be ready to present the GIS in the next class meeting.
+-   Schedule a meeting with one of instructors to discuss class project; must be on or before Friday September 8th. 
 
 >  Optional Assignment (extra credit):
 
@@ -307,7 +309,7 @@ The midterm exam will be based on short answers, multiple choice questions, and 
 [//]: # (> Learning Objectives)
 
 [//]: # (> Practical Objectives)
-[//]: # (-   Trace features from a raster layer into a vector layer (heads-up digitizing))
+[//]: # (-   Trace features from a raster layer into a vector layer -- heads-up digitizing)
 [//]: # (-   Potential field survey with drone??)
 
 [//]: # (*Guest speaker* on geospatial data and Real Estate mapping: Elizabeth Plater-Zyberk.)
@@ -389,7 +391,7 @@ We are pleased to welcome Abigail Flemming, associate director of the University
 >  Assignments:
 
 -   Continue to refine story ideas for final project
--   Schedule meeting with one of the instructors before November 16th
+-   Schedule meeting with one of the instructors on or before Friday November 17th  
 
 >  [slide deck](slides/slides110.html){:target="\_blank"}  
 
@@ -425,7 +427,7 @@ We will also spend time reviewing relationships between vector and raster data (
 >  Assignments:
 
 -   Continue to refine story ideas for final project
--   Schedule meeting with one of the instructors before November 16th
+-   Schedule meeting with one of the instructors on or before Friday November 17th  
 
 >  [slide deck](slides/slides120.html){:target="\_blank"}  
 >  [HW example #1](slides/slides120_sampleHWpresentation01.html){:target="\_blank"}  
