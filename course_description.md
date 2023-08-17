@@ -36,7 +36,7 @@ Book appointment: [https://cmader.youcanbook.me](https://cmader.youcanbook.me){:
 
 [//]: # (meeting times?? meeting place?? hybrid?? zoom links??)
 
-August 21nd - September 22th (581/681) / December 8th 2023 (594/694)  
+August 21nd - September 22nd (581/681) / December 8th 2023 (594/694)  
 Tuesdays: 2:00 pm - 4:45 pm  
 Place: A49-110 (SOA Media Lab)  
 
