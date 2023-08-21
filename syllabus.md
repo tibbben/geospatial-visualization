@@ -54,7 +54,7 @@ Introduce the course, the instructors, and the students. Review the entire sylla
   -   front matter of book up to page 17.
   -   chapter 2: What's Your Map For? pp. 36 - 41.
 
-NOTE: *Making Maps* (Krygier & Wood, 2016) download through page 31 available at: [https://www.researchgate.net/publication/307640488_Making_Maps_A_Visual_Guide_to_Map_Design_for_GIS_3rd_Edition](https://www.researchgate.net/publication/307640488_Making_Maps_A_Visual_Guide_to_Map_Design_for_GIS_3rd_Edition){:target="\_blank"}.
+NOTE: *Making Maps* (Krygier & Wood, 2016) download through page 31 available at: [https://www.researchgate.net/publication/307640488_Making_Maps_A_Visual_Guide_to_Map_Design_for_GIS_3rd_Edition](https://www.researchgate.net/publication/307640488_Making_Maps_A_Visual_Guide_to_Map_Design_for_GIS_3rd_Edition){:target="\_blank"}. It is also [available online through the library](https://miami.alma.exlibrisgroup.com/leganto/public/01UOML_INST/lists/29619335920002976?auth=SAML){:target="\_blank"}.
 
 >  Optional Reading (can be completed before first class meeting):
 
