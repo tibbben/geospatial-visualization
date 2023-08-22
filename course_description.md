@@ -228,7 +228,7 @@ Students will be assigned a letter grade (A-F) based on the following:
 
 ### Assignments:  
 
-With the exception of the first meeting, there will be assignments for each meeting throughout the entire course. These assignments will include reading with short written summaries, practical computer work, preparation for in class presentations, and cartography/GIS assignments. All assignments made will be due in the following class meeting as per the weekly schedule.  
+With the exception of the first meeting, there will be assignments for each meeting throughout the entire course. These assignments will include reading with short written summaries, practical computer work, preparation for in class presentations, and cartography/GIS assignments. All assignments made will be due in the following class meeting as per the weekly schedule. On accaison extra credit assignments will be made available to students.  
 
 While the class schedule in this syllabus (below) contains guidelines for the assignments, final expectations for the individual assignments will be set during class. The instructors reserve the right to make reasonable changes to the assignments in the course schedule below.
 
@@ -250,7 +250,7 @@ Engagement in class activities through speaking, assigned in-class presentations
 
 ### Class Project:  
 
-As a class project, each student will create at least one map layout and present it through a medium of their choice (print, projected, online, or another). All projects must be discussed and approved with one of the instructors prior to presentation. There will be three stages of presentation for this project, an initial sketch due in the fifth week, then a review presentation given during the last two of the course, and a polished presentation given during the final exam period. All students enrolled in the full three credit course must choose a class project that is within the context of urban sustainability and/or resilience. NOTE: screenshots of maps and/or map images from other publications are not acceptable in any stage of these presentations; the maps presented must be your own work and must be exported from the GIS software of choice for use in the presentations.
+As a class project, each student will create at least one map layout and present it through a medium of their choice (print, projected, online, or another). The map layout will be supported by a constructed GIS including the GIS project file and all data files named and organized in a project folder. All projects must be discussed and approved with one of the instructors prior to presentation. There will be three stages of presentation for this project, an initial sketch due in the fifth week, then a review presentation given during the last two of the course, and a polished presentation given during the final exam period. All students enrolled in the full three credit course must choose a class project that is within the context of urban sustainability and/or resilience. NOTE: screenshots of maps and/or map images from other publications are not acceptable in any stage of these presentations; the maps presented must be your own work and must be exported from the GIS software of choice for use in the presentations.
 
 [//]: # (upload project folder to box)
 
