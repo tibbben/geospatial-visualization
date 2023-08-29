@@ -318,14 +318,14 @@ The midterm exam will be based on short answers, multiple choice questions, and 
 
 [//]: # (>  [slide deck](slides/slides090.html{:target="\_blank"})  
 
-*__Week 10 (Oct. 24):__ GIS and Climate Resilience in Miami-Dade County*  
+*__Week 10 (Oct. 24):__ GIS and Climate Resilience in Miami-Dade County, GIS and Smart Cities in Coral Gables*  
 
 [//]: # (confirmed - Kamrath, Christian <Christian.Kamrath@miamidade.gov>)
 [//]: # (confirmed - Hebert, Mark <mhebert@coralgables.com>)
 
 [//]: # (invited Office of resilience, Katie Hegemann)
 
-We are pleased to welcome Christian Kamrath from the Miami-Dade County Resilience Office and Mark Hebert from the Coral Gables GIS Lab. They will share how GIS and geospatial thinking are used in the context of resilience thinking in Miami-Dade county and the Coral Gables Municipality.
+We are pleased to welcome Christian Kamrath from the Miami-Dade County Resilience Office and Mark Hebert from the Coral Gables GIS Lab. Christian will share how GIS and geospatial thinking are used in the context of resilience thinking in Miami-Dade county and Mark will share how Coral Gabels leverages GIS for Smart City planning. Make sure to review the materials they have provided and be prepared to engage in a conversation and ask questions.
 
 [//]: # (Do we need a better example? Sea level rise is really only an elevation layer ... or we need to think of another good layer like storm surge, or forest cover)
 
@@ -339,27 +339,36 @@ We are pleased to welcome Christian Kamrath from the Miami-Dade County Resilienc
 
 > Learning Objectives
 
--   Understand how scale, resolution, and projection work together in raster data
--   Understand basic mathematical operators that can be used on pixel values in raster data
--   Know several GIS transformation methods to normalize two raster data layers
--   Demo of the Miami Affordability Project
+-   Understand how GIS can be applied for climate resilience planning
+-   Understand how GIS can be leveraged for smart city planning  
 
-> Practical Objectives
+[//]: # (-   Understand how scale, resolution, and projection work together in raster data)
+[//]: # (-   Understand basic mathematical operators that can be used on pixel values in raster data)
+[//]: # (-   Know several GIS transformation methods to normalize two raster data layers)
+[//]: # (-   Demo of the Miami Affordability Project)
+
+> Practical Objectives (if we have time)
 
 -   Obtain and normalize several raster data layers to same resolution, scale, and projection
--   Obtain at least one data layer from HAZUS
 -   Perform raster math between two raster layers
--   Visualize and interpret the results from the raster math operation 
+
+[//]: # (-   Obtain at least one data layer from HAZUS)
+[//]: # (-   Visualize and interpret the results from the raster math operation)
 
 > Required Reading
 
 -   Be familiar with:
   -   [Planning for Sea Level Rise in the
-Little River Adaptation Action Area](https://adaptation-action-area-in-little-river-mdc.hub.arcgis.com)
-  -   Little River Adaptation Action Area (in box folder Readings/ADAPTATION_PLAN_JANUARY_2022.pdf)
-  -   [Miami-Dade Flooding Vulnerability Viewer](https://gisweb.miamidade.gov/vulnerabilityviewer/)
+Little River Adaptation Action Area](https://adaptation-action-area-in-little-river-mdc.hub.arcgis.com){:target="\_blank"} (Kamrath)
+  -   Little River Adaptation Action Area (in box folder Readings/ADAPTATION_PLAN_JANUARY_2022.pdf) (Kamrath)
+  -   [Miami-Dade Flooding Vulnerability Viewer](https://gisweb.miamidade.gov/vulnerabilityviewer/){:target="\_blank"} (Kamrath)
+  -   [Coral Gables - The City Beautiful](https://www.coralgables.com/media/410){:target="\_blank"} (Hebert)
+  -   [Coral Gables Development Projects January 2023](https://templates.maptiks.com/Shortlist/index.html?appid=465990eef5f94ca881b2d4a626036a67 ){:target="\_blank"} (Hebert)
+  -   [Coral Gables Smart City Infrastructure](https://cggis.maps.arcgis.com/apps/webappviewer/index.html?id=bf08d204f37b4af4b664f87c4f5740f1){:target="\_blank"} (Hebert)
 
 -   Explore the online FEMA Flood Map Products (HAZUS Program and National Risk Index)
+  -   [HAZUS](https://www.fema.gov/flood-maps/products-tools/hazus){:target="\_blank"}
+  -   [National Risk Index for Natural Hazards](https://www.fema.gov/flood-maps/products-tools/national-risk-index){:target="\_blank"}
 
 >  [slide deck](slides/slides100.html){:target="\_blank"}  
 
