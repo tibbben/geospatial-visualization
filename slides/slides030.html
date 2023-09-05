@@ -131,27 +131,109 @@
               </section>
 
               <section>
-                <div class="template-title">Getting Some Data (exercise)</div>
-                <div>
-                  <ul>
-                    <li>Goto the Miami-Dade Data Portal
-                      <ul style="font-size: 80%;">
-                          <li>Find the <i>Contaminated Sites</i> data set</li>
-                          <li>Note anything interesting about the context of this data</li>
-                          <li>Download the data as a CSV file (save in a project folder)</li>
-                      </ul>
-                    </li>
-                    <li style="margin-top: 42px;">Open the CSV in your GIS platform of choice
-                      <ul style="font-size: 80%;">
+
+                <section>
+                  <div class="template-title">Getting Some Data (exercise #1)</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li style="margin-top: 42px;">Create project - do good data management!!</li>
+                      <li style="margin-top: 42px;">Goto the <a href="https://gis-mdc.opendata.arcgis.com">Miami-Dade Data Portal</a>
+                        <ul style="font-size: 80%;">
+                            <li>Find the <i>Contaminated Sites</i> data set</li>
+                            <li>Note anything interesting about the context of this data.</li>
+                            <li>Look for projection information. What EPSG? Other information?</li>
+                            <li>Download the data as a CSV file (save in a project folder).</li>
+                        </ul>
+                      </li>
+                      <li style="margin-top: 42px;">Open the CSV in your GIS platform of choice</li>
+                        <ul style="font-size: 80%;">
                           <li>Find out how to "Create Points" for x/y (lat/lon) data</li>
+                          <li>Perhaps google "create points" and the name of the GIS platform ... ArcGIS Pro/QGIS</li>
                           <li>Create points for the Latitude/Longitude columns</li>
                           <li>Create points for the X_Coordinate/Y_Coordinate columns</li>
-                          <li>Re-project the Lat/Long layer to the coordinate system of the coordinate layer</li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-                <div class="template-citation" style="margin-top: 42px !important;"></div>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Getting Some Data (exercise #1)</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li style="margin-top: 42px;">Re-project the data to correct state plane</li>
+                        <ul style="font-size: 80%;">
+                          <li>re-project by "export" (right click on layer name and look for "export" or "data > export")</li>
+                          <li>pay attention to CRS/projection - explore!! (google is your friend)</li>
+                          <li>datum NAD83 (2011) feet</li>
+                          <li>find correct state plane CRS for Miami-Dade (use search filters wisely)</li>
+                        </ul>
+                      </li>
+                      <li style="margin-top: 42px;">With both the CRS information and the map visible, send a screenshot to <a href="mailto:txn60@miami.edu">me</a></li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section>
+                  <div class="template-title">Getting Some Data (exercise #2)</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li style="margin-top: 42px;">Create project - do good data management!!</li>
+                      <li style="margin-top: 42px;">Goto <a href="https://www.openstreetmap.org">Open Street Map (OSM)</a>
+                        <ul style="font-size: 80%;">
+                            <li>look around, find a place with not too much data (Key Biscane for example)</li>
+                            <li>Locate and click the "Export" button</li>
+                            <li>Make your selection small</li>
+                            <li>Click the large "Export" button</li>
+                        </ul>
+                      </li>
+                      <li style="margin-top: 42px;">Open the downloaded OSM data in QGIS</li>
+                        <ul style="font-size: 80%;">
+                          <li>In "Plugins" menu install the plugin "QuickOSM"</li>
+                          <li>Once installed, in "Vector" menu select "QuickOSM"</li>
+                          <li>Load the "map.osm" file (copied from your downloads to your project data directory)</li>
+                          <li>Be patient, it may take a while</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Getting Some Data (exercise #2)</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li style="margin-top: 42px;">Explore the OSM data</li>
+                        <ul style="font-size: 80%;">
+                          <li>Look at the attribute tables for each layer that was imported (points, lines, polygons)</li>
+                          <li>With the OSMFile (polygon) layer selected, select filter from the "Layer" menu</li>
+                          <li>create a filter where "Building" != ''</li>
+                          <li>Export the polygon layer to a shapefile (in your data directory with a good name)</li>
+                          <li>Use a projection you feel is appropriate</li>
+                          <li>Note that the new layer is *not* a memory layer</li>
+                        </ul>
+                      </li>
+                      <li style="margin-top: 42px;">Open the shapefile in ArcGIS Pro
+                        <ul style="font-size: 80%;">
+                          <li>Create project - do good data management!!</li>
+                          <li>Add the shapefile to the map</li>
+                          <li>Right click the layer, choose symbology ...</li>
+                          <li>Use "Unique Values" with the column "buildings"</li>
+                        </ul>
+                      </li>
+                      <li style="margin-top: 42px;">With the map visible, send a screenshot to <a href="mailto:txn60@miami.edu">me</a></li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
               </section>
 				
             </div>

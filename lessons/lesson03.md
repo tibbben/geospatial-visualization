@@ -20,8 +20,16 @@ total time 150 minutes.
 5.   Student Presentations (3:00 - 40 minutes)
 
 6.   Lecture - Projections (3:40 - 20 minutes)
+   - state plane NAD83: HARN CORS NSRS2007 (2011) - differences in centimeters (approx 30 to less than one)
+   - https://cdn.ymaws.com/www.nysapls.org/resource/resmgr/2020_conference/handouts/012220-09-new_datums_-_what_.pdf
 
 7.   Demonstration - get data from Miami-Dade, create points, re-project (4:00 - 20 minutes)
+   -   look for metadata, spend some time
+   -   see if they can find projection, use ... make mistakes
+   -   re-project to state plane 
+      -   right click layer, look for export
+      -   pay attention to projections/CRS (search florida ...)
+   -   
 
 8.   Individual work time - get data and put in GIS of choice (4:20 - 20 minutes)
 
