@@ -23,213 +23,46 @@
               <section>
 
                 <section>
-                  <div class="template-title">A few exercises</div>
-                  <div>
-                    <ul style="font-size: 0.7em;">
-                      <li style="margin: 7px 0px 0px 0px;">Use API as service<br><span style="top: -13px; font-size: 70%; position: relative;">> load online dynamic data into a GIS</span></li>
-                      <li style="margin: 7px 0px 0px 0px;">Get OSM Data<br><span style="top: -13px; font-size: 70%; position: relative;">> use data from Open Street Map</span></li>
-                      <li style="margin: 7px 0px 0px 0px;">Georeferencing<br><span style="top: -13px; font-size: 70%; position: relative;">> locating external files in geographic space</span></li>
-                      <li style="margin: 7px 0px 0px 0px;">Creating Data Layer<br><span style="top: -13px; font-size: 70%; position: relative;">> drawing in GIS</span></li>
-                      <li style="margin: 7px 0px 0px 0px;">Creating Layouts<br><span style="top: -13px; font-size: 70%; position: relative;">> for printing and export to design programs</span></li>
-                    </ul>
+                  <div class="template-title">Presentation of Initial Sketch<br><span style="font-size: 85%;">In Class Next Week</span></div>
+                  <div style="margin-top: 81px;">
+                    Presentation Style
+                        <ul style="margin-top: 42px; font-size: 80%;">
+                          <li>In person zoom meeting</li>
+                          <li>You will share your screen from the lab (either a lab machine or your machine)</li>
+                          <li>You will open your project in the GIS software of your choice</li>
+                          <li>You will have a maximum of 5 minutes to present</li>
+                          <li>Your presentation will be followed by a critique/review</li>
+                        </ul>
                   </div>
                   <div class="template-citation" style="margin-top: 42px !important;"></div>
                 </section>
 
                 <section>
-                  <div class="template-title">Use API as Service - 1</div>
-                  <div>
-                    <ul style="font-size: 80%;">
-                      <li>API - Application Programming Interface</a>
-                        <ul style="font-size: 80%;">
-                          <li>Sharing of dynamic data across some network protocol (i.e. the internet)</li>
-                          <li>Include "API" in your search terms (as an alternative to "shapefile")</li>
-                          <li>Among many other data providers, Arc GIS Online provides data as APIs</li>
-                          <li>Great for data exploration and online mapping applications</li>
-                          <li>Not suitable for publication ready maps (hard to cite)</li>
+
+                  <div class="template-title">Presentation of Initial Sketch<br><span style="font-size: 85%;">In Class Next Week</span></div>
+                  <div style="margin-top: 81px;">
+                    Expectations/Criteria
+                        <ul style="margin-top: 42px; font-size: 80%;">
+                          <li>outline and show project data management</li>
+                          <li>show two data layers (not counting base map)</li>
+                          <li>show a first draft of layout (title, legend, labels)</li>
+                          <li>introduce the outline of your story</li>
+                          <li>define an initial question you want to answer (ARC 594/694)</li>
+                          <li>share any problems you encountered</li>
+                          <li>include an aggregate data display (extra credit, not required as per syllabus)</li>
                         </ul>
-                      </li>
-                      <li style="margin-top: 23px;">Find an API endpoint
-                        <ul style="font-size: 80%;">
-                          <li>Identify metadata</li>
-                          <li>Copy the URL</li>
-                          <li>[ sometimes not obvious ]
-                        </ul>
-                      </li>
-                    </ul>
                   </div>
                   <div class="template-citation" style="margin-top: 42px !important;"></div>
                 </section>
 
-                <section>
-                  <div class="template-title">Use API as Service - 1</div>
-                  <div>
-                    <ul style="font-size: 80%;">
-                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro
-                        <ul style="font-size: 80%;">
-                          <li>Add data to map -> Data From Path</li>
-                          <li>Paste URL</li>
-                        </ul>
-                      </li>
-                      <li style="margin: 23px 0px 0px 0px;">QGIS
-                        <ul style="font-size: 80%;">
-                          <li>Add data to map - ArcGIS REST Server</li>
-                          <li>Edit the URL and delete everything after .../FeatureServer</li>
-                          <li>Paste URL</li>
-                          <li>Click "add to map"</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;"></div>
-                </section>
-
-                <section>
-                  <div class="template-title">Get OSM Data</div>
-                  <div>
-                    <ul style="font-size: 80%;">
-                      <li>All data released under <a href="https://www.openstreetmap.org/export#:~:text=Open%20Data%20Commons%20Open%20Database%20License">Open Data Commons Open Database License</a>
-                        <ul style="font-size: 80%;">
-                          <li>Start at <a href="https://www.openstreetmap.org/">https://www.openstreetmap.org/</a></li>
-                          <li>Navigate to area of interest</li>
-                          <li>Click export</li>
-                          <li>If the export fails, try other options at lower right (Overpass API is a good place to start)</li>
-                        </ul>
-                      </li>
-                      <li style="margin: 13px 0px 0px 0px;">QGIS
-                        <ul style="font-size: 80%;">
-                          <li>Add data to map</li>
-                          <li>Select all geometry types, click add</li>
-                          <li>Open attribute tables and explore</li>
-                          <li>Filter, symbolize, and copy layers as needed</li>
-                        </ul>
-                      </li>
-                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro
-                        <ul style="font-size: 80%;">
-                          <li>License and activate the Data Interoperability extension</li>
-                          <li>Use the Data Interoperability toolbox to import the OSM files</li>
-                          <li>Explore,filter, symbolize, and copy layers as needed</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;"></div>
-                </section>
-
-                <section>
-                  <div class="template-title">Georeferencing ARC GIS Pro</div>
-                  <div>
-                    <ul style="font-size: 80%;">
-                      <li>For both raster (tiff, jpg) and vector (dxf) data</li>
-                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro Raster
-                        <ul style="font-size: 80%;">
-                          <li>add layer to map</li>
-                          <li>click Raster layer: find "Image" panel > georeference</li>
-                          <li>fit to display, move, scale</li>
-                          <li>add control points</li>
-                        </ul>
-                      </li>
-                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro Vector
-                        <ul style="font-size: 80%;">
-                          <li>add layer to map</li>
-                          <li>click CAD layer group > expand layer group > select one CAD layer</li>
-                          <li>click "CAD Layer" panel > georeference</li>
-                          <li>fit to display, move, scale</li>
-                          <li>add control points</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;"></div>
-                </section>
-
-                <section>
-                  <div class="template-title">Georeferencing QGIS</div>
-                  <div>
-                    <ul style="font-size: 80%;">
-                      <li>For both raster (tiff, jpg) and vector (dxf) data</li>
-                      <li style="margin: 13px 0px 0px 0px;">QGIS Vector
-                        <ul style="font-size: 80%;">
-                          <li>possible but a little complicated</li>
-                          <li>google "georeference dxf QGIS"
-                        </ul>
-                      </li>
-                      <li style="margin: 13px 0px 0px 0px;">QGIS Raster
-                        <ul style="font-size: 80%;">
-                          <li>Plugins - GDAL georeferencer</li>
-                          <li>Raster > GDAL Georeferencer</li>
-                          <li>add image to georeferencer</li>
-                          <li>add control points (from map canvas)</li>
-                          <li>Settings > Transformation Settings > (Choose Transformation Type)</li>
-                          <li>"Play" button</li>
-                          <li>load image in QGIS</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;"></div>
-                </section>
-
-                <section>
-                  <div class="template-title">Creating a data layer</div>
-                  <div>
-                    <ul style="font-size: 80%;">
-                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro 
-                        <ul style="font-size: 80%;">
-                          <li>Find an appropriate location to create a new file in Catalog</li>
-                          <li>Right click and choose type of layer to create</li>
-                          <li>Specify parameters (depends on layer type)</li>
-                          <li>From Edit panel edit layer and add a feature (draw) -> save</li>
-                          <li>From attribute table edit fields and add one, then enter a value -> save</li>
-                        </ul>
-                      </li>
-                      <li style="margin: 13px 0px 0px 0px;">QGIS
-                        <ul style="font-size: 80%;">
-                          <li>Find an appropriate location to create a new file in Browser</li>
-                          <li>Right click and choose type of layer to create</li>
-                          <li>Specify parameters (depends on layer type) -> add a field before saving</li>
-                          <li>Use pencil icon to edit layer and then add tool (point, polygon or line) -> right click to finish</li>
-                          <li>Enter values for fields and then save with pencil icon</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;"></div>
-                </section>
-
-                <section>
-                  <div class="template-title">Layouts for Printing and Export</div>
-                  <div>
-                    <ul style="font-size: 80%;">
-                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro 
-                        <ul style="font-size: 80%;">
-                          <li>"Insert" Panel > New Layout (choose size)</li>
-                          <li>Add "Map Frame" and adjust scale and size</li>
-                          <li>add other elements: title, legend, scalebar</li>
-                          <li>"Share" Panel > Layout > export</li>
-                        </ul>
-                      </li>
-                      <li style="margin: 13px 0px 0px 0px;">QGIS
-                        <ul style="font-size: 80%;">
-                          <li>Project > New Print Layout (create a name)</li>
-                          <li>right click on page to change "Page Properties"</li>
-                          <li>Add Item > Add Map (draw rectangle on page)</li>
-                          <li>add other elements: title, legend, scalebar</li>
-                          <li>Layout > Export</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;"></div>
-                </section>
-
-              </section>  
+              </section>
 
               <section>
 
                 <section data-background-image="../common/assets/images/fools_Cap_Map_of_the_World.jpg" data-background-size="contain">
-                  <div style="position: absolute; left: 80px; top: -40px; font-size: 150%; line-height: 100%; text-align: left; background-color: rgba(255,255,255,0.7); padding: 23px; border-radius: 13px;"><strong>Simplification and Selection</strong></div>
-                  <div style="position: absolute; left: 600px; top: 450px; font-size: 150%; line-height: 100%; text-align: left; background-color: rgba(255,255,255,0.7); padding: 23px; border-radius: 13px;"><strong>Classification</strong></div>
+                  <div style="position: absolute; left: 80px; top: -40px; font-size: 150%; line-height: 100%; text-align: left; background-color: rgba(255,255,255,0.7); padding: 23px; border-radius: 13px; border: 1px solid #666;"><strong>Simplification and Selection</strong></div>
+                  <div style="position: absolute; left: 600px; top: 450px; font-size: 150%; line-height: 100%; text-align: left; background-color: rgba(255,255,255,0.7); padding: 23px; border-radius: 13px; border: 1px solid #666;"><strong>Classification</strong></div>
+                  <div class="template-citation" style="position: absolute; color: #666; left: 450px; top: 600px; width: 650px; background-color:rgba(255,255,255,0.7); padding: 13px; border-radius: 7px; border: 1px solid #888;">unknown artist (cerca 1587). Fool's Head World Map. Image from National Maritime Museum, Greenwich, London.</div>
                 </section>
 
                 <!--
@@ -490,7 +323,151 @@
                   </div>
                 </section>
 
-              </section>     
+              </section>
+
+              <section>
+                
+              <section data-transition="fade">
+                <div class="template-container">
+                  <div class="template-header">&nbsp;</div>
+                  <div class="template-content-containter">
+
+                    <div>
+                      <div class="template-title" style="margin-bottom: 72px !important;">Typography and Cartography</div>
+                      <div class="template-element">
+                        <div style="float: left; width: 20%; margin-left: 4%; font-size: 85%">
+                            Perhaps the second hardest part of cartography (after finding data)
+                        </div>
+                        <div style="float: right; width: 70%; margin-right: 4%;">
+                            <div style="display: inline-block;">
+                              <img src="../common/assets/images/subway.jpg" style="width: 300px; position: relative; top: 300px; left: -600px">
+                            </div><br>
+                            <div style="display: inline-block;">
+                              <img src="../common/assets/images/worldwords.jpg" style="max-width: 850px; position: relative; top: -250px; left: 100px">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  
+                  <div class="template-footer">&nbsp;</div>
+               </div>
+              </section>
+
+              <section data-transition="fade" data-background-image="../common/assets/images/periodictype.jpg" data-background-size="contain" data-background-color="#fff">
+                <div class="template-container">
+                    <div class="fragment" style="position: absolute; top: 40px; left: 40px; background-color: rgba(255,255,220,0.85); padding: 13px; border-radius: 7px; font-size: 80%; border: 1px #000 solid;">Sans Serif</div>
+                    <div class="fragment" style="position: absolute; top: 240px; left: 560px; background-color: rgba(255,255,220,0.85); padding: 13px; border-radius: 7px; font-size: 80%; border: 1px #000 solid;">Serif</div>
+                    <div class="fragment" style="position: absolute; top: 350px; left: 100px; background-color: rgba(255,255,220,0.85); padding: 23px; border-radius: 13px; font-size: 80%; border: 1px #000 solid;">    
+                        Fonts for Cartography<br>
+                        <div style="font-family: gill sans; display: block;">Gill Sans</div>
+                        <div style="font-family: optima; display: block;">Optima</div>
+                        <div style="font-family: caslon pro; display: block;">Caslon Pro</div>
+                        <div style="font-family: myriad pro; display: block;">Myriad Pro</div>
+                        <div style="font-family: meridian; display: block;">Meridian</div>
+                        <div style="font-family: kepler; display: block;">Kepler</div>
+                    </div>
+                    <div class="fragment" style="position: absolute; top: 220px; right: 100px; background-color: rgba(255,255,220,0.85); padding: 23px; border-radius: 13px; font-size: 80%; border: 1px #000 solid;">    
+                        Popular Design Fonts<br>
+                        <div style="font-family: helvetica; display: block;">Helvetica</div>
+                        <div style="font-family: trajan; display: block;">Trajan</div>
+                        <div style="font-family: garamond; display: block;">Garamond</div>
+                        <div style="font-family: futura; display: block;">Futura</div>
+                        <div style="font-family: bodini; display: block;">Bodini</div>
+                        <div style="font-family: frutiger; display: block;">Frutiger</div>
+                    </div>
+                </div>
+              </section>
+
+              <section data-transition="fade">
+                <div class="template-container">
+                    <div style="position: absolute; top: 40px; left: 40px; "><img src="../common/assets/images/type1.jpg"></div>
+                    <div style="position: absolute; top: 440px; left: 200px;"><img src="../common/assets/images/type2.jpg"></div>
+                    <div style="position: absolute; top: 350px; right: 150px;"><img src="../common/assets/images/type3.jpg"></div>
+                    <div style="position: absolute; top: 150px; right: 100px; font-size: 80%;">Some Terminology<br><i style="font-size: 80%;">More than you wanted to know, but . . .</i></div>
+                </div>
+              </section>
+
+              <section data-transition="fade">
+                <div class="template-container">
+                  <div class="template-header">&nbsp;</div>
+                  <div class="template-content-containter">
+
+                    <div>
+                      <div class="template-title" style="margin-bottom: 42px !important;">Character Spacing</div>
+                      <div class="template-element">
+                        <div style="float: left; width: 37%; margin-left: 4%; margin-top: 0px; font-size: 80%; text-align: left;">
+                            Kerning<br>
+                            <ul style="font-size: 80%;">
+                              <li>Special spacing between characters</li>
+                              <li style="margin-bottom: 42px;">Different for each font</li>
+                            </ul>
+                            Word Spacing<br>
+                            <ul style="font-size: 80%;">
+                              <li style="margin-bottom: 42px;">Space between words</li>
+                            </ul><br>
+                            Leading<br>
+                            <ul style="font-size: 80%;">
+                              <li>Space between lines</li>
+                              <li style="margin-bottom: 42px;">Can be expressed as percent of font height or points</li>
+                            </ul>
+                        </div>
+                        <div style="float: right; width: 55%; margin-right: 4%;">
+                            <div style="display: inline-block;">
+                                <div style="float: left; width: 40%">
+                                    <img src="../common/assets/images/kerning.jpg" style="max-width: 150px;">
+                                </div>
+                                <div style="float: right; width: 45%; font-size: 45%">
+                                    <i>Most design software packages allow for adjustment to kerning between individual characters in a word. This can be important for large fonts; for example poster titles.</i>
+                                </div>
+                            </div><br>
+                            <div style="display: inline-block;">
+                              <img src="../common/assets/images/wordspace.jpg" style="max-width: 600px;">
+                            </div>
+                            <div style="display: inline-block;">
+                              <img src="../common/assets/images/leading.jpg" style="max-width: 600px;">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  
+                  <div class="template-footer">&nbsp;</div>
+               </div>
+              </section>
+
+              <section data-transition="fade" data-background-image="../common/assets/images/spacing.jpg" data-background-size="contain" data-background-color="#fff">
+              </section>
+
+              <section data-transition="fade" data-background-image="../common/assets/images/lettersonmap.jpg" data-background-size="contain" data-background-color="#fff">
+              </section>
+
+              <section>
+                <div class="template-title">Map Text Conventions</div>
+                <div>
+                  <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                    <li>Think about visual hierarchy and your story</li>
+                    <li style="margin: 23px 0px 0px 0px;">ALWAYS
+                      <ul style="font-size: 80%;">
+                          <li>Natural features (rivers, oceans, lakes, mountains) - SERIF</li>
+                          <li>Human features (cities, roads, states, counties) - SANS SERIF</li>
+                      </ul>
+                    </li>
+                    <li style="margin: 23px 0px 0px 0px;">Generally
+                      <ul style="font-size: 80%;">
+                          <li>Four fonts at most, better two or three</li>
+                          <li>Avoid bold text when possible</li>
+                          <li>Avoid type crashes (with lines, points or any other features)</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="template-citation" style="margin-top: 42px !important;"></div>
+              </section>
+
+            </section>
 
               <section>
                 <section>
@@ -499,13 +476,15 @@
                     <ul>
                       <li>Geocoding<br><span style="font-size: 80%">> give addresses lat/long coordinates</span></li>
                       <li style="margin: 13px 0px 0px 0px;">Joining tables<br><span style="font-size: 80%">> attach attributes to spatial geometries</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Creating a new layer<br><span style="font-size: 80%">> for drawing your own geographies</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Creating a Layout<br><span style="font-size: 80%">> for printing or export</span></li>
                     </ul>
                   </div>
                   <div class="template-citation" style="margin-top: 42px !important;"></div>
                 </section>
 
                 <section>
-                  <div class="template-title">Geocoding</div>
+                  <div class="template-title">Geocoding - 1</div>
                   <div>
                     <ul style="font-size: 80%;">
                       <li>list of address information, usually comma separated values (csv)</li>
@@ -534,28 +513,60 @@
                 </section>
 
                 <section>
+                  <div class="template-title">Geocoding - 2</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>Public LEED Project Directory</li>
+                      <li style="margin: 13px 0px 0px 0px;">Go to <a href="https://www.usgbc.org/projects">https://www.usgbc.org/projects</a>
+                        <ul style="font-size: 80%;">
+                            <li>Filter for only Miami, explore ...</li>
+                            <li>Note that there is address information - geospatial data!</li>
+                            <li>Download the <a href="https://miami.box.com/s/iqzvioxu2qn9j8q4sboi5p60tug7pz0w" target="_blank">version</a> already made in Box Folder</a>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Go to <a href="https://geocod.io">https://geocod.io</a>
+                        <ul style="font-size: 80%;">
+                            <li>Upload the xlsx file</li>
+                            <li>Check the column selections for the geocoding process</li>
+                            <li>Note (but do not choose) the possible enrichments</li>
+                            <li>Create account and download geocoded data</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">in the GIS ...
+                        <ul style="font-size: 80%;">
+                            <li>Follow the create point methods from <a href="slides030.html#/3" target="_blank">last week</a></li>
+                            <li>Either of <strong>ArcGIS Pro</strong> or <strong>QGIS</strong></li>
+                            <li>Label the layer (right click layer and look for either properties or label)
+                        </ul>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
                   <div class="template-title">Joining tables - 1</div>
                   <div>
                     <ul style="font-size: 80%;">
                       <li>Census data example: attributes and geography come separate</li>
                       <li style="margin: 13px 0px 0px 0px;">Get Census data from the "US Census Bureau" (data.census.gov)
                         <ul style="font-size: 80%;">
-                            <li>start at <a href="https://data.census.gov/cedsci/">https://data.census.gov/cedsci/</a></li>
-                            <li>Search and select table</li>
-                            <li>"Customize Table" and add geography</li>
-                            <li>Goto "Map" to check</li>
+                            <li>start at <a href="https://data.census.gov/cedsci/" target="_blank">https://data.census.gov/cedsci/</a></li>
+                            <li>Search and select table (poverty in Florida 2021 - 5 year ACS)</li>
+                            <li>"Customize Table" and add geography (Census tract - Florida - All Census Tracts in Miami-Dade County)</li>
+                            <li>look for "Download Table Data" and download (make sure S1701 is selected)</li>
+                            <li>Explore the map tab while your download is prepared</li>
                             <li>When ready, return to table > click "Download"</li>
-                            <li style="margin-top: 23px;">use IPUMS at <a href="https://uma.pop.umn.edu/">https://uma.pop.umn.edu/</a> as an alternative</li>
+                            <li style="margin-top: 23px;">use IPUMS at <a href="https://uma.pop.umn.edu/" target="_blank">https://uma.pop.umn.edu/</a> as an alternative</li>
                         </ul>
                       </li>
                       <li style="margin: 13px 0px 0px 0px;">Get geographic data from "Census Geography Program"
                         <ul style="font-size: 80%;">
-                            <li>start at <a href="https://www.census.gov/programs-surveys/geography.html">https://www.census.gov/programs-surveys/geography.html</a></li>
-                            <li>Look for "Tiger/Line Geodatabases"</li>
-                            <li>Select "State Level Geodatbases" and your state</li>
-                            <li> -- OR -- </li>
-                            <li>Look for :cartographic Boundary Files"</li>
-                            <li>Choose type and scale -> download</li>
+                            <li>start at <a href="https://www.census.gov/programs-surveys/geography.html" target="_blank">https://www.census.gov/programs-surveys/geography.html</a></li>
+                            <li>Look for "Tiger/Line Shapefiles"</li>
+                            <li>Select correct year (2021)</li>
+                            <li>Use web interface</li>
+                            <li>Select 2021 as year and "Census Tracts"</li>
+                            <li>Select "Florida" -> download</li>
                         </ul>
                       </li>
                     </ul>
@@ -567,14 +578,224 @@
                   <div class="template-title">Joining tables - 2</div>
                   <div>
                     <ul style="font-size: 80%;">
-                      <li>Census data example: attributes and geography come separate</li>
+                      <li style="margin: 13px 0px 0px 0px;">problems with the Census webpages??
+                        <ul style="font-size: 80%;">
+                          <li><a href="https://miami.box.com/s/mm7o214wfwykhxshiykwk2vnofgys5a0" target="_blank">Miami-Dade census tracts</a></li>
+                          <li><a href="https://miami.box.com/s/ex4whugizrclmiqm6w9iz5kxwz6bumv3" target="_blank">ACS Poverty Stat</a></li>
+                        </ul>
+                      </li>
                       <li style="margin: 13px 0px 0px 0px;">in the GIS ...
                         <ul style="font-size: 80%;">
-                            <li>Import as csv with no geometries<br><span style="font-size=90%;">> must delete one header row first</span></li>
-                            <li style="margin: 13px 0px 0px 0px;">Import selected layers from geodatabase or shapefile<br><span style="font-size=90%;">> must include geometry from Census data</span></li>
-                            <li style="margin: 13px 0px 0px 0px;">In geometry layer, find "Joins" in the layer properties<br><span style="font-size=90%;">> either double click or right click</span></li>
-                            <li style="margin: 13px 0px 0px 0px;">Join based on GEO_ID and/or AFFGEOID (or some other combination)</li>
-                            <li>Symbolize from layer properties</li>
+                            <li>Import poverty data as csv with no geometries<br>> open attribute table and note header rows</li>
+                            <li style="margin: 13px 0px 0px 0px;">Import tracts from shapefile<br>> open attribute table and inspect</li>
+                            <li style="margin: 13px 0px 0px 0px;">The join will be based on "GEOID" (tracts) and "Geography" (csv)<br>> note that you must remove the "1400000US" from the Geography column in the csv
+                            <br>> find the "Field Calculator", create a new field GEOID in the csv as: right("Geography" ,11)</li>
+                            <li style="margin: 13px 0px 0px 0px;">Right click the geometry layer, find "Joins" in the layer properties (ArcGIS)<br><span style="font-size=90%;">Right click the layer, select properties, look for joins (QGIS)</span>
+                            <br>> join the csv with the tracts using GEOID (tracts) and the new GEOID (csv)</li>
+                            <li style="margin: 13px 0px 0px 0px;">Symbolize from layer properties<br>> note many different options, explore ...</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Creating a data layer</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro 
+                        <ul style="font-size: 80%;">
+                          <li>Find an appropriate location to create a new file in Catalog</li>
+                          <li>Right click and choose type of layer to create</li>
+                          <li>Specify parameters (depends on layer type)</li>
+                          <li>From Edit panel edit layer and add a feature (draw) -> save</li>
+                          <li>From attribute table edit fields and add one, then enter a value -> save</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">QGIS
+                        <ul style="font-size: 80%;">
+                          <li>Find an appropriate location to create a new file in Browser</li>
+                          <li>Right click and choose type of layer to create</li>
+                          <li>Specify parameters (depends on layer type) -> add a field before saving</li>
+                          <li>Use pencil icon to edit layer and then add tool (point, polygon or line) -> right click to finish</li>
+                          <li>Enter values for fields and then save with pencil icon</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Layouts for Printing and Export</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro 
+                        <ul style="font-size: 80%;">
+                          <li>"Insert" Panel > New Layout (choose size)</li>
+                          <li>Add "Map Frame" and adjust scale and size</li>
+                          <li>add other elements: <strong>title, legend, scalebar</strong></li>
+                          <li>"Share" Panel > Layout > export</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">QGIS
+                        <ul style="font-size: 80%;">
+                          <li>Project > New Print Layout (create a name)</li>
+                          <li>right click on page to change "Page Properties"</li>
+                          <li>Add Item > Add Map (draw rectangle on page)</li>
+                          <li>add other elements: <strong>title, legend, scalebar</strong></li>
+                          <li>Layout > Export</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section>
+                  <div class="template-title">A few more exercises (perhaps useful for your sketch)<br><span style="font-size: 80%;">not recipies, but use the keywords to find help in Google</span></div>
+                  <div>
+                    <ul>
+                      <li style="margin: 7px 0px 0px 0px;">Use API as service<br><span style="top: -13px; font-size: 70%; position: relative;">> load online dynamic data into a GIS<br>> if you use this in your sketch ...<br>>> make sure to have two additional layers that you downloaded to your project directory.</span></li>
+                      <!-- <li style="margin: 7px 0px 0px 0px;">Get OSM Data<br><span style="top: -13px; font-size: 70%; position: relative;">> use data from Open Street Map</span></li> -->
+                      <li style="margin: 7px 0px 0px 0px;">Georeferencing<br><span style="top: -13px; font-size: 70%; position: relative;">> locating external files (mostly rasters) in geographic space</span></li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Use API as Service - 1</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>API - Application Programming Interface</a>
+                        <ul style="font-size: 80%;">
+                          <li>Sharing of dynamic data across some network protocol (i.e. the internet)</li>
+                          <li>Include "API" in your search terms (as an alternative to "shapefile")</li>
+                          <li>Among many other data providers, Arc GIS Online provides data as APIs</li>
+                          <li>Great for data exploration and online mapping applications</li>
+                          <li>Not suitable for publication ready maps (hard to cite)</li>
+                        </ul>
+                      </li>
+                      <li style="margin-top: 23px;">Find an API endpoint
+                        <ul style="font-size: 80%;">
+                          <li>Identify metadata</li>
+                          <li>Copy the URL</li>
+                          <li>[ sometimes not obvious ]
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Use API as Service - 2</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro
+                        <ul style="font-size: 80%;">
+                          <li>Add data to map -> Data From Path</li>
+                          <li>Paste URL</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 23px 0px 0px 0px;">QGIS
+                        <ul style="font-size: 80%;">
+                          <li>Add data to map - ArcGIS REST Server</li>
+                          <li>Edit the URL and delete everything after .../FeatureServer</li>
+                          <li>Paste URL</li>
+                          <li>Click "add to map"</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <!-- <section>
+                  <div class="template-title">Get OSM Data</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>All data released under <a href="https://www.openstreetmap.org/export#:~:text=Open%20Data%20Commons%20Open%20Database%20License">Open Data Commons Open Database License</a>
+                        <ul style="font-size: 80%;">
+                          <li>Start at <a href="https://www.openstreetmap.org/">https://www.openstreetmap.org/</a></li>
+                          <li>Navigate to area of interest</li>
+                          <li>Click export</li>
+                          <li>If the export fails, try other options at lower right (Overpass API is a good place to start)</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">QGIS
+                        <ul style="font-size: 80%;">
+                          <li>Add data to map</li>
+                          <li>Select all geometry types, click add</li>
+                          <li>Open attribute tables and explore</li>
+                          <li>Filter, symbolize, and copy layers as needed</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro
+                        <ul style="font-size: 80%;">
+                          <li>License and activate the Data Interoperability extension</li>
+                          <li>Use the Data Interoperability toolbox to import the OSM files</li>
+                          <li>Explore,filter, symbolize, and copy layers as needed</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section> -->
+
+                <section>
+                  <div class="template-title">Georeferencing ARC GIS Pro</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>For both raster (tiff, jpg) and vector (dxf) data</li>
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro Raster
+                        <ul style="font-size: 80%;">
+                          <li>add layer to map</li>
+                          <li>click Raster layer: find "Image" panel > georeference</li>
+                          <li>fit to display, move, scale</li>
+                          <li>add control points</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro Vector
+                        <ul style="font-size: 80%;">
+                          <li>add layer to map</li>
+                          <li>click CAD layer group > expand layer group > select one CAD layer</li>
+                          <li>click "CAD Layer" panel > georeference</li>
+                          <li>fit to display, move, scale</li>
+                          <li>add control points</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Georeferencing QGIS</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>For both raster (tiff, jpg) and vector (dxf) data</li>
+                      <li style="margin: 13px 0px 0px 0px;">QGIS Vector
+                        <ul style="font-size: 80%;">
+                          <li>possible but a little complicated</li>
+                          <li>google "georeference dxf QGIS"
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">QGIS Raster
+                        <ul style="font-size: 80%;">
+                          <li>Plugins - GDAL georeferencer</li>
+                          <li>Raster > GDAL Georeferencer</li>
+                          <li>add image to georeferencer</li>
+                          <li>add control points (from map canvas)</li>
+                          <li>Settings > Transformation Settings > (Choose Transformation Type)</li>
+                          <li>"Play" button</li>
+                          <li>load image in QGIS</li>
                         </ul>
                       </li>
                     </ul>
