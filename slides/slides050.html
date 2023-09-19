@@ -19,7 +19,7 @@
                 <div style="position: absolute; left: 0px; top: 550px; font-size: 40%; text-align: right; color: #555; width: 280px;">Map from the Detroit Expeditions organized by Bill Bunge in the late 1960s (Colvard 1971, 18). </div>
               </section>
 
-              <section>
+              <!-- <section>
                 
               <section data-transition="fade">
                 <div class="template-container">
@@ -161,7 +161,7 @@
                 <div class="template-citation" style="margin-top: 42px !important;"></div>
               </section>
 
-            </section>
+            </section> -->
 
               <section>
 
@@ -357,31 +357,86 @@
                 </section>
 
                 <section>
-                  <div class="template-title">Creating vector data</div>
+                  <div class="template-title">Creating vector data (#1)</div>
                   <div>
                     <ul style="font-size: 80%;">
-                      <li>Remember: the project file/folder is NOT the data</li>
-                      <li style="margin: 13px 0px 0px 0px;">Create a data layer
+                      <li>Remember: the project file/folder is NOT the data
                         <ul style="font-size: 80%;">
-                            <li>Layer > create</li>
-                            <li>In ArcCatalog window > right click > create new Feature Class / Shapefile</li>
-                            <li>Define the columns you want ...
+                          <li>Create a new map project with data folder - DATA MANAGEMENT</li>
+                          <li>When we edit the project we are editing the layout, the symbology, the labels, etc.</li>
+                          <li>When we edit the data layers we are editing the geometries and the attributes</li>
+                          <li>^^ these are different things</li>
                         </ul>
                       </li>
+                      <li style="margin: 13px 0px 0px 0px;">Create a data layer
+                        <ul style="font-size: 80%;">
+                            <li>In QGIS: menu: Layer > create > GeoPackage</li>
+                            <li>In ArcGIS Pro: ArcCatalog window > geodatabase folder (gdb) > right click > new > Feature Class</li>
+                            <li>Call it "swamps," make sure it is polygon, give it the local Florida state plane CRS, and click next</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Define the columns you want ...
+                        <ul style="font-size: 80%;">
+                          <li>Create a "Name" column that is text.</li>
+                          <li>Create an "Area" column that is Decimal or Double.</li>
+                          <li>click next</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Creating vector data (#2)</div>
+                  <div>
+                    <ul style="font-size: 80%;">
                       <li style="margin: 13px 0px 0px 0px;">Make Layer editable
                         <ul style="font-size: 80%;">
                             <li>QGIS - the little yellow pencil</li>
+                            <li>QGIS - look for the editing icons in tool bars</li>
                             <li>ArcGIS - Edit tab -> Create</li>
-                            <li>QGIS - look for the editingicons</li>
+                            <li>ArcGIS - Look for correct polygon tool in the correct layer on the right</li>
                         </ul>
                       </li>
                       <li style="margin: 13px 0px 0px 0px;">Add features
                         <ul style="font-size: 80%;">
+                            <li>Add a base map with satellite imagery</li>
+                            <li>Locate a swamp</li>
+                            <li>With the polygon tool selected, start to draw</li>
                             <li>Try to maintain one scale</li>
-                            <li>right click to finish sketch/part</li>
-                            <li>Remember to save edits often<br>layer, not the project</li>
+                            <li>Right click to finish sketch/part</li>
+                            <li>Remember to save edits often<br>(layer, not the project)</li>
                         </ul>
                       </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Creating vector data (#3)</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li style="margin: 13px 0px 0px 0px;">Edit attributes ArcGIS Pro
+                        <ul style="font-size: 80%;">
+                            <li>Open the attribute table for swamps</li>
+                            <li>Enter a name (or names) for your swamp(s)</li>
+                            <li>Right click the "Area" column and choose "Calculate Geometry"</li>
+                            <li>Set "Property" to "Area (geodesic)" and "Units" to "Acres"</li>
+                            <li>Set "Coordinate System" to "swamps" and click "ok"</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Edit attributes QGIS
+                        <ul style="font-size: 80%;">
+                            <li>Open the attribute table for swamps</li>
+                            <li>Enter a name (or names) for your swamp(s)</li>
+                            <li>Open the field calculator and update the existing field "Area"</li>
+                            <li>From the middle list of funcitons and columns, find "Geometry and select "$area"</li>
+                            <li>In the expression box on the left make it look like (for sq ft to acre conversion): <pre>$area / 43560</pre></li>
+                            <li>click OK</li>
+                        </ul>
+                      </li>   
                       <li style="margin: 13px 0px 0px 0px;">Turn off layer editing</li>
                     </ul>
                   </div>
@@ -413,6 +468,57 @@
                   <div class="template-citation" style="margin-top: 42px !important;"></div>
                 </section>
 
+              </section>
+
+              <section>
+                <div class="template-title">Symbolizing the swamp</div>
+                <div>
+                  <ul style="font-size: 80%;">
+                    <li>An image based polygon fill</li>
+                    <li style="margin: 13px 0px 0px 0px;">Find a grass like png online (open source) and resize to about 60px and save in your project folder</li>
+                    <li style="margin: 13px 0px 0px 0px;">ArcGIS</li>
+                      <ul style="font-size: 80%;">
+                          <li>Layer symbology ... (double click icon in table of contents)</li>
+                          <li>In symbology pane find "Properties" tab</li>
+                          <li>Change the fill color to a light green that is somewhat transparent</li>
+                          <li>With the wrench icon, add a new symbol fill layer</li>
+                          <li>Select "Picture fill" for fill type</li>
+                          <li>With the picture button, locate your save file</li>
+                          <li>Set size to about 10pt and click "Apply"</li>
+                      </ul>
+                    </li>
+                    <li style="margin: 13px 0px 0px 0px;">QGIS
+                      <ul style="font-size: 80%;">
+                          <li>From layer properties, click the symbology pane</li>
+                          <li>Under "Single Symbol" click "Simple Fill" and set the color to a dull somewhat transparent green with no border</li>
+                          <li>On the right click the "+" icon and add another layer to the symbology; select "Raster image fill"</li>
+                          <li>With the selector directly below, locate the file and load</li>
+                          <li>set the size to about 12 pixels</li>
+                          <li>Click OK</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="template-citation" style="margin-top: 42px !important;"></div>
+              </section>
+
+              <section>
+                <div class="template-title">The Homework</div>
+                <div>
+                  <ul style="font-size: 80%;">
+                    <li style="margin: 13px 0px 0px 0px;">Add some butterflies, symbolize, label, and create a layout.
+                      <ul style="font-size: 80%;">
+                          <li>Create a point layer called "butterflies" with attributes: "common_name" and "scientific_name"</li>
+                          <li>Edit the layer and add a few butterflies on your swamp, make sure to edit the attributes and fill in fields (can be made up)</li>
+                          <li>Find a butterfly image (png) and symbolize the layer with the image you found</li>
+                          <li>Label the layer with the "common_name"</li>
+                          <li>Make a simple layout with title, legend, and scalebar</li>
+                          <li>Take a screenshot and send along</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="template-citation" style="margin-top: 42px !important;"></div>
               </section>
 				
             </div>
