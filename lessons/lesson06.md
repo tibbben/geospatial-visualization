@@ -5,34 +5,21 @@ Lesson 6
 
 total time 150 minutes. 
 
-1.   Housekeeping (2:40 pm - 10 min)  
+1.   Housekeeping (2:00 pm - 10 min)  
    -   check in on midterm week 8 (two weeks from today)
-   -   ask about most common design applications in use
+   -   first guest speaker next week - Jen Posner Office of Civic and Community Engagement
    -   make Field assignments
 
-2.   Practical Exercises (2:50 pm - 50 min)  
-   -   join
-   -   labeling
-   -   (geocoding)
-   -   labeling
-   -   layout review
-       -  elements of map (scale, north arrow, title, sources, author, legend)
-   -   creating data (georeference review with Drone image, trace outline, layout review)
-   -   creating data: data types (point layer for trees)
-   -   editing data
+2.   Student Presentations (2:10 - 40 min)  
+   -   two remaining sketches
+   -   perhaps updates from two students
 
-2.   Student Presentations (3:40 - 20 min)  
-   -   two remaining Field presentations
-   -   one remaining sketch
-   -   perhaps lectures as a break??
+3.   Break 2:50
 
-4.   Break (4:00 pm - 5 min)
+4.   Data modeling (3:00 pm - 60 min)  
 
-5.   Collector exercise (5:05 - 10 minutes)
-   -   set up web map with feature layer
-   -   looking at map in collector
-   -   creating data with collector app
-   -   editing data with collector app
-   -   getting data on desktop
+5.   Break (4:00 pm - 5 min)
 
-8.   Close (5:15 - 5 min)
+6.   Georeference and Collector exercise (4:05 - 435 minutes)
+
+7.   Close (4:40 - 5 min)

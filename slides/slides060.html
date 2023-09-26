@@ -31,9 +31,10 @@
                   <div class="template-title">Some exercises</div>
                   <div>
                     <ul style="font-size: 0.85em;">
-                      <li style="margin: 13px 0px 0px 0px;">Joining tables<br><span style="font-size: 80%">> use a key column to join data to geometries</span></li>
+                      <!-- <li style="margin: 13px 0px 0px 0px;">Joining tables<br><span style="font-size: 80%">> use a key column to join data to geometries</span></li>
                       <li style="margin: 13px 0px 0px 0px;">Labeling<br><span style="font-size: 80%">> adding text to a map<br>> geocode review<br>> review print layouts</span></li>
-                      <li style="margin: 13px 0px 0px 0px;">Creating vector data<br><span style="font-size: 80%">> enter data by hand<br>> review georeferencing<br>> review editing data</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Creating vector data<br><span style="font-size: 80%">> enter data by hand<br>> review georeferencing<br>> review editing data</span></li> -->
+                      <li style="margin: 13px 0px 0px 0px;">Georeferencing excercise</li> 
                       <li style="margin: 13px 0px 0px 0px;">Use layer in ArcGIS Field cellphone app</li>
                     </ul>
                   </div>
@@ -41,7 +42,10 @@
                 </section>
 
               </section>
-              <section>
+
+              <!-- JOINING TABLES EXCERCISE -->
+
+              <!-- <section>
 
                 <section>
                   <div class="template-title">Joining tables - 1</div>
@@ -92,9 +96,11 @@
                   <div class="template-citation" style="margin-top: 42px !important;"></div>
                 </section>
 
-              </section>
+              </section> -->
 
-              <section>
+              <!-- LEEDS LABELING EXCERCISE -->
+
+              <!-- <section>
 
                 <section data-transition="fade">
                   <div class="template-title">Labeling 1</div>
@@ -209,9 +215,11 @@
                     </ul>
                   </div>
                   <div class="template-citation" style="margin-top: 42px !important;"></div>
-                </section>
+                </section> -->
 
-                <section>
+              <!-- LAYOUT EXCERCISE -->
+
+              <!-- <section>
                   <div class="template-title">Layouts for Printing and Export</div>
                   <div>
                     <ul style="font-size: 80%;">
@@ -249,8 +257,11 @@
                   </div>
                 </section>
 
-              </section>
-              <section>
+              </section> -->
+
+              <!-- CREATE VECTOR LAYER EXCERCISE -->
+
+              <!-- <section>
 
                 <section data-transition="fade">
                   <div class="template-title">Creating vector data 1</div>
@@ -320,7 +331,117 @@
                   <div class="template-citation" style="margin-top: 42px !important;"></div>
                 </section>
 
+              </section> -->
+
+              <!-- GEOREFERENCING ECERCISE -->
+
+              <section>
+
+                <section>
+                  <div class="template-title">Georeferencing #1</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>Get the UMSpring2022.jpg image from the class data folder on <a href="https://miami.box.com/s/ha7fbhuh6iue5quc3eo179xvzeioz4wc">box</a></li>
+                      <li style="margin: 13px 0px 0px 0px;">Create a week6lab project in QGIS or ArcGIS Pro
+                        <ul style="font-size: 80%;">
+                          <li>move the downloaded image to the appropriate place</li>
+                          <li>do the data management dance</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Georeferencing #2 ARC GIS Pro</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>For both raster (tiff, jpg) and vector (dxf) data</li>
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro Raster
+                        <ul style="font-size: 80%;">
+                          <li>add layer to map<br><span style="font-size: 0.8em;"><em>If there is a question about statistics read it carefully, explore the options, look it up on google, make an informed decision ...</em></span></li>
+                          <li>click Raster layer in table of contents: find "Imagery" panel > georeference</li>
+                          <li>fit to display, move, scale</li>
+                          <li>in layer symbology find the "Mask" panel and display the background 255, 255, 255 as transparent</li>
+                          <li>add control points - you need at least three<br><span style="font-size: 0.8em;"><em>Note that there are many "transformations" available (see the menu). If you are not sure, consult google.</em></span></li>
+                          <li>open the "control point table" to better understand the process</li>
+                          <li>save the layer (remember layer not project)</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Georeferencing #3 ARC GIS Pro</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li style="margin: 13px 0px 0px 0px;">Publish the layer to ArcGIS Online
+                        <ul style="font-size: 80%;">
+                          <li>Remove all base map layers from the table of contents</li>
+                          <li>Find the Share tab, make sure you are logged in to your account (upper right)</li>
+                          <li>Share as a "Web Layer" - "Publish Web Layer"</li>
+                          <li>Name the layer: "UM2022Drone_your_initials", give it a short summary and a tag or two</li>
+                          <li>Make it a "Tile" layer, save it to a new folder called "myCollector", and share with everyone</li>
+                          <li>in the "Configuration" tab set the visibility from level 14 to 21 (IMPORTANT, do not go higher than 21)</li>
+                          <li>click "Analyze" and then "Publish"</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Georeferencing #4 ARC GIS Pro</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>For both raster (tiff, jpg) and vector (dxf) data</li>
+                      <li style="margin: 13px 0px 0px 0px;">ArcGIS Pro Vector (optional)
+                        <ul style="font-size: 80%;">
+                          <li>add layer to map</li>
+                          <li>click CAD layer group > expand layer group > select one CAD layer</li>
+                          <li>click "CAD Layer" panel > georeference</li>
+                          <li>fit to display, move, scale</li>
+                          <li>add control points</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section>
+                  <div class="template-title">Georeferencing #2 QGIS</div>
+                  <div>
+                    <ul style="font-size: 80%;">
+                      <li>For both raster (tiff, jpg) and vector (dxf) data</li>
+                      <li style="margin: 13px 0px 0px 0px;">QGIS Vector
+                        <ul style="font-size: 80%;">
+                          <li>possible but a little complicated</li>
+                          <li>google "georeference dxf QGIS"
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">QGIS Raster
+                        <ul style="font-size: 80%;">
+                          <li>Plugins - GDAL georeferencer</li>
+                          <li>Raster > GDAL Georeferencer</li>
+                          <li>add image to georeferencer</li>
+                          <li>add control points (from map canvas)</li>
+                          <li>Settings > Transformation Settings > (Choose Transformation Type)</li>
+                          <li>"Play" button</li>
+                          <li>load image in QGIS</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
               </section>
+
               <section>
 
                 <section data-transition="fade">
@@ -330,8 +451,9 @@
                       <li>Similar to create polygon layer (back two slides)<br>> *but* do this in ArcGIS Online</li>
                       <li style="margin: 13px 0px 0px 0px;">Login and go to main "Contents" tab:
                         <ul style="font-size: 80%;">
+                          <li>Navigate to your "myCollector" folder</li>
                             <li>+ New Item > Create Feature Layer</li>
-                            <li>Define your own layer > call it "trees" and make it a "point Layer" > NEXT</li>
+                            <li>Define your own layer > call it "um_trees_your_initials" and make it a "point Layer" > NEXT</li>
                             <li>Add tags, summary, and click SAVE</li>
                         </ul>
                       <li style="margin: 13px 0px 0px 0px;">Finish setting up your layer
@@ -399,8 +521,9 @@
                         <ul style="font-size: 80%;">
                             <li>rename your map (upper left corner)</li>
                             <li>add your new tree layer with the add button</li>
-                            <li>add the "Layer from web"</li>
-                            <li>more directions to come</li>
+                            <li>add your raster drone layer</li>
+                            <li>save the map as "TreeCollector_YourInitials"</li>
+                            <li>navigate to the map in the content pane and share the map with "everyone"</li>
                         </ul>
                       <li style="margin: 13px 0px 0px 0px;">Turn off layer editing, save edits</li>
                     </ul>
