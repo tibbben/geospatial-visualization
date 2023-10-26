@@ -507,7 +507,7 @@
 
               </section>
 
-              <section>
+              <!-- <section>
 
                 <section data-transition="fade">
                   <div class="template-title">UM Trees and Buildings: Elevation and Canopy Area Tutorial<br><span style="font-size: 0.75em;">Extraction and Zonal Statistics (field calculator review)</span></div>
@@ -691,9 +691,98 @@
                   <div class="template-citation" style="margin-top: 42px !important;"></div>
                 </section>
 
-              </section>
+              </section> -->
 
               <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">An exercise - UM Gables Campus 5ft Sealevel Rise Scenario</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Start new project in GIS of your choice</li>
+                      <li style="margin: 13px 0px 0px 0px;">Get data (from <a href="https://miami.box.com/s/1jlqkgumkz5bux23nepcekd1kyq5qmrg">box folder</a>)
+                        <ul style="font-size: 0.85em;">
+                            <li><a href="https://miami.box.com/s/esbafhkwqlw3n5h99dz1p6dbudzomncn">UM_DEM_2021_5FT.tif</a></li>
+                            <li><a href="https://miami.box.com/s/mm7o214wfwykhxshiykwk2vnofgys5a0">2021_MD_CensusTracts.zip</a></li>
+                        </ul>
+                      </li>
+
+                      <li style="margin: 13px 0px 0px 0px;">Create a data folder inside the project and unzip all data from above</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">5 ft scenario</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Open the DEM in your GIS project
+                        <ul style="font-size: 0.85em;">
+                            <li>note projection information, size of cells, other important metadata</li>
+                            <li>make sure to understand that each cell is 5ft x 5ft or 25 sq/ft</li>
+                            <li>visualize using manual breaks: <0 | 0-5 | 5-10 | > 10</li>
+                            <li>choose a good color scheme</li>
+                            <li>explore a little</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Find raster calculator (in toolbox)
+                        <ul style="font-size: 0.85em;">
+                            <li>create the expression: ("UM_DEM_2021_5FT.tif" > 0) &  ("UM_DEM_2021_5FT.tif" < 5)</li>
+                            <li>give the output a good file name and run tool</li>
+                            <li>visualize based on 0 and 1</li>
+                            <li>make sure to understand that 0 is either elevation < 0 or elevation > 5</li>
+                            <li>make sure to understand that 1 is either elevation > 0 or elevation < 5</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Calculate Zonal Statistics</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Open the Census Tracts in your project
+                        <ul style="font-size: 0.85em;">
+                          <li>Remove fill color in symbology</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Look for "Zonal Statistics as Table" in toolbox
+                        <ul style="font-size: 0.85em;">
+                            <li>Zonal layer be census tracts using GEOID20 as the field</li>
+                            <li>Second layer will be the raster with 0 < cell < 5 showing as 1</li>
+                            <li>Select all statistics, give the output a good name, and run the tool</li>
+                            <li>open the resulting table</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 23px 0px 0px 0px;">Calculate percentage flooded using field calculator (review)
+                        <ul style="font-size: 0.85em;">
+                          <li>Open the field calculator and create a new column "percentFlooded"</li>
+                          <li>Create the expression: !SUM! / !COUNT! and run the tool</li>
+                          <li>Make sure to understand that you are calculating a percent area</li>
+                        </ul>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Visualize Percentage Flooded</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Join statistics table back to census tracts using GEOID as the join field</li>
+                      <li style="margin: 13px 0px 0px 0px;">Visualize the percentage flooded on census tracts</li>
+                      <li style="margin: 13px 0px 0px 0px;">Using the info tool, click on the UM Census Tract and inspect results (find percentage flooded)</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+              </section>
+
+              <!-- <section>
 
                 <section data-transition="fade">
                   <div class="template-title">An exercise - Miami-Dade 5ft Sealevel Rise Scenario</div>
@@ -702,7 +791,7 @@
                       <li style="margin: 13px 0px 0px 0px;">Start new project in GIS of your choice</li>
                       <li style="margin: 13px 0px 0px 0px;">Get data (from <a href="https://miami.box.com/s/1jlqkgumkz5bux23nepcekd1kyq5qmrg">box folder</a> -or- from <a href="https://gis-mdc.opendata.arcgis.com/">Miami-Dade portal</a>)
                         <ul style="font-size: 0.85em;">
-                            <li><a href="https://miami.box.com/s/ar5wygiialkp3mefqvgg6cl8quqps9jo">dem_10ft.zip</a></li>
+                            <li><a href="https://gisms.miamidade.gov/opendata/dem/2015/dem_10ft.zip">dem_10ft.zip</a></li>
                             <li><a href="https://miami.box.com/s/xt3qjxa3580l2deyegyaq7ctd2rdwned">Water_P.zip</a></li>
                         </ul>
                       </li>
@@ -820,7 +909,7 @@
                   <div class="template-citation" style="margin-top: 42px !important;"></div>
                 </section>
 
-              </section>
+              </section> -->
 				
             </div>
         </div>
