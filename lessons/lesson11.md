@@ -5,17 +5,25 @@ Lesson 11
 
 total time 150 minutes. 
 
-1.   Housekeeping (2:00 pm - 5 min)  
+1.   Housekeeping (2:00 pm - 10 min)  
    -   Chris note about last minute projects
    -   Nov 14 deadline for meetings with us
+   -   GIS Day
 
-2.   Abigail Flemming (2:05 pm - 60 min)
+2.   More on rasters (2:10 - 25 min)
+   -   quickly review week 10 slides
+   -   slow down at resampling from week 10 slides
+   -   questions from homework
 
-3.   Break (3:05 pm - 5 min)
+3.   Student presentations (2:35 - 20 min)
 
-5.   SQL (4:00 pm - 15 min)
+4.   Break (2:55 - 5 min)
 
-3.   Student Presentations (3:40 pm - 20 min)
+2.   Abigail Flemming (3:0 0pm - 60 min)
+
+3.   Break (4:00 pm - 5 min)
+
+5.   SQL (4:05 pm - 15 min)
 
 4.   Vector Relationships, Structures, and Tools (3:10 pm - 30 min)
    -   Overlays
@@ -34,20 +42,21 @@ INTO fz100
 FROM public.mdc_flood_hazard 
 WHERE fzone LIKE 'AH';
 
-SELECT total_population,geom 
+SELECT geoid, total_population, geom 
 INTO dade_tracts 
-FROM acs_2019_5yr_tract_12_florida_dvmt 
+FROM mdc_2021_acs_5yr_tract_dvmt 
 WHERE countyfp = '086'
 
-SELECT dade_tracts.total_population, dade_tracts.geom 
+SELECT DISTINCT dade_tracts.geoid, dade_tracts.total_population, dade_tracts.geom
+INTO tracts_fz100_intersect
 FROM dade_tracts, fz100
 WHERE ST_Intersects(dade_tracts.geom, fz100.geom)
 
-SELECT sum(dade_tracts.total_population) 
-FROM dade_tracts, fz100
-WHERE ST_Intersects(dade_tracts.geom, fz100.geom)
+SELECT sum(total_population) 
+FROM tracts_fz100_intersect
 
-SELECT 
+SELECT
+   dade_tracts.geoid,
    dade_tracts.total_population, 
    ROUND(dade_tracts.total_population * (ST_Area(ST_Intersection(dade_tracts.geom,fz100.geom))/ST_Area(dade_tracts.geom))) as prop_est, 
    dade_tracts.geom 
@@ -70,5 +79,6 @@ WHERE ST_Intersects(dade_tracts.geom, fz100.geom)
 DROP TABLE fz100;
 DROP TABLE dade_tracts;
 DROP TABLE tract_prop_est;
+DROP TABLE tracts_fz100_intersects;
 
 
