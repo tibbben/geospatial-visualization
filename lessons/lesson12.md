@@ -8,20 +8,15 @@ total time 150 minutes.
 1.   Housekeeping (2:00 pm - 10 min)  
    -   Field update
    -   Reading update (remind about late acceptance)
-   -   ask about extra credit
-   -   philosophy of urban planning ....?
 
-2.   Continue SQL exercise
+2.   Continue SQL exercise (2:10 - 25 min)
    -   how many people effected by sea level rise
-
-3.   Interpolation
-   -   raster to vector -> extraction at points, along lines, or inside polygons (zonal statistics)
-   -   vector to raster -> interpolation
-   -   see slides from Field (perhaps heat maps slides as well)
       
-3.   Student Presentations
+3.   Student Presentations (2:35 - 15 min)
 
-4.   Critique of Little River exercise
+4.   Break (2:50 - 5 min)
+
+5.   Critique of Little River exercise (3:00 - 40 min)
    -   two main perspectives:
       -   cartographic/GIS/design
       -   resilience and sustainability
@@ -43,4 +38,11 @@ total time 150 minutes.
       -   Parks and Open Space 85
       -   Transportation 89
 
-   -   data citation?? data sharing??
+6.   In class time to work on projects (rest of class)
+
+7.   data citation?? data sharing??
+
+8.   Interpolation
+   -   raster to vector -> extraction at points, along lines, or inside polygons (zonal statistics)
+   -   vector to raster -> interpolation
+   -   see slides from Field (perhaps heat maps slides as well)
