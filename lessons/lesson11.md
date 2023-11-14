@@ -58,7 +58,12 @@ FROM tracts_fz100_intersect
 SELECT
    dade_tracts.geoid,
    dade_tracts.total_population, 
-   ROUND(dade_tracts.total_population * (ST_Area(ST_Intersection(dade_tracts.geom,fz100.geom))/ST_Area(dade_tracts.geom))) as prop_est, 
+   ROUND(dade_tracts.total_population * (
+         ST_Area(
+            ST_Intersection(dade_tracts.geom,fz100.geom)
+         )/ST_Area(dade_tracts.geom)
+      )
+   ) as prop_est, 
    dade_tracts.geom 
 FROM dade_tracts, fz100
 WHERE ST_Intersects(dade_tracts.geom, fz100.geom)

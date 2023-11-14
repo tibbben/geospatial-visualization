@@ -5,20 +5,30 @@ Lesson 13
 
 total time 150 minutes. 
 
-1.   Housekeeping (2:40 pm - 10 min)  
+1.   Housekeeping (2:00 pm - 10 min)  
    -   meetings ....
    -   projects, thanksgiving break
-   -   homework and grades ...
    -   data sources into box doc
+   -   final project formats ... reminder/questions
 
-   Area Calculations
-   reproject
-   projections on the fly
-   restart arcmap
+2.   Interpolation (2:10 pm - 30 min)
+   -   review purpose from week 12 slides
+   -   start exercise with everyone from week 12 
+      -   set up project
+      -   get data
+      -   do at least on example interpolation
+   -   leave the final part of the exercise as extra credit (2 pts max)
 
-2.   Student Presentations
+3.   Start layout exercise (both QGIS and ArcGIS) (2:40 pm - 20 min)
+   -   extent indicators on locator map
+   -   layout features (location, size)
+   -   title, legend, scale
+   -   export as svg for illustrator 
 
-3.   Oakland plan critique - what is overall purpose? justification for funding asks and decisions -> development
+4.   Break (3:00 pm - 5 min)
+
+4.   Oakland plan critique (3:05 pm - 40 minutes)
+   -   what is overall purpose? justification for funding asks and decisions -> development
    -   use of 3D (google earth) as basemap (title page)
    -   scale of maps?? number of maps?? amount of work?
    -   comments on overall chapter structure?? something surprising? something missing?
@@ -40,21 +50,7 @@ total time 150 minutes.
    -   map change perspective 244 (288)
    -   (appendices b2 (greyscale))
 
-4.   Homework questions
-   -   tree height raster calculation (+/-)
-   -   visualize building elevation color scheme
-   -   zonal statistics questions?
-
-5.   Extra credit raster exercise
-   -   look at HAZUS metadata and how it relates to 5 ft flood zone scenario
-   -   look at CDC SVI data
-   -   look at US Census resilience data
-
-6.   Start layout exercise (both QGIS and ArcGIS)
-   -   extent indicators on locator map
-   -   layout features (location, size)
-   -   title, legend, scale
-   -   export as svg for illustrator 
+5.   Class time for projects (3:45 - 60 minutes)
 
 
 
