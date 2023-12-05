@@ -518,7 +518,7 @@ Class will be an opportunity for students to present their course work and recei
 
 *__FINAL PRESENTATIONS (Dec. 8 @ 5:00 p.m.):__ Students will present their final projects*
 
-Students will have 10 minutes (strict: 5 minutes for presentation, 5 minutes for q/a) to give a formal presentation of their final project as described in the course description above under "Class Project".
+Students will have 15 minutes (strict: 10 minutes for presentation, 5 minutes for q/a) to give a formal presentation of their final project as described in the course description above under "Class Project".
 
 [//]: # (Is there something published from the South Beach project?)
 
