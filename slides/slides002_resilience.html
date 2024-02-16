@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../common/css/reveal.css">
+        <link rel="stylesheet" href="../common/css/white.css">
+        <link rel="stylesheet" href="../common/css/overrides.css">
+	    <script src="../common/java/print.js"></script>
+        <title>Climate Resilience - GIS</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+
+              <section data-background-image="../common/assets/images/long.jpg" data-background-size="fill" data-background-color="#000">
+
+                <div style="position: absolute; left: 120px; top: 40px; font-size: 150%; line-height: 100%; color: #000 !important; text-align: left;text-shadow: 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff;"><strong>Climate Resilience</strong></div>
+
+                <div style="position: absolute; left: 600px; top: 240px; font-size: 90%; color: #000 !important;text-align: right;text-shadow: 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff;;"><br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
+                
+                <div style="position: absolute; left: 455px; top: 400px; font-size: 50%; text-align: left; color: #000 !important; line-height: 145%;text-shadow: 0px 0px 7px #fff, 0px 0px 7px #fff, 0px 0px 7px #fff, 0px 0px 7px #fff,0px 0px 7px #fff, 0px 0px 7px #fff, 0px 0px 13px #fff;">Dr. Timothy Norris : <a href="mailto:tnorris@miami.edu" style="color: #000 !important;">tnorris@miami.edu</a></div>
+                
+                <div style="position: absolute; left: 0px; top: 550px; font-size: 40%; text-align: right; color: #555; width: 280px;"></div>
+
+              </section>
+
+              <section data-transition="fade">
+                <div class="template-title">Today's Goals</div>
+                <div>
+                  <ol type="a" style="font-size: 0.85em;">
+                    <li style="margin: 13px 0px 0px 0px;">Review Capstone</li>
+                    <li style="margin: 13px 0px 0px 0px;">Introduction to GIS and storytelling</li>
+                    <li style="margin: 13px 0px 0px 0px;">Introduction to ArcGIS Online</li>
+                    <li style="margin: 13px 0px 0px 0px;">Little River ArcGIS Online Tutorial</li>
+                    <li style="margin: 13px 0px 0px 0px;">Reflection on tutorial and GIS experience</li>
+                    <li style="margin: 13px 0px 0px 0px;">Brainstorm data needs</li>
+                    <li style="margin: 13px 0px 0px 0px;">Identify next steps for Capstone</li>
+                  </ol>
+                </div>
+                <div class="template-citation" style="margin-top: 42px !important;"></div>
+              </section>
+
+              <section data-background-image="../common/assets/images/DataScientistTimeBreakdown.png" data-background-size="contain" data-background-color="#000">
+				
+            </div>
+        </div>
+        <script src="../common/java/reveal.js"></script>
+	    <script src="../common/java/notes.js"></script>
+	    <script src="../common/java/head.min.js"></script>
+        <script>
+            Reveal.initialize({
+                width: 1366, height: 768, margin: 0.05,
+                controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				mouseWheel: true,
+				chart: {
+					defaults: { 
+						global: { 
+							defaultFontSize: 20,
+							title: { fontColor: "#333" }, 
+							legend: {
+								position: "top",
+								labels: { fontColor: "#333" },
+							},
+							tooltips: {
+								labels: { fontColor: "#333" },
+							},
+						}, 
+						scale: { 
+							scaleLabel: { fontColor: "#333" }, 
+							gridLines: { color: "#333", zeroLineColor: "#333" }, 
+							ticks: { fontColor: "#333" }, 
+						} 
+					},
+				},
+                dependencies: [
+                    { src: '../common/java/Chart.min.js' },
+                    { src: '../common/java/csv2chart.js' }
+                ] 
+            });
+        </script>
+    </body>
+</html>
