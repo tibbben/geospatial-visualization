@@ -2,12 +2,21 @@
 ### Lesson Plan 
 
 1. Introduction and Housekeeping - 5 min 11:20
+   - introduce resilience
+   - systems thinking, earth day, image from space, feedback loops, chaos theory
+   - stop at definition - have them shout out data for resilience mapping 
+   - Design with Nature - Ian McHarg
+
+### stop slides switch to capstone
 
 2. Review of Capstone Project - 30 min 11:50
    - as a taste of future work options (not a GIS class, not a field method class, etc)
    - either as potential work (directly) or management - think key concepts and terms
    - experimental crowd sourcing/citizen science
    - as policy recommendations (like the guest speaker Stacey Aguilera from Amy Clement)
+   - what is resilience .... how do maps fit into this
+
+### resume slides - 5 things and Data Science - the stop
 
 3. Review of Lecture - 10 min 1:25
    - start with questions - 9 of 12 students already had accounts - who has made maps? Who has used GIS in analysis? Who has data visualization experience? Who wants to tell stories? Who wants to learn about leveraging the power of maps? tell some stories perhaps?
@@ -16,6 +25,8 @@
    - GIS tools, ArcGIS Online, ArcgGIS Pro, QGIS, Python, others ...
    - too easy to make a bad map, very hard to make a good story
    - getting data is the hardest part (show image on desktop)
+
+### show last slide of resources at library - move downstairs
 
 4. ArcGIS Online Introduction - group work - 60 min 2:25
    - go through login in, getting ArcGIS Pro if they want, issues (is there anyone who cannot login) 5 min
