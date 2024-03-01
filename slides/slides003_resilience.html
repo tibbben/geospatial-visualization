@@ -1,0 +1,343 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../common/css/reveal.css">
+        <link rel="stylesheet" href="../common/css/white.css">
+        <link rel="stylesheet" href="../common/css/overrides.css">
+	    <script src="../common/java/print.js"></script>
+        <title>Climate Resilience - GIS Data</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+
+              <section data-background-image="../common/assets/images/decimal_raster.jpg" data-background-size="fill" data-background-color="#000">
+
+                <div style="position: absolute; left: 120px; top: 40px; font-size: 150%; line-height: 100%; color: #000 !important; text-align: left;text-shadow: 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff;"><strong>Climate Resilience - DATA</strong></div>
+
+                <div style="position: absolute; left: 600px; top: 240px; font-size: 90%; color: #000 !important;text-align: right;text-shadow: 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff;;"><br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
+                
+                <div style="position: absolute; left: 455px; top: 400px; font-size: 50%; text-align: left; color: #000 !important; line-height: 145%;text-shadow: 0px 0px 7px #fff, 0px 0px 7px #fff, 0px 0px 7px #fff, 0px 0px 7px #fff,0px 0px 7px #fff, 0px 0px 7px #fff, 0px 0px 13px #fff;">Dr. Timothy Norris : <a href="mailto:tnorris@miami.edu" style="color: #000 !important;">tnorris@miami.edu</a></div>
+                
+                <div style="position: absolute; left: 0px; top: 550px; font-size: 40%; text-align: right; color: #555; width: 280px;"></div>
+
+              </section>
+
+        <section>
+
+          <section data-transition="fade">
+            <div class="um-template-container">
+              <div class="um-template-header"></div>
+              <div class="um-template-content-containter" style="font-size: 1.2em">
+
+                <div class="um-template-content" style="max-width: 95%; width: 95%;">
+                  <div class="um-template-title">Data for Urban Resilience</div>
+                  <div style="font-size: 0.7em; display: inline-block; line-height: 1.2em">
+                    <div style="float: left;">
+                      <div class="um-template-title" style="font-size: .6em">Physical</div>
+                      <ul>
+                        <li>Climate
+                          <ul style="font-size: 0.85em;">
+                            <li>temperature</li>
+                            <li>air pollution</li>
+                            <li>rainfall</li>
+                          </ul>
+                        </li>
+                        <li style="margin-top: 7px;">Geology
+                          <ul style="font-size: 0.85em;">
+                            <li>foundation conditions</li>
+                            <li>unique or valuable deposits</li>
+                          </ul>
+                        </li>
+                        <li style="margin-top: 7px;">Physiography
+                          <ul style="font-size: 0.85em;">
+                            <li>slope</li>
+                            <li>riparian habitat</li>
+                            <li>surface drainage</li>
+                          </ul>
+                        </li>
+                        <li style="margin-top: 7px;">Hydrology
+                          <ul style="font-size: 0.85em;">
+                            <li>aquifers</li>
+                            <li>drainage basins</li>
+                            <li>recharge zones</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div style="float: left; margin: 0px 60px;">
+                      <div class="um-template-title" style="font-size: .6em">Values</div>
+                      <ul>
+                        <li>Scenic
+                          <ul style="font-size: 0.85em;">
+                            <li>forests</li>
+                            <li>features</li>
+                            <li>riparian</li>
+                            <li>beaches</li>
+                          </ul>
+                        </li>
+                        <li style="margin-top: 7px;">Development
+                          <ul style="font-size: 0.85em;">
+                            <li>commercial</li>
+                            <li>residential</li>
+                            <li>industrial</li>
+                            <li>resource extraction</li>
+                          </ul>
+                        </li>
+                        <li style="margin-top: 7px;">Conservation
+                          <ul style="font-size: 0.85em;">
+                            <li>endangered species</li>
+                            <li>endemic species</li>
+                            <li>water</li>
+                            <li>soil</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div style="float: left;">
+                      <div class="um-template-title" style="font-size: .6em">Land Use</div>
+                      <ul>
+                        <li>Urban Zoning
+                          <ul style="font-size: 0.85em;">
+                            <li>residential</li>
+                            <li>commercial</li>
+                            <li>industrial</li>
+                            <li>recreational</li>
+                          </ul>
+                        </li>
+                        <li>Historic
+                          <ul style="font-size: 0.85em;">
+                            <li>buildings</li>
+                            <li>cultural sites</li>
+                            <li>educational</li>
+                          </ul>
+                        </li>
+                        <li style="margin-top: 7px;">Recreational
+                          <ul style="font-size: 0.85em;">
+                            <li>active</li>
+                            <li>passive</li>
+                          </ul>
+                        </li>
+                        <li style="margin-top: 7px;">Conservation
+                          <ul style="font-size: 0.85em;">
+                            <li>animal habitats</li>
+                            <li>ecosystems</li>
+                            <li>surface drainage</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="um-template-footer um-template-citation">
+                 McHarg, Ian L. (1969). <i>Design With Nature</i>. Philadelphia: The Falcon Press.
+              </div>
+            </div>              
+          </section>
+
+          <section data-transition="fade">
+            <div class="um-template-container">
+              <div class="um-template-header"></div>
+              <div class="um-template-content-containter" style="font-size: 1.2em">
+
+                <div class="um-template-content" style="max-width: 95%; width: 95%;">
+                  <div class="um-template-title">Data for Urban Resilience</div>
+                  <div style="font-size: 0.6em; display: inline-block; line-height: 1.2em">
+                    <div style="float: left; max-width: 30%;">
+                      <div class="um-template-title" style="font-size: .6em">Heat Islands</div>
+                      <ul>
+                        <li>Physical
+                          <ul style="font-size: 0.85em;">
+                            <li><em>temperature (Surface_Temperature_MDC_2)</em></li>
+                            <li style="color: #888;">air pollution (EPA, purple air)</li>
+                            <li style="color: #888;">rainfall (Florida Climate Center)</li>
+                          </ul>
+                        </li>
+                        <li style="margin-top: 7px;">Built Environment
+                          <ul style="font-size: 0.85em;">
+                            <li><em>drone survey</em></li>
+                            <li><em>building Footprints</em></li>
+                            <li style="color: #888;">cooling centers</li>
+                          </ul>
+                        </li>   
+                        <li style="margin-top: 7px;">Natural Environment
+                          <ul style="font-size: 0.85em;">
+                            <li><em>drone survey (extract vegetation)</em></li>
+                            <li><em>tree canopy (Miami-Dade Tree Canopy Cover NLCD)</em></li>
+                          </ul>
+                        </li>                 
+                      </ul>
+                    </div>
+                    <div style="float: left; margin: 0px 60px; max-width: 30%;">
+                      <div class="um-template-title" style="font-size: .6em">Flooding</div>
+                      <ul>
+                        <li style="margin-top: 7px;">Physiography<br>
+                          <em style="font-size: 0.85em;"">can be derived from 2015 1-ft DEM</em>
+                          <ul style="font-size: 0.85em;">
+                            <li><em>elevation</em></li>
+                            <li>slope</li>
+                            <li>surface drainage</li>
+                            <li>drainage basins</li>
+                          </ul>
+                        </li>
+                        <li style="margin-top: 7px;">Flood and Storm Surge
+                          <ul style="font-size: 0.85em;">
+                            <li><em>SLOSH models</em></li>
+                            <li><em>water (water_p)</em></li>
+                            <li><em>flood modeling with DEM</em></li>
+                          </ul>
+                        </li>
+                        <li style="margin-top: 7px;">Built Environment
+                          <ul style="font-size: 0.85em;">
+                            <li><em>impermeable surfaces</em></li>
+                            <li><em>building footprints</em></li>
+                            <li><em>Stormwater Line</em></li>
+                            <li><em>DOH Septic System</em></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div style="float: left; max-width: 30%;">
+                      <div class="um-template-title" style="font-size: .6em">Socio-Economic</div>
+                      <ul>
+                        <li>Urban Zoning
+                          <ul style="font-size: 0.85em;">
+                            <li><em>municipal zoning</em></li>
+                            <li><em>county zoning</em></li>
+                            <li><em>FEMA flood zones</em></li>
+                            <li><em>Storm Surge Planning Zones</em></li>
+                            <li style="color: #888;">NLCD Land Cover</li>
+                            <li style="color: #888;">Municipal Parks/County Parks</li>
+                            <li><em>HOLC redlining</em></li>
+                          </ul>
+                        </li>
+                        <li style="margin-top: 7px;">Built Environment
+                          <ul style="font-size: 0.85em;">
+                            <li><em>Building Footprints</em></li>
+                            <li><em>Parcels</em></li>
+                          </ul>
+                        </li>
+                        <li style="margin-top: 7px;">Census
+                          <ul style="font-size: 0.85em;">
+                            <li><em>Income</em></li>
+                            <li><em>Race</em></li>
+                            <li><em>vehicle ownership</em></li>
+                            <li><em>property ownership</em></li>
+                            <li><em>education</em></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>              
+          </section>
+
+        </section>
+
+        <section>
+
+              <section data-background-image="../common/assets/images/DataScientistTimeBreakdown.png" data-background-size="contain" data-background-color="#000"></section>
+
+            <section>
+              <div style="width: 85%; margin: auto auto 60px auto;">
+                <div style="font-weight: bold; font-size: 110%; padding-bottom: 22px;">Resources at UM</div>
+                <div style="font-size: 40%; text-align: left; line-height: 170%; border-bottom: 1px grey solid;">
+                  <table><tr>
+                  <td width=380>
+                    <div class="staff-pic"><a href="https://sp.library.miami.edu/subjects/staff/tnorris"><img src="../common/assets/images/tim.jpg" alt="tnorris@miami.edu" title="tnorris@miami.edu" class="staff_photo" width="70" align="left"></a></div><div class="staff-meta"><h4><a href="https://sp.library.miami.edu/subjects/staff/tnorris">Timothy Norris</a></h4>
+                    <p><em>Data Scientist</em></p>
+                    <p>(305) 284-2826 <a href="mailto:tnorris@miami.edu">tnorris@miami.edu</a></p>
+                    </div>
+                  </td><td width=380>
+                    <div class="staff-pic"><a href="https://sp.library.miami.edu/subjects/staff/criopelle"><img src="../common/assets/images/cameron.jpg" alt="criopelle@miami.edu" title="criopelle@miami.edu" class="staff_photo" width="70" align="left"></a></div><div class="staff-meta"><h4><a href="https://sp.library.miami.edu/subjects/staff/criopelle">Cameron Riopelle</a></h4>
+                    <p><em>Head of Data Services</em></p>
+                    <p>(305) 284-3257 <a href="mailto:criopelle@miami.edu">criopelle@miami.edu</a></p>
+                  </td><td width=380>
+                    <div class="staff-pic"><a href="https://sp.library.miami.edu/subjects/staff/thilani.samarakoon"><img src="../common/assets/images/ThilaniSamarakoon.png" alt="thilani.samarakoon@miami.edu" title="thilani.samarakoon@miami.edu" class="staff_photo" width="70" align="left"></a></div><div class="staff-meta"><h4><a href="https://sp.library.miami.edu/subjects/staff/thilani.samarakoon">Thilani Samarakoon</a></h4>
+                    <p><em>Biomedical Data Librarian</em></p>
+                    <p>(305) 243-6403 <a href="mailto:thilani.samarakoon@miami.edu">thilani.samarakoon@miami.edu</a></p>
+                  </td></tr></table>
+                  <table><tr><td width=380>
+                    <div class="staff-pic"><a href="https://sp.library.miami.edu/subjects/staff/l.montas"><img src="https://sp.library.miami.edu/assets/users/_l.montas/headshot_large.jpg" alt="l.montas@umiami.edu" title="l.montas@umiami.edu" class="staff_photo" width="70" align="left"></a></div><div class="staff-meta"><h4><a href="https://sp.library.miami.edu/subjects/staff/l.montas">Larissa Montas</a></h4>
+                    <p><em>GIS Services Librarian</em></p>
+                    <p><a href="mailto:l.montas@umiami.edu">l.montas@umiami.edu</a></p>
+                    </div>
+                  <!-- </td><td width=380>
+                    <div class="staff-pic"><a href="https://sp.library.miami.edu/subjects/staff/jaq32"><img src="../common/assets/images/jorge.jpg" alt="aparrish@miami.edu" title="aparrish@miami.edu" class="staff_photo" width="70" align="left"></a></div><div class="staff-meta"><h4><a href="https://sp.library.miami.edu/subjects/staff/jaq32">Jorge Quintella</a></h4>
+                    <p><em>GIS and Data Specialist</em></p>
+                    <p>(305) 284-5729 <a href="mailto:jaq32@miami.edu">jaq32@miami.edu</a></p>
+                    </div>
+                  </td> -->
+                  </tr></table>
+                  <table style="margin: 0px 0px 0px auto"><tr><td width=500>
+                    <div class="staff-pic"><a href="https://sp.library.miami.edu/subjects/staff/kbenknaan"><img src="../common/assets/images/kineret_headshot_large.jpg" alt="kbenknaan@miami.edu" title="kbenknaan@miami.edu" class="staff_photo" width="70" align="left"></a></div><div class="staff-meta"><h4><a href="https://sp.library.miami.edu/subjects/staff/kbenknaan">Kineret Ben-Knaan</a></h4>
+                    <p><em>Research & Assessment Librarian</em></p>
+                    <p>(305) 284-3077 <br style="display: inline-block;"><a href="mailto:kbenknaan@miami.edu">kbenknaan@miami.edu</a></p>
+                    </div>
+                  </td><td width=500>
+                    <div class="staff-pic"><a href="#"><img src="https://sp.library.miami.edu/assets/users/_exn297/headshot_large.jpg" alt="exn297@miami.edu" title="exn297@miami.edu" class="staff_photo" width="70" align="left"></a></div><div class="staff-meta"><h4><a href="#">Erica Newcome</a></h4>
+                    <p><em>STEM Librarian</em></p>
+                    <p>(305) 284-4509 <br style="display: inline-block;"><a href="mailto:exn297@miami.edu">exn297@miami.edu</a></p>
+                    </div>
+                  </td>
+                  </tr></table>
+                </div>
+                <div style="font-size: 70%; margin-top: 36px;"><a href="https://www.library.miami.edu/data-services/index.html" target="_Blank">Data Services at the UM Libraries</a></div>
+                <div style="font-size: 70%; margin-top: 12px;"><a href="https://www.library.miami.edu/data-services/workshops.html" target="_Blank">Data Services and Visualization Workshops</a></div>
+                <div style="font-size: 70%; margin-top: 12px;"><a href="https://sp.library.miami.edu/subjects/gis#tab-9" target="_Blank">GIS Workshop Series</a></div>
+              </div>
+            </section>
+
+        </section>
+
+
+				
+            </div>
+        </div>
+        <script src="../common/java/reveal.js"></script>
+	    <script src="../common/java/notes.js"></script>
+	    <script src="../common/java/head.min.js"></script>
+        <script>
+            Reveal.initialize({
+                width: 1366, height: 768, margin: 0.05,
+                controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				mouseWheel: true,
+				chart: {
+					defaults: { 
+						global: { 
+							defaultFontSize: 20,
+							title: { fontColor: "#333" }, 
+							legend: {
+								position: "top",
+								labels: { fontColor: "#333" },
+							},
+							tooltips: {
+								labels: { fontColor: "#333" },
+							},
+						}, 
+						scale: { 
+							scaleLabel: { fontColor: "#333" }, 
+							gridLines: { color: "#333", zeroLineColor: "#333" }, 
+							ticks: { fontColor: "#333" }, 
+						} 
+					},
+				},
+                dependencies: [
+                    { src: '../common/java/Chart.min.js' },
+                    { src: '../common/java/csv2chart.js' }
+                ] 
+            });
+        </script>
+    </body>
+</html>
