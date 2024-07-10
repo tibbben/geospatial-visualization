@@ -1,6 +1,6 @@
 ## ARC 581/681-1R Special Problems (Geospatial Visualization) - 1 credit 
 ## ARC 594/694-1R Geographic Information Systems in Urban Design - 3 credits
-## Fall 2023  
+## Fall 2024  
 [https://tibbben.github.io/geospatial-visualization](https://tibbben.github.io/geospatial-visualization){:alt="syllabus (this page)"} (this page)  
 
 ---
@@ -36,7 +36,7 @@ Book appointment: [https://cmader.youcanbook.me](https://cmader.youcanbook.me){:
 
 [//]: # (meeting times?? meeting place?? hybrid?? zoom links??)
 
-August 21nd - September 22nd (581/681) / December 8th 2023 (594/694)  
+August 19th - September 20th (581/681) / December 3rd 2023 (594/694)  
 Tuesdays: 2:00 pm - 4:45 pm  
 Place: A49-110 (SOA Media Lab)  
 
