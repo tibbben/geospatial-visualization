@@ -224,7 +224,6 @@ Explore how maps are woven into political and social contexts of urban developme
 *__Week 6 (Sept. 24):__ Data Modeling*  
 
 [//]: # (and GIS in Urban Design)
-[//]: # (invite to Posner, Jennifer M <jposner@miami.edu> sent)
 
 Explore theoretical data modeling and how it can be applied to resilience thinking in urban contexts. Go through basic processes to create new geospatial data layers and add features to the new layers.
 
@@ -252,34 +251,13 @@ Explore theoretical data modeling and how it can be applied to resilience thinki
 
 >  [slide deck](slides/slides060.html){:target="\_blank"}  
 
-*__Week 7 (Oct. 1):__ Resilience through Vector Aggregation and Spatial Joins*  
+*__Week 7 (Oct. 1):__ South Beach resilience and Raster Math*  
 
-[//]: # (invite to Posner, Jennifer M <jposner@miami.edu> sent)
+[//]: # (NEED TO UPDATE SLIDES WITH SWITCH BETWEEN WEEKS)
 
-Brief introduction to resilience thinking across disciplines and what data might be useful for modeling resilience in urban environments. Explore how vector aggregation and spatial joins bring distinct data layers into analytical relationships. We are pleased to welcome Jennifer Posner, Sr. Program Manager of the University of Miami Office for Civic Engagement. Her presentation will explore the use of GIS in urban planning and will provide insight into real estate, planning issues, and urban development problems from experience in both New York and Miami.
+[//]: # (Nestor accepted invite and on calendar 3:45 pm, Ortega, Cristina <CristinaOrtega@miamibeachfl.gov> and Navarro, Nestor <NestorNavarro@miamibeachfl.gov>)
 
-> Learning Objectives
-
--   Describe origins of resilience thinking and how it is used in urban planning
--   Understand intersect, merge, and dissolve as primary vector aggregation tools
--   Describe different approaches for aggregating attribute data linked to spatial features
-
-> Practical Objectives
-
--   Obtain vector data with an identified aggregation goal
--   Perform one or more vector manipulations
--   Visualize and interpret the results
--   Spatial join with two or more data layers
-
->  [slide deck](slides/slides070.html){:target="\_blank"}  
-
-*__Week 8 (Oct. 8):__ MIDTERM, South Beach resilience, and Raster Math* 
-
-[//]: # (confirmed Ortega, Cristina <CristinaOrtega@miamibeachfl.gov>)
-
-The midterm exam will be based on short answers, multiple choice questions, and a few fill in the blanks; it will take no longer than 45 minutes. We are pleased to announce that the midterm will be followed by a visit from Christina Ortega, city engineer for Miami Beach. She will give an introduction to thinking about sea level rise and elevation mapping. If there is time we will introduce basic concepts of raster math in GIS applications. If time permits we will show how to determine geographic areas that meet several criteria by using raster math to combine multiple data layers that represent the individual criteria. A sea level rise example in South Florida will be used to illustrate this process.
-
-[//]: # (include a focus on sustainability and resilience. Find good resources to explore)
+We are please to announce a visit from Nestor Navarro, GIS manager for Miami Beach. He will give an introduction to thinking about sea level rise and elevation mapping. If there is time we will introduce basic concepts of raster math in GIS applications. We will explore method to determine geographic areas that meet several criteria by using raster math to combine multiple data layers that represent the individual criteria. A sea level rise example in South Florida will be used to illustrate this process.
 
 > Learning Objectives
 
@@ -293,6 +271,31 @@ The midterm exam will be based on short answers, multiple choice questions, and 
 -   Obtain at least one data layer from HAZUS
 -   Perform raster math between two raster layers
 -   Visualize and interpret the results from the raster math operation 
+
+>  [slide deck](slides/slides070.html){:target="\_blank"}  
+
+*__Week 8 (Oct. 8):__ MIDTERM, Resilience through Vector Aggregation and Spatial Joins* 
+
+[//]: # (NEED TO UPDATE SLIDES WITH SWITCH BETWEEN WEEKS)
+
+[//]: # (invite to Posner and on calendar 3:45 pm, Jennifer M <jposner@miami.edu>)
+
+The midterm exam will be based on short answers, multiple choice questions, and a few fill in the blanks; it will take no longer than 45 minutes. Following the midterm there will be a brief introduction to resilience thinking across disciplines and what data might be useful for modeling resilience in urban environments. If time permits we will explore how vector aggregation and spatial joins bring distinct data layers into analytical relationships. We are pleased to announce that the midterm will be followed by a visit from Jennifer Posner, Director of the University of Miami Climate Resilience Academy. Her presentation will explore the use of GIS in urban planning and will provide insight into real estate, planning issues, and urban development problems from experience in both New York and Miami.
+
+[//]: # (include a focus on sustainability and resilience. Find good resources to explore)
+
+> Learning Objectives
+
+-   Describe origins of resilience thinking and how it is used in urban planning
+-   Understand intersect, merge, and dissolve as primary vector aggregation tools
+-   Describe different approaches for aggregating attribute data linked to spatial features
+
+> Practical Objectives
+
+-   Obtain vector data with an identified aggregation goal
+-   Perform one or more vector manipulations
+-   Visualize and interpret the results
+-   Spatial join with two or more data layers
 
 >  Assignments:
 
@@ -316,12 +319,16 @@ The midterm exam will be based on short answers, multiple choice questions, and 
 
 [//]: # (>  Assigned Reading:)
 
-[//]: # (>  [slide deck](slides/slides090.html{:target="\_blank"})  
+[//]: # (>  [slide deck](slides/slides090.html{:target="\_blank"}) 
+
+[//]: # (NACIS 2024) 
 
 *__Week 10 (Oct. 22):__ GIS and Climate Resilience in Miami-Dade County, GIS and Smart Cities in Coral Gables*  
 
-[//]: # (confirmed - Kamrath, Christian <Christian.Kamrath@miamidade.gov>)
-[//]: # (confirmed - Hebert, Mark <mhebert@coralgables.com>)
+[//]: # (NEED TO UPDATE SLIDES WITH SWITCH BETWEEN WEEKS)
+
+[//]: # (confirmed and on calendar 2:15 pm - Kamrath, Christian <Christian.Kamrath@miamidade.gov>)
+[//]: # (confirmed and on calendar 3:45 pm, Hebert, Mark <mhebert@coralgables.com>)
 
 [//]: # (invited Office of resilience, Katie Hegemann)
 
@@ -336,6 +343,8 @@ We are pleased to welcome Christian Kamrath from the Miami-Dade County Resilienc
 [//]: # (neighborhood vulnerability based on building characteristics)
 
 [//]: # (zoning handbook - https://www1.nyc.gov/site/planning/zoning/zh-2016.page)
+
+[//]: # (OHDSI Symposium)
 
 > Learning Objectives
 
@@ -374,7 +383,7 @@ Little River Adaptation Action Area](https://adaptation-action-area-in-little-ri
 
 *__Week 11 (Oct. 29):__ SQL, Environmental Justice, and GIS*  
 
-[//]: # (confirmed - Fleming, Abigail L <afleming@law.miami.edu>)
+[//]: # (confirmed and on calendar 2-3pm - Fleming, Abigail L <afleming@law.miami.edu>)
 
 We are pleased to welcome Abigail Flemming, associate director of the University of Miami Environmental Justice Clinic will visit as a guest speaker and provide insight into how maps and data can be used to better understand problems of vulnerability, displacement, and social justice. Following this presentation we will explore GIS for real estate and cadastral mapping with special attention given to data sources, common issues, and online systems. If time permits we will use this context for learning about SQL queries.
 

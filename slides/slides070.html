@@ -1,662 +1,123 @@
 <!doctype html>
 <html>
-  <head>
-    <link rel="stylesheet" href="../common/css/reveal.css">
-    <link rel="stylesheet" href="../common/css/white.css">
-    <link rel="stylesheet" href="../common/css/overrides.css">
-	<script src="../common/java/print.js"></script>
-    <title>Geospatial Visualization - 7</title>
-    <meta charset="UTF-8">
-  </head>
-  <body>
-    <div class="reveal">
-      <div class="slides">
+    <head>
+        <link rel="stylesheet" href="../common/css/reveal.css">
+        <link rel="stylesheet" href="../common/css/white.css">
+        <link rel="stylesheet" href="../common/css/overrides.css">
+ 		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+	    <script src="../common/java/print.js"></script>
+	    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+        <title>Geospatial Visualization - 8</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
 
-      	<section>
+              <section data-background-color="#000">
 
-	        <section data-background-image="../common/assets/images/lasFlores-01-smithsonianSketch.jpg" data-background-size="fill" data-transition="fade">
+              	<div style="max-width: 90%; margin: 0px auto;">
 
-	        <div style="position: absolute; left: 150px; top: 250px; font-size: 150%; line-height: 100%; color: #000 !important; text-align: left; text-shadow: 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee, 0px 0px 23px #eee;"><strong>Geospatial<br>  Visualization</strong></div>
+	              	<div id="mapid" style="height: 600px; width: 400px; float: left;"></div>
+	            	<script>
+	            		var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+	            		L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+						    attribution: 'Open Street Map',
+						    maxZoom: 18
+						}).addTo(mymap);
+	            	</script>
 
-	        <div style="position: absolute; left: 420px; top: 430px; font-size: 90%; color: #000 !important;text-align: right; text-shadow: 0px 0px 13px #eee, 0px 0px 13px #eee, 0px 0px 13px #eee, 0px 0px 13px #eee,0px 0px 13px #eee, 0px 0px 13px #eee, 0px 0px 13px #eee, 0px 0px 13px #eee, 0px 0px 13px #eee;">School<br>of<br>Architecture<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
-	        
-	        <div style="position: absolute; left: 500px; top: 660px; font-size: 50%; text-align: left; color: #000 !important; line-height: 145%; text-shadow: 0px 0px 13px #eee, 0px 0px 13px #eee, 0px 0px 13px #eee, 0px 0px 13px #eee,0px 0px 13px #eee, 0px 0px 13px #eee, 0px 0px 13px #eee, 0px 0px 13px #eee, 0px 0px 13px #eee;">Dr. Timothy Norris : <a href="mailto:tnorris@miami.edu" style="color: #000 !important;">tnorris@miami.edu</a><br>Christopher Mader : <a href="mailto:cmader@med.miami.edu" style="color: #000 !important;">cmader@med.miami.edu</a></div>
-	        
-	        <div style="position: absolute; left: 0px; top: 550px; font-size: 40%; text-align: right; color: #555; width: 280px;"></div>
+              		<div style="height: 600px; width: 400px; float: left; margin-left: 100px">
+		            	<div style="position: relative; left: 0px; top: 40px; font-size: 150%; line-height: 100%; color: #999 !important; text-align: left;z-index: 20;"><strong>Geospatial<br>  Visualization</strong></div>
 
-	        </section>
+		                <div style="position: relative; left: 0px; top: 80px; font-size: 90%; color: #999 !important;text-align: right;z-index: 20;">School of Architecture<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
+		                
+		                <div style="position: relative; left: 0px; top: 140px; font-size: 50%; text-align: left; color: #999 !important; line-height: 145%;z-index: 20;">Dr. Timothy Norris : <a href="mailto:tnorris@miami.edu" style="color: #999 !important; text-decoration: underline;z-index: 20;">tnorris@miami.edu</a><br>Christopher Mader : <a href="mailto:cmader@med.miami.edu" style="color: #999 !important; text-decoration: underline;">cmader@med.miami.edu</a></div>
+		                
+		                <div style="position: absolute; left: 0px; top: 550px; font-size: 40%; text-align: right; color: #555; width: 280px;z-index: 20;"></div>
+		            </div>
 
-      	</section>
+	        	</div>
 
-        <section>
+              </section>
 
-          <section data-transition="fade">
-            <div class="um-template-container">
-              <div class="um-template-header"></div>
-              <div class="um-template-content-containter" style="font-size: 1.2em">
+	          <section data-transition="fade">
+	            <div class="template-title">UM GIS Day 2022</div>
+	            <div>
+              		<a href="https://sp.library.miami.edu/subjects/gis#tab-1">GIS Day - November 16th 2022</a><br>
+              		<a href="https://geography.as.miami.edu/events/gisday/workshops/index.html">Map Submissions</a> - due November 4th<hr>
+              		<p>Dr. Sheila Lakshmi Steinberg</p>
+              		<p>Professor fo GIS, Social, and Environmental Sciences<br>University of Massachusetts Global<br>Faculty President</p>
+	            </div>
+	            <div class="template-citation" style="margin-top: 42px !important;"></div>
+	          </section>
 
-                <div class="um-template-content" style="max-width: 85%; width: 85%;">
-                  <div class="um-template-title">Urban Resilience</div>
-                  <div style="display: inline-block; width: 80%">
-                  <ul style="font-size: 0.9em; margin: 23px 0px 0px 0px;">
-                    <li style="margin: 23px 0px 0px 0px;"><b>Ecological Resilience</b> (Holling 1973)
-                      <ul style="font-size: 0.8em;">
-                        <li><i>... persistence of relationships in a system, ... and ability of system to absorb changes in state variables, driving variables, and parameters and still exist ...</i></li>
-                        <li><i>... a measure of the amount of disturbance a system can take before collapsing into an alternate configuration ...</i></li>
-                        <li style="margin: 23px 0px 0px 0px;">Leads to <b>Adaptive Management Cycles</b></li>
-                      </ul>
-                    </li>
-                  </ul>
-                  </div>
-                </div>
+	          <section>
 
-              </div>
-              <div class="um-template-footer um-template-citation">
-                Holling, C. S. (1973). Resilience and Stability of Ecological Systems. <i>Annual Review of Ecology and Systematics</i>, 4, 1-23.
-              </div>
-            </div>
-          </section>
+		          <section data-transition="fade">
+		            <div class="template-title">Online Mapping</div>
+		            <div>
+		              <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+		                <li style="margin: 23px 0px 0px 0px;">Story Maps
+		                  <ul style="font-size: 80%;">
+		                  	<li>ESRI Storymaps - <a href="https://www.arcgis.com/apps/Cascade/index.html?appid=6984ffb035ed40b8b11e23f41236aac2" target="_blank">New York Taxicab Terrain</a></li> 
+		                    <li>Knightlabs - <a href="https://storymap.knightlab.com/examples/aryas-journey/" target="_blank">Game of Thrones</a></li>
+		                  </ul>
+		                </li>
+		                <li style="margin: 23px 0px 0px 0px;">Mashups
+		                  <ul style="font-size: 80%;">
+		                    <li>MapBox - <a href="https://www.latimes.com/wildfires-map/" target="_blank">LA Times California Fires</a></li>
+		                    <li>Leaflet - <a href="https://cdhuayhuash.org/mapas" target="_blank">Cordillera Huayhuash</a></li>
+		                  </ul>
+		                </li>
+			            <li style="margin: 23px 0px 0px 0px;">Web Applications
+		                  <ul style="font-size: 80%;">
+		                    <li>ESRI - <a href="http://scholar.library.miami.edu/hometownmaps/" target="_blank">Hometown Maps</a></li>
+		                    <li>Leaflet - <a href="https://map.idsc.miami.edu/disclaimer" target="_blank">MAP</a></li>
+		                  </ul>
+		                </li>
+		              </ul>
+		            </div>
+		            <div class="template-citation" style="margin-top: 42px !important;"></div>
+		          </section>
 
-          <section data-transition="fade">
-            <div class="um-template-container">
-              <div class="um-template-header"></div>
-              <div class="um-template-content-containter" style="font-size: 1.2em">
+		          <section data-transition="fade">
+		            <div class="template-title">Basemaps for Online Mapping</div>
+		            <div>
+		              <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+		                <li style="margin: 23px 0px 0px 0px;"><a href="https://www.mapbox.com/gallery/" target="_blank">Mapbox Gallery</a></li>
+		                <li style="margin: 23px 0px 0px 0px;"><a href="https://wiki.openstreetmap.org/wiki/Tile_servers" target="_blank">Open Street Map Gallery</a></li>
+		              </ul>
+		            </div>
+		            <div class="template-citation" style="margin-top: 42px !important;"></div>
+		          </section>
 
-                <div class="um-template-content" style="max-width: 85%; width: 85%;">
-                  <div class="um-template-title">Adaptive Management</div>
-                  <div style="display: inline-block; width: 100%">
-                  <div style="float: left;">
-                    <img src="../common/assets/images/ehp.1103515.g001.jpg">
-                  </div>
-                  <div style="float: left; margin-top: 200px; margin-left: 42px;">
-                    Where do maps fit in this cycle?
-                  </div>
-                  </div>
-                </div>
+		          <section data-transition="fade">
+		            <div class="template-title">Exercises</div>
+		            <div>
+		              <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+		              	<li style="margin: 23px 0px 0px 0px;"><a href="https://storymaps.arcgis.com/stories/cea22a609a1d4cccb8d54c650b595bc4" target="_blank">Create an ESRI Storymap</a></li>
+		                <li style="margin: 23px 0px 0px 0px;"><a href="https://leafletjs.com/examples/quick-start/" target="_blank">Create a Leaflet Map</a></li>
+		              </ul>
+		            </div>
+		            <div class="template-citation" style="margin-top: 42px !important;"></div>
+		          </section>
 
-              </div>
-              <div class="um-template-footer um-template-citation">
-                 Hess, Jeremy J., McDowell, Julia Z., & Luber, George. (2012). Integrating Climate Change Adaptation into Public Health Practice: Using Adaptive Management to Increase Adaptive Capacity and Build Resilience. <i>Environmental Health Perspectives</i>, 120(2), 171-179. doi: doi:10.1289/ehp.1103515
-              </div>
-            </div>              
-          </section>
-
-          <section data-transition="fade">
-            <div class="um-template-container">
-              <div class="um-template-header"></div>
-              <div class="um-template-content-containter" style="font-size: 1.2em">
-
-                <div class="um-template-content" style="max-width: 85%; width: 85%;">
-                  <div class="um-template-title">Urban Resilience</div>
-                  <div class="fragment" data-fragment-index=1>
-                    <i>Urban resilience is the capacity of a city’s systems, businesses, institutions, communities, and individuals to survive, adapt, and grow, no matter what chronic stresses and acute shocks they experience.</i>
-                  </div>
-                  <div style="font-size: 0.8em; margin-top: 42px;" class="fragment" data-fragment-index=1>
-                    The <a href="https://en.wikipedia.org/wiki/Urban_resilience">Wikipedia entry</a> on Urban Resilience also has good definitions and resources.
-                  </div>
-                  <div style="font-size: 0.8em; margin-top: 42px;" class="fragment" data-fragment-index=2>
-                    <b>What GIS data can we use to measure, analyze, or understand Urban Resilience??</b>
-                  </div>
-                </div>
-
-              </div>
-              <div class="um-template-footer um-template-citation">
-                 Resilient Cities Network, https://resilientcitiesnetwork.org/what-is-resilience/, accessed 2021-10-04.
-              </div>
-            </div>              
-          </section>
-
-          <section data-transition="fade">
-            <div class="um-template-container">
-              <div class="um-template-header"></div>
-              <div class="um-template-content-containter" style="font-size: 1.2em">
-
-                <div class="um-template-content" style="max-width: 95%; width: 95%;">
-                  <div class="um-template-title">Data for Urban Resilience</div>
-                  <div style="font-size: 0.7em; display: inline-block; line-height: 1.2em">
-                    <div style="float: left;">
-                      <div class="um-template-title" style="font-size: .6em">Physical</div>
-                      <ul>
-                        <li>Climate
-                          <ul style="font-size: 0.85em;">
-                            <li>temperature</li>
-                            <li>air pollution</li>
-                            <li>rainfall</li>
-                          </ul>
-                        </li>
-                        <li style="margin-top: 7px;">Geology
-                          <ul style="font-size: 0.85em;">
-                            <li>foundation conditions</li>
-                            <li>unique or valuable deposits</li>
-                          </ul>
-                        </li>
-                        <li style="margin-top: 7px;">Physiography
-                          <ul style="font-size: 0.85em;">
-                            <li>slope</li>
-                            <li>riparian habitat</li>
-                            <li>surface drainage</li>
-                          </ul>
-                        </li>
-                        <li style="margin-top: 7px;">Hydrology
-                          <ul style="font-size: 0.85em;">
-                            <li>aquifers</li>
-                            <li>drainage basins</li>
-                            <li>recharge zones</li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </div>
-                    <div style="float: left; margin: 0px 60px;">
-                      <div class="um-template-title" style="font-size: .6em">Values</div>
-                      <ul>
-                        <li>Scenic
-                          <ul style="font-size: 0.85em;">
-                            <li>forests</li>
-                            <li>features</li>
-                            <li>riparian</li>
-                            <li>beaches</li>
-                          </ul>
-                        </li>
-                        <li style="margin-top: 7px;">Development
-                          <ul style="font-size: 0.85em;">
-                            <li>commercial</li>
-                            <li>residential</li>
-                            <li>industrial</li>
-                            <li>resource extraction</li>
-                          </ul>
-                        </li>
-                        <li style="margin-top: 7px;">Conservation
-                          <ul style="font-size: 0.85em;">
-                            <li>endangered species</li>
-                            <li>endemic species</li>
-                            <li>water</li>
-                            <li>soil</li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </div>
-                    <div style="float: left;">
-                      <div class="um-template-title" style="font-size: .6em">Land Use</div>
-                      <ul>
-                        <li>Urban Zoning
-                          <ul style="font-size: 0.85em;">
-                            <li>residential</li>
-                            <li>commercial</li>
-                            <li>industrial</li>
-                            <li>recreational</li>
-                          </ul>
-                        </li>
-                        <li>Historic
-                          <ul style="font-size: 0.85em;">
-                            <li>buildings</li>
-                            <li>cultural sites</li>
-                            <li>educational</li>
-                          </ul>
-                        </li>
-                        <li style="margin-top: 7px;">Recreational
-                          <ul style="font-size: 0.85em;">
-                            <li>active</li>
-                            <li>passive</li>
-                          </ul>
-                        </li>
-                        <li style="margin-top: 7px;">Conservation
-                          <ul style="font-size: 0.85em;">
-                            <li>animal habitats</li>
-                            <li>ecosystems</li>
-                            <li>surface drainage</li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-              <div class="um-template-footer um-template-citation">
-                 McHarg, Ian L. (1969). <i>Design With Nature</i>. Philadelphia: The Falcon Press.
-              </div>
-            </div>              
-          </section>   
-
-        </section>
-
-        <section>
-
-          <section data-transition="fade">
-            <div class="template-title">Three [ 5 ] things we do with computers</div>
-            <div>
-              <ul style="font-size: 0.85em;">
-                <li class="fragment">[ load ]</li>
-                <li class="fragment">Select</li>
-                <li class="fragment">Manipulate</li>
-                <li class="fragment">Save</li>        
-                <li class="fragment">[ repeat ]</li>          
-              </ul>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-          <!-- <section data-transition="fade">
-            <div class="template-title">World Population - Attribute Join Review</div>
-            <div>
-              <ul style="font-size: 0.85em;">
-                <li style="margin: 13px 0px 0px 0px;">Get data: worldpop.zip in box folder
-                  <ul style="font-size: 0.85em;">
-                    <li><a href="https://public.opendatasoft.com/explore/dataset/world-administrative-boundaries/export/">https://public.opendatasoft.com/explore/dataset/world-administrative-boundaries/export/</a></li>
-                    <li><a href="https://population.un.org/wpp/Download/Standard/CSV/">https://population.un.org/wpp/Download/Standard/CSV/</a></li>
-                  </ul>
-                </li>
-                <li style="margin: 13px 0px 0px 0px;">New project in ArcGIS Pro (or Q) and add both layers</li>
-                <li style="margin: 13px 0px 0px 0px;">Look at data: note "ISO3_code", "iso3", and "Time"</li>
-                <li style="margin: 13px 0px 0px 0px;">Export indicators table with a selection of:
-                  <ul style="font-size: 0.85em;">
-                    <li>"ISO3_code" is not Null</li>
-                    <li>"Time" = '2021'</li>
-                  </ul>
-                </li>
-                <li style="margin: 13px 0px 0px 0px;">Join using "ISO3_code" and "iso3"</li>
-                <li>Symbolize a population variable, remember:
-                  <ul style="font-size: 0.85em;">
-                    <li>Graduated (on population variable)</li>
-                    <li>kind of classification and number of breaks matters</li>
-                  </ul>
-                </li>                
-              </ul>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>-->
-
-        </section>
-
-        <section>
-
-          <section data-transition="fade">
-            <div class="template-title">Joins : or how to put data in a conversation</div>
-            <div>
-              <ul style="font-size: 0.85em;">
-                <li style="margin: 13px 0px 0px 0px;"><b>Vector - Vector</b>
-                  <ul style="font-size: 0.85em;">
-                    <li><u>contains</u>: points or lines to polygon</li>
-                    <li><u>within</u>: polygon attributes to points or lines</li>
-                    <li><u>intersects</u>: vector attributes to polygons, points, or lines</li>
-                  </ul>
-                </li>
-                <li style="margin: 13px 0px 0px 0px;"><b>Vector - Raster</b>
-                  <ul style="font-size: 0.85em;">
-                    <li><u>extraction</u>: raster to points (i.e. elevation to tree locations)</li>
-                    <li><u>zonal statistics/histograms</u>: raster to polygons (i.e. avg, max, and min elevation within property boundary)</li>
-                  </ul>
-                </li>
-                <li style="margin: 13px 0px 0px 0px;"><b>Raster - Raster</b>
-                  <ul style="font-size: 0.85em;">
-                    <li><u>Raster math</u> or <u>raster algebra</u></li>
-                    <li>tool: <u>raster calculator</u></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="template-title">Perhaps convert or aggregate before join</div>
-            <div>
-              <ul style="font-size: 0.90em;">
-                <li style="margin: 13px 0px 0px 0px;"><b>Vector to Vector</b>
-                  <ul style="font-size: 0.85em;">
-                    <li><u>buffer</u>: distance from vector feature</li>
-                    <li><u>dissolve</u>: combine features based on common attribute</li>
-                    <li><u>intersect, union, buffer, difference</u>: mostly polygons and some lines</li>
-                  </ul>
-                </li>
-                <li style="margin: 13px 0px 0px 0px;"><b>Vector - Raster</b>
-                  <ul style="font-size: 0.85em;">
-                    <li><u>interpolation</u>: vector to raster (fills in pixels between with estimated values)</li>
-                    <li><u>rasterize</u>: points lines or polygons to raster (no estimation)</li>
-                  </ul>
-                </li>
-                <li style="margin: 13px 0px 0px 0px;"><b>Raster - Vector</b>
-                  <ul style="font-size: 0.85em;">
-                    <li><u>polygonize</u>: raster to vector (draws polygons of raster features)</li>
-                  </ul>
-                </li>
-                <li style="margin: 13px 0px 0px 0px;"><b>Raster - Raster</b>
-                  <ul style="font-size: 0.85em;">
-                    <li><u>resample</u>: change pixel dimension</li>
-                    <li><u>crop/clip</u>: reduce coverage of raster</li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="template-title">Attribute Statistics and Aggregation</span></div>
-            <div>
-              <ul style="font-size: 0.85em;">
-                <li style="margin: 13px 0px 0px 0px;">Basic column statistics available in GIS</li>
-                <li style="margin: 13px 0px 0px 0px;">Basic aggregation tools available in GIS</li>
-                <li style="margin: 13px 0px 0px 0px;">Sometimes you need to take results to other program
-                  <ul style="font-size: 0.85em;">
-                    <li style="margin: 13px 0px 0px 0px;">export attribute table</li>
-                    <li style="margin: 13px 0px 0px 0px;">Python, STATA, R, Excel, other ...</li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-          <section>
-            <div class="template-title">So Many Tools ....</div>
-            <div>
-                <a href="https://gisgeography.com/spatial-analysis-periodic-table/" target="_blank">!CLICK ME!</a>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-        </section>
-
-        <section>
-
-          <section data-transition="fade">
-            <div class="template-title">Vector Analysis</div>
-            <div>
-              <ul style="font-size: 0.85em;">
-                <li style="margin: 13px 0px 0px 0px;">Vector Operations (one layer)</li>
-                <li style="margin: 13px 0px 0px 0px;">Vector Operations (two layers)<br><span style="font-style: italic;"><b>Spatial Join</b></span></li>
-                <li style="margin: 13px 0px 0px 0px;">Attribute Statistics & Aggregation</li>
-              </ul>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-        </section>
-
-        <section>
-
-          <section data-transition="fade">
-            <div class="template-title">One Layer Vector Operations</div>
-            <div>
-              <ul style="font-size: 0.85em;">
-                <li style="margin: 13px 0px 0px 0px;">Buffer</li>
-                <li style="margin: 13px 0px 0px 0px;">Dissolve</li>
-                <li style="margin: 13px 0px 0px 0px;">Transformations (vector to raster)</li>
-                <li style="margin: 13px 0px 0px 0px; color: #999;">Convex Hull</li>
-                <li style="margin: 13px 0px 0px 0px; color: #999;">Centroids</li>
-                <li style="margin: 13px 0px 0px 0px; color: #999;">Transformations (polygon to line or vice versa)</li>
-                <li style="margin: 13px 0px 0px 0px; color: #999;">Voroni Polygons (fill plane from points)</li>
-              </ul>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="template-title">One Layer Vector Operations - Buffer</div>
-            <div>
-              <ul style="font-size: 0.85em;">
-                <li style="margin: 13px 0px 0px 0px;">ring buffer (one radius)</li>
-                <li style="margin: 13px 0px 0px 0px;">multiple-ring buffer (several radii)</li>
-              </ul>
-              <img src="../common/assets/images/buffer.jpg" style="width: 800px">
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html">https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html</a></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="template-title">More Buffers</div>
-            <div style="margin-top: -30px; width: 100%; display: inline-block;">
-                <div style="margin: 0px auto; width: 65%">
-                  <div style="float:left; font-size: 0.7em; margin-top: 80px;">
-                      <ol type="a" style="font-size: 0.85em;">
-                        <li style="margin: 13px 0px 0px 0px;">variable width</li>
-                        <li style="margin: 13px 0px 0px 0px;">multiple ring</li>
-                        <li style="margin: 13px 0px 0px 0px;">doughnut</li>
-                        <li style="margin: 13px 0px 0px 0px;">setback</li>
-                        <li style="margin: 13px 0px 0px 0px;">non-dissolved</li>
-                        <li style="margin: 13px 0px 0px 0px;">dissolved</li>
-                      </ol>
-                  </div>
-                  <div style="float:left; margin-left: 92px;">
-                      <img src="../common/assets/images/more_buffers.jpg" style="max-width: 500px; margin: 0px;">
-                  </div>
-                </div>
-            </div>
-
-            <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html">https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html</a></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="template-title">One Layer Vector Operations - Dissolve</div>
-            <div>
-              <ul style="font-size: 0.85em;">
-                <li style="margin: 13px 0px 0px 0px;">combines features based on attribute</li>
-                <li style="margin: 13px 0px 0px 0px;">useful for data aggregation</li>
-                <li style="margin: 13px 0px 0px 0px;">useful for cartography
-                  <ul style="font-size: 0.85em;">
-                    <li style="margin: 13px 0px 0px 0px;">multiple line segments with same label (roads)</li>
-                    <li style="margin: 13px 0px 0px 0px;">remove duplicate polygon labels for area</li>
-                  </ul>
-                </li>
-              </ul>
-              <img src="../common/assets/images/dissolve.png" style="width: 800px">
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/dissolve.htm">https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/dissolve.htm</a></div>
-          </section>
-
-        </section>
-
-        <section>
-
-          <section data-transition="fade">
-            <div class="template-title">Two Layer Vector Operations<br><span style="font-style: italic;"><b>** Spatial Join **</b></span></div>
-            <div>
-              <ul style="font-size: 0.85em;">
-                <li style="margin: 13px 0px 0px 0px;">Points in Polygon</li>
-                <li style="margin: 13px 0px 0px 0px;">Intersect</li>
-                <li style="margin: 13px 0px 0px 0px;">Join Attributes by Location</li>
-                <li style="margin: 13px 0px 0px 0px; color: #999;">Union</li>
-                <li style="margin: 13px 0px 0px 0px; color: #999;">Clip</li>
-                <li style="margin: 13px 0px 0px 0px; color: #999;">Difference</li>
-              </ul>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="template-title">Points in Polygon<br><span style="font-style: italic;"><b>Simple Spatial Join</b></span></div>
-            <div style="margin-top: -30px; width: 100%; display: inline-block;">
-                <div style="margin: 0px auto; width: 80%">
-                  <div style="float:left; font-size: 0.7em; margin-top: 40px;">
-                      <ul style="font-size: 0.95em;">
-                        <li style="margin: 13px 0px 0px 0px;">one point layer and one polygon layer</li>
-                        <li style="margin: 13px 0px 0px 0px;">counts number of points in polygon</li>
-                        <li style="margin: 13px 0px 0px 0px;">point attribute aggregation possible > polygons</li>
-                        <li style="margin: 42px 0px 0px 0px;">New <b>"COUNT"</b> column in polygon attributes</li>
-                      </ul>
-                  </div>
-                  <div style="float:left; margin-left: 23px;">
-                      <img src="../common/assets/images/pip.png" style="width: 400px">
-                  </div>
-                </div>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://datawanderings.com/2018/09/01/r-point-in-polygon-a-mathematical-cookie-cutter/">https://datawanderings.com/2018/09/01/r-point-in-polygon-a-mathematical-cookie-cutter/</a></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="template-title">Intersect two layers</div>
-            <div>
-              <ol type="a" style="font-size: 0.85em;">
-                <li style="margin: 13px 0px 0px 0px;">Can be lines or polygons</li>
-                <li style="margin: 13px 0px 0px 0px;">Boundaries from both layers</li>
-                <li style="margin: 13px 0px 0px 0px;">Attributes from both layers</li>
-                <li style="margin: 42px 0px 0px 0px;">May need to dissolve after to make sense of analysis</li>
-              </ol>
-              <img src="../common/assets/images/intersect.gif" style="max-width: 500px; margin: 0px;">
-            </div>
-
-            <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/intersect.htm">https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/intersect.htm</a></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="template-title">Join Attributes by Location</div>
-            <div>
-              <img src="../common/assets/images/Spatial-Join-1265x723.png" style="width: 800px">
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://gisgeography.com/spatial-join/">https://gisgeography.com/spatial-join/</a></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="template-title">Join Attributes by Location<br><span style="font-style: italic;"><b>** Spatial Join **</b></span></div>
-            <div>
-              <ul style="font-size: 0.85em;">
-                <li style="margin: 13px 0px 0px 0px;">combines attributes based on shared locations
-                  <ul style="font-size: 0.85em;">
-                    <li style="margin: 13px 0px 0px 0px;">points in polygon)</li>
-                    <li style="margin: 13px 0px 0px 0px;">intersection</li>
-                    <li style="margin: 13px 0px 0px 0px;">other ...</li>
-                  </ul>
-                </li>
-                <li style="margin: 13px 0px 0px 0px;">example: attach tract ID to point data</li>
-                <li style="margin: 13px 0px 0px 0px;">example: summarize point data and attach to polygon</li>
-              </ul><br>
-              <img src="../common/assets/images/Spatial-Join-1265x723.png" style="width: 300px">
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://gisgeography.com/spatial-join/">https://gisgeography.com/spatial-join/</a></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="template-title">Join Attributes by Location<br><span style="font-style: italic;">raster to vector or vice versa</span></div>
-            <div>
-              <ul style="font-size: 0.85em;">
-                <li style="margin: 13px 0px 0px 0px;">Add attribute to vector data based on underlying raster values<br><span style="font-style: italic">Often call "extraction" or "extract"</span><img src="../common/assets/images/extraction_multi.jpg"></li>
-                <li style="margin: 42px 0px 0px 0px;">Basic statistics from pixels inside polygon (review)<br><span style="font-style: italic">Often called "Zonal Statistics" or "Zonal Histogram"</li>
-              </ul>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://www.esri.com/arcgis-blog/products/analytics/analytics/how-to-extract-raster-values-at-point-locations/">https://www.esri.com/arcgis-blog/products/analytics/analytics/how-to-extract-raster-values-at-point-locations/</a></div>
-          </section>
-
-        </section>
-
-        <section>
-
-          <section data-transition="fade">
-            <div class="template-title">Excercises</div>
-            <div>
-              <ol type="a" style="font-size: 0.85em;">
-                <li style="margin: 13px 0px 0px 0px;">Polygon contains points</li>
-                <li style="margin: 13px 0px 0px 0px;">Points within polygon</li>
-                <li style="margin: 13px 0px 0px 0px;">Extract from raster at point</li>
-              </ol>
-            </div>
-
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="template-title">Spatial Join - TRI sites (points) in Census Tracts (polygons)</div>
-            <p style="font-weight: 400; margin-top: -23px">What FL census tracts have most TRI sites?</p>
-            <div>
-              <ul style="font-size: 0.780em;">
-                <li style="margin: 13px 0px 0px 0px;">Get data from box folder (data management!)
-                  <ul style="font-size: 0.85em;">
-                    <li>2021_MD_CensusTracts_tiger.zip</li>
-                    <li>tri_2020_fl.csv</a></li>
-                  </ul>
-                </li>
-                <li style="margin: 13px 0px 0px 0px;">New project in ArcGIS Pro (or Q) and add both layers</li>
-                <li style="margin: 13px 0px 0px 0px;">Display x/y data for the TRI layer (projection!)</li>
-                <li style="margin: 13px 0px 0px 0px;">Spatial Join
-                  <ul style="font-size: 0.85em;">
-                    <li>Target layer/features: tracts</li>
-                    <li>Join features: tri</li>
-                    <li>Join operation: one to one (keep all target features)</li>
-                    <li>*New Layer*: tracts_tri</li>
-                    <li>Match option: contains</li>
-                  </ul>
-                </li>
-                <li>Symbolize census tracts, remember:
-                  <ul style="font-size: 0.85em;">
-                    <li>Graduated (on join count)</li>
-                    <li>kind of classification and number of breaks matters</li>
-                  </ul>
-                </li>                
-              </ul>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="template-title">Spatial Join - Census Tracts (polygons) to TRI sites (points)</div>
-            <p style="font-weight: 400; margin-top: -23px">What census tract is each TRI site in?</p>
-            <div>
-              <ul style="font-size: 0.80em;">
-                <li style="margin: 13px 0px 0px 0px;">Same data as previous</li>
-                <li style="margin: 13px 0px 0px 0px;">New (or same) project in ArcGIS Pro (or Q) and add both layers</li>
-                <li style="margin: 13px 0px 0px 0px;">Display x/y data fro the TRI layer (projection!)</li>
-                <li style="margin: 13px 0px 0px 0px;">Spatial Join
-                  <ul style="font-size: 0.85em;">
-                    <li>Target layer/features: TRI</li>
-                    <li>Join features: tracts</li>
-                    <li>Join operation: one to many (keep all target features)</li>
-                    <li>*New Layer*: tri_tracts</li>
-                    <li>Match option: within</li>
-                  </ul>
-                </li>
-                <li>Open attribute table and explore:
-                  <ul style="font-size: 0.85em;">
-                    <li>This enables statistical analysis for the TRI layer as related to census tracts</li>
-                  </ul>
-                </li>                
-              </ul>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-          <section data-transition="fade">
-            <div class="template-title">Spatial Join - Extract elevation (raster) to trees (points)</div>
-            <p style="font-weight: 400; margin-top: -23px">What is the elevation of each tree?</p>
-            <div>
-              <ul style="font-size: 0.80em;">
-                <li style="margin: 13px 0px 0px 0px;">Get data from box folder (data management!)
-                  <ul style="font-size: 0.85em;">
-                    <li>UM_DEM_2021_5FT.tif</li>
-                    <li>UM_trees_20221004.zip</a></li>
-                  </ul>
-                </li>
-                <li style="margin: 13px 0px 0px 0px;">New (or same) project in ArcGIS Pro (or Q) and add both layers</li>
-                <li style="margin: 13px 0px 0px 0px;">Find "Extract Values to Points" tool in toolbox</li>
-                <li style="margin: 13px 0px 0px 0px;">Spatial Join
-                  <ul style="font-size: 0.85em;">
-                    <li>Input points: trees</li>
-                    <li>Input raster: elevation (DEM)</li>
-                    <li>*New Layer*: trees_elevation</li>
-                    <li>check "interpolate" and "append" boxes</li>
-                  </ul>
-                </li>
-                <li>Open attribute table and explore:
-                  <ul style="font-size: 0.85em;">
-                    <li>This enables statistical analysis for the tree layer</li>
-                    <li>You can also symbolize trees by elevation</li>
-                  </ul>
-                </li>                
-              </ul>
-            </div>
-            <div class="template-citation" style="margin-top: 42px !important;"></div>
-          </section>
-
-        </section>
+	          </section>
 				
-      </div>
-    </div>
-    <script src="../common/java/reveal.js"></script>
-	  <script src="../common/java/notes.js"></script>
-	  <script src="../common/java/head.min.js"></script>
-    <script>
-      Reveal.initialize({
-        width: 1366, height: 768, margin: 0.05,
-        controls: true,
+            </div>
+        </div>
+        <script src="../common/java/reveal.js"></script>
+	    <!-- <script src="../common/java/notes.js"></script> -->
+	    <script src="../common/java/head.min.js"></script>
+        <script>
+            Reveal.initialize({
+                width: 1280, height: 720, margin: 0.05,
+                controls: true,
 				progress: true,
 				history: true,
 				center: true,
@@ -681,11 +142,12 @@
 						} 
 					},
 				},
-        dependencies: [
-          { src: '../common/java/Chart.min.js' },
-          { src: '../common/java/csv2chart.js' }
-        ] 
-      });
-    </script>
-  </body>
+                dependencies: [
+                    { src: '../common/java/Chart.min.js' },
+                    { src: '../common/java/csv2chart.js' }
+                ] 
+            });
+            Reveal.on( 'slidechanged', event => { mymap.invalidateSize(); console.log('here'); });
+        </script>
+    </body>
 </html>
