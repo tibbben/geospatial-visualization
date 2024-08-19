@@ -69,16 +69,22 @@ Optional reading materials will be available through online access or directly f
 
 Students are required to download and transform geospatial data for projects throughout the course and for the final project. Guidance will be given on how to do this. Some good starting points include:
 
--   UM Libraries GIS Data Resources at [Global](https://sp.library.miami.edu/subjects/gis#tab-4), [National](https://sp.library.miami.edu/subjects/gis#tab-6), and [Florida](https://sp.library.miami.edu/subjects/gis#tab-3) based scales
--   [Redistricting Data Hub](https://redistrictingdatahub.org)
+-   UM Libraries GIS Data Resources at [National](https://sp.library.miami.edu/subjects/gis#tab-12) and [Florida](https://sp.library.miami.edu/subjects/gis#tab-9) based scales
+-   [Miami-Dade Open Data Hub](https://gis-mdc.opendata.arcgis.com/)
+-   [FDOT Open Data Hub](https://gis-fdot.opendata.arcgis.com/)
 -   [WorldPop](https://www.worldpop.org)
 -   [NASA's Socioeconomic Data and Applications Center (SEDAC)](https://earthdata.nasa.gov/eosdis/daacs/sedac)
+-   [Census data from IPUMS](https://uma.pop.umn.edu/)
+-   [Census data from Census Bureau](https://data.census.gov/cedsci/)
+-   [Census geographies from Census Geog Dept](https://www.census.gov/programs-surveys/geography.html)
 -   [US Environmental Protection Agency (EPA)](https://www.epa.gov/data)
 -   [EPA Smart Location Mapping](https://www.epa.gov/smartgrowth/smart-location-mapping)
 -   [NOAA Sea Level Rise](https://coast.noaa.gov/slrdata)
 -   [Open Street Map (OSM)](https://www.openstreetmap.org/)
 -   [Open Historical Map](https://www.openhistoricalmap.org/)
 -   [FEMA Flood Maps](https://www.fema.gov/flood-maps)
+-   [FEMA Hazus](https://www.fema.gov/flood-maps/products-tools/hazus)
+-   [Redistricting Data Hub](https://redistrictingdatahub.org)
 
 [//]: # (https://www.corelogic.com)
 [//]: # (dataaxle)
@@ -86,11 +92,11 @@ Students are required to download and transform geospatial data for projects thr
 
 *Shared Box Folder*  
 
-A shared box folder for readings and geospatial data is located at [https://miami.box.com/s/t6dpf0gnc3ubh6f6q6enf2aodmivk8zm](https://miami.box.com/s/t6dpf0gnc3ubh6f6q6enf2aodmivk8zm){:target="\_blank"}
+A shared box folder for readings and geospatial data is located at [https://miami.box.com/s/0sdumehmn68ke9ulnqbtnbuw7bgzhabm](https://miami.box.com/s/0sdumehmn68ke9ulnqbtnbuw7bgzhabm){:target="\_blank"}
 
 *Presentation Schedule*  
 
-An online xlsx file (PresentationsTopics.xlsx) for tracking the in class presentations from Field (2018) is in the shared teams folder mentioned above and can be accessed directly at: [https://miami.box.com/s/td590op4f2penu6qhdwgdntshlqzci1g](https://miami.box.com/s/td590op4f2penu6qhdwgdntshlqzci1g){:target="\_blank"}. __NOTE: ONLY OPEN WITH EXCEL ONLINE TO AVOID EDITING CONFLICTS.__
+An online xlsx file (PresentationsTopics.xlsx) for tracking the in class presentations from Field (2018) is in the shared teams folder mentioned above and can be accessed directly at: [https://miami.box.com/s/vuef46uitonhmj6fp09d29hdxbpimmep](https://miami.box.com/s/vuef46uitonhmj6fp09d29hdxbpimmep){:target="\_blank"}. __NOTE: ONLY OPEN WITH EXCEL ONLINE TO AVOID EDITING CONFLICTS.__
 
 ---
 
