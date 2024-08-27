@@ -77,8 +77,6 @@ NOTE: *Making Maps* (Krygier & Wood, 2016) is [available online through the libr
 
 Seek to understand data and data structures in terms of geospatial data and geographic information systems. This will include exploring relevant sources of data.
 
-[//]: # ( often Abe gives lecture in this class )
-
 >  Learning Objectives:
 
 -   Know the difference between vector and raster data structures.
@@ -101,14 +99,15 @@ Seek to understand data and data structures in terms of geospatial data and geog
 
 -   *Making Maps* (Krygier & Wood, 2016). All of chapters 2 and 3.
 -   Sui, Daniel. 2008. "The Wikification of GIS and its Consequences or Angelina Jolie's New Tattoo and the Future of GIS."  *Computers, Environment and Urban Systems* 32:1-5. DOI: [10.1016/j.compenvurbsys.2007.12.001](https://doi.org/10.1016/j.compenvurbsys.2007.12.001){:target="\_blank"}.  
--   Vernacularology. [http://vernacularology.ccs.miami.edu/](http://vernacularology.ccs.miami.edu/){:target="\_blank"}
+
+[//]: # (-   Vernacularology. [http://vernacularology.ccs.miami.edu/])
 
 >  Assignments:  
 
 -   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting.  
 -   Obtain at least three data layers and store in correct file system location.  
 -   Be ready to present the data gathering/transformation process and solution in the next class meeting.  
--   Schedule a meeting with one of instructors to discuss class project; must be on or before Friday September 8th. 
+-   Schedule a 30 minute meeting with one of instructors to discuss class project; must be on or before class Tuesday September 10th.  
 
 >  [slide deck](slides/slides020.html){:target="\_blank"}  
 

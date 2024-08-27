@@ -65,6 +65,10 @@ Optional reading materials will be available through online access or directly f
 
 [//]: # (How to lie with maps)
 
+*GIS Tutorials in the Library:*  
+
+The library provides a set of GIS data resources (see below) and [GIS training resources]([GIS Learning Resources in the Library](https://guides.library.miami.edu/gis#tab-1)) that you may find useful in the class.  
+
 *Geospatial Data:*  
 
 Students are required to download and transform geospatial data for projects throughout the course and for the final project. Guidance will be given on how to do this. Some good starting points include:
