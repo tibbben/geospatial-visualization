@@ -19,7 +19,7 @@ University of Miami Libraries
 Institute for Data Science and Computing  
 Ungar Building, 330F  
 Office Hours: by appointment only (in person and virtual)  
-Book appointment: [https://tibben.youcanbook.me/](https://tibben.youcanbook.me/){:target="\_blank" alt="you can book me page for Tim Norris"}  
+Book appointment: [outlook bookings](https://outlook.office365.com/owa/calendar/TimothyNorris@miamiedu.onmicrosoft.com/bookings/){:target="\_blank" alt="Outlook bookings page for Tim Norris"}  
 [tnorris@miami.edu](mailto:tnorris@miami.edu)  
 
 Christopher Mader  

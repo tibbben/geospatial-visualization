@@ -19,6 +19,7 @@ total time 150 minutes.
 
 3.   Lectures / Discussion (4:00 - 15 minutes)
    -   Symbology
+   -   Creation of basemap with several layers is often better than the canned base map ... perhaps for some final projects
 
 4.   Final Exercises (4:15 - 25 minutes)
    -   creating data layers and drawing
