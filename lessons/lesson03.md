@@ -29,6 +29,7 @@ total time 150 minutes.
 
 6.   Lecture - Projections (3:15 - 20 minutes)
    -   fools map of the world from late 16th C has cordiform CRS based on ortelius and mercator, was perhaps a statement that we are fools to think we know the world ...
+   - https://ncxiao.github.io/map-projections/index.html
    - state plane NAD83: HARN CORS NSRS2007 (2011) - differences in centimeters (approx 30 to less than one)
    - https://cdn.ymaws.com/www.nysapls.org/resource/resmgr/2020_conference/handouts/012220-09-new_datums_-_what_.pdf
    - https://www.thetruesize.com/
