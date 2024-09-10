@@ -10,15 +10,21 @@
 ### stop slides switch to capstone
 
 2. Review of Capstone Project - 30 min 11:50
+   - instructions at: https://new.express.adobe.com/webpage/DWPpvMfYwB5k2
    - as a taste of future work options (not a GIS class, not a field method class, etc)
    - either as potential work (directly) or management - think key concepts and terms
    - experimental crowd sourcing/citizen science
    - as policy recommendations (like the guest speaker Stacey Aguilera from Amy Clement)
    - what is resilience .... how do maps fit into this
+   - Pieces of the capstone
+      - the ArcGIS Online Platform, a great and introductory way to share data, projects, maps, *but* not the only way (ArcGIS Pro, QGIS, etc)
+      - phase 1, literature review, check in, how is it going? Any questions? The idea is to find previous work that will inform your project. At the end of phase one your team will establish a focus area and discuss with Michael to refine your capstone project goals.
+      - phase 2, data collection, this begins Oct 4 with data modelling, *but* you can start now with a tracing excercise (check in with Michael and Ali), looking around, etc. Luke Norris can also help along with Tim Norris (no relation)
+      - phase 3 capstone recommendations as a choose your own adventure (refined at end of phase one). Both individual and team deliverables - you are the consultants giving the recommendation to a government agency, a developer, an ngo, etc.
 
 ### resume slides - 5 things and Data Science - the stop
 
-3. Review of Lecture - 10 min 1:25
+3. Review of Lecture - 10 min 12:00
    - start with questions - 9 of 12 students already had accounts - who has made maps? Who has used GIS in analysis? Who has data visualization experience? Who wants to tell stories? Who wants to learn about leveraging the power of maps? tell some stories perhaps?
    - stories vs analysis - link to the hockey stick graph
    - GIS as data management

@@ -20,6 +20,7 @@
    var url = new URL(window.location.href),
        lesson = url.searchParams.get("l"),
        mdContent = readTextFile("lesson" + lesson + ".md"),
+       //mdContent = readTextFile("lesson2resilience.md")
        htmlContent = markdown.toHTML(mdContent,'Maruku'),
        mdView = document.getElementById('main');
    mdView.innerHTML = htmlContent;
