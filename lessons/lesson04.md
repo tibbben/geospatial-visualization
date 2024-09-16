@@ -37,10 +37,16 @@ total time 150 minutes.
 
 7.   Demonstrations (3:20 - 80 min or as needed)
    -   geocoding (labels) (3:20 - 20 min)
+       -   filter in excel
+       -   combine with layouts (below)
    -   id based join (3:40 - 20 min)
+       -   prepare data in excel
+       -   do join in QGIS -> export back to Arc if needed 
    -   create new feature (4:00 - 10 min)
    -   layout windows (4:10 - 10 min)
    -   shaded relief (4:20 - 20 min)
+       -   for homework
+       -   reminder about late assignments
 
 8.   Demonstrations (for reference as needed)
    -   APIs as a service (review)
