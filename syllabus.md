@@ -214,7 +214,7 @@ Explore how maps are woven into political and social contexts of urban developme
 >  Assignments:
 
 -   Choose one theme in *Cartography* (Field 2018) and create a two slide presentation for the next class meeting. 
--   Download ESRI ArcGIS Collector app on your cellphone.
+-   Download ESRI _ArcGIS Field Map_ app on your cellphone (App Store or Google Play).
 
 > [slide deck](slides/slides050.html){:target="\_blank"}  
 
