@@ -102,6 +102,10 @@ A shared box folder for readings and geospatial data is located at [https://miam
 
 An online xlsx file (PresentationsTopics.xlsx) for tracking the in class presentations from Field (2018) is in the shared teams folder mentioned above and can be accessed directly at: [https://miami.box.com/s/vuef46uitonhmj6fp09d29hdxbpimmep](https://miami.box.com/s/vuef46uitonhmj6fp09d29hdxbpimmep){:target="\_blank"}. __NOTE: ONLY OPEN WITH EXCEL ONLINE TO AVOID EDITING CONFLICTS.__
 
+*List of Video Recordings*  
+
+On online list of all the video recordings made in class; updates weekly: [https://miami.box.com/s/4b4uip24dse1xss8e51wor1h99ufxbeb](https://miami.box.com/s/4b4uip24dse1xss8e51wor1h99ufxbeb){:target="\_blank"}.
+
 ---
 
 ### Computers and Software:  
