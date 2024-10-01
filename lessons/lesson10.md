@@ -14,36 +14,33 @@ total time 150 minutes.
    -   GIS day
       -   https://sp.library.miami.edu/subjects/gis#tab-1
       -   exhibits (Las Flores): https://geography.as.miami.edu/events/gisday/workshops/index.html
+      
+3.   Jennifer Posner Visit (2:30 - 60 min)
 
-2.   FEMA review (2:10 pm - 10 min)
-   -   data vs application - discussion
-   -   open data? access??
+4.   Break (3:30 pm - 5 min)
 
-3.   Rethinking Image/Raster Data (2:20 pm - 40 min)
-   -   Color in photoshop? Who has experience
-   -   Review:
-      -   Note SQL in dialogs ??
-      -   Field calculator
-      -   Select, manipulate, save
-      -   Select by attribute, select by geography
-   -   Raster math/calculator
-      -   arithmetic
-      -   truth
-      -   resolution
-      -   rasterize vector layer
-   -   Extraction (review)
-   -   Zonal Statistics
+5.   Student Field Presentations (3:35 - 15 min) - maybe delay ....
 
-4.   Break (3:00 pm - 5 min)
-
-5.   Student Presentations (3:05 pm - 25 min)
+6.   Lecture - More on Joins (3:50 pm - 15 min)
+   -   Vector Analysis (one layer and two layer vector operations)
+   -   Vector - Raster (extraction and zonal statistics)
+   -   Raster - Raster (raster algebra, raster math -- often in raster calculator)
+   -   Conversion tools similar to those in photoshop (blends - interpolation) or illustrator (joins - dissolve)
  
-6.   Raster exercises (3:30 pm : 70 min)
-   -   Abe's little river exercise (40 min):
-      -   https://miami.app.box.com/s/rf6bzm62smv9n6i7gyxvd0jzsxxett05
-   -   Break (5 min)
-   -   Trees points and canopies (25 min)
-      -   extraction
-      -   zonal statistics
+7.   Vector Exercise (4:05 pm - 20 min)
+   -   count points in polygon - TRIs in census tracts (pushed to next lesson)
+   -   buffer and intersect (trees?)
+   -   spatial join - add tract IDs to TRI sites (SQL example as well)
+   -   extract from raster (elevation from trees)?
 
-7.   Close and Housekeeping (4:40 - 5 min)
+8.   Keyword review exercise (4:25 - 20 min)
+   -   brainstorm keywords with them on Box file Keywords
+   -   Mercator, GIS (three versions), data management, file naming convention, Project File, Data File, Geospatial Data, Raster (common extensions), Vector (common extensions), continuous phenomena, discrete phenomena, Datum, Coordinate Reference System, Spherical, Cartesian, Latitude, Longitude, WGS84, NAD83, UTM, State Plane, Web Mercator, EPSG, classed, non-classed, classification (jenks, quantile, SD, natural breaks), serif, sans serif, geocoding, create x/y, DEM, attribute join, spatial join, legend, scale, north arrow, rasterize, dissolve, extract, map vs GIS, resilience
+
+
+9. Self directed exercises? (pushed to next lesson)
+   -   something in their project?
+   -   Attribute Join Review (3:50 pm - 15 min)
+       -   select, manipulate, save
+   -   HAZUS/FEMA flood zone data and tracts?
+   -   supermarkets and census tracts

@@ -4,13 +4,7 @@
         <link rel="stylesheet" href="../common/css/reveal.css">
         <link rel="stylesheet" href="../common/css/white.css">
         <link rel="stylesheet" href="../common/css/overrides.css">
- 		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-   crossorigin=""/>
 	    <script src="../common/java/print.js"></script>
-	    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-   crossorigin=""></script>
         <title>Geospatial Visualization - 7</title>
         <meta charset="UTF-8">
     </head>
@@ -18,105 +12,913 @@
         <div class="reveal">
             <div class="slides">
 
-              <section data-background-color="#000">
+              <section data-background-image="../common/assets/images/decimal_raster.jpg" data-background-size="fill" data-background-color="#000">
 
-              	<div style="max-width: 90%; margin: 0px auto;">
+                <div style="position: absolute; left: 120px; top: 40px; font-size: 150%; line-height: 100%; color: #000 !important; text-align: left;text-shadow: 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff;"><strong>Geospatial<br>  Visualization</strong></div>
 
-	              	<div id="mapid" style="height: 600px; width: 400px; float: left;"></div>
-	            	<script>
-	            		var mymap = L.map('mapid').setView([51.505, -0.09], 13);
-	            		L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-						    attribution: 'Open Street Map',
-						    maxZoom: 18
-						}).addTo(mymap);
-	            	</script>
-
-              		<div style="height: 600px; width: 400px; float: left; margin-left: 100px">
-		            	<div style="position: relative; left: 0px; top: 40px; font-size: 150%; line-height: 100%; color: #999 !important; text-align: left;z-index: 20;"><strong>Geospatial<br>  Visualization</strong></div>
-
-		                <div style="position: relative; left: 0px; top: 80px; font-size: 90%; color: #999 !important;text-align: right;z-index: 20;">School of Architecture<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
-		                
-		                <div style="position: relative; left: 0px; top: 140px; font-size: 50%; text-align: left; color: #999 !important; line-height: 145%;z-index: 20;">Dr. Timothy Norris : <a href="mailto:tnorris@miami.edu" style="color: #999 !important; text-decoration: underline;z-index: 20;">tnorris@miami.edu</a><br>Christopher Mader : <a href="mailto:cmader@med.miami.edu" style="color: #999 !important; text-decoration: underline;">cmader@med.miami.edu</a></div>
-		                
-		                <div style="position: absolute; left: 0px; top: 550px; font-size: 40%; text-align: right; color: #555; width: 280px;z-index: 20;"></div>
-		            </div>
-
-	        	</div>
+                <div style="position: absolute; left: 300px; top: 220px; font-size: 90%; color: #000 !important;text-align: right;text-shadow: 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff;;">School of Architecture<br><span style="font-size: 80%;"><script>var today = new Date();document.write(today.toISOString().slice(0,10));</script></span></div>
+                
+                <div style="position: absolute; left: 500px; top: 400px; font-size: 50%; text-align: left; color: #000 !important; line-height: 145%;text-shadow: 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff;,0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff;;">Dr. Timothy Norris : <a href="mailto:tnorris@miami.edu" style="color: #000 !important;">tnorris@miami.edu</a><br>Christopher Mader : <a href="mailto:cmader@med.miami.edu" style="color: #000 !important;">cmader@med.miami.edu</a></div>
+                
+                <div style="position: absolute; left: 0px; top: 550px; font-size: 40%; text-align: right; color: #555; width: 280px;"></div>
 
               </section>
 
-	          <section data-transition="fade">
-	            <div class="template-title">UM GIS Day 2022</div>
-	            <div>
-              		<a href="https://sp.library.miami.edu/subjects/gis#tab-1">GIS Day - November 16th 2022</a><br>
-              		<a href="https://geography.as.miami.edu/events/gisday/workshops/index.html">Map Submissions</a> - due November 4th<hr>
-              		<p>Dr. Sheila Lakshmi Steinberg</p>
-              		<p>Professor fo GIS, Social, and Environmental Sciences<br>University of Massachusetts Global<br>Faculty President</p>
-	            </div>
-	            <div class="template-citation" style="margin-top: 42px !important;"></div>
-	          </section>
+              <section>
 
-	          <section>
+                <section data-transition="fade">
+                  <div class="template-title">Rethinking Image/Raster Data</div>
+                  <div>
+                    <ul style="font-size: 0.8em;">
+                      <li style="margin: 13px 0px 0px 0px;">Colors and values <span style="font-size: 80%">: types of data</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Raster Bands <span style="font-size: 80%">: like channels in an image<br>> NDVI</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Attribute tables <span style="font-size: 80%">: look up tables for integer rasters</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Resampling <span style="font-size: 80%">: resolution and cell size</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Raster math <span style="font-size: 80%">: combining multiple raster overlays<br>> algebra<br>> logic</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Extraction <span style="font-size: 80%">: review</span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Datum transformations <span style="font-size: 80%">: review</span></li>
+                      <li style="margin: 42px 0px 0px 0px;">some exercises</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
 
-		          <section data-transition="fade">
-		            <div class="template-title">Online Mapping</div>
-		            <div>
-		              <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
-		                <li style="margin: 23px 0px 0px 0px;">Story Maps
-		                  <ul style="font-size: 80%;">
-		                  	<li>ESRI Storymaps - <a href="https://www.arcgis.com/apps/Cascade/index.html?appid=6984ffb035ed40b8b11e23f41236aac2" target="_blank">New York Taxicab Terrain</a></li> 
-		                    <li>Knightlabs - <a href="https://storymap.knightlab.com/examples/aryas-journey/" target="_blank">Game of Thrones</a></li>
-		                  </ul>
-		                </li>
-		                <li style="margin: 23px 0px 0px 0px;">Mashups
-		                  <ul style="font-size: 80%;">
-		                    <li>MapBox - <a href="https://www.latimes.com/wildfires-map/" target="_blank">LA Times California Fires</a></li>
-		                    <li>Leaflet - <a href="https://cdhuayhuash.org/mapas" target="_blank">Cordillera Huayhuash</a></li>
-		                  </ul>
-		                </li>
-			            <li style="margin: 23px 0px 0px 0px;">Web Applications
-		                  <ul style="font-size: 80%;">
-		                    <li>ESRI - <a href="http://scholar.library.miami.edu/hometownmaps/" target="_blank">Hometown Maps</a></li>
-		                    <li>Leaflet - <a href="https://map.idsc.miami.edu/disclaimer" target="_blank">MAP</a></li>
-		                  </ul>
-		                </li>
-		              </ul>
-		            </div>
-		            <div class="template-citation" style="margin-top: 42px !important;"></div>
-		          </section>
+              </section>
 
-		          <section data-transition="fade">
-		            <div class="template-title">Basemaps for Online Mapping</div>
-		            <div>
-		              <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
-		                <li style="margin: 23px 0px 0px 0px;"><a href="https://www.mapbox.com/gallery/" target="_blank">Mapbox Gallery</a></li>
-		                <li style="margin: 23px 0px 0px 0px;"><a href="https://wiki.openstreetmap.org/wiki/Tile_servers" target="_blank">Open Street Map Gallery</a></li>
-		              </ul>
-		            </div>
-		            <div class="template-citation" style="margin-top: 42px !important;"></div>
-		          </section>
+              <section>
 
-		          <section data-transition="fade">
-		            <div class="template-title">Exercises</div>
-		            <div>
-		              <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
-		              	<li style="margin: 23px 0px 0px 0px;"><a href="https://storymaps.arcgis.com/stories/cea22a609a1d4cccb8d54c650b595bc4" target="_blank">Create an ESRI Storymap</a></li>
-		                <li style="margin: 23px 0px 0px 0px;"><a href="https://leafletjs.com/examples/quick-start/" target="_blank">Create a Leaflet Map</a></li>
-		              </ul>
-		            </div>
-		            <div class="template-citation" style="margin-top: 42px !important;"></div>
-		          </section>
+                <section data-transition="fade">
+                  <div class="template-title">Colors and Values</div>
+                  <div>
+                    <div>Raster cells can contain</div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;"><b>Integer</b>s of varying sizes (8 bit to 32 bit)</li>
+                      <li style="margin: 13px 0px 0px 0px;"><b>Float</b>ing point decimals (16 bit decimals)</li>
+                      <li style="margin: 13px 0px 0px 0px;"><b>Double</b> floating poiunt decimals (32 bit decimals)</li>
+                      <li style="margin: 23px 0px 0px 0px;" class="fragment">Remember
+                        <ul tyle="font-size: .8em;">
+                            <li>8 bits to a byte</li>
+                            <li>1000 bytes to a kilobyte (kb)</li>
+                            <li>1000 kb to a megabyte (MB)</li>
+                            <li>1000 MB to a gigabyte (GB)</li>
+                            <li>1000 GB to a terrabyte (TB)</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
 
-	          </section>
+                <section>
+                    <div style="width: 100%;">
+                        <div style="font-size: 40%; text-align: center; line-height: 100%;">
+                            <img src="../common/assets/images/color.png" style="width: 800px"><br>
+                            <i>Color is entirely a creation of the mind - visible color</i><br><br>
+                        </div>
+                    </div>
+                </section>
+        
+                <section>
+                    <div style="width: 60%; margin-right: auto; margin-left: auto;">
+                        <span style="font-weight: bold; font-size: 110%;">Red Green Blue - RGB<br><br></span>
+                        <div style="font-size: 80%; text-align: left; position: relative; top: 20px;">
+                          <ul>
+                            <li><b><i>Additive</i></b> color model based on ‘primary’ colors
+                            <ul style="font-size: 80%;">
+                              <li>Used on all electronic display devices
+                              <li>Primary colors are closely matched to three receptors in eye
+                            </ul>
+                            <li style="position: relative; top: 23px;">The modern computer uses numbers from 0-255 to represent each primary color
+                            <ul style="font-size: 80%;">
+                              <li>8 bits for each color, three colors, 24-bit true color
+                              <li>Approximately 16,777,216 colors – more than we can see
+                            </ul>
+                          </ul>
+                        </div>
+                    </div><br><br><br><br><br><br>
+                    <div style="position: absolute; top: 480px; left: 250px;"><img src="../common/assets/images/rgb1.png" height="170"></div>
+                    <div style="position: absolute; top: 490px; left: 550px;"><img src="../common/assets/images/rgb2.png" height="150"></div>
+                    <div style="position: absolute; top: 490px; left: 900px;"><img src="../common/assets/images/rgb3.png" height="150"></div>
+                </section>
+
+                <section>
+                    <div style="width: 60%; margin-right: auto; margin-left: auto;">
+                        <span style="font-weight: bold; font-size: 110%;">Cyan Magenta Yellow Black - CMYK<br><br></span>
+                        <div style="font-size: 80%; text-align: left; position: relative; top: 20px; left: -100px;">
+                          <ul>
+                            <li><b><i>Subtractive</i></b> color model based on printer colors
+                            <ul style="font-size: 80%;">
+                              <li>Also known as "process" or "four-color" system 
+                              <li>All printing devices use this model
+                              <li>More ink 'subtracts' lightness from the white paper
+                              <li>'K' is for 'key' as the black plate in an offset press is the 'key' plate
+                            </ul>
+                            <li style="position: relative; top: 23px;">8-bit or 16-bit information in each color 'channel'
+                            <ul style="font-size: 80%;">
+                              <li>CMYK image files are noticeably larger than RGB image files
+                              <li>way more colors than we can see ...
+                            </ul>
+                          </ul>
+                        </div>
+                    </div><br><br><br>
+                    <div style="position: absolute; top: 100px; left: 1050px;"><img src="../common/assets/images/cmyk1.png" height="170"></div>
+                    <div style="position: absolute; top: 330px; left: 1000px;"><img src="../common/assets/images/cmyk2.png" height="170"></div>
+                </section>
+        
+                <section>
+                    <div style="width: 60%; margin-right: auto; margin-left: auto;">
+                        <span style="font-weight: bold; font-size: 110%;">Hexadecimal for the Internet<br><br></span>
+                        <div style="font-size: 80%; text-align: left; position: relative; top: 20px; left: -100px;">
+                          <ul>
+                            <li>The hex color system is based on the RGB model
+                            <ul style="font-size: 80%;">
+                              <li>Used in HTML for the internet 
+                              <li>Is the preferred representation for color by programmers
+                            </ul>
+                            <li style="position: relative; top: 23px;">Hexadecimal is the name for counting in base 16
+                            <ul style="font-size: 80%;">
+                              <li>Good for computers: 2<sup>4</sup> = 16</li>
+                              <li>16 x 16 = 256 = 2<sup>8</sup> ~ byte of information</li>
+                              <li>Counted from 0-15 like this:<br><br>
+                              <span style="font-size: 110%; position: relative; left: 30px;">0 1 2 3 4 5 6 7 8 9 A B C D E F</span><br><br><br>
+                            </ul>
+                            <li class="fragment"> A hex color might look like this: #FF00FF 
+                          </ul>
+                        </div>
+                    </div><br><br><br>
+                      <div class="fragment" style="position: absolute; top: 400px; left: 1050px; text-align: left; font-size: 70%;">
+                        rgb(255,0,255)<br>
+                        <div style="width: 200px; height: 80px; background-color: #FF00FF;"></div>
+                      </div>
+                      <div class="fragment" style="position: absolute; top: 562px; left: 509px; font-size: 45%; width: 420px; text-align: left; color: red;">
+                        <div style="border: 2px solid red; position: relative; left: 200px; width: 30px; height: 30px;"></div><br>
+                        Red: FF = 15*1 + 15*16 = 255
+                      </div>
+                      <div class="fragment" style="position: absolute; top: 562px; left: 543px; font-size: 45%; width: 400px; text-align: center; color: green;">
+                        <div style="border: 2px solid green; position: relative; left: 200px; width: 30px; height: 30px;"></div><br><br><br>
+                        Green: 00 = 0*1 + 0*16 = 0
+                      </div>
+                      <div class="fragment" style="position: absolute; top: 562px; left: 577px; font-size: 45%; width: 450px; text-align: right; color: blue;">
+                        <div style="border: 2px solid blue; position: relative; left: 200px; width: 30px; height: 30px;"></div><br>
+                        Blue: FF = 15*1 + 15*16 = 255
+                      </div>
+                </section>
+
+                <section>
+                    <div style="width: 100%;">
+                        <span style="font-weight: bold; font-size: 110%;">Photoshop's color picker<br><br></span>
+                        <div style="font-size: 40%; text-align: center; line-height: 100%;">
+                            <img src="../common/assets/images/photoshopColorPicker.jpg">
+                        </div>
+                    </div><br><br><br>
+                    <div style="position: absolute; top: 80px; left: 500px; font-size: 50%; text-align: right; width: 300px;">Approximate screen color<br>
+                    <svg width="150px;" height="150px" xmlns="https://www.w3.org/TR/SVG/" style="position: absolute; left: 200px; top: 40px;">
+                      <line x1="0" y1="0" x2="60" y2="100" style="stroke: rgb(20,20,20); stroke-width: 2" />
+                    </svg>
+                  </div>
+                            <div style="position: absolute; top: 550px; left: 700px; font-size: 50%;">
+                    <svg width="150px;" height="150px" xmlns="https://www.w3.org/TR/SVG/" style="position: absolute; left: 10px; top: -100px;">
+                      <line x1="45" y1="48" x2="10" y2="100" style="stroke: rgb(20,20,20); stroke-width: 2" />
+                    </svg>HEX
+                  </div>
+                            <div style="position: absolute; top: 550px; left: 850px; font-size: 50%;">
+                    <svg width="150px;" height="150px" xmlns="https://www.w3.org/TR/SVG/" style="position: absolute; left: -45px; top: -120px;">
+                      <line x1="0" y1="0" x2="50" y2="120" style="stroke: rgb(20,20,20); stroke-width: 2" />
+                    </svg>RGB
+                  </div>
+                            <div style="position: absolute; top:400px; left: 1000px; font-size: 50%;">
+                    <svg width="150px;" height="150px" xmlns="https://www.w3.org/TR/SVG/" style="position: absolute; left: -70px; top: -40px;">
+                      <line x1="60" y1="60" x2="0" y2="80" style="stroke: rgb(20,20,20); stroke-width: 2" />
+                    </svg>CMYK
+                  </div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Color Brewer</div>
+                  <div>
+                    <a href="https://colorbrewer2.org">https://colorbrewer2.org</a><br>
+                    <p style="font-size: 0.7em;">The original ColorBrewer (v1.0) was funded by the NSF Digital Government program during 2001-02, and was designed at the GeoVISTA Center at Penn State (National Science Foundation Grant No. 9983451, 9983459, 9983461).</p>
+                    <p style="font-size: 0.7em;"><a href="http://www.personal.psu.edu/cab38/ColorBrewer/ColorBrewer_updates.html">Further Reading »</a></p>
+                    <p style="font-size: 0.6em;">The Team<br>Cynthia Brewer: Concept / Colors / Editor<br>Mark Harrower: Design / User Interface<br>Ben Sheesley: Design / User Interface<br>Andy Woodruff: Developer<br>David Heyman: Developer<br>Penn State University and Axis Maps</p>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">Brewer, Cynthia A., Geoffrey W. Hatchard and Mark A. Harrower, 2003, ColorBrewer in Print: A Catalog of Color Schemes for Maps, Cartography and Geographic Information Science 30(1): 5-32. <a href="https://doi.org/10.1559/152304003100010929">https://doi.org/10.1559/152304003100010929</a></div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Raster Bands</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">For RGB image, there are three bands: Red, Green, Blue</li>
+                      <li style="margin: 13px 0px 0px 0px;">Like channels in photoshop</li>
+                      <li style="margin: 13px 0px 0px 0px;">For all raster data can be:
+                        <ul>
+                            <li><b>single band</b> >> for example elevation as floats (DEM)</li>
+                            <li><b>three band</b> "false color" >> estimated RGB values, satellite images</li>
+                            <li><b>multi-band</b> >> bandwidths of sensing instruments</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Landsat 8 Bands</div>
+                  <div>
+                    <table style="font-size: 0.6em;"> <tbody><tr> <td><strong>Band Number</strong></td> <td><strong>Description</strong></td> <td><strong>Wavelength</strong></td> <td><strong>Resolution</strong></td> </tr> <tr> <td>Band 1</td> <td>Coastal / Aerosol</td> <td>0.433 to 0.453 µm</td> <td>30 meter</td> </tr> <tr> <td>Band 2</td> <td>Visible blue</td> <td>0.450 to 0.515 µm</td> <td>30 meter</td> </tr> <tr> <td>Band 3</td> <td>Visible green</td> <td>0.525 to 0.600 µm</td> <td>30 meter</td> </tr> <tr> <td>Band 4</td> <td>Visible red</td> <td>0.630 to 0.680 µm</td> <td>30 meter</td> </tr> <tr> <td>Band 5</td> <td>Near-infrared</td> <td>0.845 to 0.885 µm</td> <td>30 meter</td> </tr> <tr> <td>Band 6</td> <td>Short wavelength infrared</td> <td>1.56 to 1.66 µm</td> <td>30 meter</td> </tr> <tr> <td>Band 7</td> <td>Short wavelength infrared</td> <td>2.10 to 2.30 µm</td> <td>60 meter</td> </tr> <tr> <td>Band 8</td> <td>Panchromatic</td> <td>0.50 to 0.68 µm</td> <td>15 meter</td> </tr> <tr> <td>Band 9</td> <td>Cirrus</td> <td>1.36 to 1.39 µm</td> <td>30 meter</td> </tr> <tr> <td>Band 10</td> <td>Long wavelength infrared</td> <td>10.3 to 11.3 µm</td> <td>100 meter</td> </tr> <tr> <td>Band 11</td> <td>Long wavelength infrared</td> <td>11.5 to 12.5 µm</td> <td>100 meter</td> </tr> </tbody></table>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+
+                <section data-transition="fade">
+                  <div class="template-title">Normalized Difference Vegetation Index (NDVI)</div>
+                  <div style="width: 100%; display: inline-block;">
+                  <div style="margin: 0px auto; width: 65%">
+                    <div style="float:left; font-size: 0.7em;">
+                        <img src="../common/assets/images/ndvi.svg" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.671ex; width:23.015ex; height:6.509ex; margin-top: 91px; max-width: 300px;" alt="{\displaystyle {\mbox{NDVI}}={\frac {({\mbox{NIR}}-{\mbox{Red}})}{({\mbox{NIR}}+{\mbox{Red}})}}}"><hr>-1 < NDVI < 1<br>higher values indicate vegetation.
+                    </div>
+                    <div style="float:left; margin-left: 42px;">
+                        <img src="../common/assets/images/ndvi-example.jpg">
+                    </div>
+                  </div>
+                  </div>
+                  <div style="font-size: 0.75em; display: inline-block;">
+                    <span>See also</span><br>
+                    <ul>
+                        <li><a href="https://en.wikipedia.org/wiki/Enhanced_vegetation_index">Enhanced vegetation index</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Normalized_difference_water_index">Normalized difference water index</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="template-citation" style="margin-top: 42px !important;"><a href="https://en.wikipedia.org/wiki/Normalized_difference_vegetation_index">https://en.wikipedia.org/wiki/Normalized_difference_vegetation_index</a>. Image courtest of NASA.</div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Attribute Tables for Raster Data<br><span style="font-size:  0.8em;"><i>(Not Really)</i></span></div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Only in ArcGIS Pro and other ESRI products</li>
+                      <li style="margin: 13px 0px 0px 0px;">Only work on <b>Integer</b> rasters</li>
+                      <li style="margin: 13px 0px 0px 0px;">Actually look up tables for unique values</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <img src="../common/assets/images/rasters_attr.gif" style="width: 680px;">
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Resampling</div>
+                  <div style="font-size: 0.9em; width: 80%; margin: 0px auto;">
+                    Each <i><b>cell</b></i> or <i>pixel</i> in a raster dataset has an associate width and height in the coordinate system.<br><img style="max-height: 180px; margin: 42px 0px" src="../common/assets/images/raster-area.png"><br>For <i>projected</i> coordinate systems this means we can <i>calculate area</i> based on width and height of a cell.
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Resampling</div>
+                  <div style="font-size: 0.9em; width: 85%; margin: 0px auto;">
+                    <div style="margin-top: 23px; font-size: 0.9em;">
+                      <i>Resample</i> is similar to changing image <i>resolution</i> in Photoshop; the actual dimensions of the image do not change.
+                    </div>
+                    <img src="../common/assets/images/Resample.png" style="max-width: 450px;">
+                    <div style="margin-top: 23px; font-size: 0.9em;">
+                      <b>But</b> when we <i>resample</i> the raster dataset, the dimensions of the cells change and the actual values in each cell are re-calculated (several different methods).
+                    </div>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://gisgeography.com/raster-resampling/">https://gisgeography.com/raster-resampling/</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Resampling Methods</div>
+                  <div style="margin-top: 23px; font-size: 0.9em; display: inline-block; width: 95%">
+                    <div style="float: left; width: 50%">
+                      <ul style="font-size: 0.85em;">
+                        <li style="margin: 13px 0px 0px 0px;"><b>nearest neighbor</b><br><span style="font-size: 0.8em;">categorical data; fastest method</span></li>
+                        <li style="margin: 13px 0px 0px 0px;"><b>bi-linear interpolation</b><br><span style="font-size: 0.8em;">continuous data; elevation, temperature</span></li>
+                        <li style="margin: 13px 0px 0px 0px;"><b>cubic convolution</b><br><span style="font-size: 0.8em;">continuous noisy data; radar, surface models</span></li>
+                        <li style="margin: 13px 0px 0px 0px;"><b>majority interpolation</b><br><span style="font-size: 0.8em;">categorical data; land cover, districts</span></li>
+                        <li style="margin: 13px 0px 0px 0px;">there are more ...</li>
+                      </ul>
+                    </div>
+                    <div style="float: right; width: 49%">
+                      <img src="../common/assets/images/resample-texture-web.gif">
+                    </div>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">see <a href="https://gisgeography.com/raster-resampling/">https://gisgeography.com/raster-resampling/</a><br><br>image credit: Cell size of raster data. ArcMap 10.8 Documentation. <a href="https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/cell-size-of-raster-data.htm">https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/cell-size-of-raster-data.htm</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Resampling Methods</div>
+                  <div style="font-size: 0.9em; width: 90%; margin: 0px auto;">
+                    You will see these methods as options when you:
+                    <ul style="margin-left: 42px; margin-top: 42px;">
+                      <li style="margin-bottom: 42px;">perform raster operations between two layers of different resolutions</li>
+                      <li>save a raster in a different format</li>
+                      <li>perform a coordinate system transformation</li>
+                      <li>clip a raster image (crop)</li>
+                      <li>purposefully resample to save disk or memory space</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Rasterize Vector Layer and Resolution</div>
+                  <div style="font-size: 0.9em; width: 90%; margin: 0px auto;">
+                    You will also make resolution decisions when you <b>rasterize</b> a vector layer:
+                  </div>
+                  <img src="../common/assets/images/resolution_rasterize.gif">
+                  <div class="template-citation" style="margin-top: 42px !important;">image credit: Cell size of raster data. ArcMap 10.8 Documentation. <a href="https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/cell-size-of-raster-data.htm">https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/cell-size-of-raster-data.htm</a></div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Raster Math and Raster Calculators</div>
+                  <div style="font-size: 0.9em; width: 80%; margin: 0px auto;">
+                    We can combine two or more raster data sets using basic math operations on coincidental cells or pixels.
+                  </div>
+                  <div style="width: 100%; display: inline-block;">
+                  <div style="margin: 0px auto; width: 65%">
+                    <div style="float:left; font-size: 0.7em;">
+                        <img src="../common/assets/images/Local-Operation-Raster.png" style="max-width: 300px;">
+                    </div>
+                    <div style="float:left; margin-left: 42px; margin-top: 42px;">
+                        <img src="../common/assets/images/Local-Operation-Example-2.png" style="max-width: 500px;">
+                    </div>
+                  </div>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://gisgeography.com/raster-resampling/">https://gisgeography.com/raster-resampling/</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Raster Algebra Examples</div>
+                  <div style="font-size: 0.9em; width: 80%; margin: 0px auto;">
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Temp year 1 - Temp Year 2 = Change in Temperature</li>
+                      <li style="margin: 13px 0px 0px 0px;">NDVI Year 1 - NDVI Year 2 = Change in Green Cover</li>
+                      <li style="margin: 42px 0px 0px 0px;">( Temp year 1 + Temp Year 2 ) / 2 = Average Temperature</li>
+                      <li style="margin: 13px 0px 0px 0px;">( NDVI Year 1 + NDVI Year 2 ) / 2 = Average Green Cover</li>
+                      <li style="margin: 42px 0px 0px 0px;" class="fragment">Only limited by your imagination (and available data)</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Relational or Logical Raster Algebra</div>
+                  <div style="font-size: 0.9em; width: 80%; margin: 0px auto;">
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Truth tests on raster cells
+                        <ul style="font-size: 0.8em;">
+                            <li>TRUE = 1</li>
+                            <li>FALSE = 0</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 23px 0px 0px 0px;">Examples
+                        <ul style="font-size: 0.8em;">
+                            <li>Elevation (DEM) < 5ft</li>
+                            <li>Temperature > 80 Fahrenheit</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div style="margin: 23px 0px 0px 0px;">
+                    <img src="../common/assets/images/Relational-Operator.png">
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://gisgeography.com/raster-resampling/">https://gisgeography.com/raster-resampling/</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Raster Zonal Statistics</div>
+                  <div style="margin-top: 23px; font-size: 0.8em;">
+                    Calculate statistics for cells in defined zones of a raster (count, sum, mean, min, max, etc). 
+                  </div>
+                  <div style="margin-top: 23px;">
+                    <img style="max-height:  200px;" src="../common/assets/images/buffercircular.png">
+                    <img style="max-height:  200px;" src="../common/assets/images/Zonal-Statistics-Example.jpeg">
+                  </div>
+                  <div style="font-size: 0.8em;">
+                    NOTE: area can be calculated with cell dimensions and a count of cells.
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">images from (left to right): Wei Ying (2017). How to extract raster values at point locations? ArcGIS Blog. <a href="extraction from: https://www.esri.com/arcgis-blog/products/analytics/analytics/how-to-extract-raster-values-at-point-locations/">extraction from: https://www.esri.com/arcgis-blog/products/analytics/analytics/how-to-extract-raster-values-at-point-locations/</a> and GIS Geography (2022). How To Use Zonal Statistics [blog]. <a href="https://gisgeography.com/zonal-statistics/">https://gisgeography.com/zonal-statistics/</a> and </div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Raster Zonal Statistics - Examples</div>
+                  <div style="margin-top: 23px; font-size: 0.8em; width: 90%;">
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin-bottom: 13px;"><b>Calculate area of inundation scenario in a census tract</b> - with an elevation layer count the number of pixels with an elevation of less than 5ft within each census tract.</li>
+                      <li style="margin-bottom: 13px;"><b>Summarizing Rain in a Watershed</b> – By using a precipitation raster as your value field, you can set your zone as the watersheds with a sum function.</li>
+                      <li style="margin-bottom: 13px;"><b>Highest Elevation in Country</b> – If you have an elevation raster dataset, you can run Zonal Statistics to find out its highest peak by using the maximum function.</li>
+                      <li style="margin-bottom: 13px;"><b>Adding Tree Cover in an Ecozone</b> – To find the tree cover area in an ecozone, you can run Zonal Statistics to sum up a raster land cover dataset.</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">Examples from: GIS Geography (2022). How To Use Zonal Statistics [blog]. <a href="https://gisgeography.com/zonal-statistics/">https://gisgeography.com/zonal-statistics/</a></div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Extraction of Values from Raster (review)</div>
+                  <div style="margin-top: 23px; font-size: 0.8em;">
+                    You can extract values from raster at defined points.
+                  </div>
+                  <div style="margin-top: 23px; font-size: 0.8em;">
+                    For example: elevation from a DEM based on a point layer.
+                  </div>
+                  <div style="margin-top: 23px;">
+                    <img src="../common/assets/images/extraction_single.jpeg">
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">image from: Wei Ying (2017). How to extract raster values at point locations? ArcGIS Blog. <a href="https://www.esri.com/arcgis-blog/products/analytics/analytics/how-to-extract-raster-values-at-point-locations/">ESRI</a>.</div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Extraction of Values from Raster (review)</div>
+                  <div style="margin-top: 23px; font-size: 0.8em;">
+                    Sometimes more efficient to extract values from multiple rasters in one operation.
+                  </div>
+                  <div style="margin-top: 23px; font-size: 0.8em;">
+                    For example: elevation from a DEM, temperature, rainfall, etc; all based on one point layer.
+                  </div>
+                  <div style="margin-top: 23px;">
+                    <img src="../common/assets/images/extraction_multi.jpeg">
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">image from: Wei Ying (2017). How to extract raster values at point locations? ArcGIS Blog. <a href="https://www.esri.com/arcgis-blog/products/analytics/analytics/how-to-extract-raster-values-at-point-locations/">ESRI</a>.</div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Datum Shift Review</div>
+                  <div>
+                    <img src="../common/assets/images/Texas_Capitol_Dome_Position_Shifts.gif" style="width: 680px;">
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">image used under fair use from: <a href="https://en.wikiversity.org/wiki/File:Texas_Capitaol_Dome_Position_Shifts.gif">https://en.wikiversity.org/wiki/File:Texas_Capitaol_Dome_Position_Shifts.gif</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title" style="margin-bottom: 0px !important;">Datum Shift Review<br><span style="font-size: 0.8em;">NAD83 and WGS84</span></div>
+                  <div>
+                    <img src="../common/assets/images/nad83-wgs84.png" style="width: 830px;">
+                  </div>
+                  <div class="template-citation" style="margin-top: 13px !important;">image from: <a href="https://www.neigps.com/wp-content/uploads/2014/08/Understanding-Datums-in-PFO.pdf">NEI GPS - an authorized Trimble dealer.</a></div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Flood Modeling in Little River Miami GIS Data & Tutorial<br><span style="font-size: 0.75em;">Raster Operations</span></div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">From UM Libraries GIS workshops<br><a href="https://miami.box.com/s/rf6bzm62smv9n6i7gyxvd0jzsxxett05">https://miami.box.com/s/rf6bzm62smv9n6i7gyxvd0jzsxxett05</a></li>
+                      <li style="margin: 13px 0px 0px 0px;">Download and unzip to a good location<br>
+                      <ul>
+                        <li><i>Open project with ArcGIS Pro</i></li>
+                        <li><i>Open word doc and follow instructions</i></li>
+                      </ul>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">Parrish (2021). Flood Modeling in the Little River Neighborhood of Miami [workshop]. University of Miami Libraries GIS Resources. https://miami.box.com/s/rf6bzm62smv9n6i7gyxvd0jzsxxett05.</div>
+                </section>
+
+              </section>
+
+              <!-- <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">UM Trees and Buildings: Elevation and Canopy Area Tutorial<br><span style="font-size: 0.75em;">Extraction and Zonal Statistics (field calculator review)</span></div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">UM_GablesCampus.zip >> <a href="https://miami.box.com/s/q7f4c8kozfelv3mq7n697nqndthwhe9q">download</a></li>
+                      <li style="margin: 13px 0px 0px 0px;">Unzip to a good location</li>
+                      <li style="margin: 13px 0px 0px 0px;">Open UM_GablesCampus.aprx in <b>ArcGIS Pro</b></li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">UM Trees and Buildings: Elevation and Canopy Area Tutorial<br><span style="font-size: 0.75em;">Extraction and field calculator review</span></div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;"><b>Extract Multi Values to Points</b>
+                        <ul style="font-size: 0.8em;">
+                          <li><i>UM_Trees</i> as <u>Input Point Features</u></li>
+                          <li><i>UM_DEM_2021_5FT</i> and UM_2022_droneDSM_ft as <u>Input Rasters</u></li>
+                          <li>Run the tool and open the attribute table for <i>UM_Trees</i>; observe the new columns</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Calculate tree heights with <b>Field Calculator</b> (in attribute table)
+                        <ul style="font-size: 0.8em;">
+                          <li>Open the <u>Calculate tool</u> (from attribute table of <i>UM_trees</i>)</li>
+                          <li>Create a new field that uses the <i>DEM</i> and <i>DSM</i> values to calculate a tree height</li>
+                          <li>Run the tool</li>
+                          <li>Examine new values in attribute table. What might be wrong with this analysis??</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">UM Trees and Buildings: Elevation and Canopy Area Tutorial<br><span style="font-size: 0.75em;">Zonal Statistics and Join (review)</span></div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;"><b>Zonal Statistics as Table</b> (spatial analysis)
+                        <ul style="font-size: 0.8em;">
+                          <li><i>UM_2022_BuildingFootprints</i> as <u>Input Features</u></li>
+                          <li><i>osm_id</i> as <u>Zone Field</u></li>
+                          <li><i>UM_DEM_2021_5FT</i> as <u>Input Value Raster</u></li>
+                          <li><i>UM_BuildingElevations</i> as the <u>Output Table</u> (make sure to put in data folder)</li>
+                          <li><i>Minimum, Maximum, and Mean</i> as <u>Statistics Type</u></li>
+                          <li>Run the tool</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;"><b>Join</b> Zonal Statistic Values back to UM_2022_BuildingFootprints
+                        <ul style="font-size: 0.8em;">
+                          <li><i>osm_id</i> as the <u>join field</u></li>
+                          <li>Inspect results in attribute table</li>
+                          <li>Visualize results</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">UM Trees and Buildings: Elevation and Canopy Area Tutorial<br><span style="font-size: 0.75em;">Raster Calculator</span></div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;"><b>Raster Calculator</b> (spatial analysis)
+                        <ul style="font-size: 0.8em;">
+                          <li>Create an expression to calculate height using:<br>  <i>UM_DEM_2021_5FT</i> and <i>UM_2022_droneDSM_ft</i></li>
+                          <li><i>UM_Height_ft</i> as <u>Output Raster</u></li>
+                          <li>Run the tool</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">UM Trees and Buildings: Elevation and Canopy Area Tutorial<br><span style="font-size: 0.75em;">Zonal Statistics and Join (review)</span></div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;"><b>Zonal Statistics as Table</b> (spatial analysis)
+                        <ul style="font-size: 0.8em;">
+                          <li><i>UM_Tree_Canopy</i> as <u>Input Features</u></li>
+                          <li><i>OBJECTID</i> as <u>Zone Field</u></li>
+                          <li><i>UM_Height_ft</i> as <u>Input Value Raster</u></li>
+                          <li><i>UM_TreeHeights</i> as the <u>Output Table</u> (make sure to put in data folder)</li>
+                          <li><i>Minimum, Maximum, and Mean</i> as <u>Statistics Type</u></li>
+                          <li>Run the tool</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;"><b>Join</b> Zonal Statistic Values back to UM_Tree_Canopy
+                        <ul style="font-size: 0.8em;">
+                          <li><i>OBJECTID</i> as the <u>join field</u></li>
+                          <li>Inspect results in attribute table</li>
+                          <li>Visualize results</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">UM Trees and Buildings: Elevation and Canopy Area Tutorial<br><span style="font-size: 0.75em;">Spatial Join, Join, and Select by Attributes (review)</span></div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;"><b>Spatial Join</b> (right click on target layer)
+                        <ul style="font-size: 0.8em;">
+                          <li><i>Use UM_Trees</i> as <u>Target Features</u></li>
+                          <li><i>FEMA_Flood_Zone</i> as <u>Join Features</u></li>
+                          <li><i>UM_Trees_FloodZones</i> as <u>Output Feature Class</u></li>
+                          <li><i>One to One</i> <u>Join Operation</u></li>
+                          <li><i>Completely within</i> as <u>Match Option</u></li>
+                          <li>Run the tool</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;"><b>Join</b> results back to UM_Trees
+                        <ul>
+                          <li style="font-size: 0.8em;">Inspect attribute table and visualize on map</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;"><b>Select by Attributes</b> (Map Tab)
+                        <ul style="font-size: 0.8em;">
+                          <li><i>UM_Trees</i> as the <u>Input Rows</u></li>
+                          <li>New Selection</li>
+                          <li>Create a <u>New Expression</u> where: <i>FZONE</i> is equal <i>AH</i></li>
+                          <li>Inspect the results in the attribute table and on the map</li>
+                        </ul>
+                      </li>
+
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">UM Trees and Buildings: Elevation and Canopy Area Tutorial<br><span style="font-size: 0.75em;">Field Calculator and Select by Location (review) - PART I</span></div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;"><b>Field Calculator</b> (<i>UM_Tree_Canopy</i> Attribute Table)
+                        <ul style="font-size: 0.8em;">
+                          <li>Create new calculated field <i>Canopy_Area</i> as <i>Shape_Area</i></li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;"><b>Select by Location</b> (Map Tab)
+                        <ul style="font-size: 0.8em;">
+                          <li><i>UM_Trees</i> as the <u>Input Features</u></li>
+                          <li><i>Completely Within</i> as <u>Relationship</u></li>
+                          <li><i>UM_Tree_Canopy</i> as <u>Selecting Features</u></li>
+                          <li><i>New Selection</i> as <u>Selection Type</u></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">UM Trees and Buildings: Elevation and Canopy Area Tutorial<br><span style="font-size: 0.75em;">Spatial Join and Join (review) - PART II</span></div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;"><b>Spatial Join</b> (right click on target layer)
+                        <ul style="font-size: 0.8em;">
+                          <li>Use <i>UM_Trees</i> as <u>Target Features</u></li>
+                          <li><i>FEMA_Flood_Zone</i> as <u>Join Features</u></li>
+                          <li><i>UM_Tree_Canopy</i> as <u>Output Feature Class</u></li>
+                          <li><i>One to One</i> <u>Join Operation</u></li>
+                          <li><i>Completely within</i> as <u>Match Option</u></li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;"><b>Join</b> results back to <i>UM_Trees</i>
+                        <ul>
+                          <li style="font-size: 0.8em;">inspect attribute table and visualize on map</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+              </section> -->
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">An exercise - UM Gables Campus 5ft Sealevel Rise Scenario</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Start new project in GIS of your choice</li>
+                      <li style="margin: 13px 0px 0px 0px;">Get data (from <a href="https://miami.box.com/s/1jlqkgumkz5bux23nepcekd1kyq5qmrg">box folder</a>)
+                        <ul style="font-size: 0.85em;">
+                            <li><a href="https://miami.box.com/s/esbafhkwqlw3n5h99dz1p6dbudzomncn">UM_DEM_2021_5FT.tif</a></li>
+                            <li><a href="https://miami.box.com/s/mm7o214wfwykhxshiykwk2vnofgys5a0">2021_MD_CensusTracts.zip</a></li>
+                        </ul>
+                      </li>
+
+                      <li style="margin: 13px 0px 0px 0px;">Create a data folder inside the project and unzip all data from above</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">5 ft scenario</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Open the DEM in your GIS project
+                        <ul style="font-size: 0.85em;">
+                            <li>note projection information, size of cells, other important metadata</li>
+                            <li>make sure to understand that each cell is 5ft x 5ft or 25 sq/ft</li>
+                            <li>visualize using manual breaks: <0 | 0-5 | 5-10 | > 10</li>
+                            <li>choose a good color scheme</li>
+                            <li>explore a little</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Find raster calculator (in toolbox)
+                        <ul style="font-size: 0.85em;">
+                            <li>create the expression: ("UM_DEM_2021_5FT.tif" > 0) &  ("UM_DEM_2021_5FT.tif" < 5)</li>
+                            <li>give the output a good file name and run tool</li>
+                            <li>visualize based on 0 and 1</li>
+                            <li>make sure to understand that 0 is either elevation < 0 or elevation > 5</li>
+                            <li>make sure to understand that 1 is either elevation > 0 or elevation < 5</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Calculate Zonal Statistics</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Open the Census Tracts in your project
+                        <ul style="font-size: 0.85em;">
+                          <li>Remove fill color in symbology</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Look for "Zonal Statistics as Table" in toolbox
+                        <ul style="font-size: 0.85em;">
+                            <li>Zonal layer be census tracts using GEOID20 as the field</li>
+                            <li>Second layer will be the raster with 0 < cell < 5 showing as 1</li>
+                            <li>Select all statistics, give the output a good name, and run the tool</li>
+                            <li>open the resulting table</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 23px 0px 0px 0px;">Calculate percentage flooded using field calculator (review)
+                        <ul style="font-size: 0.85em;">
+                          <li>Open the field calculator and create a new column "percentFlooded"</li>
+                          <li>Create the expression: !SUM! / !COUNT! and run the tool</li>
+                          <li>Make sure to understand that you are calculating a percent area</li>
+                        </ul>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Visualize Percentage Flooded</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Join statistics table back to census tracts using GEOID as the join field</li>
+                      <li style="margin: 13px 0px 0px 0px;">Visualize the percentage flooded on census tracts</li>
+                      <li style="margin: 13px 0px 0px 0px;">Using the info tool, click on the UM Census Tract and inspect results (find percentage flooded)</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+              </section>
+
+              <!-- <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">An exercise - Miami-Dade 5ft Sealevel Rise Scenario</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Start new project in GIS of your choice</li>
+                      <li style="margin: 13px 0px 0px 0px;">Get data (from <a href="https://miami.box.com/s/1jlqkgumkz5bux23nepcekd1kyq5qmrg">box folder</a> -or- from <a href="https://gis-mdc.opendata.arcgis.com/">Miami-Dade portal</a>)
+                        <ul style="font-size: 0.85em;">
+                            <li><a href="https://gisms.miamidade.gov/opendata/dem/2015/dem_10ft.zip">dem_10ft.zip</a></li>
+                            <li><a href="https://miami.box.com/s/xt3qjxa3580l2deyegyaq7ctd2rdwned">Water_P.zip</a></li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Get data (from <a href="https://miami.box.com/s/1jlqkgumkz5bux23nepcekd1kyq5qmrg">box folder</a> -or- from <a href="https://data.census.gov/cedsci/">CEDSCI</a> and <a href="https://www.census.gov/programs-surveys/geography.html">geography division</a> of census bureau)
+                        <ul style="font-size: 0.85em;">
+                            <li><a href="https://miami.box.com/s/hfg07jz48wshda92lbmg9ja96gqqmt74">DECENNIALPL2020.P1_2021-10-25T145541.zip</a></li>
+                            <li><a href="https://miami.box.com/s/mm7o214wfwykhxshiykwk2vnofgys5a0">2021_MD_CensusTracts.zip</a></li>
+                        </ul>
+                      </li>
+
+                      <li style="margin: 13px 0px 0px 0px;">Create a data folder inside the project and unzip all data from above</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">5 ft scenario</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Open the DEM in your GIS project</li>
+                        <ul style="font-size: 0.85em;">
+                            <li>note projection information, size of cells, other important metadata</li>
+                            <li>visualize using manual breaks: <0 | 0-2 | 2-5 | 5-10 | > 10</li>
+                            <li>explore a little</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">In ArcGIS Pro, enable "Spatial Analysis" license
+                        <ul style="font-size: 0.85em;">
+                            <li>under project</li>
+                            <li>save project and restart ArcGIS Pro</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Find raster calculator or raster math function
+                        <ul style="font-size: 0.85em;">
+                            <li>create new raster using relational raster match cell > 0</li>
+                            <li>create new raster using relational raster match cell < 5</li>
+                            <li>merge two new rasters to get 0 > cell > 5 (note this can be done in one step in QGIS)</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Census Demographic data (review)</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Explore the CSV table of the census data in text editor
+                        <ul style="font-size: 0.85em;">
+                            <li>look at headers in data table</li>
+                            <li>look at column names and values in metadata file</li>
+                            <li>make sure data table only has one header row</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Open census tracts and census data (csv table) in GIS project
+                        <ul style="font-size: 0.85em;">
+                            <li>seek the join column, check to make sure they are of the same type in both tables</li>
+                            <li>if necessary create new column in census tracts attribute table to use for join (must be the same type and width as the column in the csv file</li>
+                            <li>make the join</li>
+                        </ul>
+                      </li>
+                      <li>See <a href="https://tibbben.github.io/geospatial-visualization/slides/slides040.html#/3/2">these slides</a> for more detailed instructions</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Calculate Zonal Statistics</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Look for zonal statistics in toolbox (ESRI) or in the plugin manager (QGIS)
+                        <ul style="font-size: 0.85em;">
+                            <li>first layer will be census tracts using GEOID21 as the field</li>
+                            <li>second layer will be the raster with 0 < cell < 5 showing as 1</li>
+                            <li>result will be a table with summary information of cell counts in each tract</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 23px 0px 0px 0px;">Counts can be used to calculate percentage area of tract affected</li>
+                      <li>What is wrong with this analysis?</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Remove Water</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Convert Water to Raster</li>
+                        <ul style="font-size: 0.85em;">
+                            <li>look for raster conversion tool in toolbox (both QGIS an ESRI)</li>
+                            <li>Make sure to use same cell size and coordinate system for conversion</li>
+                        </ul>
+                      </li>
+                      <li style="margin: 13px 0px 0px 0px;">Use the raster calculator to subtract water from DEM layer with 0 < cell < 5</li>
+                      <li style="margin: 13px 0px 0px 0px;">Repeat zonal statistics from previous slide</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Estimate Impact</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Join counts (area) back to census tracts</li>
+                      <li style="margin: 13px 0px 0px 0px;">Choose a variable to estimate</li>
+                      <li style="margin: 13px 0px 0px 0px;">Use the <b>Field Calculator</b> to multiply inundation area percentage by a census variable to get an estimate of impact (people for example)</li>
+                      <li style="margin: 42px 0px 0px 0px;" class="fragment"><b>Interpret Results</b></li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+              </section> -->
 				
             </div>
         </div>
         <script src="../common/java/reveal.js"></script>
-	    <!-- <script src="../common/java/notes.js"></script> -->
+	    <script src="../common/java/notes.js"></script>
 	    <script src="../common/java/head.min.js"></script>
         <script>
             Reveal.initialize({
-                width: 1280, height: 720, margin: 0.05,
+                width: 1366, height: 768, margin: 0.05,
                 controls: true,
 				progress: true,
 				history: true,
@@ -147,7 +949,6 @@
                     { src: '../common/java/csv2chart.js' }
                 ] 
             });
-            Reveal.on( 'slidechanged', event => { mymap.invalidateSize(); console.log('here'); });
         </script>
     </body>
 </html>
