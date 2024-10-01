@@ -267,7 +267,6 @@ We are please to announce a visit from Nestor Navarro, GIS manager for Miami Bea
 > Practical Objectives
 
 -   Obtain and normalize several raster data layers to same resolution, scale, and projection
--   Obtain at least one data layer from HAZUS
 -   Perform raster math between two raster layers
 -   Visualize and interpret the results from the raster math operation 
 
@@ -357,8 +356,9 @@ We are pleased to welcome Christian Kamrath from the Miami-Dade County Resilienc
 
 > Practical Objectives (if we have time)
 
--   Obtain and normalize several raster data layers to same resolution, scale, and projection
--   Perform raster math between two raster layers
+-   Obtain at least one data layer from HAZUS
+-   Continue with vector spatial joins
+-   Explore online mapping
 
 [//]: # (-   Obtain at least one data layer from HAZUS)
 [//]: # (-   Visualize and interpret the results from the raster math operation)
@@ -399,6 +399,7 @@ We are pleased to welcome Abigail Flemming, associate director of the University
 
 -   Perform SQL query with geospatial data (select by attributes)
 -   Create buffers around geospatial features and use for selection
+-   Continue with vector spatial joins
 
 >  Assigned Reading:
 
