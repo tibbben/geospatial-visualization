@@ -28,7 +28,7 @@
                 <div class="template-title">Today's Goals</div>
                 <div>
                   <ol type="a" style="font-size: 0.85em;">
-                    <li style="margin: 13px 0px 0px 0px;">Finish SQL demonstration</li>
+                    <li style="margin: 13px 0px 0px 0px;">Overlays and Interpolation</li>
                     <!--<li style="margin: 13px 0px 0px 0px;">Interpolation (overview and exercise)</li>-->
                     <li style="margin: 13px 0px 0px 0px;">Field Presentations</li>
                     <li style="margin: 13px 0px 0px 0px;">Little River Critique and Review</li>
@@ -39,6 +39,174 @@
                 </div>
                 <div class="template-citation" style="margin-top: 42px !important;"></div>
               </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Vector Data Overlays</div>
+                  <div style="max-width: 80%; margin: 0px auto; display: inline-block;">
+                    <div style="float:left; margin-right: 120px;">
+                      <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                        <li style="margin: 23px 0px 0px 0px;">Data Structures: Connection and Transformation
+                          <ul style="font-size: 80%;">
+                            <li style="margin-top: 13px;">Overlay tools<br>
+                              <ul style="list-style-type: '- '; margin-left: -1em; font-style: italic">
+                                <li><b>Intersect</b></li>
+                                <li><b>Union</b></li>
+                                <li><b>Subtract</b></li>
+                                <li style="margin-top: 13px;">Symmetric Difference</li>
+                                <li>Identity</li>
+                                <li>Cover</li>
+                              </ul>
+                            </li>
+                            <li style="margin-top: 13px;"><b>Clipping</b><br>
+                              <i>- Sub-setting data with polygons</i><br>
+                              <i>- Raster or vector</i>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div style="float: right;">
+                      <img src="../common/assets/images/Overlay_wikiGIS.png" style="max-height: 600px;">
+                    </div>
+                  </div>
+                  <div class="template-citation" style="margin-top: -42px !important;">image credit: Overlay. <a href="http://wiki.gis.com/wiki/index.php/Overlay">wiki.GIS.com</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Intersection of Two Vector Layers</div>
+                  <div>
+                    <ul style="font-size: 60%;">
+                      <li style="margin-top: 13px;">Only geometries and attributes that overlap are preserved<br>
+                        <i>- Attributes from both layers copied to new feature</i><br>
+                        <i>- Output geometry is lowest dimension of input geometries</i>
+                      </li>
+                      <li style="margin-top: 13px;"><b>Ratio</b> (ArcGIS) or <b>Overlap</b> (QGIS) analysis<br>
+                        <i>- Attributes calculated as percentage of original area for each new polygon</i><br>
+                        <img src ="../common/assets/images/ArcGISIntersect-web.gif">
+                      </li>
+                      <li>Two rectangles in one layer and one circle in second layer<br>
+                        <i>- Three features in two layers to begin</i><br>
+                        <i>- Two features in one layer as a result</i>
+                      </li>
+                      <li style="margin-top: 13px;">Similar to logical <b>AND</b></li>      
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">Intersect (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/intersect.htm">ArcGIS Pro Help</a>.Calculating percentage of overlap of two layers in QGIS 3. <a href="https://gis.stackexchange.com/questions/339929/calculating-percentage-of-overlap-of-two-layers-in-qgis-3">GIS StackExchange</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Union of Two Vector Layers</div>
+                  <div>
+                    <ul style="font-size: 60%;">
+                      <li style="margin-top: 13px;">All geometries and attributes preserved<br>
+                        <i>- FID's are labelled according to layer names</i><br>
+                        <i>- All features are of original size or smaller (never larger)</i>
+                      </li>
+                      <li style="margin-top: 13px;"><b>Ratio</b> (ArcGIS) or <b>Overlap</b> (QGIS) analysis<br>
+                        <i>- Attributes calculated as percentage of original area for each new polygon</i><br>
+                        <img src ="../common/assets/images/ArcGISUnion-web.gif">
+                      </li>
+                      <li>Two rectangles in one layer and one circle in second layer<br>
+                        <i>- Three features in two layers to begin</i><br>
+                        <i>- Five features in one layer as a result</i>
+                      </li>
+                      <li style="margin-top: 13px;">Similar to logical <b>OR</b></li>      
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">Union (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/union.htm">ArcGIS Pro Help</a>.<br>Overlay. <a href="http://wiki.gis.com/wiki/index.php/Overlay">wiki.GIS.com</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Erase (Subtract) of Two Vector Layers</div>
+                  <div>
+                    <ul style="font-size: 60%;">
+                      <li style="margin-top: 13px;">Only geometries and attributes from input preserved<br>
+                        <i>- All features are of original size or smaller (never larger)</i>
+                      </li>
+                      <li style="margin-top: 13px;"><b>Ratio</b> (ArcGIS) or <b>Overlap</b> (QGIS) analysis<br>
+                        <i>- Attributes calculated as percentage of original area for each new polygon</i><br>
+                        <img src ="../common/assets/images/ArcGISErase-web.gif">
+                      </li>
+                      <li>Four polygons one layer and one square in second layer<br>
+                        <i>- Five features in two layers to begin</i><br>
+                        <i>- Four features in one layer as a result (with multipart)</i>
+                      </li>
+                      <li style="margin-top: 13px;">Similar to logical <b>AND NOT</b></li>      
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">Erase (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/erase.htm">ArcGIS Pro Help</a>.</div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Less common Operations on Two Vector Layers</div>
+                  <div style="max-width: 90%; margin: 0px auto; display: inline-block;">
+                    <div style="max-width: 70%; float: left;">
+                      <ul style="font-size: 60%;">
+                        <li style="margin-top: 13px;">Symmetric Difference<br>
+                          <i>- All geometries and attributes that do not co-exist are preserved</i><br>
+                          <i>- Similar to logical <b>XOR</b></i><br>
+                          <i>- (A union B) subtract (A intersect B)</i>
+                        </li>
+                        <li style="margin-top: 35px;">Identity<br>
+                          <i>- Extent of input with geometry and attributes from both layers merged</i><br>
+                          <i>- (A subtract B) union (A intersect B)</i>
+                        </li>
+                        <li style="margin-top: 65px;">Cover or Update<br>
+                          <i>- Similar to union in extent, but only preserves input geometry and attributes if feature not in update, otherwise copies update attributes to new geometry</i><br>
+                          <i>- A union (B subtract A)</i>
+                        </li>   
+                      </ul>
+                    </div>
+                    <div style="float: right;">
+                      <img src="../common/assets/images/ArcMapSD-web.gif" style="max-height: 120px;"><br>
+                      <img src="../common/assets/images/ArcGISIdentity-web.gif" style="max-height: 140px;"><br>
+                      <img src="../common/assets/images/ArcGISUpdate-web.gif" style="max-height: 140px;">
+                    </div>
+                  </div>
+                  <div class="template-citation">Overlay. <a href="http://wiki.gis.com/wiki/index.php/Overlay">wiki.GIS.com</a><br>Identity (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/identity.htm">ArcGIS Pro Help.</a><br>Update (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/update.htm">ArGIS Pro Help</a><br>Symmetrical Difference. <a href="https://desktop.arcgis.com/en/arcmap/10.3/tools/analysis-toolbox/symmetrical-difference.htm">ArcMap Help</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Clip Vector with Vector (crop)</div>
+                  <div>
+                    <ul style="font-size: 60%;">
+                      <li style="margin-top: 13px;">Only geometries and attributes from input preserved<br>
+                        <i>- All features are of original size or smaller (never larger)</i>
+                      </li>
+                      <li style="margin-top: 13px;">Both input and clip features can be points lines or polygons<br>
+                        <i>- Be careful of unexpected results</i><br>
+                        <img src ="../common/assets/images/ArcGISClip-web.png">
+                      </li>
+                      <li>Four polygons and two points in one layer and one circle in clip layer<br>
+                        <i>- Seven features in two layers to begin</i><br>
+                        <i>- Four features in one layer as a result (with multi geometries)</i>
+                      </li>     
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">Clipping line layer based on polygons with QGIS? <a href="https://gis.stackexchange.com/questions/78835/clipping-line-layer-based-on-polygons-with-qgis">GIS StackExchange</a>.<br>Clip (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/clip.htm">ArcGIS Pro Help</a>.</div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Clip Raster with Vector</div>
+                  <div>
+                    <ul style="font-size: 60%;">
+                      <li style="margin-top: 13px;">Must use one vector feature to clip
+                      </li>
+                      <li style="margin-top: 13px;">Make sure projections are the same<br>
+                        <i>- It will function across projections, but makes computer work harder</i><br>
+                        <img src ="../common/assets/images/ArcGISClip-web.gif">
+                      </li>
+                      <li>Does not have to be rectangle<br>
+                        <i>- Hence not "crop"</i><br>
+                        <img src="../common/assets/images/QGISClip.png" style="margin-top: -100px; margin-left: 320px;"></li>      
+                    </ul>
+                  </div>
+                  <div class="template-citation">Clip Raster (Data Management). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/clip.htm">ArcGIS Pro Help</a>.<br>Clipping raster with vector boundaries using QGIS. <a href="https://gis.stackexchange.com/questions/10117/clipping-raster-with-vector-boundaries-using-qgis">GIS StackExchange</a>.</div>
+                </section>
+
+              </section> 
 
               <section>
 

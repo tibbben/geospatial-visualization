@@ -25,15 +25,16 @@
               </section>
 
               <section data-transition="fade">
-                <div class="template-title">UM GIS Day</div>
-                <div style="max-width: 90%; margin: 0px auto; display: inline-block;">
-                  <ul style="font-size: 90%; margin: 23px 0px 120px 0px;">
-                    <li style="margin: 23px 0px 0px 0px;">Wednesday November 15th 1-5 p.m.
-                      <ul style="font-size: 80%;">
-                        <li style="margin-top: 13px;">Theme: Geography and Urban Justice</li>
-                        <li style="margin-top: 13px;">Place: Richter Library 3rd Floor Conference Room</li>
-                        <li style="margin-top: 13px;">Join: Student Poster and Storymap Competition
-                        <li style="margin-top: 13px;"><a href="https://sp.library.miami.edu/subjects/gis#tab-1">Learn More and Submit your Map</a>
+                <div class="template-title" style="margin-bottom: 126px;">UM GIS Day<br><span style="font-size: 0.9em;">Wednesday November 13th 1:30-5 p.m.</span></div>
+                <div style="max-width: 90%; margin: 42px auto; display: inline-block;">
+                  <ul style="font-size: 80%;">
+                    <li style="margin-top: 13px;">Theme: Mapping Minds, Shaping the World</li>
+                    <li style="margin-top: 13px;">Place: Richter Library 3rd Floor Conference Room</li>
+                    <li style="margin-top: 13px;">Join: Student Digital Poster and Storymap Competition
+                      <ul style="font-size: 0.9em;">
+                        <li style="margin-top: 13px;">Submisstions: <a href="https://geography.as.miami.edu/events/gisday/workshops/index.html">https://geography.as.miami.edu/events/gisday/workshops/</a>
+                        </li>
+                        <li style="margin-top: 13px;">Deadline November 8th</a>
                         </li>
                       </ul>
                     </li>
@@ -46,15 +47,15 @@
                 <div class="template-title">Today's Outline</div>
                 <div style="max-width: 90%; margin: 0px auto; display: inline-block;">
                   <ul style="font-size: 90%;">
-                    <li style="margin-top: 13px;">Raster Follow-up (from <a href="https://tibbben.github.io/geospatial-visualization/slides/slides100.html#/">week 10</a>, especially <a href="https://tibbben.github.io/geospatial-visualization/slides/slides100.html#/5">resampling</a> and <a href="https://tibbben.github.io/geospatial-visualization/slides/slides100.html#/6">raster math</a>)<br>
-                    </li>
-                    <li style="margin-top: 13px;">Student Presentations from Field</li>
                     <li style="margin-top: 13px;">Environmental/Social Justice and GIS<br>
                       <ul style="list-style-type: '- '; font-style: italic; font-size: 90%;">
                         <li>Dr. Abigail Fleming</li>
                         <li>University of Miami Environmental Justice Clinic, School of Law</li>
                       </ul>
                     </li>
+                    <li style="margin-top: 13px;">Spatial Joins Follow-up<br><span style="font-size: 0.8em;">(from <a href="https://tibbben.github.io/geospatial-visualization/slides/slides080.html#/">week 8</a>, especially <a href="https://tibbben.github.io/geospatial-visualization/slides/slides080.html#/7/1">Spatial Joins - TRI Sites to Census Tracts</a>, <a href="https://tibbben.github.io/geospatial-visualization/slides/slides080.html#/7/2">Census Tracts to TRI Sites</a> and <a href="https://tibbben.github.io/geospatial-visualization/slides/slides080.html#/7/3">Extract Elevation to Trees</a>)</span>
+                    </li>
+                    <li style="margin-top: 13px;">Student Presentations from Field</li>
                     <li style="margin-top: 13px;">Structured Query Language (SQL)<br>
                       <ul style="list-style-type: '- '; font-style: italic; font-size: 90%;">
                         <li>Relational Database Management Systems (RDBMS)</li>
@@ -62,10 +63,10 @@
                         <li>Select, Transform, Save</li>
                       </ul>
                     </li>
-                    <li style="margin-top: 13px; color: #666">Overlay Tools<br>
+                    <li style="margin-top: 13px; color: #666">Web Mapping (if time permits)<br>
                       <ul style="list-style-type: '- '; font-style: italic; font-size: 90%;">
-                        <li>Vector layer overlays</li>
-                        <li>Clipping</li>
+                        <li>Storymaps</li>
+                        <li>Leaflet</li>
                       </ul>
                     </li>
                   </ul>
@@ -169,175 +170,64 @@
                   <pre class="fragment" style="position: absolute; top: 380px; right: 50px; font-size: 0.6em; font-family: arial; background-color: #fff; padding: 13px; width: 320px;">TROP STORM WATCH, 1<br>HURRICANE WATCH, 1<br>TROP STORM WARNING, 1<br>HURRICANE WARNING, 2</pre>
                 </section>
 
+                <section>
+                  <a href="https://blog.cleverelephant.ca/2019/07/postgis-overlays.html">https://blog.cleverelephant.ca/2019/07/postgis-overlays.html</a>
+                </section>
+
               </section>
 
-              <section>
+            <section>
 
-                <section data-transition="fade">
-                  <div class="template-title">Vector Data Overlays</div>
-                  <div style="max-width: 80%; margin: 0px auto; display: inline-block;">
-                    <div style="float:left; margin-right: 120px;">
-                      <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
-                        <li style="margin: 23px 0px 0px 0px;">Data Structures: Connection and Transformation
-                          <ul style="font-size: 80%;">
-                            <li style="margin-top: 13px;">Overlay tools<br>
-                              <ul style="list-style-type: '- '; margin-left: -1em; font-style: italic">
-                                <li><b>Intersect</b></li>
-                                <li><b>Union</b></li>
-                                <li><b>Subtract</b></li>
-                                <li style="margin-top: 13px;">Symmetric Difference</li>
-                                <li>Identity</li>
-                                <li>Cover</li>
-                              </ul>
-                            </li>
-                            <li style="margin-top: 13px;"><b>Clipping</b><br>
-                              <i>- Sub-setting data with polygons</i><br>
-                              <i>- Raster or vector</i>
-                            </li>
-                          </ul>
-                        </li>
+              <section data-transition="fade">
+                <div class="template-title">Online Mapping</div>
+                <div>
+                  <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                    <li style="margin: 23px 0px 0px 0px;">Story Maps
+                      <ul style="font-size: 80%;">
+                        <li>ESRI Storymaps - <a href="https://www.arcgis.com/apps/Cascade/index.html?appid=6984ffb035ed40b8b11e23f41236aac2" target="_blank">New York Taxicab Terrain</a></li> 
+                        <li>Knightlabs - <a href="https://storymap.knightlab.com/examples/aryas-journey/" target="_blank">Game of Thrones</a></li>
                       </ul>
-                    </div>
-                    <div style="float: right;">
-                      <img src="../common/assets/images/Overlay_wikiGIS.png" style="max-height: 600px;">
-                    </div>
-                  </div>
-                  <div class="template-citation" style="margin-top: -42px !important;">image credit: Overlay. <a href="http://wiki.gis.com/wiki/index.php/Overlay">wiki.GIS.com</a></div>
-                </section>
-
-                <section data-transition="fade">
-                  <div class="template-title">Intersection of Two Vector Layers</div>
-                  <div>
-                    <ul style="font-size: 60%;">
-                      <li style="margin-top: 13px;">Only geometries and attributes that overlap are preserved<br>
-                        <i>- Attributes from both layers copied to new feature</i><br>
-                        <i>- Output geometry is lowest dimension of input geometries</i>
-                      </li>
-                      <li style="margin-top: 13px;"><b>Ratio</b> (ArcGIS) or <b>Overlap</b> (QGIS) analysis<br>
-                        <i>- Attributes calculated as percentage of original area for each new polygon</i><br>
-                        <img src ="../common/assets/images/ArcGISIntersect-web.gif">
-                      </li>
-                      <li>Two rectangles in one layer and one circle in second layer<br>
-                        <i>- Three features in two layers to begin</i><br>
-                        <i>- Two features in one layer as a result</i>
-                      </li>
-                      <li style="margin-top: 13px;">Similar to logical <b>AND</b></li>      
-                    </ul>
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;">Intersect (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/intersect.htm">ArcGIS Pro Help</a>.Calculating percentage of overlap of two layers in QGIS 3. <a href="https://gis.stackexchange.com/questions/339929/calculating-percentage-of-overlap-of-two-layers-in-qgis-3">GIS StackExchange</a></div>
-                </section>
-
-                <section data-transition="fade">
-                  <div class="template-title">Union of Two Vector Layers</div>
-                  <div>
-                    <ul style="font-size: 60%;">
-                      <li style="margin-top: 13px;">All geometries and attributes preserved<br>
-                        <i>- FID's are labelled according to layer names</i><br>
-                        <i>- All features are of original size or smaller (never larger)</i>
-                      </li>
-                      <li style="margin-top: 13px;"><b>Ratio</b> (ArcGIS) or <b>Overlap</b> (QGIS) analysis<br>
-                        <i>- Attributes calculated as percentage of original area for each new polygon</i><br>
-                        <img src ="../common/assets/images/ArcGISUnion-web.gif">
-                      </li>
-                      <li>Two rectangles in one layer and one circle in second layer<br>
-                        <i>- Three features in two layers to begin</i><br>
-                        <i>- Five features in one layer as a result</i>
-                      </li>
-                      <li style="margin-top: 13px;">Similar to logical <b>OR</b></li>      
-                    </ul>
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;">Union (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/union.htm">ArcGIS Pro Help</a>.<br>Overlay. <a href="http://wiki.gis.com/wiki/index.php/Overlay">wiki.GIS.com</a></div>
-                </section>
-
-                <section data-transition="fade">
-                  <div class="template-title">Erase (Subtract) of Two Vector Layers</div>
-                  <div>
-                    <ul style="font-size: 60%;">
-                      <li style="margin-top: 13px;">Only geometries and attributes from input preserved<br>
-                        <i>- All features are of original size or smaller (never larger)</i>
-                      </li>
-                      <li style="margin-top: 13px;"><b>Ratio</b> (ArcGIS) or <b>Overlap</b> (QGIS) analysis<br>
-                        <i>- Attributes calculated as percentage of original area for each new polygon</i><br>
-                        <img src ="../common/assets/images/ArcGISErase-web.gif">
-                      </li>
-                      <li>Four polygons one layer and one square in second layer<br>
-                        <i>- Five features in two layers to begin</i><br>
-                        <i>- Four features in one layer as a result (with multipart)</i>
-                      </li>
-                      <li style="margin-top: 13px;">Similar to logical <b>AND NOT</b></li>      
-                    </ul>
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;">Erase (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/erase.htm">ArcGIS Pro Help</a>.</div>
-                </section>
-
-                <section data-transition="fade">
-                  <div class="template-title">Less common Operations on Two Vector Layers</div>
-                  <div style="max-width: 90%; margin: 0px auto; display: inline-block;">
-                    <div style="max-width: 70%; float: left;">
-                      <ul style="font-size: 60%;">
-                        <li style="margin-top: 13px;">Symmetric Difference<br>
-                          <i>- All geometries and attributes that do not co-exist are preserved</i><br>
-                          <i>- Similar to logical <b>XOR</b></i><br>
-                          <i>- (A union B) subtract (A intersect B)</i>
-                        </li>
-                        <li style="margin-top: 35px;">Identity<br>
-                          <i>- Extent of input with geometry and attributes from both layers merged</i><br>
-                          <i>- (A subtract B) union (A intersect B)</i>
-                        </li>
-                        <li style="margin-top: 65px;">Cover or Update<br>
-                          <i>- Similar to union in extent, but only preserves input geometry and attributes if feature not in update, otherwise copies update attributes to new geometry</i><br>
-                          <i>- A union (B subtract A)</i>
-                        </li>   
+                    </li>
+                    <li style="margin: 23px 0px 0px 0px;">Mashups
+                      <ul style="font-size: 80%;">
+                        <li>MapBox - <a href="https://www.latimes.com/wildfires-map/" target="_blank">LA Times California Fires</a></li>
+                        <li>Leaflet - <a href="https://cdhuayhuash.org/mapas" target="_blank">Cordillera Huayhuash</a></li>
                       </ul>
-                    </div>
-                    <div style="float: right;">
-                      <img src="../common/assets/images/ArcMapSD-web.gif" style="max-height: 120px;"><br>
-                      <img src="../common/assets/images/ArcGISIdentity-web.gif" style="max-height: 140px;"><br>
-                      <img src="../common/assets/images/ArcGISUpdate-web.gif" style="max-height: 140px;">
-                    </div>
-                  </div>
-                  <div class="template-citation">Overlay. <a href="http://wiki.gis.com/wiki/index.php/Overlay">wiki.GIS.com</a><br>Identity (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/identity.htm">ArcGIS Pro Help.</a><br>Update (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/update.htm">ArGIS Pro Help</a><br>Symmetrical Difference. <a href="https://desktop.arcgis.com/en/arcmap/10.3/tools/analysis-toolbox/symmetrical-difference.htm">ArcMap Help</a></div>
-                </section>
+                    </li>
+                  <li style="margin: 23px 0px 0px 0px;">Web Applications
+                      <ul style="font-size: 80%;">
+                        <li>ESRI - <a href="http://scholar.library.miami.edu/hometownmaps/" target="_blank">Hometown Maps</a></li>
+                        <li>Leaflet - <a href="https://map.idsc.miami.edu/disclaimer" target="_blank">MAP</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="template-citation" style="margin-top: 42px !important;"></div>
+              </section>
 
-                <section data-transition="fade">
-                  <div class="template-title">Clip Vector with Vector (crop)</div>
-                  <div>
-                    <ul style="font-size: 60%;">
-                      <li style="margin-top: 13px;">Only geometries and attributes from input preserved<br>
-                        <i>- All features are of original size or smaller (never larger)</i>
-                      </li>
-                      <li style="margin-top: 13px;">Both input and clip features can be points lines or polygons<br>
-                        <i>- Be careful of unexpected results</i><br>
-                        <img src ="../common/assets/images/ArcGISClip-web.png">
-                      </li>
-                      <li>Four polygons and two points in one layer and one circle in clip layer<br>
-                        <i>- Seven features in two layers to begin</i><br>
-                        <i>- Four features in one layer as a result (with multi geometries)</i>
-                      </li>     
-                    </ul>
-                  </div>
-                  <div class="template-citation" style="margin-top: 42px !important;">Clipping line layer based on polygons with QGIS? <a href="https://gis.stackexchange.com/questions/78835/clipping-line-layer-based-on-polygons-with-qgis">GIS StackExchange</a>.<br>Clip (Analysis). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/clip.htm">ArcGIS Pro Help</a>.</div>
-                </section>
+              <section data-transition="fade">
+                <div class="template-title">Basemaps for Online Mapping</div>
+                <div>
+                  <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                    <li style="margin: 23px 0px 0px 0px;"><a href="https://www.mapbox.com/gallery/" target="_blank">Mapbox Gallery</a></li>
+                    <li style="margin: 23px 0px 0px 0px;"><a href="https://wiki.openstreetmap.org/wiki/Tile_servers" target="_blank">Open Street Map Gallery</a></li>
+                  </ul>
+                </div>
+                <div class="template-citation" style="margin-top: 42px !important;"></div>
+              </section>
 
-                <section data-transition="fade">
-                  <div class="template-title">Clip Raster with Vector</div>
-                  <div>
-                    <ul style="font-size: 60%;">
-                      <li style="margin-top: 13px;">Must use one vector feature to clip
-                      </li>
-                      <li style="margin-top: 13px;">Make sure projections are the same<br>
-                        <i>- It will function across projections, but makes computer work harder</i><br>
-                        <img src ="../common/assets/images/ArcGISClip-web.gif">
-                      </li>
-                      <li>Does not have to be rectangle<br>
-                        <i>- Hence not "crop"</i><br>
-                        <img src="../common/assets/images/QGISClip.png" style="margin-top: -100px; margin-left: 320px;"></li>      
-                    </ul>
-                  </div>
-                  <div class="template-citation">Clip Raster (Data Management). <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/clip.htm">ArcGIS Pro Help</a>.<br>Clipping raster with vector boundaries using QGIS. <a href="https://gis.stackexchange.com/questions/10117/clipping-raster-with-vector-boundaries-using-qgis">GIS StackExchange</a>.</div>
-                </section>
+              <section data-transition="fade">
+                <div class="template-title">Exercises</div>
+                <div>
+                  <ul style="font-size: 80%; margin: 23px 0px 0px 0px;">
+                    <li style="margin: 23px 0px 0px 0px;"><a href="https://storymaps.arcgis.com/stories/cea22a609a1d4cccb8d54c650b595bc4" target="_blank">Create an ESRI Storymap</a></li>
+                    <li style="margin: 23px 0px 0px 0px;"><a href="https://leafletjs.com/examples/quick-start/" target="_blank">Create a Leaflet Map</a></li>
+                  </ul>
+                </div>
+                <div class="template-citation" style="margin-top: 42px !important;"></div>
+              </section>
 
-              </section> 
+            </section>
 
             </div>
         </div>

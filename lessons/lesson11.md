@@ -10,27 +10,21 @@ total time 150 minutes.
    -   Nov 14 deadline for meetings with us
    -   GIS Day
 
-2.   More on rasters (2:10 - 25 min)
-   -   quickly review week 10 slides
-   -   slow down at resampling from week 10 slides
+2.   Abigail Flemming (2:10pm - 60 min)
+
+3.   Break (3:10 - 5 min)
+
+4.   Review of Joins (3:15 - 25 min)
+   -   quickly review week 8 slides
    -   questions from homework
 
-3.   Student presentations (2:35 - 20 min)
+5.   Student presentations (3:40 - 20 min)
 
-4.   Break (2:55 - 5 min)
+6.   Break (4:00 pm - 5 min)
 
-2.   Abigail Flemming (3:0 0pm - 60 min)
+7.   SQL (4:05 pm - 15 min)
 
-3.   Break (4:00 pm - 5 min)
-
-5.   SQL (4:05 pm - 15 min)
-
-4.   Vector Relationships, Structures, and Tools (3:10 pm - 30 min)
-   -   Overlays
-      - pay attention to attributes!!
-   -   Clipping
-
-6.   SQL demonstration (4:15 pm - 30 min)
+8.   SQL demonstration (4:15 pm - 30 min)
    -   intersection of features
       -   https://blog.cleverelephant.ca/2019/07/postgis-overlays.html
    -   estimated population impact of 100 year flood (see below)
@@ -84,6 +78,6 @@ WHERE ST_Intersects(dade_tracts.geom, fz100.geom)
 DROP TABLE fz100;
 DROP TABLE dade_tracts;
 DROP TABLE tract_prop_est;
-DROP TABLE tracts_fz100_intersects;
+DROP TABLE tracts_fz100_intersect;
 
 

@@ -417,7 +417,7 @@ We are pleased to welcome Abigail Flemming, associate director of the University
 
 Through the assigned readings we will explore how map images tell stories of urban sustainability and resilience with beginning, middle, and end, and how maps provide indices to elements of the story. Consider the relationships between map and space, map and place, and map and territory; how does one create the other and vice-versa. Consider how maps are a part of broader social contexts and how they cannot stand alone. A picture may be worth a thousand words, but a thousand words plus a picture (map) is worth a lot more. 
 
-We will also spend time reviewing relationships between vector and raster data (interpolation) and how to create final map layouts in both ArcGIS Pro and QGIS.
+We will also spend time reviewing relationships between vector and raster data (overlays and interpolation).
 
 [//]: # (emphasize sustainability and resilience more? On the other hand, shorten and make more about drone surveys, point clouds, and the process of getting a drone survey into a GIS)
 
@@ -432,7 +432,6 @@ We will also spend time reviewing relationships between vector and raster data (
 > Practical Objectives
 
 [//]: # (-   Complete online story map)
--   Complete layout for printed map with all map elements
 -   Critique static maps for storytelling effectiveness
 -   Refine stories for final project presentations  
 -   Complete an interpolation exercise (point data to raster data conversion)
