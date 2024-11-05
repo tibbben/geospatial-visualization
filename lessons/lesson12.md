@@ -27,7 +27,7 @@ total time 150 minutes.
 6.   Overlays and Interpolation with exercise (3:20 pm - 40 min)
    -   remember to use the slides120_sampleHWpresentation01 slides for interpolation
    -   heat maps slides120_sampleHWpresentation02 if there is time
-   -   Send screenshot of difference map as Extra Credit (1 point)
+   -   Send screenshot of difference map and a one sentence interpretation as Extra Credit (1 point)
 
 7.   Break (4:00 pm - 5 min)
 
