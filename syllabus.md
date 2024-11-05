@@ -444,7 +444,7 @@ We will also spend time reviewing relationships between vector and raster data (
 >  Assignments:
 
 -   Continue to refine story ideas for final project
--   Schedule meeting with one of the instructors on or before Friday November 17th  
+-   Schedule meeting with one of the instructors on or before Friday November 14th  
 
 >  [slide deck](slides/slides120.html){:target="\_blank"}  
 >  [HW example #1](slides/slides120_sampleHWpresentation01.html){:target="\_blank"}  

@@ -25,19 +25,168 @@
               </section>
 
               <section data-transition="fade">
+                <div class="template-title" style="margin-bottom: 126px;">UM GIS Day<br><span style="font-size: 0.9em;">Wednesday November 13th 1:30-5 p.m.</span></div>
+                <div style="max-width: 90%; margin: 42px auto; display: inline-block;">
+                  <ul style="font-size: 80%;">
+                    <li style="margin-top: 13px;">Theme: Mapping Minds, Shaping the World</li>
+                    <li style="margin-top: 13px;">Place: Richter Library 3rd Floor Conference Room</li>
+                    <li style="margin-top: 13px;">Join: Student Digital Poster and Storymap Competition
+                      <ul style="font-size: 0.9em;">
+                        <li style="margin-top: 13px;">Submisstions: <a href="https://geography.as.miami.edu/events/gisday/workshops/index.html">https://geography.as.miami.edu/events/gisday/workshops/</a>
+                        </li>
+                        <li style="margin-top: 13px;"><em><strong>Deadline November 8th</strong></em></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="template-citation" style="margin-top: -42px !important;"></div>
+              </section>
+
+              <section data-transition="fade">
                 <div class="template-title">Today's Goals</div>
                 <div>
                   <ol type="a" style="font-size: 0.85em;">
-                    <li style="margin: 13px 0px 0px 0px;">Overlays and Interpolation</li>
-                    <!--<li style="margin: 13px 0px 0px 0px;">Interpolation (overview and exercise)</li>-->
+                    <li style="margin: 13px 0px 0px 0px;">Vector Analysis and Layout Export (review)</li>
                     <li style="margin: 13px 0px 0px 0px;">Field Presentations</li>
+                    <li style="margin: 13px 0px 0px 0px;">Overlays and Interpolation Overview and Exercise</li>
                     <li style="margin: 13px 0px 0px 0px;">Little River Critique and Review</li>
-                    <li>In class time to work on projects</li>
+                    <!-- <li style="margin: 13px 0px 0px 0px;">In class time to work on projects</li> -->
                     <!--<li style="margin: 13px 0px 0px 0px;">Extra Credit Exercise (review)</li>
                     <li style="margin: 13px 0px 0px 0px;">Map Layout with Locator Map (review)</li>-->
                   </ol>
                 </div>
                 <div class="template-citation" style="margin-top: 42px !important;"></div>
+              </section>
+
+              <section>
+
+                <section>
+                  <div class="template-title">So Many Tools ....</div>
+                  <div>
+                      <a href="https://gisgeography.com/spatial-analysis-periodic-table/" target="_blank">!CLICK ME!</a>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Vector Analysis</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Vector Operations (one layer)<br><span style="font-style: italic;"><strong>Buffer and Dissolve</strong></span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Vector Operations (two layers)<br><span style="font-style: italic;"><em>Spatial Join</em></span></li>
+                      <li style="margin: 13px 0px 0px 0px;">Attribute Statistics & Aggregation</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">One Layer Vector Operations</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">Buffer</li>
+                      <li style="margin: 13px 0px 0px 0px;">Dissolve</li>
+                      <li style="margin: 13px 0px 0px 0px;">Transformations (vector to raster)</li>
+                      <li style="margin: 13px 0px 0px 0px; color: #999;">Convex Hull</li>
+                      <li style="margin: 13px 0px 0px 0px; color: #999;">Centroids</li>
+                      <li style="margin: 13px 0px 0px 0px; color: #999;">Transformations (polygon to line or vice versa)</li>
+                      <li style="margin: 13px 0px 0px 0px; color: #999;">Voroni Polygons (fill plane from points)</li>
+                    </ul>
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;"></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">One Layer Vector Operations - Buffer</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">ring buffer (one radius)</li>
+                      <li style="margin: 13px 0px 0px 0px;">multiple-ring buffer (several radii)</li>
+                    </ul>
+                    <img src="../common/assets/images/buffer.jpg" style="width: 800px">
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html">https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">More Buffers</div>
+                  <div style="margin-top: -30px; width: 100%; display: inline-block;">
+                      <div style="margin: 0px auto; width: 65%">
+                        <div style="float:left; font-size: 0.7em; margin-top: 80px;">
+                            <ol type="a" style="font-size: 0.85em;">
+                              <li style="margin: 13px 0px 0px 0px;">variable width</li>
+                              <li style="margin: 13px 0px 0px 0px;">multiple ring</li>
+                              <li style="margin: 13px 0px 0px 0px;">doughnut</li>
+                              <li style="margin: 13px 0px 0px 0px;">setback</li>
+                              <li style="margin: 13px 0px 0px 0px;">non-dissolved</li>
+                              <li style="margin: 13px 0px 0px 0px;">dissolved</li>
+                            </ol>
+                        </div>
+                        <div style="float:left; margin-left: 92px;">
+                            <img src="../common/assets/images/more_buffers.jpg" style="max-width: 500px; margin: 0px;">
+                        </div>
+                      </div>
+                  </div>
+
+                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html">https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-geospatial-analysis-i-vector-o.html</a></div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">One Layer Vector Operations - Dissolve</div>
+                  <div>
+                    <ul style="font-size: 0.85em;">
+                      <li style="margin: 13px 0px 0px 0px;">combines features based on attribute</li>
+                      <li style="margin: 13px 0px 0px 0px;">useful for data aggregation</li>
+                      <li style="margin: 13px 0px 0px 0px;">useful for cartography
+                        <ul style="font-size: 0.85em;">
+                          <li style="margin: 13px 0px 0px 0px;">multiple line segments with same label (roads)</li>
+                          <li style="margin: 13px 0px 0px 0px;">remove duplicate polygon labels for area</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <img src="../common/assets/images/dissolve.png" style="width: 800px">
+                  </div>
+                  <div class="template-citation" style="margin-top: 42px !important;">image from: <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/dissolve.htm">https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/dissolve.htm</a></div>
+                </section>
+
+              </section>
+
+              <section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Dissolve Exercise - Create Simple Basemap</div>
+                  <div>
+                    <p style="font-size: 0.85em;">Dissolve Miami-Dade Streets layer</p>
+                    <ul style="font-size: .65em;">
+                        <li>Create project folder and start new project</li>
+                        <li>From the Box folder download Streets.zip and Water_P.zip; unzip into the project data folder</li>
+                        <li>Add both layers to your project and put streets on top of water</li>
+                        <li>Symbolize streets as unique values based on CLASS (0-1 freeways, 2-4 main roads, 5-9 streets)</li>
+                        <li>Label streets as with classes for CLASS (use SQL to select certain streets and label)</li>
+                        <li>Use the Dissolve Tool to dissolve streets on PRE_DIR, ST_NAME, ST_TYPE, SUF_DIR, CLASS</li>
+                        <li>Import symbology from Streets to new dissolve layer</li>
+                        <li>Explore differences .. </li>
+                    </ul>
+                  </div>
+                </section>
+
+                <section data-transition="fade">
+                  <div class="template-title">Dissolve Exercise - Export to aix file and open in Illustrator</div>
+                  <div>
+                    <p style="font-size: 0.85em;">Create Layout and Refine</p>
+                    <ul style="font-size: .65em;">
+                        <li>Create layout zoomed in to Miami River</li>
+                        <li>Set position and scale of map by numbers</li>
+                        <li>Add scale and north arrow</li>
+                        <li>Symbolize the Water_P layer to have a thin blue stroke, zoom in to check</li>
+                        <li>Export layout as aix</li>
+                        <li>With the <a href="https://doc.arcgis.com/en/maps-for-adobecc/latest/install/install.htm">Maps for Adobe Creative Cloud</a> plugin installed <em><strong>and</strong></em> the correct version of Illustrator ... </li>
+                        <li>Open the aix file in Illustrator</li>
+                        <li>Explore the layers</li>
+                    </ul>
+                  </div>
+                </section>
+
               </section>
 
               <section>
@@ -235,71 +384,7 @@
                     </ul>
                   </div>
                   <div class="template-citation" style="margin-top: 42px !important;"></div>
-                </section>
-
-                <section>
-                    <div style="font-size: 130%; line-height: 100%; margin-bottom: 42px;"><strong>Continuous surface maps<br><span style="font-size: 0.8em">Technique for mapping gradually changing phenomena</span></strong></div>
-                    <div style="font-size: 90%; margin-bottom: 42px;">ARC 594/694 Fall <script>var today = new Date();document.write(today.getFullYear());</script></div>
-                    <div style="font-size: 50%;">Dr. Timothy Norris - <a href="mailto:tnorris@miami.edu" style="color: #222 !important; text-decoration: underline;">tnorris@miami.edu</a><br>Adapted from Field (2017) <i>Cartography</i>. Redlands, ESRI Press.  pp. 74-75.</div>
-                </section>
-
-                <section>
-                    <div style="font-size: 80%; max-width: 80%; margin: 0px auto 0px auto !important;">
-                        <h3>Mapping continuous surfaces</h3>
-                        <ul style="margin-bottom: 42px;">
-                            <li style="margin-bottom: 7px;">For data without discreet boundaries</li>
-                            <li style="margin-bottom: 7px;">Often data is collected at points and then <b>Interpolated</b></li>
-                            <li style="margin-bottom: 7px;">Interpolation from point data to continuous a raster surface requires statistics</li>
-                            <li>Continuous surfaces representing phenomena and heat maps representing density are not the same</li>
-                        </ul>
-                    </div>
                 </section>  
-
-                <section>
-                    <img src="../common/assets/images/interpolation.jpg" style="max-width: 1000px;">
-                    <div style="width: 100%; font-size: 0.7em;">
-                        <div style="width: 45%; float: left;">
-                            <ul>
-                                <li>point data</li>
-                                <li>polynomial surface</li>
-                                <li>trend surface</li>
-                                <li>universal kriging</li>
-                            </ul>
-                        </div>
-                        <div style="width: 45%; float: left;">
-                            <ul>
-                                <li>kernel density</li>
-                                <li>inverse distance weighted (IDW)</li>
-                                <li>spline interpolator</li>
-                                <li>bayensian kriging</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div style="position: absolute; top: 100px; left: 0px; width: 100%" class="fragment" data-fragment-index="1">
-                        <div style="margin: 0px auto;"><img src="../common/assets/images/hot-spot.jpg" style="max-width: 300px; margin-bottom: 0px;"><br><p style="margin: 0px auto; font-size: 0.7em; background-color: #fff; max-width: 380px; padding: 7px;">getis-ord gi surface (hot spot)</p></div>
-                    </div>
-                </section>
-
-                <section>
-                    <div style="font-size: 80%; max-width: 100%; margin: 0px auto 0px auto !important;">
-                        <h3>Related Information</h3>
-                        <div style="max-width: 70%; margin: 0px auto 0px auto;">
-                            <img src="../common/assets/images/InterpolateScatteredData.png" style="max-width: 800px; margin-bottom: 0px;"><br>
-                            MatLab Help on Interpolation:<br>
-                                <a href="https://www.mathworks.com/help/matlab/ref/griddata.html">https://www.mathworks.com/help/matlab/ref/griddata.html</a></li>
-                        </div>
-                    </div>
-                </section>      
-
-                <section data-background-image="../common/assets/images/moistureFig3.jpeg" data-background-size="fill">
-                    <div style="font-size: 80%; max-width: 100%; margin: 0px auto 0px auto !important; color: #fff; background-color: rgba(0,0,0,0.6); padding: 23px; border-radius: 13px;" class="fragment fade-out">
-                        <h3 style="color: #fff;">Related Information</h3>
-                        <div style="max-width: 70%; margin: 0px auto 0px auto;">
-                            Water accumulation map:<br>
-                                <a  style="color: #fff;" href="https://nawimaps.com/maps/moisture-model/">https://nawimaps.com/maps/moisture-model/</a></li>
-                        </div>
-                    </div>
-                </section>      
 
               </section>
 
@@ -351,7 +436,7 @@
                         </ul>
                       </li>
                     </ol><br>
-                    <img src="../common/assets/images/idw.jpg" style="max-height: 300px;">
+                    <img src="../common/assets/images/IDW.jpg" style="max-height: 300px;">
                   </div>
                 </section>
 
