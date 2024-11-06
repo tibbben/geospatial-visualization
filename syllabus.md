@@ -524,7 +524,7 @@ Class will be an opportunity for students to present their course work and recei
 -   Demonstrate the use of Jupyter notebooks to visualize 3D point clouds derived from drone surveys
 -   Short presentation on participatory data gathering and auto-documentation in Las Flores, Barranquilla, Colombia
 
-*__FINAL PRESENTATIONS (TBD):__ Students will present their final projects*
+*__FINAL PRESENTATIONS (Dec. 6 - 5:00 to 7:30 pm):__ Students will present their final projects*
 
 Students will have 15 minutes (strict: 10 minutes for presentation, 5 minutes for q/a) to give a formal presentation of their final project as described in the course description above under "Class Project".
 

@@ -282,7 +282,7 @@ The map(s) for the final class project must meet all the same requirements as th
 
 [//]: # (two sets of criteria, one for architects and one for urban design/geography)
 
-> __Final Presentation__ (due during final exam - December 8th at 5:00 pm):  
+> __Final Presentation__ (due during final exam - December 6th at 5:00 pm):  
 
 Students will have 15 minutes (strict: 10 minutes for presentation, 5 minutes for q/a) to give a formal presentation of their class project. This is to be considered as a business presentation to clients.
 
