@@ -272,7 +272,7 @@ As a class project, each student will create at least one map layout and present
 
 The map must have at least two layers of data displayed in a simple overlay analysis (the two layers are not background or base map layers). The map layout must tell a story: this means the layout may use elements such as a title, legend, labels, geographic features, scale, descriptive text, context, locator map, insets, credits, and sources with integrity in a harmonious and holistic presentation to make a spatial argument or to present a spatial vision of past, present or future. The initial sketch of the class project will be due in the week five meeting with a brief presentation (no longer than five minutes)for a critical review by fellow students and instructors. All graduate students enrolled in the full three credit course must also propose an urban sustainability/resilience research question that the project will seek to answer.
 
-> __Final Project__ (due December 8th at 5:00 pm - optional presentation for feedback week 15):
+> __Final Project__ (due December 6th at 5:00 pm - optional presentation for feedback week 15):
 
 [//]: # (needs reconsideration for full semester course, could be in pairs? How many students should we expect?)
 
