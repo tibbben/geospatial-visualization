@@ -14,15 +14,19 @@ total time 150 minutes.
       -   presentation follows written statement format for syllabus
       -   practice!!!! 10 min max with 5 min for questions/discussion
 
-2.   Online Mapping (2:10 pm - 25 min)
+2.   Online Mapping (2:10 pm - 45 min)
+   -   ArcGIS Online StoryMaps - pretty self explanatory
+      -   all maps and data must be in your ArcGIS Online account (but you can use links to other AGOL resources)
+      -   alternatives: see slides ....
+   -   Leaflet: https://leafletjs.com/examples/quick-start/
+      -   dynamic data layer: "leaflet add geojson from url"
+      -   https://stackoverflow.com/questions/66355293/leaflet-how-to-fetch-geojson-from-url-and-pass-it-to-l-geojson
+      -   feature labels on click: "leaflet popup for point feature layer"
+      -   https://gis.stackexchange.com/questions/165008/how-do-i-show-feature-attributes-in-a-leaflet-popup
 
-3.   3D formats and import/export (2:35 pm - 20 min)
+3.   Break (2:55 - 5 min)
 
-4.   Break (2:55 pm - 5 min)
+4.   Participatory Mapping (3:00 pm - 45 min)
 
-6.   Bertrand Presentation (3:00 pm - 45 min)
-
-3.   Break (3:45 pm - 5 min)
-
-7.   Time for work on Projects (3:50 pm - 55 min)
+5.   Time for work on Projects (3:50 pm - 55 min)
 

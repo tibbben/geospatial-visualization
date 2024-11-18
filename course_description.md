@@ -19,7 +19,7 @@ University of Miami Libraries
 Institute for Data Science and Computing  
 Ungar Building, 330F  
 Office Hours: by appointment only (in person and virtual)  
-Book appointment: [outlook bookings](https://outlook.office365.com/owa/calendar/TimothyNorris@miamiedu.onmicrosoft.com/bookings/){:target="\_blank" alt="Outlook bookings page for Tim Norris"}  
+Book appointment: [outlook booking](https://outlook.office365.com/owa/calendar/TimothyNorris@miamiedu.onmicrosoft.com/bookings/){:target="\_blank" alt="Outlook booking page for Tim Norris"}  
 [tnorris@miami.edu](mailto:tnorris@miami.edu)  
 
 Christopher Mader  
@@ -27,7 +27,7 @@ Director of Software Engineering
 Institute for Data Science and Computing  
 Ungar Building, 330F  
 Office Hours: by appointment only (in person and virtual)  
-Book appointment: [https://cmader.youcanbook.me](https://cmader.youcanbook.me){:target="\_blank" alt="you can book me page for Chris Mader"}  
+Book appointment: [outlook booking](https://outlook.office.com/bookwithme/user/c5df2376a54d4797acf2e84c07c0f995%40med.miami.edu/meetingtype/c196c0a0-1e3d-4561-b3ac-05daa78f8c70?anonymous){:target="\_blank" alt="outlook booking page for Chris Mader"}  
 [cmader@med.miami.edu](mailto:cmader@med.miami.edu)  
 
 ---
