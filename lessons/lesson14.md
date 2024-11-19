@@ -5,7 +5,7 @@ Lesson 14
 
 total time 150 minutes. 
 
-1.   Housekeeping (2:00 pm - 10 min)  
+1.   Housekeeping (2:00 pm - 5 min)  
    -   opportunity for feedback on informal presentation next week - not required, just sharing
    -   course evals, please watch for the announcement and give us feedback
    -   final project review/questions (from syllabus)??
@@ -14,7 +14,7 @@ total time 150 minutes.
       -   presentation follows written statement format for syllabus
       -   practice!!!! 10 min max with 5 min for questions/discussion
 
-2.   Online Mapping (2:10 pm - 45 min)
+2.   Online Mapping (2:05 pm - 50 min)
    -   ArcGIS Online StoryMaps - pretty self explanatory
       -   all maps and data must be in your ArcGIS Online account (but you can use links to other AGOL resources)
       -   alternatives: see slides ....
@@ -26,7 +26,11 @@ total time 150 minutes.
 
 3.   Break (2:55 - 5 min)
 
-4.   Participatory Mapping (3:00 pm - 45 min)
+4.   Intermission (3:00 - 15 min)
+   -   two Field decks ...
+   -   maps from 100 maps 
 
-5.   Time for work on Projects (3:50 pm - 55 min)
+5.   Participatory Mapping (3:15 pm - 30 min)
+
+6.   Time for work on Projects (3:45 pm - 60 min)
 
