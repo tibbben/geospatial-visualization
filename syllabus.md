@@ -521,8 +521,7 @@ Class will be an opportunity for students to present their course work and recei
 > Practical Objectives:
 
 -   Finalize projects
--   Demonstrate the use of Jupyter notebooks to visualize 3D point clouds derived from drone surveys
--   Short presentation on participatory data gathering and auto-documentation in Las Flores, Barranquilla, Colombia
+-   Short presentation on participatory mapping and drone surveys
 
 *__FINAL PRESENTATIONS (Dec. 6 - 5:00 to 7:30 pm):__ Students will present their final projects*
 

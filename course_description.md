@@ -236,8 +236,7 @@ Students will be assigned a letter grade (A-F) based on the following:
 | Class Participation | 15% / 15 pts |  
 | Class Project (Initial Sketch) | 10% / 10 pts |  
 | Midterm Exam | 25% / 25 pts |
-| Class Project (Review Presentation) | 15% / 15 pts |  
-| Class Project (Final Presentation) | 10% / 10 pts |  
+| Class Project (Final Presentation) | 25% / 25 pts |  
 | Total | 100% / 100 pts |  
 
 ### Assignments:  
