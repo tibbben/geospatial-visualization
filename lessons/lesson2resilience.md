@@ -7,7 +7,7 @@
    - stop at definition - have them shout out data for resilience mapping 
    - Design with Nature - Ian McHarg
 
-### stop slides switch to capstone
+### stop slides switch to capstone - can use slides as well ... to summarize
 
 2. Review of Capstone Project - 30 min 11:50
    - instructions at: https://new.express.adobe.com/webpage/DWPpvMfYwB5k2
